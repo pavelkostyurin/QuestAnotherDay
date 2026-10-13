@@ -6,6 +6,7 @@ Usage:
     python3 audit_quests.py classic_quests.json addon_quests.lua
     python3 audit_quests.py classic_quests.json addon_quests.lua --faction horde
     python3 audit_quests.py classic_quests.json addon_quests.lua -x dungeon -x raid
+    python3 audit_quests.py classic_quests.json addon_quests.lua --badge-json badge.json
 
 Checks:
   1. Duplicate quest IDs inside the Lua file (text scan).
@@ -19,6 +20,7 @@ import argparse
 import json
 import re
 from collections import Counter
+from pathlib import Path
 
 
 DUPLICATE_DETAILS_LIMIT = 30
@@ -65,6 +67,11 @@ def parse_args():
         default=[],
         help="exclude a quest category; repeat to exclude more than one",
     )
+    parser.add_argument(
+        "--badge-json",
+        metavar="PATH",
+        help="write a Shields endpoint JSON badge with the selected coverage",
+    )
     return parser.parse_args()
 
 
@@ -91,6 +98,48 @@ def select_quests(quests, faction=None, excluded_categories=()):
         if matches_audit_scope(quest, faction, excluded_categories)
         and has_catalog_description(quest)
     ]
+
+
+def coverage_stats(quests, lua_ids, faction=None, excluded_categories=()):
+    """Return (covered, total, percentage) for the selected audit scope."""
+    selected = select_quests(quests, faction, excluded_categories)
+    lua_set = set(lua_ids)
+    covered = sum(quest["id"] in lua_set for quest in selected)
+    total = len(selected)
+    percentage = 100.0 * covered / total if total else 0.0
+    return covered, total, percentage
+
+
+def coverage_badge(covered, total):
+    """Return a Shields endpoint payload for quest coverage."""
+    percentage = 100.0 * covered / total if total else 0.0
+    if percentage >= 90:
+        color = "brightgreen"
+    elif percentage >= 75:
+        color = "green"
+    elif percentage >= 50:
+        color = "yellowgreen"
+    elif percentage >= 25:
+        color = "yellow"
+    else:
+        color = "red"
+
+    return {
+        "schemaVersion": 1,
+        "label": "quest coverage",
+        "message": f"{percentage:.1f}%",
+        "color": color,
+    }
+
+
+def write_coverage_badge(path, covered, total):
+    """Write a Shields endpoint JSON badge to path."""
+    badge_path = Path(path)
+    badge_path.parent.mkdir(parents=True, exist_ok=True)
+    badge_path.write_text(
+        json.dumps(coverage_badge(covered, total), separators=(",", ":")) + "\n",
+        encoding="utf-8",
+    )
 
 
 def format_missing_quest(quest):
@@ -226,8 +275,9 @@ def main():
     print("=" * 60)
     print("4. COVERAGE STATS")
     print("=" * 60)
-    selected_total = len(selected_quests)
-    selected_covered = selected_total - len(missing)
+    selected_covered, selected_total, pct = coverage_stats(
+        quests, lua_ids, args.faction, args.exclude
+    )
     selected_label = (
         f"Described {args.faction.title()} non-PvP"
         if args.faction
@@ -245,10 +295,13 @@ def main():
     print(f"  {f'{selected_label} quests:':<34}{selected_total}")
     print(f"  {f'{selected_label} covered in Lua:':<34}{selected_covered}")
     if selected_total:
-        pct = 100.0 * selected_covered / selected_total
         print(f"  {f'{selected_label} coverage:':<34}{pct:.1f}%")
     print(f"  {'Lua entries total:':<34}{len(lua_entries)}")
     print(f"  {'Unique Lua IDs:':<34}{len(set(lua_ids))}")
+
+    if args.badge_json:
+        write_coverage_badge(args.badge_json, selected_covered, selected_total)
+        print(f"\nWrote quest coverage badge to {args.badge_json}")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,7 @@
 # Quest Another Day
 
 [![Tests](https://github.com/pavelkostyurin/QuestAnotherDay/actions/workflows/tests.yml/badge.svg)](https://github.com/pavelkostyurin/QuestAnotherDay/actions/workflows/tests.yml)
+[![Quest coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpavelkostyurin%2FQuestAnotherDay%2Fmain%2F.github%2Fbadges%2Fquest-coverage.json&style=flat-square)](https://github.com/pavelkostyurin/QuestAnotherDay#development)
 ![Version](https://img.shields.io/badge/version-0.4.1-7c3aed?style=flat-square)
 ![WoW Classic Era](https://img.shields.io/badge/WoW-Classic%20Era-c79c6e?style=flat-square)
 ![Hardcore](https://img.shields.io/badge/mode-Hardcore-b91c1c?style=flat-square)
@@ -101,6 +102,16 @@ nonblank Classic Era objective description with:
 ```sh
 python3 audit_quests.py data/classic-quests.json QuestData.lua
 ```
+
+Regenerate the README's quest-coverage badge from the same audit scope with:
+
+```sh
+python3 audit_quests.py data/classic-quests.json QuestData.lua \
+  --badge-json .github/badges/quest-coverage.json
+```
+
+CI verifies that the committed badge stays in sync with the catalog and Lua
+quest database.
 
 Pass `--faction horde` or `--faction alliance` (short form: `-f`) to limit the
 missing-quest report and coverage statistics to that faction.

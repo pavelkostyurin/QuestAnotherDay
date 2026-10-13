@@ -1,11 +1,16 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from audit_quests import (
+    coverage_badge,
+    coverage_stats,
     format_duplicate_findings,
     format_missing_findings,
     format_missing_quest,
     has_catalog_description,
     select_quests,
+    write_coverage_badge,
 )
 
 
@@ -72,6 +77,40 @@ class CatalogDescriptionTests(unittest.TestCase):
         self.assertFalse(has_catalog_description({"description": None}))
         self.assertFalse(has_catalog_description({"description": "  \n "}))
         self.assertFalse(has_catalog_description({}))
+
+
+class CoverageBadgeTests(unittest.TestCase):
+    def test_coverage_uses_the_same_scope_as_the_audit(self):
+        quests = [
+            {"id": 1, "faction": "both", "pvp": False, "description": "One"},
+            {"id": 2, "faction": "both", "pvp": False, "description": "Two"},
+            {"id": 3, "faction": "both", "pvp": True, "description": "Three"},
+            {"id": 4, "faction": "both", "pvp": False, "description": None},
+        ]
+
+        self.assertEqual((1, 2, 50.0), coverage_stats(quests, [1, 3, 4]))
+
+    def test_badge_formats_percentage_and_color(self):
+        self.assertEqual(
+            {
+                "schemaVersion": 1,
+                "label": "quest coverage",
+                "message": "63.7%",
+                "color": "yellowgreen",
+            },
+            coverage_badge(2204, 3462),
+        )
+
+    def test_badge_writer_creates_parent_directories(self):
+        with TemporaryDirectory() as directory:
+            badge_path = Path(directory) / "nested" / "coverage.json"
+            write_coverage_badge(badge_path, 3, 4)
+
+            self.assertEqual(
+                '{"schemaVersion":1,"label":"quest coverage",'
+                '"message":"75.0%","color":"green"}\n',
+                badge_path.read_text(encoding="utf-8"),
+            )
 
 
 class FormatMissingQuestTests(unittest.TestCase):

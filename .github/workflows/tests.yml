@@ -25,3 +25,9 @@ jobs:
 
       - name: Run Python tests
         run: python3 -m unittest discover -s test -p 'test_*.py'
+
+      - name: Verify quest coverage badge
+        run: |
+          python3 audit_quests.py data/classic-quests.json QuestData.lua \
+            --badge-json /tmp/quest-coverage.json
+          diff -u .github/badges/quest-coverage.json /tmp/quest-coverage.json
