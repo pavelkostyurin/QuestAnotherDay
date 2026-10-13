@@ -10,21 +10,17 @@
 
 Quest Another Day is an English-only World of Warcraft Classic Hardcore addon that warns solo players about dangerous quests across Classic Era.
 
-Threat labels are intentionally simple:
+Reviewed quests use the same simple threat labels and icons in the Questie
+tracker, or in Blizzard's standard quest log when Questie is not loaded:
 
-- **LOW** — no unusual solo hazard identified.
-- **MEDIUM** — ordinary questing with a meaningful positioning or add risk.
-- **HIGH** — a hidden or unusually severe solo hazard.
-- **EXTREME** — the quest is not recommended for a solo Hardcore character.
+| Icon | Threat | Guidance |
+| :--: | :-- | :-- |
+| 🟢 ▲ | **LOW** | No unusual solo hazard identified. |
+| ⭐ | **MEDIUM** | Ordinary questing with a meaningful positioning or add risk. |
+| ❌ | **HIGH** | A hidden or unusually severe solo hazard. |
+| 💀 | **EXTREME** | Not recommended for a solo Hardcore character. |
 
-When Questie is installed, reviewed quests receive a threat icon in the Questie tracker:
-
-- Green triangle — LOW.
-- Yellow star — MEDIUM.
-- Red cross — HIGH.
-- Skull — EXTREME.
-
-The integration is currently verified against Questie 12.0.4. Questie remains optional and none of its files are modified. If Questie is not loaded, the same icon is shown beside reviewed quests in Blizzard's standard quest log instead.
+The integration is currently verified against Questie 12.0.4. Questie remains optional and none of its files are modified.
 Hover the icon to see the threat label and the quest's warning reason. Clicking the icon behaves like clicking the corresponding quest title.
 
 Ratings assume a solo character near the quest's intended level with ordinary gear. A rating is guidance, never a guarantee.
