@@ -5,7 +5,7 @@
 ![WoW Classic Era](https://img.shields.io/badge/WoW-Classic%20Era-c79c6e?style=flat-square)
 ![Hardcore](https://img.shields.io/badge/mode-Hardcore-b91c1c?style=flat-square)
 ![Questie](https://img.shields.io/badge/Questie-optional-2563eb?style=flat-square)
-[![Repository size](https://img.shields.io/github/repo-size/pavelkostyurin/QuestAnotherDay?style=flat-square&color=475569)](https://github.com/pavelkostyurin/QuestAnotherDay)
+![Lua](https://img.shields.io/badge/language-Lua-5b2c6f?style=flat-square)
 
 Quest Another Day is an English-only World of Warcraft Classic Hardcore addon that warns solo players about dangerous quests across Classic Era.
 
