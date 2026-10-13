@@ -1,0 +1,17 @@
+## Interface: 11509
+## Title: Quest Another Day
+## Notes: Know which quests to leave for another day in WoW Classic Hardcore.
+## Category: Quests
+## IconTexture: Interface\Icons\spell_shadow_shadowworddominate
+## Author: Romp@Stitches
+## Version: 0.4.1
+## OptionalDeps: Questie
+## SavedVariables: QuestAnotherDayDB
+
+QuestData.lua
+QuestCategories.lua
+Core.lua
+QuestTagExport.lua
+Options.lua
+QuestieIntegration.lua
+StandardQuestLogIntegration.lua
