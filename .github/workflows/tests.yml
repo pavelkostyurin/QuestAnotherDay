@@ -26,8 +26,27 @@ jobs:
       - name: Run Python tests
         run: python3 -m unittest discover -s test -p 'test_*.py'
 
-      - name: Verify quest coverage badge
+  update-coverage-badge:
+    name: Update quest coverage badge
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: test
+    continue-on-error: true
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Refresh quest coverage badge
         run: |
           python3 audit_quests.py data/classic-quests.json QuestData.lua \
-            --badge-json /tmp/quest-coverage.json
-          diff -u .github/badges/quest-coverage.json /tmp/quest-coverage.json
+            --badge-json .github/badges/quest-coverage.json
+          if git diff --quiet -- .github/badges/quest-coverage.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/badges/quest-coverage.json
+          git commit -m "Update quest coverage badge"
+          git push

@@ -106,8 +106,8 @@ python3 audit_quests.py data/classic-quests.json QuestData.lua \
   --badge-json .github/badges/quest-coverage.json
 ```
 
-CI verifies that the committed badge stays in sync with the catalog and Lua
-quest database.
+After successful pushes to `main`, CI refreshes and commits the badge when the
+catalog or Lua quest coverage changes. A stale badge does not fail the test job.
 
 Pass `--faction horde` or `--faction alliance` (short form: `-f`) to limit the
 missing-quest report and coverage statistics to that faction.
