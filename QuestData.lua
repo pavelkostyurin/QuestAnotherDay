@@ -3918,8 +3918,6 @@ addon.quests = {
     -- Investigate Echo Ridge
     [15] = { threat = "LOW", reason = "The workers are levels 2-3 and there is no proximity aggro. Easy solo for any level 2+ character.", confidence = "high" },
 
-    -- Give Gerard a Drink
-
     -- Uldaman Reagent Run
     [17] = { threat = "HIGH", reason = "The caps are found in clusters inside and outside the instance, guarded by level 35-40 elite troggs and stone mobs. The clusters can spew poison spores when jostled. This requires a full group of level 38+ or careful soloing of the exterior. Do not attempt below level 38 without a group.", confidence = "high" },
 
@@ -4502,8 +4500,6 @@ addon.quests = {
     -- Translation to Ello
     [252] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
 
-    -- Digging Through the Dirt
-
     -- Mercenaries
     [255] = { threat = "MEDIUM", reason = "The ogres are levels 15-18 and are packed in the Mo'grosh Stronghold in Loch Modan. They pull in groups and hit hard for their level. Clear methodically and watch for patrolling mobs. Do not attempt below level 15 solo.", confidence = "medium" },
 
@@ -4645,8 +4641,6 @@ addon.quests = {
     -- Filthy Paws
     [307] = { threat = "MEDIUM", reason = "The mine is filled with level 8-12 kobolds that pull in groups. The gear is in mine carts scattered through the tunnels. Clear methodically and watch for respawns. Do not attempt below level 9 solo.", confidence = "medium" },
 
-    -- Distracting Jarven
-
     -- Protecting the Shipment
     [309] = { threat = "MEDIUM", reason = "This is an escort quest through the Wetlands. The route is patrolled by level 20-24 mobs, and Miran can be attacked. Clear the path ahead and be ready for ambushes. Do not attempt below level 20 solo.", confidence = "medium" },
 
@@ -4658,12 +4652,6 @@ addon.quests = {
 
     -- The Grizzled Den
     [313] = { threat = "MEDIUM", reason = "The Wendigos are levels 7-10 and are packed in the Grizzled Den cave. The cave is tight and respawns quickly. Clear methodically and keep an escape route. Do not attempt below level 8 solo.", confidence = "medium" },
-
-    -- ============================================================
-    -- RETROACTIVE CORRECTIONS: Elite quests reclassified to EXTREME
-    -- Under solo-only calibration: if an Elite quest is not
-    -- realistically soloable at intended level, it is EXTREME.
-    -- ============================================================
 
     -- Princess Must Die!
     [88] = { threat = "EXTREME", reason = "Princess is surrounded by two level 7 bodyguards and is in a pumpkin patch patrolled by Defias mobs. Solo attempts at the intended level require a corpse-run exploit or a specific kite strategy. Skip on Hardcore unless heavily overleveled.", confidence = "high" },
@@ -4796,8 +4784,6 @@ addon.quests = {
     -- Stranglethorn Fever
     [348] = { threat = "EXTREME", reason = "The quest triggers three waves of Enraged Silverback Gorillas (levels 37-43) in a small cave with no escape route, followed by Mokk himself, a level 43 elite. The escort NPC can die, and the confined space makes survival nearly impossible solo at the intended level. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
 
-    -- Stranglethorn Fever (Unavailable)
-
     -- Look to an Old Friend
     [350] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
@@ -4860,8 +4846,6 @@ addon.quests = {
 
     -- Wait for Sirra to Finish
     [401] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
-
-    -- Guarded Thunderbrew Barrel (Unavailable)
 
     -- Operation Recombobulation
     [412] = { threat = "MEDIUM", reason = "The cogs and gears drop from leper gnomes in Gnomeregan, a level 24-34 dungeon filled with elites. This requires a full group of level 28+. Do not attempt solo.", confidence = "medium" },
@@ -5076,8 +5060,6 @@ addon.quests = {
     -- The Stone of the Tides
     [578] = { threat = "MEDIUM", reason = "The island is in the Vile Reef, which is populated by level 35-37 Elite murlocs. The island itself has level 40+ water elementals and a goblin named Gazban who patrols the area. The swim to the island is dangerous, and the mobs are packed. Do not attempt below level 40 solo without water breathing and a plan.", confidence = "medium" },
 
-    -- Stormwind Library
-
     -- Whiskey Slim's Lost Grog
     [580] = { threat = "MEDIUM", reason = "The port is stolen by the Bloodsail Buccaneers on their ships south of Booty Bay. The pirates are levels 40-44 and are packed densely on the ships. They pull in groups with no room to kite. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
 
@@ -5152,8 +5134,6 @@ addon.quests = {
 
     -- Facing Negolash
     [618] = { threat = "EXTREME", reason = "This is flagged as an Elite quest. Negolash is a level 50 elite sea giant who spawns when you place the food. He hits extremely hard and has high health. The lifeboat is on the coast southeast of Grom'gol, with no escape route. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
-
-    -- Enticing Negolash
 
     -- Zanzil's Secret
     [621] = { threat = "MEDIUM", reason = "The mixture drops from Zanzil's zombies in the Ruins of Aboraz in Stranglethorn. The zombies are levels 40-44 and are packed in the ruins. They pull in groups and have a poison effect. Clear methodically and watch for patrolling mobs. Do not attempt below level 40 solo.", confidence = "medium" },
@@ -5256,8 +5236,6 @@ addon.quests = {
 
     -- This Is Going to Be Hard (Fam'retor Guardian)
     [778] = { threat = "MEDIUM", reason = "The Guardian is a level 45 elemental summoned by Lotwil. It has around 2,200 HP and is not elite. Multiple players soloed this at level 40, including a level 40 druid who took about 5 minutes. It hits reasonably hard but is manageable with cooldowns and consumables. Do not attempt below level 40 solo without a healing potion.", confidence = "high" },
-
-    -- Seal of the Earth
 
     -- A Threat Within
     [783] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
@@ -5421,10 +5399,6 @@ addon.quests = {
     -- Tools of the Highborne
     [958] = { threat = "MEDIUM", reason = "The relics drop from level 16-20 naga and satyrs in the Ruins of Mathystra in Darkshore. The ruins are dense with mobs and have patrolling elites. Clear methodically and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
 
-    -- Onu is meditating
-
-    -- Onu is meditating
-
     -- For Love Eternal
     [963] = { threat = "MEDIUM", reason = "Anaya's ghost is in the Ruins of Mathystra in Darkshore, guarded by level 16-20 naga and satyrs. Clear the area before engaging and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
 
@@ -5509,12 +5483,8 @@ addon.quests = {
     -- Escape Through Stealth
     [995] = { threat = "HIGH", reason = "This is the stealth variant of the previous escort quest. You must sneak out of the Blackwood furbolg cave in Darkshore without being detected. The cave is packed with level 18-22 furbolgs, and any mistake means death. Rogue stealth, druid cat form, or invisibility potions are recommended. Do not attempt below level 20 solo without a stealth ability or a plan to fight your way out.", confidence = "high" },
 
-    -- Corrupted Windblossom
-
     -- Denalan's Earth
     [997] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
-    -- Corrupted Windblossom
 
     -- Buzzbox 411
     [1001] = { threat = "MEDIUM", reason = "The threshers are levels 18-22 and are found in the ocean. Fighting underwater is dangerous, and drowning is a real risk. Bring water breathing if possible and clear the area before diving. Do not attempt below level 18 solo.", confidence = "medium" },
@@ -5858,8 +5828,6 @@ addon.quests = {
     -- The Tome of Divinity (Linen Cloth)
     [1644] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cloth is purchased or gathered from low-level mobs. Safe if you stay in the city.", confidence = "high" },
 
-    -- The Tome of Divinity (Unavailable)
-
     -- The Tome of Divinity (Speak to Tiza)
     [1646] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
@@ -5896,8 +5864,6 @@ addon.quests = {
     -- Ironband's Compound
     [1681] = { threat = "MEDIUM", reason = "The ore is in a cave in Dun Morogh, guarded by level 8-12 troggs and kobolds. The cave is dark and respawns quickly. Clear methodically and watch for adds. Do not attempt below level 9 solo.", confidence = "medium" },
 
-    -- Grey Iron Weapons (Unavailable)
-
     -- Vorlus Vilehoof
     [1683] = { threat = "MEDIUM", reason = "Vorlus is a level 12 named satyr in Darkshore, surrounded by guards in a cave. Clear the cave before engaging and watch for adds. Do not attempt below level 11 solo.", confidence = "medium" },
 
@@ -5928,8 +5894,6 @@ addon.quests = {
     -- Smith Mathiel
     [1692] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
 
-    -- Weapons of Elunite (Unavailable)
-
     -- Yorus Barleybrew
     [1698] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
@@ -5954,28 +5918,20 @@ addon.quests = {
     -- Burning Blood
     [1705] = { threat = "HIGH", reason = "The blood drops from Burning Exiles in the Arathi Highlands, and the rock drops from a named elemental. The elementals are levels 35-40 and are packed around the Circles of Binding. They have fire shields and hit hard. This is part of the Warrior's Whirlwind weapon chain. Do not attempt below level 35 solo without a plan to handle the elementals.", confidence = "high" },
 
-    -- Grimand's Armor (Unavailable)
-
     -- Water Pouch Bounty
     [1707] = { threat = "MEDIUM", reason = "The pouches drop from Wastewander bandits in Tanaris. The bandits are levels 40-44 and are packed in camps. They pull in groups and have ranged attackers. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- Iron Coral
     [1708] = { threat = "HIGH", reason = "The coral is in the Vile Reef off Stranglethorn, which is populated by level 35-37 Elite murlocs. The coral is underwater, and fighting underwater is dangerous. Drowning is a real risk. This is part of the Warrior's Whirlwind weapon chain. Do not attempt below level 38 solo without water breathing and a plan to avoid the elites.", confidence = "high" },
 
-    -- Klockmort's Creation (Unavailable)
-
     -- Sunscorched Shells
     [1710] = { threat = "MEDIUM", reason = "The shells drop from Sunscorched creatures in the Tanaris desert. The mobs are levels 40-44 and are scattered across the dunes. They are not elite but hit hard and can pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
-
-    -- Mathiel's Armor (Unavailable)
 
     -- Cyclonian
     [1712] = { threat = "HIGH", reason = "This is the collection step of the Warrior's Whirlwind weapon chain. You need 8 Liferoot, 30 Bloodscalp Tusks, 8 Burning Charms, 8 Cresting Charms, and 8 Thundering Charms. The charms drop from elementals in the Arathi Highlands, and the tusks drop from Bloodscalp trolls in Stranglethorn. The elementals are levels 35-40. The collection itself is a grind, not a single fight. Do not attempt below level 35 solo without a plan for each zone.", confidence = "high" },
 
     -- The Summoning
     [1713] = { threat = "EXTREME", reason = "This is the final step of the Warrior's Whirlwind weapon chain. You must summon and kill Cyclonian, a level 40 elite air elemental. He hits hard, does magic damage that ignores armor, and has a massive health pool. A level 38 warrior reported getting 'WAXED' by him solo. A level 41 warrior soloed him with nature resistance potions and Retaliation. The intended strategy is to kite him through the river between Hillsbrad and Western Plaguelands, using ranged weapons to chip him down. This requires specific preparation and terrain knowledge. Do not attempt solo at the intended level without nature resistance potions, a kiting plan, and significant overleveling.", confidence = "high" },
-
-    -- Essence of the Exile (Unavailable)
 
     -- The Slaughtered Lamb
     [1715] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
@@ -6016,8 +5972,6 @@ addon.quests = {
     -- The Tome of Divinity (Gazin)
     [1781] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
-    -- Furen's Armor (Unavailable)
-
     -- The Tome of Divinity (Resurrect Narm)
     [1783] = { threat = "MEDIUM", reason = "Narm's corpse is in a cave in Dun Morogh, guarded by level 10-14 Dark Iron dwarves. Clear the area before resurrecting and watch for adds. Do not attempt below level 12 solo.", confidence = "medium" },
 
@@ -6036,18 +5990,8 @@ addon.quests = {
     -- The Tome of Divinity (Duthorian)
     [1788] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
-    -- The Symbol of Life (Unavailable)
-
-    -- The Symbol of Life (Unavailable)
-
     -- The Windwatcher
     [1791] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Alterac is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
-
-    -- Whirlwind Weapon (Unavailable)
-
-    -- The Tome of Valor (Unavailable)
-
-    -- The Tome of Valor (Unavailable)
 
     -- The Binding (Felhunter)
     [1795] = { threat = "MEDIUM", reason = "The felhunter is a level 30 elite demon that you must defeat. This is a warlock class quest. The fight takes place in the tower above Ratchet. A level 30 warlock soloed this with a Voidwalker and fear kiting. Do not attempt below level 30 solo without a plan to manage the felhunter's spell lock and high damage.", confidence = "high" },
@@ -6099,10 +6043,6 @@ addon.quests = {
     -- Pristine Spider Silk
     [1940] = { threat = "LOW", reason = "The silk drops from spiders in Elwynn Forest and Westfall. The spiders are levels 6-12 and are scattered across the zones. The drop rate is moderate. Manageable solo for a level 8+ character.", confidence = "high" },
 
-    -- Manaweave Robe (Unavailable)
-
-    -- Astral Knot Garment (Unavailable)
-
     -- Journey to the Marsh
     [1947] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Dustwallow Marsh is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
 
@@ -6135,8 +6075,6 @@ addon.quests = {
 
     -- Mana Surges
     [1957] = { threat = "MEDIUM", reason = "The Mana Surges are level 35-38 elementals in the Arathi Highlands. They are not elite, but they hit hard and can pull in groups. The quest is timed, so you cannot afford to die or take long detours. Do not attempt below level 35 solo without a plan to manage the timer and the mobs.", confidence = "medium" },
-
-    -- Celestial Power (Unavailable)
 
     -- Bingles' Missing Supplies
     [2038] = { threat = "MEDIUM", reason = "The supplies are scattered around the Loch Modan area, guarded by level 10-14 troggs and kobolds. Clear the area around each item and watch for adds. Do not attempt below level 10 solo.", confidence = "medium" },
@@ -6252,12 +6190,8 @@ addon.quests = {
     -- Mathias and the Defias
     [2360] = { threat = "MEDIUM", reason = "The journey passes through Duskwood and Westfall, which are patrolled by level 20-28 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 24 solo.", confidence = "medium" },
 
-    -- Restoring the Necklace (Unavailable)
-
     -- The Lost Dwarves
     [2398] = { threat = "HIGH", reason = "Baelog is deep inside the dungeon, which is a level 35-40 instance filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
-
-    -- The Sprouted Fronds (Unavailable)
 
     -- Power Stones
     [2418] = { threat = "MEDIUM", reason = "The stones drop from level 35-40 mobs in the Badlands. The area is patrolled by troggs, ogres, and golems. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
@@ -6297,8 +6231,6 @@ addon.quests = {
 
     -- Kum'isha's Endeavors
     [2522] = { threat = "HIGH", reason = "The sphere is one of the most rare crystals in all of Azeroth. Any creature in the Blasted Lands could be holding one, but the zone is a level 45-55 area patrolled by elite demons and high-level mobs. This is a repeatable quest with a very low drop rate. Do not attempt below level 48 solo without a group.", confidence = "high" },
-
-    -- Corrupted Songflower
 
     -- The Sleeping Druid
     [2541] = { threat = "MEDIUM", reason = "The charm is obtained from a level 10-14 mob in Teldrassil. The Barrow Den is a cave filled with level 10-14 furbolgs and undead. Clear the cave before approaching Oben and watch for adds. Do not attempt below level 10 solo.", confidence = "medium" },
@@ -6374,12 +6306,6 @@ addon.quests = {
 
     -- Items of Some Consequence
     [2746] = { threat = "LOW", reason = "The cloth is purchased or gathered from low-level mobs, and the apples are purchased from a vendor. No combat required. Safe if you stay in the city.", confidence = "high" },
-
-    -- An Extraordinary Egg (Unavailable)
-
-    -- A Fine Egg (Unavailable)
-
-    -- An Ordinary Egg (Unavailable)
 
     -- The Origins of Smithing
     [2758] = { threat = "LOW", reason = "Bring six Golden Scale Bracers to Hank the Hammer in Stormwind. This is a crafting and delivery step with no combat. The materials are crafted or purchased. Safe if you stay in the city. This quest is Alliance-only.", confidence = "high" },
@@ -6597,10 +6523,6 @@ addon.quests = {
     -- The Sparklematic 5200!
     [2951] = { threat = "LOW", reason = "This is a dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
 
-    -- The Sparklematic 5200! (Unavailable)
-
-    -- More Sparklematic Action (Unavailable)
-
     -- The Stone Watcher
     [2954] = { threat = "MEDIUM", reason = "The pedestal is at the gates of Uldum, guarded by level 45-48 giants. You can bypass the giants by going around the left side. A level 48 hunter soloed this without pulling a single mob. Do not attempt below level 45 if you plan to fight the giants.", confidence = "high" },
 
@@ -6754,8 +6676,6 @@ addon.quests = {
     -- Thistleshrub Valley
     [3362] = { threat = "MEDIUM", reason = "The thistleshrubs are levels 46-48 and are packed in the Thistleshrub Valley in Tanaris. They are plants with ranged attacks and can pull in groups. Clear methodically and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
 
-    -- Corrupted Songflower (Unavailable)
-
     -- Scalding Mornbrew Delivery
     [3364] = { threat = "LOW", reason = "This is a timed delivery quest with no combat. The brew is purchased from a vendor in Kharanos. The journey to Anvilmar is safe if you stay on the road. Safe for any level.", confidence = "high" },
 
@@ -6803,8 +6723,6 @@ addon.quests = {
 
     -- The Undermarket (Speak)
     [3402] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
-    -- Return Trip (Unavailable)
 
     -- Divine Retribution (Listen)
     [3441] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
@@ -6860,15 +6778,11 @@ addon.quests = {
     -- Trinkets...
     [3481] = { threat = "LOW", reason = "This is a simple interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
 
-    -- Signal for Pickup (Unavailable)
-
     -- Everything Counts In Large Amounts
     [3501] = { threat = "MEDIUM", reason = "The fragments drop from any mob in the Blasted Lands, a level 45-55 zone patrolled by elite demons and high-level mobs. This is a repeatable quest with a very low drop rate. Do not attempt below level 48 solo without a group.", confidence = "medium" },
 
     -- One Draenei's Junk...
     [3502] = { threat = "MEDIUM", reason = "Any mob in the Blasted Lands could be carrying a fragment. This is a repeatable quest with a very low drop rate. The Blasted Lands is patrolled by elite demons. Do not attempt below level 48 solo without a group.", confidence = "medium" },
-
-    -- Meeting with the Master (Unavailable)
 
     -- Breaking the Ward
     [3508] = { threat = "LOW", reason = "This is a dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
@@ -6914,8 +6828,6 @@ addon.quests = {
 
     -- Rise, Obsidion!
     [3566] = { threat = "EXTREME", reason = "This is an Elite quest. Lathoric the Black and Obsidion are both level 49 elites with 3,207 health each. When you touch the altar, Lathoric spawns, walks to the altar, and summons Obsidion. You must fight both at once in a confined room deep inside the Slag Pit. A level 50 warlock died 3 times trying to solo this. The run back from the graveyard is long and dangerous. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
-
-    -- To the Top (Unavailable)
 
     -- Kim'jael Indeed!
     [3601] = { threat = "HIGH", reason = "The items are in randomly spawning boxes throughout the Blood Elf camp, but each box only has a chance to contain a quest item. The Blood Elves are levels 50-54 and have a very high aggro radius. Surveyors are manageable, but Reclaimers hit for 300+ fire damage and have Renew and Heal abilities. A level 55 paladin had to bubble-heal and potion on a single pull. A level 55 player reported dying 4 times while opening 29 crates and still not finishing. Do not attempt below level 52 solo without a plan to handle the Reclaimers and the RNG.", confidence = "high" },
@@ -6968,14 +6880,6 @@ addon.quests = {
     -- Show Your Work (Gnome)
     [3641] = { threat = "LOW", reason = "This is a profession quest with no combat objective beyond crafting the items. The materials are gathered or purchased. Safe if you stay in the city.", confidence = "high" },
 
-    -- Membership Card Renewal (Unavailable)
-
-    -- Membership Card Renewal (Unavailable)
-
-    -- Membership Card Renewal (Unavailable)
-
-    -- Membership Card Renewal (Unavailable)
-
     -- Favored of Elune?
     [3661] = { threat = "MEDIUM", reason = "The feathers are found on the ground around Quel'Danil Lodge, not dropped from mobs. The area is patrolled by level 45-48 mobs, including wolves, oozes, and wildkin. You can avoid most mobs by staying near the lodge and picking up feathers from the ground. A level 44 rogue completed this in 10 minutes with only one aggro. Do not attempt below level 44 solo without a plan to avoid the patrols.", confidence = "high" },
 
@@ -6987,8 +6891,6 @@ addon.quests = {
 
     -- The Smoldering Ruins of Thaurissan (Listen)
     [3702] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
-    -- An OOX of Your Own (Unavailable)
 
     -- Hilary's Necklace
     [3741] = { threat = "MEDIUM", reason = "The necklace is in the Redridge Mountains, guarded by level 20-24 mobs. The necklace is in a specific location, and the area is patrolled by gnolls and orcs. Clear the area before looting and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
@@ -7031,8 +6933,6 @@ addon.quests = {
 
     -- Dark Iron Legacy (Kill Fineous)
     [3802] = { threat = "HIGH", reason = "Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright. Fineous is a level 52 elite in Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
-
-    -- Morrowgrain to Darnassus (Unavailable)
 
     -- Extinguish the Firegut
     [3823] = { threat = "MEDIUM", reason = "The ogres are levels 50-54 and are packed around Dreadmaul Rock. They share spawns, so if you kill ogres, brutes and mages will respawn. The Brutes have a knockback that can throw you off the mountain. A level 49 shadow priest soloed this, but warned that it is easy to draw multiple ogres in the caves. Do not attempt below level 50 solo without a plan to avoid the caves and the knockbacks.", confidence = "high" },
