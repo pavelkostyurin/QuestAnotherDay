@@ -1,0 +1,29 @@
+{
+  "runtime.version": "Lua 5.1",
+  "workspace.checkThirdParty": false,
+  "diagnostics.globals": [
+    "C_AddOns",
+    "C_QuestLog",
+    "C_Timer",
+    "CreateFrame",
+    "DEFAULT_CHAT_FRAME",
+    "FauxScrollFrame_GetOffset",
+    "GameTooltip",
+    "GetAddOnMetadata",
+    "GetNumQuestLogEntries",
+    "GetQuestLogTitle",
+    "InterfaceOptions_AddCategory",
+    "InterfaceOptionsFrame_OpenToCategory",
+    "IsAddOnLoaded",
+    "QUESTS_DISPLAYED",
+    "QuestDB",
+    "QuestieLoader",
+    "QuestLogListScrollFrame",
+    "QuestLogScrollFrame",
+    "QuestLog_Update",
+    "Settings",
+    "SlashCmdList",
+    "date",
+    "hooksecurefunc"
+  ]
+}
