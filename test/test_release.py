@@ -9,7 +9,7 @@ import unittest
 from unittest.mock import patch
 import zipfile
 
-from scripts.release import build_package, bump_version, check_version, publish
+from scripts.release import build_package, bump_version, check_version, install_addon, publish, verify_installed_addon
 
 
 class ReleaseTests(unittest.TestCase):
@@ -19,8 +19,12 @@ class ReleaseTests(unittest.TestCase):
         self.root = Path(self.temporary.name) / "project"
         self.root.mkdir()
         sources = {
-            "package.json": json.dumps({"name": "quest-another-day", "version": "0.4.1"}),
-            "QuestAnotherDay.toc": "## Version: 0.4.1\n\nCore.lua\n",
+            "package.json": json.dumps({
+                "name": "quest-another-day",
+                "version": "0.4.1",
+                "wowInterface": "11509",
+            }),
+            "QuestAnotherDay.toc": "## Interface: 11509\n## Version: 0.4.1\n\nCore.lua\n",
             "README.md": "![Version](https://img.shields.io/badge/version-0.4.1-7c3aed?style=flat-square)\n",
             "Core.lua": "local addonName, addon = ...\n",
             "LICENSE": "MIT License\n",
@@ -55,6 +59,20 @@ class ReleaseTests(unittest.TestCase):
                 bump_version(version, self.root)
         self.assertEqual(before, {p.name: p.read_bytes() for p in self.root.iterdir()})
 
+    def test_bump_updates_addon_and_wow_versions_together(self):
+        self.assertEqual("0.4.2", bump_version("patch", self.root, "11510"))
+        package = json.loads((self.root / "package.json").read_text())
+        self.assertEqual("11510", package["wowInterface"])
+        self.assertIn("## Interface: 11510", (self.root / "QuestAnotherDay.toc").read_text())
+        self.assertEqual("0.4.2", check_version(self.root))
+
+    def test_invalid_interface_leaves_files_untouched(self):
+        before = {p.name: p.read_bytes() for p in self.root.iterdir()}
+        for interface in ["", "1159", "115090", "20504", "v11510"]:
+            with self.subTest(interface=interface), self.assertRaises(ValueError):
+                bump_version("patch", self.root, interface)
+        self.assertEqual(before, {p.name: p.read_bytes() for p in self.root.iterdir()})
+
     def test_version_drift_or_wrong_tag_prevents_packaging(self):
         with self.assertRaisesRegex(ValueError, "tag"):
             build_package(self.root, "v0.4.2")
@@ -66,6 +84,12 @@ class ReleaseTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "Version mismatch"):
                     build_package(self.root)
                 path.write_text(original)
+        toc = self.root / "QuestAnotherDay.toc"
+        original = toc.read_text()
+        toc.write_text(original.replace("11509", "11510"))
+        with self.assertRaisesRegex(ValueError, "interface mismatch"):
+            build_package(self.root)
+        toc.write_text(original)
         self.assertFalse((self.root / "dist").exists())
 
     def test_zip_has_installable_root_and_exact_runtime_files_only(self):
@@ -90,6 +114,53 @@ class ReleaseTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Missing package file"):
             build_package(self.root)
         self.assertEqual(before, archive.read_bytes())
+
+    def test_install_copies_unstaged_and_new_runtime_files(self):
+        addons_dir = Path(self.temporary.name) / "AddOns"
+        destination = addons_dir / "QuestAnotherDay"
+        destination.mkdir(parents=True)
+        (destination / "stale-development-file.py").write_text("remove me\n")
+        (self.root / "Core.lua").write_text("local unstagedChange = true\n")
+        (self.root / "NewRuntime.lua").write_text("local untrackedFile = true\n")
+        toc = self.root / "QuestAnotherDay.toc"
+        toc.write_text(toc.read_text() + "NewRuntime.lua\n")
+
+        installed, files = install_addon(addons_dir, self.root)
+
+        self.assertEqual(destination, installed)
+        expected = set(files)
+        actual = {
+            path.relative_to(destination).as_posix()
+            for path in destination.rglob("*")
+            if path.is_file()
+        }
+        self.assertEqual(expected, actual)
+        for name in files:
+            self.assertEqual((self.root / name).read_bytes(), (destination / name).read_bytes())
+        self.assertEqual(
+            "local unstagedChange = true\n", (destination / "Core.lua").read_text()
+        )
+        self.assertEqual(
+            "local untrackedFile = true\n", (destination / "NewRuntime.lua").read_text()
+        )
+        self.assertFalse((addons_dir / ".QuestAnotherDay.backup").exists())
+
+    def test_install_verification_detects_stale_and_missing_files(self):
+        addons_dir = Path(self.temporary.name) / "AddOns"
+        addons_dir.mkdir()
+        destination, files = install_addon(addons_dir, self.root)
+        (destination / "Core.lua").write_text("stale copy")
+        with self.assertRaisesRegex(ValueError, "Core.lua"):
+            verify_installed_addon(destination, files, self.root)
+        (destination / "Core.lua").unlink()
+        with self.assertRaisesRegex(ValueError, "Core.lua"):
+            verify_installed_addon(destination, files, self.root)
+
+    def test_install_requires_an_existing_addons_directory(self):
+        missing = Path(self.temporary.name) / "missing" / "AddOns"
+        with self.assertRaisesRegex(ValueError, "does not exist"):
+            install_addon(missing, self.root)
+        self.assertFalse(missing.exists())
 
     def test_unsafe_or_duplicate_toc_entries_are_rejected(self):
         toc = self.root / "QuestAnotherDay.toc"

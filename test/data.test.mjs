@@ -227,7 +227,9 @@ test("extra fields are rejected", () => {
 
 test("the TOC loads the quest data before the addon core", () => {
   const toc = fs.readFileSync(path.join(root, "QuestAnotherDay.toc"), "utf8");
-  assert.match(toc, /## Interface: 11509/);
+  const packageMetadata = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"));
+  assert.match(packageMetadata.wowInterface, /^1\d{4}$/);
+  assert.match(toc, new RegExp(`^## Interface: ${packageMetadata.wowInterface}$`, "m"));
   assert.match(toc, /## Category: Quests/);
   assert.match(toc, /## OptionalDeps: Questie/);
   assert.ok(toc.indexOf("QuestData.lua") < toc.indexOf("Core.lua"));
@@ -291,9 +293,10 @@ test("the threat tooltip uses regular text with separated sections", () => {
   assert.doesNotMatch(tooltip, /GameTooltip:SetText/);
   assert.match(
     tooltip,
-    /GameTooltip:AddLine\("Quest Another Day"[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*GameTooltip:AddLine\("Threat: " \.\. style\.label[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*GameTooltip:AddLine\(record\.reason/,
+    /GameTooltip:AddLine\(record\.reason[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*GameTooltip:AddLine\("Threat: " \.\. style\.label[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*AddFooter\("Quest Another Day\. Feedback: \/qad options"\)/,
   );
-  assert.match(tooltip, /reasonLine:SetFontObject\(GameTooltipTextSmall\)/);
+  assert.match(tooltip, /reasonLine:SetFontObject\(GameTooltipText\)/);
+  assert.match(tooltip, /line:SetFontObject\(GameTooltipTextSmall\)/);
 });
 
 test("the Questie integration decorates tracker quest titles", () => {
@@ -320,7 +323,7 @@ test("the addon loads without a stale scope announcement", () => {
   const core = fs.readFileSync(path.join(root, "Core.lua"), "utf8");
   const addonLoadedBranch = core.slice(
     core.indexOf('if event == "ADDON_LOADED"'),
-    core.indexOf('if event == "QUEST_ACCEPTED"'),
+    core.indexOf('if event == "PLAYER_LOGIN"'),
   );
   assert.doesNotMatch(core, /CountReviewedQuests/);
   assert.doesNotMatch(addonLoadedBranch, /Print\(/);

@@ -5,15 +5,22 @@ import hashlib
 import json
 from pathlib import Path, PurePosixPath
 import re
+import shutil
 import subprocess
-from tempfile import NamedTemporaryFile
+from tempfile import NamedTemporaryFile, TemporaryDirectory
 import zipfile
 
 
 ROOT = Path(__file__).resolve().parent.parent
 TOC = "QuestAnotherDay.toc"
+ADDON_FOLDER = "QuestAnotherDay"
+DEFAULT_ADDONS_DIR = Path(
+    "/Applications/World of Warcraft/_classic_era_/Interface/AddOns"
+)
 VERSION_PATTERN = r"(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)"
+INTERFACE_PATTERN = r"1[0-9]{4}"
 TOC_VERSION = re.compile(r"^## Version: (\S+)$", re.MULTILINE)
+TOC_INTERFACE = re.compile(r"^## Interface: (\S+)$", re.MULTILINE)
 README_VERSION = re.compile(r"(?<=badge/version-)([^-\s]+)(?=-7c3aed)")
 
 
@@ -23,20 +30,39 @@ def parse_version(version):
     return tuple(map(int, version.split(".")))
 
 
+def parse_interface(interface):
+    interface = str(interface)
+    if not re.fullmatch(INTERFACE_PATTERN, interface):
+        raise ValueError(
+            f"Expected a Classic Era interface such as 11509, got {interface!r}"
+        )
+    return interface
+
+
 def check_version(root=ROOT, tag=None):
-    version = json.loads((root / "package.json").read_text())["version"]
+    package = json.loads((root / "package.json").read_text())
+    version = package["version"]
     parse_version(version)
     for name, pattern in [(TOC, TOC_VERSION), ("README.md", README_VERSION)]:
         versions = pattern.findall((root / name).read_text())
         if versions != [version]:
             raise ValueError(f"Version mismatch: package.json is {version}, {name} has {versions}")
+    interface = parse_interface(package["wowInterface"])
+    toc_interfaces = TOC_INTERFACE.findall((root / TOC).read_text())
+    if toc_interfaces != [interface]:
+        raise ValueError(
+            f"WoW interface mismatch: package.json is {interface}, {TOC} has {toc_interfaces}"
+        )
     if tag is not None and tag != f"v{version}":
         raise ValueError(f"Release tag {tag!r} must match v{version}")
     return version
 
 
-def bump_version(bump, root=ROOT):
+def bump_version(bump, root=ROOT, interface=None):
     current = check_version(root)
+    package = json.loads((root / "package.json").read_text())
+    current_interface = parse_interface(package["wowInterface"])
+    interface = parse_interface(current_interface if interface is None else interface)
     parts = list(parse_version(current))
     if bump in ("patch", "minor", "major"):
         index = {"major": 0, "minor": 1, "patch": 2}[bump]
@@ -50,11 +76,15 @@ def bump_version(bump, root=ROOT):
         raise ValueError(f"New version {version} must be greater than {current}")
 
     # Read and validate every source before changing any of them.
-    package = json.loads((root / "package.json").read_text())
     package["version"] = version
+    package["wowInterface"] = interface
+    toc_source = (root / TOC).read_text()
     sources = {
         "package.json": json.dumps(package, indent=2) + "\n",
-        TOC: TOC_VERSION.sub(f"## Version: {version}", (root / TOC).read_text()),
+        TOC: TOC_INTERFACE.sub(
+            f"## Interface: {interface}",
+            TOC_VERSION.sub(f"## Version: {version}", toc_source),
+        ),
         "README.md": README_VERSION.sub(version, (root / "README.md").read_text()),
     }
     for name, source in sources.items():
@@ -111,6 +141,55 @@ def build_package(root=ROOT, tag=None):
     finally:
         temp_path.unlink(missing_ok=True)
     return archive
+
+
+def verify_installed_addon(destination, files, root=ROOT):
+    """Verify actual installed bytes, including uncommitted working-tree changes."""
+    mismatches = [name for name in files
+                  if not (destination / name).is_file()
+                  or (destination / name).read_bytes() != (root / name).read_bytes()]
+    if mismatches:
+        raise ValueError("Installed files differ from working copy: " + ", ".join(mismatches))
+
+
+def install_addon(addons_dir=DEFAULT_ADDONS_DIR, root=ROOT):
+    """Copy the current working tree's loadable addon files into Classic Era."""
+    files = package_files(root)
+    addons_dir = Path(addons_dir)
+    if not addons_dir.is_dir():
+        raise ValueError(f"WoW AddOns directory does not exist: {addons_dir}")
+
+    destination = addons_dir / ADDON_FOLDER
+    backup = addons_dir / f".{ADDON_FOLDER}.backup"
+    if backup.exists():
+        raise ValueError(
+            f"Previous install backup exists: {backup}. Inspect or remove it before retrying"
+        )
+
+    with TemporaryDirectory(prefix=f".{ADDON_FOLDER}.installing-", dir=addons_dir) as temporary:
+        staging = Path(temporary)
+        for name in files:
+            target = staging / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(root / name, target)
+
+        moved_existing = False
+        try:
+            if destination.exists():
+                destination.replace(backup)
+                moved_existing = True
+            staging.replace(destination)
+            verify_installed_addon(destination, files, root)
+        except Exception:
+            if moved_existing and backup.exists():
+                if destination.exists():
+                    shutil.rmtree(destination)
+                backup.replace(destination)
+            raise
+
+    if moved_existing:
+        shutil.rmtree(backup)
+    return destination, files
 
 
 def git_output(*args, root=ROOT):
@@ -236,18 +315,47 @@ def main():
     commands = parser.add_subparsers(dest="command", required=True)
     for name in ("check", "package"):
         commands.add_parser(name).add_argument("--tag")
-    commands.add_parser("bump").add_argument("version", help="patch, minor, major, or X.Y.Z")
+    bump = commands.add_parser("bump")
+    bump.add_argument("version", nargs="?", help="patch, minor, major, or X.Y.Z")
+    bump.add_argument("--interface", help="Classic Era interface, such as 11509")
+    install = commands.add_parser("install")
+    install.add_argument("--addons-dir", type=Path, default=DEFAULT_ADDONS_DIR)
     commands.add_parser("publish")
     args = parser.parse_args()
     try:
         if args.command == "check":
             print(check_version(tag=args.tag))
         elif args.command == "bump":
-            print(f"Version updated to {bump_version(args.version)}. Review and commit the changes.")
+            current_package = json.loads((ROOT / "package.json").read_text())
+            requested_version = args.version
+            requested_interface = args.interface
+            if requested_version is None:
+                requested_version = input(
+                    "Add-on version (patch, minor, major, or X.Y.Z) [patch]: "
+                ).strip() or "patch"
+                requested_interface = input(
+                    f"WoW Classic Era interface [{current_package['wowInterface']}]: "
+                ).strip() or current_package["wowInterface"]
+            version = bump_version(requested_version, interface=requested_interface)
+            interface = json.loads((ROOT / "package.json").read_text())["wowInterface"]
+            print(
+                f"Version updated to {version} for WoW interface {interface}. "
+                "Review and commit the changes."
+            )
         elif args.command == "package":
             archive = build_package(tag=args.tag)
             print(f"{archive} ({archive.stat().st_size:,} bytes)")
             print(f"SHA-256: {hashlib.sha256(archive.read_bytes()).hexdigest()}")
+        elif args.command == "install":
+            destination, files = install_addon(args.addons_dir)
+            print(f"Source: {ROOT}")
+            print(f"Destination: {destination}")
+            print(f"Verified {len(files)} installed files match the current working copy byte-for-byte.")
+            for name in ("Core.lua", "Options.lua"):
+                if name in files:
+                    digest = hashlib.sha256((destination / name).read_bytes()).hexdigest()[:12]
+                    print(f"  {name}: {digest}")
+            print("Reload the WoW UI or restart the game to load the changes.")
         else:
             publish()
     except (ValueError, OSError, subprocess.CalledProcessError) as error:

@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/pavelkostyurin/QuestAnotherDay/actions/workflows/tests.yml/badge.svg)](https://github.com/pavelkostyurin/QuestAnotherDay/actions/workflows/tests.yml)
 [![Quest coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpavelkostyurin%2FQuestAnotherDay%2Fmain%2F.github%2Fbadges%2Fquest-coverage.json&style=flat-square)](https://github.com/pavelkostyurin/QuestAnotherDay#development)
-![Version](https://img.shields.io/badge/version-0.4.2-7c3aed?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.43.0-7c3aed?style=flat-square)
 ![WoW Classic Era](https://img.shields.io/badge/WoW-Classic%20Era-c79c6e?style=flat-square)
 ![Hardcore](https://img.shields.io/badge/mode-Hardcore-b91c1c?style=flat-square)
 ![Questie](https://img.shields.io/badge/Questie-optional-2563eb?style=flat-square)
@@ -21,7 +21,7 @@ tracker, or in Blizzard's standard quest log when Questie is not loaded:
 | 💀 | **EXTREME** | Not recommended for a solo Hardcore character. |
 
 The integration is currently verified against Questie 12.0.4. Questie remains optional and none of its files are modified.
-Hover the icon to see the threat label and the quest's warning reason. Clicking the icon behaves like clicking the corresponding quest title.
+Hover the icon to see the quest's warning reason first, followed by the colored threat label and a small addon / feedback footer. Clicking the icon behaves like clicking the corresponding quest title.
 
 Ratings assume a solo character near the quest's intended level with ordinary gear. A rating is guidance, never a guarantee.
 
@@ -33,6 +33,13 @@ Open **Options → AddOns → Quest Another Day**, or enter `/qad options`.
   for quests classified as raid or dungeon content. This is off by default to
   keep the addon focused on solo questing.
 
+### Feedback & support
+
+In `/qad options`, choose **Report incorrect quest guidance** or **Suggest an improvement**.
+Copy the GitHub link into your browser, then copy the details into your issue.
+Quest reports include the last hovered quest name and ID, threat, reason, and addon version;
+check that the quest matches your report. A GitHub account is required to submit feedback.
+
 ## Install
 
 Copy this directory to:
@@ -42,6 +49,20 @@ World of Warcraft/_classic_era_/Interface/AddOns/QuestAnotherDay
 ```
 
 The folder must contain `QuestAnotherDay.toc` directly. Reload the UI or restart the game.
+
+For local development, use the **Copy working copy to WoW** Codex action or run:
+
+```sh
+npm run install:addon
+```
+
+This copies the current working-tree versions of the TOC and every file it loads,
+including unstaged edits and new runtime files. It does not read from `dist/`, a
+Git tag, or a GitHub release. The installed folder is replaced so stale files
+cannot affect testing; repository-only development files stay out of WoW.
+The installer prints the source and destination paths and verifies every installed
+file against the working copy. Look for “Verified” in the action output, then run
+`/reload` in WoW. The destination folder is always `QuestAnotherDay`.
 
 ## Commands
 
@@ -127,15 +148,24 @@ The distributed addon has no runtime dependencies and does not access the networ
 
 ## Releases
 
-For a new version, update the version in `package.json`, `QuestAnotherDay.toc`,
-and this README together:
+Use the **Bump addon version** Codex action for a new release. It asks for the
+add-on version change and the WoW Classic Era interface number, then updates
+`package.json`, `QuestAnotherDay.toc`, and this README together. Press Enter to
+use the defaults (`patch` and the current interface):
 
 ```sh
-npm run version:bump -- patch
+npm run version:bump
 ```
 
-Use `minor`, `major`, or an explicit higher version such as `0.5.0` instead of
-`patch` when appropriate. Review and commit your changes on `main`, then run:
+For a non-interactive update, pass both values explicitly:
+
+```sh
+npm run version:bump -- patch --interface 11510
+```
+
+Use `minor`, `major`, or an explicit higher version such as `0.5.0` when
+appropriate. Keep the current interface unless WoW Classic Era has updated.
+Review and commit your changes on `main`, then run:
 
 ```sh
 npm run release

@@ -97,16 +97,30 @@ local function ShowThreatTooltip(owner, questID)
 
     GameTooltip:SetOwner(owner, "ANCHOR_RIGHT")
     GameTooltip:ClearLines()
-    GameTooltip:AddLine("Quest Another Day", 1.00, 0.82, 0.00)
+    addon.feedbackQuestID = questID
+    GameTooltip:AddLine(record.reason, 1.00, 1.00, 1.00, true)
     GameTooltip:AddLine(" ")
     GameTooltip:AddLine("Threat: " .. style.label, style.rgb[1], style.rgb[2], style.rgb[3])
-    GameTooltip:AddLine(" ")
-    GameTooltip:AddLine(record.reason, 1.00, 1.00, 1.00, true)
-    local tooltipName = GameTooltip:GetName()
-    local reasonLine = tooltipName and _G[tooltipName .. "TextLeft" .. GameTooltip:NumLines()]
-    if reasonLine and GameTooltipTextSmall then
-        reasonLine:SetFontObject(GameTooltipTextSmall)
+    local function AddFooter(text)
+        GameTooltip:AddLine(text, 0.65, 0.65, 0.65)
+        local tooltipName = GameTooltip:GetName()
+        local line = tooltipName and _G[tooltipName .. "TextLeft" .. GameTooltip:NumLines()]
+        if line and GameTooltipTextSmall then
+            line:SetFontObject(GameTooltipTextSmall)
+        end
     end
+    -- Explicitly restore the main fonts: GameTooltip reuses its line objects.
+    local tooltipName = GameTooltip:GetName()
+    local reasonLine = tooltipName and _G[tooltipName .. "TextLeft1"]
+    local threatLine = tooltipName and _G[tooltipName .. "TextLeft3"]
+    if reasonLine and GameTooltipText then
+        reasonLine:SetFontObject(GameTooltipText)
+    end
+    if threatLine and GameTooltipText then
+        threatLine:SetFontObject(GameTooltipText)
+    end
+    GameTooltip:AddLine(" ")
+    AddFooter("Quest Another Day. Feedback: /qad options")
     GameTooltip:Show()
 end
 
@@ -247,6 +261,7 @@ end
 local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("ADDON_LOADED")
 eventFrame:RegisterEvent("QUEST_ACCEPTED")
+eventFrame:RegisterEvent("PLAYER_LOGIN")
 eventFrame:SetScript("OnEvent", function(_, event, ...)
     if event == "ADDON_LOADED" then
         local loadedAddon = ...
@@ -264,6 +279,15 @@ eventFrame:SetScript("OnEvent", function(_, event, ...)
         return
     end
 
+    if event == "PLAYER_LOGIN" then
+        eventFrame:UnregisterEvent("PLAYER_LOGIN")
+        local metadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
+        local version = metadata and metadata(addonName, "Version") or "unknown"
+        Print("|cffffffff" .. version .. "|r |cff4ade80loaded successfully.|r "
+            .. "Type |cfffacc15/qad options|r for |cff9dd9ebsettings & feedback|r.")
+        return
+    end
+
     if event == "QUEST_ACCEPTED" and QuestAnotherDayDB and QuestAnotherDayDB.enabled then
         local questID, questLogIndex = ResolveAcceptedQuest(...)
         if questID then
@@ -275,6 +299,15 @@ end)
 SLASH_QUESTANOTHERDAY1 = "/qad"
 SlashCmdList.QUESTANOTHERDAY = HandleSlashCommand
 
+addon.GetQuestTitle = function(questID)
+    for index = 1, GetNumQuestLogEntriesCompat() do
+        local id, title = GetQuestAtLogIndex(index)
+        if id == questID and title and title ~= "" then
+            return title
+        end
+    end
+    return GetQuestTitle(questID)
+end
 addon.GetThreatStyle = GetThreatStyle
 addon.GetThreatInlineIcon = GetThreatInlineIcon
 addon.ShowThreatTooltip = ShowThreatTooltip

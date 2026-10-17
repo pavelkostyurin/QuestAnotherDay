@@ -10,19 +10,14 @@ icon = "test"
 command = "npm run verify"
 
 [[actions]]
-name = "Bump patch version"
+name = "Bump addon version"
 icon = "tool"
-command = "npm run version:bump -- patch"
+command = "npm run version:bump"
 
 [[actions]]
-name = "Bump minor version"
+name = "Copy working copy to WoW"
 icon = "tool"
-command = "npm run version:bump -- minor"
-
-[[actions]]
-name = "Bump major version"
-icon = "tool"
-command = "npm run version:bump -- major"
+command = "npm run install:addon"
 
 [[actions]]
 name = "Release"
