@@ -1,0 +1,30 @@
+version = 1
+name = "Quest Another Day"
+
+[setup]
+script = ""
+
+[[actions]]
+name = "Verify release"
+icon = "test"
+command = "npm run verify"
+
+[[actions]]
+name = "Bump patch version"
+icon = "tool"
+command = "npm run version:bump -- patch"
+
+[[actions]]
+name = "Bump minor version"
+icon = "tool"
+command = "npm run version:bump -- minor"
+
+[[actions]]
+name = "Bump major version"
+icon = "tool"
+command = "npm run version:bump -- major"
+
+[[actions]]
+name = "Release"
+icon = "tool"
+command = "npm run release"

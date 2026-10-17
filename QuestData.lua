@@ -7160,4 +7160,894 @@ addon.quests = {
 
     -- The Apes of Un'Goro
     [4289] = { threat = "MEDIUM", reason = "The apes are levels 48-52 and are packed in the crater. The Thunderers are larger and hit harder. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+
+    -- The Fare of Lar'korwi
+    [4290] = { threat = "MEDIUM", reason = "The carcass is in the Ravasaur crater, patrolled by level 48-52 ravasaurs that pull in groups. Clear the area before looting. Do not attempt below level 48 solo.", confidence = "high" },
+
+    -- The Scent of Lar'korwi
+    [4291] = { threat = "MEDIUM", reason = "Ravasaur pheromone glands drop from the same mobs as the previous step; the crater is dense and mobs pull in pairs. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+
+    -- The Bait for Lar'korwi
+    [4292] = { threat = "HIGH", reason = "Lar'korwi is a level 50-52 named devilsaur with a fear effect and heavy melee damage. Summoning him at the carcass spawns him with two ravasaurs nearby. A level 49 hunter soloed him by kiting with a pet, but a level 52 warrior died. Fight in an open area and keep an escape route. Do not attempt solo below level 50 without a plan.", confidence = "high" },
+
+    -- Tablet of the Seven
+    [4296] = { threat = "LOW", reason = "Delivery step with no combat. The transcript is obtained from a tablet inside Uldaman; if you already have it, this is safe.", confidence = "high" },
+
+    -- Food for Baby
+    [4297] = { threat = "MEDIUM", reason = "Silvermane Stalkers are stealthed wolves in the Hinterlands that ambush from camouflage. They pull in pairs and have a bleed effect. Fight in open areas and check for prowling cats between pulls. Do not attempt below level 45 solo.", confidence = "high" },
+
+    -- Becoming a Parent
+    [4298] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Mighty U'cha
+    [4301] = { threat = "HIGH", reason = "U'cha is a level 50-52 elite gorilla inside the Gorishi hive cave in Un'Goro. He hits hard and is surrounded by level 50-54 gorillas that pull in groups. The cave has no escape route once you are deep inside. Clear methodically and keep an exit path. Do not attempt solo below level 52 without a group.", confidence = "high" },
+
+    -- Making Sense of It
+    [4321] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Jail Break!
+    [4322] = { threat = "HIGH", reason = "Elite quest. Requires entering Blackrock Depths and escorting Marshal Windsor through the prison block. Waves of elite Dark Iron dwarves spawn during the escape, and Windsor can die. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Yuka Screwspigot
+    [4324] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Kharan Mighthammer (Find)
+    [4341] = { threat = "HIGH", reason = "Elite quest. Kharan is held in the Blackrock Depths prison, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
+
+    -- Kharan's Tale
+    [4342] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Bearer of Bad News
+    [4361] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- The Fate of the Kingdom
+    [4362] = { threat = "EXTREME", reason = "Elite quest. Requires killing Emperor Dagran Thaurissan in Blackrock Depths while keeping Princess Moira alive — she heals the Emperor and attacks your group. If she dies, the quest fails and you likely wipe. Full group of level 55+ with a coordinated strategy required. Do not attempt solo.", confidence = "high" },
+
+    -- The Princess's Surprise
+    [4363] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- The Corruption of the Jadefire
+    [4421] = { threat = "MEDIUM", reason = "Jadefire satyrs are levels 48-52 and cast shadow magic; they pull in groups around the Jaedenar area. Xavathras is a named mob with guards. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+
+    -- Felbound Ancients
+    [4441] = { threat = "LOW", reason = "Delivery step with no combat beyond travel. The journey to Darnassus is safe via flight path. Safe if you stay in the city.", confidence = "high" },
+
+    -- Purified!
+    [4442] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Caught!
+    [4449] = { threat = "MEDIUM", reason = "Dark Iron Geologists are levels 46-48 and pull in groups in the Searing Gorge. The outhouse is in a camp patrolled by additional dwarves. Clear methodically and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
+
+    -- Ledger from Tanaris
+    [4450] = { threat = "MEDIUM", reason = "Long cross-zone collection quest. Items are in Tanaris and the Searing Gorge, both patrolled by level 45-50 mobs. Travel between zones is the main risk. Do not attempt below level 45 solo.", confidence = "medium" },
+
+    -- The Key to Freedom
+    [4451] = { threat = "LOW", reason = "Exploration step with no combat. The key is used in the Searing Gorge, which is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+
+    -- The Tome of Nobility
+    [4485] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Summon Felsteed (4487)
+    [4487] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Summon Felsteed (4488)
+    [4488] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Summon Felsteed (4490)
+    [4490] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- A Little Help From My Friends
+    [4491] = { threat = "HIGH", reason = "Escort quest. Ringo faints periodically and must be revived with Spraggle's Canteen; if he dies, the quest fails. The route passes through Fire Plume Ridge and silithid territory in Un'Goro. Clear the path ahead and keep the canteen ready. Do not attempt below level 50 solo without a plan.", confidence = "high" },
+
+    -- Lost!
+    [4492] = { threat = "MEDIUM", reason = "Ringo is on Fire Plume Ridge, which is patrolled by level 50-54 fire elementals and lava creatures. The ridge has steep terrain and hot spots that damage you. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- March of the Silithid
+    [4493] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- A Good Friend
+    [4495] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The cave is guarded by low-level spiders. Manageable solo for a level 7+ character.", confidence = "high" },
+
+    -- Bungle in the Jungle
+    [4496] = { threat = "MEDIUM", reason = "Gorishi Scent Glands drop from silithid inside the Gorishi hives, which are packed with level 50-54 mobs that pull in groups. The Un'Goro Soil is found on the ground. Clear the hives methodically and watch for Swarmers. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Beware of Pterrordax
+    [4501] = { threat = "MEDIUM", reason = "Pterrordax are levels 48-52 and pull in pairs; Frenzied variants hit harder and fly fast. Fight in open areas and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+
+    -- Volcanic Activity
+    [4502] = { threat = "HIGH", reason = "Fire elementals around the volcano are levels 50-54 and have fire shields that damage melee. The volcano rim has lava hazards and elite patrols. Bring fire resistance and clear methodically. Do not attempt below level 50 solo without a group.", confidence = "high" },
+
+    -- Shizzle's Flyer
+    [4503] = { threat = "MEDIUM", reason = "Webbed diemetradon and pterrordax scales drop from level 48-52 mobs in the crater. Both mobs pull in groups and the pterrordax fly fast. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+
+    -- Super Sticky
+    [4504] = { threat = "MEDIUM", reason = "Super Sticky Tar is found on the ground near tar pits in Un'Goro, patrolled by level 48-52 tar beasts and elementals. Clear the area before looting and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+
+    -- Pawn Captures Queen
+    [4507] = { threat = "EXTREME", reason = "Elite quest. Summoning the Gorishi Hive Queen triggers three waves of elite silithid in a deep cave with no escape route. The Queen herself is a level 55 elite with adds. A full group of level 52+ is required. Do not attempt solo — this is a documented Hardcore killer.", confidence = "high" },
+
+    -- Calm Before the Storm
+    [4508] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Calm Before the Storm (Bank Voucher)
+    [4510] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- A Little Slime Goes a Long Way (Cursed/Tainted)
+    [4512] = { threat = "HIGH", reason = "Cursed and tainted oozes are levels 50-54 in Felwood and Un'Goro; they split when killed and can overwhelm solo players. The jars must be filled while the ooze is alive, meaning you fight each one. Clear methodically and be ready to flee. Do not attempt below level 50 solo without a plan.", confidence = "high" },
+
+    -- A Little Slime Goes a Long Way (Pure Samples)
+    [4513] = { threat = "HIGH", reason = "Pure oozes are levels 52-56 in Winterspring and Un'Goro; they hit hard and split on death. The jars must be filled while the ooze is alive. Clear methodically and keep an escape route. Do not attempt below level 52 solo without a plan.", confidence = "high" },
+
+    -- Kayneth Stillwind
+    [4581] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Ashenvale is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+
+    -- The Sparklematic 5200! (4601)
+    [4601] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- The Sparklematic 5200! (4602)
+    [4602] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Avast Ye, Admiral!
+    [4621] = { threat = "EXTREME", reason = "PvP quest. Requires slaying Fleet Master Seahorn and Baron Revilgaz inside Booty Bay, a neutral town patrolled by elite Bruisers who one-shot low-level players. The targets are high-level elites with guards. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+
+    -- Washed Ashore (Sea Turtle Remains)
+    [4681] = { threat = "MEDIUM", reason = "The skeletal sea turtle is underwater west of Auberdine, guarded by level 18-22 murlocs. Fighting underwater risks drowning if feared or rooted. Clear the area before diving and surface before your breath runs out. Do not attempt below level 18 solo.", confidence = "medium" },
+
+    -- Put Her Down
+    [4701] = { threat = "HIGH", reason = "Elite quest. Requires entering Blackrock Spire to kill Halycon, a level 60 elite worg boss in Lower Blackrock Spire. The dungeon is filled with elites and requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+
+    -- Beached Sea Turtle (4722)
+    [4722] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Beached Sea Creature (4723)
+    [4723] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Beached Sea Turtle (Strangely Marked Box)
+    [4725] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Broodling Essence
+    [4726] = { threat = "HIGH", reason = "Elite quest. Requires using the Draco-Incarcinatrix on black dragon whelps in the Burning Steppes; the whelps are levels 54-57 and pull in groups, with elite drakes patrolling nearby. Do not attempt below level 54 solo without a group.", confidence = "high" },
+
+    -- Beached Sea Turtle (4727)
+    [4727] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Beached Sea Creature (4728)
+    [4728] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Kibler's Exotic Pets
+    [4729] = { threat = "HIGH", reason = "Elite quest. Requires entering Lower Blackrock Spire to find Bloodaxe Worg Pups, which are guarded by level 55-60 elite orcs and worgs. The pups themselves are aggressive. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Beached Sea Creature (4730)
+    [4730] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Beached Sea Turtle (4731)
+    [4731] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Beached Sea Turtle (4732)
+    [4732] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Beached Sea Creature (4733)
+    [4733] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+
+    -- Egg Freezing
+    [4734] = { threat = "HIGH", reason = "Elite quest. Requires entering the Rookery in Upper Blackrock Spire to use the Eggscilloscope on a dragon egg. The Rookery is packed with level 55-60 elite dragonkin, and the room spawns adds when disturbed. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Egg Collection
+    [4735] = { threat = "HIGH", reason = "Elite quest. Requires collecting 8 dragon eggs from the Rookery in Upper Blackrock Spire. The eggs are guarded by elite dragonkin, and the room is a deathtrap for solo players. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- In Search of Menara Voidrender (4736)
+    [4736] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to the Barrens is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+
+    -- In Search of Menara Voidrender (4738)
+    [4738] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to the Barrens is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+
+    -- WANTED: Murkdeep!
+    [4740] = { threat = "MEDIUM", reason = "Group quest. Triggering the event spawns three waves of murlocs (3 Coastrunners, then 2 Warriors, then Murkdeep with a Hunter add) in quick succession. A level 19 player died 4 times trying to solo this. Rest between waves and back away from the huts to avoid the next spawn. Do not attempt below level 17 solo without a plan.", confidence = "high" },
+
+    -- Seal of Ascension (Gems)
+    [4742] = { threat = "HIGH", reason = "Elite quest. Requires killing three dungeon bosses in Lower Blackrock Spire (War Master Voone, Highlord Omokk, Overlord Wyrmthalak). LBRS is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Seal of Ascension (Emberstrife)
+    [4743] = { threat = "HIGH", reason = "Requires beating Emberstrife, a level 60 elite dragon in Dustwallow Marsh, to 10% health, then mind-controlling him with the Orb of Draconic Energy. The mind-control can resist, and a fatal resist means death. Bring a group or significant overleveling. Do not attempt solo below level 58.", confidence = "high" },
+
+    -- Thundris Windweaver
+    [4761] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Cliffspring River
+    [4762] = { threat = "LOW", reason = "Travel and collection step with no combat. The river is patrolled by low-level mobs. Safe if you avoid the camps. Do not attempt below level 15 solo.", confidence = "medium" },
+
+    -- The Blackwood Corrupted
+    [4763] = { threat = "HIGH", reason = "Requires gathering items from Blackwood furbolg camps, then summoning a satyr corruptor at a bonfire. The corruptor is a level 20-22 elite with adds. The camps are dense with furbolgs that pull in groups. Clear the area before summoning and bring a group. Do not attempt below level 20 solo without a plan.", confidence = "high" },
+
+    -- Doomrigger's Clasp
+    [4764] = { threat = "LOW", reason = "Delivery step with no combat. The clasp is obtained from a dungeon; if you already have it, this is safe. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Delivery to Ridgewell
+    [4765] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Mayara Brightwing
+    [4766] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Dawn's Gambit
+    [4771] = { threat = "EXTREME", reason = "Elite quest. Requires placing Dawn's Gambit in the Scholomance Viewing Room, which summons Vectus, a level 60 elite. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Components for the Enchanted Gold Bloodrobe (Gold Bar)
+    [4781] = { threat = "LOW", reason = "Warlock class quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Components for the Enchanted Gold Bloodrobe (Return)
+    [4782] = { threat = "LOW", reason = "Warlock class quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Components for the Enchanted Gold Bloodrobe (Blood/Infernal)
+    [4783] = { threat = "MEDIUM", reason = "Hatefury Blood drops from level 30-34 demons in Desolace, and the Lesser Infernal Stone drops from a level 35 elite infernal. The demons pull in groups and cast shadow magic. Clear methodically and watch for adds. Do not attempt below level 32 solo.", confidence = "medium" },
+
+    -- Components for the Enchanted Gold Bloodrobe (Thread/Coals/Shard)
+    [4784] = { threat = "LOW", reason = "Warlock class quest collection step with no combat beyond gathering the materials. Safe if you stay on the road.", confidence = "high" },
+
+    -- The Completed Robe
+    [4786] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Ancient Egg
+    [4787] = { threat = "HIGH", reason = "The egg is obtained from the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. The journey to Tanaris is dangerous for low-level players. Do not attempt solo.", confidence = "high" },
+
+    -- The Final Tablets
+    [4788] = { threat = "HIGH", reason = "The tablets are obtained from the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Felnok Steelspring
+    [4808] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Chillwind Horns
+    [4809] = { threat = "MEDIUM", reason = "Uncracked Chillwind Horns drop from Chillwind chimaeras in Winterspring, levels 53-57. The chimaeras are aggressive and can pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Return to Tinkee
+    [4810] = { threat = "LOW", reason = "Delivery step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- The Red Crystal
+    [4811] = { threat = "LOW", reason = "Exploration step with no combat. The crystal is along the mountain wall, patrolled by low-level mobs. Safe if you avoid the camps. Do not attempt below level 15 solo.", confidence = "medium" },
+
+    -- As Water Cascades
+    [4812] = { threat = "LOW", reason = "Collection and exploration step with no combat. The moonwell is in Auberdine, and the crystal is along the mountain wall. Safe if you avoid the mob camps. Do not attempt below level 15 solo.", confidence = "medium" },
+
+    -- The Fragments Within
+    [4813] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- You Scream, I Scream...
+    [4822] = { threat = "LOW", reason = "Children's Week holiday quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Strange Sources
+    [4842] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Enraged Wildkin (Locate Camp)
+    [4861] = { threat = "MEDIUM", reason = "The camp is in southern Winterspring, patrolled by level 53-57 wildkin and frostsabers. The wildkin are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- En-Ay-Es-Tee-Why
+    [4862] = { threat = "HIGH", reason = "Elite quest. Requires entering Lower Blackrock Spire to collect Spire Spider Eggs from the Spire Spider cave. The cave is packed with level 55-60 elite spiders. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Enraged Wildkin (Find Wagon)
+    [4863] = { threat = "MEDIUM", reason = "The wagon is in southern Winterspring, patrolled by level 53-57 wildkin. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Enraged Wildkin (Supplies/Amulet)
+    [4864] = { threat = "MEDIUM", reason = "The supplies and amulet are in wildkin territory in southern Winterspring, patrolled by level 53-57 mobs. The wildkin that stole the amulet is a named mob with adds. Clear the area before engaging and watch for adds. Do not attempt below level 53 solo without a plan.", confidence = "medium" },
+
+    -- Mother's Milk
+    [4866] = { threat = "EXTREME", reason = "Elite quest. Requires entering Lower Blackrock Spire to engage Mother Smolderweb, a level 60 elite spider, and get poisoned by her. You may have to kill her, which aggroes nearby elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Urok Doomhowl
+    [4867] = { threat = "HIGH", reason = "Elite quest. Summoning Urok triggers waves of elite ogres in Lower Blackrock Spire. Without crowd control, the ogres stack bleed effects that can tick for 200-300 health per second. A full group of level 55+ with CC is required. Do not attempt solo.", confidence = "high" },
+
+    -- Guardians of the Altar
+    [4901] = { threat = "MEDIUM", reason = "Escort quest. Ranshalla is tanky and can handle the wildkin herself; let her pull aggro before attacking. The quest is long (14-17 minutes) and can bug if torches are lit before she starts channeling. Do not attack before she has 5-6 hits of threat. Soloable at level 54+ with patience.", confidence = "high" },
+
+    -- Wildkin of Elune
+    [4902] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Further Corruption
+    [4906] = { threat = "MEDIUM", reason = "Jadefire Tricksters can mind-control you, briefly flagging you as hostile to other players. Hellcallers cast a fear-like insanity effect that can run you into additional mobs. Pull singles and clear the area around Xavaric before engaging. Do not attempt below level 52 solo without a plan to handle the mind-control.", confidence = "high" },
+
+    -- Tinkee Steamboil
+    [4907] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Cleansing of the Orb of Orahil
+    [4961] = { threat = "MEDIUM", reason = "Warlock class quest. Tabetha summons a level 40 elite demon in her garden with a 3-minute timer. A level 37 warlock soloed it with a Voidwalker and consumables, but adds (spiders, raptors) can join and ruin the attempt. Clear the area before starting. Do not attempt below level 37 solo without a plan and consumables.", confidence = "high" },
+
+    -- Shard of a Felhound
+    [4962] = { threat = "MEDIUM", reason = "Warlock class quest. Requires capturing a Mana Eater's soul in Desolace by using the Felhas Ruby just before it dies. The Mana Eaters are level 37-40 and are found in Mannoroc Coven, patrolled by demons. Do not turn in this quest before also completing Shard of an Infernal, or you lose the reward. Do not attempt below level 36 solo.", confidence = "high" },
+
+    -- Shard of an Infernal
+    [4963] = { threat = "MEDIUM", reason = "Warlock class quest. Requires capturing a Lesser Infernal's soul in Desolace's Mannoroc Coven using the Infus Emerald. The infernals are level 37-40 and are patrolled by additional demons. Do not turn in this quest before also completing Shard of a Felhound. Do not attempt below level 36 solo.", confidence = "high" },
+
+    -- The Completed Orb of Dar'Orahil
+    [4964] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Knowledge of the Orb of Orahil (4965)
+    [4965] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Knowledge of the Orb of Orahil (4968)
+    [4968] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Frostsaber Provisions
+    [4970] = { threat = "MEDIUM", reason = "Shardtooth and Chillwind meats drop from bears and chimaeras in Winterspring, levels 53-57. The mobs are aggressive and pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- A Matter of Time
+    [4971] = { threat = "HIGH", reason = "Temporal Parasites spawn in unpredictable numbers (2 to 10) and multiply when killed near the silo. They cast a 60% slow that makes escape difficult. Run away from the silo when overwhelmed; they do not follow into the river. A level 56 mage had 10 spawn; a level 55 hunter had 4. Do not attempt below level 54 solo without a plan to kite away from the silo.", confidence = "high" },
+
+    -- Counting Out Time (4972)
+    [4972] = { threat = "MEDIUM", reason = "Andorhal Watches are in lockboxes scattered among the ruins of Andorhal, patrolled by level 55-58 Scourge mobs. The ruins are dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- Counting Out Time (4973)
+    [4973] = { threat = "MEDIUM", reason = "Duplicate turn-in for the same watches. Andorhal is patrolled by level 55-58 Scourge mobs. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- The Completed Orb of Noh'Orahil
+    [4975] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Returning the Cleansed Orb
+    [4976] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- The Wildlife Suffers Too (Wolves)
+    [4984] = { threat = "MEDIUM", reason = "Diseased Wolves are levels 53-56 in the Western Plaguelands. They are aggressive and can pull in pairs. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- The Wildlife Suffers Too (Grizzlies)
+    [4985] = { threat = "MEDIUM", reason = "Diseased Grizzlies are levels 53-56 in the Western Plaguelands. They hit harder than wolves and can pull in pairs. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Glyphed Oaken Branch
+    [4986] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Darnassus is safe via flight path. Safe if you stay in the city.", confidence = "high" },
+
+    -- Bijou's Belongings (5001)
+    [5001] = { threat = "HIGH", reason = "Elite quest. Bijou's belongings are inside Lower Blackrock Spire, a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Message to Maxwell
+    [5002] = { threat = "LOW", reason = "Delivery step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Better Late Than Never (5021)
+    [5021] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+
+    -- Better Late Than Never (5022)
+    [5022] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Pip Quickwit, At Your Service!
+    [5047] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Everlook is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Good Natured Emma
+    [5048] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Good Luck Charm
+    [5050] = { threat = "LOW", reason = "Delivery step with no combat. The Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Two Halves Become One
+    [5051] = { threat = "MEDIUM", reason = "The other half of the charm is on the Felstone Farm in the Western Plaguelands, patrolled by level 53-56 Scourge mobs. Clear the area before looting and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Aquatic Form (5061)
+    [5061] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Cap of the Scarlet Savant
+    [5063] = { threat = "HIGH", reason = "Requires materials from high-level dungeons (Pristine Hide of the Beast from Upper Blackrock Spire, Frayed Abomination Stitchings from Stratholme) plus 50 gold. The dungeon components require full groups of level 55+. Do not attempt solo.", confidence = "high" },
+
+    -- The Lost Tablets of Mosh'aru
+    [5065] = { threat = "HIGH", reason = "The tablets are inside Zul'Farrak, a level 44-50 dungeon filled with elites. A full group of level 46+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- A Call to Arms: The Plaguelands! (5066)
+    [5066] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Leggings of Arcana
+    [5067] = { threat = "HIGH", reason = "Requires materials from high-level dungeons: Pristine Hide of the Beast (Upper Blackrock Spire), Frayed Abomination Stitchings (Stratholme), and Frostwhisper's Embalming Fluid (Scholomance). Plus 5 Arcanite Bars and 50 gold. Full groups of level 55+ required for each dungeon. Do not attempt solo.", confidence = "high" },
+
+    -- Breastplate of Bloodthirst
+    [5068] = { threat = "HIGH", reason = "Requires materials from high-level dungeons: Pristine Hide of the Beast (Upper Blackrock Spire), Frayed Abomination Stitchings (Stratholme), and Skin of Shadow (Scholomance). Plus 5 Arcanite Bars and 50 gold. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
+
+    -- Maxwell's Mission
+    [5081] = { threat = "HIGH", reason = "Elite quest. Requires killing three bosses in Lower Blackrock Spire: War Master Voone, Highlord Omokk, and Overlord Wyrmthalak. LBRS is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Threat of the Winterfall
+    [5082] = { threat = "MEDIUM", reason = "Winterfall furbolgs are levels 53-57 in Winterspring and pull in groups. The pathfinders and totemics cast nature spells. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Winterfall Firewater
+    [5083] = { threat = "MEDIUM", reason = "The Empty Firewater Flask is in the Winterfall Village, patrolled by level 53-57 furbolgs. The flask is guarded by the furbolgs. Clear the area before looting and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Falling to Corruption
+    [5084] = { threat = "MEDIUM", reason = "The Deadwood furbolg camp in northern Felwood is patrolled by level 50-54 mobs. The clue is in the camp, guarded by furbolgs that pull in groups. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Mystery Goo
+    [5085] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Toxic Horrors
+    [5086] = { threat = "MEDIUM", reason = "Toxic Horror Droplets drop from toxic horrors in Winterspring, levels 54-58. The horrors are aggressive and can pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- Winterfall Runners
+    [5087] = { threat = "HIGH", reason = "The Winterfall Runners are three level 55 elites who patrol together on a fixed route through Winterspring. They hit hard and must be killed quickly or they escape. A level 56 hunter soloed them by kiting and using a pet, but it required careful timing. Do not attempt below level 55 solo without a plan to separate and burst them down.", confidence = "high" },
+
+    -- General Drakkisath's Command
+    [5089] = { threat = "LOW", reason = "Delivery step with no combat. The command is obtained from a dungeon boss; if you already have it, this is safe. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- A Call to Arms: The Plaguelands! (5090)
+    [5090] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- A Call to Arms: The Plaguelands! (5091)
+    [5091] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Clear the Way
+    [5092] = { threat = "MEDIUM", reason = "Skeletal Flayers and Slavering Ghouls are levels 53-56 in Sorrow Hill. They are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- All Along the Watchtowers
+    [5097] = { threat = "HIGH", reason = "Andorhal is filled with level 55-58 elite Scourge mobs, including undead that patrol in packs. You must stand in the doorway of each tower to plant the beacon, which aggros nearby mobs. The torch has only 5 charges. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- General Drakkisath's Demise
+    [5102] = { threat = "EXTREME", reason = "Elite quest. Requires killing General Drakkisath, the final boss of Upper Blackrock Spire. Drakkisath is a level 63 elite with powerful abilities and adds. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Hot Fiery Death
+    [5103] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. The gauntlets are obtained from a high-level dungeon; this quest is the start of a crafting chain. Safe if you stay in the area.", confidence = "high" },
+
+    -- High Chief Winterfall
+    [5121] = { threat = "HIGH", reason = "High Chief Winterfall is a level 56 elite furbolg in Winterspring, surrounded by guards. He hits hard and is in a confined area. This is an Elite quest by design. Bring a group of level 55+ or skip on Hardcore.", confidence = "high" },
+
+    -- The Final Piece
+    [5123] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Fiery Plate Gauntlets
+    [5124] = { threat = "MEDIUM", reason = "Requires 6 Enchanted Thorium Bars, 2 Essence of Fire, and 4 Star Rubies, plus the Unfired Plate Gauntlets from a previous quest. The materials are crafted or purchased. This is a profession step with no combat beyond gathering. Safe if you stay in the city.", confidence = "high" },
+
+    -- Lorax's Tale
+    [5126] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Demon Forge
+    [5127] = { threat = "HIGH", reason = "Elite quest. Requires entering Upper Blackrock Spire to kill Goraluk Anvilcrack, a level 60 elite orc. The dungeon is filled with elites and requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+
+    -- Words of the High Chief
+    [5128] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Felwood is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Dragonscale Leatherworking
+    [5141] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+
+    -- Little Pamela
+    [5142] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Pamela is a ghost child in the Western Plaguelands. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Tribal Leatherworking
+    [5143] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+
+    -- Elemental Leatherworking
+    [5144] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+
+    -- Pamela's Doll
+    [5149] = { threat = "MEDIUM", reason = "The doll is in the ruins of Darrowshire in the Eastern Plaguelands, patrolled by level 55-58 Scourge mobs. The ruins are dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- Auntie Marlene
+    [5152] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Marlene is south of the Ruins of Andorhal, which is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- A Strange Historian
+    [5153] = { threat = "LOW", reason = "Delivery step with no combat. The ring is obtained from a previous quest; this is a turn-in to Chromie in Andorhal. The journey to the Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- The Annals of Darrowshire
+    [5154] = { threat = "MEDIUM", reason = "The annals are in a chest inside the ruined house in Darrowshire, patrolled by level 55-58 Scourge mobs. The house is surrounded by undead that pull in groups. Clear the area before looting and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- Forces of Jaedenar
+    [5155] = { threat = "MEDIUM", reason = "Jaedenar is a demon-infested cave system in Felwood, levels 50-54. The guardsmen and adepts pull in groups, and the cultists cast shadow magic. The cave is tight with no escape route deep inside. Clear methodically and keep an exit path. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Verifying the Corruption
+    [5156] = { threat = "MEDIUM", reason = "Entropic Beasts and Horrors are levels 50-54 in Shatter Scar Vale, and they pull in pairs. The craters are filled with corrupt fel water that damages you on contact. Clear methodically and avoid standing in the water. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Collection of the Corrupt Water
+    [5157] = { threat = "HIGH", reason = "The Moon Well is in the center of Jaedenar, surrounded by level 50-54 demons and cultists. Filling the canteen requires standing still for several seconds while mobs patrol nearby. A level 50 druid soloed this by stealthing in, but non-stealth classes will fight through multiple packs. Do not attempt below level 50 solo without a plan to clear or avoid the guards.", confidence = "high" },
+
+    -- Seeking Spiritual Aid
+    [5158] = { threat = "LOW", reason = "Delivery step with no combat. The journey to the Barrens is long but safe via flight paths. Do not attempt below level 45 solo.", confidence = "medium" },
+
+    -- Cleansed Water Returns to Felwood
+    [5159] = { threat = "LOW", reason = "Delivery step with no combat. The journey back to Felwood is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- The Matron Protectorate
+    [5160] = { threat = "MEDIUM", reason = "Haleh is in Winterspring, protected by level 55-58 mobs along the way. The journey through Winterspring is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+
+    -- Wrath of the Blue Flight (Speak with Haleh)
+    [5161] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Wrath of the Blue Flight (Speak with Jeziba)
+    [5162] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Andorhal is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+
+    -- Are We There, Yeti? (Umi's Mechanical Yeti)
+    [5163] = { threat = "LOW", reason = "Delivery and interaction step with no combat. You must travel to Everlook, Gadgetzan, and Marshal's Refuge to scare Umi's friends. The journey is long but safe via flight paths. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Catalogue of the Wayward
+    [5164] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Dousing the Flames of Protection
+    [5165] = { threat = "HIGH", reason = "Requires entering Shadow Hold in Felwood to douse four braziers, each guarded by level 52-56 demons and cultists. The cave is a maze with patrolling elites and no escape route deep inside. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Breastplate of the Chromatic Flight
+    [5166] = { threat = "HIGH", reason = "Requires a Chromatic Carapace and 10 Brilliant Chromatic Scales from Upper Blackrock Spire, plus 10 Blood of Heroes and 10 Frayed Abomination Stitchings from high-level dungeons. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
+
+    -- Legplates of the Chromatic Defier
+    [5167] = { threat = "HIGH", reason = "Requires a Chromatic Carapace and 10 Brilliant Chromatic Scales from Upper Blackrock Spire, plus 10 Blood of Heroes and 5 Skin of Shadow from high-level dungeons. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
+
+    -- Heroes of Darrowshire
+    [5168] = { threat = "MEDIUM", reason = "Davil's Libram and Redpath's Shield are in the Eastern Plaguelands, guarded by level 55-58 Scourge mobs. The items are in different locations, both patrolled by undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- Villains of Darrowshire
+    [5181] = { threat = "HIGH", reason = "The Skull of Horgus and Shattered Sword of Marduk drop from elite mobs in the Eastern Plaguelands and Stratholme. Horgus is a level 58 elite who patrols with adds. A full group is required for the Stratholme portion. Do not attempt solo.", confidence = "high" },
+
+    -- Winterfall Intrusion
+    [5201] = { threat = "MEDIUM", reason = "Winterfall Shaman and Ursa are levels 53-57 in Winterspring and pull in groups. The shaman cast nature spells and the ursa hit hard. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- A Strange Red Key
+    [5202] = { threat = "MEDIUM", reason = "The key is in Jaedenar, a demon-infested cave in Felwood, levels 50-54. The cave is a maze with patrolling elites and no escape route deep inside. Clear methodically and keep an exit path. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Rescue From Jaedenar
+    [5203] = { threat = "HIGH", reason = "Escort quest. Arko'narin must be protected through Shadow Hold in Felwood, which is filled with level 52-56 demons and cultists. The escort spawns waves of enemies, and Arko'narin can die. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Retribution of the Light
+    [5204] = { threat = "HIGH", reason = "Rakaiah is a level 54 elite succubus in Jaedenar, surrounded by demons. The cave is a maze with patrolling elites. Clear the area before engaging and be ready for adds. Do not attempt below level 52 solo without a group.", confidence = "high" },
+
+    -- Marauders of Darrowshire
+    [5206] = { threat = "MEDIUM", reason = "Resonating Skulls drop from level 55-58 Scourge mobs in the Eastern Plaguelands. The Mystic Crystal is in a chest in the ruins. The area is dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- Brother Carlin
+    [5210] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Light's Hope Chapel is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Defenders of Darrowshire
+    [5211] = { threat = "MEDIUM", reason = "Darrowshire Spirits are freed by using the Extended Annals on the ghosts in the Eastern Plaguelands. The area is patrolled by level 55-58 Scourge mobs. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- The Flesh Does Not Lie
+    [5212] = { threat = "HIGH", reason = "Plagued Flesh Samples drop from mobs inside Stratholme, a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- The Active Agent
+    [5213] = { threat = "HIGH", reason = "Requires entering Stratholme and searching the ziggurats for Scourge Data. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- The Great Ezra Grimm
+    [5214] = { threat = "HIGH", reason = "Requires entering Stratholme to find Ezra Grimm's smoke shop and recover the tobacco. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- The Scourge Cauldrons
+    [5215] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Target: Felstone Field
+    [5216] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 53 elite undead who spawns when you approach the cauldron. He is surrounded by Scourge mobs. Clear the area before engaging and be ready for adds. Do not attempt below level 52 solo without a group.", confidence = "medium" },
+
+    -- Return to Chillwind Camp
+    [5217] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Target: Dalson's Tears
+    [5219] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 53 elite undead who spawns when you approach the cauldron, surrounded by Scourge mobs. Clear the area before engaging and watch for adds. Do not attempt below level 52 solo without a group.", confidence = "medium" },
+
+    -- Return to Chillwind Camp (5220)
+    [5220] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Target: Writhing Haunt
+    [5222] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 54 elite undead who spawns when you approach the cauldron, surrounded by Scourge mobs. Clear the area before engaging and watch for adds. Do not attempt below level 53 solo without a group.", confidence = "medium" },
+
+    -- Return to Chillwind Camp (5223)
+    [5223] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Target: Gahrron's Withering
+    [5225] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 55 elite undead who spawns when you approach the cauldron, surrounded by Scourge mobs. Clear the area before engaging and watch for adds. Do not attempt below level 54 solo without a group.", confidence = "medium" },
+
+    -- Return to Chillwind Camp (5226)
+    [5226] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Uncle Carlin
+    [5241] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Eastern Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- A Final Blow
+    [5242] = { threat = "HIGH", reason = "Moora and Salia are level 55 elites in Jaedenar's Shadow Hold, surrounded by demons. Shadow Lord Fel'dan is a level 56 elite who hits hard and casts shadow magic. The cave is a maze with patrolling elites. A full group of level 54+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Houses of the Holy
+    [5243] = { threat = "HIGH", reason = "Requires entering Stratholme to loot supply crates for Holy Water. The city is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- The Ruins of Kel'Theril
+    [5244] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Troubled Spirits of Kel'Theril
+    [5245] = { threat = "MEDIUM", reason = "Highborne Relic Fragments are found in the Ruins of Kel'Theril in Winterspring, patrolled by level 53-57 mobs. The ruins are dense with spirits that pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Fragments of the Past (5246)
+    [5246] = { threat = "HIGH", reason = "The Sacred Highborne Writings are in the Temple of Zin-Malor in Azshara, a level 50-55 zone patrolled by elite naga and elementals. The temple is deep in Azshara's southern peninsula. Do not attempt below level 52 solo without a group.", confidence = "high" },
+
+    -- Fragments of the Past (5247)
+    [5247] = { threat = "LOW", reason = "Delivery step with no combat. The materials are crafted or purchased. The journey to the Eastern Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Tormented By the Past
+    [5248] = { threat = "MEDIUM", reason = "The Crystal of Zin-Malor must be taken to Lake Kel'Theril in Winterspring, patrolled by level 53-57 spirits. The lake is in the center of the ruins. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- To Winterspring!
+    [5249] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Starfall
+    [5250] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- The Archivist
+    [5251] = { threat = "HIGH", reason = "Archivist Galford is a level 60 elite Scarlet Crusade boss inside Stratholme. He is surrounded by elite guards and casts powerful spells. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Remorseful Highborne
+    [5252] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Crystal of Zin-Malor
+    [5253] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Eagan Peltskinner
+    [5261] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Truth Comes Crashing Down
+    [5262] = { threat = "HIGH", reason = "Requires killing Balnazzar, the final boss of Stratholme's Scarlet side, and delivering his head. Balnazzar is a level 63 elite dreadlord with powerful abilities. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Above and Beyond
+    [5263] = { threat = "EXTREME", reason = "Elite quest. Requires killing Baron Rivendare, the final boss of Stratholme's Undead side. Rivendare is a level 62 elite death knight with powerful abilities and adds. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Lord Maxwell Tyrosus
+    [5264] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Argent Hold
+    [5265] = { threat = "LOW", reason = "Interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Restless Souls (5281)
+    [5281] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Stratholme is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+
+    -- The Restless Souls (5282)
+    [5282] = { threat = "HIGH", reason = "Requires entering Stratholme to free 15 Restless Souls using Egan's Blaster. The city is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- The Art of the Armorsmith
+    [5283] = { threat = "LOW", reason = "Profession quest with no combat beyond crafting the items. Safe if you stay in the city. The quest is a permanent specialization choice.", confidence = "high" },
+
+    -- The Way of the Weaponsmith
+    [5284] = { threat = "LOW", reason = "Profession quest with no combat beyond crafting the items. Safe if you stay in the city. The quest is a permanent specialization choice.", confidence = "high" },
+
+    -- Sweet Serenity
+    [5305] = { threat = "HIGH", reason = "Requires entering Stratholme to kill the Crimson Hammersmith, a level 58 elite. The city is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Snakestone of the Shadow Huntress
+    [5306] = { threat = "HIGH", reason = "Requires entering Blackrock Spire to kill Shadow Hunter Vosh'gajin, a level 60 elite troll boss. The dungeon is filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Corruption
+    [5307] = { threat = "HIGH", reason = "Requires entering Stratholme to kill the Black Guard Swordsmith, an elite undead inside the city. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- The Sleeper Has Awakened
+    [5321] = { threat = "MEDIUM", reason = "Escort quest. Kerlonian Evershade is a sleeping druid who must be protected on the road to Maestra's Post in Ashenvale. The route is patrolled by level 20-28 mobs, and the escort can bug if interrupted. Clear the path ahead and watch for ambushes. Do not attempt below level 22 solo without a plan.", confidence = "medium" },
+
+    -- Barov Family Fortune
+    [5343] = { threat = "HIGH", reason = "Requires entering Scholomance to recover four Barov family deeds scattered throughout the dungeon. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Doctor Theolen Krastinov, the Butcher
+    [5382] = { threat = "HIGH", reason = "Requires entering Scholomance to kill Doctor Theolen Krastinov, a level 60 elite boss, and burn the remains of Eva and Lucien Sarkhoff. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Kirtonos the Herald
+    [5384] = { threat = "EXTREME", reason = "Elite quest. Requires placing Blood of Innocents in the brazier on the Scholomance porch to summon Kirtonos, a level 62 elite gargoyle. He hits hard, fears the group, and can wipe unprepared parties. A full group of level 58+ with a tank and healer is required. Do not attempt solo.", confidence = "high" },
+
+    -- The Remains of Trey Lightforge
+    [5385] = { threat = "LOW", reason = "Delivery step with no combat. The remains are obtained from a previous quest; this is a turn-in to Jessir Moonbow in Felwood. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- The Human, Ras Frostwhisper
+    [5461] = { threat = "MEDIUM", reason = "The Keepsake of Remembrance is in the ruins of Stromgarde, patrolled by level 35-40 Syndicate mobs. The ruins are dense with hostile mobs that pull in groups. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+
+    -- The Dying, Ras Frostwhisper
+    [5462] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Light's Hope Chapel is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Menethil's Gift (5463)
+    [5463] = { threat = "HIGH", reason = "Requires entering Stratholme to find Menethil's Gift and place the Keepsake on the unholy ground. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Menethil's Gift (5464)
+    [5464] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Soulbound Keepsake
+    [5465] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Caer Darrow is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- The Lich, Ras Frostwhisper
+    [5466] = { threat = "HIGH", reason = "Requires entering Scholomance to find Ras Frostwhisper, a level 60 elite lich. Using the Soulbound Keepsake on him reverts him to mortal form, and he must then be killed. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Bone Collector
+    [5501] = { threat = "LOW", reason = "Collection step with no combat beyond gathering Kodo Bones from the Kodo Graveyard in Desolace. The bones are on the ground and unguarded. Safe if you avoid the patrolling kodos. Do not attempt below level 35 solo.", confidence = "medium" },
+
+    -- Mantles of the Dawn (5504)
+    [5504] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Mantles of the Dawn (5507)
+    [5507] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Mantles of the Dawn (5513)
+    [5513] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Krastinov's Bag of Horrors
+    [5515] = { threat = "HIGH", reason = "Requires entering Scholomance to kill Jandice Barov, a level 60 elite boss, and recover Krastinov's Bag of Horrors. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Chromatic Mantle of the Dawn (5517)
+    [5517] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- The Gordok Ogre Suit
+    [5518] = { threat = "MEDIUM", reason = "Requires entering Dire Maul's Gordok wing to reach Knot Thimblejack, who is chained inside. Dire Maul is a level 55-60 dungeon filled with elites. The materials are crafted. Do not attempt solo without a group already clearing the wing.", confidence = "medium" },
+
+    -- Chromatic Mantle of the Dawn (5521)
+    [5521] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Leonid Barthalomew
+    [5522] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Chromatic Mantle of the Dawn (5524)
+    [5524] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Shards of the Felvine
+    [5526] = { threat = "HIGH", reason = "Requires entering Dire Maul's East wing to kill Alzzin the Wildshaper, a level 60 elite satyr, and acquire a Felvine Shard. Dire Maul is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- A Reliquary of Purity
+    [5527] = { threat = "HIGH", reason = "The Reliquary of Purity is in the ruins of Southwind Village in Silithus, patrolled by level 55-58 silithid and Twilight's Hammer cultists. The village is dense with mobs and has patrolling elites. Clear methodically and watch for adds. Do not attempt below level 55 solo without a group.", confidence = "high" },
+
+    -- Plagued Hatchlings
+    [5529] = { threat = "MEDIUM", reason = "Plagued Hatchlings are in the Eastern Plaguelands, levels 53-57. They pull in groups and can overwhelm solo players. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Betina Bigglezink
+    [5531] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Scholomance (5533)
+    [5533] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Point is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Kim'jael's "Missing" Equipment
+    [5534] = { threat = "MEDIUM", reason = "The rune is in the Ruins of Eldarath in Azshara, patrolled by level 48-52 naga. The ruins are dense with mobs that pull in groups. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+
+    -- Spiritual Unrest
+    [5535] = { threat = "MEDIUM", reason = "Highborne Apparitions and Lichlings are levels 48-52 in Azshara, and they cast shadow magic. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+
+    -- A Land Filled with Hatred
+    [5536] = { threat = "MEDIUM", reason = "Haldarr satyrs are levels 45-50 on the border of Ashenvale and Azshara. They cast shadow magic and pull in groups. The tricksters can mind-control. Clear methodically and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
+
+    -- Skeletal Fragments
+    [5537] = { threat = "MEDIUM", reason = "Skeletal Fragments drop from level 55-58 skeletons in the Western Plaguelands. The skeletons are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+
+    -- Mold Rhymes With...
+    [5538] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Ammo for Rumbleshot
+    [5541] = { threat = "LOW", reason = "Delivery step with no combat. The ammo is in Dun Morogh, which is safe for low-level players. Safe if you stay on the road.", confidence = "high" },
+
+    -- Demon Dogs
+    [5542] = { threat = "MEDIUM", reason = "Plaguehound Runts, Plaguehounds, and Frenzied Plaguehounds are levels 53-57 in the Eastern Plaguelands. They are aggressive and pull in packs. The frenzied variants hit harder and have a disease effect. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Blood Tinged Skies
+    [5543] = { threat = "MEDIUM", reason = "Plaguebats are levels 53-57 in the Eastern Plaguelands. They fly fast and pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+
+    -- Carrion Grubbage
+    [5544] = { threat = "MEDIUM", reason = "Carrion Grubs and Devourers are levels 54-58 in the Eastern Plaguelands. They are aggressive and the drop rate for Slabs of Carrion Worm Meat is moderate. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- A Bundle of Trouble
+    [5545] = { threat = "LOW", reason = "Collection step with no combat beyond gathering wood. The bundles are in Elwynn Forest, guarded by low-level mobs. Safe if you avoid the camps. Do not attempt below level 8 solo.", confidence = "high" },
+
+    -- Kodo Roundup
+    [5561] = { threat = "MEDIUM", reason = "Requires using the Kodo Kombobulator to tame and escort five Kodos from the Kodo Graveyard in Desolace. The kodos are level 35-40 and are neutral until provoked. The graveyard is patrolled by level 35-40 kodos and scavengers. Clear the area before taming and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+
+    -- Healthy Dragon Scale
+    [5582] = { threat = "HIGH", reason = "The Healthy Dragon Scale drops from a level 60 elite dragonkin in the Eastern Plaguelands. The dragonkin are elite and hit hard. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Sister Pamela
+    [5601] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Pamela is a ghost child in Darrowshire. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Garments of the Moon (Night Elf Priest)
+    [5621] = { threat = "LOW", reason = "Priest class quest. Heal Sentinel Shaya with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- In Favor of Elune
+    [5622] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- In Favor of the Light (Priestess Josetta)
+    [5623] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Garments of the Light (Human Priest)
+    [5624] = { threat = "LOW", reason = "Priest class quest. Heal Guard Roberts with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Garments of the Light (Dwarf Priest)
+    [5625] = { threat = "LOW", reason = "Priest class quest. Heal Mountaineer Dolf with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- In Favor of the Light (Maxan Anvol)
+    [5626] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Returning Home (5628)
+    [5628] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Returning Home (5629)
+    [5629] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Returning Home (5630)
+    [5630] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Returning Home (5631)
+    [5631] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Returning Home (5632)
+    [5632] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Returning Home (5633)
+    [5633] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Desperate Prayer (5635-5640)
+    [5635] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5636] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5637] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5638] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5639] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5640] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- A Lack of Fear (5645)
+    [5645] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- A Lack of Fear (5647)
+    [5647] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Elune's Grace (5673)
+    [5673] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Elune's Grace (5674)
+    [5674] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Elune's Grace (5675)
+    [5675] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Arcane Feedback (5677)
+    [5677] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Arcane Feedback (5678)
+    [5678] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- One Shot. One Kill.
+    [5713] = { threat = "MEDIUM", reason = "Defense quest. Aynasha is poisoned and cannot move; you must protect her from waves of Blackwood furbolgs (levels 14-16, non-elite) while she prepares an antidote. A level 15 night elf priest reported it was impossible solo due to 5 furbolgs aggroing in quick succession with little room to maneuver, but a level 18 druid and a level 18 rogue soloed it easily. Use the time between waves to drink. Do not attempt below level 17 solo without a plan.", confidence = "high" },
+
+    -- The Battle of Darrowshire
+    [5721] = { threat = "HIGH", reason = "Elite defense event. You must protect Davil Lightfire and Captain Redpath through waves of Scourge, then defeat Redpath the Corrupted when he appears. The event spawns elites and requires coordinated crowd control. A full group of level 55+ is recommended. Do not attempt solo.", confidence = "high" },
+
+    -- Hemet Nesingwary
+    [5762] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+
+    -- Of Forgotten Memories
+    [5781] = { threat = "MEDIUM", reason = "Taelan's Hammer is in the Undercroft in the Eastern Plaguelands, patrolled by level 55-58 Scourge mobs. The area is dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- Fire Plume Forged
+    [5801] = { threat = "HIGH", reason = "Requires taking the Skeleton Key Mold to the top of Fire Plume Ridge in Un'Goro and using it at the lava lake. The ridge is patrolled by level 50-56 fire elementals and lava creatures, and Blazerunner (a level 58 elite elemental) patrols the summit. A level 56 hunter soloed this by avoiding the elite, but the lava and elementals are deadly. Do not attempt below level 52 solo without a plan to avoid the elite.", confidence = "high" },
+
+    -- Araj's Scarab
+    [5803] = { threat = "EXTREME", reason = "Araj the Summoner is a level 61 elite lich in the heart of Andorhal, surrounded by 4 adds (levels 57-60). The standard strategy involves pulling him away from his spawn point so the adds do not interfere, or accepting death as a tactic — kill Araj, die, run back, and loot the scarab before respawns. A level 62 player and a 61 priest died multiple times attempting this. Do not attempt solo at the intended level without a specific pet-pull or kiting strategy. Skip on Hardcore unless heavily overleveled.", confidence = "high" },
+
+    -- Welcome! (Northshire)
+    [5805] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Bodyguard for Hire
+    [5821] = { threat = "MEDIUM", reason = "Escort quest. The Gizelton Caravan must be protected past the Kolkar Centaur village in Desolace. The centaurs are levels 32-36 and pull in groups. The caravan moves slowly and can be attacked. Do not attempt below level 32 solo without a plan to clear the path ahead.", confidence = "medium" },
+
+    -- Welcome! (Coldridge)
+    [5841] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Welcome! (Shadowglen)
+    [5842] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Of Lost Honor
+    [5845] = { threat = "MEDIUM", reason = "The Symbol of Lost Honor is in Northdale in the Eastern Plaguelands, patrolled by level 55-58 Scourge mobs. The area is dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- Of Love and Family (Caer Darrow)
+    [5846] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Caer Darrow is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Of Love and Family (Stratholme)
+    [5848] = { threat = "HIGH", reason = "Requires entering Stratholme to find a painting in the Scarlet Bastion. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Find Myranda
+    [5861] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Uther's Tomb is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Scarlet Subterfuge
+    [5862] = { threat = "HIGH", reason = "Elite quest. You must travel to Hearthglen under the Scarlet Illusion and deliver Tirion's Gift to Highlord Taelan Fordring inside Mardenholde Keep. The illusion has a time limit and Hearthglen is filled with elite Scarlet Crusade mobs. If the illusion expires, you will be attacked. A full group or careful stealth is required. Do not attempt solo at the intended level.", confidence = "high" },
+
+    -- The Dunemaul Compound
+    [5863] = { threat = "MEDIUM", reason = "Dunemaul Brutes and Enforcers are levels 45-48 in the Dunemaul Compound in Tanaris. They pull in groups and Gor'marok the Ravager is a named mob with guards. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+
+    -- A Plague Upon Thee (5903)
+    [5903] = { threat = "MEDIUM", reason = "Requires using the Empty Termite Jar on Termite Mounds in the Eastern Plaguelands and gathering 100 termites. The mounds are in Scourge territory, patrolled by level 55-58 mobs. Clear the area before interacting and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+
+    -- A Plague Upon Thee (5904)
+    [5904] = { threat = "MEDIUM", reason = "Requires placing the Barrel of Plagueland Termites in the center of the Northridge Lumber Mill in the Western Plaguelands. The mill is patrolled by level 50-54 Scarlet Crusade mobs. Clear the area before placing the barrel and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+
+    -- Moonglade (Druid)
+    [5921] = { threat = "LOW", reason = "Druid class quest teleport step with no combat. Safe if you stay in the area.", confidence = "high" },
+
+    -- Heeding the Call (5923)
+    [5923] = { threat = "LOW", reason = "Druid class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Heeding the Call (5924)
+    [5924] = { threat = "LOW", reason = "Druid class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Heeding the Call (5925)
+    [5925] = { threat = "LOW", reason = "Druid class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Great Bear Spirit
+    [5929] = { threat = "LOW", reason = "Druid class quest dialogue and exploration step with no combat. Safe if you stay in Moonglade.", confidence = "high" },
+
+    -- Back to Darnassus
+    [5931] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+
+    -- Return to Chromie
+    [5941] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
 }
