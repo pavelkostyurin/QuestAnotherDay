@@ -141,9 +141,13 @@ Use `minor`, `major`, or an explicit higher version such as `0.5.0` instead of
 npm run release
 ```
 
-This command requires a clean working tree. It runs all checks, builds and
-verifies the ZIP, creates an annotated version tag, and pushes `main` and that
-tag together to `origin`. An existing tag cannot be reused. For the first
+This command requires a clean working tree. It fetches `origin/main` first and
+automatically fast-forwards local `main` when GitHub only added newer commits,
+such as the automatic quest-coverage badge update. It then runs all checks,
+builds and verifies the ZIP, creates an annotated version tag, and pushes `main`
+and that tag together to `origin`. Diverged branches still stop with an error so
+their changes can be reviewed explicitly. An existing remote tag cannot be
+reused. For the first
 release, commit the current files and run `npm run release` to publish version
 0.4.1 without bumping it.
 

@@ -109,6 +109,9 @@ class ReleaseTests(unittest.TestCase):
 
     def test_failed_tests_prevent_tag_creation_and_push(self):
         self.init_repository()
+        remote = Path(self.temporary.name) / "remote.git"
+        self.git("init", "--bare", str(remote))
+        self.git("remote", "add", "origin", str(remote))
         real_run = subprocess.run
 
         def fail_tests(command, **kwargs):
@@ -144,7 +147,7 @@ class ReleaseTests(unittest.TestCase):
         self.assertEqual(commit, self.git("--git-dir", str(remote), "rev-parse", "refs/heads/main"))
         self.assertEqual(commit, self.git("--git-dir", str(remote), "rev-parse", "v0.4.1^{}"))
         self.assertEqual("", self.git("status", "--porcelain"))
-        with self.assertRaisesRegex(ValueError, "already exists"):
+        with self.assertRaisesRegex(ValueError, "already exists on origin"):
             publish(self.root)
 
     def test_releases_require_main(self):
@@ -172,10 +175,82 @@ class ReleaseTests(unittest.TestCase):
             return real_run(command, **kwargs)
 
         with patch("scripts.release.subprocess.run", side_effect=run_without_npm):
-            with self.assertRaises(subprocess.CalledProcessError):
+            with self.assertRaisesRegex(ValueError, "already exists on origin"):
                 publish(self.root)
         self.assertEqual(original, self.git("--git-dir", str(remote), "rev-parse", "main"))
         self.assertEqual(original, self.git("--git-dir", str(remote), "rev-parse", "v0.4.1"))
+
+    def test_release_fast_forwards_remote_and_retargets_unpublished_tag(self):
+        self.init_repository()
+        remote = Path(self.temporary.name) / "remote.git"
+        self.git("init", "--bare", str(remote))
+        self.git("remote", "add", "origin", str(remote))
+        self.git("push", "origin", "main")
+        original = self.git("rev-parse", "HEAD")
+        self.git("tag", "-a", "v0.4.1", "-m", "Failed release attempt")
+
+        updater = Path(self.temporary.name) / "updater"
+        subprocess.run(["git", "clone", str(remote), str(updater)], check=True,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "config", "user.name", "Coverage Bot"], cwd=updater, check=True)
+        subprocess.run(["git", "config", "user.email", "bot@example.invalid"],
+                       cwd=updater, check=True)
+        (updater / "coverage.json").write_text('{"coverage": 75}\n')
+        subprocess.run(["git", "add", "coverage.json"], cwd=updater, check=True)
+        subprocess.run(["git", "commit", "-m", "Update quest coverage badge"],
+                       cwd=updater, check=True, stdout=subprocess.DEVNULL)
+        subprocess.run(["git", "push", "origin", "main"], cwd=updater, check=True,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        remote_commit = subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], cwd=updater, text=True
+        ).strip()
+
+        real_run = subprocess.run
+        verified = []
+
+        def run_without_npm(command, **kwargs):
+            if command == ["npm", "run", "verify"]:
+                verified.append(self.git("rev-parse", "HEAD"))
+                return subprocess.CompletedProcess(command, 0)
+            return real_run(command, **kwargs)
+
+        with patch("scripts.release.subprocess.run", side_effect=run_without_npm):
+            with contextlib.redirect_stdout(io.StringIO()):
+                publish(self.root)
+
+        self.assertNotEqual(original, remote_commit)
+        self.assertEqual([remote_commit], verified)
+        self.assertEqual(remote_commit, self.git("rev-parse", "HEAD"))
+        self.assertEqual(remote_commit, self.git("rev-list", "-n", "1", "v0.4.1"))
+        self.assertEqual(remote_commit,
+                         self.git("--git-dir", str(remote), "rev-parse", "v0.4.1^{}"))
+
+    def test_release_stops_when_local_and_remote_main_diverge(self):
+        self.init_repository()
+        remote = Path(self.temporary.name) / "remote.git"
+        self.git("init", "--bare", str(remote))
+        self.git("remote", "add", "origin", str(remote))
+        self.git("push", "origin", "main")
+
+        updater = Path(self.temporary.name) / "updater"
+        subprocess.run(["git", "clone", str(remote), str(updater)], check=True,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "config", "user.name", "Coverage Bot"], cwd=updater, check=True)
+        subprocess.run(["git", "config", "user.email", "bot@example.invalid"],
+                       cwd=updater, check=True)
+        (updater / "coverage.json").write_text('{"coverage": 75}\n')
+        subprocess.run(["git", "add", "coverage.json"], cwd=updater, check=True)
+        subprocess.run(["git", "commit", "-m", "Update coverage"], cwd=updater,
+                       check=True, stdout=subprocess.DEVNULL)
+        subprocess.run(["git", "push", "origin", "main"], cwd=updater, check=True,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+        (self.root / "Core.lua").write_text("local release change\n")
+        self.git("add", "Core.lua")
+        self.git("commit", "-m", "Local release change")
+        with self.assertRaisesRegex(ValueError, "diverged"):
+            publish(self.root)
+        self.assertEqual("", self.git("tag", "--list"))
 
 
 if __name__ == "__main__":

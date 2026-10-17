@@ -117,6 +117,84 @@ def git_output(*args, root=ROOT):
     return subprocess.check_output(["git", *args], cwd=root, text=True).strip()
 
 
+def git_ref_exists(ref, root=ROOT):
+    result = subprocess.run(
+        ["git", "show-ref", "--verify", "--quiet", ref],
+        cwd=root,
+    )
+    if result.returncode not in (0, 1):
+        raise ValueError(f"Could not inspect Git ref {ref}")
+    return result.returncode == 0
+
+
+def remote_ref_exists(ref, root=ROOT):
+    result = subprocess.run(
+        ["git", "ls-remote", "--exit-code", "origin", ref],
+        cwd=root,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    if result.returncode not in (0, 2):
+        raise ValueError(f"Could not inspect origin ref {ref}")
+    return result.returncode == 0
+
+
+def is_ancestor(older, newer, root=ROOT):
+    result = subprocess.run(
+        ["git", "merge-base", "--is-ancestor", older, newer],
+        cwd=root,
+    )
+    if result.returncode not in (0, 1):
+        raise ValueError(f"Could not compare Git commits {older} and {newer}")
+    return result.returncode == 0
+
+
+def sync_remote_main(root=ROOT):
+    """Fetch main and fast-forward when origin only has newer commits."""
+    remote_ref = "refs/heads/main"
+    if not remote_ref_exists(remote_ref, root):
+        return git_output("rev-parse", "HEAD", root=root)
+
+    subprocess.run(
+        ["git", "fetch", "--no-tags", "origin",
+         f"{remote_ref}:refs/remotes/origin/main"],
+        cwd=root,
+        check=True,
+    )
+    local = git_output("rev-parse", "HEAD", root=root)
+    remote = git_output("rev-parse", "refs/remotes/origin/main", root=root)
+    if local == remote or is_ancestor(remote, local, root):
+        return local
+    if not is_ancestor(local, remote, root):
+        raise ValueError(
+            "Local main and origin/main have diverged; reconcile them before releasing"
+        )
+    subprocess.run(
+        ["git", "merge", "--ff-only", "refs/remotes/origin/main"],
+        cwd=root,
+        check=True,
+    )
+    return git_output("rev-parse", "HEAD", root=root)
+
+
+def prepare_local_tag(tag, commit, root=ROOT):
+    """Allow a safe retry after a failed atomic push left a local tag behind."""
+    ref = f"refs/tags/{tag}"
+    if remote_ref_exists(ref, root):
+        raise ValueError(f"Tag {tag} already exists on origin; bump the version for a new release")
+    if not git_ref_exists(ref, root):
+        return
+
+    tagged_commit = git_output("rev-list", "-n", "1", tag, root=root)
+    if tagged_commit == commit:
+        return
+    if not is_ancestor(tagged_commit, commit, root):
+        raise ValueError(
+            f"Local tag {tag} points outside the current main history; inspect it manually"
+        )
+    subprocess.run(["git", "tag", "--delete", tag], cwd=root, check=True)
+
+
 def publish(root=ROOT):
     if git_output("status", "--porcelain", root=root):
         raise ValueError("Commit your changes before releasing (the working tree must be clean)")
@@ -124,20 +202,30 @@ def publish(root=ROOT):
         raise ValueError("Releases must be made from main")
     version = check_version(root)
     tag = f"v{version}"
-    existing = subprocess.run(["git", "show-ref", "--verify", "--quiet", f"refs/tags/{tag}"],
-                              cwd=root)
-    if existing.returncode == 0:
-        raise ValueError(f"Tag {tag} already exists; bump the version for a new release")
-    if existing.returncode != 1:
-        raise ValueError("Could not check existing release tags")
+    commit = sync_remote_main(root)
+    prepare_local_tag(tag, commit, root)
+
+    # A workflow may update main while validation runs. If that update is a
+    # fast-forward, include it and validate the resulting release commit too.
+    for attempt in range(3):
+        commit = git_output("rev-parse", "HEAD", root=root)
+        subprocess.run(["npm", "run", "verify"], cwd=root, check=True)
+        archive = build_package(root, tag)
+        if (git_output("status", "--porcelain", root=root)
+                or git_output("rev-parse", "HEAD", root=root) != commit):
+            raise ValueError("The checkout changed during validation; commit and retry")
+        if sync_remote_main(root) == commit:
+            break
+        prepare_local_tag(tag, git_output("rev-parse", "HEAD", root=root), root)
+    else:
+        raise ValueError("origin/main kept changing during validation; retry the release")
+
     commit = git_output("rev-parse", "HEAD", root=root)
-    subprocess.run(["npm", "run", "verify"], cwd=root, check=True)
-    archive = build_package(root, tag)
-    if (git_output("status", "--porcelain", root=root)
-            or git_output("rev-parse", "HEAD", root=root) != commit):
-        raise ValueError("The checkout changed during validation; commit and retry")
-    subprocess.run(["git", "tag", "-a", tag, "-m", f"Quest Another Day {tag}"],
-                   cwd=root, check=True)
+    if not git_ref_exists(f"refs/tags/{tag}", root):
+        subprocess.run(["git", "tag", "-a", tag, "-m", f"Quest Another Day {tag}"],
+                       cwd=root, check=True)
+    elif git_output("rev-list", "-n", "1", tag, root=root) != commit:
+        raise ValueError(f"Local tag {tag} does not point to the tested commit")
     subprocess.run(["git", "push", "--atomic", "origin", "HEAD:refs/heads/main",
                     f"refs/tags/{tag}"], cwd=root, check=True)
     print(f"Pushed {tag}. GitHub Actions will test again and publish {archive.name} on success.")
