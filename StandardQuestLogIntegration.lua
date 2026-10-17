@@ -195,5 +195,4 @@ end)
 
 EnableStandardQuestLogIntegration()
 
-addon.EnableStandardQuestLogIntegration = EnableStandardQuestLogIntegration
 addon.UpdateStandardQuestLogIcons = UpdateStandardQuestLogIcons

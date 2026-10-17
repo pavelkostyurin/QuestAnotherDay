@@ -78,4 +78,3 @@ local function OpenOptions()
 end
 
 addon.OpenOptions = OpenOptions
-addon.optionsPanel = panel

@@ -20,11 +20,11 @@ jobs:
         with:
           node-version: 22
 
-      - name: Run JavaScript tests
-        run: npm test
+      - name: Validate versions, quest data, and all tests
+        run: npm run verify
 
-      - name: Run Python tests
-        run: python3 -m unittest discover -s test -p 'test_*.py'
+      - name: Build and verify the addon ZIP
+        run: npm run package
 
   update-coverage-badge:
     name: Update quest coverage badge

@@ -1,7 +1,6 @@
 -- Maintained directly and validated by scripts/check-quest-data.mjs.
 local _, addon = ...
 
--- Batch 2
 addon.quests = {
     -- Sharptalon's Claw (Ashenvale Hunt)
     [2] = { threat = "MEDIUM", reason = "It is not an elite, but it patrols a wide area and hits hard for its level. Pull it to a clear spot and be ready to kite if things go wrong.", confidence = "medium" },

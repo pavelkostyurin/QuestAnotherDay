@@ -102,6 +102,11 @@ local function ShowThreatTooltip(owner, questID)
     GameTooltip:AddLine("Threat: " .. style.label, style.rgb[1], style.rgb[2], style.rgb[3])
     GameTooltip:AddLine(" ")
     GameTooltip:AddLine(record.reason, 1.00, 1.00, 1.00, true)
+    local tooltipName = GameTooltip:GetName()
+    local reasonLine = tooltipName and _G[tooltipName .. "TextLeft" .. GameTooltip:NumLines()]
+    if reasonLine and GameTooltipTextSmall then
+        reasonLine:SetFontObject(GameTooltipTextSmall)
+    end
     GameTooltip:Show()
 end
 
@@ -270,10 +275,7 @@ end)
 SLASH_QUESTANOTHERDAY1 = "/qad"
 SlashCmdList.QUESTANOTHERDAY = HandleSlashCommand
 
-addon.ShowQuest = ShowQuest
-addon.ListReviewedQuests = ListReviewedQuests
 addon.GetThreatStyle = GetThreatStyle
-addon.IsQuestVisible = IsQuestVisible
 addon.GetThreatInlineIcon = GetThreatInlineIcon
 addon.ShowThreatTooltip = ShowThreatTooltip
 addon.HideThreatTooltip = HideThreatTooltip

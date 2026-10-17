@@ -54,10 +54,11 @@ The folder must contain `QuestAnotherDay.toc` directly. Reload the UI or restart
 
 ## Development
 
-After changing the runtime quest ratings, run:
+Run version consistency checks, quest-data validation, and all JavaScript and
+Python tests with Node.js 22+ and Python 3.9+:
 
 ```sh
-npm test
+npm run verify
 ```
 
 `data/classic-quests.json` is the complete English Classic Era quest catalog
@@ -90,7 +91,7 @@ dungeon, and raid come from Questie's pinned quest-tag correction table; holiday
 membership comes from Questie's Classic holiday quest lists. Source provenance
 and category counts are stored in the catalog. The same command regenerates the
 small `QuestCategories.lua` lookup used by the addon's raid / dungeon display
-setting. `npm run import:pvp` remains as a compatibility alias for this command.
+setting.
 
 Audit the addon quest database against every non-PvP catalog quest that has a
 nonblank Classic Era objective description with:
@@ -123,3 +124,54 @@ each section; the report still shows complete counts and how many additional
 findings were omitted.
 
 The distributed addon has no runtime dependencies and does not access the network.
+
+## Releases
+
+For a new version, update the version in `package.json`, `QuestAnotherDay.toc`,
+and this README together:
+
+```sh
+npm run version:bump -- patch
+```
+
+Use `minor`, `major`, or an explicit higher version such as `0.5.0` instead of
+`patch` when appropriate. Review and commit your changes on `main`, then run:
+
+```sh
+npm run release
+```
+
+This command requires a clean working tree. It runs all checks, builds and
+verifies the ZIP, creates an annotated version tag, and pushes `main` and that
+tag together to `origin`. An existing tag cannot be reused. For the first
+release, commit the current files and run `npm run release` to publish version
+0.4.1 without bumping it.
+
+The tag triggers the **Release** workflow on GitHub. It checks that the tag
+matches every version field, reruns all tests, verifies the package, and only
+then publishes a GitHub release with `QuestAnotherDay-VERSION.zip` attached.
+Download that attached ZIP and upload it to CurseForge. A failed check prevents
+publication; after fixing a test failure, use a new version and tag. If only the
+GitHub publishing step fails, rerun the failed workflow job from the Actions tab.
+If the push fails, the local tag remains. After resolving the push error, retry
+`git push --atomic origin main vVERSION` using the tag printed in the error.
+
+To build a local ZIP without tagging, pushing, or publishing:
+
+```sh
+npm run package
+```
+
+The ZIP is written to `dist/` with one `QuestAnotherDay/` root folder. It includes
+the TOC's runtime files, README, license, and third-party notices. Development
+data, tests, research scripts, logos, and macOS metadata are excluded. Version
+drift or missing runtime files stop the build. Generated ZIPs are ignored by Git.
+
+Automated checks cover data, integration expectations, versions, and packaging;
+an in-game smoke test is still needed to verify WoW's actual UI behavior.
+
+## License
+
+Original code and documentation are licensed under the [MIT License](LICENSE).
+Imported quest data and other third-party material are excluded from that grant;
+see [Third-party notices](THIRD_PARTY_NOTICES.md) for sources and scope.

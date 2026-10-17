@@ -1,13 +1,18 @@
 {
   "name": "quest-another-day",
   "version": "0.4.1",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
     "check:data": "node scripts/check-quest-data.mjs",
+    "check:release": "python3 scripts/release.py check",
+    "version:bump": "python3 scripts/release.py bump",
+    "package": "python3 scripts/release.py package",
+    "release": "python3 scripts/release.py publish",
+    "verify": "npm run check:release && npm run check:data && npm test && python3 -m unittest discover -s test -p 'test_*.py'",
     "import:quests": "node scripts/import-questie-classic.mjs",
     "import:flags": "node scripts/import-quest-flags.mjs",
-    "import:pvp": "npm run import:flags",
     "check:quests": "node scripts/import-questie-classic.mjs --check",
     "test": "node --test"
   }

@@ -9,21 +9,18 @@
     "DEFAULT_CHAT_FRAME",
     "FauxScrollFrame_GetOffset",
     "GameTooltip",
-    "GetAddOnMetadata",
     "GetNumQuestLogEntries",
     "GetQuestLogTitle",
     "InterfaceOptions_AddCategory",
     "InterfaceOptionsFrame_OpenToCategory",
     "IsAddOnLoaded",
     "QUESTS_DISPLAYED",
-    "QuestDB",
     "QuestieLoader",
     "QuestLogListScrollFrame",
     "QuestLogScrollFrame",
     "QuestLog_Update",
     "Settings",
     "SlashCmdList",
-    "date",
     "hooksecurefunc"
   ]
 }

@@ -1,0 +1,50 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the tagged commit
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Verify the tag matches every version field
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: npm run check:release -- --tag "$RELEASE_TAG"
+
+      - name: Validate quest data and run all tests
+        run: npm run verify
+
+      - name: Build and verify the addon ZIP
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: npm run package -- --tag "$RELEASE_TAG"
+
+      - name: Publish the tested ZIP to GitHub Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          version="${RELEASE_TAG#v}"
+          gh release create "$RELEASE_TAG" "dist/QuestAnotherDay-$version.zip" \
+            --verify-tag --title "Quest Another Day $version" --generate-notes

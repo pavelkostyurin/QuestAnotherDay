@@ -11,7 +11,6 @@
 QuestData.lua
 QuestCategories.lua
 Core.lua
-QuestTagExport.lua
 Options.lua
 QuestieIntegration.lua
 StandardQuestLogIntegration.lua

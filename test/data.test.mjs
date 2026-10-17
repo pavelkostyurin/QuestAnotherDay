@@ -293,6 +293,7 @@ test("the threat tooltip uses regular text with separated sections", () => {
     tooltip,
     /GameTooltip:AddLine\("Quest Another Day"[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*GameTooltip:AddLine\("Threat: " \.\. style\.label[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*GameTooltip:AddLine\(record\.reason/,
   );
+  assert.match(tooltip, /reasonLine:SetFontObject\(GameTooltipTextSmall\)/);
 });
 
 test("the Questie integration decorates tracker quest titles", () => {

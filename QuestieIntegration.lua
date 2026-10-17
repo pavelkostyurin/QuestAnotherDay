@@ -134,8 +134,6 @@ end)
 
 EnableQuestieIntegration()
 
-addon.GetQuestieIcon = GetQuestIcon
-addon.EnableQuestieIntegration = EnableQuestieIntegration
 addon.UpdateQuestieIconButtons = function()
     if questieTrackerModule and type(questieTrackerModule.Update) == "function" then
         questieTrackerModule:Update()
