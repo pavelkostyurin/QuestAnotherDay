@@ -111,6 +111,7 @@ class ReleaseTests(unittest.TestCase):
         self.init_repository()
         remote = Path(self.temporary.name) / "remote.git"
         self.git("init", "--bare", str(remote))
+        self.git("--git-dir", str(remote), "symbolic-ref", "HEAD", "refs/heads/main")
         self.git("remote", "add", "origin", str(remote))
         real_run = subprocess.run
 
@@ -129,6 +130,7 @@ class ReleaseTests(unittest.TestCase):
         self.init_repository()
         remote = Path(self.temporary.name) / "remote.git"
         self.git("init", "--bare", str(remote))
+        self.git("--git-dir", str(remote), "symbolic-ref", "HEAD", "refs/heads/main")
         self.git("remote", "add", "origin", str(remote))
         commit = self.git("rev-parse", "HEAD")
         real_run = subprocess.run
@@ -184,6 +186,7 @@ class ReleaseTests(unittest.TestCase):
         self.init_repository()
         remote = Path(self.temporary.name) / "remote.git"
         self.git("init", "--bare", str(remote))
+        self.git("--git-dir", str(remote), "symbolic-ref", "HEAD", "refs/heads/main")
         self.git("remote", "add", "origin", str(remote))
         self.git("push", "origin", "main")
         original = self.git("rev-parse", "HEAD")
@@ -229,6 +232,7 @@ class ReleaseTests(unittest.TestCase):
         self.init_repository()
         remote = Path(self.temporary.name) / "remote.git"
         self.git("init", "--bare", str(remote))
+        self.git("--git-dir", str(remote), "symbolic-ref", "HEAD", "refs/heads/main")
         self.git("remote", "add", "origin", str(remote))
         self.git("push", "origin", "main")
 
