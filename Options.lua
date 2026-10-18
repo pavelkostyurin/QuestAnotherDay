@@ -45,10 +45,10 @@ local feedbackHelp = panel:CreateFontString(nil, "ARTWORK", "GameFontHighlightSm
 feedbackHelp:SetPoint("TOPLEFT", feedbackTitle, "BOTTOMLEFT", 0, -8)
 feedbackHelp:SetPoint("RIGHT", panel, "RIGHT", -32, 0)
 feedbackHelp:SetJustifyH("LEFT")
-feedbackHelp:SetText("Copy a GitHub link to report an error or share an idea. Quest reports use the last quest tooltip you hovered this session.")
+feedbackHelp:SetText("Report an error or share an idea on GitHub, or contact me on Discord. Quest reports use the last quest tooltip you hovered this session.")
 
 local copyDialog
-local function ShowFeedback(isReport)
+local function ShowFeedback(isReport, isDiscord)
     if not copyDialog then
         copyDialog = CreateFrame("Frame", "QuestAnotherDayFeedback", UIParent, "BackdropTemplate")
         copyDialog:SetSize(480, 330)
@@ -72,7 +72,7 @@ local function ShowFeedback(isReport)
         help:SetPoint("TOPLEFT", 20, -54)
         help:SetWidth(440)
         help:SetJustifyH("LEFT")
-        help:SetText("Copy the link (Ctrl+C / Cmd+C) and paste it into your browser. A GitHub account is required to submit feedback.")
+        copyDialog.help = help
         local link = CreateFrame("EditBox", nil, copyDialog, "InputBoxTemplate")
         link:SetSize(430, 28)
         link:SetPoint("TOPLEFT", 25, -92)
@@ -82,7 +82,7 @@ local function ShowFeedback(isReport)
         copyDialog.link = link
         local contextLabel = copyDialog:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
         contextLabel:SetPoint("TOPLEFT", 20, -138)
-        contextLabel:SetText("Report details — click below, then copy into your issue:")
+        copyDialog.contextLabel = contextLabel
         local scroll = CreateFrame("ScrollFrame", nil, copyDialog, "UIPanelScrollFrameTemplate")
         scroll:SetPoint("TOPLEFT", 20, -162)
         scroll:SetPoint("BOTTOMRIGHT", -42, 20)
@@ -105,18 +105,27 @@ local function ShowFeedback(isReport)
     local metadata = C_AddOns and C_AddOns.GetAddOnMetadata or GetAddOnMetadata
     local version = metadata and metadata(addonName, "Version") or "unknown"
     local lines = { "Addon version: " .. version }
-    local questID = isReport and addon.feedbackQuestID
+    copyDialog.help:SetText(isDiscord
+        and "Copy the profile link (Ctrl+C / Cmd+C) and open it in your browser. Sign in to Discord; messaging depends on privacy settings and may require a friend request."
+        or "Copy the link (Ctrl+C / Cmd+C) and paste it into your browser. A GitHub account is required to submit feedback.")
+    copyDialog.contextLabel:SetText(isDiscord
+        and "Message details — click below, then copy into Discord:"
+        or "Report details — click below, then copy into your issue:")
+    local questID = (isReport or isDiscord) and addon.feedbackQuestID
     local record = questID and addon.quests[questID]
     if record then
         lines[#lines + 1] = "Last hovered quest: " .. addon.GetQuestTitle(questID) .. " (" .. questID .. ")"
         lines[#lines + 1] = "Threat: " .. record.threat
         lines[#lines + 1] = "Reason: " .. record.reason
-    elseif isReport then
+    elseif isReport or isDiscord then
         lines[#lines + 1] = "Quest: enter the quest name and ID (or hover its threat icon and reopen this report)."
     end
-    lines[#lines + 1] = isReport and "\nWhat is incorrect? What happened?" or "\nSuggestion:"
+    lines[#lines + 1] = (isReport or isDiscord) and "\nYour feedback / what happened:" or "\nSuggestion:"
     copyDialog.link:SetText("https://github.com/pavelkostyurin/QuestAnotherDay/issues/new?title="
         .. (isReport and "Incorrect%20quest%20guidance" or "Suggestion"))
+    if isDiscord then
+        copyDialog.link:SetText("https://discord.com/users/300947369644523522")
+    end
     copyDialog.details:SetText(table.concat(lines, "\n"))
     copyDialog:Show()
     copyDialog.details:ClearFocus()
@@ -135,6 +144,12 @@ suggestionButton:SetSize(260, 26)
 suggestionButton:SetPoint("TOPLEFT", reportButton, "BOTTOMLEFT", 0, -8)
 suggestionButton:SetText("Suggest an improvement")
 suggestionButton:SetScript("OnClick", function() ShowFeedback(false) end)
+
+local discordButton = CreateFrame("Button", nil, panel, "UIPanelButtonTemplate")
+discordButton:SetSize(260, 26)
+discordButton:SetPoint("TOPLEFT", suggestionButton, "BOTTOMLEFT", 0, -8)
+discordButton:SetText("Contact me on Discord")
+discordButton:SetScript("OnClick", function() ShowFeedback(false, true) end)
 
 local function RefreshPanel()
     local enabled = QuestAnotherDayDB and QuestAnotherDayDB.displayRaidDungeonQuests == true

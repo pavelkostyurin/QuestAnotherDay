@@ -40,6 +40,10 @@ Copy the GitHub link into your browser, then copy the details into your issue.
 Quest reports include the last hovered quest name and ID, threat, reason, and addon version;
 check that the quest matches your report. A GitHub account is required to submit feedback.
 
+Alternatively, choose **Contact me on Discord** and copy the profile link into your
+browser. Sign in to Discord; you may need to send a friend request before messaging.
+The dialog also provides copyable quest details to include in your message.
+
 ## Install
 
 Copy this directory to:
