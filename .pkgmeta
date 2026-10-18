@@ -1,0 +1,15 @@
+package-as: QuestAnotherDay
+enable-nolib-creation: no
+
+# Dotfiles are excluded automatically by CurseForge's packager.
+ignore:
+  - AI_instructions.md
+  - CONTRIBUTING.md
+  - assets
+  - audit_quests.py
+  - data
+  - dist
+  - package.json
+  - scripts
+  - test
+  - __pycache__

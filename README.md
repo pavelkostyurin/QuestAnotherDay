@@ -148,6 +148,35 @@ The distributed addon has no runtime dependencies and does not access the networ
 
 ## Releases
 
+### One-time CurseForge setup
+
+CurseForge builds and publishes tagged releases directly from GitHub using its
+[automatic packager](https://support.curseforge.com/support/solutions/articles/9000197281-automatic-packaging).
+The root `.pkgmeta` sets the installed folder to `QuestAnotherDay` and excludes
+development files. The TOC supplies the supported Classic Era interface version;
+CurseForge generates a changelog from commit messages.
+
+1. Configure the CurseForge project's repository integration to use
+   `https://github.com/pavelkostyurin/QuestAnotherDay`. Enable packaging for tags
+   only; leave packaging of every commit disabled. The public **Source** link
+   alone does not configure automatic packaging.
+2. Note the numeric CurseForge project ID and create a token on the
+   [API tokens page](https://www.curseforge.com/account/api-tokens).
+3. In the GitHub repository, open **Settings → Webhooks → Add webhook**. Set the
+   payload URL to the following, replacing both placeholders with your values:
+
+   ```text
+   https://www.curseforge.com/api/projects/PROJECT_ID/package?token=API_TOKEN
+   ```
+
+   Leave the other webhook settings at their defaults, including push events.
+   Enter the token directly in GitHub's webhook settings; do not commit it.
+4. After the next version tag is pushed, check the webhook delivery in GitHub
+   and the resulting package on CurseForge. Publication remains subject to
+   CurseForge approval.
+
+### Publish a version
+
 Use the **Bump addon version** Codex action for a new release. It asks for the
 add-on version change and the WoW Classic Era interface number, then updates
 `package.json`, `QuestAnotherDay.toc`, and this README together. Press Enter to
@@ -177,16 +206,17 @@ such as the automatic quest-coverage badge update. It then runs all checks,
 builds and verifies the ZIP, creates an annotated version tag, and pushes `main`
 and that tag together to `origin`. Diverged branches still stop with an error so
 their changes can be reviewed explicitly. An existing remote tag cannot be
-reused. For the first
-release, commit the current files and run `npm run release` to publish version
-0.4.1 without bumping it.
+reused.
 
 The tag triggers the **Release** workflow on GitHub. It checks that the tag
 matches every version field, reruns all tests, verifies the package, and only
 then publishes a GitHub release with `QuestAnotherDay-VERSION.zip` attached.
-Download that attached ZIP and upload it to CurseForge. A failed check prevents
-publication; after fixing a test failure, use a new version and tag. If only the
-GitHub publishing step fails, rerun the failed workflow job from the Actions tab.
+Once the webhook is configured, the same tag independently triggers CurseForge
+to build and publish its own package; no manual ZIP upload is needed. CurseForge
+does not wait for GitHub Actions, so use `npm run release` to run all checks
+before pushing a tag. A failed GitHub check prevents the GitHub release only;
+after fixing a test failure, use a new version and tag. If only the GitHub
+publishing step fails, rerun the failed workflow job from the Actions tab.
 If the push fails, the local tag remains. After resolving the push error, retry
 `git push --atomic origin main vVERSION` using the tag printed in the error.
 
