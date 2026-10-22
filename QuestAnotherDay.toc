@@ -4,7 +4,7 @@
 ## Category: Quests
 ## IconTexture: Interface\Icons\spell_shadow_shadowworddominate
 ## Author: Romp@Stitches
-## Version: 0.43.1
+## Version: 0.43.2
 ## OptionalDeps: Questie
 ## SavedVariables: QuestAnotherDayDB
 

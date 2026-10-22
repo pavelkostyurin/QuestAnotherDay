@@ -8,7 +8,11 @@
     "CreateFrame",
     "DEFAULT_CHAT_FRAME",
     "FauxScrollFrame_GetOffset",
+    "GameFontHighlightSmall",
     "GameTooltip",
+    "GameTooltipText",
+    "GameTooltipTextSmall",
+    "GetAddOnMetadata",
     "GetNumQuestLogEntries",
     "GetQuestLogTitle",
     "InterfaceOptions_AddCategory",
@@ -21,6 +25,8 @@
     "QuestLog_Update",
     "Settings",
     "SlashCmdList",
+    "UIParent",
+    "UISpecialFrames",
     "hooksecurefunc"
   ]
 }
