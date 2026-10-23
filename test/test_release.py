@@ -115,6 +115,26 @@ class ReleaseTests(unittest.TestCase):
             build_package(self.root)
         self.assertEqual(before, archive.read_bytes())
 
+    def test_texture_files_ship_in_packages_and_local_installs(self):
+        textures = self.root / "Textures"
+        textures.mkdir()
+        texture = textures / "Threat-Low.tga"
+        texture.write_bytes(b"\x00\x00\x02\xff")
+        (textures / ".DS_Store").write_bytes(b"must not ship")
+
+        archive = build_package(self.root)
+        with zipfile.ZipFile(archive) as bundle:
+            self.assertEqual(texture.read_bytes(),
+                             bundle.read("QuestAnotherDay/Textures/Threat-Low.tga"))
+            self.assertNotIn("QuestAnotherDay/Textures/.DS_Store", bundle.namelist())
+
+        addons_dir = Path(self.temporary.name) / "AddOns"
+        addons_dir.mkdir()
+        destination, files = install_addon(addons_dir, self.root)
+        self.assertIn("Textures/Threat-Low.tga", files)
+        self.assertEqual(texture.read_bytes(),
+                         (destination / "Textures/Threat-Low.tga").read_bytes())
+
     def test_install_copies_unstaged_and_new_runtime_files(self):
         addons_dir = Path(self.temporary.name) / "AddOns"
         destination = addons_dir / "QuestAnotherDay"

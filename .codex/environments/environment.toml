@@ -23,3 +23,8 @@ command = "npm run install:addon"
 name = "Release"
 icon = "tool"
 command = "npm run release"
+
+[[actions]]
+name = "Rebuild faction quest data"
+icon = "tool"
+command = "npm run build:quest-data && npm run check:data"

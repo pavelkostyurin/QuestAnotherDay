@@ -27,6 +27,7 @@
     "SlashCmdList",
     "UIParent",
     "UISpecialFrames",
+    "UnitFactionGroup",
     "hooksecurefunc"
   ]
 }

@@ -100,7 +100,9 @@ def package_files(root=ROOT):
     ]
     if not runtime:
         raise ValueError("The TOC must load at least one runtime file")
-    files = [TOC, *runtime, "LICENSE", "THIRD_PARTY_NOTICES.md", "README.md"]
+    textures = sorted(path.relative_to(root).as_posix()
+                      for path in (root / "Textures").glob("*.tga"))
+    files = [TOC, *runtime, *textures, "LICENSE", "THIRD_PARTY_NOTICES.md", "README.md"]
     if len(files) != len(set(files)):
         raise ValueError("Duplicate package entry in the TOC")
     for name in files:

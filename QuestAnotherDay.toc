@@ -4,11 +4,13 @@
 ## Category: Quests
 ## IconTexture: Interface\Icons\spell_shadow_shadowworddominate
 ## Author: Romp@Stitches
-## Version: 0.43.2
+## Version: 0.43.3
 ## OptionalDeps: Questie
 ## SavedVariables: QuestAnotherDayDB
 
-QuestData.lua
+QuestDataCommon.lua
+QuestDataHorde.lua
+QuestDataAlliance.lua
 QuestCategories.lua
 Core.lua
 Options.lua

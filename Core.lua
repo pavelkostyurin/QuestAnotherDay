@@ -6,25 +6,25 @@ local threatStyles = {
         label = "Low",
         color = "ff4ade80",
         rgb = { 0.29, 0.87, 0.50 },
-        texture = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_4",
+        texture = "Interface\\AddOns\\QuestAnotherDay\\Textures\\Threat-Low.tga",
     },
     MEDIUM = {
         label = "Medium",
         color = "fffacc15",
         rgb = { 0.98, 0.80, 0.08 },
-        texture = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_1",
+        texture = "Interface\\AddOns\\QuestAnotherDay\\Textures\\Threat-Medium.tga",
     },
     HIGH = {
         label = "High",
         color = "ffff7a18",
         rgb = { 1.00, 0.48, 0.09 },
-        texture = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_7",
+        texture = "Interface\\AddOns\\QuestAnotherDay\\Textures\\Threat-High.tga",
     },
     EXTREME = {
         label = "Extreme",
-        color = "ffff3b5c",
-        rgb = { 1.00, 0.23, 0.36 },
-        texture = "Interface\\TargetingFrame\\UI-RaidTargetingIcon_8",
+        color = "ffef4444",
+        rgb = { 0.94, 0.27, 0.27 },
+        texture = "Interface\\AddOns\\QuestAnotherDay\\Textures\\Threat-Extreme.tga",
     },
 }
 
@@ -86,7 +86,7 @@ end
 
 local function GetThreatInlineIcon(questID)
     local _, style = GetThreatStyle(questID)
-    return style and "|T" .. style.texture .. ":12:12|t" or nil
+    return style and "|T" .. style.texture .. ":10:10|t" or nil
 end
 
 local function ShowThreatTooltip(owner, questID)

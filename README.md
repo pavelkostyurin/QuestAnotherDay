@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/pavelkostyurin/QuestAnotherDay/actions/workflows/tests.yml/badge.svg)](https://github.com/pavelkostyurin/QuestAnotherDay/actions/workflows/tests.yml)
 [![Quest coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpavelkostyurin%2FQuestAnotherDay%2Fmain%2F.github%2Fbadges%2Fquest-coverage.json&style=flat-square)](https://github.com/pavelkostyurin/QuestAnotherDay#development)
-![Version](https://img.shields.io/badge/version-0.43.2-7c3aed?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.43.3-7c3aed?style=flat-square)
 ![WoW Classic Era](https://img.shields.io/badge/WoW-Classic%20Era-c79c6e?style=flat-square)
 ![Hardcore](https://img.shields.io/badge/mode-Hardcore-b91c1c?style=flat-square)
 ![Questie](https://img.shields.io/badge/Questie-optional-2563eb?style=flat-square)
@@ -15,10 +15,12 @@ tracker, or in Blizzard's standard quest log when Questie is not loaded:
 
 | Icon | Threat | Guidance |
 | :--: | :-- | :-- |
-| 🟢 ▲ | **LOW** | No unusual solo hazard identified. |
-| ⭐ | **MEDIUM** | Ordinary questing with a meaningful positioning or add risk. |
-| ❌ | **HIGH** | A hidden or unusually severe solo hazard. |
-| 💀 | **EXTREME** | Not recommended for a solo Hardcore character. |
+| Green circle | **LOW** | No unusual solo hazard identified. |
+| Yellow circle | **MEDIUM** | Ordinary questing with a meaningful positioning or add risk. |
+| Orange circle | **HIGH** | A hidden or unusually severe solo hazard. |
+| Red × | **EXTREME** | Not recommended for a solo Hardcore character. |
+
+Icons are custom 10-pixel textures with a subtle dark outline for contrast.
 
 The integration is currently verified against Questie 12.0.4. Questie remains optional and none of its files are modified.
 Hover the icon to see the quest's warning reason first, followed by the colored threat label and a small addon / feedback footer. Clicking the icon behaves like clicking the corresponding quest title.
@@ -60,7 +62,7 @@ For local development, use the **Copy working copy to WoW** Codex action or run:
 npm run install:addon
 ```
 
-This copies the current working-tree versions of the TOC and every file it loads,
+This copies the current working-tree versions of the TOC, every file it loads, and the icon textures,
 including unstaged edits and new runtime files. It does not read from `dist/`, a
 Git tag, or a GitHub release. The installed folder is replaced so stale files
 cannot affect testing; repository-only development files stay out of WoW.
@@ -80,11 +82,30 @@ file against the working copy. Look for “Verified” in the action output, the
 ## Development
 
 Run version consistency checks, quest-data validation, and all JavaScript and
-Python tests with Node.js 22+ and Python 3.9+:
+Python tests with Node.js 22+ and Python 3.9+. Install Lua 5.1 (or set
+`QAD_LUA_BIN` to its executable) to include runtime faction-loading tests;
+CI always runs these tests:
 
 ```sh
 npm run verify
 ```
+
+Edit quest warnings only in `QuestData.lua`, the canonical development source.
+After changing it or catalog faction metadata, regenerate the runtime data with:
+
+```sh
+npm run build:quest-data
+```
+
+The addon loads `QuestDataCommon.lua` plus the character's faction records from
+`QuestDataHorde.lua` or `QuestDataAlliance.lua`. The opposite faction file returns
+before creating its quest table. All three files are still read and parsed by
+WoW; this reduces retained quest data rather than providing load-on-demand files.
+If the player's faction is unavailable at startup, both faction tables are kept
+so quest warnings remain available. `QuestData.lua` is not loaded or shipped.
+Validation rejects missing or stale generated files, and the npm installation
+and packaging commands regenerate them automatically. Direct `/qad <quest ID>`
+lookups for opposite-faction quests report `UNKNOWN` on a known-faction character.
 
 `data/classic-quests.json` is the complete English Classic Era quest catalog
 composed from QuestieDB's base data and Era corrections at a pinned commit. Each

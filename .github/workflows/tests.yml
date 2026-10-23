@@ -21,7 +21,12 @@ jobs:
           node-version: 22
 
       - name: Validate versions, quest data, and all tests
-        run: npm run verify
+        # Runtime faction tests execute the generated files in Classic's Lua version.
+        # Install it separately so npm verify also works outside this workflow.
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.1
+          npm run verify
 
       - name: Build and verify the addon ZIP
         run: npm run package

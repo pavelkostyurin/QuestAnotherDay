@@ -90,7 +90,7 @@ end
 local function PositionIcon(iconButton, row)
     iconButton:ClearAllPoints()
     -- Blizzard starts non-header title text 20 px from the row's left edge.
-    -- This keeps our 14 px icon beside the name and clear of the watch check.
+    -- Keep the 14 px hover target beside the name and clear of the watch check.
     iconButton:SetPoint("LEFT", row, "LEFT", 3, 0)
 end
 
@@ -101,7 +101,8 @@ local function CreateIconButton(row)
     iconButton:RegisterForClicks("LeftButtonUp", "RightButtonUp")
 
     local texture = iconButton:CreateTexture(nil, "OVERLAY")
-    texture:SetAllPoints()
+    texture:SetSize(10, 10)
+    texture:SetPoint("CENTER")
     iconButton.texture = texture
 
     iconButton:SetScript("OnEnter", function(self)

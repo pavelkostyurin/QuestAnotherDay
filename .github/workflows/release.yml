@@ -32,7 +32,10 @@ jobs:
         run: npm run check:release -- --tag "$RELEASE_TAG"
 
       - name: Validate quest data and run all tests
-        run: npm run verify
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.1
+          npm run verify
 
       - name: Build and verify the addon ZIP
         env:

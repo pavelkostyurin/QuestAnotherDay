@@ -5,6 +5,7 @@ import assert from "node:assert/strict";
 import { fileURLToPath } from "node:url";
 
 import { parseQuestData, validateQuestRecords } from "../scripts/check-quest-data.mjs";
+import { QUEST_DATA_FILES, renderFactionQuestData } from "../scripts/build-quest-data.mjs";
 import {
   QUEST_TAGS,
   mergeQuestFlags,
@@ -60,6 +61,38 @@ test("duplicate IDs are rejected", () => {
   assert.throws(
     () => validateQuestRecords([quests[0], { ...quests[0] }]),
     /duplicate quest ID/,
+  );
+});
+
+test("generated faction data preserves every canonical record exactly once", () => {
+  const generated = renderFactionQuestData(
+    fs.readFileSync(path.join(root, "QuestData.lua"), "utf8"),
+    classicCatalog,
+  );
+  const catalogById = new Map(classicCatalog.quests.map((quest) => [quest.id, quest]));
+  const combined = [];
+  for (const [faction, filename] of Object.entries(QUEST_DATA_FILES)) {
+    const source = fs.readFileSync(path.join(root, filename), "utf8");
+    assert.equal(source, generated.get(filename), `${filename} is up to date`);
+    const partition = parseQuestData(source);
+    for (const record of partition) {
+      assert.equal(catalogById.get(record.id).faction, faction);
+    }
+    combined.push(...partition);
+  }
+  assert.doesNotThrow(() => validateQuestRecords(combined));
+  assert.deepEqual(
+    combined.toSorted((a, b) => a.id - b.id),
+    runtimeQuests.toSorted((a, b) => a.id - b.id),
+  );
+});
+
+test("faction generation rejects missing catalog entries and unknown factions", () => {
+  const source = '[1] = { threat = "LOW", reason = "Stay alert.", confidence = "high" },';
+  assert.throws(() => renderFactionQuestData(source, { quests: [] }), /missing from/);
+  assert.throws(
+    () => renderFactionQuestData(source, { quests: [{ id: 1, faction: "unknown" }] }),
+    /invalid faction/,
   );
 });
 
@@ -232,7 +265,14 @@ test("the TOC loads the quest data before the addon core", () => {
   assert.match(toc, new RegExp(`^## Interface: ${packageMetadata.wowInterface}$`, "m"));
   assert.match(toc, /## Category: Quests/);
   assert.match(toc, /## OptionalDeps: Questie/);
-  assert.ok(toc.indexOf("QuestData.lua") < toc.indexOf("Core.lua"));
+  const runtimeFiles = toc.split(/\r?\n/).filter((line) => line && !line.startsWith("#"));
+  assert.ok(!runtimeFiles.includes("QuestData.lua"));
+  for (const filename of Object.values(QUEST_DATA_FILES)) {
+    assert.ok(runtimeFiles.includes(filename));
+    assert.ok(runtimeFiles.indexOf(filename) < runtimeFiles.indexOf("Core.lua"));
+  }
+  assert.ok(runtimeFiles.indexOf("QuestDataCommon.lua") < runtimeFiles.indexOf("QuestDataHorde.lua"));
+  assert.ok(runtimeFiles.indexOf("QuestDataCommon.lua") < runtimeFiles.indexOf("QuestDataAlliance.lua"));
   assert.ok(toc.indexOf("QuestCategories.lua") < toc.indexOf("Core.lua"));
   assert.ok(toc.indexOf("Core.lua") < toc.indexOf("QuestieIntegration.lua"));
   assert.ok(toc.indexOf("Core.lua") < toc.indexOf("Options.lua"));
@@ -281,6 +321,15 @@ test("the addon defines one shared icon for every threat level", () => {
     assert.match(core, new RegExp(`${threat} = \\{[\\s\\S]*?label = "${label}"`));
   }
   assert.equal(core.match(/texture = "Interface/g)?.length, 4);
+  for (const match of core.matchAll(/texture = "(Interface[^"\n]+)"/g)) {
+    const filename = match[1].split("\\\\").slice(3).join("/");
+    const texture = fs.readFileSync(path.join(root, filename));
+    assert.equal(texture[2], 2, `${filename}: uncompressed true-color TGA`);
+    assert.equal(texture.readUInt16LE(12), 32);
+    assert.equal(texture.readUInt16LE(14), 32);
+    assert.equal(texture[16], 32, `${filename}: RGBA pixels`);
+    assert.equal(texture.length, 18 + 32 * 32 * 4);
+  }
   assert.match(core, /GameTooltip:AddLine\(record\.reason/);
 });
 
