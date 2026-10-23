@@ -6,9 +6,11 @@ local addonName, addon = ...
 local questieTrackerLinePool
 local questieTrackerModule
 local iconButtons = {}
+-- Lower the inline texture slightly to match the quest title's visual center.
+local ICON_Y_OFFSET = -2
 
 local function GetQuestIcon(questID)
-    return addon.GetThreatInlineIcon(questID)
+    return addon.GetThreatInlineIcon(questID, ICON_Y_OFFSET)
 end
 
 local function CreateIconButton(line)
@@ -66,7 +68,7 @@ local function UpdateQuestieIconButtons()
         local button = iconButtons[line] or CreateIconButton(line)
         button.questID = questID
         button:ClearAllPoints()
-        button:SetPoint("TOPLEFT", line.label, "TOPLEFT", 0, 1)
+        button:SetPoint("TOPLEFT", line.label, "TOPLEFT", 0, 1 + ICON_Y_OFFSET)
         button:Show()
     end)
 end

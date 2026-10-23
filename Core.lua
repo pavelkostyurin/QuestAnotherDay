@@ -84,9 +84,9 @@ local function GetThreatStyle(questID)
     return record, style
 end
 
-local function GetThreatInlineIcon(questID)
+local function GetThreatInlineIcon(questID, yOffset)
     local _, style = GetThreatStyle(questID)
-    return style and "|T" .. style.texture .. ":10:10|t" or nil
+    return style and "|T" .. style.texture .. ":10:10:0:" .. (yOffset or 0) .. "|t" or nil
 end
 
 local function ShowThreatTooltip(owner, questID)
