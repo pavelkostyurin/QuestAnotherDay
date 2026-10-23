@@ -173,13 +173,19 @@ The distributed addon has no runtime dependencies and does not access the networ
 
 ## Releases
 
+The CurseForge project description is maintained in
+[`CURSEFORGE_DESCRIPTION.md`](CURSEFORGE_DESCRIPTION.md). Keep it aligned with
+player-facing features and copy its contents into the CurseForge description
+editor when updating the project page.
+
 ### One-time CurseForge setup
 
 CurseForge builds and publishes tagged releases directly from GitHub using its
 [automatic packager](https://support.curseforge.com/support/solutions/articles/9000197281-automatic-packaging).
 The root `.pkgmeta` sets the installed folder to `QuestAnotherDay` and excludes
 development files. The TOC supplies the supported Classic Era interface version;
-CurseForge generates a changelog from commit messages.
+CurseForge uses the Markdown release notes in [`CHANGELOG.md`](CHANGELOG.md)
+through `.pkgmeta`'s `manual-changelog` setting.
 
 1. Configure the CurseForge project's repository integration to use
    `https://github.com/pavelkostyurin/QuestAnotherDay`. Enable packaging for tags
@@ -219,6 +225,34 @@ npm run version:bump -- patch --interface 11510
 
 Use `minor`, `major`, or an explicit higher version such as `0.5.0` when
 appropriate. Keep the current interface unless WoW Classic Era has updated.
+After bumping the version, use the **Generate release notes** Codex action, or run:
+
+```sh
+npm run notes:generate
+```
+
+This uses the installed, signed-in Codex CLI with its configured model to write
+concise, player-facing notes from the changes since the previous release tag,
+including working-tree edits. It prefers the Codex / ChatGPT desktop app's bundled
+CLI, then `codex` on PATH; set `QAD_CODEX_BIN` to select another executable.
+Codex runs in a read-only sandbox; the script
+validates its response before replacing [`CHANGELOG.md`](CHANGELOG.md). Failed
+generation preserves the existing notes. Review the result and edit it as needed.
+Run the action again if you add more changes before release.
+
+**Verify release** (`npm run verify`) and **Release** both reject missing notes,
+a heading that does not match the addon version, empty notes, and unfinished
+placeholders such as TODO or TBD. Bumping the version leaves the old notes intact
+so verification fails until you prepare notes for the new version. Local package
+builds and the release workflow enforce the same checks. Installing a working
+copy into WoW does not require release notes.
+
+Keep only the current release's notes in that file; previous notes remain in Git
+history and published releases.
+CurseForge and GitHub Releases both use this file instead of generated commit
+logs. Changing it does not update an already published release; copy the notes
+into that release's changelog editor if a correction is needed.
+
 Review and commit your changes on `main`, then run:
 
 ```sh

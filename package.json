@@ -9,6 +9,7 @@
     "check:data": "node scripts/check-quest-data.mjs && node scripts/build-quest-data.mjs --check",
     "build:quest-data": "node scripts/build-quest-data.mjs",
     "check:release": "python3 scripts/release.py check",
+    "notes:generate": "python3 scripts/release.py notes",
     "version:bump": "python3 scripts/release.py bump",
     "install:addon": "npm run build:quest-data && python3 scripts/release.py install",
     "package": "npm run build:quest-data && python3 scripts/release.py package",

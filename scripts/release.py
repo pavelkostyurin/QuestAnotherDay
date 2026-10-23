@@ -3,6 +3,7 @@
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path, PurePosixPath
 import re
 import shutil
@@ -22,6 +23,7 @@ INTERFACE_PATTERN = r"1[0-9]{4}"
 TOC_VERSION = re.compile(r"^## Version: (\S+)$", re.MULTILINE)
 TOC_INTERFACE = re.compile(r"^## Interface: (\S+)$", re.MULTILINE)
 README_VERSION = re.compile(r"(?<=badge/version-)([^-\s]+)(?=-7c3aed)")
+CHANGELOG = "CHANGELOG.md"
 
 
 def parse_version(version):
@@ -55,6 +57,98 @@ def check_version(root=ROOT, tag=None):
         )
     if tag is not None and tag != f"v{version}":
         raise ValueError(f"Release tag {tag!r} must match v{version}")
+    return version
+
+
+def validate_release_notes(source, version):
+    hint = "Run the Generate release notes action (npm run notes:generate), then review CHANGELOG.md."
+    lines = source.strip().splitlines()
+    if not lines or lines[0] != f"# Quest Another Day v{version}":
+        raise ValueError(f"CHANGELOG.md must start with '# Quest Another Day v{version}'. {hint}")
+    if sum(line.startswith("# ") for line in lines) != 1:
+        raise ValueError(f"CHANGELOG.md must contain only the current release's notes. {hint}")
+    if "```" in source or not any(re.match(r"^- \S", line) for line in lines[1:]):
+        raise ValueError(f"CHANGELOG.md needs player-facing Markdown bullet points. {hint}")
+    if re.search(r"\b(?:TODO|TBD|FIXME|placeholder)\b|to be (?:written|added|completed)",
+                 source, re.IGNORECASE):
+        raise ValueError(f"CHANGELOG.md contains unfinished release notes. {hint}")
+
+
+def check_release(root=ROOT, tag=None):
+    version = check_version(root, tag)
+    path = root / CHANGELOG
+    if not path.is_file():
+        raise ValueError("Missing CHANGELOG.md. Run the Generate release notes action "
+                         "(npm run notes:generate), then review the notes.")
+    validate_release_notes(path.read_text(), version)
+    return version
+
+
+def find_codex():
+    override = os.environ.get("QAD_CODEX_BIN")
+    if override:
+        return shutil.which(override)
+    # Desktop builds can support models not recognized by a separate CLI install.
+    for binary in (
+        "/Applications/Codex.app/Contents/Resources/codex",
+        "/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
+    ):
+        if Path(binary).is_file() and os.access(binary, os.X_OK):
+            return binary
+    return shutil.which("codex")
+
+
+def generate_release_notes(root=ROOT):
+    version = check_version(root)
+    codex = find_codex()
+    if codex is None:
+        raise ValueError("Generate release notes requires the Codex CLI on PATH. "
+                         "Install it and sign in with codex login, then retry.")
+    tags = git_output("tag", "--merged", "HEAD", "--list", "v*", root=root).splitlines()
+    previous = [tag for tag in tags
+                if re.fullmatch(f"v{VERSION_PATTERN}", tag)
+                and parse_version(tag[1:]) < parse_version(version)]
+    baseline = max(previous, key=lambda tag: parse_version(tag[1:])) if previous else None
+    comparison = (f"Compare the working tree with release tag {baseline}. Inspect "
+                  f"git diff {baseline} and git log {baseline}..HEAD --format=%s%n%b."
+                  if baseline else
+                  "This is the first release. Inspect the runtime files and README.md.")
+    prompt = f"""Write release notes for Quest Another Day v{version}, a WoW Classic Era Hardcore addon.
+{comparison}
+Include staged, unstaged, and relevant untracked changes. Read README.md and inspect actual
+code/data changes to confirm claims. Existing CHANGELOG.md is a style reference only.
+Write concise, polished English for players: concrete new behavior, fixes, quest guidance,
+and performance improvements supported by the changes. Group related changes. Omit commit
+hashes, authors, emails, badge updates, version bumps, and routine development details.
+If changes only affect maintenance, say so briefly without inventing player-facing features.
+Do not research or reclassify quests. Do not run tests, fetch, use external services, change
+files, commit, tag, push, or publish. This task only returns text for the calling script.
+Return only Markdown, starting exactly with '# Quest Another Day v{version}', followed by
+meaningful '- ' bullet points. Include only this release, no code fences, commentary,
+citations, TODOs, TBDs, or placeholders.
+"""
+    with TemporaryDirectory(prefix="qad-release-notes-") as temporary:
+        output = Path(temporary) / "notes.md"
+        print("Generating player-facing release notes with Codex...", flush=True)
+        subprocess.run(
+            [codex, "exec", "--sandbox", "read-only", "--ephemeral", "--json", "--color", "never",
+             "--output-last-message", str(output), "-"],
+            cwd=root, input=prompt, text=True, stdout=subprocess.DEVNULL, check=True,
+        )
+        if not output.is_file():
+            raise ValueError("Codex returned no release notes; CHANGELOG.md was preserved.")
+        source = output.read_text().strip() + "\n"
+        validate_release_notes(source, version)
+        if check_version(root) != version:
+            raise ValueError("The addon version changed during generation; retry.")
+        # Validate the response before replacing any existing, reviewed notes.
+        with NamedTemporaryFile(mode="w", dir=root, suffix=".md", delete=False) as staged:
+            staged.write(source)
+        staged_path = Path(staged.name)
+        try:
+            staged_path.replace(root / CHANGELOG)
+        finally:
+            staged_path.unlink(missing_ok=True)
     return version
 
 
@@ -116,7 +210,7 @@ def package_files(root=ROOT):
 
 
 def build_package(root=ROOT, tag=None):
-    version = check_version(root, tag)
+    version = check_release(root, tag)
     contents = {f"QuestAnotherDay/{name}": (root / name).read_bytes()
                 for name in package_files(root)}
     output = root / "dist"
@@ -281,7 +375,7 @@ def publish(root=ROOT):
         raise ValueError("Commit your changes before releasing (the working tree must be clean)")
     if git_output("branch", "--show-current", root=root) != "main":
         raise ValueError("Releases must be made from main")
-    version = check_version(root)
+    version = check_release(root)
     tag = f"v{version}"
     commit = sync_remote_main(root)
     prepare_local_tag(tag, commit, root)
@@ -317,6 +411,7 @@ def main():
     commands = parser.add_subparsers(dest="command", required=True)
     for name in ("check", "package"):
         commands.add_parser(name).add_argument("--tag")
+    commands.add_parser("notes")
     bump = commands.add_parser("bump")
     bump.add_argument("version", nargs="?", help="patch, minor, major, or X.Y.Z")
     bump.add_argument("--interface", help="Classic Era interface, such as 11509")
@@ -326,7 +421,10 @@ def main():
     args = parser.parse_args()
     try:
         if args.command == "check":
-            print(check_version(tag=args.tag))
+            print(check_release(tag=args.tag))
+        elif args.command == "notes":
+            version = generate_release_notes()
+            print(f"Generated CHANGELOG.md for v{version}. Review it, then verify and commit.")
         elif args.command == "bump":
             current_package = json.loads((ROOT / "package.json").read_text())
             requested_version = args.version

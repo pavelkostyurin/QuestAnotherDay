@@ -50,4 +50,4 @@ jobs:
         run: |
           version="${RELEASE_TAG#v}"
           gh release create "$RELEASE_TAG" "dist/QuestAnotherDay-$version.zip" \
-            --verify-tag --title "Quest Another Day $version" --generate-notes
+            --verify-tag --title "Quest Another Day $version" --notes-file CHANGELOG.md

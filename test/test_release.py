@@ -4,12 +4,15 @@ import io
 import json
 from pathlib import Path
 import subprocess
+import shutil
 from tempfile import TemporaryDirectory
 import unittest
 from unittest.mock import patch
 import zipfile
 
-from scripts.release import build_package, bump_version, check_version, install_addon, publish, verify_installed_addon
+from scripts.release import (build_package, bump_version, check_release, check_version,
+                             generate_release_notes, install_addon, publish,
+                             verify_installed_addon)
 
 
 class ReleaseTests(unittest.TestCase):
@@ -26,6 +29,7 @@ class ReleaseTests(unittest.TestCase):
             }),
             "QuestAnotherDay.toc": "## Interface: 11509\n## Version: 0.4.1\n\nCore.lua\n",
             "README.md": "![Version](https://img.shields.io/badge/version-0.4.1-7c3aed?style=flat-square)\n",
+            "CHANGELOG.md": "# Quest Another Day v0.4.1\n\n- Added quest warnings.\n",
             "Core.lua": "local addonName, addon = ...\n",
             "LICENSE": "MIT License\n",
             "THIRD_PARTY_NOTICES.md": "Upstream terms apply.\n",
@@ -72,6 +76,115 @@ class ReleaseTests(unittest.TestCase):
             with self.subTest(interface=interface), self.assertRaises(ValueError):
                 bump_version("patch", self.root, interface)
         self.assertEqual(before, {p.name: p.read_bytes() for p in self.root.iterdir()})
+
+    def test_release_notes_must_be_complete_and_match_the_version(self):
+        path = self.root / "CHANGELOG.md"
+        valid = path.read_text()
+        self.assertEqual("0.4.1", check_release(self.root))
+        invalid = ["", "# Quest Another Day v0.4.0\n\n- Added warnings.\n",
+                   "# Quest Another Day v0.4.1\n",
+                   "# Quest Another Day v0.4.1\n\n- TODO: write release notes.\n",
+                   "# Quest Another Day v0.4.1\n\n- TBD\n",
+                   "# Quest Another Day v0.4.1\n\n- Placeholder\n",
+                   "# Quest Another Day v0.4.1\n\n```\n- Added warnings.\n```\n",
+                   valid + "\n# Quest Another Day v0.4.0\n\n- Old notes.\n"]
+        for source in invalid:
+            with self.subTest(source=source):
+                path.write_text(source)
+                with self.assertRaisesRegex(ValueError, "Generate release notes"):
+                    check_release(self.root)
+                with self.assertRaises(ValueError):
+                    build_package(self.root)
+        path.unlink()
+        with self.assertRaisesRegex(ValueError, "Missing CHANGELOG.md"):
+            check_release(self.root)
+        self.assertFalse((self.root / "dist").exists())
+
+    def test_bump_requires_new_notes_without_relabeling_old_notes(self):
+        path = self.root / "CHANGELOG.md"
+        original = path.read_text()
+        self.assertEqual("0.4.2", bump_version("patch", self.root))
+        self.assertEqual(original, path.read_text())
+        with self.assertRaisesRegex(ValueError, "v0.4.2"):
+            check_release(self.root)
+
+    def test_release_rejects_invalid_notes_before_network_or_tagging(self):
+        (self.root / "CHANGELOG.md").write_text("# Quest Another Day v0.4.0\n")
+        self.init_repository()
+        with self.assertRaisesRegex(ValueError, "Generate release notes"):
+            publish(self.root)
+        self.assertEqual("", self.git("tag", "--list"))
+        self.assertFalse((self.root / "dist").exists())
+
+    def test_verify_and_release_commands_fail_with_outdated_notes(self):
+        repository = Path(__file__).resolve().parents[1]
+        (self.root / "scripts").mkdir()
+        shutil.copyfile(repository / "scripts/release.py", self.root / "scripts/release.py")
+        package_path = self.root / "package.json"
+        package = json.loads(package_path.read_text())
+        package["scripts"] = json.loads((repository / "package.json").read_text())["scripts"]
+        package_path.write_text(json.dumps(package))
+        (self.root / "CHANGELOG.md").write_text("# Quest Another Day v0.4.0\n\n- Old notes.\n")
+        self.init_repository()
+        for command in ("verify", "release"):
+            with self.subTest(command=command):
+                result = subprocess.run(["npm", "run", command], cwd=self.root,
+                                        text=True, capture_output=True)
+                self.assertNotEqual(0, result.returncode)
+                self.assertIn("Generate release notes", result.stderr)
+        self.assertEqual("", self.git("tag", "--list"))
+        self.assertEqual("", self.git("status", "--porcelain"))
+
+    def test_codex_generates_valid_notes_using_the_previous_release(self):
+        self.init_repository()
+        self.git("tag", "v0.3.0")
+        self.git("tag", "v0.4.1")
+        real_run = subprocess.run
+        generated = "# Quest Another Day v0.4.1\n\n- Improved quest warnings.\n"
+
+        def run_codex(command, **kwargs):
+            if command[0] != "/fake-codex":
+                return real_run(command, **kwargs)
+            self.assertIn("read-only", command)
+            self.assertIn("--ephemeral", command)
+            self.assertIn("release tag v0.3.0", kwargs["input"])
+            self.assertIn("staged, unstaged", kwargs["input"])
+            Path(command[command.index("--output-last-message") + 1]).write_text(generated)
+            return subprocess.CompletedProcess(command, 0)
+
+        with patch("scripts.release.find_codex", return_value="/fake-codex"):
+            with patch("scripts.release.subprocess.run", side_effect=run_codex):
+                self.assertEqual("0.4.1", generate_release_notes(self.root))
+        self.assertEqual(generated, (self.root / "CHANGELOG.md").read_text())
+        self.assertEqual("0.4.1", check_release(self.root))
+
+    def test_failed_or_incomplete_generation_preserves_existing_notes(self):
+        self.init_repository()
+        real_run = subprocess.run
+        original = (self.root / "CHANGELOG.md").read_bytes()
+
+        def run_codex(command, **kwargs):
+            if command[0] != "/fake-codex":
+                return real_run(command, **kwargs)
+            if response is None:
+                raise subprocess.CalledProcessError(1, command)
+            if response:
+                Path(command[command.index("--output-last-message") + 1]).write_text(response)
+            return subprocess.CompletedProcess(command, 0)
+
+        for response in (None, "", "# Quest Another Day v0.4.1\n\n- TBD\n",
+                         "# Quest Another Day v0.4.0\n\n- Old notes.\n"):
+            with self.subTest(response=response):
+                with patch("scripts.release.find_codex", return_value="/fake-codex"):
+                    with patch("scripts.release.subprocess.run", side_effect=run_codex):
+                        with self.assertRaises((ValueError, subprocess.CalledProcessError)):
+                            generate_release_notes(self.root)
+                self.assertEqual(original, (self.root / "CHANGELOG.md").read_bytes())
+
+        with patch("scripts.release.find_codex", return_value=None):
+            with self.assertRaisesRegex(ValueError, "Codex CLI on PATH"):
+                generate_release_notes(self.root)
+        self.assertEqual(original, (self.root / "CHANGELOG.md").read_bytes())
 
     def test_version_drift_or_wrong_tag_prevents_packaging(self):
         with self.assertRaisesRegex(ValueError, "tag"):

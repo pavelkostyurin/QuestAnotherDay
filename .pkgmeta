@@ -1,11 +1,15 @@
 package-as: QuestAnotherDay
 enable-nolib-creation: no
 
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
 # Dotfiles are excluded automatically by CurseForge's packager.
 ignore:
   - QuestData.lua
-  - AI_instructions.md
   - CONTRIBUTING.md
+  - CURSEFORGE_DESCRIPTION.md
   - assets
   - audit_quests.py
   - data

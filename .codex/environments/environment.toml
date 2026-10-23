@@ -15,6 +15,11 @@ icon = "tool"
 command = "npm run version:bump"
 
 [[actions]]
+name = "Generate release notes"
+icon = "tool"
+command = "npm run notes:generate"
+
+[[actions]]
 name = "Copy working copy to WoW"
 icon = "tool"
 command = "npm run install:addon"

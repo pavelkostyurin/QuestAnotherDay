@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quest Threat Review"
+  short_description: "Research and review Classic Era quest danger"
+  default_prompt: "Use $quest-threat-review to review this quest's danger and tooltip warning."
