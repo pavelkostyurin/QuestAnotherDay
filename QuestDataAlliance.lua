@@ -3941,8 +3941,38 @@ local quests = {
     -- Control Four Bases
     [8114] = { threat = "EXTREME", reason = "PvP quest. Capture and control four bases in Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
+    -- Control Five Bases
+    [8115] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
     -- Honoring a Hero
-    [8149] = { threat = "LOW", reason = "Harvest Festival holiday quest. Travel to Uther's Tomb and use Uther's Tribute at his statue, then return to Wagner Hammerstrike before the festival ends. No combat required. The journey to the Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8149] = { threat = "LOW", reason = "The Harvest Festival visit to Uther's Tomb requires no combat. Travel through Western Plaguelands carefully and avoid nearby undead on the way to the statue.", confidence = "medium" },
+
+    -- Arathi Basin Resources!
+    [8154] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Arathi Basin Resources!
+    [8155] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Arathi Basin Resources!
+    [8156] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8157] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8158] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8159] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- The Battle for Arathi Basin!
+    [8166] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- The Battle for Arathi Basin!
+    [8167] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- The Battle for Arathi Basin!
+    [8168] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- Taking Back Silithus
     [8275] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },

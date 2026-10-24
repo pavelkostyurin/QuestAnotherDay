@@ -81070,6 +81070,1083 @@
       "reason": "PvP quest. Capture and control four bases in Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
       "threat": "EXTREME",
       "confidence": "high"
+    },
+    {
+      "questId": 8115,
+      "questName": "Control Five Bases",
+      "url": "https://www.wowhead.com/classic/quest=8115",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Control Five Bases - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8115/control-five-bases",
+          "evidence": "Classic quest requires controlling all five bases in Arathi Basin at the same time.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:57:10+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Control 5 bases in Arathi Basin at the same time, then return to Field Marshal Oslight at Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8116,
+      "questName": "Vision of Voodress",
+      "url": "https://www.wowhead.com/classic/quest=8116",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8117,
+      "questName": "Vision of Voodress",
+      "url": "https://www.wowhead.com/classic/quest=8117",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8118,
+      "questName": "Vision of Voodress",
+      "url": "https://www.wowhead.com/classic/quest=8118",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8119,
+      "questName": "The Unmarred Vision of Voodress",
+      "url": "https://www.wowhead.com/classic/quest=8119",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8120,
+      "questName": "The Battle for Arathi Basin!",
+      "url": "https://www.wowhead.com/classic/quest=8120",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8121,
+      "questName": "Take Four Bases",
+      "url": "https://www.wowhead.com/classic/quest=8121",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Take Four Bases - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8121/take-four-bases",
+          "evidence": "Classic quest requires holding four Arathi Basin bases simultaneously.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:57:10+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Hold four bases at the same time in Arathi Basin, and then return to Deathmaster Dwire in Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8122,
+      "questName": "Take Five Bases",
+      "url": "https://www.wowhead.com/classic/quest=8122",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Hold five bases in Arathi Basin at the same time, then return to Deathmaster Dwire in Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8123,
+      "questName": "Cut Arathor Supply Lines",
+      "url": "https://www.wowhead.com/classic/quest=8123",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8124,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8124",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8141,
+      "questName": "Zandalarian Shadow Talisman",
+      "url": "https://www.wowhead.com/classic/quest=8141",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8142,
+      "questName": "Zandalarian Shadow Talisman",
+      "url": "https://www.wowhead.com/classic/quest=8142",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8143,
+      "questName": "Zandalarian Shadow Talisman",
+      "url": "https://www.wowhead.com/classic/quest=8143",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8144,
+      "questName": "Zandalarian Shadow Mastery Talisman",
+      "url": "https://www.wowhead.com/classic/quest=8144",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8145,
+      "questName": "The Maelstrom's Tendril",
+      "url": "https://www.wowhead.com/classic/quest=8145",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8146,
+      "questName": "The Maelstrom's Tendril",
+      "url": "https://www.wowhead.com/classic/quest=8146",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8147,
+      "questName": "The Maelstrom's Tendril",
+      "url": "https://www.wowhead.com/classic/quest=8147",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8148,
+      "questName": "Maelstrom's Wrath",
+      "url": "https://www.wowhead.com/classic/quest=8148",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8149,
+      "questName": "Honoring a Hero",
+      "url": "https://www.wowhead.com/classic/quest=8149",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a holiday interaction and return trip, not a combat objective. Confidence is medium from clear local quest context; ordinary hostile-area travel remains the only danger.",
+      "reason": "The Harvest Festival visit to Uther's Tomb requires no combat. Travel through Western Plaguelands carefully and avoid nearby undead on the way to the statue.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8150,
+      "questName": "Honoring a Hero",
+      "url": "https://www.wowhead.com/classic/quest=8150",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a holiday interaction and return trip, not a combat objective. Confidence is medium from clear local quest context; ordinary hostile-area travel remains the only danger.",
+      "reason": "The Harvest Festival visit to Grom's Monument requires no combat. Follow the route through Ashenvale carefully and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8151,
+      "questName": "The Hunter's Charm",
+      "url": "https://www.wowhead.com/classic/quest=8151",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a dialogue step only. Confidence is medium from clear local quest context; ordinary travel is the only danger.",
+      "reason": "This hunter-class step is a conversation with Ogtinc. It adds no combat objective; travel through Azshara carefully and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8153,
+      "questName": "Courser Antlers",
+      "url": "https://www.wowhead.com/classic/quest=8153",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Four unranked Wowhead comments were reviewed; the sampled accounts are anecdotal and do not independently establish a universal drop rate.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Courser Antlers - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8153/courser-antlers",
+          "evidence": "Classic quest objective requires two Perfect Courser Antlers from Mosshoof Coursers in Azshara; unranked comments report low drops and close mob spacing.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:57:10+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Hardcore policy context was checked; it does not affect this outdoor Courser quest."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page describes a two-item Courser hunt in Azshara. Four unranked comments were reviewed; reports of low drops and close mob spacing are anecdotal and do not establish a universal rate. Confidence is medium because the quest objective is direct but pull conditions and drop experience vary.",
+      "reason": "Two Perfect Courser Antlers require hunting Mosshoof Coursers in Azshara, where closely spaced mobs can complicate repeated pulls. Pull one at a time, keep an escape route, and stop if nearby spawns close in.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8154,
+      "questName": "Arathi Basin Resources!",
+      "url": "https://www.wowhead.com/classic/quest=8154",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Sergeant Maclear at Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8155,
+      "questName": "Arathi Basin Resources!",
+      "url": "https://www.wowhead.com/classic/quest=8155",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Sergeant Maclear at Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8156,
+      "questName": "Arathi Basin Resources!",
+      "url": "https://www.wowhead.com/classic/quest=8156",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Sergeant Maclear at Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8157,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8157",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Sergeant Maclear at Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8158,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8158",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Sergeant Maclear at Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8159,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8159",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Sergeant Maclear at Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8160,
+      "questName": "Cut Arathor Supply Lines",
+      "url": "https://www.wowhead.com/classic/quest=8160",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8161,
+      "questName": "Cut Arathor Supply Lines",
+      "url": "https://www.wowhead.com/classic/quest=8161",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8162,
+      "questName": "Cut Arathor Supply Lines",
+      "url": "https://www.wowhead.com/classic/quest=8162",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8163,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8163",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8164,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8164",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8165,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8165",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Win the battle for Arathi Basin, get an Arathi Resource Crate, and return it to Deathstalker Mortis at Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8166,
+      "questName": "The Battle for Arathi Basin!",
+      "url": "https://www.wowhead.com/classic/quest=8166",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Battle for Arathi Basin! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8166/the-battle-for-arathi-basin",
+          "evidence": "Classic quest requires assaulting four bases inside Arathi Basin; local level variants have the same objective.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:57:10+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8167,
+      "questName": "The Battle for Arathi Basin!",
+      "url": "https://www.wowhead.com/classic/quest=8167",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8168,
+      "questName": "The Battle for Arathi Basin!",
+      "url": "https://www.wowhead.com/classic/quest=8168",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Assault the mine, the lumber mill, the blacksmith and the farm, then return to Field Marshal Oslight in Refuge Pointe.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8169,
+      "questName": "The Battle for Arathi Basin!",
+      "url": "https://www.wowhead.com/classic/quest=8169",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8170,
+      "questName": "The Battle for Arathi Basin!",
+      "url": "https://www.wowhead.com/classic/quest=8170",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8171,
+      "questName": "The Battle for Arathi Basin!",
+      "url": "https://www.wowhead.com/classic/quest=8171",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:57:10+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Battle for Arathi Basin! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8171/the-battle-for-arathi-basin",
+          "evidence": "Classic Horde quest requires assaulting four bases inside Arathi Basin; local level variants have the same objective.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:57:10+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The pinned Classic catalog requires an Arathi Basin battleground objective (Assault the Arathi Basin mine, lumber mill, blacksmith and stable, and then return to Deathmaster Dwire in Hammerfall.); Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are explicit and directly sourced.",
+      "reason": "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8181,
+      "questName": "Confront Yeh'kinya",
+      "url": "https://www.wowhead.com/classic/quest=8181",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8182,
+      "questName": "The Hand of Rastakhan",
+      "url": "https://www.wowhead.com/classic/quest=8182",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8183,
+      "questName": "The Heart of Hakkar",
+      "url": "https://www.wowhead.com/classic/quest=8183",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Classic evidence identifies Heart of Hakkar as a drop from Hakkar, the final boss of Zul’Gurub; skipped as a raid quest before reviewing comments."
+    },
+    {
+      "questId": 8184,
+      "questName": "Presence of Might",
+      "url": "https://www.wowhead.com/classic/quest=8184",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8185,
+      "questName": "Syncretist's Sigil",
+      "url": "https://www.wowhead.com/classic/quest=8185",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8186,
+      "questName": "Death's Embrace",
+      "url": "https://www.wowhead.com/classic/quest=8186",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8187,
+      "questName": "Falcon's Call",
+      "url": "https://www.wowhead.com/classic/quest=8187",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8188,
+      "questName": "Vodouisant's Vigilant Embrace",
+      "url": "https://www.wowhead.com/classic/quest=8188",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8189,
+      "questName": "Presence of Sight",
+      "url": "https://www.wowhead.com/classic/quest=8189",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8190,
+      "questName": "Hoodoo Hex",
+      "url": "https://www.wowhead.com/classic/quest=8190",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:57:10+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
     }
   ]
 }

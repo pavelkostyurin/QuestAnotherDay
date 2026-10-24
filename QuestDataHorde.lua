@@ -3329,8 +3329,50 @@ local quests = {
     -- The Darkmoon Faire
     [7926] = { threat = "LOW", reason = "Deliver the free ticket voucher to Gelvas Grimgate at the Darkmoon Faire. This stationary hand-in adds no combat; use the normal route to the representative.", confidence = "medium" },
 
+    -- The Battle for Arathi Basin!
+    [8120] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Take Four Bases
+    [8121] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Take Five Bases
+    [8122] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Cut Arathor Supply Lines
+    [8123] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8124] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
     -- Honoring a Hero
-    [8150] = { threat = "LOW", reason = "Harvest Festival holiday quest. Travel to Grom's Monument in Demon Fall Canyon and use Grom's Tribute at the base of the monument. No combat required. The journey to Ashenvale is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8150] = { threat = "LOW", reason = "The Harvest Festival visit to Grom's Monument requires no combat. Follow the route through Ashenvale carefully and avoid nearby hostile camps.", confidence = "medium" },
+
+    -- Cut Arathor Supply Lines
+    [8160] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Cut Arathor Supply Lines
+    [8161] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Cut Arathor Supply Lines
+    [8162] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8163] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8164] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8165] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- The Battle for Arathi Basin!
+    [8169] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- The Battle for Arathi Basin!
+    [8170] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- The Battle for Arathi Basin!
+    [8171] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- The Darkreaver Menace
     [8258] = { threat = "EXTREME", reason = "Elite quest. Requires using the Divination Scryer in Scholomance to summon waves of elite spirits and Death Knight Darkreaver. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ with a coordinated strategy is required. Do not attempt solo.", confidence = "high" },

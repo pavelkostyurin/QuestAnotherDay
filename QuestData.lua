@@ -8976,17 +8976,41 @@ addon.quests = {
     [8081] = { threat = "EXTREME", reason = "PvP quest. Win Arathi Basin and return with a resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     [8105] = { threat = "EXTREME", reason = "PvP quest. Assault four bases inside Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     [8114] = { threat = "EXTREME", reason = "PvP quest. Capture and control four bases in Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
-
-    [8149] = { threat = "LOW", reason = "Harvest Festival holiday quest. Travel to Uther's Tomb and use Uther's Tribute at his statue, then return to Wagner Hammerstrike before the festival ends. No combat required. The journey to the Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8149] = { threat = "LOW", reason = "The Harvest Festival visit to Uther's Tomb requires no combat. Travel through Western Plaguelands carefully and avoid nearby undead on the way to the statue.", confidence = "medium" },
 
     -- Honoring a Hero (Horde)
-    [8150] = { threat = "LOW", reason = "Harvest Festival holiday quest. Travel to Grom's Monument in Demon Fall Canyon and use Grom's Tribute at the base of the monument. No combat required. The journey to Ashenvale is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8150] = { threat = "LOW", reason = "The Harvest Festival visit to Grom's Monument requires no combat. Follow the route through Ashenvale carefully and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Hunter's Charm
-    [8151] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. The journey to Azshara is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8151] = { threat = "LOW", reason = "This hunter-class step is a conversation with Ogtinc. It adds no combat objective; travel through Azshara carefully and avoid hostile camps.", confidence = "medium" },
 
     -- Courser Antlers
-    [8153] = { threat = "MEDIUM", reason = "Requires killing Mosshoof Coursers in Azshara for their antlers. The coursers are level 48-52 and are aggressive. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8153] = { threat = "MEDIUM", reason = "Two Perfect Courser Antlers require hunting Mosshoof Coursers in Azshara, where closely spaced mobs can complicate repeated pulls. Pull one at a time, keep an escape route, and stop if nearby spawns close in.", confidence = "medium" },
+
+    [8115] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8120] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8121] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8122] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8123] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8124] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8154] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8155] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8156] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8157] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8158] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8159] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8160] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8161] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8162] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8163] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8164] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8165] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8166] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8167] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8168] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8169] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8170] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8171] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- Confront Yeh'kinya
     [8181] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },

@@ -2337,10 +2337,10 @@ addon.quests = {
     [8079] = { threat = "EXTREME", reason = "Raid quest. Requires a Primal Hakkari Kossack from Zul'Gurub. A full raid group of 20 players is required. Do not attempt solo. Requires Revered reputation with Zandalar Tribe.", confidence = "high" },
 
     -- The Hunter's Charm
-    [8151] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. The journey to Azshara is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8151] = { threat = "LOW", reason = "This hunter-class step is a conversation with Ogtinc. It adds no combat objective; travel through Azshara carefully and avoid hostile camps.", confidence = "medium" },
 
     -- Courser Antlers
-    [8153] = { threat = "MEDIUM", reason = "Requires killing Mosshoof Coursers in Azshara for their antlers. The coursers are level 48-52 and are aggressive. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8153] = { threat = "MEDIUM", reason = "Two Perfect Courser Antlers require hunting Mosshoof Coursers in Azshara, where closely spaced mobs can complicate repeated pulls. Pull one at a time, keep an escape route, and stop if nearby spawns close in.", confidence = "medium" },
 
     -- Confront Yeh'kinya
     [8181] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
