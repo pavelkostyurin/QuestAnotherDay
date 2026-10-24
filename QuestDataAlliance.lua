@@ -4520,6 +4520,9 @@ local quests = {
     -- The Source Revealed
     [9028] = { threat = "MEDIUM", reason = "Staffron is hidden along the mountain path beyond Ravenholdt Manor. The route is remote and easy to miss, but this step adds no fight; follow the path carefully and avoid nearby hostiles.", confidence = "medium" },
 
+    -- Argent Dawn Gloves
+    [9094] = { threat = "MEDIUM", reason = "Collecting 30 Necrotic Runes requires repeated fights with Scourge undead around invasion shards, where nearby mobs can add. Choose isolated targets and avoid pulling rare or elite undead with a pack.", confidence = "medium" },
+
     -- Investigate the Scourge of Stormwind
     [9260] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Stormwind and investigating runic circles. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
 

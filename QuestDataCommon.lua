@@ -3459,7 +3459,7 @@ addon.quests = {
     [9061] = { threat = "EXTREME", reason = "Requires a Desecrated Wristguards from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },
 
     -- Torwa Pathfinder
-    [9063] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [9063] = { threat = "LOW", reason = "Druid class quest. This step is only a conversation with Torwa Pathfinder in Un’Goro Crater, with no combat objective. Follow the road through the crater and avoid unrelated hostile wildlife.", confidence = "medium" },
 
     -- Earthshatter Tunic
     [9068] = { threat = "EXTREME", reason = "Requires a Desecrated Tunic from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },
@@ -3510,7 +3510,7 @@ addon.quests = {
     [9084] = { threat = "EXTREME", reason = "Requires a Desecrated Bracers from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },
 
     -- Shadows of Doom
-    [9085] = { threat = "EXTREME", reason = "Requires killing a Shadow of Doom at a summoning circle. The Shadow is a level 60 elite that spawns during the Scourge invasion event. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [9085] = { threat = "EXTREME", reason = "Group quest. A level-61 elite Shadow of Doom can appear with other Scourge attackers and can fear nearby players. A level-60 solo character can be overwhelmed; clear the area and bring a suitable group before summoning.", confidence = "medium" },
 
     -- Dreamwalker Tunic
     [9086] = { threat = "EXTREME", reason = "Requires a Desecrated Tunic from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },

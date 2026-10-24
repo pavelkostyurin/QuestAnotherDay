@@ -99609,6 +99609,525 @@
       "checkedAt": "2026-10-24T19:31:00+03:00",
       "skipReason": "dungeon",
       "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 9054,
+      "questName": "Cryptstalker Tunic",
+      "url": "https://www.wowhead.com/classic/quest=9054",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9055,
+      "questName": "Cryptstalker Legguards",
+      "url": "https://www.wowhead.com/classic/quest=9055",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9056,
+      "questName": "Cryptstalker Headpiece",
+      "url": "https://www.wowhead.com/classic/quest=9056",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9057,
+      "questName": "Cryptstalker Spaulders",
+      "url": "https://www.wowhead.com/classic/quest=9057",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9058,
+      "questName": "Cryptstalker Boots",
+      "url": "https://www.wowhead.com/classic/quest=9058",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9059,
+      "questName": "Cryptstalker Handguards",
+      "url": "https://www.wowhead.com/classic/quest=9059",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9060,
+      "questName": "Cryptstalker Girdle",
+      "url": "https://www.wowhead.com/classic/quest=9060",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9061,
+      "questName": "Cryptstalker Wristguards",
+      "url": "https://www.wowhead.com/classic/quest=9061",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9063,
+      "questName": "Torwa Pathfinder",
+      "url": "https://www.wowhead.com/classic/quest=9063",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era quest record confirming this is a dialogue-only class step; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Torwa Pathfinder",
+          "url": "https://classicdb.ch/?quest=9063",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:17+03:00",
+          "evidence": "The Classic Era record lists a Druid class quest to speak with Torwa Pathfinder in Un’Goro Crater; it has no kill or item-gathering objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "A Druid class step asks only for a conversation with Torwa in Un’Goro. The crater travel adds routine wildlife exposure but no quest combat; confidence is medium from the direct Classic Era quest record.",
+      "reason": "Druid class quest. This step is only a conversation with Torwa Pathfinder in Un’Goro Crater, with no combat objective. Follow the road through the crater and avoid unrelated hostile wildlife.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9068,
+      "questName": "Earthshatter Tunic",
+      "url": "https://www.wowhead.com/classic/quest=9068",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9069,
+      "questName": "Earthshatter Legguards",
+      "url": "https://www.wowhead.com/classic/quest=9069",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9070,
+      "questName": "Earthshatter Headpiece",
+      "url": "https://www.wowhead.com/classic/quest=9070",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9071,
+      "questName": "Earthshatter Spaulders",
+      "url": "https://www.wowhead.com/classic/quest=9071",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9072,
+      "questName": "Earthshatter Boots",
+      "url": "https://www.wowhead.com/classic/quest=9072",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9073,
+      "questName": "Earthshatter Handguards",
+      "url": "https://www.wowhead.com/classic/quest=9073",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9074,
+      "questName": "Earthshatter Girdle",
+      "url": "https://www.wowhead.com/classic/quest=9074",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9075,
+      "questName": "Earthshatter Wristguards",
+      "url": "https://www.wowhead.com/classic/quest=9075",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9077,
+      "questName": "Bonescythe Breastplate",
+      "url": "https://www.wowhead.com/classic/quest=9077",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9078,
+      "questName": "Bonescythe Legplates",
+      "url": "https://www.wowhead.com/classic/quest=9078",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9079,
+      "questName": "Bonescythe Helmet",
+      "url": "https://www.wowhead.com/classic/quest=9079",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9080,
+      "questName": "Bonescythe Pauldrons",
+      "url": "https://www.wowhead.com/classic/quest=9080",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9081,
+      "questName": "Bonescythe Sabatons",
+      "url": "https://www.wowhead.com/classic/quest=9081",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9082,
+      "questName": "Bonescythe Gauntlets",
+      "url": "https://www.wowhead.com/classic/quest=9082",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9083,
+      "questName": "Bonescythe Waistguard",
+      "url": "https://www.wowhead.com/classic/quest=9083",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9084,
+      "questName": "Bonescythe Bracers",
+      "url": "https://www.wowhead.com/classic/quest=9084",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9085,
+      "questName": "Shadows of Doom",
+      "url": "https://www.wowhead.com/classic/quest=9085",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era quest record, event guidance, and NPC information for the group objective, elite adds, and fear; no comments were necessary for the core danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Shadows of Doom",
+          "url": "https://classicdb.ch/?quest=9085",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:17+03:00",
+          "evidence": "Classic Era quest record identifies this as a level-60 group quest to kill a Shadow of Doom during the Scourge Invasion. Era NPC reports describe a level-61 elite, nearby attackers, and the need for a coordinated group; Warcraft Wiki identifies its fear ability."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The event requires killing a level-61 elite as a group, with additional Scourge attackers and fear increasing the risk to a level-60 solo character. EXTREME reflects that solo completion is not realistic at intended level; confidence is medium because source details establish the group danger but solo outcomes vary by class and gear.",
+      "reason": "Group quest. A level-61 elite Shadow of Doom can appear with other Scourge attackers and can fear nearby players. A level-60 solo character can be overwhelmed; clear the area and bring a suitable group before summoning.",
+      "threat": "EXTREME",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9086,
+      "questName": "Dreamwalker Tunic",
+      "url": "https://www.wowhead.com/classic/quest=9086",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9087,
+      "questName": "Dreamwalker Legguards",
+      "url": "https://www.wowhead.com/classic/quest=9087",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9088,
+      "questName": "Dreamwalker Headpiece",
+      "url": "https://www.wowhead.com/classic/quest=9088",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9089,
+      "questName": "Dreamwalker Spaulders",
+      "url": "https://www.wowhead.com/classic/quest=9089",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9090,
+      "questName": "Dreamwalker Boots",
+      "url": "https://www.wowhead.com/classic/quest=9090",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9091,
+      "questName": "Dreamwalker Handguards",
+      "url": "https://www.wowhead.com/classic/quest=9091",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9092,
+      "questName": "Dreamwalker Girdle",
+      "url": "https://www.wowhead.com/classic/quest=9092",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9093,
+      "questName": "Dreamwalker Wristguards",
+      "url": "https://www.wowhead.com/classic/quest=9093",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9094,
+      "questName": "Argent Dawn Gloves",
+      "url": "https://www.wowhead.com/classic/quest=9094",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed Classic Era quest/item records for the rune objective and invasion shard sources; no comment sample was needed for this repeatable turn-in.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Argent Dawn Gloves",
+          "url": "https://www.60.tools/quests/9094",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:17+03:00",
+          "evidence": "Classic Era database record (1.12) lists a repeatable level-60 quest, minimum level 55, requiring 30 Necrotic Runes. Runes dropped from undead near Scourge Necrotic Shards during the Scourge Invasion; ClassicDB also confirms the turn-in requirement."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "A level-60 repeatable requires 30 runes from Scourge undead around invasion shards. Repeated combat and nearby adds create moderate danger; confidence is medium because the Era quest and item-source records establish the objective and event context.",
+      "reason": "Collecting 30 Necrotic Runes requires repeated fights with Scourge undead around invasion shards, where nearby mobs can add. Choose isolated targets and avoid pulling rare or elite undead with a pack.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9095,
+      "questName": "Frostfire Robe",
+      "url": "https://www.wowhead.com/classic/quest=9095",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9096,
+      "questName": "Frostfire Leggings",
+      "url": "https://www.wowhead.com/classic/quest=9096",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9097,
+      "questName": "Frostfire Circlet",
+      "url": "https://www.wowhead.com/classic/quest=9097",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9098,
+      "questName": "Frostfire Shoulderpads",
+      "url": "https://www.wowhead.com/classic/quest=9098",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9099,
+      "questName": "Frostfire Sandals",
+      "url": "https://www.wowhead.com/classic/quest=9099",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9100,
+      "questName": "Frostfire Gloves",
+      "url": "https://www.wowhead.com/classic/quest=9100",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9101,
+      "questName": "Frostfire Belt",
+      "url": "https://www.wowhead.com/classic/quest=9101",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9102,
+      "questName": "Frostfire Bindings",
+      "url": "https://www.wowhead.com/classic/quest=9102",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9103,
+      "questName": "Plagueheart Robe",
+      "url": "https://www.wowhead.com/classic/quest=9103",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9104,
+      "questName": "Plagueheart Leggings",
+      "url": "https://www.wowhead.com/classic/quest=9104",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9105,
+      "questName": "Plagueheart Circlet",
+      "url": "https://www.wowhead.com/classic/quest=9105",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9106,
+      "questName": "Plagueheart Shoulderpads",
+      "url": "https://www.wowhead.com/classic/quest=9106",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9107,
+      "questName": "Plagueheart Sandals",
+      "url": "https://www.wowhead.com/classic/quest=9107",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9108,
+      "questName": "Plagueheart Gloves",
+      "url": "https://www.wowhead.com/classic/quest=9108",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9109,
+      "questName": "Plagueheart Belt",
+      "url": "https://www.wowhead.com/classic/quest=9109",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
     }
   ]
 }
