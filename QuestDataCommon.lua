@@ -678,46 +678,49 @@ addon.quests = {
     [2418] = { threat = "MEDIUM", reason = "The stones drop from level 35-40 mobs in the Badlands. The area is patrolled by troggs, ogres, and golems. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- To Serve Kum'isha
-    [2521] = { threat = "HIGH", reason = "The sphere is one of the most rare crystals in all of Azeroth. Any creature in the Blasted Lands could be holding one. The Blasted Lands is a level 45-55 zone patrolled by elite demons and high-level mobs. This is a repeatable quest with no guaranteed drop. Do not attempt below level 48 solo without a group.", confidence = "high" },
+    [2521] = { threat = "MEDIUM", reason = "The sphere is a rare drop from creatures in the Blasted Lands, where stronger enemies and elite camps can punish careless pulls. Gather from suitable creatures and avoid elite demons or Teremus.", confidence = "medium" },
 
     -- Kum'isha's Endeavors
-    [2522] = { threat = "HIGH", reason = "The sphere is one of the most rare crystals in all of Azeroth. Any creature in the Blasted Lands could be holding one, but the zone is a level 45-55 area patrolled by elite demons and high-level mobs. This is a repeatable quest with a very low drop rate. Do not attempt below level 48 solo without a group.", confidence = "high" },
+    [2522] = { threat = "MEDIUM", reason = "The sphere is a rare drop from creatures in the Blasted Lands, where stronger enemies and elite camps can punish careless pulls. Gather from suitable creatures and avoid elite demons or Teremus.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [2523] = { threat = "MEDIUM", reason = "No fight is required to cleanse the plant, but hostile Felwood creatures can catch you while interacting. Clear or avoid nearby enemies before using the salve.", confidence = "medium" },
 
     -- Snickerfang Jowls
-    [2581] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. The zone is patrolled by elite demons and high-level mobs. The drop rates are moderate. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2581] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Rage of Ages
-    [2582] = { threat = "MEDIUM", reason = "This is the same turn-in as [2581] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2582] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- A Boar's Vitality
-    [2583] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2583] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Spirit of the Boar
-    [2584] = { threat = "MEDIUM", reason = "This is the same turn-in as [2583] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2584] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- The Decisive Striker
-    [2585] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2585] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Salt of the Scorpok
-    [2586] = { threat = "MEDIUM", reason = "This is the same turn-in as [2585] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2586] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- The Basilisk's Bite
-    [2601] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2601] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Infallible Mind
-    [2602] = { threat = "MEDIUM", reason = "This is the same turn-in as [2601] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2602] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Vulture's Vigor
-    [2603] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2603] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Spiritual Domination
-    [2604] = { threat = "MEDIUM", reason = "This is the same turn-in as [2603] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2604] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- The Thirsty Goblin
-    [2605] = { threat = "LOW", reason = "The gland drops from a level 40-44 mob in Tanaris. The mob is not elite and is manageable solo for a level 42+ character.", confidence = "high" },
+    [2605] = { threat = "MEDIUM", reason = "The gland drops only from Thistleshrub Dew Collectors in a cactus garden shared with other hostile creatures, so repeated pulls can add up. Pull one collector at a time and leave if the surrounding group closes in.", confidence = "medium" },
 
     -- In Good Taste
-    [2606] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2606] = { threat = "LOW", reason = "This is a dialogue step in Gadgetzan and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- Sprinkle's Secret Ingredient
     [2641] = { threat = "MEDIUM", reason = "The Violet Tragan is a rare mushroom found in the Uldaman dungeon, guarded by elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },

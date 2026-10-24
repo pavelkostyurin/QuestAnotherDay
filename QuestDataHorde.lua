@@ -1611,16 +1611,16 @@ local quests = {
     [1999] = { threat = "MEDIUM", reason = "Rogue class quest. The report is locked in Ambermill, among hostile Kirin Tor forces. Use stealth to reach the chest or clear a safe path before lockpicking.", confidence = "medium" },
 
     -- A Peon's Burden
-    [2161] = { threat = "LOW", reason = "This is a pure delivery quest with no combat. The journey from the Valley of Trials to Razor Hill is safe if you stay on the road.", confidence = "high" },
+    [2161] = { threat = "LOW", reason = "This is a delivery to Razor Hill with no required combat. Follow the road and avoid unnecessary detours.", confidence = "medium" },
 
     -- Uldaman Reagent Run
     [2202] = { threat = "HIGH", reason = "The caps are found in the Uldaman dig site, which is filled with level 35-40 elite troggs and stone mobs. The clusters can spew poison spores when jostled. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- Badlands Reagent Run II
-    [2203] = { threat = "HIGH", reason = "The dragons are level 40-44 elite drakonids. Using a vessel on them will anger them greatly. You need to fill 3 vessels, which means fighting 3 elite dragons. This is an Elite quest by design. Bring a group or overlevel significantly. Do not attempt below level 44 solo.", confidence = "high" },
+    [2203] = { threat = "HIGH", reason = "Using each vessel angers a Scorched Guardian, an elite dragon in Lethlor Ravine. Use reliable control or range, keep an escape route clear, and do not engage multiple guardians together.", confidence = "medium" },
 
     -- Badlands Reagent Run
-    [2258] = { threat = "MEDIUM", reason = "The drop rates are notoriously low, especially for the gizzards and shards. The buzzards are levels 39-40 and gather around carcasses, where pulling multiple can be dangerous. The rock elementals are in the mountains east of Kargath. Watch out for Zaricotl, a level 55 elite vulture who patrols the area and will one-shot you. Do not attempt below level 38.", confidence = "high" },
+    [2258] = { threat = "MEDIUM", reason = "This collection sends you among buzzards, coyotes, and rock elementals in the Badlands. Pull isolated targets and keep clear of stronger enemies while moving between areas.", confidence = "medium" },
 
     -- The Platinum Discs
     [2280] = { threat = "HIGH", reason = "This quest takes place in the treasure chamber after the final boss of Uldaman. The chamber is safe once the boss is dead, but getting there requires a full dungeon group. Do not attempt without clearing the dungeon.", confidence = "high" },
@@ -1650,49 +1650,49 @@ local quests = {
     [2342] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Find the Shattered Hand
-    [2378] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2378] = { threat = "LOW", reason = "This is a dialogue step in Orgrimmar and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Zando'zan
-    [2379] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2379] = { threat = "LOW", reason = "This is a dialogue step in Orgrimmar and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- To Orgrimmar!
-    [2380] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2380] = { threat = "LOW", reason = "This is a travel and dialogue step in Orgrimmar and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Plundering the Plunderers
-    [2381] = { threat = "MEDIUM", reason = "You need lockpicking skill (around 80+ is recommended) to open the chest. The ship is guarded by pirates, and opening the lockbox takes 5 seconds. Once opened, a level 50 parrot named Polly spawns, but you must use the provided cracker to reduce its level to match yours. The parrot is immune to melee attacks but can be killed with arcane or poison damage. Stealth past the pirates and have a health potion ready. Do not attempt below level 16 without lockpicking skill.", confidence = "high" },
+    [2381] = { threat = "MEDIUM", reason = "Rogue class quest. Pirates and Polly can make the ship’s narrow decks dangerous, but the supplied E.C.A.C. shrinks Polly so you can defeat it. Train lockpicking, clear a retreat route, and use the cracker as soon as Polly appears.", confidence = "medium" },
 
     -- Wrenix of Ratchet
-    [2382] = { threat = "LOW", reason = "He is located at approximately 63, 36, near the bank in a small shed. Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2382] = { threat = "LOW", reason = "This is a travel and dialogue step in Ratchet and adds no combat. Stay near the friendly settlement.", confidence = "medium" },
 
     -- Simple Parchment
-    [2383] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2383] = { threat = "LOW", reason = "This is a parchment and dialogue step in the Valley of Trials and adds no combat. Stay within the starting settlement.", confidence = "medium" },
 
     -- The Platinum Discs
-    [2440] = { threat = "HIGH", reason = "This quest takes place in the treasure chamber after the final boss. Getting there requires a full dungeon group. Do not attempt without clearing the dungeon.", confidence = "high" },
+    [2440] = { threat = "LOW", reason = "This is a voucher handoff in Thunder Bluff and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Deep Cover
-    [2458] = { threat = "MEDIUM", reason = "When the tower is in sight, use the Flare Gun TWICE, then approach Fizzule and perform the Shattered /Salute. Performing these actions in the wrong order will cause Fizzule to attack and kill you. The tower is surrounded by level 18-22 Venture Co. mobs. Stealth in and perform the actions quickly.", confidence = "high" },
+    [2458] = { threat = "MEDIUM", reason = "Rogue class quest. Fizzule attacks if you approach before signaling and saluting in the required order, and the nearby Venture Co. camp can add danger. Fire two flares, wait for him to turn friendly, then salute.", confidence = "medium" },
 
     -- The Shattered Salute
-    [2460] = { threat = "LOW", reason = "This is a simple emote quest with no combat. Watch Shenthul perform the salute first, then type /salute. If you fail, you can abandon and retry or ask a guard for directions to the rogue trainer to respawn him.", confidence = "high" },
+    [2460] = { threat = "LOW", reason = "This is an emote interaction with no combat. Watch Shenthul’s salute, then repeat it.", confidence = "medium" },
 
     -- Mission: Possible But Not Probable
-    [2478] = { threat = "HIGH", reason = "Steal Silixiz's Tower Key from Foreman Silixiz, then kill two Mutated Venture Co. Drones, two Venture Co. Patrollers, and two Venture Co. Lookouts. Finally, assassinate Grand Foreman Gallywix and pick the lock on his lockbox. This is an Elite quest. The tower is filled with level 20-24 elites, and Gallywix is a powerful named mob. Bring a group or overlevel significantly. Do not attempt solo below level 24.", confidence = "high" },
+    [2478] = { threat = "HIGH", reason = "Elite quest. Several Venture Co. enemies and elite Gallywix must be handled around a tower with limited room to retreat. Rogue control and burst can make a solo attempt possible, but use a careful strategy or bring help.", confidence = "medium" },
 
     -- Hinott's Assistance
-    [2479] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2479] = { threat = "MEDIUM", reason = "This travel step goes to Hillsbrad through hostile territory, but adds no required combat. Take the zeppelin to Undercity, follow the road, and avoid nearby camps.", confidence = "medium" },
 
     -- Hinott's Assistance
-    [2480] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city. Note: if the quest gets stuck, abandon and retry.", confidence = "high" },
+    [2480] = { threat = "LOW", reason = "This is a waiting and dialogue step in Tarren Mill and adds no combat. Remain near the friendly settlement until the mixture is ready.", confidence = "medium" },
 
     -- The Disgraced One
-    [2621] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road from Stonard .", confidence = "high" },
+    [2621] = { threat = "LOW", reason = "This is a travel and dialogue step in Stonard and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Missing Orders
-    [2622] = { threat = "LOW", reason = "The cave entrance is at approximately 66, 75. The orders are on Swamp Talker, but this is a prerequisite step that just requires finding the cave. The murlocs are levels 43-45 and can pull in groups, but you can avoid most of them by sneaking to the back. Do not attempt below level 42 .", confidence = "medium" },
+    [2622] = { threat = "LOW", reason = "This is a dialogue step in Stonard and adds no combat; Bengor is in the inn. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Swamp Talker
-    [2623] = { threat = "MEDIUM", reason = "He is surrounded by 2-3 murloc adds, and the cave is filled with level 43-45 murlocs that flee at low health and bring back a small army of friends. The Talker himself is not elite and is easily soloable at level 45-48 if you pull his adds apart. A level 49 rogue soloed this easily by pulling the adds off him. The main danger is fighting in the cave where respawns and adds can trap you .", confidence = "high" },
+    [2623] = { threat = "MEDIUM", reason = "The murloc cave is crowded, and fleeing enemies can bring others into the fight. Clear a retreat path and isolate the target; leave if respawns close in.", confidence = "medium" },
 
     -- Rin'ji is Trapped!
     [2742] = { threat = "HIGH", reason = "The escort triggers two waves of 3 elves each, and Rin'ji has a habit of aggroing every animal in the forest along his path. He is PvP-flagged, so Alliance players can kill him (and you) during the escort. A level 47 hunter had to kill an Alliance mage four times during the escort. Clear the path in front of the lodge before starting and be ready for adds. Do not attempt solo below level 46 .", confidence = "high" },

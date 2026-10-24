@@ -4454,61 +4454,64 @@ addon.quests = {
     [2359] = { threat = "HIGH", reason = "Rogue quest. Patrolling guards and the elite at the top make the tower dangerous, and the journal’s poison can make stealth harder. Take the outside key first, use stealth and control skills, and keep an escape ready.", confidence = "medium" },
 
     -- Mathias and the Defias
-    [2360] = { threat = "MEDIUM", reason = "The journey passes through Duskwood and Westfall, which are patrolled by level 20-28 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 24 solo.", confidence = "medium" },
+    [2360] = { threat = "LOW", reason = "This is a travel and dialogue step to Westfall; the objective adds no combat. Follow the road and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Find the Shattered Hand (Rogue - Orgrimmar)
-    [2378] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2378] = { threat = "LOW", reason = "This is a dialogue step in Orgrimmar and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Zando'zan (Rogue - Orgrimmar)
-    [2379] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2379] = { threat = "LOW", reason = "This is a dialogue step in Orgrimmar and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- To Orgrimmar! (Rogue - Orgrimmar)
-    [2380] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2380] = { threat = "LOW", reason = "This is a travel and dialogue step in Orgrimmar and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Plundering the Plunderers (Rogue - Ratchet)
-    [2381] = { threat = "MEDIUM", reason = "You need lockpicking skill (around 80+ is recommended) to open the chest. The ship is guarded by pirates, and opening the lockbox takes 5 seconds. Once opened, a level 50 parrot named Polly spawns, but you must use the provided cracker to reduce its level to match yours. The parrot is immune to melee attacks but can be killed with arcane or poison damage. Stealth past the pirates and have a health potion ready. Do not attempt below level 16 without lockpicking skill.", confidence = "high" },
+    [2381] = { threat = "MEDIUM", reason = "Rogue class quest. Pirates and Polly can make the ship’s narrow decks dangerous, but the supplied E.C.A.C. shrinks Polly so you can defeat it. Train lockpicking, clear a retreat route, and use the cracker as soon as Polly appears.", confidence = "medium" },
 
     -- Wrenix of Ratchet (Rogue - Ratchet)
-    [2382] = { threat = "LOW", reason = "He is located at approximately 63, 36, near the bank in a small shed. Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2382] = { threat = "LOW", reason = "This is a travel and dialogue step in Ratchet and adds no combat. Stay near the friendly settlement.", confidence = "medium" },
 
     -- Simple Parchment (Rogue - Orgrimmar)
-    [2383] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2383] = { threat = "LOW", reason = "This is a parchment and dialogue step in the Valley of Trials and adds no combat. Stay within the starting settlement.", confidence = "medium" },
 
     -- The Lost Dwarves
     [2398] = { threat = "HIGH", reason = "Baelog is deep inside the dungeon, which is a level 35-40 instance filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- Power Stones
+    -- The Sprouted Fronds
+    [2399] = { threat = "LOW", reason = "This interaction adds no combat after Denalan plants the frond. Click a sprout and avoid nearby hostile creatures on the route to his garden.", confidence = "medium" },
+
     [2418] = { threat = "MEDIUM", reason = "The stones drop from level 35-40 mobs in the Badlands. The area is patrolled by troggs, ogres, and golems. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- The Emerald Dreamcatcher
-    [2438] = { threat = "LOW", reason = "The dreamcatcher is found in a cave in Teldrassil, guarded by level 8-12 furbolgs. Clear the area before looting and watch for adds. Manageable solo for a level 10+ character.", confidence = "high" },
+    [2438] = { threat = "LOW", reason = "The dreamcatcher is found in a cave in Teldrassil, guarded by level 8-12 furbolgs. Clear the area before looting and watch for adds. Manageable solo for a level 10+ character.", confidence = "medium" },
 
     -- The Platinum Discs (Reward)
-    [2439] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2439] = { threat = "LOW", reason = "This is a voucher handoff in Ironforge and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- The Platinum Discs (Horde - Uldaman)
-    [2440] = { threat = "HIGH", reason = "This quest takes place in the treasure chamber after the final boss. Getting there requires a full dungeon group. Do not attempt without clearing the dungeon.", confidence = "high" },
+    [2440] = { threat = "LOW", reason = "This is a voucher handoff in Thunder Bluff and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Deep Cover (Rogue - Barrens)
-    [2458] = { threat = "MEDIUM", reason = "When the tower is in sight, use the Flare Gun TWICE, then approach Fizzule and perform the Shattered /Salute. Performing these actions in the wrong order will cause Fizzule to attack and kill you. The tower is surrounded by level 18-22 Venture Co. mobs. Stealth in and perform the actions quickly.", confidence = "high" },
+    [2458] = { threat = "MEDIUM", reason = "Rogue class quest. Fizzule attacks if you approach before signaling and saluting in the required order, and the nearby Venture Co. camp can add danger. Fire two flares, wait for him to turn friendly, then salute.", confidence = "medium" },
 
     -- Ferocitas the Dream Eater
     [2459] = { threat = "MEDIUM", reason = "The mystics are levels 8-12 and are packed in the Gnarlpine camps in Teldrassil. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 9 solo.", confidence = "medium" },
 
     -- The Shattered Salute (Rogue - Orgrimmar)
-    [2460] = { threat = "LOW", reason = "This is a simple emote quest with no combat. Watch Shenthul perform the salute first, then type /salute. If you fail, you can abandon and retry or ask a guard for directions to the rogue trainer to respawn him.", confidence = "high" },
+    [2460] = { threat = "LOW", reason = "This is an emote interaction with no combat. Watch Shenthul’s salute, then repeat it.", confidence = "medium" },
 
     -- Mission: Possible But Not Probable (Rogue - Barrens)
-    [2478] = { threat = "HIGH", reason = "Steal Silixiz's Tower Key from Foreman Silixiz, then kill two Mutated Venture Co. Drones, two Venture Co. Patrollers, and two Venture Co. Lookouts. Finally, assassinate Grand Foreman Gallywix and pick the lock on his lockbox. This is an Elite quest. The tower is filled with level 20-24 elites, and Gallywix is a powerful named mob. Bring a group or overlevel significantly. Do not attempt solo below level 24.", confidence = "high" },
+    [2478] = { threat = "HIGH", reason = "Elite quest. Several Venture Co. enemies and elite Gallywix must be handled around a tower with limited room to retreat. Rogue control and burst can make a solo attempt possible, but use a careful strategy or bring help.", confidence = "medium" },
 
     -- Hinott's Assistance (Rogue - Undercity)
-    [2479] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2479] = { threat = "MEDIUM", reason = "This travel step goes to Hillsbrad through hostile territory, but adds no required combat. Take the zeppelin to Undercity, follow the road, and avoid nearby camps.", confidence = "medium" },
 
     -- Hinott's Assistance (Rogue - Undercity)
-    [2480] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city. Note: if the quest gets stuck, abandon and retry.", confidence = "high" },
+    [2480] = { threat = "LOW", reason = "This is a waiting and dialogue step in Tarren Mill and adds no combat. Remain near the friendly settlement until the mixture is ready.", confidence = "medium" },
 
     -- Return to Denalan
-    [2498] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2498] = { threat = "LOW", reason = "This is a travel and dialogue step at Lake Al’Ameth and adds no combat. Follow the road and avoid hostile camps.", confidence = "medium" },
 
     -- Oakenscowl
     [2499] = { threat = "MEDIUM", reason = "Oakenscowl is a level 12 named treant in Teldrassil, surrounded by other treants. Clear the area before engaging and watch for adds. Do not attempt below level 10 solo.", confidence = "medium" },
@@ -4517,82 +4520,84 @@ addon.quests = {
     [2500] = { threat = "MEDIUM", reason = "The reagents drop from buzzards, coyotes, and rock elementals in the Badlands. The mobs are levels 35-40 and are scattered across the zone. The drop rates are moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Badlands Reagent Run II
-    [2501] = { threat = "HIGH", reason = "Once you have them filled, bring them to Ghak Healtouch in Thelsamar. The dragons are level 40-44 elite drakonids. Using a vessel on them will anger them greatly. You need to fill 3 vessels, which means fighting 3 elite dragons. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 44+ or skip on Hardcore.", confidence = "high" },
+    [2501] = { threat = "HIGH", reason = "Elite quest. Scorched Guardians attack while you channel three vessel uses, but you do not need to kill them to collect the blood. Clear a retreat path and use crowd control or a group; stop if nearby whelps or another dragon block your escape.", confidence = "medium" },
 
     -- Tears of the Moon
-    [2518] = { threat = "LOW", reason = "The spinnerets drop from Lady Sathrah, a level 10-12 spider in Teldrassil. The spider is not elite and is manageable solo for a level 10+ character.", confidence = "high" },
+    [2518] = { threat = "LOW", reason = "The spinnerets drop from Lady Sathrah, a level 10-12 spider in Teldrassil. The spider is not elite and is manageable solo for a level 10+ character.", confidence = "medium" },
 
     -- The Temple of the Moon
-    [2519] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2519] = { threat = "LOW", reason = "This is a dialogue step in Darnassus and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Sathrah's Sacrifice
-    [2520] = { threat = "LOW", reason = "This is a dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2520] = { threat = "LOW", reason = "This is an interaction in Darnassus and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- To Serve Kum'isha
-    [2521] = { threat = "HIGH", reason = "The sphere is one of the most rare crystals in all of Azeroth. Any creature in the Blasted Lands could be holding one. The Blasted Lands is a level 45-55 zone patrolled by elite demons and high-level mobs. This is a repeatable quest with no guaranteed drop. Do not attempt below level 48 solo without a group.", confidence = "high" },
+    [2521] = { threat = "MEDIUM", reason = "The sphere is a rare drop from creatures in the Blasted Lands, where stronger enemies and elite camps can punish careless pulls. Gather from suitable creatures and avoid elite demons or Teremus.", confidence = "medium" },
 
     -- Kum'isha's Endeavors
-    [2522] = { threat = "HIGH", reason = "The sphere is one of the most rare crystals in all of Azeroth. Any creature in the Blasted Lands could be holding one, but the zone is a level 45-55 area patrolled by elite demons and high-level mobs. This is a repeatable quest with a very low drop rate. Do not attempt below level 48 solo without a group.", confidence = "high" },
+    [2522] = { threat = "MEDIUM", reason = "The sphere is a rare drop from creatures in the Blasted Lands, where stronger enemies and elite camps can punish careless pulls. Gather from suitable creatures and avoid elite demons or Teremus.", confidence = "medium" },
 
     -- The Sleeping Druid
+    -- Corrupted Songflower
+    [2523] = { threat = "MEDIUM", reason = "No fight is required to cleanse the plant, but hostile Felwood creatures can catch you while interacting. Clear or avoid nearby enemies before using the salve.", confidence = "medium" },
     [2541] = { threat = "MEDIUM", reason = "The charm is obtained from a level 10-14 mob in Teldrassil. The Barrow Den is a cave filled with level 10-14 furbolgs and undead. Clear the cave before approaching Oben and watch for adds. Do not attempt below level 10 solo.", confidence = "medium" },
 
     -- Druid of the Claw
     [2561] = { threat = "MEDIUM", reason = "Oben's soulless body is a level 12 named mob in the Ban'ethil Barrow Den, surrounded by other furbolgs. Clear the cave before engaging and watch for adds. Do not attempt below level 11 solo.", confidence = "medium" },
 
     -- Snickerfang Jowls (Drazial)
-    [2581] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. The zone is patrolled by elite demons and high-level mobs. The drop rates are moderate. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2581] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Rage of Ages (Drazial)
-    [2582] = { threat = "MEDIUM", reason = "This is the same turn-in as [2581] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2582] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- A Boar's Vitality (Drazial)
-    [2583] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2583] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Spirit of the Boar (Drazial)
-    [2584] = { threat = "MEDIUM", reason = "This is the same turn-in as [2583] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2584] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- The Decisive Striker (Drazial)
-    [2585] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2585] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Salt of the Scorpok (Drazial)
-    [2586] = { threat = "MEDIUM", reason = "This is the same turn-in as [2585] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2586] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- The Basilisk's Bite (Lynnore)
-    [2601] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2601] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Infallible Mind (Lynnore)
-    [2602] = { threat = "MEDIUM", reason = "This is the same turn-in as [2601] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2602] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Vulture's Vigor (Lynnore)
-    [2603] = { threat = "MEDIUM", reason = "The reagents drop from level 45-50 mobs in the Blasted Lands. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2603] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- Spiritual Domination (Lynnore)
-    [2604] = { threat = "MEDIUM", reason = "This is the same turn-in as [2603] but may be a different quest ID for the repeatable version. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [2604] = { threat = "MEDIUM", reason = "The reagents require repeated hunting in the Blasted Lands, where nearby creatures can add to a pull and elite demon patrols should be avoided. Farm isolated beasts and leave if the route becomes crowded.", confidence = "medium" },
 
     -- The Thirsty Goblin
-    [2605] = { threat = "LOW", reason = "The gland drops from a level 40-44 mob in Tanaris. The mob is not elite and is manageable solo for a level 42+ character.", confidence = "high" },
+    [2605] = { threat = "MEDIUM", reason = "The gland drops only from Thistleshrub Dew Collectors in a cactus garden shared with other hostile creatures, so repeated pulls can add up. Pull one collector at a time and leave if the surrounding group closes in.", confidence = "medium" },
 
     -- In Good Taste
-    [2606] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2606] = { threat = "LOW", reason = "This is a dialogue step in Gadgetzan and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Touch of Zanzil (Speak with Doc)
-    [2607] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2607] = { threat = "LOW", reason = "This is a dialogue step in Booty Bay and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Touch of Zanzil (Lay Down)
-    [2608] = { threat = "LOW", reason = "This is a dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2608] = { threat = "LOW", reason = "This is an interaction in Booty Bay and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Touch of Zanzil (Gather Reagents)
-    [2609] = { threat = "LOW", reason = "These are vendor-purchased or crafted items. No combat required. Safe if you stay in the city.", confidence = "high" },
+    [2609] = { threat = "LOW", reason = "These are gathered, purchased, or crafted supplies for a handoff in Booty Bay; no combat is required. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Disgraced One (Horde - Swamp of Sorrows)
-    [2621] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road from Stonard .", confidence = "high" },
+    [2621] = { threat = "LOW", reason = "This is a travel and dialogue step in Stonard and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Missing Orders (Horde - Swamp of Sorrows)
-    [2622] = { threat = "LOW", reason = "The cave entrance is at approximately 66, 75. The orders are on Swamp Talker, but this is a prerequisite step that just requires finding the cave. The murlocs are levels 43-45 and can pull in groups, but you can avoid most of them by sneaking to the back. Do not attempt below level 42 .", confidence = "medium" },
+    [2622] = { threat = "LOW", reason = "This is a dialogue step in Stonard and adds no combat; Bengor is in the inn. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Swamp Talker (Horde - Swamp of Sorrows)
-    [2623] = { threat = "MEDIUM", reason = "He is surrounded by 2-3 murloc adds, and the cave is filled with level 43-45 murlocs that flee at low health and bring back a small army of friends. The Talker himself is not elite and is easily soloable at level 45-48 if you pull his adds apart. A level 49 rogue soloed this easily by pulling the adds off him. The main danger is fighting in the cave where respawns and adds can trap you .", confidence = "high" },
+    [2623] = { threat = "MEDIUM", reason = "The murloc cave is crowded, and fleeing enemies can bring others into the fight. Clear a retreat path and isolate the target; leave if respawns close in.", confidence = "medium" },
 
     -- Sprinkle's Secret Ingredient
     [2641] = { threat = "MEDIUM", reason = "The Violet Tragan is a rare mushroom found in the Uldaman dungeon, guarded by elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
