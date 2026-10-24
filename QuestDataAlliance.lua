@@ -1815,58 +1815,58 @@ local quests = {
     [1287] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- James Hyal
-    [1301] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the Theramore patrols.", confidence = "medium" },
+    [1301] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal travel precautions around Dustwallow Marsh patrols.", confidence = "medium" },
 
     -- James Hyal
-    [1302] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
+    [1302] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal travel precautions on the route to Theramore.", confidence = "medium" },
 
     -- The Black Shield
-    [1319] = { threat = "MEDIUM", reason = "The quest leads to a guarded location in the marsh. Clear the area before engaging and be ready for adds.", confidence = "medium" },
+    [1319] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Theramore.", confidence = "medium" },
 
     -- The Black Shield
-    [1320] = { threat = "MEDIUM", reason = "The quest leads to a camp or cave guarded by level 35-40 mobs. Clear the area before approaching.", confidence = "medium" },
+    [1320] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Theramore.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1324] = { threat = "MEDIUM", reason = "The quest culminates in a dangerous encounter in the marsh. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1324] = { threat = "MEDIUM", reason = "Private Hendel is accompanied by two guards, and the encounter can fail if mishandled. Deal with the guards before starting the fight and keep an escape route.", confidence = "medium" },
 
     -- Stormpike's Order
-    [1338] = { threat = "MEDIUM", reason = "The journey passes through Syndicate and ogre territory. The Syndicate mobs are level 35-40 and cast frostbolts that slow you. Stay on the road and avoid the camps.", confidence = "medium" },
+    [1338] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal travel precautions between Loch Modan and Stormwind.", confidence = "medium" },
 
     -- Mountaineer Stormpike's Task
-    [1339] = { threat = "MEDIUM", reason = "The quest leads into Syndicate or ogre territory. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1339] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal travel precautions in Loch Modan.", confidence = "medium" },
 
     -- Reclaimed Treasures
     [1360] = { threat = "MEDIUM", reason = "The quest leads into Syndicate territory. Clear the area before looting and watch for patrolling mobs.", confidence = "medium" },
 
     -- Mazen's Behest
-    [1363] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1363] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Stormwind.", confidence = "medium" },
 
     -- Mazen's Behest
-    [1364] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before engaging.", confidence = "medium" },
+    [1364] = { threat = "MEDIUM", reason = "Retrieving the essays sends you through the Blasted Lands, where hostile camps and patrols can complicate the route. Stay alert and avoid fighting groups.", confidence = "medium" },
 
     -- Strange Alliance
-    [1382] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1382] = { threat = "MEDIUM", reason = "Gaining Gelkis reputation requires fighting rival centaur camps. Pull from the edges and watch for patrols.", confidence = "medium" },
 
     -- Raid on the Kolkar
-    [1384] = { threat = "MEDIUM", reason = "The camps are dense with mobs and patrolling guards. Clear methodically and avoid pulling multiple groups.", confidence = "medium" },
+    [1384] = { threat = "MEDIUM", reason = "Collecting Crude Charms requires repeated combat in centaur territory. Pull from camp edges and avoid overlapping groups.", confidence = "medium" },
 
     -- Brutal Politics
-    [1385] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1385] = { threat = "MEDIUM", reason = "Gaining Magram reputation requires fighting rival Gelkis centaurs. Pull from camp edges and watch for patrols.", confidence = "medium" },
 
     -- Assault on the Kolkar
-    [1386] = { threat = "MEDIUM", reason = "The camps are dense with mobs and patrolling guards. Clear methodically and avoid pulling multiple groups.", confidence = "medium" },
+    [1386] = { threat = "MEDIUM", reason = "The objective requires repeated fights in Kolkar territory, where nearby centaurs can join. Clear the edges and avoid simultaneous pulls.", confidence = "medium" },
 
     -- Centaur Bounty
-    [1387] = { threat = "MEDIUM", reason = "The centaurs are level 32-36 and stand in camps. They pull in groups and have ranged casters. Clear the camps methodically.", confidence = "medium" },
+    [1387] = { threat = "MEDIUM", reason = "Collecting Centaur Ears requires repeated combat in Kolkar territory. Pull from camp edges and watch for patrols.", confidence = "medium" },
 
     -- Supplies for Nethergarde
-    [1395] = { threat = "MEDIUM", reason = "The journey passes through the Blasted Lands, which is populated by level 45-50 mobs. Stay on the road and avoid the demon camps.", confidence = "medium" },
+    [1395] = { threat = "MEDIUM", reason = "Timed quest (60 min). The route crosses Deadwind Pass and the Swamp of Sorrows, where hostile mobs and Horde patrols can threaten you. Follow the road carefully and keep moving.", confidence = "medium" },
 
     -- Encroaching Wildlife
-    [1396] = { threat = "MEDIUM", reason = "The mobs are level 45-50 and often stand in groups. Clear methodically and watch for patrolling demons.", confidence = "medium" },
+    [1396] = { threat = "MEDIUM", reason = "Sorrow Spinners can poison and web you, while Orc scouts patrol near the road. Pull wildlife away from the road and watch your surroundings.", confidence = "medium" },
 
     -- Driftwood
-    [1398] = { threat = "MEDIUM", reason = "The quest leads to the coast, which is patrolled by level 45-50 mobs. Clear the area before looting.", confidence = "medium" },
+    [1398] = { threat = "LOW", reason = "Collecting driftwood involves no required combat. Use normal precautions around the hostile swamp coast and avoid nearby mobs.", confidence = "medium" },
 
     -- The Lost Caravan
     [1421] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before approaching.", confidence = "medium" },

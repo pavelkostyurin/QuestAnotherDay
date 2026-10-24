@@ -1200,52 +1200,52 @@ local quests = {
     [1276] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Black Shield
-    [1321] = { threat = "MEDIUM", reason = "The quest leads to a guarded location in the marsh. Clear the area before engaging.", confidence = "medium" },
+    [1321] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Brackenwall Village.", confidence = "medium" },
 
     -- The Black Shield
-    [1322] = { threat = "MEDIUM", reason = "The quest leads to a camp or cave guarded by level 35-40 mobs. Clear the area before approaching.", confidence = "medium" },
+    [1322] = { threat = "MEDIUM", reason = "Acidic venom sacs require combat with marsh spiders. Pull them singly and watch for nearby threats.", confidence = "medium" },
 
     -- The Black Shield
-    [1323] = { threat = "MEDIUM", reason = "The chain culminates in a dangerous encounter in the marsh. Clear the area before engaging.", confidence = "medium" },
+    [1323] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Brackenwall Village.", confidence = "medium" },
 
     -- Sample for Helbrim
-    [1358] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the Syndicate and ogre camps.", confidence = "medium" },
+    [1358] = { threat = "LOW", reason = "Collecting the sample involves ordinary wolf combat. Pull one at a time and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Zinge's Delivery
-    [1359] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the Syndicate camps.", confidence = "medium" },
+    [1359] = { threat = "LOW", reason = "Travel and hand-in step with no combat objective. Use normal travel precautions on the route to Undercity.", confidence = "medium" },
 
     -- Regthar Deathgate
-    [1361] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1361] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions on the route to Regthar.", confidence = "medium" },
 
     -- The Kolkar of Desolace
-    [1362] = { threat = "MEDIUM", reason = "The centaurs are level 32-36 and stand in camps. They pull in groups and have ranged casters. Clear the camps from the outside in and watch for patrols.", confidence = "medium" },
+    [1362] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Avoid nearby centaur camps while reaching Ghost Walker Post.", confidence = "medium" },
 
     -- Khan Dez'hepah
-    [1365] = { threat = "MEDIUM", reason = "The named centaur is inside a camp where an extra pull is easy. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1365] = { threat = "MEDIUM", reason = "Khan Dez’hepah is in a Kolkar camp with nearby guards. Clear a path and pull him away from other centaurs.", confidence = "medium" },
 
     -- Centaur Bounty
-    [1366] = { threat = "MEDIUM", reason = "The centaurs are level 32-36 and stand in camps. They pull in groups and have ranged casters. Clear the camps methodically.", confidence = "medium" },
+    [1366] = { threat = "MEDIUM", reason = "Centaur camps can chain-pull, especially when ranged mobs join the fight. Clear the edges and pull enemies away from the camp.", confidence = "medium" },
 
     -- Magram Alliance
-    [1367] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1367] = { threat = "MEDIUM", reason = "Gaining Magram reputation requires fighting rival Gelkis centaurs. Pull from camp edges and avoid groups and patrols.", confidence = "medium" },
 
     -- Gelkis Alliance
-    [1368] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1368] = { threat = "MEDIUM", reason = "Gaining Gelkis reputation requires fighting rival Magram centaurs. Pull from camp edges and avoid groups and patrols.", confidence = "medium" },
 
     -- Nothing But The Truth
-    [1372] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1372] = { threat = "MEDIUM", reason = "Beggar’s Haunt lies in hostile swamp territory. Watch for nearby Lost Ones and other mobs while approaching the apothecary.", confidence = "medium" },
 
     -- Nothing But The Truth
-    [1383] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging.", confidence = "medium" },
+    [1383] = { threat = "MEDIUM", reason = "Collecting the swamp-creature components requires repeated combat against several hostile creature types. Pull carefully and watch for nearby patrols.", confidence = "medium" },
 
     -- Nothing But The Truth
-    [1388] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1388] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions while approaching the NPC in the swamp.", confidence = "medium" },
 
     -- Nothing But The Truth
-    [1391] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging.", confidence = "medium" },
+    [1391] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions on the route to Stonard.", confidence = "medium" },
 
     -- Final Passage
-    [1394] = { threat = "MEDIUM", reason = "The quest leads through dense swamp terrain with patrolling mobs. Stay alert and avoid pulling multiple groups.", confidence = "medium" },
+    [1394] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions on the route through Thousand Needles.", confidence = "medium" },
 
     -- Neeka Bloodscar
     [1418] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },

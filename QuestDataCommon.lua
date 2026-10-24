@@ -531,40 +531,40 @@ addon.quests = {
     [1221] = { threat = "MEDIUM", reason = "The tubers are found in the Darkmist Cavern and surrounding areas. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
 
     -- Unfinished Gordok Business
-    [1318] = { threat = "HIGH", reason = "Dire Maul is a level 55-60 dungeon filled with elite ogres, treants, and demons. This quest requires a full group of 5 at the appropriate level. Solo is impossible; even duoing is extremely risky.", confidence = "high" },
+    [1318] = { threat = "EXTREME", reason = "Group quest. Dire Maul requires clearing elite dungeon encounters that are not a realistic solo route at the intended level. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Broken Tears
-    [1369] = { threat = "MEDIUM", reason = "The quest leads into naga or centaur territory. Clear the area before looting and keep an escape route.", confidence = "medium" },
+    [1369] = { threat = "MEDIUM", reason = "Collecting Broken Tears involves hostile Desolace creatures. Pull carefully and keep an escape route near camps.", confidence = "medium" },
 
     -- Stealing Supplies
-    [1370] = { threat = "MEDIUM", reason = "The camps are dense with mobs and patrolling guards. Clear methodically and avoid pulling multiple groups.", confidence = "medium" },
+    [1370] = { threat = "MEDIUM", reason = "The Gelkis village and surrounding camps can produce overlapping pulls. Clear a route and avoid fighting multiple groups at once.", confidence = "medium" },
 
     -- Gizmo for Warug
-    [1371] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1371] = { threat = "LOW", reason = "This is a delivery to the friendly Magram village. Use normal travel precautions and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Ongeku
-    [1373] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1373] = { threat = "LOW", reason = "This is a delivery to the friendly Gelkis village. Use normal travel precautions and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Khan Jehn
-    [1374] = { threat = "MEDIUM", reason = "The named centaur is inside a camp with guards. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1374] = { threat = "MEDIUM", reason = "Khan Jehn is a named centaur with nearby camp defenders. Clear the area and pull him away from any remaining guards.", confidence = "medium" },
 
     -- Khan Shaka
-    [1375] = { threat = "MEDIUM", reason = "The named centaur is inside a camp with guards. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1375] = { threat = "MEDIUM", reason = "Khan Shaka is a named centaur in hostile territory. Clear nearby defenders and avoid a multi-mob pull.", confidence = "medium" },
 
     -- Khan Hratha
-    [1380] = { threat = "MEDIUM", reason = "The named centaur is inside a camp with guards. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1380] = { threat = "EXTREME", reason = "Elite quest. Blowing the horn triggers several waves, with Khan Hratha and multiple guards in the final wave. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Khan Hratha
-    [1381] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [1381] = { threat = "EXTREME", reason = "Elite quest. Blowing the horn triggers several waves, with Khan Hratha and multiple guards in the final wave. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Draenethyst Crystals
-    [1389] = { threat = "MEDIUM", reason = "The crystals are guarded by level 35-40 mobs, including lost ones and swamp creatures. The swamp is dense and patrolled. Clear the area before looting.", confidence = "medium" },
+    [1389] = { threat = "MEDIUM", reason = "The crystals are collected in hostile territory around the Swamp of Sorrows. Clear nearby enemies before looting and watch for patrols.", confidence = "medium" },
 
     -- Noboru the Cudgel
-    [1392] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1392] = { threat = "MEDIUM", reason = "Noboru roams with two level 37 Muckdwellers. Pull him away from the adds or bring help; avoid fighting all three at once.", confidence = "medium" },
 
     -- Galen's Escape
-    [1393] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies, including lost ones and swamp creatures. Galen cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes.", confidence = "medium" },
+    [1393] = { threat = "MEDIUM", reason = "Escort quest. Enemies attack along Galen’s escape route, and a failed escort can require restarting. Clear ahead where possible and stay close enough to protect him.", confidence = "medium" },
 
     -- Jammal'an the Prophet
     [1446] = { threat = "HIGH", reason = "Jammal'an is a powerful elite boss with mind-control abilities and adds. He is deep inside the dungeon, past multiple packs of elites. This requires a full group of 5 at level 50+. Solo is impossible.", confidence = "high" },

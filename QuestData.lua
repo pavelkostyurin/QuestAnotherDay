@@ -3335,142 +3335,142 @@ addon.quests = {
     [1287] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- James Hyal (Dustwallow Marsh)
-    [1301] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the Theramore patrols.", confidence = "medium" },
+    [1301] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal travel precautions around Dustwallow Marsh patrols.", confidence = "medium" },
 
     -- James Hyal (Dustwallow Marsh)
-    [1302] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
+    [1302] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal travel precautions on the route to Theramore.", confidence = "medium" },
 
     -- Unfinished Gordok Business (Dire Maul)
-    [1318] = { threat = "HIGH", reason = "Dire Maul is a level 55-60 dungeon filled with elite ogres, treants, and demons. This quest requires a full group of 5 at the appropriate level. Solo is impossible; even duoing is extremely risky.", confidence = "high" },
+    [1318] = { threat = "EXTREME", reason = "Group quest. Dire Maul requires clearing elite dungeon encounters that are not a realistic solo route at the intended level. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Black Shield (Dustwallow Marsh - Alliance)
-    [1319] = { threat = "MEDIUM", reason = "The quest leads to a guarded location in the marsh. Clear the area before engaging and be ready for adds.", confidence = "medium" },
+    [1319] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Theramore.", confidence = "medium" },
 
     -- The Black Shield (Dustwallow Marsh - Alliance)
-    [1320] = { threat = "MEDIUM", reason = "The quest leads to a camp or cave guarded by level 35-40 mobs. Clear the area before approaching.", confidence = "medium" },
+    [1320] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Theramore.", confidence = "medium" },
 
     -- The Black Shield (Dustwallow Marsh - Horde)
-    [1321] = { threat = "MEDIUM", reason = "The quest leads to a guarded location in the marsh. Clear the area before engaging.", confidence = "medium" },
+    [1321] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Brackenwall Village.", confidence = "medium" },
 
     -- The Black Shield (Dustwallow Marsh - Horde)
-    [1322] = { threat = "MEDIUM", reason = "The quest leads to a camp or cave guarded by level 35-40 mobs. Clear the area before approaching.", confidence = "medium" },
+    [1322] = { threat = "MEDIUM", reason = "Acidic venom sacs require combat with marsh spiders. Pull them singly and watch for nearby threats.", confidence = "medium" },
 
     -- The Black Shield (Dustwallow Marsh - Horde)
-    [1323] = { threat = "MEDIUM", reason = "The chain culminates in a dangerous encounter in the marsh. Clear the area before engaging.", confidence = "medium" },
+    [1323] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Brackenwall Village.", confidence = "medium" },
 
     -- The Missing Diplomat (Dustwallow Marsh)
-    [1324] = { threat = "MEDIUM", reason = "The quest culminates in a dangerous encounter in the marsh. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1324] = { threat = "MEDIUM", reason = "Private Hendel is accompanied by two guards, and the encounter can fail if mishandled. Deal with the guards before starting the fight and keep an escape route.", confidence = "medium" },
 
     -- Stormpike's Order (Alterac Mountains)
-    [1338] = { threat = "MEDIUM", reason = "The journey passes through Syndicate and ogre territory. The Syndicate mobs are level 35-40 and cast frostbolts that slow you. Stay on the road and avoid the camps.", confidence = "medium" },
+    [1338] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal travel precautions between Loch Modan and Stormwind.", confidence = "medium" },
 
     -- Mountaineer Stormpike's Task (Alterac Mountains)
-    [1339] = { threat = "MEDIUM", reason = "The quest leads into Syndicate or ogre territory. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1339] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal travel precautions in Loch Modan.", confidence = "medium" },
 
     -- Sample for Helbrim (Hillsbrad Foothills)
-    [1358] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the Syndicate and ogre camps.", confidence = "medium" },
+    [1358] = { threat = "LOW", reason = "Collecting the sample involves ordinary wolf combat. Pull one at a time and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Zinge's Delivery (Hillsbrad Foothills)
-    [1359] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the Syndicate camps.", confidence = "medium" },
+    [1359] = { threat = "LOW", reason = "Travel and hand-in step with no combat objective. Use normal travel precautions on the route to Undercity.", confidence = "medium" },
 
     -- Reclaimed Treasures (Alterac Mountains)
     [1360] = { threat = "MEDIUM", reason = "The quest leads into Syndicate territory. Clear the area before looting and watch for patrolling mobs.", confidence = "medium" },
 
     -- Regthar Deathgate (Desolace)
-    [1361] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1361] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions on the route to Regthar.", confidence = "medium" },
 
     -- The Kolkar of Desolace (Desolace)
-    [1362] = { threat = "MEDIUM", reason = "The centaurs are level 32-36 and stand in camps. They pull in groups and have ranged casters. Clear the camps from the outside in and watch for patrols.", confidence = "medium" },
+    [1362] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Avoid nearby centaur camps while reaching Ghost Walker Post.", confidence = "medium" },
 
     -- Mazen's Behest (Desolace)
-    [1363] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1363] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions in Stormwind.", confidence = "medium" },
 
     -- Mazen's Behest (Desolace)
-    [1364] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before engaging.", confidence = "medium" },
+    [1364] = { threat = "MEDIUM", reason = "Retrieving the essays sends you through the Blasted Lands, where hostile camps and patrols can complicate the route. Stay alert and avoid fighting groups.", confidence = "medium" },
 
     -- Khan Dez'hepah (Desolace)
-    [1365] = { threat = "MEDIUM", reason = "The named centaur is inside a camp where an extra pull is easy. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1365] = { threat = "MEDIUM", reason = "Khan Dez’hepah is in a Kolkar camp with nearby guards. Clear a path and pull him away from other centaurs.", confidence = "medium" },
 
     -- Centaur Bounty (Desolace)
-    [1366] = { threat = "MEDIUM", reason = "The centaurs are level 32-36 and stand in camps. They pull in groups and have ranged casters. Clear the camps methodically.", confidence = "medium" },
+    [1366] = { threat = "MEDIUM", reason = "Centaur camps can chain-pull, especially when ranged mobs join the fight. Clear the edges and pull enemies away from the camp.", confidence = "medium" },
 
     -- Magram Alliance (Desolace)
-    [1367] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1367] = { threat = "MEDIUM", reason = "Gaining Magram reputation requires fighting rival Gelkis centaurs. Pull from camp edges and avoid groups and patrols.", confidence = "medium" },
 
     -- Gelkis Alliance (Desolace)
-    [1368] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1368] = { threat = "MEDIUM", reason = "Gaining Gelkis reputation requires fighting rival Magram centaurs. Pull from camp edges and avoid groups and patrols.", confidence = "medium" },
 
     -- Broken Tears (Desolace)
-    [1369] = { threat = "MEDIUM", reason = "The quest leads into naga or centaur territory. Clear the area before looting and keep an escape route.", confidence = "medium" },
+    [1369] = { threat = "MEDIUM", reason = "Collecting Broken Tears involves hostile Desolace creatures. Pull carefully and keep an escape route near camps.", confidence = "medium" },
 
     -- Stealing Supplies (Desolace)
-    [1370] = { threat = "MEDIUM", reason = "The camps are dense with mobs and patrolling guards. Clear methodically and avoid pulling multiple groups.", confidence = "medium" },
+    [1370] = { threat = "MEDIUM", reason = "The Gelkis village and surrounding camps can produce overlapping pulls. Clear a route and avoid fighting multiple groups at once.", confidence = "medium" },
 
     -- Gizmo for Warug (Desolace)
-    [1371] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1371] = { threat = "LOW", reason = "This is a delivery to the friendly Magram village. Use normal travel precautions and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Nothing But The Truth (Desolace)
-    [1372] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1372] = { threat = "MEDIUM", reason = "Beggar’s Haunt lies in hostile swamp territory. Watch for nearby Lost Ones and other mobs while approaching the apothecary.", confidence = "medium" },
 
     -- Ongeku (Desolace)
-    [1373] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1373] = { threat = "LOW", reason = "This is a delivery to the friendly Gelkis village. Use normal travel precautions and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Khan Jehn (Desolace)
-    [1374] = { threat = "MEDIUM", reason = "The named centaur is inside a camp with guards. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1374] = { threat = "MEDIUM", reason = "Khan Jehn is a named centaur with nearby camp defenders. Clear the area and pull him away from any remaining guards.", confidence = "medium" },
 
     -- Khan Shaka (Desolace)
-    [1375] = { threat = "MEDIUM", reason = "The named centaur is inside a camp with guards. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1375] = { threat = "MEDIUM", reason = "Khan Shaka is a named centaur in hostile territory. Clear nearby defenders and avoid a multi-mob pull.", confidence = "medium" },
 
     -- Khan Hratha (Desolace)
-    [1380] = { threat = "MEDIUM", reason = "The named centaur is inside a camp with guards. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1380] = { threat = "EXTREME", reason = "Elite quest. Blowing the horn triggers several waves, with Khan Hratha and multiple guards in the final wave. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Khan Hratha (Desolace)
-    [1381] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [1381] = { threat = "EXTREME", reason = "Elite quest. Blowing the horn triggers several waves, with Khan Hratha and multiple guards in the final wave. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Strange Alliance (Desolace)
-    [1382] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1382] = { threat = "MEDIUM", reason = "Gaining Gelkis reputation requires fighting rival centaur camps. Pull from the edges and watch for patrols.", confidence = "medium" },
 
     -- Nothing But The Truth (Desolace)
-    [1383] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging.", confidence = "medium" },
+    [1383] = { threat = "MEDIUM", reason = "Collecting the swamp-creature components requires repeated combat against several hostile creature types. Pull carefully and watch for nearby patrols.", confidence = "medium" },
 
     -- Raid on the Kolkar (Desolace)
-    [1384] = { threat = "MEDIUM", reason = "The camps are dense with mobs and patrolling guards. Clear methodically and avoid pulling multiple groups.", confidence = "medium" },
+    [1384] = { threat = "MEDIUM", reason = "Collecting Crude Charms requires repeated combat in centaur territory. Pull from camp edges and avoid overlapping groups.", confidence = "medium" },
 
     -- Brutal Politics (Desolace)
-    [1385] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1385] = { threat = "MEDIUM", reason = "Gaining Magram reputation requires fighting rival Gelkis centaurs. Pull from camp edges and watch for patrols.", confidence = "medium" },
 
     -- Assault on the Kolkar (Desolace)
-    [1386] = { threat = "MEDIUM", reason = "The camps are dense with mobs and patrolling guards. Clear methodically and avoid pulling multiple groups.", confidence = "medium" },
+    [1386] = { threat = "MEDIUM", reason = "The objective requires repeated fights in Kolkar territory, where nearby centaurs can join. Clear the edges and avoid simultaneous pulls.", confidence = "medium" },
 
     -- Centaur Bounty (Desolace)
-    [1387] = { threat = "MEDIUM", reason = "The centaurs are level 32-36 and stand in camps. They pull in groups and have ranged casters. Clear the camps methodically.", confidence = "medium" },
+    [1387] = { threat = "MEDIUM", reason = "Collecting Centaur Ears requires repeated combat in Kolkar territory. Pull from camp edges and watch for patrols.", confidence = "medium" },
 
     -- Nothing But The Truth (Desolace)
-    [1388] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1388] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions while approaching the NPC in the swamp.", confidence = "medium" },
 
     -- Draenethyst Crystals (Swamp of Sorrows)
-    [1389] = { threat = "MEDIUM", reason = "The crystals are guarded by level 35-40 mobs, including lost ones and swamp creatures. The swamp is dense and patrolled. Clear the area before looting.", confidence = "medium" },
+    [1389] = { threat = "MEDIUM", reason = "The crystals are collected in hostile territory around the Swamp of Sorrows. Clear nearby enemies before looting and watch for patrols.", confidence = "medium" },
 
     -- Nothing But The Truth (Desolace)
-    [1391] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging.", confidence = "medium" },
+    [1391] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions on the route to Stonard.", confidence = "medium" },
 
     -- Noboru the Cudgel (Swamp of Sorrows)
-    [1392] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1392] = { threat = "MEDIUM", reason = "Noboru roams with two level 37 Muckdwellers. Pull him away from the adds or bring help; avoid fighting all three at once.", confidence = "medium" },
 
     -- Galen's Escape (Swamp of Sorrows)
-    [1393] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies, including lost ones and swamp creatures. Galen cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes.", confidence = "medium" },
+    [1393] = { threat = "MEDIUM", reason = "Escort quest. Enemies attack along Galen’s escape route, and a failed escort can require restarting. Clear ahead where possible and stay close enough to protect him.", confidence = "medium" },
 
     -- Final Passage (Swamp of Sorrows)
-    [1394] = { threat = "MEDIUM", reason = "The quest leads through dense swamp terrain with patrolling mobs. Stay alert and avoid pulling multiple groups.", confidence = "medium" },
+    [1394] = { threat = "LOW", reason = "Travel and dialogue step with no combat objective. Use normal precautions on the route through Thousand Needles.", confidence = "medium" },
 
     -- Supplies for Nethergarde (Blasted Lands)
-    [1395] = { threat = "MEDIUM", reason = "The journey passes through the Blasted Lands, which is populated by level 45-50 mobs. Stay on the road and avoid the demon camps.", confidence = "medium" },
+    [1395] = { threat = "MEDIUM", reason = "Timed quest (60 min). The route crosses Deadwind Pass and the Swamp of Sorrows, where hostile mobs and Horde patrols can threaten you. Follow the road carefully and keep moving.", confidence = "medium" },
 
     -- Encroaching Wildlife (Blasted Lands)
-    [1396] = { threat = "MEDIUM", reason = "The mobs are level 45-50 and often stand in groups. Clear methodically and watch for patrolling demons.", confidence = "medium" },
+    [1396] = { threat = "MEDIUM", reason = "Sorrow Spinners can poison and web you, while Orc scouts patrol near the road. Pull wildlife away from the road and watch your surroundings.", confidence = "medium" },
 
     -- Driftwood (Blasted Lands)
-    [1398] = { threat = "MEDIUM", reason = "The quest leads to the coast, which is patrolled by level 45-50 mobs. Clear the area before looting.", confidence = "medium" },
+    [1398] = { threat = "LOW", reason = "Collecting driftwood involves no required combat. Use normal precautions around the hostile swamp coast and avoid nearby mobs.", confidence = "medium" },
 
     -- Neeka Bloodscar (Desolace)
     [1418] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },

@@ -103,9 +103,10 @@ leave the existing warning intact.
 
 ## Record and apply the result
 
-An assessment-only request returns the proposed warning and evidence. A request
-to fix, add, or apply addon warnings authorizes editing the requested records.
-Research alone does not authorize publishing addon data, releases, or pushes.
+For requested traversal (including requests such as “next IDs to review”), apply
+each completed assessment to `QuestData.lua` by default. An explicitly
+assessment-only request returns proposed warnings and evidence without changing
+addon data. Research alone does not authorize releases or pushes.
 
 When a ledger exists, record every assessment and any retrieval attempt following
 [research-records.md](references/research-records.md). Preserve completed records
