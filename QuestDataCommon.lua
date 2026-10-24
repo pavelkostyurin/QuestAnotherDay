@@ -1581,10 +1581,10 @@ addon.quests = {
     [5227] = { threat = "MEDIUM", reason = "Use the repeatable reagent hand-in at the Gahrron’s Withering cauldron in Scourge territory. Clear the approach and nearby enemies before interacting, and leave if the area becomes crowded.", confidence = "medium" },
 
     -- Uncle Carlin
-    [5241] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Eastern Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5241] = { threat = "LOW", reason = "This is a conversation with Carlin Redpath at Light’s Hope Chapel. It adds no combat at the chapel; use a clear route through the Eastern Plaguelands.", confidence = "medium" },
 
     -- A Final Blow
-    [5242] = { threat = "HIGH", reason = "Moora and Salia are level 55 elites in Jaedenar's Shadow Hold, surrounded by demons. Shadow Lord Fel'dan is a level 56 elite who hits hard and casts shadow magic. The cave is a maze with patrolling elites. A full group of level 54+ is required. Do not attempt solo.", confidence = "high" },
+    [5242] = { threat = "HIGH", reason = "Moora and Salia must be killed in Shadow Hold, and Shadow Lord Fel’dan must also be defeated for his head. These are named enemies inside a hostile demon complex; clear the approach and bring help if you cannot safely manage the targets and nearby demons.", confidence = "medium" },
 
     -- Houses of the Holy
     [5243] = { threat = "HIGH", reason = "Requires entering Stratholme to loot supply crates for Holy Water. The city is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
@@ -1599,10 +1599,10 @@ addon.quests = {
     [5263] = { threat = "EXTREME", reason = "Elite quest. Requires killing Baron Rivendare, the final boss of Stratholme's Undead side. Rivendare is a level 62 elite death knight with powerful abilities and adds. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Lord Maxwell Tyrosus
-    [5264] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5264] = { threat = "LOW", reason = "Speak with Lord Maxwell Tyrosus inside the church. The dialogue adds no combat; avoid unnecessary pulls on the way inside.", confidence = "medium" },
 
     -- The Argent Hold
-    [5265] = { threat = "LOW", reason = "Interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5265] = { threat = "LOW", reason = "Open the Argent Hold and claim the reward. This is an interaction at the Argent Dawn base and adds no combat; avoid unnecessary pulls while approaching.", confidence = "medium" },
 
     -- The Restless Souls
     [5281] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Stratholme is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
@@ -1626,7 +1626,19 @@ addon.quests = {
     [5384] = { threat = "EXTREME", reason = "Elite quest. Requires placing Blood of Innocents in the brazier on the Scholomance porch to summon Kirtonos, a level 62 elite gargoyle. He hits hard, fears the group, and can wipe unprepared parties. A full group of level 58+ with a tank and healer is required. Do not attempt solo.", confidence = "high" },
 
     -- The Remains of Trey Lightforge
-    [5385] = { threat = "LOW", reason = "Delivery step with no combat. The remains are obtained from a previous quest; this is a turn-in to Jessir Moonbow in Felwood. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5385] = { threat = "LOW", reason = "Return Trey Lightforge’s remains to Jessir Moonbow in Felwood. This delivery adds no combat if you already have the remains; avoid unnecessary pulls while travelling.", confidence = "medium" },
+
+    -- Argent Dawn Commission
+    [5401] = { threat = "LOW", reason = "Receive and equip the Argent Dawn Commission at a friendly hub. This step adds no combat; the trinket enables Scourgestone collection later.", confidence = "medium" },
+
+    -- Minion's Scourgestones
+    [5402] = { threat = "MEDIUM", reason = "Collect Minion’s Scourgestones from Scourge enemies while wearing the Argent Dawn Commission. The objective requires repeated combat in hostile areas; pull one enemy at a time and choose a route appropriate to your level.", confidence = "medium" },
+
+    -- Invader's Scourgestones
+    [5403] = { threat = "MEDIUM", reason = "Collect Invader’s Scourgestones from stronger Scourge enemies while wearing the Argent Dawn Commission. These targets can hit harder and appear in hostile areas; isolate pulls and avoid letting patrols join.", confidence = "medium" },
+
+    -- Corruptor's Scourgestones
+    [5404] = { threat = "HIGH", reason = "Collect Corruptor’s Scourgestones from powerful Scourge targets while wearing the Argent Dawn Commission. These are dangerous high-level encounters, often in dungeons or raid areas; use a suitable group or trade rather than entering high-risk content alone.", confidence = "medium" },
 
     -- The Human, Ras Frostwhisper
     [5461] = { threat = "MEDIUM", reason = "The Keepsake of Remembrance is in the ruins of Stromgarde, patrolled by level 35-40 Syndicate mobs. The ruins are dense with hostile mobs that pull in groups. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },

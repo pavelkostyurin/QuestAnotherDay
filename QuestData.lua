@@ -6911,67 +6911,68 @@ addon.quests = {
     [5230] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat at the camp; avoid unnecessary pulls on the route back.", confidence = "medium" },
 
     -- Target: Dalson's Tears (Horde - Western Plaguelands)
-    [5231] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 53 elite undead surrounded by Scourge mobs. Clear the area before engaging. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5231] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at Dalson’s Tears and recover its key; Scourge in the farm can join the fight. Clear a small area, pull the target away from other enemies, then use the bottle at the cauldron.", confidence = "medium" },
 
     -- Return to the Bulwark (Horde - Western Plaguelands)
-    [5232] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5232] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Writhing Haunt (Horde - Western Plaguelands)
-    [5233] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 54 elite undead surrounded by Scourge mobs. Clear the area before engaging. Do not attempt below level 52 solo.", confidence = "medium" },
+    [5233] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at the Writhing Haunt and recover its key; nearby Scourge can join the fight. Pull the target into cleared ground and use the bottle only when the approach is clear.", confidence = "medium" },
 
     -- Return to the Bulwark (Horde - Western Plaguelands)
-    [5234] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5234] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Gahrron's Withering (Horde - Western Plaguelands)
-    [5235] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 55 elite undead surrounded by Scourge mobs. Clear the area before engaging. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5235] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at Gahrron’s Withering and recover its key; nearby Scourge can join the fight. Pull the target into cleared ground and use the bottle only when the approach is clear.", confidence = "medium" },
 
     -- Return to the Bulwark (Horde - Western Plaguelands)
-    [5236] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5236] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Mission Accomplished! (Horde - Western Plaguelands)
-    [5238] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay at the Bulwark.", confidence = "high" },
+    [5237] = { threat = "LOW", reason = "This is a completion and dialogue step at the Alliance outpost. It adds no combat at the turn-in; use a safe route through the Western Plaguelands.", confidence = "medium" },
+    [5238] = { threat = "LOW", reason = "This is a completion and dialogue step at the Bulwark. It adds no combat at the turn-in; avoid unnecessary pulls on the route back.", confidence = "medium" },
 
     -- Uncle Carlin
-    [5241] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Eastern Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5241] = { threat = "LOW", reason = "This is a conversation with Carlin Redpath at Light’s Hope Chapel. It adds no combat at the chapel; use a clear route through the Eastern Plaguelands.", confidence = "medium" },
 
     -- A Final Blow
-    [5242] = { threat = "HIGH", reason = "Moora and Salia are level 55 elites in Jaedenar's Shadow Hold, surrounded by demons. Shadow Lord Fel'dan is a level 56 elite who hits hard and casts shadow magic. The cave is a maze with patrolling elites. A full group of level 54+ is required. Do not attempt solo.", confidence = "high" },
+    [5242] = { threat = "HIGH", reason = "Moora and Salia must be killed in Shadow Hold, and Shadow Lord Fel’dan must also be defeated for his head. These are named enemies inside a hostile demon complex; clear the approach and bring help if you cannot safely manage the targets and nearby demons.", confidence = "medium" },
 
     -- Houses of the Holy
     [5243] = { threat = "HIGH", reason = "Requires entering Stratholme to loot supply crates for Holy Water. The city is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- The Ruins of Kel'Theril
-    [5244] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5244] = { threat = "LOW", reason = "This is a conversation with Jaron Stoneshaper at Starfall Village. It adds no combat at the village; travel through Winterspring by a familiar safe route.", confidence = "medium" },
 
     -- Troubled Spirits of Kel'Theril
-    [5245] = { threat = "MEDIUM", reason = "Highborne Relic Fragments are found in the Ruins of Kel'Theril in Winterspring, patrolled by level 53-57 mobs. The ruins are dense with spirits that pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5245] = { threat = "MEDIUM", reason = "Search the Ruins of Kel’Theril for four relic fragments, then deliver them to Aurora in the Eastern Plaguelands. Hostile spirits occupy the ruins; search from a cleared edge and keep an exit route.", confidence = "medium" },
 
     -- Fragments of the Past (5246)
-    [5246] = { threat = "HIGH", reason = "The Sacred Highborne Writings are in the Temple of Zin-Malor in Azshara, a level 50-55 zone patrolled by elite naga and elementals. The temple is deep in Azshara's southern peninsula. Do not attempt below level 52 solo without a group.", confidence = "high" },
+    [5246] = { threat = "HIGH", reason = "The Sacred Highborne Writings are inside the Temple of Zin-Malor in Azshara. The hostile temple is a dangerous site to enter and search; clear a route, avoid pulling several defenders together, and leave if the approach becomes crowded.", confidence = "medium" },
 
     -- Fragments of the Past (5247)
-    [5247] = { threat = "LOW", reason = "Delivery step with no combat. The materials are crafted or purchased. The journey to the Eastern Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5247] = { threat = "LOW", reason = "This is a materials hand-in to Aurora Skycaller near Northpass Tower. It adds no combat if you already have the bar, crystals and water; travel by a safe route through the Eastern Plaguelands.", confidence = "medium" },
 
     -- Tormented By the Past
-    [5248] = { threat = "MEDIUM", reason = "The Crystal of Zin-Malor must be taken to Lake Kel'Theril in Winterspring, patrolled by level 53-57 spirits. The lake is in the center of the ruins. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5248] = { threat = "MEDIUM", reason = "Take the crystal to Lake Kel’Theril and locate a Highborne spirit in the ruins. The interaction is exposed among hostile spirits; clear nearby enemies and keep a retreat route.", confidence = "medium" },
 
     -- To Winterspring!
-    [5249] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5249] = { threat = "LOW", reason = "This is travel and dialogue at Starfall Village in Winterspring. It adds no combat at the village; avoid hostile creatures on the route.", confidence = "medium" },
 
     -- Starfall
-    [5250] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5250] = { threat = "LOW", reason = "This is a conversation at Starfall Village in Winterspring. It adds no combat at the village; avoid hostile creatures on the route.", confidence = "medium" },
 
     -- The Archivist
     [5251] = { threat = "HIGH", reason = "Archivist Galford is a level 60 elite Scarlet Crusade boss inside Stratholme. He is surrounded by elite guards and casts powerful spells. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Remorseful Highborne
-    [5252] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5252] = { threat = "LOW", reason = "Ask Wynd Nightchaser about the proper place for the crystal. This is dialogue at Starfall Village and adds no combat; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- The Crystal of Zin-Malor
-    [5253] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5253] = { threat = "LOW", reason = "Deliver the crystal to Arch Druid Fandral Staghelm in Darnassus. This city hand-in adds no combat; use the normal route into the city.", confidence = "medium" },
 
     -- Eagan Peltskinner
-    [5261] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5261] = { threat = "LOW", reason = "This is a conversation with Eagan Peltskinner. It adds no combat at the interaction; avoid nearby hostile creatures on the approach.", confidence = "medium" },
 
     -- The Truth Comes Crashing Down
     [5262] = { threat = "HIGH", reason = "Requires killing Balnazzar, the final boss of Stratholme's Scarlet side, and delivering his head. Balnazzar is a level 63 elite dreadlord with powerful abilities. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
@@ -6980,10 +6981,10 @@ addon.quests = {
     [5263] = { threat = "EXTREME", reason = "Elite quest. Requires killing Baron Rivendare, the final boss of Stratholme's Undead side. Rivendare is a level 62 elite death knight with powerful abilities and adds. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Lord Maxwell Tyrosus
-    [5264] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5264] = { threat = "LOW", reason = "Speak with Lord Maxwell Tyrosus inside the church. The dialogue adds no combat; avoid unnecessary pulls on the way inside.", confidence = "medium" },
 
     -- The Argent Hold
-    [5265] = { threat = "LOW", reason = "Interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5265] = { threat = "LOW", reason = "Open the Argent Hold and claim the reward. This is an interaction at the Argent Dawn base and adds no combat; avoid unnecessary pulls while approaching.", confidence = "medium" },
 
     -- The Restless Souls (5281)
     [5281] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Stratholme is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
@@ -6992,16 +6993,16 @@ addon.quests = {
     [5282] = { threat = "HIGH", reason = "Requires entering Stratholme to free 15 Restless Souls using Egan's Blaster. The city is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- The Art of the Armorsmith
-    [5283] = { threat = "LOW", reason = "Profession quest with no combat beyond crafting the items. Safe if you stay in the city. The quest is a permanent specialization choice.", confidence = "high" },
+    [5283] = { threat = "LOW", reason = "This armorsmith specialization quest is a crafted-item hand-in to Grumnus. It adds no combat if you already have the mithril items; the specialization choice is permanent.", confidence = "medium" },
 
     -- The Way of the Weaponsmith
-    [5284] = { threat = "LOW", reason = "Profession quest with no combat beyond crafting the items. Safe if you stay in the city. The quest is a permanent specialization choice.", confidence = "high" },
+    [5284] = { threat = "LOW", reason = "This weaponsmith specialization quest is a crafted-item hand-in to Ironus. It adds no combat if you already have the listed weapons; the specialization choice is permanent.", confidence = "medium" },
 
     -- The Art of the Armorsmith (Horde - Orgrimmar)
-    [5301] = { threat = "LOW", reason = "Requires level 40 and 200+ blacksmithing skill. The quest involves travel and delivering materials to Ironus Coldsteel in Orgrimmar. No combat objective beyond gathering the materials. Safe if you stay in the city.", confidence = "high" },
+    [5301] = { threat = "LOW", reason = "This armorsmith specialization quest is a crafted-item hand-in to Okothos in Orgrimmar. It adds no combat if you already have the mithril items; the specialization choice is permanent.", confidence = "medium" },
 
     -- The Way of the Weaponsmith (Horde - Orgrimmar)
-    [5302] = { threat = "LOW", reason = "Requires level 40 and 200+ blacksmithing skill. The quest involves travel and delivering materials to Ironus Coldsteel in Orgrimmar. No combat objective beyond gathering the materials. Safe if you stay in the city.", confidence = "high" },
+    [5302] = { threat = "LOW", reason = "This weaponsmith specialization quest is a crafted-item hand-in to Borgosh in Orgrimmar. It adds no combat if you already have the listed weapons; the specialization choice is permanent.", confidence = "medium" },
 
     -- Sweet Serenity
     [5305] = { threat = "HIGH", reason = "Requires entering Stratholme to kill the Crimson Hammersmith, a level 58 elite. The city is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
@@ -7013,22 +7014,23 @@ addon.quests = {
     [5307] = { threat = "HIGH", reason = "Requires entering Stratholme to kill the Black Guard Swordsmith, an elite undead inside the city. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- The Sleeper Has Awakened
-    [5321] = { threat = "MEDIUM", reason = "Escort quest. Kerlonian Evershade is a sleeping druid who must be protected on the road to Maestra's Post in Ashenvale. The route is patrolled by level 20-28 mobs, and the escort can bug if interrupted. Clear the path ahead and watch for ambushes. Do not attempt below level 22 solo without a plan.", confidence = "medium" },
+    [5321] = { threat = "MEDIUM", reason = "Escort Kerlonian along the road through Ashenvale to Maestra’s Post. He can fall asleep and needs to be reawakened, while hostile creatures may attack along the route; stay near him and clear threats before moving on.", confidence = "medium" },
 
     -- Barov Family Fortune (Horde - Scholomance)
     [5341] = { threat = "HIGH", reason = "Scholomance is a level 58-60 dungeon filled with elite undead, necromancers, and powerful bosses. The deeds are scattered throughout the dungeon, including in the Reliquary section. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
 
     -- The Last Barov (Horde - Western Plaguelands)
-    [5342] = { threat = "MEDIUM", reason = "Alexi is a level 58 elite undead who is surrounded by guards. He hits hard and has high health. Clear the area before engaging and bring a group. Do not attempt below level 55 solo.", confidence = "medium" },
+    [5342] = { threat = "HIGH", reason = "Assassinate Weldon Barov at Chillwind Camp and bring his head to Alexi. The target is in Alliance territory and may be protected by guards or players; scout the approach, avoid fighting several defenders at once, and leave if the camp is active.", confidence = "medium" },
 
     -- Barov Family Fortune
     [5343] = { threat = "HIGH", reason = "Requires entering Scholomance to recover four Barov family deeds scattered throughout the dungeon. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Family Tree (Horde - Western Plaguelands)
-    [5361] = { threat = "MEDIUM", reason = "The quest leads to the Barov Family Estate, which is guarded by level 55-58 elite undead. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 55 solo.", confidence = "medium" },
+    [5344] = { threat = "HIGH", reason = "Assassinate Alexi Barov at the Bulwark and bring his head to Weldon. The target is in Horde territory and may be protected by guards or players; scout the approach, avoid fighting several defenders at once, and leave if the camp is active.", confidence = "medium" },
+    [5361] = { threat = "LOW", reason = "Deliver the Cliffwatcher Longhorn Report to Nataka Longhorn at Ghost Walker Post. This is a safe delivery at the post; it adds no trip to the Barov Family Estate or new combat.", confidence = "medium" },
 
     -- Hand of Iruxos (Horde - Desolace)
-    [5381] = { threat = "HIGH", reason = "The coven is filled with level 38-42 demons, including elite felhounds and doomguards. The hand is guarded by a named demon. This is an Elite quest by design. Bring a group or overlevel significantly. Do not attempt below level 40 solo.", confidence = "high" },
+    [5381] = { threat = "HIGH", reason = "Recover the Demon Box at Thunder Axe Fortress and return it with the Demon Pick to Taiga. Hostile demons occupy the fortress, including dangerous elites; clear the approach carefully and bring help if you cannot handle the named encounter and adds.", confidence = "medium" },
 
     -- Doctor Theolen Krastinov, the Butcher
     [5382] = { threat = "HIGH", reason = "Requires entering Scholomance to kill Doctor Theolen Krastinov, a level 60 elite boss, and burn the remains of Eva and Lucien Sarkhoff. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
@@ -7037,12 +7039,16 @@ addon.quests = {
     [5384] = { threat = "EXTREME", reason = "Elite quest. Requires placing Blood of Innocents in the brazier on the Scholomance porch to summon Kirtonos, a level 62 elite gargoyle. He hits hard, fears the group, and can wipe unprepared parties. A full group of level 58+ with a tank and healer is required. Do not attempt solo.", confidence = "high" },
 
     -- The Remains of Trey Lightforge
-    [5385] = { threat = "LOW", reason = "Delivery step with no combat. The remains are obtained from a previous quest; this is a turn-in to Jessir Moonbow in Felwood. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5385] = { threat = "LOW", reason = "Return Trey Lightforge’s remains to Jessir Moonbow in Felwood. This delivery adds no combat if you already have the remains; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Catch of the Day (Horde - Feralas)
-    [5386] = { threat = "MEDIUM", reason = "The fish can be caught from any pool, but the pools are guarded by level 42-46 mobs. Clear the area before fishing and watch for patrolling mobs. Do not attempt below level 42 solo.", confidence = "medium" },
+    [5386] = { threat = "MEDIUM", reason = "After speaking with Jinar’Zillen, bring two Bloodbelly fish to Nataka Longhorn. Fishing near hostile waters can leave you exposed to nearby creatures; choose a cleared pool and stop if enemies approach.", confidence = "medium" },
 
     -- Fish in a Bucket (Horde - Feralas)
+    [5401] = { threat = "LOW", reason = "Receive and equip the Argent Dawn Commission at a friendly hub. This step adds no combat; the trinket enables Scourgestone collection later.", confidence = "medium" },
+    [5402] = { threat = "MEDIUM", reason = "Collect Minion’s Scourgestones from Scourge enemies while wearing the Argent Dawn Commission. The objective requires repeated combat in hostile areas; pull one enemy at a time and choose a route appropriate to your level.", confidence = "medium" },
+    [5403] = { threat = "MEDIUM", reason = "Collect Invader’s Scourgestones from stronger Scourge enemies while wearing the Argent Dawn Commission. These targets can hit harder and appear in hostile areas; isolate pulls and avoid letting patrols join.", confidence = "medium" },
+    [5404] = { threat = "HIGH", reason = "Collect Corruptor’s Scourgestones from powerful Scourge targets while wearing the Argent Dawn Commission. These are dangerous high-level encounters, often in dungeons or raid areas; use a suitable group or trade rather than entering high-risk content alone.", confidence = "medium" },
     [5421] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
 
     -- Lazy Peons (Horde - Durotar)

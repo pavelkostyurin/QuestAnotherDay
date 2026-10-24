@@ -3200,47 +3200,53 @@ local quests = {
     -- Return to Chillwind Camp
     [5226] = { threat = "LOW", reason = "Return to Chillwind Camp with the cauldron sample. The delivery adds no combat; use a clear route back through the Western Plaguelands.", confidence = "medium" },
 
+    -- Mission Accomplished!
+    [5237] = { threat = "LOW", reason = "This is a completion and dialogue step at the Alliance outpost. It adds no combat at the turn-in; use a safe route through the Western Plaguelands.", confidence = "medium" },
+
     -- The Ruins of Kel'Theril
-    [5244] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5244] = { threat = "LOW", reason = "This is a conversation with Jaron Stoneshaper at Starfall Village. It adds no combat at the village; travel through Winterspring by a familiar safe route.", confidence = "medium" },
 
     -- Troubled Spirits of Kel'Theril
-    [5245] = { threat = "MEDIUM", reason = "Highborne Relic Fragments are found in the Ruins of Kel'Theril in Winterspring, patrolled by level 53-57 mobs. The ruins are dense with spirits that pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5245] = { threat = "MEDIUM", reason = "Search the Ruins of Kel’Theril for four relic fragments, then deliver them to Aurora in the Eastern Plaguelands. Hostile spirits occupy the ruins; search from a cleared edge and keep an exit route.", confidence = "medium" },
 
     -- Fragments of the Past
-    [5246] = { threat = "HIGH", reason = "The Sacred Highborne Writings are in the Temple of Zin-Malor in Azshara, a level 50-55 zone patrolled by elite naga and elementals. The temple is deep in Azshara's southern peninsula. Do not attempt below level 52 solo without a group.", confidence = "high" },
+    [5246] = { threat = "HIGH", reason = "The Sacred Highborne Writings are inside the Temple of Zin-Malor in Azshara. The hostile temple is a dangerous site to enter and search; clear a route, avoid pulling several defenders together, and leave if the approach becomes crowded.", confidence = "medium" },
 
     -- Fragments of the Past
-    [5247] = { threat = "LOW", reason = "Delivery step with no combat. The materials are crafted or purchased. The journey to the Eastern Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5247] = { threat = "LOW", reason = "This is a materials hand-in to Aurora Skycaller near Northpass Tower. It adds no combat if you already have the bar, crystals and water; travel by a safe route through the Eastern Plaguelands.", confidence = "medium" },
 
     -- Tormented By the Past
-    [5248] = { threat = "MEDIUM", reason = "The Crystal of Zin-Malor must be taken to Lake Kel'Theril in Winterspring, patrolled by level 53-57 spirits. The lake is in the center of the ruins. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5248] = { threat = "MEDIUM", reason = "Take the crystal to Lake Kel’Theril and locate a Highborne spirit in the ruins. The interaction is exposed among hostile spirits; clear nearby enemies and keep a retreat route.", confidence = "medium" },
 
     -- To Winterspring!
-    [5249] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5249] = { threat = "LOW", reason = "This is travel and dialogue at Starfall Village in Winterspring. It adds no combat at the village; avoid hostile creatures on the route.", confidence = "medium" },
 
     -- Starfall
-    [5250] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5250] = { threat = "LOW", reason = "This is a conversation at Starfall Village in Winterspring. It adds no combat at the village; avoid hostile creatures on the route.", confidence = "medium" },
 
     -- Remorseful Highborne
-    [5252] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5252] = { threat = "LOW", reason = "Ask Wynd Nightchaser about the proper place for the crystal. This is dialogue at Starfall Village and adds no combat; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- The Crystal of Zin-Malor
-    [5253] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5253] = { threat = "LOW", reason = "Deliver the crystal to Arch Druid Fandral Staghelm in Darnassus. This city hand-in adds no combat; use the normal route into the city.", confidence = "medium" },
 
     -- Eagan Peltskinner
-    [5261] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5261] = { threat = "LOW", reason = "This is a conversation with Eagan Peltskinner. It adds no combat at the interaction; avoid nearby hostile creatures on the approach.", confidence = "medium" },
 
     -- The Art of the Armorsmith
-    [5283] = { threat = "LOW", reason = "Profession quest with no combat beyond crafting the items. Safe if you stay in the city. The quest is a permanent specialization choice.", confidence = "high" },
+    [5283] = { threat = "LOW", reason = "This armorsmith specialization quest is a crafted-item hand-in to Grumnus. It adds no combat if you already have the mithril items; the specialization choice is permanent.", confidence = "medium" },
 
     -- The Way of the Weaponsmith
-    [5284] = { threat = "LOW", reason = "Profession quest with no combat beyond crafting the items. Safe if you stay in the city. The quest is a permanent specialization choice.", confidence = "high" },
+    [5284] = { threat = "LOW", reason = "This weaponsmith specialization quest is a crafted-item hand-in to Ironus. It adds no combat if you already have the listed weapons; the specialization choice is permanent.", confidence = "medium" },
 
     -- The Sleeper Has Awakened
-    [5321] = { threat = "MEDIUM", reason = "Escort quest. Kerlonian Evershade is a sleeping druid who must be protected on the road to Maestra's Post in Ashenvale. The route is patrolled by level 20-28 mobs, and the escort can bug if interrupted. Clear the path ahead and watch for ambushes. Do not attempt below level 22 solo without a plan.", confidence = "medium" },
+    [5321] = { threat = "MEDIUM", reason = "Escort Kerlonian along the road through Ashenvale to Maestra’s Post. He can fall asleep and needs to be reawakened, while hostile creatures may attack along the route; stay near him and clear threats before moving on.", confidence = "medium" },
 
     -- Barov Family Fortune
     [5343] = { threat = "HIGH", reason = "Requires entering Scholomance to recover four Barov family deeds scattered throughout the dungeon. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- The Last Barov
+    [5344] = { threat = "HIGH", reason = "Assassinate Alexi Barov at the Bulwark and bring his head to Weldon. The target is in Horde territory and may be protected by guards or players; scout the approach, avoid fighting several defenders at once, and leave if the camp is active.", confidence = "medium" },
 
     -- Mantles of the Dawn
     [5507] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },

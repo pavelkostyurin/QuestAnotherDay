@@ -2394,46 +2394,46 @@ local quests = {
     [5230] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat at the camp; avoid unnecessary pulls on the route back.", confidence = "medium" },
 
     -- Target: Dalson's Tears
-    [5231] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 53 elite undead surrounded by Scourge mobs. Clear the area before engaging. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5231] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at Dalson’s Tears and recover its key; Scourge in the farm can join the fight. Clear a small area, pull the target away from other enemies, then use the bottle at the cauldron.", confidence = "medium" },
 
     -- Return to the Bulwark
-    [5232] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5232] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Writhing Haunt
-    [5233] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 54 elite undead surrounded by Scourge mobs. Clear the area before engaging. Do not attempt below level 52 solo.", confidence = "medium" },
+    [5233] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at the Writhing Haunt and recover its key; nearby Scourge can join the fight. Pull the target into cleared ground and use the bottle only when the approach is clear.", confidence = "medium" },
 
     -- Return to the Bulwark
-    [5234] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5234] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Gahrron's Withering
-    [5235] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 55 elite undead surrounded by Scourge mobs. Clear the area before engaging. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5235] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at Gahrron’s Withering and recover its key; nearby Scourge can join the fight. Pull the target into cleared ground and use the bottle only when the approach is clear.", confidence = "medium" },
 
     -- Return to the Bulwark
-    [5236] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5236] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Mission Accomplished!
-    [5238] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay at the Bulwark.", confidence = "high" },
+    [5238] = { threat = "LOW", reason = "This is a completion and dialogue step at the Bulwark. It adds no combat at the turn-in; avoid unnecessary pulls on the route back.", confidence = "medium" },
 
     -- The Art of the Armorsmith
-    [5301] = { threat = "LOW", reason = "Requires level 40 and 200+ blacksmithing skill. The quest involves travel and delivering materials to Ironus Coldsteel in Orgrimmar. No combat objective beyond gathering the materials. Safe if you stay in the city.", confidence = "high" },
+    [5301] = { threat = "LOW", reason = "This armorsmith specialization quest is a crafted-item hand-in to Okothos in Orgrimmar. It adds no combat if you already have the mithril items; the specialization choice is permanent.", confidence = "medium" },
 
     -- The Way of the Weaponsmith
-    [5302] = { threat = "LOW", reason = "Requires level 40 and 200+ blacksmithing skill. The quest involves travel and delivering materials to Ironus Coldsteel in Orgrimmar. No combat objective beyond gathering the materials. Safe if you stay in the city.", confidence = "high" },
+    [5302] = { threat = "LOW", reason = "This weaponsmith specialization quest is a crafted-item hand-in to Borgosh in Orgrimmar. It adds no combat if you already have the listed weapons; the specialization choice is permanent.", confidence = "medium" },
 
     -- Barov Family Fortune
     [5341] = { threat = "HIGH", reason = "Scholomance is a level 58-60 dungeon filled with elite undead, necromancers, and powerful bosses. The deeds are scattered throughout the dungeon, including in the Reliquary section. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
 
     -- The Last Barov
-    [5342] = { threat = "MEDIUM", reason = "Alexi is a level 58 elite undead who is surrounded by guards. He hits hard and has high health. Clear the area before engaging and bring a group. Do not attempt below level 55 solo.", confidence = "medium" },
+    [5342] = { threat = "HIGH", reason = "Assassinate Weldon Barov at Chillwind Camp and bring his head to Alexi. The target is in Alliance territory and may be protected by guards or players; scout the approach, avoid fighting several defenders at once, and leave if the camp is active.", confidence = "medium" },
 
     -- Family Tree
-    [5361] = { threat = "MEDIUM", reason = "The quest leads to the Barov Family Estate, which is guarded by level 55-58 elite undead. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 55 solo.", confidence = "medium" },
+    [5361] = { threat = "LOW", reason = "Deliver the Cliffwatcher Longhorn Report to Nataka Longhorn at Ghost Walker Post. This is a safe delivery at the post; it adds no trip to the Barov Family Estate or new combat.", confidence = "medium" },
 
     -- Hand of Iruxos
-    [5381] = { threat = "HIGH", reason = "The coven is filled with level 38-42 demons, including elite felhounds and doomguards. The hand is guarded by a named demon. This is an Elite quest by design. Bring a group or overlevel significantly. Do not attempt below level 40 solo.", confidence = "high" },
+    [5381] = { threat = "HIGH", reason = "Recover the Demon Box at Thunder Axe Fortress and return it with the Demon Pick to Taiga. Hostile demons occupy the fortress, including dangerous elites; clear the approach carefully and bring help if you cannot handle the named encounter and adds.", confidence = "medium" },
 
     -- Catch of the Day
-    [5386] = { threat = "MEDIUM", reason = "The fish can be caught from any pool, but the pools are guarded by level 42-46 mobs. Clear the area before fishing and watch for patrolling mobs. Do not attempt below level 42 solo.", confidence = "medium" },
+    [5386] = { threat = "MEDIUM", reason = "After speaking with Jinar’Zillen, bring two Bloodbelly fish to Nataka Longhorn. Fishing near hostile waters can leave you exposed to nearby creatures; choose a cleared pool and stop if enemies approach.", confidence = "medium" },
 
     -- Fish in a Bucket
     [5421] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
