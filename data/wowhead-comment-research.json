@@ -63157,7 +63157,7 @@
       "summary": "The objective is a conversation with a ghost in a hostile ruin. Retains LOW for the interaction and clarifies the route danger.",
       "reason": "Find Pamela Redpath in Darrowshire. This is a dialogue step and adds no combat; avoid nearby Scourge while travelling through the ruins.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63183,7 +63183,7 @@
       "summary": "Retains LOW for the priest healing and buff exercise; the objective does not require a fight.",
       "reason": "Heal Sentinel Shaya with Lesser Heal and cast Power Word: Fortitude, then return to Laurna. The task adds no combat; avoid nearby wildlife on the approach.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63209,7 +63209,7 @@
       "summary": "Retains LOW for a trainer conversation.",
       "reason": "Speak to Laurna Morninglight in Teldrassil. This is dialogue and adds no combat; avoid unnecessary pulls on the route.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63235,7 +63235,7 @@
       "summary": "Retains LOW for a trainer conversation; the quest does not require combat.",
       "reason": "Speak to Priestess Josetta in Elwynn Forest. This dialogue step adds no combat; use a familiar route to Goldshire.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63261,7 +63261,7 @@
       "summary": "Retains LOW for the priest healing and buff exercise; no enemy is a required target.",
       "reason": "Heal Guard Roberts with Lesser Heal and cast Power Word: Fortitude, then return to Priestess Josetta. The task adds no combat; use the normal route around Goldshire.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63287,7 +63287,7 @@
       "summary": "Retains LOW for the priest healing and buff exercise; no enemy is a required target.",
       "reason": "Heal Mountaineer Dolf with Lesser Heal and cast Power Word: Fortitude, then return to Maxan Anvol. The task adds no combat; use the normal route near Kharanos.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63313,7 +63313,7 @@
       "summary": "Retains LOW for a trainer conversation.",
       "reason": "Speak to Maxan Anvol in Dun Morogh. This is dialogue and adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63373,7 +63373,7 @@
       "summary": "Retains LOW for a city dialogue step.",
       "reason": "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63399,7 +63399,7 @@
       "summary": "Retains LOW for a city dialogue step.",
       "reason": "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63425,7 +63425,7 @@
       "summary": "Retains LOW for a city dialogue step.",
       "reason": "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63451,7 +63451,7 @@
       "summary": "Retains LOW for a city dialogue step.",
       "reason": "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63477,7 +63477,7 @@
       "summary": "Retains LOW for a city dialogue step.",
       "reason": "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63503,7 +63503,7 @@
       "summary": "Retains LOW for a city dialogue step.",
       "reason": "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63563,7 +63563,7 @@
       "summary": "Retains LOW for the final priest spell-training conversation.",
       "reason": "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63589,7 +63589,7 @@
       "summary": "Retains LOW for the final priest spell-training conversation.",
       "reason": "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63615,7 +63615,7 @@
       "summary": "Retains LOW for the final priest spell-training conversation.",
       "reason": "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63641,7 +63641,7 @@
       "summary": "Retains LOW for the final priest spell-training conversation.",
       "reason": "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63667,7 +63667,7 @@
       "summary": "Retains LOW for the final priest spell-training conversation.",
       "reason": "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63693,7 +63693,7 @@
       "summary": "Retains LOW for the final priest spell-training conversation.",
       "reason": "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63753,7 +63753,7 @@
       "summary": "Corrects the NPC location: the catalog places Ur’kyo in Orgrimmar, not Undercity.",
       "reason": "Speak to Ur’kyo in Orgrimmar to learn Shadowguard. This is a city dialogue step and adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63779,7 +63779,7 @@
       "summary": "Retains LOW for city dialogue and names the correct trainer location.",
       "reason": "Continue the Shadowguard training conversation with Ur’kyo in Orgrimmar. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63805,7 +63805,7 @@
       "summary": "Retains LOW for a trainer conversation in Undercity.",
       "reason": "Speak to Aelthalyste in Undercity to learn Devouring Plague. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63831,7 +63831,7 @@
       "summary": "Retains LOW for the spell-training conversation.",
       "reason": "Speak to High Priest Rohan in Ironforge to learn Fear Ward. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63857,7 +63857,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Continue the Devouring Plague training conversation with Aelthalyste in Undercity. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63883,7 +63883,7 @@
       "summary": "Retains LOW for the spell-training conversation.",
       "reason": "Speak to High Priest Rohan in Ironforge to learn Fear Ward. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63909,7 +63909,7 @@
       "summary": "Corrects the warning: the quest objective is healing and buffing a friendly grunt, not fighting a level 30–32 mob.",
       "reason": "Heal Grunt Kor’ja with Lesser Heal and cast Power Word: Fortitude, then return to Tai’jin at Razor Hill. This is a priest training task with no required combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63935,7 +63935,7 @@
       "summary": "Corrects the NPC location: Tai’jin is in Razor Hill, not Undercity.",
       "reason": "Speak to Tai’jin in Razor Hill to continue priest training. This dialogue adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63961,7 +63961,7 @@
       "summary": "Corrects the warning: the objective is healing and buffing a friendly guard, not fighting a level 30–32 mob.",
       "reason": "Heal Deathguard Kel with Lesser Heal and cast Power Word: Fortitude, then return to Dark Cleric Beryl in Brill. This is a priest training task with no required combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -63987,7 +63987,7 @@
       "summary": "Corrects the NPC location: Beryl is in Brill, not Undercity.",
       "reason": "Speak to Dark Cleric Beryl in Brill to continue priest training. This dialogue adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64013,7 +64013,7 @@
       "summary": "Retains LOW for spell-training dialogue.",
       "reason": "Speak with the priest trainer to learn Hex of Weakness. This is a conversation and adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64039,7 +64039,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64065,7 +64065,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64091,7 +64091,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64117,7 +64117,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Complete the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64143,7 +64143,7 @@
       "summary": "Retains LOW for spell-training dialogue.",
       "reason": "Speak with the priest trainer to learn Touch of Weakness. This is a conversation and adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64169,7 +64169,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64195,7 +64195,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64221,7 +64221,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64247,7 +64247,7 @@
       "summary": "Retains LOW for city dialogue.",
       "reason": "Complete the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64273,7 +64273,7 @@
       "summary": "Adds the missing warning for Night Elf priest spell training; no combat objective is involved.",
       "reason": "Speak with the Darnassus priest trainer to learn Elune’s Grace. The training step takes place in the city and adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64299,7 +64299,7 @@
       "summary": "Retains LOW for the spell-training turn-in.",
       "reason": "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64325,7 +64325,7 @@
       "summary": "Retains LOW for the spell-training turn-in.",
       "reason": "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64351,7 +64351,7 @@
       "summary": "Retains LOW for the spell-training turn-in.",
       "reason": "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     },
@@ -64377,7 +64377,7 @@
       "summary": "Adds the missing warning for the priest racial spell training; no combat objective is involved.",
       "reason": "Speak with the human priest trainer to learn Arcane Feedback. This is a city spell-training conversation and adds no combat.",
       "threat": "LOW",
-      "confidence": "high",
+      "confidence": "medium",
       "addonAppliedAt": "2026-10-24T23:40:00+03:00",
       "addonSource": "QuestData.lua"
     }

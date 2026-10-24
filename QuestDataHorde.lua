@@ -2466,58 +2466,58 @@ local quests = {
     [5581] = { threat = "HIGH", reason = "Banish six portals at Mannoroc Coven using the Hand of Iruxos. Each portal summons a level 37–38 demon guardian, while patrols and infernals move through the camp; pull each guardian away from other enemies and bring help if you cannot handle the fight.", confidence = "medium" },
 
     -- Shadowguard
-    [5642] = { threat = "LOW", reason = "Speak to Ur’kyo in Orgrimmar to learn Shadowguard. This is a city dialogue step and adds no combat.", confidence = "high" },
+    [5642] = { threat = "LOW", reason = "Speak to Ur’kyo in Orgrimmar to learn Shadowguard. This is a city dialogue step and adds no combat.", confidence = "medium" },
 
     -- Shadowguard
-    [5643] = { threat = "LOW", reason = "Continue the Shadowguard training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
+    [5643] = { threat = "LOW", reason = "Continue the Shadowguard training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "medium" },
 
     -- Devouring Plague
-    [5644] = { threat = "LOW", reason = "Speak to Aelthalyste in Undercity to learn Devouring Plague. This city conversation adds no combat.", confidence = "high" },
+    [5644] = { threat = "LOW", reason = "Speak to Aelthalyste in Undercity to learn Devouring Plague. This city conversation adds no combat.", confidence = "medium" },
 
     -- Devouring Plague
-    [5646] = { threat = "LOW", reason = "Continue the Devouring Plague training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
+    [5646] = { threat = "LOW", reason = "Continue the Devouring Plague training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "medium" },
 
     -- Garments of Spirituality
-    [5648] = { threat = "LOW", reason = "Heal Grunt Kor’ja with Lesser Heal and cast Power Word: Fortitude, then return to Tai’jin at Razor Hill. This is a priest training task with no required combat.", confidence = "high" },
+    [5648] = { threat = "LOW", reason = "Heal Grunt Kor’ja with Lesser Heal and cast Power Word: Fortitude, then return to Tai’jin at Razor Hill. This is a priest training task with no required combat.", confidence = "medium" },
 
     -- In Favor of Spirituality
-    [5649] = { threat = "LOW", reason = "Speak to Tai’jin in Razor Hill to continue priest training. This dialogue adds no combat.", confidence = "high" },
+    [5649] = { threat = "LOW", reason = "Speak to Tai’jin in Razor Hill to continue priest training. This dialogue adds no combat.", confidence = "medium" },
 
     -- Garments of Darkness
-    [5650] = { threat = "LOW", reason = "Heal Deathguard Kel with Lesser Heal and cast Power Word: Fortitude, then return to Dark Cleric Beryl in Brill. This is a priest training task with no required combat.", confidence = "high" },
+    [5650] = { threat = "LOW", reason = "Heal Deathguard Kel with Lesser Heal and cast Power Word: Fortitude, then return to Dark Cleric Beryl in Brill. This is a priest training task with no required combat.", confidence = "medium" },
 
     -- In Favor of Darkness
-    [5651] = { threat = "LOW", reason = "Speak to Dark Cleric Beryl in Brill to continue priest training. This dialogue adds no combat.", confidence = "high" },
+    [5651] = { threat = "LOW", reason = "Speak to Dark Cleric Beryl in Brill to continue priest training. This dialogue adds no combat.", confidence = "medium" },
 
     -- Hex of Weakness
-    [5652] = { threat = "LOW", reason = "Speak with the priest trainer to learn Hex of Weakness. This is a conversation and adds no combat.", confidence = "high" },
+    [5652] = { threat = "LOW", reason = "Speak with the priest trainer to learn Hex of Weakness. This is a conversation and adds no combat.", confidence = "medium" },
 
     -- Hex of Weakness
-    [5654] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
+    [5654] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "medium" },
 
     -- Hex of Weakness
-    [5655] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
+    [5655] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "medium" },
 
     -- Hex of Weakness
-    [5656] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
+    [5656] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "medium" },
 
     -- Hex of Weakness
-    [5657] = { threat = "LOW", reason = "Complete the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
+    [5657] = { threat = "LOW", reason = "Complete the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "medium" },
 
     -- Touch of Weakness
-    [5658] = { threat = "LOW", reason = "Speak with the priest trainer to learn Touch of Weakness. This is a conversation and adds no combat.", confidence = "high" },
+    [5658] = { threat = "LOW", reason = "Speak with the priest trainer to learn Touch of Weakness. This is a conversation and adds no combat.", confidence = "medium" },
 
     -- Touch of Weakness
-    [5660] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
+    [5660] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "medium" },
 
     -- Touch of Weakness
-    [5661] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
+    [5661] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "medium" },
 
     -- Touch of Weakness
-    [5662] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
+    [5662] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "medium" },
 
     -- Touch of Weakness
-    [5663] = { threat = "LOW", reason = "Complete the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
+    [5663] = { threat = "LOW", reason = "Complete the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "medium" },
 
     -- Devouring Plague
     [5679] = { threat = "LOW", reason = "Final step of the Devouring Plague chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
