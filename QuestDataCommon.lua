@@ -393,52 +393,52 @@ addon.quests = {
     [1096] = { threat = "MEDIUM", reason = "Gerenzo is reached by a narrow path and platforms, where nearby guards and a mechanical add can join the fight; falling can be fatal. Clear the route, pull him away from edges, and check the landing before moving down.", confidence = "medium" },
 
     -- Salt Flat Venom
-    [1104] = { threat = "LOW", reason = "The venoms drop from scorpids in the Shimmering Flats. The scorpids are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [1104] = { threat = "LOW", reason = "The venoms drop from scorpids in the Shimmering Flats. The scorpids are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Hardened Shells
-    [1105] = { threat = "LOW", reason = "The shells drop from tortoises in the Shimmering Flats. The tortoises are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [1105] = { threat = "LOW", reason = "The shells drop from tortoises in the Shimmering Flats. The tortoises are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Martek the Exiled
     [1106] = { threat = "MEDIUM", reason = "The journey to the Badlands passes through contested territory and is patrolled by level 35-40 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Encrusted Tail Fins
-    [1107] = { threat = "LOW", reason = "The fins drop from threshers in the Shimmering Flats. The threshers are levels 30-34 and are found in the water. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [1107] = { threat = "LOW", reason = "The fins drop from threshers in the Shimmering Flats. The threshers are levels 30-34 and are found in the water. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Indurium
-    [1108] = { threat = "MEDIUM", reason = "The flakes drop from Indurium golems in Uldaman. Uldaman is a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [1108] = { threat = "MEDIUM", reason = "The flakes drop from Indurium golems in Uldaman. Uldaman is a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "medium" },
 
     -- Rocket Car Parts
-    [1110] = { threat = "LOW", reason = "The parts drop from various mobs in the Shimmering Flats. The mobs are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [1110] = { threat = "LOW", reason = "The parts drop from various mobs in the Shimmering Flats. The mobs are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Wharfmaster Dizzywig
-    [1111] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1111] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Parts for Kravel
-    [1112] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1112] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Delivery to the Gnomes
-    [1114] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1114] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Rumormonger
-    [1115] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [1115] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Dream Dust in the Swamp
     [1116] = { threat = "MEDIUM", reason = "The dust drops from dragon whelps in the Swamp of Sorrows. The whelps are levels 35-40 and are packed in the swamp. They pull in groups and have fire attacks. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Rumors for Kravel
-    [1117] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1117] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Back to Booty Bay
     [1118] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Booty Bay passes through Stranglethorn Vale, which is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
 
     -- Zanzil's Mixture and a Fool's Stout
-    [1119] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey back is safe if you stay on the road.", confidence = "high" },
+    [1119] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey back is safe if you stay on the road.", confidence = "medium" },
 
     -- Get the Gnomes Drunk
-    [1120] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1120] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Get the Goblins Drunk
-    [1121] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1121] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Report Back to Fizzlebub
     [1122] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Booty Bay passes through Stranglethorn Vale, which is dangerous. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
@@ -447,25 +447,25 @@ addon.quests = {
     [1124] = { threat = "MEDIUM", reason = "This is a travel and dialogue step with no combat. The journey through Silithus is dangerous for low-level players, as the zone is patrolled by level 55-60 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 55 solo.", confidence = "medium" },
 
     -- The Spirits of Southwind
-    [1125] = { threat = "HIGH", reason = "The spirits are level 55-58 and are packed in the village, which is also patrolled by silithid and Twilight's Hammer cultists. The village is dense with mobs and has patrolling elites. Clear methodically and watch for adds. Do not attempt below level 55 solo without a group.", confidence = "high" },
+    [1125] = { threat = "HIGH", reason = "The spirits are level 55-58 and are packed in the village, which is also patrolled by silithid and Twilight's Hammer cultists. The village is dense with mobs and has patrolling elites. Clear methodically and watch for adds. Do not attempt below level 55 solo without a group.", confidence = "medium" },
 
     -- Hive in the Tower
-    [1126] = { threat = "HIGH", reason = "The tower is in Silithus and is guarded by level 55-58 silithid and cultists. The climb is dangerous, and the hive will spawn additional mobs when stirred. Clear the area before interacting and be ready for adds. Do not attempt below level 55 solo without a group.", confidence = "high" },
+    [1126] = { threat = "HIGH", reason = "The tower is in Silithus and is guarded by level 55-58 silithid and cultists. The climb is dangerous, and the hive will spawn additional mobs when stirred. Clear the area before interacting and be ready for adds. Do not attempt below level 55 solo without a group.", confidence = "medium" },
 
     -- Fool's Stout
     [1127] = { threat = "MEDIUM", reason = "The mixture drops from Zanzil's zombies in the Ruins of Aboraz in Stranglethorn. The zombies are levels 40-44 and are packed in the ruins. They pull in groups and have a poison effect. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- News for Fizzle
-    [1137] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1137] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Willix the Importer
-    [1144] = { threat = "HIGH", reason = "This is an escort quest inside a level 25-30 dungeon filled with elite quilboar. Willix is a level 30 NPC who must be protected through multiple packs of elites. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },
+    [1144] = { threat = "HIGH", reason = "This is an escort quest inside a level 25-30 dungeon filled with elite quilboar. Willix is a level 30 NPC who must be protected through multiple packs of elites. This requires a full group of level 28+. Do not attempt solo.", confidence = "medium" },
 
     -- A Bump in the Road
-    [1175] = { threat = "MEDIUM", reason = "The basilisks are levels 30-34 and are concentrated in two pits north and south of the raceway camp. The gazers are south along the mountain range. These mobs can petrify you, which is dangerous if you are fighting multiple. Pull singles and do not fight near the pits where adds can join.", confidence = "high" },
+    [1175] = { threat = "MEDIUM", reason = "The basilisks are levels 30-34 and are concentrated in two pits north and south of the raceway camp. The gazers are south along the mountain range. These mobs can petrify you, which is dangerous if you are fighting multiple. Pull singles and do not fight near the pits where adds can join.", confidence = "medium" },
 
     -- Load Lightening
-    [1176] = { threat = "LOW", reason = "The vultures are levels 30-34 and have a 100% drop rate on the quest item. A large group spawns at approximately 87, 65 near the big bones in the northeast. The quest is easy and safe; just avoid pulling the nearby basilisks and scorpions while killing vultures.", confidence = "high" },
+    [1176] = { threat = "LOW", reason = "The vultures are levels 30-34 and have a 100% drop rate on the quest item. A large group spawns at approximately 87, 65 near the big bones in the northeast. The quest is easy and safe; just avoid pulling the nearby basilisks and scorpions while killing vultures.", confidence = "medium" },
 
     -- Hungry!
     [1177] = { threat = "MEDIUM", reason = "The heads drop from Mirefin murlocs along the coast of Dustwallow Marsh. The murlocs are levels 35-40 and are packed in camps. They pull in groups and can chain-pull. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
@@ -516,7 +516,7 @@ addon.quests = {
     [1194] = { threat = "MEDIUM", reason = "The camp is guarded by level 30-34 goblins and their mechanical guards. The schematics are in a locked chest inside the main building. Clear the camp before entering the building and watch for patrolling mobs.", confidence = "medium" },
 
     -- In Search of Thaelrid
-    [1198] = { threat = "HIGH", reason = "The dungeon is filled with level 20-25 elites, including naga, satyrs, and Old God minions. Thaelrid is deep inside the instance, past multiple packs of elites. This requires a full group of 5 at the appropriate level. The dungeon also has water sections where drowning is a risk.", confidence = "high" },
+    [1198] = { threat = "HIGH", reason = "The dungeon is filled with level 20-25 elites, including naga, satyrs, and Old God minions. Thaelrid is deep inside the instance, past multiple packs of elites. This requires a full group of 5 at the appropriate level. The dungeon also has water sections where drowning is a risk.", confidence = "medium" },
 
     -- Jarl Needs a Blade
     [1203] = { threat = "MEDIUM", reason = "The spiders are levels 35-38 and are concentrated in the Darkmist Cavern. The cave is tight and respawns quickly. Clear methodically and keep an escape route.", confidence = "medium" },

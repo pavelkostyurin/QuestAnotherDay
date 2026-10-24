@@ -1062,28 +1062,28 @@ local quests = {
     [1098] = { threat = "HIGH", reason = "The first is in the prison section, and the second is in the courtyard after the first opens the door. Both are deep inside the dungeon, past multiple packs of elite worgen. This requires a full group. The first Deathstalker must be freed to progress, which pulls mobs. The second is in an open courtyard with patrolling elites.", confidence = "high" },
 
     -- A Vengeful Fate
-    [1102] = { threat = "HIGH", reason = "Razorfen Kraul is a level 25-30 dungeon packed with elite quilboar. Charlga is a powerful boss with adds and nature-based attacks. This requires a full group of 5 players. Solo is impossible; even duoing at the intended level is extremely risky.", confidence = "high" },
+    [1102] = { threat = "HIGH", reason = "Razorfen Kraul is a level 25-30 dungeon packed with elite quilboar. Charlga is a powerful boss with adds and nature-based attacks. This requires a full group of 5 players. Solo is impossible; even duoing at the intended level is extremely risky.", confidence = "medium" },
 
     -- Call of Water
     [1103] = { threat = "MEDIUM", reason = "Involves combat and travel to a water source guarded by hostile mobs. The mobs are manageable for the level, but the journey through contested territory adds risk.", confidence = "medium" },
 
     -- Going, Going, Guano!
-    [1109] = { threat = "HIGH", reason = "The dungeon is filled with level 25-30 quilboar elites and the bats are deep inside. This requires a full dungeon group. The guano drops from Kraul Bats, which are not elite themselves but are surrounded by elite quilboar. Do not attempt solo; bring a group of 5 at the appropriate level.", confidence = "high" },
+    [1109] = { threat = "HIGH", reason = "The dungeon is filled with level 25-30 quilboar elites and the bats are deep inside. This requires a full dungeon group. The guano drops from Kraul Bats, which are not elite themselves but are surrounded by elite quilboar. Do not attempt solo; bring a group of 5 at the appropriate level.", confidence = "medium" },
 
     -- Hearts of Zeal
-    [1113] = { threat = "HIGH", reason = "This requires a full dungeon group of 5 at level 33+. The mobs are elites and hit hard. Do not attempt solo.", confidence = "high" },
+    [1113] = { threat = "HIGH", reason = "This requires a full dungeon group of 5 at level 33+. The mobs are elites and hit hard. Do not attempt solo.", confidence = "medium" },
 
     -- Rabine Saturna
-    [1123] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Moonglade is safe for Horde players if you use the flight path from Thunder Bluff.", confidence = "high" },
+    [1123] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Moonglade is safe for Horde players if you use the flight path from Thunder Bluff.", confidence = "medium" },
 
     -- Melor Sends Word
-    [1130] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1130] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Steelsnap
-    [1131] = { threat = "MEDIUM", reason = "Steelsnap is level 31 and patrols with two guards (levels 28-29) near Camp E'thok. He wanders a long route and can be hard to find. The guards must be dealt with first or at the same time. Do not engage near the centaur camp where adds will join. A level 27 warrior soloed this with a healing potion after waiting for Steelsnap to wander outside the camp. Do not attempt below level 28 solo.", confidence = "high" },
+    [1131] = { threat = "MEDIUM", reason = "Steelsnap is level 31 and patrols with two guards (levels 28-29) near Camp E'thok. He wanders a long route and can be hard to find. The guards must be dealt with first or at the same time. Do not engage near the centaur camp where adds will join. A level 27 warrior soloed this with a healing potion after waiting for Steelsnap to wander outside the camp. Do not attempt below level 28 solo.", confidence = "medium" },
 
     -- Frostmaw
-    [1136] = { threat = "MEDIUM", reason = "The cave is filled with white yetis that respawn quickly, and Frostmaw takes 3-5 seconds to appear after you place the carcass on the fire. Clear the cave first and fight Frostmaw at the back to avoid respawning mobs. A level 30 feral druid soloed this but had to use a health potion. Do not attempt below level 30 without a group. Watch for respawns inside the cave, which can kill you at the last minute.", confidence = "high" },
+    [1136] = { threat = "MEDIUM", reason = "The cave is filled with white yetis that respawn quickly, and Frostmaw takes 3-5 seconds to appear after you place the carcass on the fire. Clear the cave first and fight Frostmaw at the back to avoid respawning mobs. A level 30 feral druid soloed this but had to use a health potion. Do not attempt below level 30 without a group. Watch for respawns inside the cave, which can kill you at the last minute.", confidence = "medium" },
 
     -- The Swarm Grows
     [1145] = { threat = "MEDIUM", reason = "The silithids are levels 30-35 and often stand in small groups. They have a knockback and can chain-pull if you are not careful. The flats are open terrain, so you can see mobs coming, but the respawn rate is fast. Pull singles and keep moving.", confidence = "medium" },
@@ -1098,52 +1098,52 @@ local quests = {
     [1148] = { threat = "MEDIUM", reason = "The heart has a low drop rate, meaning you will kill many silithids. The insects are levels 30-35 and pull in groups. This quest stacks with The Swarm Grows, so do them together. Fight in open terrain and avoid pulling multiple groups.", confidence = "medium" },
 
     -- Test of Faith
-    [1149] = { threat = "MEDIUM", reason = "The fall itself is survivable (you land in water), but the journey to Dorn Plainstalker passes through centaur and harpy territory. The leap is safe; the travel is the risk. Do not attempt the jump from anywhere other than the marked planks.", confidence = "high" },
+    [1149] = { threat = "MEDIUM", reason = "The leap can be fatal if you jump from the wrong edge or miss the marked planks. Use the wooden planks exactly as directed, and avoid movement effects that can alter the fall.", confidence = "medium" },
 
     -- Test of Endurance
-    [1150] = { threat = "HIGH", reason = "The cave is tight, the harpies respawn quickly, and destroying the food triggers Grenka Bloodscreech to spawn. She is a named harpy who hits hard and brings adds. The cave has no safe retreat once you are deep inside. The quest text explicitly says 'go with friends'. Solo attempts at the intended level (25-30) usually end in death.", confidence = "high" },
+    [1150] = { threat = "HIGH", reason = "Group quest. The objective requires entering Roguefeather Den, destroying the harpies’ food, and surviving until Grenka Bloodscreech arrives. The cave and triggered encounter make escape difficult; bring a suitable group as instructed.", confidence = "medium" },
 
     -- Test of Strength
-    [1151] = { threat = "HIGH", reason = "This quest is flagged as an Elite quest in Classic Era. Rok'Alim hits far harder than normal mobs of his level and has significantly more health. He patrols the open desert, so you can pull him to a clear area, but soloing him at the intended level is very risky. Bring a group or overlevel heavily.", confidence = "high" },
+    [1151] = { threat = "HIGH", reason = "This quest is flagged as an Elite quest in Classic Era. Rok'Alim hits far harder than normal mobs of his level and has significantly more health. He patrols the open desert, so you can pull him to a clear area, but soloing him at the intended level is very risky. Bring a group or overlevel heavily.", confidence = "medium" },
 
     -- Test of Lore
-    [1152] = { threat = "HIGH", reason = "The Scarlet Monastery is a dungeon filled with level 30-40 elite Scarlet Crusade mobs. The library section requires fighting through several packs of elites. This quest cannot be completed solo; a full group of 5 players at or above the recommended level is required. The travel between zones also carries risk, especially through contested Ashenvale and Stonetalon.", confidence = "high" },
+    [1152] = { threat = "MEDIUM", reason = "Travel and dialogue step. Reach Braug near Talondeep Path and avoid hostile camps along the route; the Scarlet Monastery warning does not match this objective.", confidence = "medium" },
 
     -- A New Ore Sample
     [1153] = { threat = "MEDIUM", reason = "The kobolds are levels 25-28 and often stand in groups. They flee at low health and can chain-pull. The drop rate is not guaranteed, so you may need to kill several. Pull singles and watch for patrolling centaurs.", confidence = "medium" },
 
     -- Test of Lore
-    [1154] = { threat = "MEDIUM", reason = "This is a dialogue step in the Test of Lore chain. The correct answer is Ner'zhul. No combat required, but the journey to Undercity through contested zones is the only risk. Safe if you stay on the road.", confidence = "high" },
+    [1154] = { threat = "MEDIUM", reason = "This is a dialogue step in the Test of Lore chain. The correct answer is Ner'zhul. No combat required, but the journey to Undercity through contested zones is the only risk. Safe if you stay on the road.", confidence = "medium" },
 
     -- Test of Lore
-    [1159] = { threat = "LOW", reason = "This is a dialogue-only step with no combat. The only risk is the travel back to Undercity, which is safe for Horde players.", confidence = "high" },
+    [1159] = { threat = "LOW", reason = "This is a dialogue-only step with no combat. The only risk is the travel back to Undercity, which is safe for Horde players.", confidence = "medium" },
 
     -- Test of Lore
-    [1160] = { threat = "LOW", reason = "Travel step with no combat objective. Safe if you avoid the centaur and harpy camps along the way.", confidence = "high" },
+    [1160] = { threat = "EXTREME", reason = "Dungeon quest. The requested book is associated with Scarlet Monastery, a group instance with elite enemies; complete with a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- To Steal From Thieves
     [1164] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before looting and watch for adds.", confidence = "medium" },
 
     -- Overlord Mok'Morokk's Concern
-    [1166] = { threat = "HIGH", reason = "The grog is at 38,65 in front of the Den of Flame cave. The snuff is at 44,66 in the Stonemaul Ruins. The strongbox is deep inside the Den of Flame cave at 36,69, guarded by level 41-44 mobs. The cave mobs have high fire resistance and cast fire spells. A level 40 fire mage soloed this by using frost spells and pulling singles. Do not attempt below level 40 without a group. The strongbox is deep in the cave and the escape route is long.", confidence = "high" },
+    [1166] = { threat = "HIGH", reason = "The grog is at 38,65 in front of the Den of Flame cave. The snuff is at 44,66 in the Stonemaul Ruins. The strongbox is deep inside the Den of Flame cave at 36,69, guarded by level 41-44 mobs. The cave mobs have high fire resistance and cast fire spells. A level 40 fire mage soloed this by using frost spells and pulling singles. Do not attempt below level 40 without a group. The strongbox is deep in the cave and the escape route is long.", confidence = "medium" },
 
     -- Army of the Black Dragon
-    [1168] = { threat = "MEDIUM", reason = "The Firemane dragonkin are levels 41-44 and are found in the Stonemaul Ruins (scouts and ash tails) and the Den of Flame (scalebanes). In Classic Era, these mobs are NOT elite (a patch changed them from elite to standard). However, they still hit hard and cast fire spells. Pull singles, watch for patrols, and fight in open areas. A level 42 mage cleared this with no deaths. Do not attempt below level 40 solo.", confidence = "high" },
+    [1168] = { threat = "MEDIUM", reason = "The Firemane dragonkin are levels 41-44 and are found in the Stonemaul Ruins (scouts and ash tails) and the Den of Flame (scalebanes). In Classic Era, these mobs are NOT elite (a patch changed them from elite to standard). However, they still hit hard and cast fire spells. Pull singles, watch for patrols, and fight in open areas. A level 42 mage cleared this with no deaths. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- Identifying the Brood
     [1169] = { threat = "MEDIUM", reason = "The mobs are level 40-43 and are concentrated in the southern marsh, which is also patrolled by elite dragons. The drop rate is not guaranteed, so multiple kills are required. Clear methodically and avoid the elite dragonkin.", confidence = "medium" },
 
     -- The Brood of Onyxia
-    [1170] = { threat = "MEDIUM", reason = "This is a dialogue step in the Brood of Onyxia chain. No combat required. Safe if you stay in the village.", confidence = "high" },
+    [1170] = { threat = "MEDIUM", reason = "This is a dialogue step in the Brood of Onyxia chain. No combat required. Safe if you stay in the village.", confidence = "medium" },
 
     -- The Brood of Onyxia
     [1171] = { threat = "MEDIUM", reason = "The quest leads to the Wyrmbog in Dustwallow Marsh. The area is patrolled by level 40-43 dragonkin. Clear the area before looting and watch for patrols.", confidence = "medium" },
 
     -- The Brood of Onyxia
-    [1172] = { threat = "MEDIUM", reason = "The eggs are at approximately 56,75 (east of Onyxia's Lair) and are guarded by 3-4 non-elite Firemane mobs. There are only 4 eggs at each nest, so you will need to wait for respawns or visit multiple nests (56.75, 56.82, 52.84). Clear the guards first and loot the eggs one at a time. A level 44 feral druid cleared this easily. Do not attempt below level 42 without a group.", confidence = "high" },
+    [1172] = { threat = "MEDIUM", reason = "The eggs are at approximately 56,75 (east of Onyxia's Lair) and are guarded by 3-4 non-elite Firemane mobs. There are only 4 eggs at each nest, so you will need to wait for respawns or visit multiple nests (56.75, 56.82, 52.84). Clear the guards first and loot the eggs one at a time. A level 44 feral druid cleared this easily. Do not attempt below level 42 without a group.", confidence = "medium" },
 
     -- Challenge Overlord Mok'Morokk
-    [1173] = { threat = "HIGH", reason = "The quest appears ordinary but is extremely difficult. Mok'Morokk is a powerful ogre surrounded by his guards, and the fight takes place in a confined village. Only kite-capable classes like hunters and mages should attempt this, and even then, overleveling significantly is recommended. Melee classes should skip or bring a full group.", confidence = "high" },
+    [1173] = { threat = "HIGH", reason = "Mok'Morokk becomes hostile when challenged and must be driven from the village. His heavy hits and nearby guards make the fight dangerous at the intended level; solo success is class- and tactic-dependent, so bring help or overlevel if unsure.", confidence = "medium" },
 
     -- Parts of the Swarm
     [1184] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the silithid pits and centaur camps.", confidence = "medium" },

@@ -1677,7 +1677,7 @@ local quests = {
     [1100] = { threat = "LOW", reason = "The journal is found on a corpse in the Wetlands. This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- The Crone of the Kraul
-    [1101] = { threat = "MEDIUM", reason = "The medallion drops from Charlga Razorflank, the final boss of Razorfen Kraul. Razorfen Kraul is a level 25-30 dungeon filled with elite quilboar. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },
+    [1101] = { threat = "MEDIUM", reason = "The medallion drops from Charlga Razorflank, the final boss of Razorfen Kraul. Razorfen Kraul is a level 25-30 dungeon filled with elite quilboar. This requires a full group of level 28+. Do not attempt solo.", confidence = "medium" },
 
     -- Fiora Longears
     [1132] = { threat = "MEDIUM", reason = "The journey to Theramore passes through Dustwallow Marsh, which is patrolled by level 35-40 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 35 solo.", confidence = "medium" },
@@ -1692,34 +1692,34 @@ local quests = {
     [1135] = { threat = "MEDIUM", reason = "The sacs drop from Highperch wyverns in Thousand Needles. The wyverns are levels 25-29 and are packed in the Highperch area. They pull in groups and have ranged attacks. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 25 solo.", confidence = "medium" },
 
     -- Fruit of the Sea
-    [1138] = { threat = "LOW", reason = "The chunks drop from crabs along the Darkshore coast. The crabs are levels 14-18 and are scattered along the shore. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "high" },
+    [1138] = { threat = "LOW", reason = "The chunks drop from crabs along the Darkshore coast. The crabs are levels 14-18 and are scattered along the shore. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "medium" },
 
     -- The Lost Tablets of Will
-    [1139] = { threat = "MEDIUM", reason = "The tablet is in the Uldaman dungeon, which is a level 35-40 instance filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [1139] = { threat = "MEDIUM", reason = "The tablet is in the Uldaman dungeon, which is a level 35-40 instance filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "medium" },
 
     -- The Tower of Althalaxx
     [1140] = { threat = "MEDIUM", reason = "The souls are in the satyr camps in Ashenvale, which are patrolled by level 24-28 satyrs. The camps are dense with mobs and have patrolling elites. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
 
     -- The Family and the Fishing Pole
-    [1141] = { threat = "LOW", reason = "The fish are caught from the waters of Darkshore. No combat required beyond fishing. Safe if you avoid the murlocs along the shore.", confidence = "high" },
+    [1141] = { threat = "LOW", reason = "The fish are caught from the waters of Darkshore. No combat required beyond fishing. Safe if you avoid the murlocs along the shore.", confidence = "medium" },
 
     -- Mortality Wanes
     [1142] = { threat = "MEDIUM", reason = "The pendant is in the Ruins of Mathystra in Darkshore, guarded by level 16-20 naga. The ruins are dense with mobs. Clear methodically and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
 
     -- The Tower of Althalaxx
-    [1143] = { threat = "HIGH", reason = "Athrikus is a level 28 named satyr in the Tower of Althalaxx in Darkshore, surrounded by elite guards. He casts powerful shadow spells and can fear you. Clear the area before engaging and be ready for adds. Do not attempt below level 26 solo without a group.", confidence = "high" },
+    [1143] = { threat = "HIGH", reason = "Athrikus is a level 28 named satyr in the Tower of Althalaxx in Darkshore, surrounded by elite guards. He casts powerful shadow spells and can fear you. Clear the area before engaging and be ready for adds. Do not attempt below level 26 solo without a group.", confidence = "medium" },
 
     -- The Tower of Althalaxx
-    [1167] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1167] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- The Brassbolts Brothers
-    [1179] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1179] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Twilight Falls
-    [1199] = { threat = "HIGH", reason = "Kelris is a powerful elite boss who mind-controls players and summons adds. He is deep inside the dungeon, past multiple elite packs. This requires a full group of 5. The mind-control can turn your own group against you, making this fight especially dangerous.", confidence = "high" },
+    [1199] = { threat = "HIGH", reason = "Kelris is a powerful elite boss who mind-controls players and summons adds. He is deep inside the dungeon, past multiple elite packs. This requires a full group of 5. The mind-control can turn your own group against you, making this fight especially dangerous.", confidence = "medium" },
 
     -- Blackfathom Villainy
-    [1200] = { threat = "HIGH", reason = "This is the final boss of the dungeon, a powerful elite with high health and heavy attacks. The dungeon leading up to him is filled with elites, including the Twilight Lord Kelris. This requires a full group of 5. Do not attempt without a coordinated group.", confidence = "high" },
+    [1200] = { threat = "HIGH", reason = "This is the final boss of the dungeon, a powerful elite with high health and heavy attacks. The dungeon leading up to him is filled with elites, including the Twilight Lord Kelris. This requires a full group of 5. Do not attempt without a coordinated group.", confidence = "medium" },
 
     -- Mudrock Soup and Bugs
     [1204] = { threat = "MEDIUM", reason = "The bugs are in the Darkmist Cavern and surrounding areas. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },

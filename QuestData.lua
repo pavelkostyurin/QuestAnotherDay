@@ -2921,91 +2921,91 @@ addon.quests = {
     -- Lonebrow's Journal
     [1100] = { threat = "LOW", reason = "The journal is found on a corpse in the Wetlands. This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
     -- The Crone of the Kraul
-    [1101] = { threat = "MEDIUM", reason = "The medallion drops from Charlga Razorflank, the final boss of Razorfen Kraul. Razorfen Kraul is a level 25-30 dungeon filled with elite quilboar. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },
+    [1101] = { threat = "MEDIUM", reason = "The medallion drops from Charlga Razorflank, the final boss of Razorfen Kraul. Razorfen Kraul is a level 25-30 dungeon filled with elite quilboar. This requires a full group of level 28+. Do not attempt solo.", confidence = "medium" },
 
     -- A Vengeful Fate (Razorfen Kraul dungeon)
-    [1102] = { threat = "HIGH", reason = "Razorfen Kraul is a level 25-30 dungeon packed with elite quilboar. Charlga is a powerful boss with adds and nature-based attacks. This requires a full group of 5 players. Solo is impossible; even duoing at the intended level is extremely risky.", confidence = "high" },
+    [1102] = { threat = "HIGH", reason = "Razorfen Kraul is a level 25-30 dungeon packed with elite quilboar. Charlga is a powerful boss with adds and nature-based attacks. This requires a full group of 5 players. Solo is impossible; even duoing at the intended level is extremely risky.", confidence = "medium" },
 
     -- Call of Water (Shaman totem)
     [1103] = { threat = "MEDIUM", reason = "Involves combat and travel to a water source guarded by hostile mobs. The mobs are manageable for the level, but the journey through contested territory adds risk.", confidence = "medium" },
 
     -- Salt Flat Venom
-    [1104] = { threat = "LOW", reason = "The venoms drop from scorpids in the Shimmering Flats. The scorpids are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [1104] = { threat = "LOW", reason = "The venoms drop from scorpids in the Shimmering Flats. The scorpids are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Hardened Shells
-    [1105] = { threat = "LOW", reason = "The shells drop from tortoises in the Shimmering Flats. The tortoises are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [1105] = { threat = "LOW", reason = "The shells drop from tortoises in the Shimmering Flats. The tortoises are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Martek the Exiled
     [1106] = { threat = "MEDIUM", reason = "The journey to the Badlands passes through contested territory and is patrolled by level 35-40 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Encrusted Tail Fins
-    [1107] = { threat = "LOW", reason = "The fins drop from threshers in the Shimmering Flats. The threshers are levels 30-34 and are found in the water. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [1107] = { threat = "LOW", reason = "The fins drop from threshers in the Shimmering Flats. The threshers are levels 30-34 and are found in the water. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Indurium
-    [1108] = { threat = "MEDIUM", reason = "The flakes drop from Indurium golems in Uldaman. Uldaman is a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [1108] = { threat = "MEDIUM", reason = "The flakes drop from Indurium golems in Uldaman. Uldaman is a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "medium" },
 
     -- Going, Going, Guano! (Razorfen Kraul dungeon)
-    [1109] = { threat = "HIGH", reason = "The dungeon is filled with level 25-30 quilboar elites and the bats are deep inside. This requires a full dungeon group. The guano drops from Kraul Bats, which are not elite themselves but are surrounded by elite quilboar. Do not attempt solo; bring a group of 5 at the appropriate level.", confidence = "high" },
+    [1109] = { threat = "HIGH", reason = "The dungeon is filled with level 25-30 quilboar elites and the bats are deep inside. This requires a full dungeon group. The guano drops from Kraul Bats, which are not elite themselves but are surrounded by elite quilboar. Do not attempt solo; bring a group of 5 at the appropriate level.", confidence = "medium" },
 
     -- Rocket Car Parts
-    [1110] = { threat = "LOW", reason = "The parts drop from various mobs in the Shimmering Flats. The mobs are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [1110] = { threat = "LOW", reason = "The parts drop from various mobs in the Shimmering Flats. The mobs are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Wharfmaster Dizzywig
-    [1111] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1111] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Parts for Kravel
-    [1112] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1112] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Hearts of Zeal (Horde - Scarlet Monastery)
-    [1113] = { threat = "HIGH", reason = "This requires a full dungeon group of 5 at level 33+. The mobs are elites and hit hard. Do not attempt solo.", confidence = "high" },
+    [1113] = { threat = "HIGH", reason = "This requires a full dungeon group of 5 at level 33+. The mobs are elites and hit hard. Do not attempt solo.", confidence = "medium" },
 
     -- Delivery to the Gnomes
-    [1114] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1114] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Rumormonger
-    [1115] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [1115] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Dream Dust in the Swamp
     [1116] = { threat = "MEDIUM", reason = "The dust drops from dragon whelps in the Swamp of Sorrows. The whelps are levels 35-40 and are packed in the swamp. They pull in groups and have fire attacks. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Rumors for Kravel
-    [1117] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1117] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Back to Booty Bay
     [1118] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Booty Bay passes through Stranglethorn Vale, which is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
 
     -- Zanzil's Mixture and a Fool's Stout
-    [1119] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey back is safe if you stay on the road.", confidence = "high" },
+    [1119] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey back is safe if you stay on the road.", confidence = "medium" },
 
     -- Get the Gnomes Drunk
-    [1120] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1120] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Get the Goblins Drunk
-    [1121] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1121] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Report Back to Fizzlebub
     [1122] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Booty Bay passes through Stranglethorn Vale, which is dangerous. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
 
     -- Rabine Saturna (Horde - Moonglade)
-    [1123] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Moonglade is safe for Horde players if you use the flight path from Thunder Bluff.", confidence = "high" },
+    [1123] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Moonglade is safe for Horde players if you use the flight path from Thunder Bluff.", confidence = "medium" },
 
     -- Wasteland
     [1124] = { threat = "MEDIUM", reason = "This is a travel and dialogue step with no combat. The journey through Silithus is dangerous for low-level players, as the zone is patrolled by level 55-60 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 55 solo.", confidence = "medium" },
 
     -- The Spirits of Southwind
-    [1125] = { threat = "HIGH", reason = "The spirits are level 55-58 and are packed in the village, which is also patrolled by silithid and Twilight's Hammer cultists. The village is dense with mobs and has patrolling elites. Clear methodically and watch for adds. Do not attempt below level 55 solo without a group.", confidence = "high" },
+    [1125] = { threat = "HIGH", reason = "The spirits are level 55-58 and are packed in the village, which is also patrolled by silithid and Twilight's Hammer cultists. The village is dense with mobs and has patrolling elites. Clear methodically and watch for adds. Do not attempt below level 55 solo without a group.", confidence = "medium" },
 
     -- Hive in the Tower
-    [1126] = { threat = "HIGH", reason = "The tower is in Silithus and is guarded by level 55-58 silithid and cultists. The climb is dangerous, and the hive will spawn additional mobs when stirred. Clear the area before interacting and be ready for adds. Do not attempt below level 55 solo without a group.", confidence = "high" },
+    [1126] = { threat = "HIGH", reason = "The tower is in Silithus and is guarded by level 55-58 silithid and cultists. The climb is dangerous, and the hive will spawn additional mobs when stirred. Clear the area before interacting and be ready for adds. Do not attempt below level 55 solo without a group.", confidence = "medium" },
 
     -- Fool's Stout
     [1127] = { threat = "MEDIUM", reason = "The mixture drops from Zanzil's zombies in the Ruins of Aboraz in Stranglethorn. The zombies are levels 40-44 and are packed in the ruins. They pull in groups and have a poison effect. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- Melor Sends Word (Horde - Thunder Bluff)
-    [1130] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1130] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Steelsnap (Horde - Thousand Needles)
-    [1131] = { threat = "MEDIUM", reason = "Steelsnap is level 31 and patrols with two guards (levels 28-29) near Camp E'thok. He wanders a long route and can be hard to find. The guards must be dealt with first or at the same time. Do not engage near the centaur camp where adds will join. A level 27 warrior soloed this with a healing potion after waiting for Steelsnap to wander outside the camp. Do not attempt below level 28 solo.", confidence = "high" },
+    [1131] = { threat = "MEDIUM", reason = "Steelsnap is level 31 and patrols with two guards (levels 28-29) near Camp E'thok. He wanders a long route and can be hard to find. The guards must be dealt with first or at the same time. Do not engage near the centaur camp where adds will join. A level 27 warrior soloed this with a healing potion after waiting for Steelsnap to wander outside the camp. Do not attempt below level 28 solo.", confidence = "medium" },
 
     -- Fiora Longears
     [1132] = { threat = "MEDIUM", reason = "The journey to Theramore passes through Dustwallow Marsh, which is patrolled by level 35-40 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 35 solo.", confidence = "medium" },
@@ -3020,31 +3020,31 @@ addon.quests = {
     [1135] = { threat = "MEDIUM", reason = "The sacs drop from Highperch wyverns in Thousand Needles. The wyverns are levels 25-29 and are packed in the Highperch area. They pull in groups and have ranged attacks. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 25 solo.", confidence = "medium" },
 
     -- Frostmaw (Horde - Alterac Mountains)
-    [1136] = { threat = "MEDIUM", reason = "The cave is filled with white yetis that respawn quickly, and Frostmaw takes 3-5 seconds to appear after you place the carcass on the fire. Clear the cave first and fight Frostmaw at the back to avoid respawning mobs. A level 30 feral druid soloed this but had to use a health potion. Do not attempt below level 30 without a group. Watch for respawns inside the cave, which can kill you at the last minute.", confidence = "high" },
+    [1136] = { threat = "MEDIUM", reason = "The cave is filled with white yetis that respawn quickly, and Frostmaw takes 3-5 seconds to appear after you place the carcass on the fire. Clear the cave first and fight Frostmaw at the back to avoid respawning mobs. A level 30 feral druid soloed this but had to use a health potion. Do not attempt below level 30 without a group. Watch for respawns inside the cave, which can kill you at the last minute.", confidence = "medium" },
 
     -- News for Fizzle
-    [1137] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1137] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Fruit of the Sea
-    [1138] = { threat = "LOW", reason = "The chunks drop from crabs along the Darkshore coast. The crabs are levels 14-18 and are scattered along the shore. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "high" },
+    [1138] = { threat = "LOW", reason = "The chunks drop from crabs along the Darkshore coast. The crabs are levels 14-18 and are scattered along the shore. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "medium" },
 
     -- The Lost Tablets of Will
-    [1139] = { threat = "MEDIUM", reason = "The tablet is in the Uldaman dungeon, which is a level 35-40 instance filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [1139] = { threat = "MEDIUM", reason = "The tablet is in the Uldaman dungeon, which is a level 35-40 instance filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "medium" },
 
     -- The Tower of Althalaxx (Free Souls)
     [1140] = { threat = "MEDIUM", reason = "The souls are in the satyr camps in Ashenvale, which are patrolled by level 24-28 satyrs. The camps are dense with mobs and have patrolling elites. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
 
     -- The Family and the Fishing Pole
-    [1141] = { threat = "LOW", reason = "The fish are caught from the waters of Darkshore. No combat required beyond fishing. Safe if you avoid the murlocs along the shore.", confidence = "high" },
+    [1141] = { threat = "LOW", reason = "The fish are caught from the waters of Darkshore. No combat required beyond fishing. Safe if you avoid the murlocs along the shore.", confidence = "medium" },
 
     -- Mortality Wanes
     [1142] = { threat = "MEDIUM", reason = "The pendant is in the Ruins of Mathystra in Darkshore, guarded by level 16-20 naga. The ruins are dense with mobs. Clear methodically and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
 
     -- The Tower of Althalaxx (Kill Athrikus)
-    [1143] = { threat = "HIGH", reason = "Athrikus is a level 28 named satyr in the Tower of Althalaxx in Darkshore, surrounded by elite guards. He casts powerful shadow spells and can fear you. Clear the area before engaging and be ready for adds. Do not attempt below level 26 solo without a group.", confidence = "high" },
+    [1143] = { threat = "HIGH", reason = "Athrikus is a level 28 named satyr in the Tower of Althalaxx in Darkshore, surrounded by elite guards. He casts powerful shadow spells and can fear you. Clear the area before engaging and be ready for adds. Do not attempt below level 26 solo without a group.", confidence = "medium" },
 
     -- Willix the Importer
-    [1144] = { threat = "HIGH", reason = "This is an escort quest inside a level 25-30 dungeon filled with elite quilboar. Willix is a level 30 NPC who must be protected through multiple packs of elites. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },
+    [1144] = { threat = "HIGH", reason = "This is an escort quest inside a level 25-30 dungeon filled with elite quilboar. Willix is a level 30 NPC who must be protected through multiple packs of elites. This requires a full group of level 28+. Do not attempt solo.", confidence = "medium" },
 
     -- The Swarm Grows (Thousand Needles)
     [1145] = { threat = "MEDIUM", reason = "The silithids are levels 30-35 and often stand in small groups. They have a knockback and can chain-pull if you are not careful. The flats are open terrain, so you can see mobs coming, but the respawn rate is fast. Pull singles and keep moving.", confidence = "medium" },
@@ -3059,61 +3059,61 @@ addon.quests = {
     [1148] = { threat = "MEDIUM", reason = "The heart has a low drop rate, meaning you will kill many silithids. The insects are levels 30-35 and pull in groups. This quest stacks with The Swarm Grows, so do them together. Fight in open terrain and avoid pulling multiple groups.", confidence = "medium" },
 
     -- Test of Faith (Thousand Needles)
-    [1149] = { threat = "MEDIUM", reason = "The fall itself is survivable (you land in water), but the journey to Dorn Plainstalker passes through centaur and harpy territory. The leap is safe; the travel is the risk. Do not attempt the jump from anywhere other than the marked planks.", confidence = "high" },
+    [1149] = { threat = "MEDIUM", reason = "The leap can be fatal if you jump from the wrong edge or miss the marked planks. Use the wooden planks exactly as directed, and avoid movement effects that can alter the fall.", confidence = "medium" },
 
     -- Test of Endurance (Thousand Needles)
-    [1150] = { threat = "HIGH", reason = "The cave is tight, the harpies respawn quickly, and destroying the food triggers Grenka Bloodscreech to spawn. She is a named harpy who hits hard and brings adds. The cave has no safe retreat once you are deep inside. The quest text explicitly says 'go with friends'. Solo attempts at the intended level (25-30) usually end in death.", confidence = "high" },
+    [1150] = { threat = "HIGH", reason = "Group quest. The objective requires entering Roguefeather Den, destroying the harpies’ food, and surviving until Grenka Bloodscreech arrives. The cave and triggered encounter make escape difficult; bring a suitable group as instructed.", confidence = "medium" },
 
     -- Test of Strength (Thousand Needles)
-    [1151] = { threat = "HIGH", reason = "This quest is flagged as an Elite quest in Classic Era. Rok'Alim hits far harder than normal mobs of his level and has significantly more health. He patrols the open desert, so you can pull him to a clear area, but soloing him at the intended level is very risky. Bring a group or overlevel heavily.", confidence = "high" },
+    [1151] = { threat = "HIGH", reason = "This quest is flagged as an Elite quest in Classic Era. Rok'Alim hits far harder than normal mobs of his level and has significantly more health. He patrols the open desert, so you can pull him to a clear area, but soloing him at the intended level is very risky. Bring a group or overlevel heavily.", confidence = "medium" },
 
     -- Test of Lore (Thousand Needles -> Ashenvale -> Stonetalon -> Scarlet Monastery -> Undercity)
-    [1152] = { threat = "HIGH", reason = "The Scarlet Monastery is a dungeon filled with level 30-40 elite Scarlet Crusade mobs. The library section requires fighting through several packs of elites. This quest cannot be completed solo; a full group of 5 players at or above the recommended level is required. The travel between zones also carries risk, especially through contested Ashenvale and Stonetalon.", confidence = "high" },
+    [1152] = { threat = "MEDIUM", reason = "Travel and dialogue step. Reach Braug near Talondeep Path and avoid hostile camps along the route; the Scarlet Monastery warning does not match this objective.", confidence = "medium" },
 
     -- A New Ore Sample (Thousand Needles)
     [1153] = { threat = "MEDIUM", reason = "The kobolds are levels 25-28 and often stand in groups. They flee at low health and can chain-pull. The drop rate is not guaranteed, so you may need to kill several. Pull singles and watch for patrolling centaurs.", confidence = "medium" },
 
     -- Test of Lore (Horde - Thousand Needles)
-    [1154] = { threat = "MEDIUM", reason = "This is a dialogue step in the Test of Lore chain. The correct answer is Ner'zhul. No combat required, but the journey to Undercity through contested zones is the only risk. Safe if you stay on the road.", confidence = "high" },
+    [1154] = { threat = "MEDIUM", reason = "This is a dialogue step in the Test of Lore chain. The correct answer is Ner'zhul. No combat required, but the journey to Undercity through contested zones is the only risk. Safe if you stay on the road.", confidence = "medium" },
 
     -- Test of Lore (Undercity answer step)
-    [1159] = { threat = "LOW", reason = "This is a dialogue-only step with no combat. The only risk is the travel back to Undercity, which is safe for Horde players.", confidence = "high" },
+    [1159] = { threat = "LOW", reason = "This is a dialogue-only step with no combat. The only risk is the travel back to Undercity, which is safe for Horde players.", confidence = "medium" },
 
     -- Test of Lore (final turn-in)
-    [1160] = { threat = "LOW", reason = "Travel step with no combat objective. Safe if you avoid the centaur and harpy camps along the way.", confidence = "high" },
+    [1160] = { threat = "EXTREME", reason = "Dungeon quest. The requested book is associated with Scarlet Monastery, a group instance with elite enemies; complete with a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- To Steal From Thieves (Horde - Badlands)
     [1164] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before looting and watch for adds.", confidence = "medium" },
 
     -- Overlord Mok'Morokk's Concern (Horde - Dustwallow Marsh)
-    [1166] = { threat = "HIGH", reason = "The grog is at 38,65 in front of the Den of Flame cave. The snuff is at 44,66 in the Stonemaul Ruins. The strongbox is deep inside the Den of Flame cave at 36,69, guarded by level 41-44 mobs. The cave mobs have high fire resistance and cast fire spells. A level 40 fire mage soloed this by using frost spells and pulling singles. Do not attempt below level 40 without a group. The strongbox is deep in the cave and the escape route is long.", confidence = "high" },
+    [1166] = { threat = "HIGH", reason = "The grog is at 38,65 in front of the Den of Flame cave. The snuff is at 44,66 in the Stonemaul Ruins. The strongbox is deep inside the Den of Flame cave at 36,69, guarded by level 41-44 mobs. The cave mobs have high fire resistance and cast fire spells. A level 40 fire mage soloed this by using frost spells and pulling singles. Do not attempt below level 40 without a group. The strongbox is deep in the cave and the escape route is long.", confidence = "medium" },
 
     -- The Tower of Althalaxx (Speak with Balthule)
-    [1167] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1167] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Army of the Black Dragon (Horde - Dustwallow Marsh)
-    [1168] = { threat = "MEDIUM", reason = "The Firemane dragonkin are levels 41-44 and are found in the Stonemaul Ruins (scouts and ash tails) and the Den of Flame (scalebanes). In Classic Era, these mobs are NOT elite (a patch changed them from elite to standard). However, they still hit hard and cast fire spells. Pull singles, watch for patrols, and fight in open areas. A level 42 mage cleared this with no deaths. Do not attempt below level 40 solo.", confidence = "high" },
+    [1168] = { threat = "MEDIUM", reason = "The Firemane dragonkin are levels 41-44 and are found in the Stonemaul Ruins (scouts and ash tails) and the Den of Flame (scalebanes). In Classic Era, these mobs are NOT elite (a patch changed them from elite to standard). However, they still hit hard and cast fire spells. Pull singles, watch for patrols, and fight in open areas. A level 42 mage cleared this with no deaths. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- Identifying the Brood (Dustwallow Marsh)
     [1169] = { threat = "MEDIUM", reason = "The mobs are level 40-43 and are concentrated in the southern marsh, which is also patrolled by elite dragons. The drop rate is not guaranteed, so multiple kills are required. Clear methodically and avoid the elite dragonkin.", confidence = "medium" },
 
     -- The Brood of Onyxia (Horde - Dustwallow Marsh)
-    [1170] = { threat = "MEDIUM", reason = "This is a dialogue step in the Brood of Onyxia chain. No combat required. Safe if you stay in the village.", confidence = "high" },
+    [1170] = { threat = "MEDIUM", reason = "This is a dialogue step in the Brood of Onyxia chain. No combat required. Safe if you stay in the village.", confidence = "medium" },
 
     -- The Brood of Onyxia (Horde - Dustwallow Marsh)
     [1171] = { threat = "MEDIUM", reason = "The quest leads to the Wyrmbog in Dustwallow Marsh. The area is patrolled by level 40-43 dragonkin. Clear the area before looting and watch for patrols.", confidence = "medium" },
 
     -- The Brood of Onyxia (Horde - Dustwallow Marsh)
-    [1172] = { threat = "MEDIUM", reason = "The eggs are at approximately 56,75 (east of Onyxia's Lair) and are guarded by 3-4 non-elite Firemane mobs. There are only 4 eggs at each nest, so you will need to wait for respawns or visit multiple nests (56.75, 56.82, 52.84). Clear the guards first and loot the eggs one at a time. A level 44 feral druid cleared this easily. Do not attempt below level 42 without a group.", confidence = "high" },
+    [1172] = { threat = "MEDIUM", reason = "The eggs are at approximately 56,75 (east of Onyxia's Lair) and are guarded by 3-4 non-elite Firemane mobs. There are only 4 eggs at each nest, so you will need to wait for respawns or visit multiple nests (56.75, 56.82, 52.84). Clear the guards first and loot the eggs one at a time. A level 44 feral druid cleared this easily. Do not attempt below level 42 without a group.", confidence = "medium" },
 
     -- Challenge Overlord Mok'Morokk (Dustwallow Marsh)
-    [1173] = { threat = "HIGH", reason = "The quest appears ordinary but is extremely difficult. Mok'Morokk is a powerful ogre surrounded by his guards, and the fight takes place in a confined village. Only kite-capable classes like hunters and mages should attempt this, and even then, overleveling significantly is recommended. Melee classes should skip or bring a full group.", confidence = "high" },
+    [1173] = { threat = "HIGH", reason = "Mok'Morokk becomes hostile when challenged and must be driven from the village. His heavy hits and nearby guards make the fight dangerous at the intended level; solo success is class- and tactic-dependent, so bring help or overlevel if unsure.", confidence = "medium" },
 
     -- A Bump in the Road (Thousand Needles)
-    [1175] = { threat = "MEDIUM", reason = "The basilisks are levels 30-34 and are concentrated in two pits north and south of the raceway camp. The gazers are south along the mountain range. These mobs can petrify you, which is dangerous if you are fighting multiple. Pull singles and do not fight near the pits where adds can join.", confidence = "high" },
+    [1175] = { threat = "MEDIUM", reason = "The basilisks are levels 30-34 and are concentrated in two pits north and south of the raceway camp. The gazers are south along the mountain range. These mobs can petrify you, which is dangerous if you are fighting multiple. Pull singles and do not fight near the pits where adds can join.", confidence = "medium" },
 
     -- Load Lightening (Thousand Needles)
-    [1176] = { threat = "LOW", reason = "The vultures are levels 30-34 and have a 100% drop rate on the quest item. A large group spawns at approximately 87, 65 near the big bones in the northeast. The quest is easy and safe; just avoid pulling the nearby basilisks and scorpions while killing vultures.", confidence = "high" },
+    [1176] = { threat = "LOW", reason = "The vultures are levels 30-34 and have a 100% drop rate on the quest item. A large group spawns at approximately 87, 65 near the big bones in the northeast. The quest is easy and safe; just avoid pulling the nearby basilisks and scorpions while killing vultures.", confidence = "medium" },
 
     -- Hungry!
     [1177] = { threat = "MEDIUM", reason = "The heads drop from Mirefin murlocs along the coast of Dustwallow Marsh. The murlocs are levels 35-40 and are packed in camps. They pull in groups and can chain-pull. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
@@ -3122,7 +3122,7 @@ addon.quests = {
     [1178] = { threat = "LOW", reason = "Travel step with no combat objective. The journey through Thousand Needles and Stranglethorn is the only risk; stay on the road and avoid the pirate camps.", confidence = "medium" },
 
     -- The Brassbolts Brothers
-    [1179] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1179] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Goblin Sponsorship (Step 2 - Booty Bay to Ratchet)
     [1180] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the pirate camps along the Stranglethorn coast.", confidence = "medium" },
@@ -3179,13 +3179,13 @@ addon.quests = {
     [1197] = { threat = "MEDIUM", reason = "Travel step with light combat. Safe if you avoid the silithid and basilisk areas.", confidence = "medium" },
 
     -- In Search of Thaelrid (Blackfathom Deeps dungeon)
-    [1198] = { threat = "HIGH", reason = "The dungeon is filled with level 20-25 elites, including naga, satyrs, and Old God minions. Thaelrid is deep inside the instance, past multiple packs of elites. This requires a full group of 5 at the appropriate level. The dungeon also has water sections where drowning is a risk.", confidence = "high" },
+    [1198] = { threat = "HIGH", reason = "The dungeon is filled with level 20-25 elites, including naga, satyrs, and Old God minions. Thaelrid is deep inside the instance, past multiple packs of elites. This requires a full group of 5 at the appropriate level. The dungeon also has water sections where drowning is a risk.", confidence = "medium" },
 
     -- Twilight Falls (Blackfathom Deeps dungeon)
-    [1199] = { threat = "HIGH", reason = "Kelris is a powerful elite boss who mind-controls players and summons adds. He is deep inside the dungeon, past multiple elite packs. This requires a full group of 5. The mind-control can turn your own group against you, making this fight especially dangerous.", confidence = "high" },
+    [1199] = { threat = "HIGH", reason = "Kelris is a powerful elite boss who mind-controls players and summons adds. He is deep inside the dungeon, past multiple elite packs. This requires a full group of 5. The mind-control can turn your own group against you, making this fight especially dangerous.", confidence = "medium" },
 
     -- Blackfathom Villainy (Blackfathom Deeps dungeon)
-    [1200] = { threat = "HIGH", reason = "This is the final boss of the dungeon, a powerful elite with high health and heavy attacks. The dungeon leading up to him is filled with elites, including the Twilight Lord Kelris. This requires a full group of 5. Do not attempt without a coordinated group.", confidence = "high" },
+    [1200] = { threat = "HIGH", reason = "This is the final boss of the dungeon, a powerful elite with high health and heavy attacks. The dungeon leading up to him is filled with elites, including the Twilight Lord Kelris. This requires a full group of 5. Do not attempt without a coordinated group.", confidence = "medium" },
 
     -- Theramore Spies (Dustwallow Marsh)
     [1201] = { threat = "MEDIUM", reason = "The spies are level 35-38 and are stealthed, making them hard to spot. They are concentrated around the Theramore perimeter. The area is also patrolled by Theramore guards. Kill the spies quickly before they alert guards, and watch for patrols.", confidence = "medium" },
