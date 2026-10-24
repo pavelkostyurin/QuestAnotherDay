@@ -5041,154 +5041,154 @@ addon.quests = {
     [2988] = { threat = "MEDIUM", reason = "Check three cages in the Witherbark villages in the Hinterlands. Trolls guard the camps, but the cages can be reached with careful pulls or stealth; avoid drawing several trolls at once.", confidence = "medium" },
 
     -- The Altar of Zul
-    [2989] = { threat = "HIGH", reason = "The Altar is a temple complex in the Hinterlands filled with level 45-48 elite trolls, including a named mob at the top. The path up is narrow and patrolled. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 46+ or skip on Hardcore.", confidence = "high" },
+    [2989] = { threat = "MEDIUM", reason = "Level 50 elite trolls guard the altar, but the objective only requires reaching the top; you do not need to fight them. Use stealth or a fast mounted approach, touch the altar, then jump down and leave immediately.", confidence = "medium" },
 
     -- Thadius Grimshade
-    [2990] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [2990] = { threat = "LOW", reason = "This is a delivery step with no combat objective. The Blasted Lands route can expose you to ordinary zone enemies, so travel at a suitable level.", confidence = "medium" },
 
     -- Nekrum's Medallion
     [2991] = { threat = "MEDIUM", reason = "The medallion drops from a named troll in the Hinterlands. The troll is level 45-48 and is surrounded by guards. Clear the area before engaging and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
 
     -- The Divination
-    [2992] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [2992] = { threat = "LOW", reason = "Wait for Grimshade’s ritual and speak with him. No combat objective is listed for this step.", confidence = "medium" },
 
     -- Return to the Hinterlands
-    [2993] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to the Hinterlands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2993] = { threat = "LOW", reason = "Return to Gryphon Master Talonaxe and speak with him. No combat objective is required for the turn-in.", confidence = "medium" },
 
     -- Saving Sharpbeak
-    [2994] = { threat = "EXTREME", reason = "This is an Elite quest. Vile Priestess Hexx is a level 51 elite who hexes you into a frog and beats you down without the hex breaking. She also heals herself and runs at low health. A level 55 combat rogue soloed her only with a Restorative Potion to break the hex. A level 50 warlock soloed her by drain-tanking, but reported it was 'still difficult' and required a healthstone and consumables. Do not attempt solo at the intended level without a Restorative Potion and significant overleveling. Skip on Hardcore.", confidence = "high" },
+    [2994] = { threat = "HIGH", reason = "Elite quest. Vile Priestess Hexx can repeatedly polymorph you and heal, while hostile trolls guard the route through Jintha’Alor. Interrupt or counter the polymorph and clear a safe approach; bring help if your class cannot control her reliably.", confidence = "medium" },
 
     -- Lines of Communication (Horde - Feralas)
-    [2995] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
+    [2995] = { threat = "MEDIUM", reason = "Burn three documents around Quel’Danil Lodge, where hostile Highvale elves guard the buildings and gazebo. Pull enemies away from the document sites or clear a route before interacting.", confidence = "medium" },
 
     -- Seeking Strahad (Warlock - Ratchet)
-    [2996] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Ratchet is safe if you stay on the road .", confidence = "high" },
+    [2996] = { threat = "LOW", reason = "Speak with Strahad Farsan in Ratchet. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tome of Divinity (Tiza Battleforge)
-    [2997] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2997] = { threat = "LOW", reason = "This is a paladin dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tome of Divinity (Duthorian Rall)
-    [2998] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2998] = { threat = "LOW", reason = "This is a paladin dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tome of Divinity (Tiza Battleforge)
-    [2999] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2999] = { threat = "LOW", reason = "This is a paladin dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tome of Divinity (Tiza Battleforge)
-    [3000] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3000] = { threat = "LOW", reason = "This is a paladin dialogue step with no combat objective.", confidence = "medium" },
 
     -- Seeking Strahad (Warlock - Ratchet)
-    [3001] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Ratchet is safe if you stay on the road.", confidence = "high" },
+    [3001] = { threat = "LOW", reason = "Find Strahad Farsan in Ratchet. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- The Gordunni Orb (Horde - Feralas)
-    [3002] = { threat = "LOW", reason = "This is a turn-in step with no combat. The orb is dangerous in lore but the delivery itself is safe if you stay on the road.", confidence = "high" },
+    [3002] = { threat = "LOW", reason = "Deliver the Gordunni Orb to Uthel’nay in Orgrimmar. No combat objective is required for this turn-in.", confidence = "medium" },
 
     -- Handle With Care
-    [3022] = { threat = "LOW", reason = "This is a delivery step with no combat. The crate is picked up from Curgle Cranklehop in Tanaris. The journey between Tanaris and Teldrassil is long and dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 42 solo.", confidence = "medium" },
+    [3022] = { threat = "LOW", reason = "Deliver the Carefully-packed Crate to Rut’theran Village. No combat objective is required for the turn-in; use normal travel precautions on the long route.", confidence = "medium" },
 
     -- Troll Temper
     [3042] = { threat = "HIGH", reason = "The temper drops from trolls inside Zul'Farrak, a level 44-50 dungeon filled with elites. This requires a full group of level 46+. Do not attempt solo.", confidence = "high" },
 
     -- Dark Heart (Horde - Feralas)
-    [3062] = { threat = "HIGH", reason = "This is an Elite quest. Edana is a powerful named mob surrounded by her harpy guards. You must blow the horn at the stones to summon her, which will aggro multiple harpies. Clear the area before summoning and bring a group. Do not attempt solo below level 50.", confidence = "high" },
+    [3062] = { threat = "HIGH", reason = "Elite quest. Edana Hatetalon is a level 50 caster elite that hits hard and can use lightning attacks. Interrupt her casts and prepare defensives; bring help if you cannot manage the fight, and do not use the horn while her previous corpse remains.", confidence = "medium" },
 
     -- Vengeance on the Northspring (Horde - Feralas)
-    [3063] = { threat = "MEDIUM", reason = "The harpies are levels 45-48 and are packed in the ruins. They pull in groups and the Windcallers cast lightning spells. Clear methodically and pull singles. Do not attempt below level 47 solo.", confidence = "high" },
+    [3063] = { threat = "MEDIUM", reason = "Kill 16 Northspring harpies in their Feralas ruins. Windcallers can attack from range and nearby harpies can join a fight; pull carefully and avoid overlapping groups.", confidence = "medium" },
 
     -- Simple Tablet (Horde - Class Trainer)
-    [3065] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3065] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Etched Tablet (Horde - Class Trainer)
-    [3082] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3082] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Tablet (Horde - Class Trainer)
-    [3083] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3083] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Rune-Inscribed Tablet (Horde - Class Trainer)
-    [3084] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3084] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Hallowed Tablet (Horde - Class Trainer)
-    [3085] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3085] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Tablet (Horde - Class Trainer)
-    [3086] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3086] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Etched Parchment (Horde - Class Trainer)
-    [3087] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3087] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Parchment (Horde - Class Trainer)
-    [3088] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3088] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Rune-Inscribed Parchment (Horde - Class Trainer)
-    [3089] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3089] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tainted Parchment (Horde - Class Trainer)
-    [3090] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3090] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Note (Horde - Class Trainer)
-    [3091] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3091] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Etched Note (Horde - Class Trainer)
-    [3092] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3092] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Rune-Inscribed Note (Horde - Class Trainer)
-    [3093] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3093] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Verdant Note (Horde - Class Trainer)
-    [3094] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3094] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Scroll (Horde - Class Trainer)
-    [3095] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3095] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Scroll (Horde - Class Trainer)
-    [3096] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3096] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Hallowed Scroll (Horde - Class Trainer)
-    [3097] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3097] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Scroll (Horde - Class Trainer)
-    [3098] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3098] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tainted Scroll (Horde - Class Trainer)
-    [3099] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3099] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Letter (Warrior)
-    [3100] = { threat = "LOW", reason = "This is a Warrior class quest dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3100] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Consecrated Letter (Paladin)
-    [3101] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3101] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Letter (Rogue)
-    [3102] = { threat = "LOW", reason = "This is a Rogue class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3102] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Hallowed Letter (Priest)
-    [3103] = { threat = "LOW", reason = "This is a Priest class quest dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3103] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Letter (Mage)
-    [3104] = { threat = "LOW", reason = "This is a Mage class quest dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3104] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tainted Letter (Warlock)
-    [3105] = { threat = "LOW", reason = "This is a Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3105] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Rune (Warrior)
-    [3106] = { threat = "LOW", reason = "This is a Warrior class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3106] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Consecrated Rune (Paladin)
-    [3107] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3107] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Etched Rune (Hunter)
-    [3108] = { threat = "LOW", reason = "This is a Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3108] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Rune (Rogue)
-    [3109] = { threat = "LOW", reason = "This is a Rogue class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3109] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Hallowed Rune (Priest)
-    [3110] = { threat = "LOW", reason = "This is a Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3110] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Memorandum (Warrior)
-    [3112] = { threat = "LOW", reason = "This is a Warrior class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3112] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Memorandum (Rogue)
-    [3113] = { threat = "LOW", reason = "This is a Rogue class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3113] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Memorandum (Mage)
     [3114] = { threat = "LOW", reason = "This is a Mage class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },

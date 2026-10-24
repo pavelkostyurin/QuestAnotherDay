@@ -1848,79 +1848,79 @@ local quests = {
     [2987] = { threat = "MEDIUM", reason = "Dig up 12 Gordunni Cobalt samples at the outpost north of Camp Mojache. Nearby ogres can engage while you use the shovel; some cobalt spots are away from enemies, so clear or avoid nearby pulls.", confidence = "medium" },
 
     -- Lines of Communication
-    [2995] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
+    [2995] = { threat = "MEDIUM", reason = "Burn three documents around Quel’Danil Lodge, where hostile Highvale elves guard the buildings and gazebo. Pull enemies away from the document sites or clear a route before interacting.", confidence = "medium" },
 
     -- Seeking Strahad
-    [2996] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Ratchet is safe if you stay on the road .", confidence = "high" },
+    [2996] = { threat = "LOW", reason = "Speak with Strahad Farsan in Ratchet. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Seeking Strahad
-    [3001] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Ratchet is safe if you stay on the road.", confidence = "high" },
+    [3001] = { threat = "LOW", reason = "Find Strahad Farsan in Ratchet. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- The Gordunni Orb
-    [3002] = { threat = "LOW", reason = "This is a turn-in step with no combat. The orb is dangerous in lore but the delivery itself is safe if you stay on the road.", confidence = "high" },
+    [3002] = { threat = "LOW", reason = "Deliver the Gordunni Orb to Uthel’nay in Orgrimmar. No combat objective is required for this turn-in.", confidence = "medium" },
 
     -- Dark Heart
-    [3062] = { threat = "HIGH", reason = "This is an Elite quest. Edana is a powerful named mob surrounded by her harpy guards. You must blow the horn at the stones to summon her, which will aggro multiple harpies. Clear the area before summoning and bring a group. Do not attempt solo below level 50.", confidence = "high" },
+    [3062] = { threat = "HIGH", reason = "Elite quest. Edana Hatetalon is a level 50 caster elite that hits hard and can use lightning attacks. Interrupt her casts and prepare defensives; bring help if you cannot manage the fight, and do not use the horn while her previous corpse remains.", confidence = "medium" },
 
     -- Vengeance on the Northspring
-    [3063] = { threat = "MEDIUM", reason = "The harpies are levels 45-48 and are packed in the ruins. They pull in groups and the Windcallers cast lightning spells. Clear methodically and pull singles. Do not attempt below level 47 solo.", confidence = "high" },
+    [3063] = { threat = "MEDIUM", reason = "Kill 16 Northspring harpies in their Feralas ruins. Windcallers can attack from range and nearby harpies can join a fight; pull carefully and avoid overlapping groups.", confidence = "medium" },
 
     -- Simple Tablet
-    [3065] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3065] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Etched Tablet
-    [3082] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3082] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Tablet
-    [3083] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3083] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Rune-Inscribed Tablet
-    [3084] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3084] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Hallowed Tablet
-    [3085] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3085] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Tablet
-    [3086] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3086] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Etched Parchment
-    [3087] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3087] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Parchment
-    [3088] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3088] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Rune-Inscribed Parchment
-    [3089] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3089] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tainted Parchment
-    [3090] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3090] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Note
-    [3091] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3091] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Etched Note
-    [3092] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3092] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Rune-Inscribed Note
-    [3093] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3093] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Verdant Note
-    [3094] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3094] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Scroll
-    [3095] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3095] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Scroll
-    [3096] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3096] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Hallowed Scroll
-    [3097] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3097] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Scroll
-    [3098] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3098] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tainted Scroll
-    [3099] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [3099] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- A Strange Request
     [3121] = { threat = "MEDIUM", reason = "The delivery itself is safe, but the route through Lethlor Ravine is patrolled by black drakes (levels 40-44) that will attack on sight. The quest description even warns 'Mind the black drakes, they bite!' Stay on the path and be ready to flee if you pull a drake.", confidence = "high" },

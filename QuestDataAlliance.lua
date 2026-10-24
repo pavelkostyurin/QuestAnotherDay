@@ -2556,76 +2556,76 @@ local quests = {
     [2988] = { threat = "MEDIUM", reason = "Check three cages in the Witherbark villages in the Hinterlands. Trolls guard the camps, but the cages can be reached with careful pulls or stealth; avoid drawing several trolls at once.", confidence = "medium" },
 
     -- The Altar of Zul
-    [2989] = { threat = "HIGH", reason = "The Altar is a temple complex in the Hinterlands filled with level 45-48 elite trolls, including a named mob at the top. The path up is narrow and patrolled. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 46+ or skip on Hardcore.", confidence = "high" },
+    [2989] = { threat = "MEDIUM", reason = "Level 50 elite trolls guard the altar, but the objective only requires reaching the top; you do not need to fight them. Use stealth or a fast mounted approach, touch the altar, then jump down and leave immediately.", confidence = "medium" },
 
     -- Thadius Grimshade
-    [2990] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [2990] = { threat = "LOW", reason = "This is a delivery step with no combat objective. The Blasted Lands route can expose you to ordinary zone enemies, so travel at a suitable level.", confidence = "medium" },
 
     -- Nekrum's Medallion
     [2991] = { threat = "MEDIUM", reason = "The medallion drops from a named troll in the Hinterlands. The troll is level 45-48 and is surrounded by guards. Clear the area before engaging and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
 
     -- The Divination
-    [2992] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [2992] = { threat = "LOW", reason = "Wait for Grimshade’s ritual and speak with him. No combat objective is listed for this step.", confidence = "medium" },
 
     -- Return to the Hinterlands
-    [2993] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to the Hinterlands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2993] = { threat = "LOW", reason = "Return to Gryphon Master Talonaxe and speak with him. No combat objective is required for the turn-in.", confidence = "medium" },
 
     -- Saving Sharpbeak
-    [2994] = { threat = "EXTREME", reason = "This is an Elite quest. Vile Priestess Hexx is a level 51 elite who hexes you into a frog and beats you down without the hex breaking. She also heals herself and runs at low health. A level 55 combat rogue soloed her only with a Restorative Potion to break the hex. A level 50 warlock soloed her by drain-tanking, but reported it was 'still difficult' and required a healthstone and consumables. Do not attempt solo at the intended level without a Restorative Potion and significant overleveling. Skip on Hardcore.", confidence = "high" },
+    [2994] = { threat = "HIGH", reason = "Elite quest. Vile Priestess Hexx can repeatedly polymorph you and heal, while hostile trolls guard the route through Jintha’Alor. Interrupt or counter the polymorph and clear a safe approach; bring help if your class cannot control her reliably.", confidence = "medium" },
 
     -- Tome of Divinity
-    [2997] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2997] = { threat = "LOW", reason = "This is a paladin dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tome of Divinity
-    [2998] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2998] = { threat = "LOW", reason = "This is a paladin dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tome of Divinity
-    [2999] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2999] = { threat = "LOW", reason = "This is a paladin dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tome of Divinity
-    [3000] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3000] = { threat = "LOW", reason = "This is a paladin dialogue step with no combat objective.", confidence = "medium" },
 
     -- Handle With Care
-    [3022] = { threat = "LOW", reason = "This is a delivery step with no combat. The crate is picked up from Curgle Cranklehop in Tanaris. The journey between Tanaris and Teldrassil is long and dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 42 solo.", confidence = "medium" },
+    [3022] = { threat = "LOW", reason = "Deliver the Carefully-packed Crate to Rut’theran Village. No combat objective is required for the turn-in; use normal travel precautions on the long route.", confidence = "medium" },
 
     -- Simple Letter
-    [3100] = { threat = "LOW", reason = "This is a Warrior class quest dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3100] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Consecrated Letter
-    [3101] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3101] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Letter
-    [3102] = { threat = "LOW", reason = "This is a Rogue class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3102] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Hallowed Letter
-    [3103] = { threat = "LOW", reason = "This is a Priest class quest dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3103] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Letter
-    [3104] = { threat = "LOW", reason = "This is a Mage class quest dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3104] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tainted Letter
-    [3105] = { threat = "LOW", reason = "This is a Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3105] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Rune
-    [3106] = { threat = "LOW", reason = "This is a Warrior class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3106] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Consecrated Rune
-    [3107] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3107] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Etched Rune
-    [3108] = { threat = "LOW", reason = "This is a Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3108] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Rune
-    [3109] = { threat = "LOW", reason = "This is a Rogue class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3109] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Hallowed Rune
-    [3110] = { threat = "LOW", reason = "This is a Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3110] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Simple Memorandum
-    [3112] = { threat = "LOW", reason = "This is a Warrior class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3112] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Encrypted Memorandum
-    [3113] = { threat = "LOW", reason = "This is a Rogue class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3113] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Memorandum
     [3114] = { threat = "LOW", reason = "This is a Mage class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
