@@ -4061,14 +4061,65 @@ local quests = {
     -- Claiming Arathi Basin
     [8391] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
 
+    -- Claiming Arathi Basin
+    [8392] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8393] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8394] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8395] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8396] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8397] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8398] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8399] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8400] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8401] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8402] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8403] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8404] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8405] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8406] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8407] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8408] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
     -- Dispelling Evil
-    [8414] = { threat = "MEDIUM", reason = "Minion's Scourgestones drop from Scourge mobs in the Western Plaguelands, levels 53-57. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [8414] = { threat = "MEDIUM", reason = "Twenty Minion's Scourgestones require repeated undead kills in Sorrow Hill. Equip the Argent Dawn Commission to loot them, pull from clear ground, and watch for nearby undead.", confidence = "medium" },
 
     -- Chillwind Point
-    [8415] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8415] = { threat = "LOW", reason = "This is a conversation at Chillwind Camp with no combat objective. Travel through the Western Plaguelands by a familiar route and avoid hostile undead camps.", confidence = "medium" },
 
     -- Inert Scourgestones
-    [8416] = { threat = "LOW", reason = "Delivery step with no combat. The stone is obtained from a previous quest. Safe if you stay on the road.", confidence = "high" },
+    [8416] = { threat = "LOW", reason = "This is a scourgestone hand-in at Chillwind Point with no added combat. Use the normal route to Commander Ashlan Valorfist.", confidence = "medium" },
 
     -- Forging the Mightstone
     [8418] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },

@@ -3464,17 +3464,68 @@ local quests = {
     -- Conquering Arathi Basin
     [8390] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
 
+    -- Ruined Kegs
+    [8409] = { threat = "LOW", reason = "This is a return trip to the Wickerman Festival after completing the Southshore keg objective. The turn-in adds no combat; travel back through Tirisfal by a familiar route.", confidence = "medium" },
+
     -- Elemental Mastery
-    [8410] = { threat = "EXTREME", reason = "Shaman class quest. Requires collecting samples of air, fire, earth, and water. The air sample requires killing a level 40 elite elemental in the Badlands. The other samples are guarded by level 35-40 mobs. The elite requires a group or significant overleveling. Do not attempt the air sample solo below level 45.", confidence = "high" },
+    [8410] = { threat = "MEDIUM", reason = "The four elemental samples can be farmed from elementals around the Arathi Highlands binding circles or bought before the turn-in. Farming requires repeated fights; pull isolated elementals and stop if a circle becomes crowded.", confidence = "medium" },
 
     -- Mastering the Elements
-    [8411] = { threat = "HIGH", reason = "Shaman class quest. Requires bringing the elements to Bath'rah. The earth and fire samples drop from level 35-40 mobs, while the air sample comes from the elite killed in the previous step. The turn-in itself is safe, but the gathering is dangerous. Do not attempt below level 40 solo.", confidence = "high" },
+    [8411] = { threat = "MEDIUM", reason = "The elemental hand-in requires four samples from open-world elementals, which can be farmed or bought. If farming them, pull from the binding circles one at a time and watch for nearby elementals.", confidence = "medium" },
 
     -- Spirit Totem
-    [8412] = { threat = "HIGH", reason = "Shaman class quest. Requires bringing the pieces for the spirit totem to Bath'rah. The pieces drop from level 40-45 mobs in various zones. The journey between zones is dangerous. Do not attempt below level 40 solo.", confidence = "high" },
+    [8412] = { threat = "MEDIUM", reason = "Collecting eight spider eyes and eight claws requires repeated kills of level-appropriate beasts near the Western Plaguelands Bulwark. Drops vary; pull from open ground and avoid nearby undead packs.", confidence = "medium" },
 
     -- Da Voodoo
     [8413] = { threat = "MEDIUM", reason = "Shaman class quest. Voodoo feathers drop from trolls in the Sunken Temple and Hinterlands, levels 45-50. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8426] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8427] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8428] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8429] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8430] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8431] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8432] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8433] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8434] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8435] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8436] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8437] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8438] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8439] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8440] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8441] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
 
     -- The Brokering of Peace
     [8485] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },

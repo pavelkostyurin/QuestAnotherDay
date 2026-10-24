@@ -9381,53 +9381,155 @@ addon.quests = {
     -- Claiming Arathi Basin
     [8391] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
 
+    -- Claiming Arathi Basin
+    [8392] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8393] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8394] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8395] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8396] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8397] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8398] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8399] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8400] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8401] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8402] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8403] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8404] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8405] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8406] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8407] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8408] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Alliance Brigadier General in an Alliance city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Ruined Kegs
+    [8409] = { threat = "LOW", reason = "This is a return trip to the Wickerman Festival after completing the Southshore keg objective. The turn-in adds no combat; travel back through Tirisfal by a familiar route.", confidence = "medium" },
+
     -- Elemental Mastery (Shaman)
-    [8410] = { threat = "EXTREME", reason = "Shaman class quest. Requires collecting samples of air, fire, earth, and water. The air sample requires killing a level 40 elite elemental in the Badlands. The other samples are guarded by level 35-40 mobs. The elite requires a group or significant overleveling. Do not attempt the air sample solo below level 45.", confidence = "high" },
+    [8410] = { threat = "MEDIUM", reason = "The four elemental samples can be farmed from elementals around the Arathi Highlands binding circles or bought before the turn-in. Farming requires repeated fights; pull isolated elementals and stop if a circle becomes crowded.", confidence = "medium" },
 
     -- Mastering the Elements (Shaman)
-    [8411] = { threat = "HIGH", reason = "Shaman class quest. Requires bringing the elements to Bath'rah. The earth and fire samples drop from level 35-40 mobs, while the air sample comes from the elite killed in the previous step. The turn-in itself is safe, but the gathering is dangerous. Do not attempt below level 40 solo.", confidence = "high" },
+    [8411] = { threat = "MEDIUM", reason = "The elemental hand-in requires four samples from open-world elementals, which can be farmed or bought. If farming them, pull from the binding circles one at a time and watch for nearby elementals.", confidence = "medium" },
 
     -- Spirit Totem (Shaman)
-    [8412] = { threat = "HIGH", reason = "Shaman class quest. Requires bringing the pieces for the spirit totem to Bath'rah. The pieces drop from level 40-45 mobs in various zones. The journey between zones is dangerous. Do not attempt below level 40 solo.", confidence = "high" },
+    [8412] = { threat = "MEDIUM", reason = "Collecting eight spider eyes and eight claws requires repeated kills of level-appropriate beasts near the Western Plaguelands Bulwark. Drops vary; pull from open ground and avoid nearby undead packs.", confidence = "medium" },
 
     -- Da Voodoo (Shaman)
     [8413] = { threat = "MEDIUM", reason = "Shaman class quest. Voodoo feathers drop from trolls in the Sunken Temple and Hinterlands, levels 45-50. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
 
     -- Dispelling Evil
-    [8414] = { threat = "MEDIUM", reason = "Minion's Scourgestones drop from Scourge mobs in the Western Plaguelands, levels 53-57. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [8414] = { threat = "MEDIUM", reason = "Twenty Minion's Scourgestones require repeated undead kills in Sorrow Hill. Equip the Argent Dawn Commission to loot them, pull from clear ground, and watch for nearby undead.", confidence = "medium" },
 
     -- Chillwind Point
-    [8415] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8415] = { threat = "LOW", reason = "This is a conversation at Chillwind Camp with no combat objective. Travel through the Western Plaguelands by a familiar route and avoid hostile undead camps.", confidence = "medium" },
 
     -- Inert Scourgestones
-    [8416] = { threat = "LOW", reason = "Delivery step with no combat. The stone is obtained from a previous quest. Safe if you stay on the road.", confidence = "high" },
+    [8416] = { threat = "LOW", reason = "This is a scourgestone hand-in at Chillwind Point with no added combat. Use the normal route to Commander Ashlan Valorfist.", confidence = "medium" },
 
     -- A Troubled Spirit
-    [8417] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [8417] = { threat = "LOW", reason = "This is a conversation with the Fallen Hero near the Blasted Lands entrance. It adds no combat; approach by a familiar route and avoid hostile camps.", confidence = "medium" },
 
     -- Forging the Mightstone
     [8418] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
 
     -- An Imp's Request
-    [8419] = { threat = "LOW", reason = "Delivery step with no combat. The felcloth is purchased or farmed. The journey to Felwood is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [8419] = { threat = "LOW", reason = "This is a felcloth hand-in at Impsy with no added combat objective. Use the normal route through Felwood.", confidence = "medium" },
 
     -- Hot and Itchy
-    [8420] = { threat = "LOW", reason = "Delivery step with no combat. The felcloth is purchased or farmed. Safe if you stay on the road.", confidence = "high" },
+    [8420] = { threat = "LOW", reason = "This is a felcloth hand-in at Impsy with no added combat objective. Use the normal route through Felwood.", confidence = "medium" },
 
     -- The Wrong Stuff
-    [8421] = { threat = "MEDIUM", reason = "Rotting Wood and Bloodvenom Essence drop from mobs in Felwood, levels 48-52. The mobs are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8421] = { threat = "MEDIUM", reason = "Collecting Rotting Wood and Bloodvenom Essence requires repeated fights in Felwood. Pull isolated targets and keep an escape route around the hostile camps.", confidence = "medium" },
 
     -- Trolls of a Feather
     [8422] = { threat = "EXTREME", reason = "Elite quest. Requires collecting 6 Voodoo Feathers from trolls in the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Warrior Kinship
-    [8423] = { threat = "MEDIUM", reason = "Helboars are levels 50-54 in the Blasted Lands. They are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8423] = { threat = "MEDIUM", reason = "Helboars in the Blasted Lands can reach level 53 and deal fire damage; some share spawns with other beasts. Pull one at a time, watch for the roaming elite dragon, and search nearby spawn areas if they are scarce.", confidence = "medium" },
 
     -- War on the Shadowsworn
-    [8424] = { threat = "MEDIUM", reason = "Shadowsworn cultists are levels 50-54 in the Blasted Lands. They cast shadow magic and pull in groups. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8424] = { threat = "MEDIUM", reason = "This warrior quest requires 50 Shadowsworn kills in the Blasted Lands, including casters and densely placed camp enemies. Clear the outer groups methodically and avoid the nearby level-55 elite and other bosses.", confidence = "medium" },
 
     -- Voodoo Feathers
     [8425] = { threat = "EXTREME", reason = "Elite quest. Requires collecting Voodoo Feathers from trolls in the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Battle of Warsong Gulch
+    [8426] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8427] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8428] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8429] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8430] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8431] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8432] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8433] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8434] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8435] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8436] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8437] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8438] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8439] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8440] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8441] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
 
     -- Shrouded in Nightmare
     [8446] = { threat = "LOW", reason = "Dialogue and exploration step with no combat. The object is obtained from a raid boss in the Emerald Sanctum. Safe if you stay in the area.", confidence = "high" },

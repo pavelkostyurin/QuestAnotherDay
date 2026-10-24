@@ -2583,25 +2583,25 @@ addon.quests = {
     [8366] = { threat = "MEDIUM", reason = "Lost Rigger Cove has tightly packed pirates and fast respawns; Swashbucklers can Disarm and nearby enemies can chain into a pull. Clear from the edges and retreat before respawns close in.", confidence = "medium" },
 
     -- A Troubled Spirit
-    [8417] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [8417] = { threat = "LOW", reason = "This is a conversation with the Fallen Hero near the Blasted Lands entrance. It adds no combat; approach by a familiar route and avoid hostile camps.", confidence = "medium" },
 
     -- An Imp's Request
-    [8419] = { threat = "LOW", reason = "Delivery step with no combat. The felcloth is purchased or farmed. The journey to Felwood is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [8419] = { threat = "LOW", reason = "This is a felcloth hand-in at Impsy with no added combat objective. Use the normal route through Felwood.", confidence = "medium" },
 
     -- Hot and Itchy
-    [8420] = { threat = "LOW", reason = "Delivery step with no combat. The felcloth is purchased or farmed. Safe if you stay on the road.", confidence = "high" },
+    [8420] = { threat = "LOW", reason = "This is a felcloth hand-in at Impsy with no added combat objective. Use the normal route through Felwood.", confidence = "medium" },
 
     -- The Wrong Stuff
-    [8421] = { threat = "MEDIUM", reason = "Rotting Wood and Bloodvenom Essence drop from mobs in Felwood, levels 48-52. The mobs are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8421] = { threat = "MEDIUM", reason = "Collecting Rotting Wood and Bloodvenom Essence requires repeated fights in Felwood. Pull isolated targets and keep an escape route around the hostile camps.", confidence = "medium" },
 
     -- Trolls of a Feather
     [8422] = { threat = "EXTREME", reason = "Elite quest. Requires collecting 6 Voodoo Feathers from trolls in the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Warrior Kinship
-    [8423] = { threat = "MEDIUM", reason = "Helboars are levels 50-54 in the Blasted Lands. They are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8423] = { threat = "MEDIUM", reason = "Helboars in the Blasted Lands can reach level 53 and deal fire damage; some share spawns with other beasts. Pull one at a time, watch for the roaming elite dragon, and search nearby spawn areas if they are scarce.", confidence = "medium" },
 
     -- War on the Shadowsworn
-    [8424] = { threat = "MEDIUM", reason = "Shadowsworn cultists are levels 50-54 in the Blasted Lands. They cast shadow magic and pull in groups. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8424] = { threat = "MEDIUM", reason = "This warrior quest requires 50 Shadowsworn kills in the Blasted Lands, including casters and densely placed camp enemies. Clear the outer groups methodically and avoid the nearby level-55 elite and other bosses.", confidence = "medium" },
 
     -- Voodoo Feathers
     [8425] = { threat = "EXTREME", reason = "Elite quest. Requires collecting Voodoo Feathers from trolls in the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
