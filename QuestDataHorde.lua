@@ -1158,46 +1158,46 @@ local quests = {
     [1197] = { threat = "MEDIUM", reason = "Travel step with light combat. Safe if you avoid the silithid and basilisk areas.", confidence = "medium" },
 
     -- Theramore Spies
-    [1201] = { threat = "MEDIUM", reason = "The spies are level 35-38 and are stealthed, making them hard to spot. They are concentrated around the Theramore perimeter. The area is also patrolled by Theramore guards. Kill the spies quickly before they alert guards, and watch for patrols.", confidence = "medium" },
+    [1201] = { threat = "MEDIUM", reason = "Theramore Infiltrators are stealthed near Brackenwall and can be hard to spot; wandering marsh beasts can add during fights. Pull carefully and watch for stealth aggro.", confidence = "medium" },
 
     -- The Theramore Docks
-    [1202] = { threat = "MEDIUM", reason = "The docks are guarded by level 35-40 Theramore soldiers, including archers and casters. The documents are in a locked chest on the docks. Clear the docks before looting and watch for patrols along the shore.", confidence = "medium" },
+    [1202] = { threat = "MEDIUM", reason = "The documents are in an underwater chest beneath Theramore’s docks, where high-level sharks patrol. Approach from outside the island and avoid the shark patrols.", confidence = "medium" },
 
     -- Deadmire
-    [1205] = { threat = "MEDIUM", reason = "Deadmire is a level 38-40 elite-level crocolisk who patrols the marsh. He hits hard and has high health. He is surrounded by other crocolisks. Clear the area before engaging and be ready for a tough fight.", confidence = "medium" },
+    [1205] = { threat = "MEDIUM", reason = "Deadmire is a named crocolisk in Dustwallow Marsh and can be a tough solo fight near the quest’s intended level. Pull him clear of other enemies and leave room to retreat.", confidence = "medium" },
 
     -- The Lost Report
-    [1238] = { threat = "LOW", reason = "Travel and exploration step with light combat. Safe if you avoid the crocolisk and spider areas.", confidence = "medium" },
+    [1238] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Severed Head
-    [1239] = { threat = "MEDIUM", reason = "The spiders are levels 35-38 and are concentrated in the Darkmist Cavern. The cave is tight and respawns quickly. Clear methodically and keep an escape route.", confidence = "medium" },
+    [1239] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Troll Witchdoctor
-    [1240] = { threat = "MEDIUM", reason = "The witchdoctor is in a troll camp guarded by level 35-40 trolls. Clear the camp before approaching. The area is patrolled by additional guards.", confidence = "medium" },
+    [1240] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Black Shield
-    [1251] = { threat = "MEDIUM", reason = "The quest leads to a camp guarded by level 35-40 mobs. Clear the camp before approaching. The area is patrolled by additional guards.", confidence = "medium" },
+    [1251] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Marg Speaks
-    [1261] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before engaging the NPC.", confidence = "medium" },
+    [1261] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Report to Zor
-    [1262] = { threat = "LOW", reason = "Travel step with no combat objective. Safe if you avoid the crocolisk and spider areas.", confidence = "medium" },
+    [1262] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Suspicious Hoofprints
-    [1268] = { threat = "LOW", reason = "Travel and exploration step with light combat. Safe if you avoid the crocolisk and spider areas.", confidence = "medium" },
+    [1268] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Lieutenant Paval Reethe
-    [1269] = { threat = "MEDIUM", reason = "The quest leads into Theramore territory, where guards patrol. Avoid the main road.", confidence = "medium" },
+    [1269] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Stinky's Escape
-    [1270] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies, including crocolisks and spiders. Stinky cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes. Do not start the escort without a clear escape route.", confidence = "medium" },
+    [1270] = { threat = "MEDIUM", reason = "Escort quest. Stinky searches for bogbean while wandering among marsh beasts; reports describe no scripted ambushes. Clear immediate threats before starting and stay with him.", confidence = "medium" },
 
     -- Questioning Reethe
-    [1273] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before engaging the NPC.", confidence = "medium" },
+    [1273] = { threat = "HIGH", reason = "Escort quest. Four Theramore soldiers attack during the questioning, and Ogron must survive. Bring a strong solo setup to manage several enemies at once, or skip this event on Hardcore.", confidence = "medium" },
 
     -- The Black Shield
-    [1276] = { threat = "MEDIUM", reason = "The quest leads to a guarded location in the marsh. Clear the area before engaging and be ready for adds.", confidence = "medium" },
+    [1276] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Black Shield
     [1321] = { threat = "MEDIUM", reason = "The quest leads to a guarded location in the marsh. Clear the area before engaging.", confidence = "medium" },

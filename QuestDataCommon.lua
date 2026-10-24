@@ -519,13 +519,13 @@ addon.quests = {
     [1198] = { threat = "HIGH", reason = "The dungeon is filled with level 20-25 elites, including naga, satyrs, and Old God minions. Thaelrid is deep inside the instance, past multiple packs of elites. This requires a full group of 5 at the appropriate level. The dungeon also has water sections where drowning is a risk.", confidence = "medium" },
 
     -- Jarl Needs a Blade
-    [1203] = { threat = "MEDIUM", reason = "The spiders are levels 35-38 and are concentrated in the Darkmist Cavern. The cave is tight and respawns quickly. Clear methodically and keep an escape route.", confidence = "medium" },
+    [1203] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Jarl Needs Eyes
-    [1206] = { threat = "MEDIUM", reason = "The spiders are levels 35-38 and are concentrated in the Darkmist Cavern. The cave is tight and respawns quickly. Clear methodically and keep an escape route.", confidence = "medium" },
+    [1206] = { threat = "MEDIUM", reason = "Darkmist spiders and recluses gather west of Swamplight Manor; their poison and overlapping patrols can bring additional spiders into a fight. Pull singles from the edge of the area and carry healing or poison support.", confidence = "medium" },
 
     -- Soothing Spices
-    [1218] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the crocolisk and spider areas.", confidence = "medium" },
+    [1218] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Blueleaf Tubers
     [1221] = { threat = "MEDIUM", reason = "The tubers are found in the Darkmist Cavern and surrounding areas. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },

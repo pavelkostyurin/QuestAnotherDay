@@ -24428,6 +24428,24 @@
       "confidence": "medium"
     },
     {
+      "questId": 1013,
+      "questName": "The Book of Ur",
+      "url": "https://www.wowhead.com/classic/quest=1013",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:34:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
+    },
+    {
+      "questId": 1014,
+      "questName": "Arugal Must Die",
+      "url": "https://www.wowhead.com/classic/quest=1014",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:34:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
+    },
+    {
       "questId": 1015,
       "questName": "The New Frontier",
       "url": "https://www.wowhead.com/classic/quest=1015",
@@ -25251,6 +25269,33 @@
       "confidence": "medium"
     },
     {
+      "questId": 1048,
+      "questName": "Into The Scarlet Monastery",
+      "url": "https://www.wowhead.com/classic/quest=1048",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:34:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
+    },
+    {
+      "questId": 1049,
+      "questName": "Compendium of the Fallen",
+      "url": "https://www.wowhead.com/classic/quest=1049",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:34:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
+    },
+    {
+      "questId": 1050,
+      "questName": "Mythology of the Titans",
+      "url": "https://www.wowhead.com/classic/quest=1050",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:34:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
+    },
+    {
       "questId": 1051,
       "questName": "Vorrel's Revenge",
       "url": "https://www.wowhead.com/classic/quest=1051",
@@ -25312,6 +25357,15 @@
       "reason": "This is a delivery step with no combat. The journey to Southshore passes through contested territory. Stay on the road and avoid the mob camps. Do not attempt below level 25 solo.",
       "threat": "LOW",
       "confidence": "medium"
+    },
+    {
+      "questId": 1053,
+      "questName": "In the Name of the Light",
+      "url": "https://www.wowhead.com/classic/quest=1053",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:34:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
     },
     {
       "questId": 1054,
@@ -26394,6 +26448,15 @@
       "confidence": "medium"
     },
     {
+      "questId": 1098,
+      "questName": "Deathstalkers in Shadowfang",
+      "url": "https://www.wowhead.com/classic/quest=1098",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:34:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
+    },
+    {
       "questId": 1100,
       "questName": "Lonebrow's Journal",
       "url": "https://www.wowhead.com/classic/quest=1100",
@@ -26416,69 +26479,6 @@
       "reason": "The journal is found on a corpse in the Wetlands. This is a travel and exploration step with no combat. Safe if you avoid the mob camps.",
       "threat": "LOW",
       "confidence": "medium"
-    },
-    {
-      "questId": 1013,
-      "questName": "The Book of Ur",
-      "url": "https://www.wowhead.com/classic/quest=1013",
-      "status": "skipped",
-      "checkedAt": "2026-10-24T18:34:00+03:00",
-      "skipReason": "dungeon",
-      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
-    },
-    {
-      "questId": 1014,
-      "questName": "Arugal Must Die",
-      "url": "https://www.wowhead.com/classic/quest=1014",
-      "status": "skipped",
-      "checkedAt": "2026-10-24T18:34:00+03:00",
-      "skipReason": "dungeon",
-      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
-    },
-    {
-      "questId": 1048,
-      "questName": "Into The Scarlet Monastery",
-      "url": "https://www.wowhead.com/classic/quest=1048",
-      "status": "skipped",
-      "checkedAt": "2026-10-24T18:34:00+03:00",
-      "skipReason": "dungeon",
-      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
-    },
-    {
-      "questId": 1049,
-      "questName": "Compendium of the Fallen",
-      "url": "https://www.wowhead.com/classic/quest=1049",
-      "status": "skipped",
-      "checkedAt": "2026-10-24T18:34:00+03:00",
-      "skipReason": "dungeon",
-      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
-    },
-    {
-      "questId": 1050,
-      "questName": "Mythology of the Titans",
-      "url": "https://www.wowhead.com/classic/quest=1050",
-      "status": "skipped",
-      "checkedAt": "2026-10-24T18:34:00+03:00",
-      "skipReason": "dungeon",
-      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
-    },
-    {
-      "questId": 1053,
-      "questName": "In the Name of the Light",
-      "url": "https://www.wowhead.com/classic/quest=1053",
-      "status": "skipped",
-      "checkedAt": "2026-10-24T18:34:00+03:00",
-      "skipReason": "dungeon",
-      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
-    },
-    {
-      "questId": 1098,
-      "questName": "Deathstalkers in Shadowfang",
-      "url": "https://www.wowhead.com/classic/quest=1098",
-      "status": "skipped",
-      "checkedAt": "2026-10-24T18:34:00+03:00",
-      "skipReason": "dungeon",
-      "sourceNote": "Pinned catalog marks this quest as a Dungeon quest; ordinary traversal skips Dungeon/Raid quests unless explicitly requested."
     },
     {
       "questId": 1101,
@@ -28638,6 +28638,1264 @@
       "summary": "Catalog objective and established Classic knowledge support this tentative warning. Confidence is medium because no independent evidence was retrieved; detailed numeric and class-specific claims in the prior text are not newly verified.",
       "reason": "This is the final boss of the dungeon, a powerful elite with high health and heavy attacks. The dungeon leading up to him is filled with elites, including the Twilight Lord Kelris. This requires a full group of 5. Do not attempt without a coordinated group.",
       "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1201,
+      "questName": "Theramore Spies",
+      "url": "https://www.wowhead.com/classic/quest=1201",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 15 visible comments; order was not verified. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 15,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Theramore Spies - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1201/theramore-spies",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Classic quest description places infiltrators east of Brackenwall; comments describe stealth and nearby marsh beasts."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic comments describe stealthed, non-aggressive infiltrators and warn about wandering marsh beasts; the existing guard-alert claim is unsupported. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Theramore Infiltrators are stealthed near Brackenwall and can be hard to spot; wandering marsh beasts can add during fights. Pull carefully and watch for stealth aggro.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1202,
+      "questName": "The Theramore Docks",
+      "url": "https://www.wowhead.com/classic/quest=1202",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 18 visible comments; order was not verified. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 18,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Theramore Docks - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1202/the-theramore-docks",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Quest text places a footlocker underwater beneath the docks; comments describe shark patrols and routes that avoid guards."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic quest text places the chest under the docks; comments describe patrolling elite sharks and a route that avoids guards. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "The documents are in an underwater chest beneath Theramore’s docks, where high-level sharks patrol. Approach from outside the island and avoid the shark patrols.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1203,
+      "questName": "Jarl Needs a Blade",
+      "url": "https://www.wowhead.com/classic/quest=1203",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only bringing a crafted or purchased sword to Jarl; the old spider-cave warning does not match the objective. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1204,
+      "questName": "Mudrock Soup and Bugs",
+      "url": "https://www.wowhead.com/classic/quest=1204",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 8 visible comments; order was not verified. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 8,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Mudrock Soup and Bugs - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1204/mudrock-soup-and-bugs",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Quest text and comments place Mudrock turtles along the shore and describe higher-level mobs around islands."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic comments locate the turtles on the coast and describe stronger mobs around the islands; the catalog confirms the collection objective. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Mudrock turtles along the coast are a manageable combat grind, but higher-level mobs near the islands and water can make wandering off route risky. Stay along the shoreline and pull one turtle at a time.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1205,
+      "questName": "Deadmire",
+      "url": "https://www.wowhead.com/classic/quest=1205",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 0 visible comments; order was not verified. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Deadmire - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1205/deadmire",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Confirms Deadmire is the quest’s target; returned page did not verify his level or elite status."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms Deadmire is the combat objective; the former level and elite claims were not supported by the retrieved Classic page, so the warning avoids exact stats. Confidence medium: some details are sourced, while the remaining danger assessment relies on the catalog and known mechanics.",
+      "reason": "Deadmire is a named crocolisk in Dustwallow Marsh and can be a tough solo fight near the quest’s intended level. Pull him clear of other enemies and leave room to retreat.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1206,
+      "questName": "Jarl Needs Eyes",
+      "url": "https://www.wowhead.com/classic/quest=1206",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 20 visible comments; order was not verified. Sample capped at 20. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Jarl Needs Eyes - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1206/jarl-needs-eyes",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Quest text and comments describe 35–37 spiders, poison, overlapping aggro ranges and fast respawns."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic comments describe level 35–37 spiders, poison, overlapping aggro ranges, and fast respawns; multiple comments recommend pulling singles. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Darkmist spiders and recluses gather west of Swamplight Manor; their poison and overlapping patrols can bring additional spiders into a fight. Pull singles from the edge of the area and carry healing or poison support.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1218,
+      "questName": "Soothing Spices",
+      "url": "https://www.wowhead.com/classic/quest=1218",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a delivery of spices, with no combat objective; the existing crocodile and spider warning is unsupported. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1219,
+      "questName": "The Orc Report",
+      "url": "https://www.wowhead.com/classic/quest=1219",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a report hand-in in Theramore; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1220,
+      "questName": "Captain Vimes",
+      "url": "https://www.wowhead.com/classic/quest=1220",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a report hand-in to Captain Vimes; the prior guarded-camp encounter is not in the objective. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1221,
+      "questName": "Blueleaf Tubers",
+      "url": "https://www.wowhead.com/classic/quest=1221",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:49:38+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned Classic catalog marks this quest as a Dungeon quest; skipped during ordinary range review."
+    },
+    {
+      "questId": 1222,
+      "questName": "Stinky's Escape",
+      "url": "https://www.wowhead.com/classic/quest=1222",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 20 visible comments; order was not verified. Sample capped at 20. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stinky’s Escape - Quest - Classic World of Warcraft (Alliance)",
+          "url": "https://www.wowhead.com/classic/quest=1222/stinkys-escape",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Comments describe the escort route and report no scripted ambushes; nearby beasts can aggro."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic Alliance and Horde pages describe the escort route and report no scripted ambushes, while noting nearby beasts can aggro. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Escort quest. Stinky searches for bogbean while wandering among marsh beasts; reports describe no scripted ambushes. Clear immediate threats before starting and stay with him.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1238,
+      "questName": "The Lost Report",
+      "url": "https://www.wowhead.com/classic/quest=1238",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a report hand-in in Brackenwall Village; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1239,
+      "questName": "The Severed Head",
+      "url": "https://www.wowhead.com/classic/quest=1239",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes bringing a quest item to Nazeer; the existing spider-cave warning does not match the objective. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1240,
+      "questName": "The Troll Witchdoctor",
+      "url": "https://www.wowhead.com/classic/quest=1240",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes carrying an item to Grom’gol; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1241,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1241",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog places this step in Stormwind and describes finding an NPC; the existing Dustwallow cave warning is incorrect. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1242,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1242",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a note delivery in Stormwind; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1243,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1243",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a note hand-in on the Duskwood road; the existing Dustwallow/guard warning is unrelated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1244,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1244",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 20 visible comments; order was not verified. Sample capped at 20. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Missing Diplomat - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1244/the-missing-diplomat",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Quest text locates the docket at Addle’s Stead; comments describe nearby Defias and mixed solo difficulty."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic quest text and comments locate the docket in a Defias-held farmhouse; comments describe several nearby enemies and solo attempts with mixed difficulty. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "The Defias Docket is inside a guarded farmhouse at Addle’s Stead. Clear or bypass the nearby Defias carefully before entering to loot it.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1245,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1245",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a docket hand-in in Stormwind; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1246,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1246",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 4 visible comments; order was not verified. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Missing Diplomat - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1246/the-missing-diplomat",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Quest text directs the player to confront Dashel; comments describe the fight with two thugs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic quest text directs the player to confront Dashel; comments describe the two accompanying thugs and solo difficulty. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Speaking to Dashel triggers a fight with him and two thugs in Stormwind. Be ready to handle several enemies and focus on Dashel to end the encounter.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1247,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1247",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to Elling in Stormwind; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1248,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1248",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to Mikhail in the Wetlands; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1249,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1249",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 0 visible comments; order was not verified. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Missing Diplomat Quest Chain",
+          "url": "https://warcraft.wiki.gg/wiki/The_Missing_Diplomat_quest_chain",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Quest chain account describes chasing and subduing Tapoke Jahn and an accomplice."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text and the Missing Diplomat chain describe subduing Tapoke before he escapes; the chain account identifies an accomplice. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "The pursuit becomes a fight with Tapoke Jahn and an accomplice in the Menethil tavern. Start with enough health and resources to control the encounter.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1250,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1250",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to Mikhail after the prior encounter; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1251,
+      "questName": "The Black Shield",
+      "url": "https://www.wowhead.com/classic/quest=1251",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes bringing the shield to Krog in Brackenwall Village; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1252,
+      "questName": "Lieutenant Paval Reethe",
+      "url": "https://www.wowhead.com/classic/quest=1252",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes bringing a badge to Captain Vimes; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1253,
+      "questName": "The Black Shield",
+      "url": "https://www.wowhead.com/classic/quest=1253",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a shield hand-in to Captain Vimes; the prior guarded-location warning is unsupported. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1258,
+      "questName": "... and Bugs",
+      "url": "https://www.wowhead.com/classic/quest=1258",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective and Wowhead Classic comments for the same coastal Mudrock collection chain support shoreline combat and stronger island mobs; exact risk for crawler spawns was not separately verified. Confidence medium: some details are sourced, while the remaining danger assessment relies on the catalog and known mechanics.",
+      "reason": "The crawler-leg collection requires repeated fights along the Dustwallow coast. Stay on the shore, pull crawlers individually, and avoid higher-level enemies around the islands.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1259,
+      "questName": "Lieutenant Paval Reethe",
+      "url": "https://www.wowhead.com/classic/quest=1259",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to an officer in Theramore; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1260,
+      "questName": "Morgan Stern",
+      "url": "https://www.wowhead.com/classic/quest=1260",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to Morgan Stern in Theramore; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1261,
+      "questName": "Marg Speaks",
+      "url": "https://www.wowhead.com/classic/quest=1261",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a pendant hand-in in Brackenwall Village; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1262,
+      "questName": "Report to Zor",
+      "url": "https://www.wowhead.com/classic/quest=1262",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a pendant hand-in in Orgrimmar; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1264,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1264",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes locating an NPC in Dustwallow Marsh; no combat objective is stated, unlike the old generic patrol warning. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1265,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1265",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 12 visible comments; order was not verified. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 12,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Missing Diplomat - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1265/the-missing-diplomat",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Quest text and comments describe exploring Sentry Point; hostile Hendel encounter follows in the next quest."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic quest text and comments identify this as entering the tower to explore it; the hostile encounter belongs to the follow-up quest. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Travel to Sentry Point and search the tower; the objective is exploration, not combat. Follow the road and avoid nearby marsh enemies.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1266,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1266",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 0 visible comments; order was not verified. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Missing Diplomat - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1266/the-missing-diplomat",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Quest page identifies Private Hendel as the target; comments on the preceding chain step describe his two guards attacking together."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic comments on the preceding quest describe Hendel and two guards attacking together; the quest page identifies Hendel as this step’s target. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Private Hendel and two guards can attack during the encounter near the Theramore road, with marsh beasts also nearby. Start prepared to fight several enemies and retreat from wildlife if needed.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1267,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1267",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to Jaina; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1268,
+      "questName": "Suspicious Hoofprints",
+      "url": "https://www.wowhead.com/classic/quest=1268",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes reporting hoofprints to Krog; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1269,
+      "questName": "Lieutenant Paval Reethe",
+      "url": "https://www.wowhead.com/classic/quest=1269",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a badge hand-in in Brackenwall Village; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1270,
+      "questName": "Stinky's Escape",
+      "url": "https://www.wowhead.com/classic/quest=1270",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 20 visible comments; order was not verified. Sample capped at 20. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stinky’s Escape - Quest - Classic World of Warcraft (Horde)",
+          "url": "https://www.wowhead.com/classic/quest=1270/stinkys-escape",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Comments describe the escort route and report no scripted ambushes; nearby beasts can aggro."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic Horde and Alliance pages describe the same escort route and report no scripted ambushes, while noting nearby beasts can aggro. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Escort quest. Stinky searches for bogbean while wandering among marsh beasts; reports describe no scripted ambushes. Clear immediate threats before starting and stay with him.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1271,
+      "questName": "Feast at the Blue Recluse",
+      "url": "https://www.wowhead.com/classic/quest=1271",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog has no quest description, but the quest name and Alliance quest chain place this as a city hand-in/event rather than a combat objective. Confidence remains medium because the pinned catalog description is missing. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "This is a city-based feast step with no combat objective. Use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1273,
+      "questName": "Questioning Reethe",
+      "url": "https://www.wowhead.com/classic/quest=1273",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 20 visible comments; order was not verified. Sample capped at 20. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Questioning Reethe - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1273/questioning-reethe",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Comments describe four level 35–37 attackers, Ogron’s survival condition, bugs and class-dependent solo tactics."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic comments describe four level 35–37 attackers and Ogron’s death as a failure condition; reports show class-dependent solo success and substantial difficulty. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Escort quest. Four Theramore soldiers attack during the questioning, and Ogron must survive. Bring a strong solo setup to manage several enemies at once, or skip this event on Hardcore.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1274,
+      "questName": "The Missing Diplomat",
+      "url": "https://www.wowhead.com/classic/quest=1274",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes finding a bishop in Stormwind Keep; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1275,
+      "questName": "Researching the Corruption",
+      "url": "https://www.wowhead.com/classic/quest=1275",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T18:49:38+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned Classic catalog marks this quest as a Dungeon quest; skipped during ordinary range review."
+    },
+    {
+      "questId": 1276,
+      "questName": "The Black Shield",
+      "url": "https://www.wowhead.com/classic/quest=1276",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes showing the shield to Mosarn in Thunder Bluff; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1282,
+      "questName": "They Call Him Smiling Jim",
+      "url": "https://www.wowhead.com/classic/quest=1282",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to Captain Vimes inside the Alliance city hub; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1284,
+      "questName": "Suspicious Hoofprints",
+      "url": "https://www.wowhead.com/classic/quest=1284",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes reporting hoofprints to Captain Vimes in Theramore; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1285,
+      "questName": "Daelin's Men",
+      "url": "https://www.wowhead.com/classic/quest=1285",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes returning information to Captain Vimes; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1286,
+      "questName": "The Deserters",
+      "url": "https://www.wowhead.com/classic/quest=1286",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read up to 20 visible comments; order was not verified. Sample capped at 20. Used only relevant comments noted in evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Deserters - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1286/the-deserters",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T18:49:38+03:00",
+          "evidence": "Comments describe Balos at level 38, deserter adds and fast respawns; solo reports conflict."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic comments describe a level 38 Balos encounter, possible deserter adds and fast respawns, with conflicting solo reports and class-specific tactics. Confidence medium: retrieved Classic evidence supports the material mechanics, with limited comment coverage.",
+      "reason": "Balos Jacken attacks inside a tower surrounded by deserters, and nearby enemies can add or quickly respawn. Clear a path, be ready to retreat, or bring a group if you cannot handle the fight and adds.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1287,
+      "questName": "The Deserters",
+      "url": "https://www.wowhead.com/classic/quest=1287",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T18:49:38+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned quest description and existing Classic mechanics; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to Captain Vimes in Theramore; no combat objective is stated. Confidence medium: the catalog objective and coherent Classic mechanics support the rating; no corroborating sources were needed.",
+      "reason": "Travel or hand-in step with no combat objective; use normal travel precautions.",
+      "threat": "LOW",
       "confidence": "medium"
     }
   ]

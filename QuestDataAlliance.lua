@@ -1722,97 +1722,97 @@ local quests = {
     [1200] = { threat = "HIGH", reason = "This is the final boss of the dungeon, a powerful elite with high health and heavy attacks. The dungeon leading up to him is filled with elites, including the Twilight Lord Kelris. This requires a full group of 5. Do not attempt without a coordinated group.", confidence = "medium" },
 
     -- Mudrock Soup and Bugs
-    [1204] = { threat = "MEDIUM", reason = "The bugs are in the Darkmist Cavern and surrounding areas. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1204] = { threat = "MEDIUM", reason = "Mudrock turtles along the coast are a manageable combat grind, but higher-level mobs near the islands and water can make wandering off route risky. Stay along the shoreline and pull one turtle at a time.", confidence = "medium" },
 
     -- The Orc Report
-    [1219] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the Theramore patrols.", confidence = "medium" },
+    [1219] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Captain Vimes
-    [1220] = { threat = "MEDIUM", reason = "The captain is in a Theramore camp guarded by level 35-40 soldiers. Clear the camp before approaching. The area is patrolled by additional guards.", confidence = "medium" },
+    [1220] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Stinky's Escape
-    [1222] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies, including crocolisks and spiders. Stinky cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes. Do not start the escort without a clear escape route.", confidence = "medium" },
+    [1222] = { threat = "MEDIUM", reason = "Escort quest. Stinky searches for bogbean while wandering among marsh beasts; reports describe no scripted ambushes. Clear immediate threats before starting and stay with him.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1241] = { threat = "MEDIUM", reason = "The quest leads into the Darkmist Cavern, which is packed with level 35-38 spiders that respawn quickly. The cave is tight and has no safe retreat. Clear methodically from the entrance and keep an escape route behind you.", confidence = "medium" },
+    [1241] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1242] = { threat = "MEDIUM", reason = "The quest takes you deeper into the Darkmist Cavern and surrounding marsh. Spiders and crocolisks patrol the area. Clear each section before moving forward.", confidence = "medium" },
+    [1242] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1243] = { threat = "MEDIUM", reason = "The quest leads to the Theramore perimeter, where level 35-40 guards patrol. Avoid the main road and stick to the marsh's edge.", confidence = "medium" },
+    [1243] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1244] = { threat = "MEDIUM", reason = "The quest takes you through the marsh's interior, which is populated by spiders, crocolisks, and wandering Theramore patrols. Stay alert and keep moving.", confidence = "medium" },
+    [1244] = { threat = "MEDIUM", reason = "The Defias Docket is inside a guarded farmhouse at Addle’s Stead. Clear or bypass the nearby Defias carefully before entering to loot it.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1245] = { threat = "MEDIUM", reason = "The marsh is dangerous for its level, with mobs that pull in groups and fast respawns. Clear methodically and avoid the Theramore road.", confidence = "medium" },
+    [1245] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1246] = { threat = "MEDIUM", reason = "The quest leads to a cave or structure guarded by level 35-38 mobs. Clear the entrance before entering, and keep an escape route open.", confidence = "medium" },
+    [1246] = { threat = "MEDIUM", reason = "Speaking to Dashel triggers a fight with him and two thugs in Stormwind. Be ready to handle several enemies and focus on Dashel to end the encounter.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1247] = { threat = "MEDIUM", reason = "The quest takes you through contested marsh territory with patrolling mobs. Stick to cleared paths and avoid pulling multiple groups.", confidence = "medium" },
+    [1247] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1248] = { threat = "MEDIUM", reason = "The quest leads to a named mob or guarded location. Clear the surrounding area before engaging.", confidence = "medium" },
+    [1248] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1249] = { threat = "MEDIUM", reason = "The marsh's mob density is high, and the quest sends you into areas with respawning spiders and crocolisks. Clear methodically.", confidence = "medium" },
+    [1249] = { threat = "MEDIUM", reason = "The pursuit becomes a fight with Tapoke Jahn and an accomplice in the Menethil tavern. Start with enough health and resources to control the encounter.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1250] = { threat = "MEDIUM", reason = "The chain culminates in a dangerous encounter in the marsh. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1250] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Lieutenant Paval Reethe
-    [1252] = { threat = "MEDIUM", reason = "The lieutenant is in a Theramore camp guarded by level 35-40 soldiers. Clear the camp before approaching and watch for patrols.", confidence = "medium" },
+    [1252] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Black Shield
-    [1253] = { threat = "MEDIUM", reason = "The quest leads to a guarded location in the marsh. Clear the area before engaging and be ready for adds.", confidence = "medium" },
+    [1253] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- ... and Bugs
-    [1258] = { threat = "MEDIUM", reason = "The cave is tight and the spiders respawn quickly. Clear methodically from the entrance and keep an escape route behind you.", confidence = "medium" },
+    [1258] = { threat = "MEDIUM", reason = "The crawler-leg collection requires repeated fights along the Dustwallow coast. Stay on the shore, pull crawlers individually, and avoid higher-level enemies around the islands.", confidence = "medium" },
 
     -- Lieutenant Paval Reethe
-    [1259] = { threat = "MEDIUM", reason = "The quest leads deeper into Theramore territory, where guards patrol. Avoid the main road and stick to the marsh's edge.", confidence = "medium" },
+    [1259] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Morgan Stern
-    [1260] = { threat = "MEDIUM", reason = "The quest leads to a camp or cave guarded by level 35-40 mobs. Clear the area before approaching.", confidence = "medium" },
+    [1260] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1264] = { threat = "MEDIUM", reason = "The quest takes you through contested marsh territory. Stay alert for patrolling mobs and avoid pulling multiple groups.", confidence = "medium" },
+    [1264] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1265] = { threat = "MEDIUM", reason = "The marsh is dangerous for its level, with fast respawns and mobs that pull in groups. Clear methodically.", confidence = "medium" },
+    [1265] = { threat = "LOW", reason = "Travel to Sentry Point and search the tower; the objective is exploration, not combat. Follow the road and avoid nearby marsh enemies.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1266] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before approaching and keep an escape route open.", confidence = "medium" },
+    [1266] = { threat = "MEDIUM", reason = "Private Hendel and two guards can attack during the encounter near the Theramore road, with marsh beasts also nearby. Start prepared to fight several enemies and retreat from wildlife if needed.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1267] = { threat = "MEDIUM", reason = "The quest culminates in a dangerous encounter in the marsh. Clear the area before engaging.", confidence = "medium" },
+    [1267] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Feast at the Blue Recluse
-    [1271] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the Theramore patrols.", confidence = "medium" },
+    [1271] = { threat = "LOW", reason = "This is a city-based feast step with no combat objective. Use normal travel precautions.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1274] = { threat = "MEDIUM", reason = "The quest takes you through contested marsh territory. Stay alert for patrolling mobs and avoid pulling multiple groups.", confidence = "medium" },
+    [1274] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Researching the Corruption
     [1275] = { threat = "MEDIUM", reason = "The quest leads to a cave or structure guarded by level 35-40 mobs. Clear the area before entering.", confidence = "medium" },
 
     -- They Call Him Smiling Jim
-    [1282] = { threat = "MEDIUM", reason = "The quest leads to a camp guarded by level 35-40 mobs. Clear the camp before approaching and watch for patrolling guards. The marsh itself is dense with crocolisks and spiders that pull in groups.", confidence = "medium" },
+    [1282] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Suspicious Hoofprints
-    [1284] = { threat = "LOW", reason = "Travel and exploration step with light combat. Safe if you avoid the crocolisk and spider areas.", confidence = "medium" },
+    [1284] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- Daelin's Men
-    [1285] = { threat = "MEDIUM", reason = "The quest leads to a Theramore camp guarded by level 35-40 soldiers. Clear the camp before approaching and watch for patrols.", confidence = "medium" },
+    [1285] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- The Deserters
-    [1286] = { threat = "MEDIUM", reason = "The quest leads to a cave or camp guarded by level 35-40 mobs. Clear the area before approaching.", confidence = "medium" },
+    [1286] = { threat = "HIGH", reason = "Balos Jacken attacks inside a tower surrounded by deserters, and nearby enemies can add or quickly respawn. Clear a path, be ready to retreat, or bring a group if you cannot handle the fight and adds.", confidence = "medium" },
 
     -- The Deserters
-    [1287] = { threat = "MEDIUM", reason = "The quest leads to a guarded location in the marsh. Clear the surrounding mobs before engaging.", confidence = "medium" },
+    [1287] = { threat = "LOW", reason = "Travel or hand-in step with no combat objective; use normal travel precautions.", confidence = "medium" },
 
     -- James Hyal
     [1301] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the Theramore patrols.", confidence = "medium" },
