@@ -1983,46 +1983,46 @@ local quests = {
     [1618] = { threat = "LOW", reason = "Profession quest with no combat objective beyond the journey. The road from Ironforge to Redridge passes through dangerous territory for low-level players, but the quest itself is safe if you travel with care.", confidence = "medium" },
 
     -- A Warrior's Training
-    [1638] = { threat = "LOW", reason = "Class trainer quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1638] = { threat = "LOW", reason = "Class trainer quest with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Bartleby the Drunk
-    [1639] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1639] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Beat Bartleby
-    [1640] = { threat = "LOW", reason = "This is a scripted duel, not a lethal fight. Bartleby does not kill you, and the fight ends when one of you yields. Safe for any level 10 warrior.", confidence = "high" },
+    [1640] = { threat = "LOW", reason = "This is a scripted duel, not a lethal fight. Bartleby does not kill you, and the fight ends when one of you yields. Safe for any level 10 warrior.", confidence = "medium" },
 
     -- The Tome of Divinity
-    [1641] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1641] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Divinity
-    [1642] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1642] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Divinity
-    [1643] = { threat = "LOW", reason = "This is an exploration step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1643] = { threat = "LOW", reason = "This is an exploration step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Divinity
-    [1644] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cloth is purchased or gathered from low-level mobs. Safe if you stay in the city.", confidence = "high" },
+    [1644] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cloth is purchased or gathered from low-level mobs. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Divinity
-    [1646] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1646] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Divinity
-    [1647] = { threat = "LOW", reason = "Dialogue and travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1647] = { threat = "LOW", reason = "Dialogue and travel step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Divinity
-    [1648] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cloth is purchased or gathered from low-level mobs. Safe if you stay in the city.", confidence = "high" },
+    [1648] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cloth is purchased or gathered from low-level mobs. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Valor
-    [1649] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1649] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Valor
     [1650] = { threat = "MEDIUM", reason = "The journey to Westfall passes through territory patrolled by level 10-16 Defias mobs. Stay on the road and avoid the camps. Do not attempt below level 12 solo.", confidence = "medium" },
 
     -- The Tome of Valor
-    [1651] = { threat = "HIGH", reason = "This is a scripted defense event where waves of Defias mobs attack Daphne and her husband. If either of them dies, the quest fails. The mobs are levels 12-15 and come in groups. Multiple players report the event being harder than expected because the NPCs are fragile. Do not attempt below level 14 solo without a plan to keep both NPCs alive.", confidence = "high" },
+    [1651] = { threat = "HIGH", reason = "The scripted defense sends escalating groups of Defias attackers while Daphne can be killed, making a solo failure lethal. Classic reports describe solo success around level 20 with active healing and cooldown use, but class and build matter; prepare consumables and a plan or bring help.", confidence = "medium" },
 
     -- The Tome of Valor
-    [1652] = { threat = "LOW", reason = "Turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1652] = { threat = "LOW", reason = "Turn-in step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Test of Righteousness
     [1653] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
@@ -2034,16 +2034,16 @@ local quests = {
     [1655] = { threat = "MEDIUM", reason = "The ogres are level 15-17 and stand in camps northeast of the Loch. They pull in groups and hit hard for the level. Clear the camp before looting the shipment, and watch for patrolling ogres.", confidence = "medium" },
 
     -- Crashing the Wickerman Festival
-    [1658] = { threat = "EXTREME", reason = "The festival is near the Undercity, which is patrolled by level 40+ Horde guards and elite abominations. This is a PvP quest that requires you to walk directly into enemy territory. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [1658] = { threat = "EXTREME", reason = "The festival is near the Undercity, which is patrolled by level 40+ Horde guards and elite abominations. This is a PvP quest that requires you to walk directly into enemy territory. Do not attempt on Hardcore. Skip entirely.", confidence = "medium" },
 
     -- The Tome of Nobility
-    [1661] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1661] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Bartleby's Mug
-    [1665] = { threat = "LOW", reason = "Turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1665] = { threat = "LOW", reason = "Turn-in step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Marshal Haggard
-    [1666] = { threat = "LOW", reason = "Travel and dialogue step with light combat possible along the road. Safe if you stay on the path.", confidence = "high" },
+    [1666] = { threat = "LOW", reason = "Travel and dialogue step with light combat possible along the road. Safe if you stay on the path.", confidence = "medium" },
 
     -- Dead-tooth Jack
     [1667] = { threat = "MEDIUM", reason = "Dead-tooth Jack is a named Defias mob with guards. The camp is small and the mobs are level 8-10. Clear the camp before engaging the named mob. Do not attempt below level 10.", confidence = "medium" },
@@ -2052,10 +2052,10 @@ local quests = {
     [1678] = { threat = "MEDIUM", reason = "Vejrek is a level 10 named troll in Coldridge Valley, surrounded by Frostmane trolls. Clear the area before engaging and watch for adds. Do not attempt below level 9 solo.", confidence = "medium" },
 
     -- Muren Stormpike
-    [1679] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1679] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Tormus Deepforge
-    [1680] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1680] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Ironband's Compound
     [1681] = { threat = "MEDIUM", reason = "The ore is in a cave in Dun Morogh, guarded by level 8-12 troggs and kobolds. The cave is dark and respawns quickly. Clear methodically and watch for adds. Do not attempt below level 9 solo.", confidence = "medium" },
@@ -2064,16 +2064,16 @@ local quests = {
     [1683] = { threat = "MEDIUM", reason = "Vorlus is a level 12 named satyr in Darkshore, surrounded by guards in a cave. Clear the cave before engaging and watch for adds. Do not attempt below level 11 solo.", confidence = "medium" },
 
     -- Elanaria
-    [1684] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1684] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Gakin's Summons
-    [1685] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1685] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Shade of Elura
     [1686] = { threat = "MEDIUM", reason = "The ore is found in the Elunite Caverns in Darkshore, which are patrolled by level 10-14 mobs. The medallion drops from a named mob in the cavern. Clear methodically and watch for adds. Do not attempt below level 10 solo.", confidence = "medium" },
 
     -- Spooky Lighthouse
-    [1687] = { threat = "LOW", reason = "This is a Children's Week holiday quest. Travel step with no combat. Safe if you avoid the mob camps along the coast.", confidence = "high" },
+    [1687] = { threat = "LOW", reason = "This is a Children's Week holiday quest. Travel step with no combat. Safe if you avoid the mob camps along the coast.", confidence = "medium" },
 
     -- Surena Caledon
     [1688] = { threat = "MEDIUM", reason = "Surena is a level 12 named human in a cabin in Elwynn Forest, surrounded by guards. Clear the area before engaging and watch for adds. Do not attempt below level 11 solo.", confidence = "medium" },
@@ -2082,16 +2082,16 @@ local quests = {
     [1689] = { threat = "MEDIUM", reason = "The voidwalker is a level 10 elite demon that you must defeat. This is a warlock class quest. Clear the area before summoning and be ready for a tough fight. Do not attempt below level 10 solo without cooldowns and a healthstone.", confidence = "medium" },
 
     -- Smith Mathiel
-    [1692] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1692] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Yorus Barleybrew
-    [1698] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1698] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Rethban Gauntlet
-    [1699] = { threat = "HIGH", reason = "You must not die and release your spirit. The caverns are filled with level 20-24 Shadowhide gnolls that pull in groups. The quest is timed, and if you die or release your spirit, the quest fails. A level 20 warrior soloed this but reported it was very hard and he barely made it. A level 24 warrior had an easier time. Do not attempt below level 22 solo without a plan to avoid the mobs and escape quickly.", confidence = "high" },
+    [1699] = { threat = "MEDIUM", reason = "Timed quest (1 hour). The route enters a gnoll-filled cave, where dense pulls can overwhelm a character who rushes. The objective is only to reach the first fork and return; clear cautiously and leave time to retreat.", confidence = "medium" },
 
     -- Grimand Elmore
-    [1700] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1700] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Fire Hardened Mail
     [1701] = { threat = "MEDIUM", reason = "The materials include 10 pieces of Incendicite Ore from the Incendicite Cavern in the Wetlands, which is filled with level 20-24 spiders. The cavern is dark and respawns quickly. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },

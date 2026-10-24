@@ -1467,10 +1467,10 @@ local quests = {
     [1536] = { threat = "MEDIUM", reason = "The well is in Horde-held Tarren Mill, but the route crosses Hillsbrad where hostile creatures and opposing players can create danger. Stay on a safe route and leave if the approach is watched.", confidence = "medium" },
 
     -- A Task Unfinished
-    [1656] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road in Mulgore.", confidence = "high" },
+    [1656] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road in Mulgore.", confidence = "medium" },
 
     -- Stinking Up Southshore
-    [1657] = { threat = "EXTREME", reason = "Southshore is an Alliance town patrolled by level 40+ guards who aggro from extreme range and one-shot low-level players. Even stealthed rogues and level 60 characters die here. This is a PvP quest that requires you to walk directly into enemy territory. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [1657] = { threat = "EXTREME", reason = "Southshore is an Alliance town patrolled by level 40+ guards who aggro from extreme range and one-shot low-level players. Even stealthed rogues and level 60 characters die here. This is a PvP quest that requires you to walk directly into enemy territory. Do not attempt on Hardcore. Skip entirely.", confidence = "medium" },
 
     -- Lordaeron Throne Room
     [1800] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
