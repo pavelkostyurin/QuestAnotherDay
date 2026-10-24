@@ -3573,70 +3573,70 @@ local quests = {
     [8580] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Firebloom!
-    [8581] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Firebloom. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8581] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Purple Lotus!
-    [8582] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Purple Lotus. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8582] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Purple Lotus!
-    [8583] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Purple Lotus. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8583] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Heavy Leather!
-    [8588] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Heavy Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8588] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Heavy Leather!
-    [8589] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Heavy Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8589] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Thick Leather!
-    [8590] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Thick Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8590] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Thick Leather!
-    [8591] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Thick Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8591] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Rugged Leather!
-    [8600] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Rugged Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8600] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Rugged Leather!
-    [8601] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Rugged Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8601] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- Stormcaller's Pauldrons
     [8602] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj, a level 60 raid dungeon. A full raid group of 20-40 players is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- The Horde Needs Wool Bandages!
-    [8604] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Wool Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8604] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Wool Bandages!
-    [8605] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Wool Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8605] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Mageweave Bandages!
-    [8607] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Mageweave Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8607] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Mageweave Bandages!
-    [8608] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Mageweave Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8608] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Runecloth Bandages!
-    [8609] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Runecloth Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8609] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Runecloth Bandages!
-    [8610] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Runecloth Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8610] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Lean Wolf Steaks!
-    [8611] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Lean Wolf Steaks. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8611] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Lean Wolf Steaks!
-    [8612] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Lean Wolf Steaks. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8612] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Spotted Yellowtail!
-    [8613] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Spotted Yellowtail. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8613] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Spotted Yellowtail!
-    [8614] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Spotted Yellowtail. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8614] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Baked Salmon!
-    [8615] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Baked Salmon. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8615] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Baked Salmon!
-    [8616] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Baked Salmon. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8616] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- Stormcaller's Footguards
     [8621] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },

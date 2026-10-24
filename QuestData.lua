@@ -9801,37 +9801,37 @@ addon.quests = {
     [8580] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Firebloom! (8581)
-    [8581] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Firebloom. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8581] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Purple Lotus! (8582)
-    [8582] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Purple Lotus. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8582] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Purple Lotus! (8583)
-    [8583] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Purple Lotus. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8583] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- Never Ask Me About My Business
-    [8584] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Gadgetzan is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8584] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- The Isle of Dread!
     [8585] = { threat = "HIGH", reason = "Requires recovering Lakmaeran's Carcass and 20 Chimaerok Tenderloins from the Isle of Dread in Feralas. The island is patrolled by level 60-62 elite chimaeras. A full group of level 60 is required. Do not attempt solo.", confidence = "high" },
 
     -- Dirge's Kickin' Chimaerok Chops
-    [8586] = { threat = "LOW", reason = "Collection step with no combat beyond gathering the materials. Safe if you stay in the city.", confidence = "high" },
+    [8586] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Return to Narain
-    [8587] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8587] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- The Horde Needs Heavy Leather! (8588)
-    [8588] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Heavy Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8588] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Heavy Leather! (8589)
-    [8589] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Heavy Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8589] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Thick Leather! (8590)
-    [8590] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Thick Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8590] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Thick Leather! (8591)
-    [8591] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Thick Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8591] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- Tiara of the Oracle
     [8592] = { threat = "EXTREME", reason = "Raid quest. Requires Vek'nilash's Circlet from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Friendly reputation with Brood of Nozdormu.", confidence = "high" },
@@ -9846,19 +9846,19 @@ addon.quests = {
     [8596] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Command from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Draconic for Dummies
-    [8597] = { threat = "MEDIUM", reason = "Requires finding Narain's book buried on an island in the South Seas. The island is guarded by level 58-60 mobs. The journey involves water travel and fighting. Do not attempt below level 58 solo without a group.", confidence = "medium" },
+    [8597] = { threat = "HIGH", reason = "The book is on an island beyond the normal fatigue-water boundary, where running out of health can kill you. Secure a verified swim-speed route or other reliable water-crossing plan before leaving shore, and keep healing or escape resources ready.", confidence = "medium" },
 
     -- rAnS0m
-    [8598] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8598] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Love Song for Narain
-    [8599] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8599] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- The Horde Needs Rugged Leather! (8600)
-    [8600] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Rugged Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8600] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Rugged Leather! (8601)
-    [8601] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Rugged Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8601] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- Stormcaller's Pauldrons
     [8602] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj, a level 60 raid dungeon. A full raid group of 20-40 players is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
@@ -9867,43 +9867,43 @@ addon.quests = {
     [8603] = { threat = "EXTREME", reason = "Raid quest. Requires the Husk of the Old God from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Honored reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- The Horde Needs Wool Bandages! (8604)
-    [8604] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Wool Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8604] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Wool Bandages! (8605)
-    [8605] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Wool Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8605] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- Decoy!
-    [8606] = { threat = "MEDIUM", reason = "Requires traveling to Winterspring and placing the Bag of Gold at the drop-off point. The area is patrolled by level 55-58 mobs. The booknappers may ambush you. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [8606] = { threat = "HIGH", reason = "Elite quest. The Winterspring decoy triggers Number Two, a level-60 elite with a large health pool and heavy hits. Bring a partner or use a prepared kiting strategy; class-specific solo reports do not make a baseline solo attempt safe.", confidence = "medium" },
 
     -- The Horde Needs Mageweave Bandages! (8607)
-    [8607] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Mageweave Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8607] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Mageweave Bandages! (8608)
-    [8608] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Mageweave Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8608] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Runecloth Bandages! (8609)
-    [8609] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Runecloth Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8609] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Runecloth Bandages! (8610)
-    [8610] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Runecloth Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8610] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Lean Wolf Steaks! (8611)
-    [8611] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Lean Wolf Steaks. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8611] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Lean Wolf Steaks! (8612)
-    [8612] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Lean Wolf Steaks. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8612] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Spotted Yellowtail! (8613)
-    [8613] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Spotted Yellowtail. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8613] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Spotted Yellowtail! (8614)
-    [8614] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Spotted Yellowtail. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8614] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Baked Salmon! (8615)
-    [8615] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Baked Salmon. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8615] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Baked Salmon! (8616)
-    [8616] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Baked Salmon. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8616] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- The Only Prescription
     [8620] = { threat = "HIGH", reason = "Requires recovering 8 lost chapters of Draconic for Dummies from level 58-60 mobs across multiple high-level zones (Winterspring, Silithus, Eastern Plaguelands, etc.). The chapters drop from elites and are in contested areas. A group or significant overleveling is required. Do not attempt solo below level 58.", confidence = "high" },

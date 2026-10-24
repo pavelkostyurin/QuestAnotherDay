@@ -2739,16 +2739,16 @@ addon.quests = {
     [8578] = { threat = "MEDIUM", reason = "Requires finding Narain's Scrying Goggles in the South Seas. The goggles are on an island guarded by level 58-60 mobs. The journey involves water travel and fighting. Do not attempt below level 58 solo without a group.", confidence = "medium" },
 
     -- Never Ask Me About My Business
-    [8584] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Gadgetzan is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8584] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- The Isle of Dread!
     [8585] = { threat = "HIGH", reason = "Requires recovering Lakmaeran's Carcass and 20 Chimaerok Tenderloins from the Isle of Dread in Feralas. The island is patrolled by level 60-62 elite chimaeras. A full group of level 60 is required. Do not attempt solo.", confidence = "high" },
 
     -- Dirge's Kickin' Chimaerok Chops
-    [8586] = { threat = "LOW", reason = "Collection step with no combat beyond gathering the materials. Safe if you stay in the city.", confidence = "high" },
+    [8586] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Return to Narain
-    [8587] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8587] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Tiara of the Oracle
     [8592] = { threat = "EXTREME", reason = "Raid quest. Requires Vek'nilash's Circlet from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Friendly reputation with Brood of Nozdormu.", confidence = "high" },
@@ -2763,19 +2763,19 @@ addon.quests = {
     [8596] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Command from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Draconic for Dummies
-    [8597] = { threat = "MEDIUM", reason = "Requires finding Narain's book buried on an island in the South Seas. The island is guarded by level 58-60 mobs. The journey involves water travel and fighting. Do not attempt below level 58 solo without a group.", confidence = "medium" },
+    [8597] = { threat = "HIGH", reason = "The book is on an island beyond the normal fatigue-water boundary, where running out of health can kill you. Secure a verified swim-speed route or other reliable water-crossing plan before leaving shore, and keep healing or escape resources ready.", confidence = "medium" },
 
     -- rAnS0m
-    [8598] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8598] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Love Song for Narain
-    [8599] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8599] = { threat = "LOW", reason = "This is a conversation or item delivery with no combat objective in this quest step. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Vestments of the Oracle
     [8603] = { threat = "EXTREME", reason = "Raid quest. Requires the Husk of the Old God from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Honored reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Decoy!
-    [8606] = { threat = "MEDIUM", reason = "Requires traveling to Winterspring and placing the Bag of Gold at the drop-off point. The area is patrolled by level 55-58 mobs. The booknappers may ambush you. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [8606] = { threat = "HIGH", reason = "Elite quest. The Winterspring decoy triggers Number Two, a level-60 elite with a large health pool and heavy hits. Bring a partner or use a prepared kiting strategy; class-specific solo reports do not make a baseline solo attempt safe.", confidence = "medium" },
 
     -- The Only Prescription
     [8620] = { threat = "HIGH", reason = "Requires recovering 8 lost chapters of Draconic for Dummies from level 58-60 mobs across multiple high-level zones (Winterspring, Silithus, Eastern Plaguelands, etc.). The chapters drop from elites and are in contested areas. A group or significant overleveling is required. Do not attempt solo below level 58.", confidence = "high" },
