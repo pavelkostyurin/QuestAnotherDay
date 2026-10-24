@@ -77929,6 +77929,1513 @@
       "confidence": "medium",
       "addonAppliedAt": "2026-10-24T21:48:19+03:00",
       "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7823,
+      "questName": "A Donation of Runecloth",
+      "url": "https://www.wowhead.com/classic/quest=7823",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7824,
+      "questName": "A Donation of Runecloth",
+      "url": "https://www.wowhead.com/classic/quest=7824",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7825,
+      "questName": "Additional Runecloth",
+      "url": "https://www.wowhead.com/classic/quest=7825",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7826,
+      "questName": "A Donation of Wool",
+      "url": "https://www.wowhead.com/classic/quest=7826",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Wool Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7827,
+      "questName": "A Donation of Silk",
+      "url": "https://www.wowhead.com/classic/quest=7827",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Silk Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7828,
+      "questName": "Stalking the Stalkers",
+      "url": "https://www.wowhead.com/classic/quest=7828",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7828#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Stalking the Stalkers - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7828/stalking-the-stalkers",
+          "evidence": "Classic comments locate stealthed Stalkers near troll camps and Howlers further west; another comment says Howlers call nearby wolves.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments confirm the Stalkers are stealthed near troll camps and Howlers are further west; confidence is medium because crowding and pulls vary by location.",
+      "reason": "Silver-mane Stalkers can surprise you from stealth near the Vilebranch camps, and Howlers can draw other wolves into a fight. Scout the area and pull from the edge of the camps.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7829,
+      "questName": "Hunt the Savages",
+      "url": "https://www.wowhead.com/classic/quest=7829",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog establishes repeated combat with wild owlbeasts; confidence is medium from local context, without retrieved evidence for exact levels or special mechanics.",
+      "reason": "Savage Owlbeasts roam the Hinterlands in hostile areas. Pull them in open ground and watch for nearby wolves or trolls joining the fight.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7830,
+      "questName": "Avenging the Fallen",
+      "url": "https://www.wowhead.com/classic/quest=7830",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Avenging the Fallen - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7830/avenging-the-fallen",
+          "evidence": "Classic quest text requires one Razorbeak Skylord; comments record its Hinterlands spawn spots without describing a special elite mechanic.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Lowers MEDIUM to LOW; Classic quest text requires one Skylord and comments identify its roaming spawn area without evidence of a special group mechanic. Confidence is medium because the sample is limited.",
+      "reason": "Deliver one Skylord Plume after defeating a Razorbeak Skylord in the Hinterlands. The objective names one target; clear nearby gryphons before engaging.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7831,
+      "questName": "A Donation of Mageweave",
+      "url": "https://www.wowhead.com/classic/quest=7831",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Mageweave Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7832,
+      "questName": "Additional Runecloth",
+      "url": "https://www.wowhead.com/classic/quest=7832",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7833,
+      "questName": "A Donation of Wool",
+      "url": "https://www.wowhead.com/classic/quest=7833",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Wool Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7834,
+      "questName": "A Donation of Silk",
+      "url": "https://www.wowhead.com/classic/quest=7834",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Silk Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7835,
+      "questName": "A Donation of Mageweave",
+      "url": "https://www.wowhead.com/classic/quest=7835",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Mageweave Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7836,
+      "questName": "A Donation of Runecloth",
+      "url": "https://www.wowhead.com/classic/quest=7836",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7837,
+      "questName": "Additional Runecloth",
+      "url": "https://www.wowhead.com/classic/quest=7837",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a capital-city cloth donation; confidence is medium because there is no unusual combat beyond gathering and travel.",
+      "reason": "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7838,
+      "questName": "Arena Grandmaster",
+      "url": "https://www.wowhead.com/classic/quest=7838",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 3,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7838#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Arena Grandmaster - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=7838",
+          "evidence": "Classic quest objective requires twelve Arena Master trinkets from Short John Mithril.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        },
+        {
+          "title": "Arena Grand Master - Item - Classic",
+          "url": "https://www.wowhead.com/classic/item=19024/arena-grand-master",
+          "evidence": "Classic comments describe the trinkets as coming from a contested free-for-all Gurubashi Arena chest that spawns every three hours.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic records confirm 12 trinkets are required and comments describe a contested free-for-all chest every three hours. Confidence is medium because actual competition varies by server and time.",
+      "reason": "PvP quest. Collect 12 Arena Master trinkets from the timed Gurubashi Arena chest; the floor is a free-for-all where players can attack you. This repeated PvP exposure is especially dangerous on Hardcore; skip the quest if you cannot secure the chest without fighting.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7839,
+      "questName": "Vilebranch Hooligans",
+      "url": "https://www.wowhead.com/classic/quest=7839",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7839#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Vilebranch Hooligans - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7839/vilebranch-hooligans",
+          "evidence": "Classic comments place the lost-tools bucket at several Vilebranch camps or on Skulk Rock and warn that one camp can pull two casters.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments confirm the bucket can appear at several troll camps or on Skulk Rock and warn that some camps place casters together; confidence is medium because the spawn location varies.",
+      "reason": "The lost tools can be in Vilebranch camps or on Skulk Rock, among hostile trolls. Check the ground from outside first; if you must enter, pull guards one at a time and avoid the paired casters.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7840,
+      "questName": "Lard Lost His Lunch",
+      "url": "https://www.wowhead.com/classic/quest=7840",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 7,
+      "commentsUsed": 4,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7840#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Lard Lost His Lunch - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7840/lard-lost-his-lunch",
+          "evidence": "Classic comments describe three level-49 non-elite kidnappers spawning from the basket and ways to split them or swim away.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments describe the three level-49 non-elite ambushers, the basket trigger, and solo tactics that split them or escape into water; confidence is medium because the fight varies by class and execution.",
+      "reason": "Opening the picnic basket spawns three Vilebranch kidnappers, and one carries the lunch. Focus one target and use the surrounding water to split or escape from the others; do not reopen the basket after the ambush.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7841,
+      "questName": "Message to the Wildhammer",
+      "url": "https://www.wowhead.com/classic/quest=7841",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7841#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Message to the Wildhammer - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7841/message-to-the-wildhammer",
+          "evidence": "Classic quest text requires fifteen each of four Highvale elf types at Quel’Danil Lodge; comments describe the front, rear and ranged mobs in and around the camp.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms four sets of fifteen kills in Quel’Danil Lodge; comments describe ranged enemies inside and around the camp. Confidence is medium because the area layout is clear but no independent combat test was found.",
+      "reason": "Quel’Danil Lodge is a dense camp of Highvale elves, including ranged attackers. Pull from the outer edge and watch for additional elves as you work through the four kill objectives.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7842,
+      "questName": "Another Message to the Wildhammer",
+      "url": "https://www.wowhead.com/classic/quest=7842",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 10,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7842#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Another Message to the Wildhammer - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7842/another-message-to-the-wildhammer",
+          "evidence": "Classic comments report low feather drops, spread-out Hinterlands gryphons and denser hippogryph alternatives in Feralas.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments report low feather drops and recommend denser hippogryph camps in Feralas or Azshara; confidence is medium because reports vary by mob and route.",
+      "reason": "Collect ten Long Elegant Feathers from gryphons or hippogryphs. Drop rates can be low, leaving you exposed to repeated fights; farm a dense spawn area and keep clear of nearby guards.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7843,
+      "questName": "The Final Message to the Wildhammer",
+      "url": "https://www.wowhead.com/classic/quest=7843",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 8,
+      "commentsUsed": 4,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7843#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Final Message to the Wildhammer - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7843/the-final-message-to-the-wildhammer",
+          "evidence": "Classic comments confirm planting is instant, can flag PvP and may draw a level-55/65 guard; multiple reports describe mounted or stealth escapes, and a Hardcore player reports a workable portal route.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments confirm the item instantly plants, can flag PvP and may draw a high-level guard; other reports show players escaping without a fight. Confidence is medium because guard patrols and player traffic vary.",
+      "reason": "PvP quest. Planting the message at Aerie Peak’s well flags you for PvP and can draw a high-level Wildhammer guard and nearby Alliance players. Wait for the guard to move away, plant the item instantly and have a mounted escape route ready.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7844,
+      "questName": "Cannibalistic Cousins",
+      "url": "https://www.wowhead.com/classic/quest=7844",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog places 45 kills across hostile troll temples; confidence is medium from local context, without independent corroboration of exact levels or pull behavior.",
+      "reason": "Kill Vilebranch trolls in the Shaol’watha and Agol’watha camps. The camps are close together and trolls can join nearby pulls; clear a small area at a time and keep an escape route.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7845,
+      "questName": "Kidnapped Elder Torntusk!",
+      "url": "https://www.wowhead.com/classic/quest=7845",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 2,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7845#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Kidnapped Elder Torntusk! - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/de/quest%3D7845/die-entf%C3%BChrung-des-%C3%A4lteren-torntusk",
+          "evidence": "Classic quest text places Elder Torntusk at the top of Jintha’Alor; comments identify elite guards along the route.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest records place the prisoner at the top of Jintha’Alor, and linked quest reports describe the upper temple as guarded by level-50+ elites. Confidence is medium because the number and exact strength of patrols vary.",
+      "reason": "Jintha’Alor is a stronghold of elite Vilebranch trolls, and Elder Torntusk is held near the summit. Reaching him requires crossing dense, patrolled levels; bring a suitable group or skip the route on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7846,
+      "questName": "Recover the Key!",
+      "url": "https://www.wowhead.com/classic/quest=7846",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Recover the Key! - Quest - Classic",
+          "url": "https://wowclassic.judgehype.com/database/fr/quest/7846/",
+          "evidence": "Classic quest entry identifies the elite quest, Hitah’ya the Keeper and her protected cave location; page is in French but the quest metadata and objective are clear.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest data marks this as an elite quest, identifies Hitah’ya as the target and says she is well protected; confidence is medium because the source does not detail each guard pull.",
+      "reason": "Elite quest. Hitah’ya the Keeper is a protected target in a cave inside Jintha’Alor, with elite Vilebranch guards nearby. Bring a suitable group to clear the cave and secure the key; skip on Hardcore if you cannot do so safely.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7847,
+      "questName": "Return to Primal Torntusk",
+      "url": "https://www.wowhead.com/classic/quest=7847",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a report back to the village; confidence is medium because the only risk is ordinary Hinterlands travel.",
+      "reason": "Return to Primal Torntusk at Revantusk Village with news of the rescue. This is a travel and dialogue step with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7848,
+      "questName": "Attunement to the Core",
+      "url": "https://www.wowhead.com/classic/quest=7848",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:50:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comment review because the pinned Classic quest catalog marks this quest as a raid/dungeon."
+    },
+    {
+      "questId": 7849,
+      "questName": "Separation Anxiety",
+      "url": "https://www.wowhead.com/classic/quest=7849",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7849#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Separation Anxiety - Quest - Classic",
+          "url": "https://www.wowhead.com/cata/quest=7849/separation-anxiety",
+          "evidence": "Classic comments describe elite oozes and wolves at the remains sites and nearby troll patrols; later-version reports about non-elite mobs were excluded.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments describe elite wolves, oozes and converging troll patrols at the two item sites; some class-specific solo routes exist. Confidence is medium because later-version reports include post-nerf changes.",
+      "reason": "Recover the skull and bones from Jintha’Alor’s wolf den and ooze pit. Elite trolls patrol the narrow temple levels and can join pulls; clear nearby guards first or bring help.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7850,
+      "questName": "Dark Vessels",
+      "url": "https://www.wowhead.com/classic/quest=7850",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7850#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Dark Vessels - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7850/dark-vessels",
+          "evidence": "Classic quest text warns of combat with Vilebranch in Jintha’Alor; comments place the vessels among guards and describe both stealth routes and solo deaths.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text warns to be cautious in the temple; comments describe vessels among guards, with stealth routes and solo attempts that can fail. Confidence is medium because the layout and combat depend on route and class.",
+      "reason": "Collect ten vessels from across Jintha’Alor, including upper temple levels. The objects are guarded by elite Vilebranch and can require repeated risky pulls; use stealth or clear a retreat route before looting.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7861,
+      "questName": "Wanted: Vile Priestess Hexx and Her Minions",
+      "url": "https://www.wowhead.com/classic/quest=7861",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7861#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Wanted: Vile Priestess Hexx and Her Minions - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7861/wanted-vile-priestess-hexx-and-her-minions",
+          "evidence": "Classic quest text confirms Hexx plus twenty elite guards; comments describe a two-player fight, polymorph, shadow damage and nearby guards.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms one priestess plus twenty elite guards at the summit; comments describe group attempts and a dangerous polymorph, healing and damage-over-time encounter. Confidence is medium because class-specific solo reports vary.",
+      "reason": "Elite quest. Vile Priestess Hexx and her elite Aman’zasi guards occupy the summit of Jintha’Alor. The guards and patrols can overwhelm a solo character; bring a suitable group and clear the surrounding enemies before engaging Hexx.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7862,
+      "questName": "Job Opening: Guard Captain of Revantusk Village",
+      "url": "https://www.wowhead.com/classic/quest=7862",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "A limited relevant comment sample was read; ranking and completeness are not established.",
+      "commentsReviewed": 6,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7862#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Job Opening: Guard Captain of Revantusk Village - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7862/job-opening-guard-captain-of-revantusk-village",
+          "evidence": "Classic comments describe all 80 quest mobs as level-46–50 elites, a multi-hour clear and successful group compositions.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments identify all 80 targets as level-46–50 elites, describe a multi-hour clear and report completion with groups; confidence is medium because the reports are anecdotal but consistent on group risk.",
+      "reason": "Elite quest. Defeat 80 Vilebranch elites across the upper levels of Jintha’Alor. The route is long, patrols can join pulls and the enemies hit hard; bring a group and combine it with the other temple quests.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7863,
+      "questName": "Sentinel Basic Care Package",
+      "url": "https://www.wowhead.com/classic/quest=7863",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Classic care-package records describe a turn-in reward containing battleground supplies; confidence is medium because no combat is required by the quest itself.",
+      "reason": "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7864,
+      "questName": "Sentinel Standard Care Package",
+      "url": "https://www.wowhead.com/classic/quest=7864",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Sentinel Standard Care Package - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7864/sentinel-standard-care-package",
+          "evidence": "Classic quest completion is a care-package reward with rations and bandages for Warsong Gulch; no combat objective is required.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:50:43+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic care-package records describe a turn-in reward containing battleground supplies; confidence is medium because no combat is required by the quest itself.",
+      "reason": "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7865,
+      "questName": "Sentinel Advanced Care Package",
+      "url": "https://www.wowhead.com/classic/quest=7865",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Classic care-package records describe a turn-in reward containing battleground supplies; confidence is medium because no combat is required by the quest itself.",
+      "reason": "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7866,
+      "questName": "Outrider Basic Care Package",
+      "url": "https://www.wowhead.com/classic/quest=7866",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The Horde supply-officer reward is a simple care-package hand-in; confidence is medium because the quest has no combat objective.",
+      "reason": "Claim the Outrider care package from the faction supply officer. This is a reputation reward hand-in with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7867,
+      "questName": "Outrider Standard Care Package",
+      "url": "https://www.wowhead.com/classic/quest=7867",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Classic care-package records describe a turn-in reward containing battleground supplies; confidence is medium because no combat is required by the quest itself.",
+      "reason": "Claim the Outrider care package from the faction supply officer. This is a reputation reward hand-in with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7868,
+      "questName": "Outrider Advanced Care Package",
+      "url": "https://www.wowhead.com/classic/quest=7868",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Classic care-package records describe a turn-in reward containing battleground supplies; confidence is medium because no combat is required by the quest itself.",
+      "reason": "Claim the Outrider care package from the faction supply officer. This is a reputation reward hand-in with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7871,
+      "questName": "Vanquish the Invaders!",
+      "url": "https://www.wowhead.com/classic/quest=7871",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Vanquish the Invaders! - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7788/vanquish-the-invaders",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "The Alliance level variant requires a Warsong Gulch mark from defeating the Horde; the objective is shared by the lower-level variants."
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest requires a Warsong Gulch mark, and Blizzard states battlegrounds are disabled on Hardcore; confidence is high because the objective and applicable rules are directly sourced.",
+      "reason": "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7872,
+      "questName": "Vanquish the Invaders!",
+      "url": "https://www.wowhead.com/classic/quest=7872",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Vanquish the Invaders! - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7788/vanquish-the-invaders",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "The Alliance level variant requires a Warsong Gulch mark from defeating the Horde; the objective is shared by the lower-level variants."
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest requires a Warsong Gulch mark, and Blizzard states battlegrounds are disabled on Hardcore; confidence is high because the objective and applicable rules are directly sourced.",
+      "reason": "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7873,
+      "questName": "Vanquish the Invaders!",
+      "url": "https://www.wowhead.com/classic/quest=7873",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Vanquish the Invaders! - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7788/vanquish-the-invaders",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "The Alliance level variant requires a Warsong Gulch mark from defeating the Horde; the objective is shared by the lower-level variants."
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest requires a Warsong Gulch mark, and Blizzard states battlegrounds are disabled on Hardcore; confidence is high because the objective and applicable rules are directly sourced.",
+      "reason": "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7874,
+      "questName": "Quell the Silverwing Usurpers",
+      "url": "https://www.wowhead.com/classic/quest=7874",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Quell the Silverwing Usurpers - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7789/quell-the-silverwing-usurpers",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "The Horde level variant requires a Warsong Gulch mark from defeating the Alliance; the objective is shared by the lower-level variants."
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest requires a Warsong Gulch mark, and Blizzard states battlegrounds are disabled on Hardcore; confidence is high because the objective and applicable rules are directly sourced.",
+      "reason": "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7875,
+      "questName": "Quell the Silverwing Usurpers",
+      "url": "https://www.wowhead.com/classic/quest=7875",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Quell the Silverwing Usurpers - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7789/quell-the-silverwing-usurpers",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "The Horde level variant requires a Warsong Gulch mark from defeating the Alliance; the objective is shared by the lower-level variants."
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest requires a Warsong Gulch mark, and Blizzard states battlegrounds are disabled on Hardcore; confidence is high because the objective and applicable rules are directly sourced.",
+      "reason": "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7876,
+      "questName": "Quell the Silverwing Usurpers",
+      "url": "https://www.wowhead.com/classic/quest=7876",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Quell the Silverwing Usurpers - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=7789/quell-the-silverwing-usurpers",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "The Horde level variant requires a Warsong Gulch mark from defeating the Alliance; the objective is shared by the lower-level variants."
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest requires a Warsong Gulch mark, and Blizzard states battlegrounds are disabled on Hardcore; confidence is high because the objective and applicable rules are directly sourced.",
+      "reason": "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7877,
+      "questName": "The Treasure of the Shen'dralar",
+      "url": "https://www.wowhead.com/classic/quest=7877",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:50:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comment review because the pinned Classic quest catalog marks this quest as a raid/dungeon."
+    },
+    {
+      "questId": 7881,
+      "questName": "Carnival Boots",
+      "url": "https://www.wowhead.com/classic/quest=7881",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a trade-in or token hand-in; confidence is medium because its only risk is ordinary travel.",
+      "reason": "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7882,
+      "questName": "Carnival Jerkins",
+      "url": "https://www.wowhead.com/classic/quest=7882",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a trade-in or token hand-in; confidence is medium because its only risk is ordinary travel.",
+      "reason": "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7883,
+      "questName": "The World's Largest Gnome!",
+      "url": "https://www.wowhead.com/classic/quest=7883",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW for a Darkmoon Faire crafting-item turn-in; confidence is medium from the objective context, without independent Era corroboration.",
+      "reason": "Turn in three Barbaric Harnesses at the Darkmoon Faire for prize tickets. This crafting-material hand-in adds no combat beyond obtaining the items.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7884,
+      "questName": "Crocolisk Boy and the Bearded Murloc",
+      "url": "https://www.wowhead.com/classic/quest=7884",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a trade-in or token hand-in; confidence is medium because its only risk is ordinary travel.",
+      "reason": "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7885,
+      "questName": "Armor Kits",
+      "url": "https://www.wowhead.com/classic/quest=7885",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a trade-in or token hand-in; confidence is medium because its only risk is ordinary travel.",
+      "reason": "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7886,
+      "questName": "Talismans of Merit",
+      "url": "https://www.wowhead.com/classic/quest=7886",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a trade-in or token hand-in; confidence is medium because its only risk is ordinary travel.",
+      "reason": "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7887,
+      "questName": "Talismans of Merit",
+      "url": "https://www.wowhead.com/classic/quest=7887",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:50:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and retrieved quest record where listed; no comment sample was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a trade-in or token hand-in; confidence is medium because its only risk is ordinary travel.",
+      "reason": "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:50:43+03:00",
+      "addonSource": "QuestData.lua"
     }
   ]
 }

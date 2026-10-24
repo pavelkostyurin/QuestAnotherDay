@@ -3896,6 +3896,30 @@ local quests = {
     -- Additional Runecloth
     [7812] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
 
+    -- Sentinel Basic Care Package
+    [7863] = { threat = "LOW", reason = "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+
+    -- Sentinel Standard Care Package
+    [7864] = { threat = "LOW", reason = "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+
+    -- Sentinel Advanced Care Package
+    [7865] = { threat = "LOW", reason = "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+
+    -- Vanquish the Invaders!
+    [7871] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Vanquish the Invaders!
+    [7872] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Vanquish the Invaders!
+    [7873] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Talismans of Merit
+    [7886] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+
+    -- Talismans of Merit
+    [7887] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+
     -- The Darkmoon Faire
     [7905] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
 

@@ -8737,60 +8737,92 @@ addon.quests = {
     [7820] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
     [7821] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
     [7822] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7823] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7824] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7825] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7826] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7827] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
     -- Stalking the Stalkers
-    [7828] = { threat = "MEDIUM", reason = "The wolves are levels 46-48 and are found throughout the eastern and central Hinterlands. The Stalkers are stealthed and can ambush you while you are fighting other mobs. The Howlers are not stealthed but call for backup when low on health, which can chain-pull additional wolves. A level 44 hunter soloed this by pulling wolves to isolated spots. Do not attempt below level 44 .", confidence = "high" },
+    [7828] = { threat = "MEDIUM", reason = "Silver-mane Stalkers can surprise you from stealth near the Vilebranch camps, and Howlers can draw other wolves into a fight. Scout the area and pull from the edge of the camps.", confidence = "medium" },
 
     -- Hunt the Savages
-    [7829] = { threat = "MEDIUM", reason = "The owlbeasts are levels 46-49 and are aggressive. They have a knockback and can pull in groups of two or three. Fight them in open areas where you can see adds coming and be ready to retreat. Do not attempt below level 46 solo .", confidence = "medium" },
+    [7829] = { threat = "MEDIUM", reason = "Savage Owlbeasts roam the Hinterlands in hostile areas. Pull them in open ground and watch for nearby wolves or trolls joining the fight.", confidence = "medium" },
 
     -- Avenging the Fallen
-    [7830] = { threat = "MEDIUM", reason = "The Skylords are level 48 gryphons that patrol specific spawn points in the Hinterlands, primarily around coordinates 55,50 and 63,41. They are not elite, but they have a large aggro range and can pull additional mobs if you are not careful. A level 48 priest soloed this easily. Do not attempt below level 46 .", confidence = "high" },
+    [7830] = { threat = "LOW", reason = "Deliver one Skylord Plume after defeating a Razorbeak Skylord in the Hinterlands. The objective names one target; clear nearby gryphons before engaging.", confidence = "medium" },
 
+    [7831] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7832] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7833] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7834] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7835] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7836] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7837] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This city hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7838] = { threat = "EXTREME", reason = "PvP quest. Collect 12 Arena Master trinkets from the timed Gurubashi Arena chest; the floor is a free-for-all where players can attack you. This repeated PvP exposure is especially dangerous on Hardcore; skip the quest if you cannot secure the chest without fighting.", confidence = "medium" },
     -- Vilebranch Hooligans
-    [7839] = { threat = "MEDIUM", reason = "The tools are in a metal bucket that spawns randomly at one of these locations. The camps are filled with level 45-48 Vilebranch trolls that pull in groups and can chain-pull. The tools can spawn at a camp with no mobs (72,52), making this quest much safer if you find that spawn point. A level 46 hunter used Eagle Eye to scout the camps without clearing them. Do not attempt below level 45 .", confidence = "high" },
+    [7839] = { threat = "MEDIUM", reason = "The lost tools can be in Vilebranch camps or on Skulk Rock, among hostile trolls. Check the ground from outside first; if you must enter, pull guards one at a time and avoid the paired casters.", confidence = "medium" },
 
     -- Lard Lost His Lunch
-    [7840] = { threat = "MEDIUM", reason = "The lunch is on a Vilebranch Kidnapper that spawns when you click the picnic basket on the island. The kidnapper is a level 46-48 troll who will attack you immediately. The island itself is patrolled by Vilebranch trolls. Clear the area before clicking the basket and be ready for the ambush. Do not attempt below level 44 .", confidence = "high" },
+    [7840] = { threat = "MEDIUM", reason = "Opening the picnic basket spawns three Vilebranch kidnappers, and one carries the lunch. Focus one target and use the surrounding water to split or escape from the others; do not reopen the basket after the ambush.", confidence = "medium" },
 
     -- Message to the Wildhammer
-    [7841] = { threat = "MEDIUM", reason = "The high elves are levels 44-48 and are packed in the lodge. They pull in groups and have ranged attackers. Clear methodically from the outside in and watch for patrolling mobs. Do not attempt below level 44 solo .", confidence = "medium" },
+    [7841] = { threat = "MEDIUM", reason = "Quel’Danil Lodge is a dense camp of Highvale elves, including ranged attackers. Pull from the outer edge and watch for additional elves as you work through the four kill objectives.", confidence = "medium" },
 
     -- Another Message to the Wildhammer
-    [7842] = { threat = "MEDIUM", reason = "The gryphons are levels 44-48 and are found throughout the zone. They are aggressive and can pull in pairs. The drop rate is moderate, so expect to kill 15-20 gryphons. Clear the area before looting and watch for patrolling mobs .", confidence = "medium" },
+    [7842] = { threat = "MEDIUM", reason = "Collect ten Long Elegant Feathers from gryphons or hippogryphs. Drop rates can be low, leaving you exposed to repeated fights; farm a dense spawn area and keep clear of nearby guards.", confidence = "medium" },
 
     -- The Final Message to the Wildhammer
-    [7843] = { threat = "HIGH", reason = "The well is guarded by a level 65 elite dwarf guard who will aggro the moment you plant the spear. You must plant the spear and escape before the guard kills you. The quest flags you for PvP automatically, even on PvE servers. The standard strategy is to mount up, plant the spear, and run. A level 49 warlock used his Voidwalker to distract the guard while he planted and escaped. Do not attempt without an escape plan and a mount .", confidence = "high" },
+    [7843] = { threat = "HIGH", reason = "PvP quest. Planting the message at Aerie Peak’s well flags you for PvP and can draw a high-level Wildhammer guard and nearby Alliance players. Wait for the guard to move away, plant the item instantly and have a mounted escape route ready.", confidence = "medium" },
 
     -- Cannibalistic Cousins
-    [7844] = { threat = "MEDIUM", reason = "The trolls are levels 45-48 and are packed in the temples. They pull in groups and flee at low health. The trick is to kill everything in the area, not just the mobs you need, because spawn points cycle between Scalpers, Soothsayers, and Axe Throwers. A level 46 player soloed this by clearing the camps systematically. Do not attempt below level 45 .", confidence = "high" },
+    [7844] = { threat = "MEDIUM", reason = "Kill Vilebranch trolls in the Shaol’watha and Agol’watha camps. The camps are close together and trolls can join nearby pulls; clear a small area at a time and keep an escape route.", confidence = "medium" },
 
     -- Kidnapped Elder Torntusk!
-    [7845] = { threat = "HIGH", reason = "Jintha'alor is a massive temple complex filled with level 46-51 elite Vilebranch trolls. The path to the top is narrow and patrolled by elites. This is an Elite quest by design and requires a full group of level 46+. Do not attempt solo.", confidence = "high" },
+    [7845] = { threat = "EXTREME", reason = "Jintha’Alor is a stronghold of elite Vilebranch trolls, and Elder Torntusk is held near the summit. Reaching him requires crossing dense, patrolled levels; bring a suitable group or skip the route on Hardcore.", confidence = "medium" },
 
     -- Recover the Key!
-    [7846] = { threat = "HIGH", reason = "Hitah'ya is a level 51 elite troll surrounded by guards in a confined cave. The cave has no safe retreat once you enter. This requires a full group of level 48+. Do not attempt solo.", confidence = "high" },
+    [7846] = { threat = "EXTREME", reason = "Elite quest. Hitah’ya the Keeper is a protected target in a cave inside Jintha’Alor, with elite Vilebranch guards nearby. Bring a suitable group to clear the cave and secure the key; skip on Hardcore if you cannot do so safely.", confidence = "medium" },
 
     -- Return to Primal Torntusk
-    [7847] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the Vilebranch camps .", confidence = "high" },
+    [7847] = { threat = "LOW", reason = "Return to Primal Torntusk at Revantusk Village with news of the rescue. This is a travel and dialogue step with no combat.", confidence = "medium" },
 
     -- Attunement to the Core (7848)
     [7848] = { threat = "EXTREME", reason = "Elite quest. Requires entering Blackrock Depths to recover a Core Fragment near the Molten Core entrance, deep inside the dungeon. BRD is a level 52-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo. Note: the quest ID 7487 is also active; both are Classic Era versions.", confidence = "high" },
 
     -- Separation Anxiety
-    [7849] = { threat = "HIGH", reason = "The refuse pit is filled with level 48-50 elite oozes, and the wolf den has elite wolves. Both locations are deep inside the Vilebranch capital. This requires a full group of level 48+. Do not attempt solo .", confidence = "high" },
+    [7849] = { threat = "HIGH", reason = "Recover the skull and bones from Jintha’Alor’s wolf den and ooze pit. Elite trolls patrol the narrow temple levels and can join pulls; clear nearby guards first or bring help.", confidence = "medium" },
 
     -- Dark Vessels
-    [7850] = { threat = "HIGH", reason = "The vessels are scattered throughout the Vilebranch capital, which is filled with level 46-51 elite trolls. The vessels are guarded by elites and the temple has no safe paths. This requires a full group of level 46+. Do not attempt solo .", confidence = "high" },
+    [7850] = { threat = "HIGH", reason = "Collect ten vessels from across Jintha’Alor, including upper temple levels. The objects are guarded by elite Vilebranch and can require repeated risky pulls; use stealth or clear a retreat route before looting.", confidence = "medium" },
 
     -- Wanted: Vile Priestess Hexx and Her Minions
-    [7861] = { threat = "HIGH", reason = "Hexx is a level 51 elite priestess surrounded by elite guards. The guards are packed tightly and will chain-pull. This requires a full group of level 48+. Do not attempt solo .", confidence = "high" },
+    [7861] = { threat = "EXTREME", reason = "Elite quest. Vile Priestess Hexx and her elite Aman’zasi guards occupy the summit of Jintha’Alor. The guards and patrols can overwhelm a solo character; bring a suitable group and clear the surrounding enemies before engaging Hexx.", confidence = "medium" },
 
     -- Job Opening: Guard Captain of Revantusk Village
-    [7862] = { threat = "HIGH", reason = "All four mob types are level 46-51 elites. The temple is densely packed with elites that chain-pull aggressively. Wowhead explicitly states 'It is heavily encouraged to complete this quest in a group as the mobs you are tasked to kill are all elites.' Do not attempt solo .", confidence = "high" },
+    [7862] = { threat = "EXTREME", reason = "Elite quest. Defeat 80 Vilebranch elites across the upper levels of Jintha’Alor. The route is long, patrols can join pulls and the enemies hit hard; bring a group and combine it with the other temple quests.", confidence = "medium" },
 
+    [7863] = { threat = "LOW", reason = "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+    [7864] = { threat = "LOW", reason = "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+    [7865] = { threat = "LOW", reason = "Claim the Sentinel care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+    [7866] = { threat = "LOW", reason = "Claim the Outrider care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+    [7867] = { threat = "LOW", reason = "Claim the Outrider care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+    [7868] = { threat = "LOW", reason = "Claim the Outrider care package from the faction supply officer. This is a reputation reward hand-in with no combat.", confidence = "medium" },
+    [7871] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [7872] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [7873] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [7874] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [7875] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [7876] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     -- The Treasure of the Shen'dralar (7877)
     [7877] = { threat = "LOW", reason = "Dungeon interaction step with no combat. The treasure is in the Athenaeum after completing The Madness Within. Safe if you stay in the area.", confidence = "high" },
 
+    [7881] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+    [7882] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+    [7883] = { threat = "LOW", reason = "Turn in three Barbaric Harnesses at the Darkmoon Faire for prize tickets. This crafting-material hand-in adds no combat beyond obtaining the items.", confidence = "medium" },
+    [7884] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+    [7885] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+    [7886] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+    [7887] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
     -- The Darkmoon Faire (7905)
     [7905] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
 

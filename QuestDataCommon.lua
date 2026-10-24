@@ -2126,11 +2126,29 @@ addon.quests = {
     -- Arena Master
     [7810] = { threat = "HIGH", reason = "PvP quest. The Arena Master trinket comes from the timed chest on the Gurubashi Arena floor, where other players can contest it. Check for rivals before entering and skip the chest if the arena is contested.", confidence = "medium" },
 
+    -- Arena Grandmaster
+    [7838] = { threat = "EXTREME", reason = "PvP quest. Collect 12 Arena Master trinkets from the timed Gurubashi Arena chest; the floor is a free-for-all where players can attack you. This repeated PvP exposure is especially dangerous on Hardcore; skip the quest if you cannot secure the chest without fighting.", confidence = "medium" },
+
     -- Attunement to the Core
     [7848] = { threat = "EXTREME", reason = "Elite quest. Requires entering Blackrock Depths to recover a Core Fragment near the Molten Core entrance, deep inside the dungeon. BRD is a level 52-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo. Note: the quest ID 7487 is also active; both are Classic Era versions.", confidence = "high" },
 
     -- The Treasure of the Shen'dralar
     [7877] = { threat = "LOW", reason = "Dungeon interaction step with no combat. The treasure is in the Athenaeum after completing The Madness Within. Safe if you stay in the area.", confidence = "high" },
+
+    -- Carnival Boots
+    [7881] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+
+    -- Carnival Jerkins
+    [7882] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+
+    -- The World's Largest Gnome!
+    [7883] = { threat = "LOW", reason = "Turn in three Barbaric Harnesses at the Darkmoon Faire for prize tickets. This crafting-material hand-in adds no combat beyond obtaining the items.", confidence = "medium" },
+
+    -- Crocolisk Boy and the Bearded Murloc
+    [7884] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
+
+    -- Armor Kits
+    [7885] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
 
     -- Darkmoon Beast Deck
     [7907] = { threat = "LOW", reason = "Turn-in step with no combat. The deck is assembled from cards found worldwide. Safe if you stay in the area.", confidence = "high" },
