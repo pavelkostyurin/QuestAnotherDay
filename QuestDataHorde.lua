@@ -2520,10 +2520,10 @@ local quests = {
     [5663] = { threat = "LOW", reason = "Complete the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "medium" },
 
     -- Devouring Plague
-    [5679] = { threat = "LOW", reason = "Final step of the Devouring Plague chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5679] = { threat = "LOW", reason = "Complete the Devouring Plague spell-training conversation with Aelthalyste in Undercity. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Shadowguard
-    [5680] = { threat = "LOW", reason = "Final step of the Shadowguard chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5680] = { threat = "LOW", reason = "Complete the Shadowguard spell-training conversation with Ur’kyo in Orgrimmar. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Searching for the Lost Satchel
     [5722] = { threat = "HIGH", reason = "Ragefire Chasm is a level 13-18 dungeon beneath Orgrimmar filled with elite troggs, cultists, and demons. While it is one of the easier dungeons, it still requires a full group of level 13+. The satchel is deep inside, past multiple packs of elites. Do not attempt solo.", confidence = "high" },
@@ -2538,58 +2538,58 @@ local quests = {
     [5725] = { threat = "HIGH", reason = "Jergosh is a level 16 elite orc warlock who summons Voidwalkers. Bazzalan is a level 16 elite satyr who hits hard and has a poison. Both are dungeon bosses that require a full group of level 15+. Do not attempt solo.", confidence = "high" },
 
     -- Hidden Enemies
-    [5726] = { threat = "EXTREME", reason = "While Ragefire Chasm is considered one of the easier dungeons in Classic, it is still a dungeon filled with elites and requires a full group of 5. The quest chain begins with Skull Rock, the cave east of Orgrimmar that is statistically the deadliest Horde location in Classic Hardcore. Do not attempt without a coordinated group.", confidence = "high" },
+    [5726] = { threat = "HIGH", reason = "Find a Lieutenant’s Insignia from Burning Blade enemies in Skull Rock and take it to Thrall. The cave is cramped, contains hostile casters and a dangerous named elite, and the insignia may take repeated kills; clear the entrance area and leave before fatigue or adds make the cave unsafe.", confidence = "medium" },
 
     -- Hidden Enemies
-    [5727] = { threat = "HIGH", reason = "This requires a full group of level 15+. Do not attempt solo.", confidence = "high" },
+    [5727] = { threat = "LOW", reason = "Take the insignia to Neeru Fireblade in Orgrimmar, speak with him, then report back to Thrall. This is dialogue in the city and adds no combat.", confidence = "medium" },
 
     -- Hidden Enemies
     [5728] = { threat = "HIGH", reason = "The quest leads deeper into Ragefire Chasm. Full group of level 15+ required.", confidence = "high" },
 
     -- Hidden Enemies
-    [5729] = { threat = "HIGH", reason = "The quest leads into Ragefire Chasm. Full group required.", confidence = "high" },
+    [5729] = { threat = "LOW", reason = "Speak with Neeru Fireblade in the Cleft of Shadow. This is a dialogue step and adds no combat.", confidence = "medium" },
 
     -- Hidden Enemies
-    [5730] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5730] = { threat = "LOW", reason = "Report what you learned to Thrall in Orgrimmar. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Slaying the Beast
     [5761] = { threat = "EXTREME", reason = "Taragaman is a level 16 elite felhound who hits extremely hard and has a fire-based attack. He is a dungeon boss that requires a full group of level 15+. Do not attempt solo.", confidence = "high" },
 
     -- Hunting in Stranglethorn
-    [5763] = { threat = "MEDIUM", reason = "The mobs are levels 30-36 and are aggressive. The tigers and panthers are stealth mobs that can ambush you while fighting other mobs. Fight in open areas and check for prowling cats between pulls. Do not attempt below level 30 solo.", confidence = "high" },
+    [5763] = { threat = "LOW", reason = "Deliver Roon’s Kodo Horn to Hemet Nesingwary in Stranglethorn. This delivery adds no combat; the hunting mobs in the previous warning are not targets for this step.", confidence = "medium" },
 
     -- Fire Plume Forged
-    [5802] = { threat = "HIGH", reason = "The path up the volcano is patrolled by level 50-56 fire elementals, and the lake of fire itself is home to Blazerunner, a level 56 elite elemental who knocks you into the lava if you aggro him. The fall or the lava will kill you. Stand at the south shore (48, 48) to forge the key and avoid the elite. Do not attempt without fire resistance or a group.", confidence = "high" },
+    [5802] = { threat = "HIGH", reason = "Take the mold and thorium bars to the lava lake atop Fire Plume Ridge, forge the key, then deliver it to Apothecary Dithers. Fire elementals occupy the ridge and lava makes the interaction area hazardous; avoid Blazerunner and keep clear of the lava edge.", confidence = "medium" },
 
     -- Araj's Scarab
-    [5804] = { threat = "EXTREME", reason = "Araj is surrounded by packs of undead that all aggro when you pull him, and he summons ghost hounds during the fight. A level 60 paladin in full plate died here after clearing the area because 8 mobs respawned and joined the fight. Even with a group, this is one of the deadliest outdoor encounters in the Plaguelands. Bring a full party of level 60+ and clear the entire square before engaging.", confidence = "high" },
+    [5804] = { threat = "HIGH", reason = "Kill Araj the Summoner in the center of Andorhal and loot his scarab. Araj is a powerful elite surrounded by Scourge; clear a route, pull him away from nearby groups if possible, and bring a suitable party rather than relying on death-run tactics.", confidence = "medium" },
 
     -- Welcome!
-    [5843] = { threat = "LOW", reason = "Bring the Coldridge Valley Gift Voucher to Yori Crackhelm in Coldridge Valley. This is a dialogue and reward step with no combat. Safe if you stay in the starting zone.", confidence = "high" },
+    [5843] = { threat = "LOW", reason = "Deliver the Valley of Trials Gift Voucher to Magga. This starter-zone hand-in adds no combat.", confidence = "medium" },
 
     -- Welcome!
-    [5844] = { threat = "LOW", reason = "Bring the Deathknell Gift Voucher to Claire Willower in Deathknell. Dialogue and reward step with no combat. Safe if you stay in the starting zone.", confidence = "high" },
+    [5844] = { threat = "LOW", reason = "Deliver the Camp Narache Gift Voucher to Vorn Skyseer. This starter-zone hand-in adds no combat.", confidence = "medium" },
 
     -- Welcome!
-    [5847] = { threat = "LOW", reason = "Bring the Mulgore Gift Voucher to the NPC in Bloodhoof Village. Dialogue and reward step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [5847] = { threat = "LOW", reason = "Deliver the Deathknell Gift Voucher to Claire Willower. This starter-zone hand-in adds no combat.", confidence = "medium" },
 
     -- Calling in the Reserves
-    [5881] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5881] = { threat = "LOW", reason = "Deliver Maggran’s letter to Grish Longrunner at the Great Lift. This delivery adds no combat; use the road and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Salve via Hunting
-    [5887] = { threat = "LOW", reason = "Kill creatures in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The mobs are levels 48-52. This is a grind quest with moderate risk. Safe if you pull singles and avoid elite areas.", confidence = "medium" },
+    [5887] = { threat = "MEDIUM", reason = "Kill Felwood beasts while carrying a Cenarion Beacon and collect six Corrupted Soul Shards, then trade them for plant salves. This requires repeated combat in hostile territory; isolate pulls and recover between fights.", confidence = "medium" },
 
     -- Salve via Mining
-    [5888] = { threat = "LOW", reason = "Mine nodes in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The nodes are in contested areas with hostile mobs. Safe if you clear the area before mining.", confidence = "medium" },
+    [5888] = { threat = "MEDIUM", reason = "Collect four Tainted Vitriol while mining in Felwood and exchange it for plant salves. Mining exposes you around hostile creatures; choose clear nodes and avoid lingering if enemies approach.", confidence = "medium" },
 
     -- Salve via Gathering
-    [5889] = { threat = "LOW", reason = "Gather herbs in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The herbs are in contested areas with hostile mobs. Safe if you clear the area before gathering.", confidence = "medium" },
+    [5889] = { threat = "MEDIUM", reason = "Collect four Fel Creep while gathering herbs in Felwood and exchange it for plant salves. Nearby hostile creatures can interrupt gathering; choose clear nodes and keep a retreat route.", confidence = "medium" },
 
     -- Salve via Skinning
-    [5890] = { threat = "LOW", reason = "Skin creatures in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The mobs are levels 48-52. Safe if you pull singles.", confidence = "medium" },
+    [5890] = { threat = "MEDIUM", reason = "Collect five Patches of Tainted Skin while skinning beasts in Felwood and exchange them for plant salves. The quest involves repeated fights with local wildlife; pull carefully and avoid nearby patrols.", confidence = "medium" },
 
     -- Salve via Disenchanting
-    [5891] = { threat = "LOW", reason = "Disenchant items and use the Cenarion Plant Salve to cleanse corrupted plants. No combat required beyond the disenchanting. Safe if you stay in a safe area.", confidence = "medium" },
+    [5891] = { threat = "LOW", reason = "Exchange a Lesser Nether Essence for Cenarion Plant Salve. This is a safe item hand-in and adds no combat if you already have the essence.", confidence = "medium" },
 
     -- Coldtooth Supplies
     [5893] = { threat = "MEDIUM", reason = "The mine is contested territory in a battleground, patrolled by Alliance players and underground denizens. The supplies are in boxes scattered throughout the mine. Clear the area before looting and watch for enemy players. Do not attempt solo in a live AV match.", confidence = "high" },

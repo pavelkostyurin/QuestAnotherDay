@@ -7302,19 +7302,19 @@ addon.quests = {
 
     -- Arcane Feedback (5677)
     [5676] = { threat = "LOW", reason = "Speak with the human priest trainer to learn Arcane Feedback. This is a city spell-training conversation and adds no combat.", confidence = "medium" },
-    [5677] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5677] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Arcane Feedback. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Arcane Feedback (5678)
-    [5678] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5678] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Arcane Feedback. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Devouring Plague (Horde - Priest)
-    [5679] = { threat = "LOW", reason = "Final step of the Devouring Plague chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5679] = { threat = "LOW", reason = "Complete the Devouring Plague spell-training conversation with Aelthalyste in Undercity. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Shadowguard (Horde - Priest)
-    [5680] = { threat = "LOW", reason = "Final step of the Shadowguard chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5680] = { threat = "LOW", reason = "Complete the Shadowguard spell-training conversation with Ur’kyo in Orgrimmar. This city turn-in adds no combat.", confidence = "medium" },
 
     -- One Shot. One Kill.
-    [5713] = { threat = "MEDIUM", reason = "Defense quest. Aynasha is poisoned and cannot move; you must protect her from waves of Blackwood furbolgs (levels 14-16, non-elite) while she prepares an antidote. A level 15 night elf priest reported it was impossible solo due to 5 furbolgs aggroing in quick succession with little room to maneuver, but a level 18 druid and a level 18 rogue soloed it easily. Use the time between waves to drink. Do not attempt below level 17 solo without a plan.", confidence = "high" },
+    [5713] = { threat = "MEDIUM", reason = "Protect Sentinel Aynasha while she prepares an antidote, then report to Onaeya. Several waves of furbolgs attack in quick succession; stay near Aynasha, focus one attacker at a time, and recover during pauses.", confidence = "medium" },
 
     -- The Battle of Darrowshire
     [5721] = { threat = "HIGH", reason = "Elite defense event. You must protect Davil Lightfire and Captain Redpath through waves of Scourge, then defeat Redpath the Corrupted when he appears. The event spawns elites and requires coordinated crowd control. A full group of level 55+ is recommended. Do not attempt solo.", confidence = "high" },
@@ -7332,108 +7332,114 @@ addon.quests = {
     [5725] = { threat = "HIGH", reason = "Jergosh is a level 16 elite orc warlock who summons Voidwalkers. Bazzalan is a level 16 elite satyr who hits hard and has a poison. Both are dungeon bosses that require a full group of level 15+. Do not attempt solo.", confidence = "high" },
 
     -- Hidden Enemies (Orgrimmar -> Ragefire Chasm)
-    [5726] = { threat = "EXTREME", reason = "While Ragefire Chasm is considered one of the easier dungeons in Classic, it is still a dungeon filled with elites and requires a full group of 5. The quest chain begins with Skull Rock, the cave east of Orgrimmar that is statistically the deadliest Horde location in Classic Hardcore. Do not attempt without a coordinated group.", confidence = "high" },
+    [5726] = { threat = "HIGH", reason = "Find a Lieutenant’s Insignia from Burning Blade enemies in Skull Rock and take it to Thrall. The cave is cramped, contains hostile casters and a dangerous named elite, and the insignia may take repeated kills; clear the entrance area and leave before fatigue or adds make the cave unsafe.", confidence = "medium" },
 
     -- Hidden Enemies (Horde - Ragefire Chasm)
-    [5727] = { threat = "HIGH", reason = "This requires a full group of level 15+. Do not attempt solo.", confidence = "high" },
+    [5727] = { threat = "LOW", reason = "Take the insignia to Neeru Fireblade in Orgrimmar, speak with him, then report back to Thrall. This is dialogue in the city and adds no combat.", confidence = "medium" },
 
     -- Hidden Enemies (Horde - Ragefire Chasm)
     [5728] = { threat = "HIGH", reason = "The quest leads deeper into Ragefire Chasm. Full group of level 15+ required.", confidence = "high" },
 
     -- Hidden Enemies (Horde - Ragefire Chasm)
-    [5729] = { threat = "HIGH", reason = "The quest leads into Ragefire Chasm. Full group required.", confidence = "high" },
+    [5729] = { threat = "LOW", reason = "Speak with Neeru Fireblade in the Cleft of Shadow. This is a dialogue step and adds no combat.", confidence = "medium" },
 
     -- Hidden Enemies (Horde - Orgrimmar)
-    [5730] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5730] = { threat = "LOW", reason = "Report what you learned to Thrall in Orgrimmar. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Sceptre of Light (Swamp of Sorrows)
-    [5741] = { threat = "MEDIUM", reason = "The sceptre is guarded by level 35-40 mobs, including lost ones and swamp creatures. The swamp is dense and patrolled. Clear the area before looting.", confidence = "medium" },
+    [5741] = { threat = "MEDIUM", reason = "Recover the Sceptre of Light from a Burning Blade seer at the top of a watchtower inside Thunder Axe Fortress. The tower and fortress contain several hostile guards; pull enemies one at a time and be prepared for multiple defenders near the top.", confidence = "medium" },
 
     -- Redemption (Swamp of Sorrows)
-    [5742] = { threat = "MEDIUM", reason = "The quest leads to a summoning ritual with combat. The spirit hits hard and has adds. Clear the area before starting the ritual and be ready for a fight.", confidence = "medium" },
+    [5742] = { threat = "LOW", reason = "Listen to Tirion Fordring’s story at his camp. This is a dialogue step and adds no combat.", confidence = "medium" },
 
     -- Slaying the Beast (Horde - Ragefire Chasm)
     [5761] = { threat = "EXTREME", reason = "Taragaman is a level 16 elite felhound who hits extremely hard and has a fire-based attack. He is a dungeon boss that requires a full group of level 15+. Do not attempt solo.", confidence = "high" },
 
     -- Hemet Nesingwary
-    [5762] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5762] = { threat = "LOW", reason = "Take Kravel’s Crate to Hemet Nesingwary in Stranglethorn. The delivery adds no combat; avoid unnecessary pulls on the route.", confidence = "medium" },
 
     -- Hunting in Stranglethorn (Horde - Stranglethorn Vale)
-    [5763] = { threat = "MEDIUM", reason = "The mobs are levels 30-36 and are aggressive. The tigers and panthers are stealth mobs that can ambush you while fighting other mobs. Fight in open areas and check for prowling cats between pulls. Do not attempt below level 30 solo.", confidence = "high" },
+    [5763] = { threat = "LOW", reason = "Deliver Roon’s Kodo Horn to Hemet Nesingwary in Stranglethorn. This delivery adds no combat; the hunting mobs in the previous warning are not targets for this step.", confidence = "medium" },
 
     -- Of Forgotten Memories
-    [5781] = { threat = "MEDIUM", reason = "Taelan's Hammer is in the Undercroft in the Eastern Plaguelands, patrolled by level 55-58 Scourge mobs. The area is dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5781] = { threat = "MEDIUM", reason = "Recover Taelan’s Hammer from the Undercroft in the Eastern Plaguelands. Hostile Scourge occupy the ruins and can add while you search; clear nearby enemies and keep an exit route.", confidence = "medium" },
 
     -- Fire Plume Forged
-    [5801] = { threat = "HIGH", reason = "Requires taking the Skeleton Key Mold to the top of Fire Plume Ridge in Un'Goro and using it at the lava lake. The ridge is patrolled by level 50-56 fire elementals and lava creatures, and Blazerunner (a level 58 elite elemental) patrols the summit. A level 56 hunter soloed this by avoiding the elite, but the lava and elementals are deadly. Do not attempt below level 52 solo without a plan to avoid the elite.", confidence = "high" },
+    [5801] = { threat = "HIGH", reason = "Take the Skeleton Key Mold and thorium bars to the lava lake atop Fire Plume Ridge, forge the unfinished key, then deliver it to Alchemist Arbington. Fire elementals occupy the ridge and lava makes the interaction area hazardous; avoid Blazerunner and keep clear of the lava edge.", confidence = "medium" },
 
     -- Fire Plume Forged (Skeleton Key chain)
-    [5802] = { threat = "HIGH", reason = "The path up the volcano is patrolled by level 50-56 fire elementals, and the lake of fire itself is home to Blazerunner, a level 56 elite elemental who knocks you into the lava if you aggro him. The fall or the lava will kill you. Stand at the south shore (48, 48) to forge the key and avoid the elite. Do not attempt without fire resistance or a group.", confidence = "high" },
+    [5802] = { threat = "HIGH", reason = "Take the mold and thorium bars to the lava lake atop Fire Plume Ridge, forge the key, then deliver it to Apothecary Dithers. Fire elementals occupy the ridge and lava makes the interaction area hazardous; avoid Blazerunner and keep clear of the lava edge.", confidence = "medium" },
 
     -- Araj's Scarab
-    [5803] = { threat = "EXTREME", reason = "Araj the Summoner is a level 61 elite lich in the heart of Andorhal, surrounded by 4 adds (levels 57-60). The standard strategy involves pulling him away from his spawn point so the adds do not interfere, or accepting death as a tactic — kill Araj, die, run back, and loot the scarab before respawns. A level 62 player and a 61 priest died multiple times attempting this. Do not attempt solo at the intended level without a specific pet-pull or kiting strategy. Skip on Hardcore unless heavily overleveled.", confidence = "high" },
+    [5803] = { threat = "HIGH", reason = "Kill Araj the Summoner in the center of Andorhal and loot his scarab. Araj is a powerful elite surrounded by Scourge; clear a route, pull him away from nearby groups if possible, and bring a suitable party rather than relying on death-run tactics.", confidence = "medium" },
 
     -- Araj's Scarab (Scholomance Key chain)
-    [5804] = { threat = "EXTREME", reason = "Araj is surrounded by packs of undead that all aggro when you pull him, and he summons ghost hounds during the fight. A level 60 paladin in full plate died here after clearing the area because 8 mobs respawned and joined the fight. Even with a group, this is one of the deadliest outdoor encounters in the Plaguelands. Bring a full party of level 60+ and clear the entire square before engaging.", confidence = "high" },
+    [5804] = { threat = "HIGH", reason = "Kill Araj the Summoner in the center of Andorhal and loot his scarab. Araj is a powerful elite surrounded by Scourge; clear a route, pull him away from nearby groups if possible, and bring a suitable party rather than relying on death-run tactics.", confidence = "medium" },
 
     -- Welcome! (Northshire)
-    [5805] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5805] = { threat = "LOW", reason = "Deliver the Northshire Gift Voucher to Merissa Stilwell. This is a city hand-in and adds no combat.", confidence = "medium" },
 
     -- Bodyguard for Hire
-    [5821] = { threat = "MEDIUM", reason = "Escort quest. The Gizelton Caravan must be protected past the Kolkar Centaur village in Desolace. The centaurs are levels 32-36 and pull in groups. The caravan moves slowly and can be attacked. Do not attempt below level 32 solo without a plan to clear the path ahead.", confidence = "medium" },
+    [5821] = { threat = "MEDIUM", reason = "Escort the Gizelton caravan past the Kolkar centaur village and speak with Smeed afterward. Centaurs can attack the caravan and nearby patrols may join; clear the route ahead and stay close enough to respond.", confidence = "medium" },
 
     -- Welcome! (Coldridge)
-    [5841] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5841] = { threat = "LOW", reason = "Deliver the Coldridge Valley Gift Voucher to Yori Crackhelm. This is a starter-zone hand-in and adds no combat.", confidence = "medium" },
 
     -- Welcome! (Shadowglen)
-    [5842] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5842] = { threat = "LOW", reason = "Deliver the Shadowglen Gift Voucher to Orenthil Whisperwind. This is a starter-zone hand-in and adds no combat.", confidence = "medium" },
 
     -- Welcome! (Collector's Edition - Dun Morogh)
-    [5843] = { threat = "LOW", reason = "Bring the Coldridge Valley Gift Voucher to Yori Crackhelm in Coldridge Valley. This is a dialogue and reward step with no combat. Safe if you stay in the starting zone.", confidence = "high" },
+    [5843] = { threat = "LOW", reason = "Deliver the Valley of Trials Gift Voucher to Magga. This starter-zone hand-in adds no combat.", confidence = "medium" },
 
     -- Welcome! (Collector's Edition - Tirisfal)
-    [5844] = { threat = "LOW", reason = "Bring the Deathknell Gift Voucher to Claire Willower in Deathknell. Dialogue and reward step with no combat. Safe if you stay in the starting zone.", confidence = "high" },
+    [5844] = { threat = "LOW", reason = "Deliver the Camp Narache Gift Voucher to Vorn Skyseer. This starter-zone hand-in adds no combat.", confidence = "medium" },
 
     -- Of Lost Honor
-    [5845] = { threat = "MEDIUM", reason = "The Symbol of Lost Honor is in Northdale in the Eastern Plaguelands, patrolled by level 55-58 Scourge mobs. The area is dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5845] = { threat = "MEDIUM", reason = "Recover the Symbol of Lost Honor in Northdale, Eastern Plaguelands. Hostile Scourge occupy the area; search from a cleared edge and keep room to retreat.", confidence = "medium" },
 
     -- Of Love and Family (Caer Darrow)
-    [5846] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Caer Darrow is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5846] = { threat = "LOW", reason = "Search the island of Caer Darrow for clues about the painting. This exploration adds no required combat; avoid nearby Scourge and leave if enemies approach.", confidence = "medium" },
 
     -- Welcome! (Collector's Edition - Mulgore)
-    [5847] = { threat = "LOW", reason = "Bring the Mulgore Gift Voucher to the NPC in Bloodhoof Village. Dialogue and reward step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [5847] = { threat = "LOW", reason = "Deliver the Deathknell Gift Voucher to Claire Willower. This starter-zone hand-in adds no combat.", confidence = "medium" },
 
     -- Of Love and Family (Stratholme)
     [5848] = { threat = "HIGH", reason = "Requires entering Stratholme to find a painting in the Scarlet Bastion. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Find Myranda
-    [5861] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Uther's Tomb is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5861] = { threat = "LOW", reason = "Show Tirion’s gift to Myranda at Uther’s Tomb. This is a delivery and dialogue step; avoid nearby hostile creatures on the route.", confidence = "medium" },
 
     -- Scarlet Subterfuge
-    [5862] = { threat = "HIGH", reason = "Elite quest. You must travel to Hearthglen under the Scarlet Illusion and deliver Tirion's Gift to Highlord Taelan Fordring inside Mardenholde Keep. The illusion has a time limit and Hearthglen is filled with elite Scarlet Crusade mobs. If the illusion expires, you will be attacked. A full group or careful stealth is required. Do not attempt solo at the intended level.", confidence = "high" },
+    [5862] = { threat = "HIGH", reason = "Speak with Myranda to gain the Scarlet Illusion, then carry Tirion’s Gift through hostile Hearthglen to Highlord Taelan in Mardenholde Keep. The disguise allows passage but expires; use a direct route, avoid combat, and leave if it wears off before you reach safety.", confidence = "medium" },
 
     -- The Dunemaul Compound
-    [5863] = { threat = "MEDIUM", reason = "Dunemaul Brutes and Enforcers are levels 45-48 in the Dunemaul Compound in Tanaris. They pull in groups and Gor'marok the Ravager is a named mob with guards. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [5863] = { threat = "MEDIUM", reason = "Kill Dunemaul brutes and enforcers in Tanaris and defeat Gor’marok the Ravager. The camp is hostile and the named target may have nearby guards; pull from the edge and avoid drawing several enemies together.", confidence = "medium" },
 
     -- Calling in the Reserves (Stonetalon -> Barrens)
-    [5881] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5881] = { threat = "LOW", reason = "Deliver Maggran’s letter to Grish Longrunner at the Great Lift. This delivery adds no combat; use the road and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Salve via Hunting (Felwood)
-    [5887] = { threat = "LOW", reason = "Kill creatures in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The mobs are levels 48-52. This is a grind quest with moderate risk. Safe if you pull singles and avoid elite areas.", confidence = "medium" },
+    [5882] = { threat = "MEDIUM", reason = "Kill Felwood beasts while carrying a Cenarion Beacon and collect six Corrupted Soul Shards, then trade them for plant salves. This requires repeated combat in hostile territory; isolate pulls and recover between fights.", confidence = "medium" },
+    [5883] = { threat = "MEDIUM", reason = "Collect four Tainted Vitriol while mining in Felwood and exchange it for plant salves. Mining exposes you around hostile creatures; choose clear nodes and avoid lingering if enemies approach.", confidence = "medium" },
+    [5884] = { threat = "MEDIUM", reason = "Collect four Fel Creep while gathering herbs in Felwood and exchange it for plant salves. Nearby hostile creatures can interrupt gathering; choose clear nodes and keep a retreat route.", confidence = "medium" },
+    [5885] = { threat = "MEDIUM", reason = "Collect five Patches of Tainted Skin while skinning beasts in Felwood and exchange them for plant salves. The quest involves repeated fights with local wildlife; pull carefully and avoid nearby patrols.", confidence = "medium" },
+    [5886] = { threat = "LOW", reason = "Exchange a Lesser Nether Essence for Cenarion Plant Salve. This is a safe item hand-in and adds no combat if you already have the essence.", confidence = "medium" },
+    [5887] = { threat = "MEDIUM", reason = "Kill Felwood beasts while carrying a Cenarion Beacon and collect six Corrupted Soul Shards, then trade them for plant salves. This requires repeated combat in hostile territory; isolate pulls and recover between fights.", confidence = "medium" },
 
     -- Salve via Mining (Felwood)
-    [5888] = { threat = "LOW", reason = "Mine nodes in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The nodes are in contested areas with hostile mobs. Safe if you clear the area before mining.", confidence = "medium" },
+    [5888] = { threat = "MEDIUM", reason = "Collect four Tainted Vitriol while mining in Felwood and exchange it for plant salves. Mining exposes you around hostile creatures; choose clear nodes and avoid lingering if enemies approach.", confidence = "medium" },
 
     -- Salve via Gathering (Felwood)
-    [5889] = { threat = "LOW", reason = "Gather herbs in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The herbs are in contested areas with hostile mobs. Safe if you clear the area before gathering.", confidence = "medium" },
+    [5889] = { threat = "MEDIUM", reason = "Collect four Fel Creep while gathering herbs in Felwood and exchange it for plant salves. Nearby hostile creatures can interrupt gathering; choose clear nodes and keep a retreat route.", confidence = "medium" },
 
     -- Salve via Skinning (Felwood)
-    [5890] = { threat = "LOW", reason = "Skin creatures in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The mobs are levels 48-52. Safe if you pull singles.", confidence = "medium" },
+    [5890] = { threat = "MEDIUM", reason = "Collect five Patches of Tainted Skin while skinning beasts in Felwood and exchange them for plant salves. The quest involves repeated fights with local wildlife; pull carefully and avoid nearby patrols.", confidence = "medium" },
 
     -- Salve via Disenchanting (Felwood)
-    [5891] = { threat = "LOW", reason = "Disenchant items and use the Cenarion Plant Salve to cleanse corrupted plants. No combat required beyond the disenchanting. Safe if you stay in a safe area.", confidence = "medium" },
+    [5891] = { threat = "LOW", reason = "Exchange a Lesser Nether Essence for Cenarion Plant Salve. This is a safe item hand-in and adds no combat if you already have the essence.", confidence = "medium" },
 
     -- Coldtooth Supplies (Alterac Valley)
+    [5892] = { threat = "MEDIUM", reason = "Enter Irondeep Mine in Alterac Valley and collect ten supply crates for the Alliance quartermaster. Troggs guard the mine, and the battleground’s shifting control can add player threats; enter with a group and leave if the fight moves into the mine.", confidence = "medium" },
     [5893] = { threat = "MEDIUM", reason = "The mine is contested territory in a battleground, patrolled by Alliance players and underground denizens. The supplies are in boxes scattered throughout the mine. Clear the area before looting and watch for enemy players. Do not attempt solo in a live AV match.", confidence = "high" },
 
     -- A Plague Upon Thee (Horde - Western Plaguelands)

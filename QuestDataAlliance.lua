@@ -3357,28 +3357,46 @@ local quests = {
     [5676] = { threat = "LOW", reason = "Speak with the human priest trainer to learn Arcane Feedback. This is a city spell-training conversation and adds no combat.", confidence = "medium" },
 
     -- Arcane Feedback
-    [5677] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5677] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Arcane Feedback. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Arcane Feedback
-    [5678] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5678] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Arcane Feedback. This city turn-in adds no combat.", confidence = "medium" },
 
     -- One Shot. One Kill.
-    [5713] = { threat = "MEDIUM", reason = "Defense quest. Aynasha is poisoned and cannot move; you must protect her from waves of Blackwood furbolgs (levels 14-16, non-elite) while she prepares an antidote. A level 15 night elf priest reported it was impossible solo due to 5 furbolgs aggroing in quick succession with little room to maneuver, but a level 18 druid and a level 18 rogue soloed it easily. Use the time between waves to drink. Do not attempt below level 17 solo without a plan.", confidence = "high" },
+    [5713] = { threat = "MEDIUM", reason = "Protect Sentinel Aynasha while she prepares an antidote, then report to Onaeya. Several waves of furbolgs attack in quick succession; stay near Aynasha, focus one attacker at a time, and recover during pauses.", confidence = "medium" },
 
     -- Fire Plume Forged
-    [5801] = { threat = "HIGH", reason = "Requires taking the Skeleton Key Mold to the top of Fire Plume Ridge in Un'Goro and using it at the lava lake. The ridge is patrolled by level 50-56 fire elementals and lava creatures, and Blazerunner (a level 58 elite elemental) patrols the summit. A level 56 hunter soloed this by avoiding the elite, but the lava and elementals are deadly. Do not attempt below level 52 solo without a plan to avoid the elite.", confidence = "high" },
+    [5801] = { threat = "HIGH", reason = "Take the Skeleton Key Mold and thorium bars to the lava lake atop Fire Plume Ridge, forge the unfinished key, then deliver it to Alchemist Arbington. Fire elementals occupy the ridge and lava makes the interaction area hazardous; avoid Blazerunner and keep clear of the lava edge.", confidence = "medium" },
 
     -- Araj's Scarab
-    [5803] = { threat = "EXTREME", reason = "Araj the Summoner is a level 61 elite lich in the heart of Andorhal, surrounded by 4 adds (levels 57-60). The standard strategy involves pulling him away from his spawn point so the adds do not interfere, or accepting death as a tactic — kill Araj, die, run back, and loot the scarab before respawns. A level 62 player and a 61 priest died multiple times attempting this. Do not attempt solo at the intended level without a specific pet-pull or kiting strategy. Skip on Hardcore unless heavily overleveled.", confidence = "high" },
+    [5803] = { threat = "HIGH", reason = "Kill Araj the Summoner in the center of Andorhal and loot his scarab. Araj is a powerful elite surrounded by Scourge; clear a route, pull him away from nearby groups if possible, and bring a suitable party rather than relying on death-run tactics.", confidence = "medium" },
 
     -- Welcome!
-    [5805] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5805] = { threat = "LOW", reason = "Deliver the Northshire Gift Voucher to Merissa Stilwell. This is a city hand-in and adds no combat.", confidence = "medium" },
 
     -- Welcome!
-    [5841] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5841] = { threat = "LOW", reason = "Deliver the Coldridge Valley Gift Voucher to Yori Crackhelm. This is a starter-zone hand-in and adds no combat.", confidence = "medium" },
 
     -- Welcome!
-    [5842] = { threat = "LOW", reason = "Collector's Edition delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5842] = { threat = "LOW", reason = "Deliver the Shadowglen Gift Voucher to Orenthil Whisperwind. This is a starter-zone hand-in and adds no combat.", confidence = "medium" },
+
+    -- Salve via Hunting
+    [5882] = { threat = "MEDIUM", reason = "Kill Felwood beasts while carrying a Cenarion Beacon and collect six Corrupted Soul Shards, then trade them for plant salves. This requires repeated combat in hostile territory; isolate pulls and recover between fights.", confidence = "medium" },
+
+    -- Salve via Mining
+    [5883] = { threat = "MEDIUM", reason = "Collect four Tainted Vitriol while mining in Felwood and exchange it for plant salves. Mining exposes you around hostile creatures; choose clear nodes and avoid lingering if enemies approach.", confidence = "medium" },
+
+    -- Salve via Gathering
+    [5884] = { threat = "MEDIUM", reason = "Collect four Fel Creep while gathering herbs in Felwood and exchange it for plant salves. Nearby hostile creatures can interrupt gathering; choose clear nodes and keep a retreat route.", confidence = "medium" },
+
+    -- Salve via Skinning
+    [5885] = { threat = "MEDIUM", reason = "Collect five Patches of Tainted Skin while skinning beasts in Felwood and exchange them for plant salves. The quest involves repeated fights with local wildlife; pull carefully and avoid nearby patrols.", confidence = "medium" },
+
+    -- Salve via Disenchanting
+    [5886] = { threat = "LOW", reason = "Exchange a Lesser Nether Essence for Cenarion Plant Salve. This is a safe item hand-in and adds no combat if you already have the essence.", confidence = "medium" },
+
+    -- Irondeep Supplies
+    [5892] = { threat = "MEDIUM", reason = "Enter Irondeep Mine in Alterac Valley and collect ten supply crates for the Alliance quartermaster. Troggs guard the mine, and the battleground’s shifting control can add player threats; enter with a group and leave if the fight moves into the mine.", confidence = "medium" },
 
     -- A Plague Upon Thee
     [5903] = { threat = "MEDIUM", reason = "Requires using the Empty Termite Jar on Termite Mounds in the Eastern Plaguelands and gathering 100 termites. The mounds are in Scourge territory, patrolled by level 55-58 mobs. Clear the area before interacting and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },

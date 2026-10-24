@@ -1743,37 +1743,37 @@ addon.quests = {
     [5721] = { threat = "HIGH", reason = "Elite defense event. You must protect Davil Lightfire and Captain Redpath through waves of Scourge, then defeat Redpath the Corrupted when he appears. The event spawns elites and requires coordinated crowd control. A full group of level 55+ is recommended. Do not attempt solo.", confidence = "high" },
 
     -- Sceptre of Light
-    [5741] = { threat = "MEDIUM", reason = "The sceptre is guarded by level 35-40 mobs, including lost ones and swamp creatures. The swamp is dense and patrolled. Clear the area before looting.", confidence = "medium" },
+    [5741] = { threat = "MEDIUM", reason = "Recover the Sceptre of Light from a Burning Blade seer at the top of a watchtower inside Thunder Axe Fortress. The tower and fortress contain several hostile guards; pull enemies one at a time and be prepared for multiple defenders near the top.", confidence = "medium" },
 
     -- Redemption
-    [5742] = { threat = "MEDIUM", reason = "The quest leads to a summoning ritual with combat. The spirit hits hard and has adds. Clear the area before starting the ritual and be ready for a fight.", confidence = "medium" },
+    [5742] = { threat = "LOW", reason = "Listen to Tirion Fordring’s story at his camp. This is a dialogue step and adds no combat.", confidence = "medium" },
 
     -- Hemet Nesingwary
-    [5762] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5762] = { threat = "LOW", reason = "Take Kravel’s Crate to Hemet Nesingwary in Stranglethorn. The delivery adds no combat; avoid unnecessary pulls on the route.", confidence = "medium" },
 
     -- Of Forgotten Memories
-    [5781] = { threat = "MEDIUM", reason = "Taelan's Hammer is in the Undercroft in the Eastern Plaguelands, patrolled by level 55-58 Scourge mobs. The area is dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5781] = { threat = "MEDIUM", reason = "Recover Taelan’s Hammer from the Undercroft in the Eastern Plaguelands. Hostile Scourge occupy the ruins and can add while you search; clear nearby enemies and keep an exit route.", confidence = "medium" },
 
     -- Bodyguard for Hire
-    [5821] = { threat = "MEDIUM", reason = "Escort quest. The Gizelton Caravan must be protected past the Kolkar Centaur village in Desolace. The centaurs are levels 32-36 and pull in groups. The caravan moves slowly and can be attacked. Do not attempt below level 32 solo without a plan to clear the path ahead.", confidence = "medium" },
+    [5821] = { threat = "MEDIUM", reason = "Escort the Gizelton caravan past the Kolkar centaur village and speak with Smeed afterward. Centaurs can attack the caravan and nearby patrols may join; clear the route ahead and stay close enough to respond.", confidence = "medium" },
 
     -- Of Lost Honor
-    [5845] = { threat = "MEDIUM", reason = "The Symbol of Lost Honor is in Northdale in the Eastern Plaguelands, patrolled by level 55-58 Scourge mobs. The area is dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5845] = { threat = "MEDIUM", reason = "Recover the Symbol of Lost Honor in Northdale, Eastern Plaguelands. Hostile Scourge occupy the area; search from a cleared edge and keep room to retreat.", confidence = "medium" },
 
     -- Of Love and Family
-    [5846] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Caer Darrow is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5846] = { threat = "LOW", reason = "Search the island of Caer Darrow for clues about the painting. This exploration adds no required combat; avoid nearby Scourge and leave if enemies approach.", confidence = "medium" },
 
     -- Of Love and Family
     [5848] = { threat = "HIGH", reason = "Requires entering Stratholme to find a painting in the Scarlet Bastion. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Find Myranda
-    [5861] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Uther's Tomb is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5861] = { threat = "LOW", reason = "Show Tirion’s gift to Myranda at Uther’s Tomb. This is a delivery and dialogue step; avoid nearby hostile creatures on the route.", confidence = "medium" },
 
     -- Scarlet Subterfuge
-    [5862] = { threat = "HIGH", reason = "Elite quest. You must travel to Hearthglen under the Scarlet Illusion and deliver Tirion's Gift to Highlord Taelan Fordring inside Mardenholde Keep. The illusion has a time limit and Hearthglen is filled with elite Scarlet Crusade mobs. If the illusion expires, you will be attacked. A full group or careful stealth is required. Do not attempt solo at the intended level.", confidence = "high" },
+    [5862] = { threat = "HIGH", reason = "Speak with Myranda to gain the Scarlet Illusion, then carry Tirion’s Gift through hostile Hearthglen to Highlord Taelan in Mardenholde Keep. The disguise allows passage but expires; use a direct route, avoid combat, and leave if it wears off before you reach safety.", confidence = "medium" },
 
     -- The Dunemaul Compound
-    [5863] = { threat = "MEDIUM", reason = "Dunemaul Brutes and Enforcers are levels 45-48 in the Dunemaul Compound in Tanaris. They pull in groups and Gor'marok the Ravager is a named mob with guards. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [5863] = { threat = "MEDIUM", reason = "Kill Dunemaul brutes and enforcers in Tanaris and defeat Gor’marok the Ravager. The camp is hostile and the named target may have nearby guards; pull from the edge and avoid drawing several enemies together.", confidence = "medium" },
 
     -- Return to Chromie
     [5941] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
