@@ -567,19 +567,19 @@ addon.quests = {
     [1393] = { threat = "MEDIUM", reason = "Escort quest. Enemies attack along Galen’s escape route, and a failed escort can require restarting. Clear ahead where possible and stay close enough to protect him.", confidence = "medium" },
 
     -- Jammal'an the Prophet
-    [1446] = { threat = "HIGH", reason = "Jammal'an is a powerful elite boss with mind-control abilities and adds. He is deep inside the dungeon, past multiple packs of elites. This requires a full group of 5 at level 50+. Solo is impossible.", confidence = "high" },
+    [1446] = { threat = "EXTREME", reason = "Dungeon quest. Jammal’an is a boss deep inside Sunken Temple, beyond packs of elites. Bring a suitable group or skip it on Hardcore.", confidence = "high" },
 
     -- Ziz Fizziks
-    [1483] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the Venture Co. camps.", confidence = "medium" },
+    [1483] = { threat = "LOW", reason = "This is a conversation at Windshear Crag and adds no required combat. Approach Ziz without drawing Venture Co. miners from nearby.", confidence = "medium" },
 
     -- Deviate Hides
-    [1486] = { threat = "HIGH", reason = "The hides drop from non-elite mobs outside the instance portal, but they are mixed in with elite mobs in the cave system. The drop rate is low, so you will need multiple clears. The outer caves respawn quickly and can trap you. Bring a group or be prepared to run.", confidence = "high" },
+    [1486] = { threat = "EXTREME", reason = "Dungeon quest. Twenty Deviate Hides must be collected from creatures inside Wailing Caverns, whose packs are elite for a character near the quest level. Bring a suitable group or skip it on Hardcore.", confidence = "high" },
 
     -- Deviate Eradication
-    [1487] = { threat = "HIGH", reason = "This quest requires killing named deviate mobs deep inside the dungeon. The instance is filled with level 17-22 elites. This requires a full group of 5 at the appropriate level. Solo is impossible.", confidence = "high" },
+    [1487] = { threat = "EXTREME", reason = "Dungeon quest. The required deviate creatures are inside Wailing Caverns among elite packs. Bring a suitable group or skip it on Hardcore.", confidence = "high" },
 
     -- Smart Drinks
-    [1491] = { threat = "HIGH", reason = "The oozes are deep inside the dungeon, past the entrance caves. While the outer cave mobs are non-elite in Classic Era, the instance proper is filled with level 17-22 elites. This requires a group. The drop rate is 100%, but reaching the oozes means fighting through elite mobs.", confidence = "high" },
+    [1491] = { threat = "MEDIUM", reason = "Wailing Essence also drops from non-elite Devouring Ectoplasms outside the instance. These can create a second ectoplasm, so fight with room to handle the extra enemy and avoid entering the dungeon alone.", confidence = "high" },
 
     -- Corrupted Windblossom
     [1514] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "medium" },

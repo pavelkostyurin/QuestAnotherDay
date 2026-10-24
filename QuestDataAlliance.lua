@@ -1869,91 +1869,91 @@ local quests = {
     [1398] = { threat = "LOW", reason = "Collecting driftwood involves no required combat. Use normal precautions around the hostile swamp coast and avoid nearby mobs.", confidence = "medium" },
 
     -- The Lost Caravan
-    [1421] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before approaching.", confidence = "medium" },
+    [1421] = { threat = "MEDIUM", reason = "The chest lies in the hostile Fallow Sanctuary, where nearby Lost Ones can add during the search. Clear a path and loot only when the area is controlled.", confidence = "medium" },
 
     -- The Lost Supplies
-    [1423] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before looting.", confidence = "medium" },
+    [1423] = { threat = "MEDIUM", reason = "The supply crate spawns in hostile parts of the Swamp of Sorrows among Lost Ones and other high-level wildlife. At the intended level, scout carefully and avoid fighting more than one enemy.", confidence = "medium" },
 
     -- Deliver the Shipment
-    [1425] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1425] = { threat = "MEDIUM", reason = "The delivery route crosses the Swamp of Sorrows and Blasted Lands, where hostile mobs can threaten a lower-level traveler. Stay on roads and avoid side camps.", confidence = "medium" },
 
     -- Vahlarriel's Search
-    [1437] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before approaching.", confidence = "medium" },
+    [1437] = { threat = "MEDIUM", reason = "The wagon is in a hostile area of Desolace, where centaurs and nearby wildlife can converge on the search. Clear around it before interacting.", confidence = "medium" },
 
     -- Vahlarriel's Search
-    [1438] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1438] = { threat = "MEDIUM", reason = "Dalinda is held inside Thunder Axe Fortress among hostile satyrs. Clear a route to her and avoid pulling multiple guards at once.", confidence = "medium" },
 
     -- Search for Tyranis
-    [1439] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1439] = { threat = "MEDIUM", reason = "Tyranis is inside Thunder Axe Fortress among hostile satyrs. Clear the approach and keep an escape route through the camp.", confidence = "medium" },
 
     -- Return to Vahlarriel
-    [1440] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1440] = { threat = "MEDIUM", reason = "Escort quest. Dalinda starts inside Thunder Axe Fortress, and hostile satyrs can attack during the walk out. Clear the route before starting and let her stop while you handle each threat.", confidence = "medium" },
 
     -- Seeking the Kor Gem
-    [1442] = { threat = "MEDIUM", reason = "The quest leads into naga territory. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1442] = { threat = "MEDIUM", reason = "The Corrupted Kor Gem can drop from naga in the ruins before the Blackfathom Deeps instance, so the instance is avoidable. Pull one naga at a time and leave if the hostile ruins become crowded.", confidence = "medium" },
 
     -- The Missing Diplomat
-    [1447] = { threat = "MEDIUM", reason = "The quest takes you through contested marsh territory. Stay alert for patrolling mobs and avoid pulling multiple groups.", confidence = "medium" },
+    [1447] = { threat = "MEDIUM", reason = "Dashel calls nearby thugs into the fight, turning the objective into a multi-enemy brawl. Start at full health and control the adds before focusing him.", confidence = "medium" },
 
     -- In Search of The Temple
-    [1448] = { threat = "MEDIUM", reason = "The quest leads through dense swamp terrain with patrolling mobs. Stay alert and avoid pulling multiple groups.", confidence = "medium" },
+    [1448] = { threat = "MEDIUM", reason = "Reaching the Sunken Temple takes travel through the Swamp of Sorrows and its hostile camps. Stay on roads and avoid exploring the ruins alone.", confidence = "medium" },
 
     -- To The Hinterlands
-    [1449] = { threat = "MEDIUM", reason = "The journey passes through contested zones, including the Plaguelands. Stay on the road and avoid the mob camps.", confidence = "medium" },
+    [1449] = { threat = "MEDIUM", reason = "The trip to Aerie Peak crosses hostile, contested wilderness. Keep to the roads and avoid troll camps along the way.", confidence = "medium" },
 
     -- Gryphon Master Talonaxe
-    [1450] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the troll and ogre camps.", confidence = "medium" },
+    [1450] = { threat = "LOW", reason = "This is a conversation inside the Wildhammer settlement at Aerie Peak and adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Rhapsody Shindigger
-    [1451] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the troll and ogre camps.", confidence = "medium" },
+    [1451] = { threat = "LOW", reason = "Rhapsody is in the Hinterlands; this is a travel and conversation step with no required combat. Use the road and avoid nearby troll camps.", confidence = "medium" },
 
     -- Rhapsody's Kalimdor Kocktail
-    [1452] = { threat = "MEDIUM", reason = "The quest leads into troll and ogre territory. Clear the area before looting.", confidence = "medium" },
+    [1452] = { threat = "MEDIUM", reason = "The ingredients come from wildlife across the Hinterlands and Feralas, including large apes and bears. Pull away from packs and leave elite or crowded areas alone.", confidence = "medium" },
 
     -- Reclaimers' Business in Desolace
-    [1453] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging.", confidence = "medium" },
+    [1453] = { threat = "LOW", reason = "This is a conversation at the Alliance settlement of Nijel’s Point and adds no combat. Stay within the outpost.", confidence = "medium" },
 
     -- The Karnitol Shipwreck
-    [1454] = { threat = "MEDIUM", reason = "The quest leads to the coast, which is patrolled by naga and murlocs. Clear the area before looting.", confidence = "medium" },
+    [1454] = { threat = "MEDIUM", reason = "The chest is on the Desolace coast near hostile giants and other shoreline mobs. Clear nearby enemies before searching the shore.", confidence = "medium" },
 
     -- The Karnitol Shipwreck
-    [1455] = { threat = "MEDIUM", reason = "The quest leads to a guarded coastal location. Clear the area before looting.", confidence = "medium" },
+    [1455] = { threat = "LOW", reason = "This is a turn-in at Nijel’s Point and adds no combat. Return to the guarded Alliance settlement by road.", confidence = "medium" },
 
     -- The Karnitol Shipwreck
-    [1456] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before looting.", confidence = "medium" },
+    [1456] = { threat = "MEDIUM", reason = "The satchel is underwater in Slitherblade naga ruins, where hostile naga can block the approach and complicate surfacing. Clear a route and manage breath before diving.", confidence = "medium" },
 
     -- The Karnitol Shipwreck
-    [1457] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting and keep an escape route.", confidence = "medium" },
+    [1457] = { threat = "LOW", reason = "This is a delivery to Ironforge and adds no combat. Use the road and established flight routes.", confidence = "medium" },
 
     -- Reagents for Reclaimers Inc.
-    [1458] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before looting.", confidence = "medium" },
+    [1458] = { threat = "MEDIUM", reason = "Hatefury satyrs occupy camps in Desolace, and casters can punish an accidental multi-pull. Pull from the edge and avoid crowded groups.", confidence = "medium" },
 
     -- Reagents for Reclaimers Inc.
-    [1459] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting.", confidence = "medium" },
+    [1459] = { threat = "MEDIUM", reason = "Scorpashi and kodos roam hostile areas of Desolace. Pull them away from other wildlife and avoid fighting near centaur camps.", confidence = "medium" },
 
     -- Vahlarriel's Search
-    [1465] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1465] = { threat = "LOW", reason = "This is a pendant turn-in at Nijel’s Point and adds no combat. Stay within the guarded settlement.", confidence = "medium" },
 
     -- Reagents for Reclaimers Inc.
-    [1466] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting.", confidence = "medium" },
+    [1466] = { threat = "MEDIUM", reason = "The demon reagents come from hostile Burning Blade camps around Mannoroc Coven. Clear isolated mobs and avoid pulling into the portals or nearby camps.", confidence = "medium" },
 
     -- Reagents for Reclaimers Inc.
-    [1467] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting and keep an escape route.", confidence = "medium" },
+    [1467] = { threat = "LOW", reason = "This is a package delivery to Ironforge and adds no combat. Use the road and established flight routes.", confidence = "medium" },
 
     -- Children's Week
-    [1468] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the contested zones.", confidence = "medium" },
+    [1468] = { threat = "LOW", reason = "This Children’s Week step is a conversation with the orphan and adds no required combat. Keep to the settlement while using the whistle.", confidence = "medium" },
 
     -- Rhapsody's Tale
-    [1469] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the troll and ogre camps.", confidence = "medium" },
+    [1469] = { threat = "LOW", reason = "The tablet fragment is already in hand for this delivery step, which adds no combat. Use the roads to Stormwind and avoid hostile camps on the route.", confidence = "medium" },
 
     -- Into The Temple of Atal'Hakkar
-    [1475] = { threat = "HIGH", reason = "The dungeon is filled with level 50-55 elites, including trolls, dragons, and Old God minions. This requires a full group of 5 at the appropriate level. Solo is impossible.", confidence = "high" },
+    [1475] = { threat = "MEDIUM", reason = "The tablets can be gathered in the Broken Halls before entering the Sunken Temple instance, avoiding its elite dungeon packs. Hostile mobs surround the temple approach; collect the safe tablets and wait for them to respawn rather than pushing deeper.", confidence = "high" },
 
     -- Vital Supplies
-    [1477] = { threat = "MEDIUM", reason = "The quest leads into troll and ogre territory. Clear the area before looting.", confidence = "medium" },
+    [1477] = { threat = "LOW", reason = "This is a travel and conversation step from Stormwind to Watchmaster Sorigal in Darkshire; it adds no required combat. Use the road and avoid hostile packs if you leave it.", confidence = "medium" },
 
     -- The Bough of the Eternals
-    [1479] = { threat = "MEDIUM", reason = "The quest leads into troll and ogre territory. Clear the area before looting.", confidence = "medium" },
+    [1479] = { threat = "LOW", reason = "This Children’s Week step takes the orphan to a bank in Darnassus, within the guarded city. It adds no combat.", confidence = "medium" },
 
     -- The Stonewrought Dam
     [1558] = { threat = "LOW", reason = "The quest is a simple travel objective with no combat. The only risk is the journey through Loch Modan, which is safe for Alliance players at the intended level.", confidence = "high" },

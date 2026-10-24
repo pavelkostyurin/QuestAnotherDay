@@ -3473,223 +3473,223 @@ addon.quests = {
     [1398] = { threat = "LOW", reason = "Collecting driftwood involves no required combat. Use normal precautions around the hostile swamp coast and avoid nearby mobs.", confidence = "medium" },
 
     -- Neeka Bloodscar (Desolace)
-    [1418] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1418] = { threat = "LOW", reason = "This is a conversation in Kargath and adds no combat. Use the normal route into town and avoid hostile camps on the way.", confidence = "medium" },
 
     -- Coyote Thieves (Desolace)
-    [1419] = { threat = "MEDIUM", reason = "The coyotes are level 32-36 and often stand in groups. They flee at low health and can chain-pull. Pull singles and kill the runners first.", confidence = "medium" },
+    [1419] = { threat = "MEDIUM", reason = "Coyotes around Kargath can flee at low health and pull nearby enemies. Pull them one at a time and stop runners before they reach another pack.", confidence = "medium" },
 
     -- Report to Helgrum (Swamp of Sorrows)
-    [1420] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the lost one camps.", confidence = "medium" },
+    [1420] = { threat = "LOW", reason = "This is a report turn-in at Stonard and adds no combat. Follow the road through the Swamp of Sorrows and avoid hostile camps.", confidence = "medium" },
 
     -- The Lost Caravan (Desolace)
-    [1421] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before approaching.", confidence = "medium" },
+    [1421] = { threat = "MEDIUM", reason = "The chest lies in the hostile Fallow Sanctuary, where nearby Lost Ones can add during the search. Clear a path and loot only when the area is controlled.", confidence = "medium" },
 
     -- Threat From the Sea (Desolace)
-    [1422] = { threat = "MEDIUM", reason = "The quest leads to the coast, which is patrolled by naga and murlocs. Clear the area before engaging.", confidence = "medium" },
+    [1422] = { threat = "LOW", reason = "This is a conversation with Katar at Misty Reed Post and adds no combat. Stay on the road to the outpost.", confidence = "medium" },
 
     -- The Lost Supplies (Desolace)
-    [1423] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before looting.", confidence = "medium" },
+    [1423] = { threat = "MEDIUM", reason = "The supply crate spawns in hostile parts of the Swamp of Sorrows among Lost Ones and other high-level wildlife. At the intended level, scout carefully and avoid fighting more than one enemy.", confidence = "medium" },
 
     -- Pool of Tears (Desolace)
-    [1424] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1424] = { threat = "MEDIUM", reason = "The artifacts are submerged around the Atal’ai temple, near hostile trolls and other wildlife. Watch your breath and clear nearby enemies before searching underwater.", confidence = "medium" },
 
     -- Deliver the Shipment (Desolace)
-    [1425] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1425] = { threat = "MEDIUM", reason = "The delivery route crosses the Swamp of Sorrows and Blasted Lands, where hostile mobs can threaten a lower-level traveler. Stay on roads and avoid side camps.", confidence = "medium" },
 
     -- Threat From the Sea (Desolace)
-    [1426] = { threat = "MEDIUM", reason = "The quest leads to the coast, which is patrolled by naga and murlocs. Clear the area before engaging.", confidence = "medium" },
+    [1426] = { threat = "MEDIUM", reason = "The coastal murlocs include casters and quickly respawn, so a long farming loop can turn into multiple pulls. Fight on open ground and leave the cave or beach if enemies begin to stack up.", confidence = "medium" },
 
     -- Threat From the Sea (Desolace)
-    [1427] = { threat = "MEDIUM", reason = "The quest leads to a guarded coastal location. Clear the area before engaging.", confidence = "medium" },
+    [1427] = { threat = "LOW", reason = "This is a conversation with Tok’Kar at a Horde post and adds no combat. Use the road to reach the outpost.", confidence = "medium" },
 
     -- Continued Threat (Desolace)
-    [1428] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before engaging.", confidence = "medium" },
+    [1428] = { threat = "MEDIUM", reason = "The murlocs and oracles occupy a hostile coast and cave; oracles can cast while nearby enemies respawn. Pull enemies out to open ground and avoid going deep into the cave.", confidence = "medium" },
 
     -- The Atal'ai Exile (Swamp of Sorrows)
-    [1429] = { threat = "MEDIUM", reason = "The quest leads into troll territory, which is guarded by level 35-40 mobs. Clear the area before approaching.", confidence = "medium" },
+    [1429] = { threat = "MEDIUM", reason = "The Atal’ai Exile is in hostile troll territory in the Hinterlands. Follow the roads, then approach the camp carefully and avoid pulling nearby trolls.", confidence = "medium" },
 
     -- Fresh Meat (Desolace)
-    [1430] = { threat = "MEDIUM", reason = "The quest leads into centaur or wildlife territory. Clear the area before looting.", confidence = "medium" },
+    [1430] = { threat = "MEDIUM", reason = "Monstrous crawlers are scattered along the Swamp of Sorrows coast, including underwater. Watch your breath and avoid fighting near other hostile wildlife.", confidence = "medium" },
 
     -- Alliance Relations (Desolace)
-    [1431] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1431] = { threat = "LOW", reason = "This is a conversation in Orgrimmar and adds no combat. Stay inside the city.", confidence = "medium" },
 
     -- Alliance Relations (Desolace)
-    [1432] = { threat = "LOW", reason = "Travel-only objective with no required combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1432] = { threat = "LOW", reason = "This is a conversation at the Horde outpost in Desolace and adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Alliance Relations (Desolace)
-    [1433] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching.", confidence = "medium" },
+    [1433] = { threat = "LOW", reason = "This is a conversation at the Horde outpost in Desolace and adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Befouled by Satyr (Desolace)
-    [1434] = { threat = "MEDIUM", reason = "The satyrs are level 35-40 and cast shadow magic. They often stand in camps with patrolling guards. Clear methodically and avoid pulling multiple groups.", confidence = "medium" },
+    [1434] = { threat = "MEDIUM", reason = "Hatefury satyrs occupy camps in Desolace, and their casters can make a second enemy dangerous. Pull from the edge of a camp and avoid groups.", confidence = "medium" },
 
     -- The Burning of Spirits (Desolace)
-    [1435] = { threat = "MEDIUM", reason = "The quest leads into satyr or centaur territory. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1435] = { threat = "MEDIUM", reason = "The Burning Gems come from hostile Burning Blade and satyr camps in Desolace. Clear isolated enemies and avoid fighting inside a crowded camp.", confidence = "medium" },
 
     -- Alliance Relations (Desolace)
-    [1436] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching.", confidence = "medium" },
+    [1436] = { threat = "LOW", reason = "This is a conversation in Orgrimmar and adds no combat. Stay inside the city.", confidence = "medium" },
 
     -- Vahlarriel's Search (Desolace)
-    [1437] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before approaching.", confidence = "medium" },
+    [1437] = { threat = "MEDIUM", reason = "The wagon is in a hostile area of Desolace, where centaurs and nearby wildlife can converge on the search. Clear around it before interacting.", confidence = "medium" },
 
     -- Vahlarriel's Search (Desolace)
-    [1438] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1438] = { threat = "MEDIUM", reason = "Dalinda is held inside Thunder Axe Fortress among hostile satyrs. Clear a route to her and avoid pulling multiple guards at once.", confidence = "medium" },
 
     -- Search for Tyranis (Desolace)
-    [1439] = { threat = "MEDIUM", reason = "The quest leads into centaur territory. Clear the area before approaching and watch for patrols.", confidence = "medium" },
+    [1439] = { threat = "MEDIUM", reason = "Tyranis is inside Thunder Axe Fortress among hostile satyrs. Clear the approach and keep an escape route through the camp.", confidence = "medium" },
 
     -- Return to Vahlarriel (Desolace)
-    [1440] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1440] = { threat = "MEDIUM", reason = "Escort quest. Dalinda starts inside Thunder Axe Fortress, and hostile satyrs can attack during the walk out. Clear the route before starting and let her stop while you handle each threat.", confidence = "medium" },
 
     -- Seeking the Kor Gem (Desolace)
-    [1442] = { threat = "MEDIUM", reason = "The quest leads into naga territory. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [1442] = { threat = "MEDIUM", reason = "The Corrupted Kor Gem can drop from naga in the ruins before the Blackfathom Deeps instance, so the instance is avoidable. Pull one naga at a time and leave if the hostile ruins become crowded.", confidence = "medium" },
 
     -- Return to Fel'Zerul (Desolace)
-    [1444] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the centaur camps.", confidence = "medium" },
+    [1444] = { threat = "LOW", reason = "This is a turn-in at Stonard and adds no combat. Follow the road back to the Horde settlement.", confidence = "medium" },
 
     -- The Temple of Atal'Hakkar (Swamp of Sorrows)
-    [1445] = { threat = "HIGH", reason = "The dungeon is filled with level 50-55 elites, including trolls, dragons, and Old God minions. This requires a full group of 5 at the appropriate level. Solo is impossible. The dungeon also has a lengthy quest chain prerequisite.", confidence = "high" },
+    [1445] = { threat = "EXTREME", reason = "Dungeon quest. Fetishes drop from elite Atal’ai trolls around and inside Sunken Temple, and collecting 20 exposes a solo character to repeated elite fights. Bring a suitable group or skip it on Hardcore.", confidence = "medium" },
 
     -- Jammal'an the Prophet (Sunken Temple)
-    [1446] = { threat = "HIGH", reason = "Jammal'an is a powerful elite boss with mind-control abilities and adds. He is deep inside the dungeon, past multiple packs of elites. This requires a full group of 5 at level 50+. Solo is impossible.", confidence = "high" },
+    [1446] = { threat = "EXTREME", reason = "Dungeon quest. Jammal’an is a boss deep inside Sunken Temple, beyond packs of elites. Bring a suitable group or skip it on Hardcore.", confidence = "high" },
 
     -- The Missing Diplomat (Dustwallow Marsh)
-    [1447] = { threat = "MEDIUM", reason = "The quest takes you through contested marsh territory. Stay alert for patrolling mobs and avoid pulling multiple groups.", confidence = "medium" },
+    [1447] = { threat = "MEDIUM", reason = "Dashel calls nearby thugs into the fight, turning the objective into a multi-enemy brawl. Start at full health and control the adds before focusing him.", confidence = "medium" },
 
     -- In Search of The Temple (Swamp of Sorrows)
-    [1448] = { threat = "MEDIUM", reason = "The quest leads through dense swamp terrain with patrolling mobs. Stay alert and avoid pulling multiple groups.", confidence = "medium" },
+    [1448] = { threat = "MEDIUM", reason = "Reaching the Sunken Temple takes travel through the Swamp of Sorrows and its hostile camps. Stay on roads and avoid exploring the ruins alone.", confidence = "medium" },
 
     -- To The Hinterlands (Hinterlands)
-    [1449] = { threat = "MEDIUM", reason = "The journey passes through contested zones, including the Plaguelands. Stay on the road and avoid the mob camps.", confidence = "medium" },
+    [1449] = { threat = "MEDIUM", reason = "The trip to Aerie Peak crosses hostile, contested wilderness. Keep to the roads and avoid troll camps along the way.", confidence = "medium" },
 
     -- Gryphon Master Talonaxe (Hinterlands)
-    [1450] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the troll and ogre camps.", confidence = "medium" },
+    [1450] = { threat = "LOW", reason = "This is a conversation inside the Wildhammer settlement at Aerie Peak and adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Rhapsody Shindigger (Hinterlands)
-    [1451] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the troll and ogre camps.", confidence = "medium" },
+    [1451] = { threat = "LOW", reason = "Rhapsody is in the Hinterlands; this is a travel and conversation step with no required combat. Use the road and avoid nearby troll camps.", confidence = "medium" },
 
     -- Rhapsody's Kalimdor Kocktail (Hinterlands)
-    [1452] = { threat = "MEDIUM", reason = "The quest leads into troll and ogre territory. Clear the area before looting.", confidence = "medium" },
+    [1452] = { threat = "MEDIUM", reason = "The ingredients come from wildlife across the Hinterlands and Feralas, including large apes and bears. Pull away from packs and leave elite or crowded areas alone.", confidence = "medium" },
 
     -- Reclaimers' Business in Desolace (Desolace)
-    [1453] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before engaging.", confidence = "medium" },
+    [1453] = { threat = "LOW", reason = "This is a conversation at the Alliance settlement of Nijel’s Point and adds no combat. Stay within the outpost.", confidence = "medium" },
 
     -- The Karnitol Shipwreck (Desolace)
-    [1454] = { threat = "MEDIUM", reason = "The quest leads to the coast, which is patrolled by naga and murlocs. Clear the area before looting.", confidence = "medium" },
+    [1454] = { threat = "MEDIUM", reason = "The chest is on the Desolace coast near hostile giants and other shoreline mobs. Clear nearby enemies before searching the shore.", confidence = "medium" },
 
     -- The Karnitol Shipwreck (Desolace)
-    [1455] = { threat = "MEDIUM", reason = "The quest leads to a guarded coastal location. Clear the area before looting.", confidence = "medium" },
+    [1455] = { threat = "LOW", reason = "This is a turn-in at Nijel’s Point and adds no combat. Return to the guarded Alliance settlement by road.", confidence = "medium" },
 
     -- The Karnitol Shipwreck (Desolace)
-    [1456] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before looting.", confidence = "medium" },
+    [1456] = { threat = "MEDIUM", reason = "The satchel is underwater in Slitherblade naga ruins, where hostile naga can block the approach and complicate surfacing. Clear a route and manage breath before diving.", confidence = "medium" },
 
     -- The Karnitol Shipwreck (Desolace)
-    [1457] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting and keep an escape route.", confidence = "medium" },
+    [1457] = { threat = "LOW", reason = "This is a delivery to Ironforge and adds no combat. Use the road and established flight routes.", confidence = "medium" },
 
     -- Reagents for Reclaimers Inc. (Desolace)
-    [1458] = { threat = "MEDIUM", reason = "The quest leads into centaur or naga territory. Clear the area before looting.", confidence = "medium" },
+    [1458] = { threat = "MEDIUM", reason = "Hatefury satyrs occupy camps in Desolace, and casters can punish an accidental multi-pull. Pull from the edge and avoid crowded groups.", confidence = "medium" },
 
     -- Reagents for Reclaimers Inc. (Desolace)
-    [1459] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting.", confidence = "medium" },
+    [1459] = { threat = "MEDIUM", reason = "Scorpashi and kodos roam hostile areas of Desolace. Pull them away from other wildlife and avoid fighting near centaur camps.", confidence = "medium" },
 
     -- Earth Sapta (Thousand Needles)
-    [1462] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting.", confidence = "medium" },
+    [1462] = { threat = "LOW", reason = "This repeatable shaman step only replaces a lost Earth Sapta through conversation with the trainer. It adds no combat.", confidence = "medium" },
 
     -- Earth Sapta (Thousand Needles)
-    [1463] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting.", confidence = "medium" },
+    [1463] = { threat = "LOW", reason = "This repeatable shaman step only replaces a lost Earth Sapta through conversation with the trainer. It adds no combat.", confidence = "medium" },
 
     -- Fire Sapta (Thousand Needles)
-    [1464] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting.", confidence = "medium" },
+    [1464] = { threat = "LOW", reason = "This repeatable shaman step only replaces a lost Fire Sapta through conversation with the trainer. It adds no combat.", confidence = "medium" },
 
     -- Vahlarriel's Search (Desolace)
-    [1465] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching.", confidence = "medium" },
+    [1465] = { threat = "LOW", reason = "This is a pendant turn-in at Nijel’s Point and adds no combat. Stay within the guarded settlement.", confidence = "medium" },
 
     -- Reagents for Reclaimers Inc. (Desolace)
-    [1466] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting.", confidence = "medium" },
+    [1466] = { threat = "MEDIUM", reason = "The demon reagents come from hostile Burning Blade camps around Mannoroc Coven. Clear isolated mobs and avoid pulling into the portals or nearby camps.", confidence = "medium" },
 
     -- Reagents for Reclaimers Inc. (Desolace)
-    [1467] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before looting and keep an escape route.", confidence = "medium" },
+    [1467] = { threat = "LOW", reason = "This is a package delivery to Ironforge and adds no combat. Use the road and established flight routes.", confidence = "medium" },
 
     -- Children's Week (Stormwind/Orgrimmar)
-    [1468] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the contested zones.", confidence = "medium" },
+    [1468] = { threat = "LOW", reason = "This Children’s Week step is a conversation with the orphan and adds no required combat. Keep to the settlement while using the whistle.", confidence = "medium" },
 
     -- Rhapsody's Tale (Hinterlands)
-    [1469] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the troll and ogre camps.", confidence = "medium" },
+    [1469] = { threat = "LOW", reason = "The tablet fragment is already in hand for this delivery step, which adds no combat. Use the roads to Stormwind and avoid hostile camps on the route.", confidence = "medium" },
 
     -- Piercing the Veil (Undercity)
-    [1470] = { threat = "MEDIUM", reason = "The quest leads into a summoning ritual with combat. Clear the area before starting the ritual and be ready for adds.", confidence = "medium" },
+    [1470] = { threat = "LOW", reason = "The skulls come from low-level Rattlecage Skeletons near Deathknell. Kill them one at a time and return to the church.", confidence = "medium" },
 
     -- The Binding (Undercity)
-    [1471] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1471] = { threat = "MEDIUM", reason = "Class quest. The summoned voidwalker must be defeated at the Undercity binding circle. Heal and clear the nearby area before summoning it.", confidence = "medium" },
 
     -- Devourer of Souls (Undercity)
-    [1472] = { threat = "MEDIUM", reason = "The quest leads to a summoning ritual with combat. Clear the area before starting and be ready for a tough fight.", confidence = "medium" },
+    [1472] = { threat = "LOW", reason = "This is a conversation with Godrick in the Undercity and adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Creature of the Void (Undercity)
-    [1473] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1473] = { threat = "MEDIUM", reason = "The grimoire is held in a Scarlet Crusade tower west of the Undercity, among hostile guards. Clear the approach carefully and avoid taking on the camp at once.", confidence = "medium" },
 
     -- The Binding (Undercity)
-    [1474] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1474] = { threat = "MEDIUM", reason = "Class quest. The summoned succubus is a required fight at the binding circle. Clear the nearby area and heal before starting the summon.", confidence = "medium" },
 
     -- Into The Temple of Atal'Hakkar (Swamp of Sorrows)
-    [1475] = { threat = "HIGH", reason = "The dungeon is filled with level 50-55 elites, including trolls, dragons, and Old God minions. This requires a full group of 5 at the appropriate level. Solo is impossible.", confidence = "high" },
+    [1475] = { threat = "MEDIUM", reason = "The tablets can be gathered in the Broken Halls before entering the Sunken Temple instance, avoiding its elite dungeon packs. Hostile mobs surround the temple approach; collect the safe tablets and wait for them to respawn rather than pushing deeper.", confidence = "high" },
 
     -- Hearts of the Pure (Sunken Temple)
-    [1476] = { threat = "HIGH", reason = "The hearts drop from elite mobs deep inside the dungeon. This requires a full group of 5 at level 50+. Solo is impossible.", confidence = "high" },
+    [1476] = { threat = "HIGH", reason = "Class quest. Dalin can be defeated alone, but reaching Comar crosses dangerous higher-level territory, and attacking him flags you for PvP. Use a safer route, prepare to escape, and leave the area after the fight.", confidence = "medium" },
 
     -- Vital Supplies (Hinterlands)
-    [1477] = { threat = "MEDIUM", reason = "The quest leads into troll and ogre territory. Clear the area before looting.", confidence = "medium" },
+    [1477] = { threat = "LOW", reason = "This is a travel and conversation step from Stormwind to Watchmaster Sorigal in Darkshire; it adds no required combat. Use the road and avoid hostile packs if you leave it.", confidence = "medium" },
 
     -- Halgar's Summons (Undercity)
-    [1478] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the contested zones.", confidence = "medium" },
+    [1478] = { threat = "LOW", reason = "This is a conversation with Carendin Halgar in the Undercity and adds no combat. Stay within the city.", confidence = "medium" },
 
     -- The Bough of the Eternals (Hinterlands)
-    [1479] = { threat = "MEDIUM", reason = "The quest leads into troll and ogre territory. Clear the area before looting.", confidence = "medium" },
+    [1479] = { threat = "LOW", reason = "This Children’s Week step takes the orphan to a bank in Darnassus, within the guarded city. It adds no combat.", confidence = "medium" },
 
     -- The Corrupter (Desolace)
-    [1480] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before engaging.", confidence = "medium" },
+    [1480] = { threat = "LOW", reason = "The skin starts this quest and is already provided; showing it to Maurin at the Horde outpost adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- The Corrupter (Desolace)
-    [1481] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [1481] = { threat = "MEDIUM", reason = "The Shadowstalker Scalp comes from a Hatefury Shadowstalker in a hostile Desolace camp. Pull it alone and avoid nearby satyrs.", confidence = "medium" },
 
     -- The Corrupter (Desolace)
-    [1482] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [1482] = { threat = "MEDIUM", reason = "The Oracle Crystal comes from a Slitherblade oracle in hostile coastal ruins. Pull the caster away from other naga before engaging.", confidence = "medium" },
 
     -- Ziz Fizziks (Stonetalon Mountains)
-    [1483] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the Venture Co. camps.", confidence = "medium" },
+    [1483] = { threat = "LOW", reason = "This is a conversation at Windshear Crag and adds no required combat. Approach Ziz without drawing Venture Co. miners from nearby.", confidence = "medium" },
 
     -- The Corrupter (Desolace)
-    [1484] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [1484] = { threat = "LOW", reason = "This is a conversation at the Horde outpost in Desolace and adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Vile Familiars (Durotar)
-    [1485] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. The cave is tight and respawns quickly. Clear methodically and keep an escape route.", confidence = "medium" },
+    [1485] = { threat = "LOW", reason = "The Vile Familiars are low-level demons near the orc starting area. Pull them singly and avoid the nearby cave entrance if enemies gather.", confidence = "medium" },
 
     -- Deviate Hides (Wailing Caverns)
-    [1486] = { threat = "HIGH", reason = "The hides drop from non-elite mobs outside the instance portal, but they are mixed in with elite mobs in the cave system. The drop rate is low, so you will need multiple clears. The outer caves respawn quickly and can trap you. Bring a group or be prepared to run.", confidence = "high" },
+    [1486] = { threat = "EXTREME", reason = "Dungeon quest. Twenty Deviate Hides must be collected from creatures inside Wailing Caverns, whose packs are elite for a character near the quest level. Bring a suitable group or skip it on Hardcore.", confidence = "high" },
 
     -- Deviate Eradication (Wailing Caverns)
-    [1487] = { threat = "HIGH", reason = "This quest requires killing named deviate mobs deep inside the dungeon. The instance is filled with level 17-22 elites. This requires a full group of 5 at the appropriate level. Solo is impossible.", confidence = "high" },
+    [1487] = { threat = "EXTREME", reason = "Dungeon quest. The required deviate creatures are inside Wailing Caverns among elite packs. Bring a suitable group or skip it on Hardcore.", confidence = "high" },
 
     -- The Corrupter (Desolace)
-    [1488] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging and keep an escape route.", confidence = "medium" },
+    [1488] = { threat = "HIGH", reason = "Elite quest. Lord Azrethoc hits hard and patrols near other hostile demons; Jugkar is easier, but can add danger if pulled with the elite. Separate the targets and use a class-appropriate strategy or bring help.", confidence = "medium" },
 
     -- Hamuul Runetotem (Thunder Bluff)
-    [1489] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
+    [1489] = { threat = "LOW", reason = "This is a conversation with Hamuul in Thunder Bluff and adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Nara Wildmane (Thunder Bluff)
-    [1490] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
+    [1490] = { threat = "LOW", reason = "This is a conversation with Nara in Thunder Bluff and adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Smart Drinks (Wailing Caverns)
-    [1491] = { threat = "HIGH", reason = "The oozes are deep inside the dungeon, past the entrance caves. While the outer cave mobs are non-elite in Classic Era, the instance proper is filled with level 17-22 elites. This requires a group. The drop rate is 100%, but reaching the oozes means fighting through elite mobs.", confidence = "high" },
+    [1491] = { threat = "MEDIUM", reason = "Wailing Essence also drops from non-elite Devouring Ectoplasms outside the instance. These can create a second ectoplasm, so fight with room to handle the extra enemy and avoid entering the dungeon alone.", confidence = "high" },
 
     -- Wharfmaster Dizzywig (Ratchet)
-    [1492] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the pirate camps along the coast.", confidence = "medium" },
+    [1492] = { threat = "LOW", reason = "This is a delivery to Wharfmaster Dizzywig in Ratchet and adds no combat. Use the road or flight route to the guarded settlement.", confidence = "medium" },
 
     -- Path of Defense (Durotar)
-    [1498] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1498] = { threat = "LOW", reason = "Singed Scales come from thunder lizards in the Barrens, and the quest itself adds no special combat encounter. Pull away from other wildlife while collecting them.", confidence = "medium" },
 
     -- Vile Familiars (Durotar)
-    [1499] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. The cave is tight and respawns quickly. Clear methodically and keep an escape route.", confidence = "medium" },
+    [1499] = { threat = "LOW", reason = "This is a conversation with Zureetha Fargaze in the orc starting area and adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Creature of the Void (Orgrimmar)
     [1501] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
