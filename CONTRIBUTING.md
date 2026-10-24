@@ -20,6 +20,10 @@ npm run check:data
 npm test
 ```
 
+To refer to another quest in a warning, use `{quest:ID|Quest Name}` in the
+reason, for example `{quest:5023|Better Late Than Never}`. The addon displays
+the quoted name in that quest's threat color and hides the ID.
+
 ## Install a working copy
 
 For local development, use the **Copy working copy to WoW** Codex action or run:

@@ -1,6 +1,6 @@
 # Quest Another Day
 
-![Version](https://img.shields.io/badge/version-0.44.400-7c3aed?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.45.1-7c3aed?style=flat-square)
 ![WoW Classic Era](https://img.shields.io/badge/WoW-Classic%20Era-c79c6e?style=flat-square)
 ![Questie](https://img.shields.io/badge/Questie-optional-2563eb?style=flat-square)
 
@@ -26,10 +26,6 @@ Guidance also appears in chat when you accept a reviewed quest. Acceptance warni
 | Red × | **Extreme** | Not recommended for a solo Hardcore character. |
 
 Ratings assume a solo character near the quest's intended level with ordinary gear. They are guidance, never a guarantee of safety. A missing icon or `UNKNOWN` result does not mean a quest is safe.
-
-Tooltips also show **Confidence: High, Medium, or Low** beneath the threat rating.
-Confidence describes how well the assessment is supported. Low-confidence
-warnings include a short note that evidence is limited and mechanics may vary.
 
 ## Settings and commands
 

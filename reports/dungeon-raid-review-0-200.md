@@ -15,3 +15,7 @@ The review skill now says to include Dungeon/Raid quests when the user explicitl
 - `npm run check:data` passed (3,584 canonical quests; generated faction data current).
 - `git diff --check` passed.
 - Research ledger reports 193 complete reviews, 1 insufficient, and 0 skipped; next unreviewed catalog ID is 201.
+
+## Later catalog-wide update
+
+The 2026-10-24 catalog-wide review applies the requested EXTREME policy to every Dungeon/Raid-flagged quest, including quest 17. This supersedes the earlier applied tier for these IDs; the source notes above preserve the earlier quest-specific assessment. See [the exhaustive catalog-wide table](dungeon-raid-review-all.md).

@@ -609,7 +609,7 @@ local quests = {
     [750] = { threat = "LOW", reason = "The cougars are levels 2-4 and the drop rate is high. Very easy quest, manageable solo at level 3+.", confidence = "medium" },
 
     -- The Ravaged Caravan
-    [751] = { threat = "LOW", reason = "This is a follow-up step to [749] with the same low risk. Click the crate and return to Morin Cloudstalker. No combat required.", confidence = "medium" },
+    [751] = { threat = "LOW", reason = "This is a follow-up step to {quest:749|The Ravaged Caravan} with the same low risk. Click the crate and return to Morin Cloudstalker. No combat required.", confidence = "medium" },
 
     -- A Humble Task
     [752] = { threat = "LOW", reason = "This is a pure dialogue/travel quest with no combat. She is at approximately 50, 80. Safe for any level.", confidence = "medium" },
@@ -966,7 +966,7 @@ local quests = {
     [913] = { threat = "MEDIUM", reason = "The hawks are levels 14-17 and patrol the skies. They can be hard to reach and may pull additional mobs. Fight in open areas.", confidence = "medium" },
 
     -- Leaders of the Fang
-    [914] = { threat = "EXTREME", reason = "This is the flagship Wailing Caverns quest and requires a full dungeon group. Verdan the Everliving is a notorious group-killer: he hits extremely hard, has massive health, and can one-shot underleveled players. Groups of level 18-22 players regularly wipe on him. Do not attempt without a coordinated group of 5 at level 22+.", confidence = "high" },
+    [914] = { threat = "EXTREME", reason = "This is the flagship Wailing Caverns quest and requires a full dungeon group. Verdan the Everliving is a notorious group-killer: he hits extremely hard, has massive health, and can one-shot underleveled players. Groups of level 18-22 players regularly wipe on him. Do not attempt without a coordinated group of 5 at level 22+.", confidence = "medium" },
 
     -- You Scream, I Scream...
     [915] = { threat = "MEDIUM", reason = "The quest involves travel and light combat. Safe if you avoid the mob camps.", confidence = "medium" },
@@ -999,19 +999,19 @@ local quests = {
     [1004] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the village.", confidence = "medium" },
 
     -- The Book of Ur
-    [1013] = { threat = "HIGH", reason = "The book is in the room with Fenrus the Devourer, one of the last bosses before Arugal. Shadowfang Keep is a level 18-25 dungeon filled with elite worgen and ghosts. After killing Fenrus, four voidwalkers spawn and hit hard. This requires a full group. The book respawns quickly, so you can loot it even if another group takes it first.", confidence = "high" },
+    [1013] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Arugal Must Die
-    [1014] = { threat = "EXTREME", reason = "Arugal is a level 24 elite boss who teleports around the room, summons adds, and hits extremely hard with shadow magic. He regularly wipes groups of level 20-25 players. The entire dungeon leading up to him is filled with elites. This requires a full, coordinated group of 5 at level 22-26. Solo is impossible.", confidence = "high" },
+    [1014] = { threat = "EXTREME", reason = "Arugal is a level 24 elite boss who teleports around the room, summons adds, and hits extremely hard with shadow magic. He regularly wipes groups of level 20-25 players. The entire dungeon leading up to him is filled with elites. This requires a full, coordinated group of 5 at level 22-26. Solo is impossible.", confidence = "medium" },
 
     -- The New Frontier
     [1018] = { threat = "LOW", reason = "Speak with the NPC in Brackenwall Village. Travel and dialogue with no combat. Safe if you stay in the village.", confidence = "medium" },
 
     -- Into The Scarlet Monastery
-    [1048] = { threat = "EXTREME", reason = "This dungeon is filled with level 30-40 elite Scarlet Crusade mobs and requires a full group of 5 at level 33+. The bosses hit extremely hard and have mechanics that wipe unprepared groups. Do not attempt without a coordinated group and a healer.", confidence = "high" },
+    [1048] = { threat = "EXTREME", reason = "This dungeon is filled with level 30-40 elite Scarlet Crusade mobs and requires a full group of 5 at level 33+. The bosses hit extremely hard and have mechanics that wipe unprepared groups. Do not attempt without a coordinated group and a healer.", confidence = "medium" },
 
     -- Compendium of the Fallen
-    [1049] = { threat = "HIGH", reason = "The Library section is guarded by level 30-40 elite Scarlet Crusade mobs. This requires a full group of 5 at the appropriate level. The path to the library passes through multiple packs of elites. Do not attempt solo.", confidence = "high" },
+    [1049] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Vorrel's Revenge
     [1051] = { threat = "HIGH", reason = "The ring requires a dangerous encounter with Nancy and Grandpa Vishas near Lordamere Lake; they can engage together. Separate them with a careful pull or bring a group.", confidence = "medium" },
@@ -1059,16 +1059,16 @@ local quests = {
     [1089] = { threat = "EXTREME", reason = "Group quest. The caches are guarded inside Talon Den, and the Classic 1.12 record identifies the quest as a group objective. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Deathstalkers in Shadowfang
-    [1098] = { threat = "HIGH", reason = "The first is in the prison section, and the second is in the courtyard after the first opens the door. Both are deep inside the dungeon, past multiple packs of elite worgen. This requires a full group. The first Deathstalker must be freed to progress, which pulls mobs. The second is in an open courtyard with patrolling elites.", confidence = "high" },
+    [1098] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- A Vengeful Fate
-    [1102] = { threat = "HIGH", reason = "Razorfen Kraul is a level 25-30 dungeon packed with elite quilboar. Charlga is a powerful boss with adds and nature-based attacks. This requires a full group of 5 players. Solo is impossible; even duoing at the intended level is extremely risky.", confidence = "medium" },
+    [1102] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Call of Water
     [1103] = { threat = "MEDIUM", reason = "Involves combat and travel to a water source guarded by hostile mobs. The mobs are manageable for the level, but the journey through contested territory adds risk.", confidence = "medium" },
 
     -- Going, Going, Guano!
-    [1109] = { threat = "HIGH", reason = "The dungeon is filled with level 25-30 quilboar elites and the bats are deep inside. This requires a full dungeon group. The guano drops from Kraul Bats, which are not elite themselves but are surrounded by elite quilboar. Do not attempt solo; bring a group of 5 at the appropriate level.", confidence = "medium" },
+    [1109] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Hearts of Zeal
     [1113] = { threat = "HIGH", reason = "This requires a full dungeon group of 5 at level 33+. The mobs are elites and hit hard. Do not attempt solo.", confidence = "medium" },
@@ -1614,7 +1614,7 @@ local quests = {
     [2161] = { threat = "LOW", reason = "This is a delivery to Razor Hill with no required combat. Follow the road and avoid unnecessary detours.", confidence = "medium" },
 
     -- Uldaman Reagent Run
-    [2202] = { threat = "HIGH", reason = "The caps are found in the Uldaman dig site, which is filled with level 35-40 elite troggs and stone mobs. The clusters can spew poison spores when jostled. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [2202] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Badlands Reagent Run II
     [2203] = { threat = "HIGH", reason = "Using each vessel angers a Scorched Guardian, an elite dragon in Lethlor Ravine. Use reliable control or range, keep an escape route clear, and do not engage multiple guardians together.", confidence = "medium" },
@@ -1623,31 +1623,31 @@ local quests = {
     [2258] = { threat = "MEDIUM", reason = "This collection sends you among buzzards, coyotes, and rock elementals in the Badlands. Pull isolated targets and keep clear of stronger enemies while moving between areas.", confidence = "medium" },
 
     -- The Platinum Discs
-    [2280] = { threat = "HIGH", reason = "This quest takes place in the treasure chamber after the final boss of Uldaman. The chamber is safe once the boss is dead, but getting there requires a full dungeon group. Do not attempt without clearing the dungeon.", confidence = "high" },
+    [2280] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Necklace Recovery
-    [2283] = { threat = "HIGH", reason = "The necklace is found on a corpse in the Uldaman dig site, which is filled with level 35-40 elites. This requires a full dungeon group. The corpse is deep inside the instance.", confidence = "high" },
+    [2283] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Necklace Recovery, Take 2
-    [2284] = { threat = "HIGH", reason = "You need to find the paladin's corpse and retrieve his journal. The corpse is deep inside the dungeon, past multiple elite packs. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [2284] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Translating the Journal
-    [2318] = { threat = "LOW", reason = "The closest location is Kargath in the Badlands. This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2318] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Translating the Journal
-    [2338] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in Kargath.", confidence = "high" },
+    [2338] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Find the Gems and Power Source
-    [2339] = { threat = "HIGH", reason = "The gems are found on elite mobs and in the deeper sections of the dungeon. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [2339] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Deliver the Gems
-    [2340] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2340] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Necklace Recovery, Take 3
-    [2341] = { threat = "HIGH", reason = "The gems are in the deeper sections of the dungeon, guarded by elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [2341] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Reclaimed Treasures
-    [2342] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2342] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Find the Shattered Hand
     [2378] = { threat = "LOW", reason = "This is a dialogue step in Orgrimmar and adds no combat. Stay within the friendly city.", confidence = "medium" },
@@ -1728,13 +1728,13 @@ local quests = {
     [2822] = { threat = "MEDIUM", reason = "Ten hides require repeated fights with yetis in Feral Scar Vale, where fast respawns or nearby creatures can add to a pull. Work from the edges, use skinning to shorten the hunt if available, and keep a retreat route.", confidence = "medium" },
 
     -- Rig Wars
-    [2841] = { threat = "LOW", reason = "This is a prerequisite step for the Gnomeregan teleporter quest chain. Dialogue step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2841] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Chief Engineer Scooty
-    [2842] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Booty Bay is safe if you stay on the road. Note: This quest has a known bug where completing 'STOLEN: Smithing Tuyere and Lookout's Spyglass' prevents you from getting it. Accept Rig Wars first before completing that quest .", confidence = "high" },
+    [2842] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Gnomer-gooooone!
-    [2843] = { threat = "HIGH", reason = "Gnomeregan is a level 24-34 dungeon filled with elite leper gnomes, troggs, and mechanical mobs. The teleporter drops you in the middle of the instance, and you must fight your way out. This requires a full group of level 30+ players. Do not attempt solo. The teleporter itself is also notoriously buggy and may take multiple attempts to activate .", confidence = "high" },
+    [2843] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Wild Leather Armor
     [2854] = { threat = "LOW", reason = "Deliver 10 Thick Leather to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
@@ -1782,7 +1782,7 @@ local quests = {
     [2935] = { threat = "LOW", reason = "Speak with Master Gadrin in Sen’jin Village. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- The Spider God
-    [2936] = { threat = "HIGH", reason = "Zul'Farrak is a level 44-50 dungeon filled with elite trolls and sandfury mobs. Theka the Martyr is a boss who guards the tablet. This requires a full group of level 44+. Do not attempt solo .", confidence = "high" },
+    [2936] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Summoning Shadra
     [2937] = { threat = "HIGH", reason = "Elite quest. Shadra is a level 55 elite spider that hits hard and applies a slowing poison. Clear nearby spiders before summoning; use a suitable group or a tested class-specific control and escape plan.", confidence = "medium" },
@@ -1791,7 +1791,7 @@ local quests = {
     [2938] = { threat = "LOW", reason = "Deliver Faranell’s Parcel to the Undercity. This is a travel and turn-in step with no combat objective.", confidence = "medium" },
 
     -- Return of the Ring
-    [2949] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
+    [2949] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Nogg's Ring Redo
     [2950] = { threat = "LOW", reason = "Bring the Brilliant Gold Ring, Silver Bar, Moss Agate, and 30 silver to Nogg in Orgrimmar. No combat objective is required.", confidence = "medium" },
@@ -1962,7 +1962,7 @@ local quests = {
     [3301] = { threat = "LOW", reason = "This is a report to an NPC at the Sepulcher and adds no combat.", confidence = "medium" },
 
     -- Bring the End
-    [3341] = { threat = "HIGH", reason = "Razorfen Downs is a level 37-40 dungeon filled with elite quilboar, undead, and Scourge mobs. Amnennar is the final boss and is a powerful Lich. This requires a full group of 5 at level 40+. Do not attempt solo.", confidence = "high" },
+    [3341] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- In Nightmares
     [3369] = { threat = "LOW", reason = "This is a turn-in to Hamuul Runetotem in Thunder Bluff and adds no combat; the shard is already obtained before this step.", confidence = "medium" },
@@ -1971,7 +1971,7 @@ local quests = {
     [3376] = { threat = "MEDIUM", reason = "Chief Sharptusk is a named enemy in a quilboar camp with guards nearby. Pull the guards separately and avoid entering the center of the camp with several enemies in range.", confidence = "medium" },
 
     -- The Sunken Temple
-    [3380] = { threat = "EXTREME", reason = "This is a level 50-55 dungeon filled with elite trolls, dragonkin, and Old God minions. The dungeon requires a full group of 5 at level 50+, and the quest chain to enter is lengthy. The final boss, Eranikus, is one of the deadliest encounters in Classic. Do not attempt without a coordinated group and significant preparation.", confidence = "high" },
+    [3380] = { threat = "EXTREME", reason = "This is a level 50-55 dungeon filled with elite trolls, dragonkin, and Old God minions. The dungeon requires a full group of 5 at level 50+, and the quest chain to enter is lengthy. The final boss, Eranikus, is one of the deadliest encounters in Classic. Do not attempt without a coordinated group and significant preparation.", confidence = "medium" },
 
     -- Betrayed
     [3504] = { threat = "LOW", reason = "This is a delivery to Ag’tor at Valormok; no combat objective is added. Stay on the route and avoid nearby hostile camps.", confidence = "medium" },
@@ -2076,10 +2076,10 @@ local quests = {
     [3902] = { threat = "LOW", reason = "The goods are scattered around Deathknell; nearby starter-area enemies can aggro while you search. Loot the crates between pulls rather than running through hostile mobs.", confidence = "medium" },
 
     -- Disharmony of Flame
-    [3906] = { threat = "MEDIUM", reason = "The quest leads into dangerous territory with hostile mobs. Clear the area before engaging and watch for patrolling mobs. Do not attempt below the recommended level.", confidence = "medium" },
+    [3906] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Disharmony of Fire
-    [3907] = { threat = "MEDIUM", reason = "The quest leads into dangerous territory with hostile mobs. Clear the area before engaging and watch for patrolling mobs. Do not attempt below the recommended level.", confidence = "medium" },
+    [3907] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Wenikee Boltbucket
     [3921] = { threat = "LOW", reason = "Deliver the Broken Samophlange to Wenikee Boltbucket; no quest combat is required. Use the roads and avoid hostile camps along the route.", confidence = "medium" },
@@ -2094,22 +2094,22 @@ local quests = {
     [3924] = { threat = "MEDIUM", reason = "The missing pages and manual cover come from enemies around and inside Boulder Lode Mine, with Boss Copperplug deeper in the cave. Pull carefully, watch for patrols and respawns, and keep an exit route.", confidence = "medium" },
 
     -- Commander Gor'shak
-    [3981] = { threat = "HIGH", reason = "BRD is a level 52-60 dungeon filled with elite Dark Iron dwarves, fire elementals, and powerful bosses. The dungeon is massive and requires a full group of 5 at level 55+. Gor'shak is deep inside the prison section. Do not attempt solo.", confidence = "high" },
+    [3981] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- What Is Going On?
-    [3982] = { threat = "HIGH", reason = "The quest leads deeper into the dungeon, past multiple packs of elites. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [3982] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- What Is Going On?
-    [4001] = { threat = "HIGH", reason = "BRD is a level 52-60 dungeon filled with elites. The defend event spawns 3-4 elites that will maul whoever is closest to the door. Only the tank should talk to Gor'shak. Requires a full group of level 52+.", confidence = "high" },
+    [4001] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Eastern Kingdom
-    [4002] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4002] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Royal Rescue
-    [4003] = { threat = "EXTREME", reason = "She heals the Emperor and will attack your group. If she dies, the quest fails and you likely wipe. The fight requires precise crowd control and coordination. Bring a full group of level 55+ with a priest who can offtank the princess. This is one of the most mechanically demanding dungeon quests in Classic.", confidence = "high" },
+    [4003] = { threat = "EXTREME", reason = "She heals the Emperor and will attack your group. If she dies, the quest fails and you likely wipe. The fight requires precise crowd control and coordination. Bring a full group of level 55+ with a priest who can offtank the princess. This is one of the most mechanically demanding dungeon quests in Classic.", confidence = "medium" },
 
     -- The Princess Saved?
-    [4004] = { threat = "HIGH", reason = "The combat is over once you complete The Royal Rescue, but reaching the Emperor and completing the fight requires a full BRD run. Do not attempt without a coordinated group.", confidence = "high" },
+    [4004] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Counterattack!
     [4021] = { threat = "HIGH", reason = "The event culminates in level-20 elite Warlord Krom'zar with bodyguards amid nearby centaurs. Let the Horde defenders help and keep the fight away from extra camps; bring a group if you cannot control the event pulls.", confidence = "medium" },
@@ -2121,13 +2121,13 @@ local quests = {
     [4062] = { threat = "LOW", reason = "Take the shard sample to Lotwil’s camp in the Badlands; this hand-in adds no combat.", confidence = "medium" },
 
     -- The Rise of the Machines
-    [4063] = { threat = "EXTREME", reason = "Dungeon quest. Argelmach and the constructs needed for the cores are inside Blackrock Depths among elite enemies. Bring a suitable dungeon group or skip on Hardcore.", confidence = "high" },
+    [4063] = { threat = "EXTREME", reason = "Dungeon quest. Argelmach and the constructs needed for the cores are inside Blackrock Depths among elite enemies. Bring a suitable dungeon group or skip on Hardcore.", confidence = "medium" },
 
     -- KILL ON SIGHT: Dark Iron Dwarves
-    [4081] = { threat = "HIGH", reason = "These are elite Dark Iron dwarves that patrol the dungeon in packs. This requires a full group of level 52+. The mobs hit hard and can chain-pull if you are not careful. Do not attempt solo.", confidence = "high" },
+    [4081] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- KILL ON SIGHT: High Ranking Dark Iron Officials
-    [4082] = { threat = "HIGH", reason = "This is the follow-up to KILL ON SIGHT: Dark Iron Dwarves and requires deeper penetration into the dungeon. Full group of level 52+ required.", confidence = "high" },
+    [4082] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Cleansing Felwood
     [4102] = { threat = "MEDIUM", reason = "Collect Blood Amber from Warpwood elementals in Felwood. Pull away from nearby enemies and avoid pushing into a crowded cave section.", confidence = "medium" },
@@ -2151,19 +2151,19 @@ local quests = {
     [4120] = { threat = "MEDIUM", reason = "Angerclaw Grizzlies and Felpaw Ravagers are in northern Felwood around Irontree and Felpaw areas. Pull them away from groups and do not wander north into Timbermaw territory or elite dragon areas.", confidence = "medium" },
 
     -- Precarious Predicament
-    [4121] = { threat = "MEDIUM", reason = "The quest involves combat against Blackrock orcs. The orcs are levels 50-54 and are packed in camps. Clear the area before engaging and watch for patrolling elites.", confidence = "medium" },
+    [4121] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Grark Lorkrub
-    [4122] = { threat = "MEDIUM", reason = "The quest leads into Blackrock orc territory. Clear the area before engaging.", confidence = "medium" },
+    [4122] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Operation: Death to Angerforge
-    [4132] = { threat = "HIGH", reason = "Angerforge is a dungeon boss surrounded by elite guards. This requires a full group of level 52+. The fight is mechanically demanding and can wipe unprepared groups.", confidence = "high" },
+    [4132] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Vivian Lagrave
-    [4133] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4133] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Lost Thunderbrew Recipe
-    [4134] = { threat = "HIGH", reason = "The recipe is deep inside the dungeon, guarded by elites. This requires a full group of level 52+.", confidence = "high" },
+    [4134] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Larion and Muigin
     [4145] = { threat = "MEDIUM", reason = "Collecting the four Bloodpetal types requires repeated fights with hostile plants across Un’Goro. Pull away from nearby plants so overlapping enemies do not join.", confidence = "medium" },
@@ -2175,7 +2175,7 @@ local quests = {
     [4147] = { threat = "LOW", reason = "This is a travel and dialogue step to a workshop in Ratchet; it adds no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Bloodpetal Zapper
-    [4148] = { threat = "MEDIUM", reason = "The quest involves combat against level 48-52 mobs. Clear the area before using the zapper.", confidence = "medium" },
+    [4148] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- A Sample of Slime...
     [4293] = { threat = "MEDIUM", reason = "Collecting Felwood slime samples requires repeated fights with hostile oozes; the testing and turn-in afterward are safe in Undercity. Pull slimes away from nearby enemies and avoid fighting several at once.", confidence = "medium" },
@@ -2229,7 +2229,7 @@ local quests = {
     [4721] = { threat = "MEDIUM", reason = "Berserk Owlbeasts in Winterspring are hostile and can join nearby fights. Pull from open ground and watch for other enemies while recovering.", confidence = "medium" },
 
     -- The Pack Mistress
-    [4724] = { threat = "HIGH", reason = "The target is a powerful named mob surrounded by her pack. The wolves are levels 46-48 and are aggressive. Clear the pack before engaging the Mistress and watch for patrolling mobs. Do not attempt below level 46 solo.", confidence = "medium" },
+    [4724] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- In Search of Menara Voidrender
     [4737] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
@@ -2244,10 +2244,10 @@ local quests = {
     [4767] = { threat = "MEDIUM", reason = "Highperch wyvern eggs are scattered through a hostile nesting area, and reaching them requires climbing a steep ramp. Pull wyverns one at a time and watch your footing near the cliffs.", confidence = "medium" },
 
     -- The Darkstone Tablet
-    [4768] = { threat = "MEDIUM", reason = "The tablet is guarded by level 40-44 mobs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 40.", confidence = "medium" },
+    [4768] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- Vivian Lagrave and the Darkstone Tablet
-    [4769] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4769] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- Homeward Bound
     [4770] = { threat = "MEDIUM", reason = "Escort quest. Pao’ka must be led out of Highperch, where hostile wyverns and nearby respawns can threaten the route. Clear the path ahead and stay near him so he does not fall behind.", confidence = "medium" },
@@ -2271,7 +2271,7 @@ local quests = {
     [4883] = { threat = "LOW", reason = "This is a necklace delivery to Nara Wildmane. It adds no combat after you reach her; avoid hostile patrols on the way.", confidence = "medium" },
 
     -- Warlord's Command
-    [4903] = { threat = "HIGH", reason = "LBRS is a level 55-60 dungeon filled with elite orcs, trolls, and ogres. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [4903] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Free at Last
     [4904] = { threat = "MEDIUM", reason = "Escort quest. Lakota’s route out of Darkcloud Pinnacle triggers three pairs of hostile Grim Bandits. Clear nearby enemies first, then stay close and be ready for each ambush.", confidence = "medium" },
@@ -2292,16 +2292,16 @@ local quests = {
     [4969] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- For The Horde!
-    [4974] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4974] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- Operative Bijou
-    [4981] = { threat = "HIGH", reason = "LBRS is a level 55-60 dungeon filled with elites. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [4981] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Bijou's Belongings
-    [4982] = { threat = "HIGH", reason = "The items are deep inside the dungeon, guarded by elites. Full group of level 55+ required.", confidence = "high" },
+    [4982] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Bijou's Reconnaissance Report
-    [4983] = { threat = "HIGH", reason = "The turn-in is inside the dungeon. Full group of level 55+ required.", confidence = "high" },
+    [4983] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Glyphed Oaken Branch
     [4987] = { threat = "LOW", reason = "This is a delivery to the Cenarion Circle in Thunder Bluff. The hand-in adds no combat; stay within the city.", confidence = "medium" },
@@ -2328,7 +2328,7 @@ local quests = {
     [5046] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- The Jeremiah Blues
-    [5049] = { threat = "LOW", reason = "He is located under the stairs near the bank, selling cockroaches. This is a dialogue and delivery step with no combat. Safe if you stay in the city. Requires completion of Better Late Than Never [5023], which is marked obsolete.", confidence = "medium" },
+    [5049] = { threat = "LOW", reason = "He is located under the stairs near the bank, selling cockroaches. This is a dialogue and delivery step with no combat. Safe if you stay in the city. Requires completion of {quest:5023|Better Late Than Never}, which is marked obsolete.", confidence = "medium" },
 
     -- Blood Shards of Agamaggan
     [5052] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shard; stay within the friendly camp.", confidence = "medium" },
@@ -2421,7 +2421,7 @@ local quests = {
     [5302] = { threat = "LOW", reason = "This weaponsmith specialization quest is a crafted-item hand-in to Borgosh in Orgrimmar. It adds no combat if you already have the listed weapons; the specialization choice is permanent.", confidence = "medium" },
 
     -- Barov Family Fortune
-    [5341] = { threat = "HIGH", reason = "Scholomance is a level 58-60 dungeon filled with elite undead, necromancers, and powerful bosses. The deeds are scattered throughout the dungeon, including in the Reliquary section. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [5341] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Last Barov
     [5342] = { threat = "HIGH", reason = "Assassinate Weldon Barov at Chillwind Camp and bring his head to Alexi. The target is in Alliance territory and may be protected by guards or players; scout the approach, avoid fighting several defenders at once, and leave if the camp is active.", confidence = "medium" },
@@ -2526,16 +2526,16 @@ local quests = {
     [5680] = { threat = "LOW", reason = "Complete the Shadowguard spell-training conversation with Ur’kyo in Orgrimmar. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Searching for the Lost Satchel
-    [5722] = { threat = "HIGH", reason = "Ragefire Chasm is a level 13-18 dungeon beneath Orgrimmar filled with elite troggs, cultists, and demons. While it is one of the easier dungeons, it still requires a full group of level 13+. The satchel is deep inside, past multiple packs of elites. Do not attempt solo.", confidence = "high" },
+    [5722] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Testing an Enemy's Strength
-    [5723] = { threat = "HIGH", reason = "These are elite mobs deep inside the dungeon. This requires a full group of level 13+. Do not attempt solo.", confidence = "high" },
+    [5723] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Returning the Lost Satchel
-    [5724] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5724] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Power to Destroy...
-    [5725] = { threat = "HIGH", reason = "Jergosh is a level 16 elite orc warlock who summons Voidwalkers. Bazzalan is a level 16 elite satyr who hits hard and has a poison. Both are dungeon bosses that require a full group of level 15+. Do not attempt solo.", confidence = "high" },
+    [5725] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Hidden Enemies
     [5726] = { threat = "HIGH", reason = "Find a Lieutenant’s Insignia from Burning Blade enemies in Skull Rock and take it to Thrall. The cave is cramped, contains hostile casters and a dangerous named elite, and the insignia may take repeated kills; clear the entrance area and leave before fatigue or adds make the cave unsafe.", confidence = "medium" },
@@ -2544,7 +2544,7 @@ local quests = {
     [5727] = { threat = "LOW", reason = "Take the insignia to Neeru Fireblade in Orgrimmar, speak with him, then report back to Thrall. This is dialogue in the city and adds no combat.", confidence = "medium" },
 
     -- Hidden Enemies
-    [5728] = { threat = "HIGH", reason = "The quest leads deeper into Ragefire Chasm. Full group of level 15+ required.", confidence = "high" },
+    [5728] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Hidden Enemies
     [5729] = { threat = "LOW", reason = "Speak with Neeru Fireblade in the Cleft of Shadow. This is a dialogue step and adds no combat.", confidence = "medium" },
@@ -2553,7 +2553,7 @@ local quests = {
     [5730] = { threat = "LOW", reason = "Report what you learned to Thrall in Orgrimmar. This city turn-in adds no combat.", confidence = "medium" },
 
     -- Slaying the Beast
-    [5761] = { threat = "EXTREME", reason = "Taragaman is a level 16 elite felhound who hits extremely hard and has a fire-based attack. He is a dungeon boss that requires a full group of level 15+. Do not attempt solo.", confidence = "high" },
+    [5761] = { threat = "EXTREME", reason = "Taragaman is a level 16 elite felhound who hits extremely hard and has a fire-based attack. He is a dungeon boss that requires a full group of level 15+. Do not attempt solo.", confidence = "medium" },
 
     -- Hunting in Stranglethorn
     [5763] = { threat = "LOW", reason = "Deliver Roon’s Kodo Horn to Hemet Nesingwary in Stranglethorn. This delivery adds no combat; the hunting mobs in the previous warning are not targets for this step.", confidence = "medium" },
@@ -2724,7 +2724,7 @@ local quests = {
     [6162] = { threat = "MEDIUM", reason = "Kill Overlord Ror in the hostile furbolg camp in Felwood and return his claw to Dreka’Sur. Nearby furbolgs can join; clear a route and pull him away from the camp.", confidence = "medium" },
 
     -- Ramstein
-    [6163] = { threat = "HIGH", reason = "This is a dungeon quest that requires a full group of level 58+. Stratholme is one of the deadliest dungeons in Classic, and Ramstein is a powerful abomination who must be summoned by clearing the slaughterhouse of all abominations first. He hits hard and summons waves of Mindless Undead after he dies. Do not attempt solo.", confidence = "high" },
+    [6163] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Harpies Threaten
     [6282] = { threat = "MEDIUM", reason = "Kill Bloodfury harpies in the Charred Vale and nearby Stonetalon camps. Several harpy types occupy the area and can join a fight; pull from the edge and avoid overlapping patrols.", confidence = "medium" },
@@ -2826,10 +2826,10 @@ local quests = {
     [6504] = { threat = "MEDIUM", reason = "Collect the twelve missing Shredder Operating Manual pages in Ashenvale and assemble them into three chapters. The pages come from hostile local creatures, so work through camps carefully and avoid pulling several satyrs at once.", confidence = "medium" },
 
     -- An Unholy Alliance
-    [6521] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before engaging.", confidence = "medium" },
+    [6521] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- An Unholy Alliance
-    [6522] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before engaging.", confidence = "medium" },
+    [6522] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Protect Kaya
     [6523] = { threat = "MEDIUM", reason = "Escort Kaya Flathoof from Stonetalon to Camp Aparaje, then return to Makaba. Grimtotem enemies attack during the route and Kaya can be overwhelmed; stay close, pull attackers off her and avoid starting while nearby camps are active.", confidence = "medium" },
@@ -2859,19 +2859,19 @@ local quests = {
     [6548] = { threat = "MEDIUM", reason = "Kill Grimtotem ruffians and mercenaries in Stonetalon, then return to Makaba. The hostile camp contains several enemies that may assist each other; pull from the edge and avoid overlapping groups.", confidence = "medium" },
 
     -- Blackfathom Villainy
-    [6561] = { threat = "HIGH", reason = "Kelris is a powerful elite boss who mind-controls players and summons adds. He is deep inside the dungeon, past multiple elite packs. This requires a full group of level 22+. Do not attempt solo.", confidence = "high" },
+    [6561] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Trouble in the Deeps
-    [6562] = { threat = "HIGH", reason = "The dungeon is filled with level 20-25 elites, including naga, satyrs, and Old God minions. This requires a full group of level 22+. Do not attempt solo.", confidence = "high" },
+    [6562] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Essence of Aku'Mai
-    [6563] = { threat = "HIGH", reason = "The essence is deep inside the dungeon, guarded by elites. This requires a full group of level 22+. Do not attempt solo.", confidence = "high" },
+    [6563] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Allegiance to the Old Gods
-    [6564] = { threat = "HIGH", reason = "Lorgus is a patrolling mini-boss who can spawn in one of the small corridors off the main path. He is level 26 and hits hard for the intended level. This requires a full group of level 22+. Do not attempt solo.", confidence = "high" },
+    [6564] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Allegiance to the Old Gods
-    [6565] = { threat = "HIGH", reason = "Lorgus is a level 26 elite who patrols the tunnels. He is not particularly hard for a group, but the dungeon leading up to him is filled with elites. This requires a full group of level 22+. Do not attempt solo.", confidence = "high" },
+    [6565] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- What the Wind Carries
     [6566] = { threat = "LOW", reason = "Listen to Thrall in Orgrimmar. This city conversation adds no combat.", confidence = "medium" },
@@ -2883,7 +2883,7 @@ local quests = {
     [6568] = { threat = "LOW", reason = "Deliver Rexxar’s letter to Myranda the Hag in the Western Plaguelands. This delivery adds no combat if you have the letter; use a safe route through the zone.", confidence = "medium" },
 
     -- Oculus Illusions
-    [6569] = { threat = "HIGH", reason = "You must venture into Blackrock Spire and kill elite mobs to collect an item. LBRS is a level 55-60 dungeon filled with elite orcs and trolls. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [6569] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- Emberstrife
     [6570] = { threat = "MEDIUM", reason = "Enter Emberstrife’s Den in the Wyrmbog, wear the Amulet of Draconic Subversion, and speak with Emberstrife. The amulet provides an illusion for the den, but the surrounding marsh and cave are hostile; avoid combat and leave if the disguise fails.", confidence = "medium" },
@@ -2895,22 +2895,22 @@ local quests = {
     [6581] = { threat = "LOW", reason = "Exchange a Deadly Blunderbuss with Pixel at Splintertree Post for the Warsong Saw Blades. This is a safe item hand-in if you already have the gun.", confidence = "medium" },
 
     -- The Test of Skulls, Scryer
-    [6582] = { threat = "HIGH", reason = "Scryer is surrounded by other elite dragonkin and hits extremely hard. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [6582] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- The Test of Skulls, Somnus
-    [6583] = { threat = "HIGH", reason = "Somnus is in the Sunken Temple area and is surrounded by elite mobs. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [6583] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- The Test of Skulls, Chronalis
-    [6584] = { threat = "HIGH", reason = "Chronalis is surrounded by elite dragonkin and hits extremely hard. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [6584] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- The Test of Skulls, Axtroz
-    [6585] = { threat = "HIGH", reason = "Axtroz is surrounded by elite dragonkin and hits extremely hard. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [6585] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- Ascension...
     [6601] = { threat = "LOW", reason = "Show Rexxar the Dull Drakefire Amulet and explain the problem. This is a dialogue step and adds no combat.", confidence = "medium" },
 
     -- Blood of the Black Dragon Champion
-    [6602] = { threat = "HIGH", reason = "Drakkisath is the final boss of Upper Blackrock Spire and is one of the deadliest encounters in Classic. He hits extremely hard and has powerful abilities. This requires a full raid group of 10-15 players at level 58+. Do not attempt without a coordinated group.", confidence = "high" },
+    [6602] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
 
     -- A Strange One
     [6605] = { threat = "LOW", reason = "Speak with Winna Hazzard in Felwood. This is a conversation, not a level 30–35 mob fight; avoid nearby hostile creatures on the approach.", confidence = "medium" },
@@ -2967,10 +2967,10 @@ local quests = {
     [6901] = { threat = "LOW", reason = "Turn in the Frostwolf Assault Orders to launch an attack by your side’s troops. The hand-in itself adds no combat; complete it from your base and avoid crossing the frontline.", confidence = "medium" },
 
     -- Amongst the Ruins
-    [6921] = { threat = "MEDIUM", reason = "The ruins are patrolled by level 45-50 naga and satyrs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 45 solo.", confidence = "medium" },
+    [6921] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Baron Aquanis
-    [6922] = { threat = "HIGH", reason = "He is summoned by using the item at the altar. He hits hard and has water-based abilities. Clear the area before summoning and bring a group. Do not attempt solo below level 48.", confidence = "high" },
+    [6922] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Great-father Winter is Here!
     [6961] = { threat = "LOW", reason = "Speak with Greatfather Winter in Orgrimmar. This holiday dialogue step adds no combat.", confidence = "medium" },
@@ -3006,16 +3006,16 @@ local quests = {
     [7024] = { threat = "LOW", reason = "Speak with Greatfather Winter in Orgrimmar. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Vyletongue Corruption
-    [7029] = { threat = "HIGH", reason = "Maraudon is a level 46-55 dungeon filled with elite plant creatures, satyrs, and elementals. The Vyletongue section is filled with elite mobs. This requires a full group of level 48+. Do not attempt solo.", confidence = "high" },
+    [7029] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Feast of Winter Veil
     [7061] = { threat = "LOW", reason = "Read the Winter Veil book and deliver it to Cairne in Thunder Bluff. This is a city reading and hand-in step with no combat.", confidence = "medium" },
 
     -- Corruption of Earth and Seed
-    [7064] = { threat = "HIGH", reason = "Maraudon is a level 46-55 dungeon filled with elites. Noxxion is a powerful boss with adds. This requires a full group of level 48+. Do not attempt solo.", confidence = "high" },
+    [7064] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Shadowshard Fragments
-    [7068] = { threat = "HIGH", reason = "The fragments drop from elite satyrs and elementals deep inside the dungeon. This requires a full group of level 48+. Do not attempt solo.", confidence = "high" },
+    [7068] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Graveyards of Alterac
     [7082] = { threat = "HIGH", reason = "PvP quest. Assault and capture a graveyard in Alterac Valley, then report back. The objective puts you in contested ground; push with your battleground team and avoid capturing alone.", confidence = "medium" },
@@ -3054,7 +3054,7 @@ local quests = {
     [7181] = { threat = "HIGH", reason = "Kill Korrak the Bloodrager, a level 60 elite boss in the battleground. Korrak is a powerful named mob that requires a full raid group to defeat. This is battleground content that requires coordination. Do not attempt solo.", confidence = "high" },
 
     -- The Last Element
-    [7201] = { threat = "MEDIUM", reason = "Collect the last element in the battleground. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "high" },
+    [7201] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Speak with Voggah Deathgrip
     [7222] = { threat = "LOW", reason = "Speak with Voggah Deathgrip in Frostwolf Keep. This dialogue step adds no combat; stay inside the keep.", confidence = "medium" },
@@ -3111,10 +3111,10 @@ local quests = {
     [7427] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Dwarf player in Alterac Valley and return the Dwarf Spine. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
 
     -- Elven Legends
-    [7481] = { threat = "HIGH", reason = "Dire Maul is a level 55-60 dungeon filled with elite ogres, treants, and demons. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [7481] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Lethtendris's Web
-    [7489] = { threat = "HIGH", reason = "Lethtendris is a powerful elite boss surrounded by guards. Dire Maul is a level 55-60 dungeon. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [7489] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Victory for the Horde
     [7490] = { threat = "LOW", reason = "Take Onyxia’s Head to Thrall in Orgrimmar to report the Horde’s victory. This is a city hand-in with no combat.", confidence = "medium" },
@@ -3123,7 +3123,7 @@ local quests = {
     [7491] = { threat = "LOW", reason = "Speak with Overlord Runthak in Orgrimmar after the Horde’s victory. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Camp Mojache
-    [7492] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [7492] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Journey Has Just Begun
     [7493] = { threat = "LOW", reason = "Speak with Overlord Runthak in Orgrimmar to learn the Onyxia Scale Cloak pattern. This is a city training and reward step with no combat.", confidence = "medium" },
@@ -3153,7 +3153,7 @@ local quests = {
     [7667] = { threat = "LOW", reason = "Bring the diamonds to Sagorne Crestrider in Orgrimmar. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- The Darkreaver Menace
-    [7668] = { threat = "EXTREME", reason = "You must fight through three waves of elite ghosts (blue, green, and purple) before Darkreaver spawns. The green wave is the hardest, with 3-4 level 59-60 elites that wander and can pull the whole room. The fight lasts 15-25 minutes and expects wipes. This requires a full group of level 58+ with a coordinated strategy. Do not attempt without a group and voice communication.", confidence = "high" },
+    [7668] = { threat = "EXTREME", reason = "You must fight through three waves of elite ghosts (blue, green, and purple) before Darkreaver spawns. The green wave is the hardest, with 3-4 level 59-60 elites that wander and can pull the whole room. The fight lasts 15-25 minutes and expects wipes. This requires a full group of level 58+ with a coordinated strategy. Do not attempt without a group and voice communication.", confidence = "medium" },
 
     -- Again Into the Great Ossuary
     [7669] = { threat = "LOW", reason = "Obtain another Divination Scryer from the Horde quest giver in Orgrimmar. This repeatable city exchange adds no combat.", confidence = "medium" },
@@ -3329,6 +3329,18 @@ local quests = {
     -- The Darkmoon Faire
     [7926] = { threat = "LOW", reason = "Deliver the free ticket voucher to Gelvas Grimgate at the Darkmoon Faire. This stationary hand-in adds no combat; use the normal route to the representative.", confidence = "medium" },
 
+    -- Vision of Voodress
+    [8116] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
+
+    -- Vision of Voodress
+    [8117] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
+
+    -- Vision of Voodress
+    [8118] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
+
+    -- The Unmarred Vision of Voodress
+    [8119] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
+
     -- The Battle for Arathi Basin!
     [8120] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
@@ -3374,11 +3386,14 @@ local quests = {
     -- The Battle for Arathi Basin!
     [8171] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
+    -- Vodouisant's Vigilant Embrace
+    [8188] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
+
     -- Could I get a Fishing Flier?
     [8228] = { threat = "LOW", reason = "This is a dialogue step to receive the Booty Bay fishing contest flyer. It adds no combat; use the normal route to the local representative.", confidence = "medium" },
 
     -- The Darkreaver Menace
-    [8258] = { threat = "EXTREME", reason = "Elite quest. Requires using the Divination Scryer in Scholomance to summon waves of elite spirits and Death Knight Darkreaver. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ with a coordinated strategy is required. Do not attempt solo.", confidence = "high" },
+    [8258] = { threat = "EXTREME", reason = "Elite quest. Requires using the Divination Scryer in Scholomance to summon waves of elite spirits and Death Knight Darkreaver. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ with a coordinated strategy is required. Do not attempt solo.", confidence = "medium" },
 
     -- Defiler's Basic Care Package
     [8263] = { threat = "LOW", reason = "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
@@ -3452,6 +3467,9 @@ local quests = {
     -- Conquering Arathi Basin
     [8370] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
 
+    -- Armaments of War
+    [8380] = { threat = "EXTREME", reason = "Raid quest. Treat this catalog-marked raid quest as group content, not a solo Hardcore attempt. Bring a suitable raid group or skip on Hardcore.", confidence = "medium" },
+
     -- Invaders of Alterac Valley
     [8387] = { threat = "LOW", reason = "This is an Alterac Valley mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
 
@@ -3477,7 +3495,7 @@ local quests = {
     [8412] = { threat = "MEDIUM", reason = "Collecting eight spider eyes and eight claws requires repeated kills of level-appropriate beasts near the Western Plaguelands Bulwark. Drops vary; pull from open ground and avoid nearby undead packs.", confidence = "medium" },
 
     -- Da Voodoo
-    [8413] = { threat = "MEDIUM", reason = "Shaman class quest. Voodoo feathers drop from trolls in the Sunken Temple and Hinterlands, levels 45-50. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [8413] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Battle of Warsong Gulch
     [8426] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
@@ -3600,7 +3618,7 @@ local quests = {
     [8601] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- Stormcaller's Pauldrons
-    [8602] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj, a level 60 raid dungeon. A full raid group of 20-40 players is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
+    [8602] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj, a level 60 raid dungeon. A full raid group of 20-40 players is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "medium" },
 
     -- The Horde Needs Wool Bandages!
     [8604] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
@@ -3639,25 +3657,25 @@ local quests = {
     [8616] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the Orgrimmar recipient by a familiar route.", confidence = "medium" },
 
     -- Stormcaller's Footguards
-    [8621] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
+    [8621] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "medium" },
 
     -- Stormcaller's Hauberk
-    [8622] = { threat = "EXTREME", reason = "Raid quest. Requires the Carapace of the Old God from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Honored reputation with Brood of Nozdormu.", confidence = "high" },
+    [8622] = { threat = "EXTREME", reason = "Raid quest. Requires the Carapace of the Old God from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Honored reputation with Brood of Nozdormu.", confidence = "medium" },
 
     -- Stormcaller's Diadem
-    [8623] = { threat = "EXTREME", reason = "Raid quest. Requires Vek'lor's Diadem from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Friendly reputation with Brood of Nozdormu.", confidence = "high" },
+    [8623] = { threat = "EXTREME", reason = "Raid quest. Requires Vek'lor's Diadem from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Friendly reputation with Brood of Nozdormu.", confidence = "medium" },
 
     -- Stormcaller's Leggings
-    [8624] = { threat = "EXTREME", reason = "Raid quest. Requires the Skin of the Great Sandworm from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Friendly reputation with Brood of Nozdormu.", confidence = "high" },
+    [8624] = { threat = "EXTREME", reason = "Raid quest. Requires the Skin of the Great Sandworm from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Friendly reputation with Brood of Nozdormu.", confidence = "medium" },
 
     -- Cloak of the Gathering Storm
-    [8690] = { threat = "EXTREME", reason = "Requires a Qiraji Regal Drape from Ahn'Qiraj and 2 Obsidian Idols. A full raid group is required for the drape. Do not attempt solo. Requires Revered reputation with Cenarion Circle.", confidence = "high" },
+    [8690] = { threat = "EXTREME", reason = "Requires a Qiraji Regal Drape from Ahn'Qiraj and 2 Obsidian Idols. A full raid group is required for the drape. Do not attempt solo. Requires Revered reputation with Cenarion Circle.", confidence = "medium" },
 
     -- Ring of the Gathering Storm
-    [8698] = { threat = "EXTREME", reason = "Requires a Qiraji Magisterial Ring from Ahn'Qiraj. A full raid group is required for the ring. Do not attempt solo. Requires Honored reputation with Cenarion Circle.", confidence = "high" },
+    [8698] = { threat = "EXTREME", reason = "Requires a Qiraji Magisterial Ring from Ahn'Qiraj. A full raid group is required for the ring. Do not attempt solo. Requires Honored reputation with Cenarion Circle.", confidence = "medium" },
 
     -- Hammer of the Gathering Storm
-    [8706] = { threat = "EXTREME", reason = "Requires a Qiraji Spiked Hilt from Ahn'Qiraj. A full raid group is required for the hilt. Do not attempt solo. Requires Exalted reputation with Cenarion Circle.", confidence = "high" },
+    [8706] = { threat = "EXTREME", reason = "Requires a Qiraji Spiked Hilt from Ahn'Qiraj. A full raid group is required for the hilt. Do not attempt solo. Requires Exalted reputation with Cenarion Circle.", confidence = "medium" },
 
     -- Field Duty
     [8731] = { threat = "EXTREME", reason = "Elite quest. The field-duty defense summons a level-60 elite Hive’Regal Hunter-Killer while the captain must survive; the mob can overwhelm the guards. Bring a suitable group, and avoid beneficial spells on Legion members unless you accept the PvP flag.", confidence = "medium" },
@@ -3801,61 +3819,61 @@ local quests = {
     [8904] = { threat = "LOW", reason = "The guard card comes from a holiday-token interaction with a city guard, not a combat objective. Use the matching perfume or cologne and complete the interaction in the city.", confidence = "medium" },
 
     -- An Earnest Proposition
-    [8913] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Wildheart Bracers. Safe if you stay in the city.", confidence = "high" },
+    [8913] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- An Earnest Proposition
-    [8914] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Beaststalker's Bindings. Safe if you stay in the city.", confidence = "high" },
+    [8914] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- An Earnest Proposition
-    [8915] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Magister's Bindings. Safe if you stay in the city.", confidence = "high" },
+    [8915] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- An Earnest Proposition
-    [8916] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Devout Bracers. Safe if you stay in the city.", confidence = "high" },
+    [8916] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- An Earnest Proposition
-    [8917] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Shadowcraft Bracers. Safe if you stay in the city.", confidence = "high" },
+    [8917] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- An Earnest Proposition
-    [8918] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Bindings of Elements. Safe if you stay in the city.", confidence = "high" },
+    [8918] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- An Earnest Proposition
-    [8919] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Dreadmist Bracers. Safe if you stay in the city.", confidence = "high" },
+    [8919] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- An Earnest Proposition
-    [8920] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Bracers of Valor. Safe if you stay in the city.", confidence = "high" },
+    [8920] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- A Supernatural Device
     [8923] = { threat = "LOW", reason = "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.", confidence = "medium" },
 
     -- Just Compensation
-    [8927] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8927] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- In Search of Anthion
     [8930] = { threat = "LOW", reason = "Anthion is outside the Stratholme entrance, so this conversation does not require entering the dungeon. Use the normal road and avoid nearby undead.", confidence = "medium" },
 
     -- Just Compensation
-    [8938] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8938] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Just Compensation
-    [8939] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8939] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Just Compensation
-    [8940] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8940] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Just Compensation
-    [8941] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8941] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Just Compensation
-    [8942] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8942] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Just Compensation
-    [8943] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8943] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Just Compensation
-    [8944] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8944] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Anthion's Parting Words
-    [8957] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8957] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Return to Mokvar
     [8978] = { threat = "LOW", reason = "Return of the Ghost Revealer to Mokvar in Orgrimmar adds no combat. Stay within the city.", confidence = "medium" },
@@ -3882,49 +3900,49 @@ local quests = {
     [8998] = { threat = "LOW", reason = "Dialogue with Mokvar in Orgrimmar adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Saving the Best for Last
-    [9007] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9007] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Saving the Best for Last
-    [9008] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9008] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Saving the Best for Last
-    [9009] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9009] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Saving the Best for Last
-    [9010] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9010] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Saving the Best for Last
-    [9011] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9011] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Saving the Best for Last
-    [9012] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9012] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Saving the Best for Last
-    [9013] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9013] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Saving the Best for Last
-    [9014] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9014] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Anthion's Parting Words
-    [9016] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9016] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Anthion's Parting Words
-    [9017] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9017] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Anthion's Parting Words
-    [9018] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9018] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Anthion's Parting Words
-    [9019] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9019] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Anthion's Parting Words
-    [9020] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9020] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Anthion's Parting Words
-    [9021] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9021] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Anthion's Parting Words
-    [9022] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9022] = { threat = "EXTREME", reason = "Dungeon quest. Treat this catalog-marked dungeon quest as group content, not a solo Hardcore attempt. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Bodley's Unfortunate Fate
     [9032] = { threat = "MEDIUM", reason = "The Ghost Revealer leads to Bodley near the Blackrock Spire balcony, outside the instance. Hostile level 55–58 mobs patrol Blackrock Mountain; keep an escape route and avoid pulls while using the item.", confidence = "medium" },

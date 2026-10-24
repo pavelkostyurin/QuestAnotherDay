@@ -330,7 +330,7 @@ test("the addon defines one shared icon for every threat level", () => {
     assert.equal(texture[16], 32, `${filename}: RGBA pixels`);
     assert.equal(texture.length, 18 + 32 * 32 * 4);
   }
-  assert.match(core, /GameTooltip:AddLine\(record\.reason/);
+  assert.match(core, /GameTooltip:AddLine\(FormatQuestReferences\(record\.reason, true\)/);
 });
 
 test("the threat tooltip uses regular text with separated sections", () => {
@@ -342,8 +342,9 @@ test("the threat tooltip uses regular text with separated sections", () => {
   assert.doesNotMatch(tooltip, /GameTooltip:SetText/);
   assert.match(
     tooltip,
-    /GameTooltip:AddLine\(record\.reason[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*GameTooltip:AddLine\("Threat: " \.\. style\.label[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*AddFooter\("Quest Another Day\. Feedback: \/qad options"\)/,
+    /GameTooltip:AddLine\(FormatQuestReferences\(record\.reason, true\)[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*GameTooltip:AddLine\("Threat: " \.\. style\.label[\s\S]*GameTooltip:AddLine\(" "\)[\s\S]*AddFooter\("Quest Another Day\. Feedback: \/qad options"\)/,
   );
+  assert.doesNotMatch(tooltip, /Confidence/);
   assert.match(tooltip, /reasonLine:SetFontObject\(GameTooltipText\)/);
   assert.match(tooltip, /line:SetFontObject\(GameTooltipTextSmall\)/);
 });

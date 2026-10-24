@@ -116,7 +116,7 @@ local function ShowFeedback(isReport, isDiscord)
     if record then
         lines[#lines + 1] = "Last hovered quest: " .. addon.GetQuestTitle(questID) .. " (" .. questID .. ")"
         lines[#lines + 1] = "Threat: " .. record.threat
-        lines[#lines + 1] = "Reason: " .. record.reason
+        lines[#lines + 1] = "Reason: " .. addon.FormatQuestReferences(record.reason)
     elseif isReport or isDiscord then
         lines[#lines + 1] = "Quest: enter the quest name and ID (or hover its threat icon and reopen this report)."
     end

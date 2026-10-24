@@ -27,12 +27,6 @@ local threatStyles = {
         texture = "Interface\\AddOns\\QuestAnotherDay\\Textures\\Threat-Extreme.tga",
     },
 }
-local confidenceLabels = {
-    low = "Low",
-    medium = "Medium",
-    high = "High",
-}
-
 local function Print(message)
     if DEFAULT_CHAT_FRAME then
         DEFAULT_CHAT_FRAME:AddMessage(PREFIX .. ": " .. message)
@@ -65,12 +59,29 @@ local function GetQuestTitle(questID, questLogIndex)
     return "Quest " .. questID
 end
 
+local function FormatQuestTitle(title, record)
+    local style = record and threatStyles[record.threat]
+    return "|c" .. (style and style.color or "ffb8b8b8") .. title .. "|r"
+end
+
 local function FormatThreat(record)
     local style = threatStyles[record.threat]
     if not style then
         return "|cffb8b8b8UNKNOWN|r"
     end
     return "|c" .. style.color .. style.label .. "|r"
+end
+
+local function FormatQuestReferences(text, colorize)
+    return (text:gsub("{quest:(%d+)|([^}]+)}", function(questID, title)
+        local referencedQuest = addon.quests[tonumber(questID)]
+        local style = colorize and referencedQuest and threatStyles[referencedQuest.threat]
+        local quotedTitle = '"' .. title .. '"'
+        if style then
+            return "|c" .. style.color .. quotedTitle .. "|r"
+        end
+        return quotedTitle
+    end))
 end
 
 local function IsQuestVisible(questID)
@@ -103,7 +114,7 @@ local function ShowThreatTooltip(owner, questID)
     GameTooltip:SetOwner(owner, "ANCHOR_RIGHT")
     GameTooltip:ClearLines()
     addon.feedbackQuestID = questID
-    GameTooltip:AddLine(record.reason, 1.00, 1.00, 1.00, true)
+    GameTooltip:AddLine(FormatQuestReferences(record.reason, true), 1.00, 1.00, 1.00, true)
     GameTooltip:AddLine(" ")
     GameTooltip:AddLine("Threat: " .. style.label, style.rgb[1], style.rgb[2], style.rgb[3])
     local function AddFooter(text)
@@ -124,10 +135,6 @@ local function ShowThreatTooltip(owner, questID)
     if threatLine and GameTooltipText then
         threatLine:SetFontObject(GameTooltipText)
     end
-    AddFooter("Confidence: " .. (confidenceLabels[record.confidence] or "Unknown"))
-    if record.confidence == "low" then
-        AddFooter("Limited evidence; mechanics may vary.")
-    end
     GameTooltip:AddLine(" ")
     AddFooter("Quest Another Day. Feedback: /qad options")
     GameTooltip:Show()
@@ -139,7 +146,7 @@ local function HideThreatTooltip(owner)
     end
 end
 
-local function ShowQuest(questID, questLogIndex, includeUnknown, respectDisplaySetting)
+local function ShowQuest(questID, questLogIndex, includeUnknown, respectDisplaySetting, colorTitleOnly)
     questID = NormalizeQuestID(questID)
     if not questID then
         Print("Enter a numeric quest ID, for example |cffffffff/qad 5501|r.")
@@ -154,12 +161,21 @@ local function ShowQuest(questID, questLogIndex, includeUnknown, respectDisplayS
     local title = GetQuestTitle(questID, questLogIndex)
     if not record then
         if includeUnknown then
-            Print(title .. " (" .. questID .. "): |cffb8b8b8UNKNOWN|r")
+            if colorTitleOnly then
+                Print(FormatQuestTitle(title) .. " - |cffb8b8b8UNKNOWN|r")
+            else
+                Print(title .. " (" .. questID .. "): |cffb8b8b8UNKNOWN|r")
+            end
         end
         return false
     end
 
-    Print(title .. " (" .. questID .. "): " .. FormatThreat(record) .. " - " .. record.reason)
+    if colorTitleOnly then
+        Print(FormatQuestTitle(title, record) .. " - " .. FormatQuestReferences(record.reason, true))
+    else
+        Print(title .. " (" .. questID .. "): " .. FormatThreat(record) .. " - "
+            .. FormatQuestReferences(record.reason, true))
+    end
     return true
 end
 
@@ -197,7 +213,7 @@ local function ListReviewedQuests()
 
     for index = 1, numEntries do
         local questID = GetQuestAtLogIndex(index)
-        if questID and ShowQuest(questID, index, false, true) then
+        if questID and ShowQuest(questID, index, false, true, true) then
             count = count + 1
         end
     end
@@ -264,7 +280,7 @@ local function HandleSlashCommand(message)
         return
     end
 
-    ShowQuest(command, nil, true)
+    ShowQuest(command, nil, true, false, true)
 end
 
 local eventFrame = CreateFrame("Frame")
@@ -318,6 +334,7 @@ addon.GetQuestTitle = function(questID)
     return GetQuestTitle(questID)
 end
 addon.GetThreatStyle = GetThreatStyle
+addon.FormatQuestReferences = FormatQuestReferences
 addon.GetThreatInlineIcon = GetThreatInlineIcon
 addon.ShowThreatTooltip = ShowThreatTooltip
 addon.HideThreatTooltip = HideThreatTooltip
