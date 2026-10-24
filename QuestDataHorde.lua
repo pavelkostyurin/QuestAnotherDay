@@ -3939,31 +3939,58 @@ local quests = {
     [9265] = { threat = "LOW", reason = "Outside the Undercity, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Faint Necrotic Crystal
-    [9310] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9310] = { threat = "LOW", reason = "The provided crystal is delivered to Lieutenant Rukag in the Undercity courtyard after the event encounter. This turn-in adds no combat.", confidence = "medium" },
+
+    -- Major Mana Potion
+    [9320] = { threat = "LOW", reason = "Exchange the required Scourge event runes for Major Mana Potions at the quartermaster. The turn-in adds no combat.", confidence = "medium" },
 
     -- Stealing Stormwind's Flame
-    [9330] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Stormwind from the enemy capital. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9330] = { threat = "HIGH", reason = "PvP quest. The Stormwind bonfire is inside the enemy capital, where guards and opposing players can threaten a level 50 character. Plan a route and escape, and avoid fighting guards.", confidence = "medium" },
 
     -- Stealing Ironforge's Flame
-    [9331] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Ironforge from the enemy capital. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9331] = { threat = "HIGH", reason = "PvP quest. The Ironforge bonfire is inside the enemy capital, where guards can converge on the approach. Plan a route in and out, and avoid engaging guards.", confidence = "medium" },
 
     -- Stealing Darnassus's Flame
-    [9332] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Darnassus from the enemy capital, which is patrolled by level 60+ guards and players. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9332] = { threat = "HIGH", reason = "PvP quest. The Darnassus bonfire lies inside the enemy capital; hostile guards and opposing players can threaten a level 50 character. Plan a route and escape, and avoid fighting guards.", confidence = "medium" },
+
+    -- Argent Dawn Gloves
+    [9333] = { threat = "LOW", reason = "Trade in 30 Necrotic Runes for a choice of gloves at the Argent quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
+
+    -- Blessed Wizard Oil
+    [9334] = { threat = "LOW", reason = "Exchange the required Scourge event runes for wizard oil at the Argent quartermaster. The turn-in adds no combat.", confidence = "medium" },
+
+    -- Consecrated Sharpening Stones
+    [9335] = { threat = "LOW", reason = "Exchange the required Scourge event runes for sharpening stones at the Argent quartermaster. The turn-in adds no combat.", confidence = "medium" },
+
+    -- Major Healing Potion
+    [9336] = { threat = "LOW", reason = "Exchange the required Scourge event runes for Major Healing Potions at the quartermaster. The turn-in adds no combat.", confidence = "medium" },
+
+    -- A Thief's Reward
+    [9339] = { threat = "LOW", reason = "This is the capital-city hand-in after completing the enemy-city flame quests. Turning in the recovered flame adds no combat.", confidence = "medium" },
+
+    -- Tabard of the Argent Dawn
+    [9343] = { threat = "LOW", reason = "Exchange 10 Necrotic Runes for the Argent Dawn tabard at the quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
 
     -- The Festival of Fire
-    [9368] = { threat = "LOW", reason = "Midsummer Fire Festival holiday interaction step with no combat. Touch bonfires in Orgrimmar, Thunder Bluff, and the Undercity. Safe if you stay in the cities.", confidence = "high" },
+    [9368] = { threat = "LOW", reason = "Touch bonfires and speak with the festival keeper inside the Horde capitals. This holiday interaction adds no combat.", confidence = "medium" },
 
     -- Report to General Kirika
-    [9416] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9416] = { threat = "LOW", reason = "Report to General Kirika at the Horde camp near Hive’Regal. The objective is dialogue; approach the camp without entering nearby Silithid hives.", confidence = "medium" },
+
+    -- Scouring the Desert
+    [9422] = { threat = "HIGH", reason = "PvP quest. Carrying Silithyst slows movement, prevents mounting or stealth, and flags you for PvP while crossing Silithus. Clear a route first and carry it directly to the extractor.", confidence = "medium" },
+
+    -- Bolstering Our Defenses
+    [9665] = { threat = "HIGH", reason = "PvP quest. Capturing each Eastern Plaguelands tower requires remaining exposed while control changes, giving hostile players time to interrupt or attack. Check faction control and nearby players before channeling.", confidence = "medium" },
 
     -- Hearts of the Lovers
-    [65593] = { threat = "MEDIUM", reason = "Love is in the Air holiday quest. Requires bringing the hearts of Avelina Lilly and Isaac Pearson to Carendin Halgar. The hearts are obtained from level 60 mobs in the Undercity. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [65593] = { threat = "HIGH", reason = "Warlock class quest. One heart requires entering Ambermill’s guarded courtyard and inn; several nearby enemies can aggro together, making the level 20 objective dangerous. Scout the approach and avoid fighting inside the camp.", confidence = "medium" },
 
     -- The Binding
-    [65597] = { threat = "EXTREME", reason = "Warlock class quest. Requires summoning and subduing an incubus, a level 60 elite demon. The fight takes place in the Magic Quarter of the Undercity. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [65597] = { threat = "MEDIUM", reason = "Level 20 Warlock class quest. Summon the Incubus in the Undercity ritual chamber and defeat it; its charm is the main stated danger. Keep your pet and health ready for the duel.", confidence = "medium" },
 
     -- Love Hurts
-    [65601] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [65601] = { threat = "LOW", reason = "Speak with Magar in Orgrimmar to begin the Incubus quest chain. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- The Binding
     [65604] = { threat = "EXTREME", reason = "Warlock class quest. Requires summoning and subduing an incubus, a level 60 elite demon. The fight takes place in Orgrimmar. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },

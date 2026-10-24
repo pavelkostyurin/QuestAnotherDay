@@ -102502,6 +102502,1309 @@
       "checkedAt": "2026-10-24T19:36:26+03:00",
       "skipReason": "dungeon",
       "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 9272,
+      "questName": "Dressing the Part",
+      "url": "https://www.wowhead.com/classic/quest=9272",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Dressing the Part — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9272/dressing-the-part",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "The completion text is a reward turn-in for a Bloodsail uniform; no combat objective is specified."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Bloodsail reputation reward turn-in; no combat objective. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Bloodsail reputation reward turn-in with no combat objective. Speak to Fleet Master Firallon and collect the uniform.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9292,
+      "questName": "Cracked Necrotic Crystal",
+      "url": "https://www.wowhead.com/classic/quest=9292",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Deliver the crystal to the Stormwind guard; combat belongs to the preceding invasion event. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "This is a delivery after the Scourge invasion objective; the crystal is turned in outside Stormwind and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9295,
+      "questName": "Letter from the Front",
+      "url": "https://www.wowhead.com/classic/quest=9295",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Deliver the recovered event letter at Light’s Hope Chapel; the delivery step has no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9299,
+      "questName": "Note from the Front",
+      "url": "https://www.wowhead.com/classic/quest=9299",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Deliver the recovered event note at Light’s Hope Chapel; the delivery step has no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9300,
+      "questName": "Page from the Front",
+      "url": "https://www.wowhead.com/classic/quest=9300",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Deliver the recovered event page at Light’s Hope Chapel; the delivery step has no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9301,
+      "questName": "Envelope from the Front",
+      "url": "https://www.wowhead.com/classic/quest=9301",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Deliver the recovered event envelope at Light’s Hope Chapel; the delivery step has no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9302,
+      "questName": "Missive from the Front",
+      "url": "https://www.wowhead.com/classic/quest=9302",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Deliver the recovered event missive at Light’s Hope Chapel; the delivery step has no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9304,
+      "questName": "Document from the Front",
+      "url": "https://www.wowhead.com/classic/quest=9304",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Deliver the recovered event document at Light’s Hope Chapel; the delivery step has no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9310,
+      "questName": "Faint Necrotic Crystal",
+      "url": "https://www.wowhead.com/classic/quest=9310",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Deliver the provided crystal in the Undercity; the combat event precedes this delivery step. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "The provided crystal is delivered to Lieutenant Rukag in the Undercity courtyard after the event encounter. This turn-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9317,
+      "questName": "Consecrated Sharpening Stones",
+      "url": "https://www.wowhead.com/classic/quest=9317",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Consecrated Sharpening Stones — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9317/consecrated-sharpening-stones",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Quartermaster exchange of eight Necrotic Runes for an item; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Exchange eight event runes for sharpening stones at the quartermaster; no combat objective. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Trade in eight Necrotic Runes for sharpening stones at the Argent quartermaster. This stationary currency hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9318,
+      "questName": "Blessed Wizard Oil",
+      "url": "https://www.wowhead.com/classic/quest=9318",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Exchange eight event runes for wizard oil at the quartermaster; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Trade in eight Necrotic Runes for wizard oil at the Argent quartermaster. This stationary currency hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9319,
+      "questName": "A Light in Dark Places",
+      "url": "https://www.wowhead.com/classic/quest=9319",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T23:20:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog description requires touching festival bonfires inside Blackrock Spire, Dire Maul, Scholomance, and Stratholme; skipped under the dungeon rule before external research."
+    },
+    {
+      "questId": 9320,
+      "questName": "Major Mana Potion",
+      "url": "https://www.wowhead.com/classic/quest=9320",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Stationary event-currency exchange for potions; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Exchange the required Scourge event runes for Major Mana Potions at the quartermaster. The turn-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9321,
+      "questName": "Major Healing Potion",
+      "url": "https://www.wowhead.com/classic/quest=9321",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Stationary event-currency exchange for potions; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Exchange the required Scourge event runes for Major Healing Potions at the quartermaster. The turn-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9322,
+      "questName": "Wild Fires in Kalimdor",
+      "url": "https://www.wowhead.com/classic/quest=9322",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Travel through four level 50+ zones to touch bonfires; route and avoid hostile camps, especially if underleveled. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Midsummer travel crosses Azshara, Silithus, Un’Goro, and Winterspring, where hostile camps and high-level wildlife can threaten underleveled characters. Use flight paths, stay on roads, and avoid nearby camps.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9323,
+      "questName": "Wild Fires in the Eastern Kingdoms",
+      "url": "https://www.wowhead.com/classic/quest=9323",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Travel through four mixed-level zones to touch bonfires; use roads and avoid hostile camps in the higher-level areas. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Midsummer travel crosses Blasted Lands, Eastern Plaguelands, the Hinterlands, and Searing Gorge. Use flight paths and roads, and avoid hostile camps in the higher-level zones.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9324,
+      "questName": "Stealing Orgrimmar's Flame",
+      "url": "https://www.wowhead.com/classic/quest=9324",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stealing Orgrimmar’s Flame — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9324/stealing-orgrimmars-flame",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "The enemy-capital flame starts this quest and is returned to the Festival Loremaster."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Enemy-capital flame theft exposes a level 50 character to hostile guards and players; plan an entry and escape route and avoid combat. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "PvP quest. The Orgrimmar bonfire is inside the enemy capital, where guards and players can threaten a level 50 character. Use a planned route, avoid fighting guards, and keep an escape available.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9325,
+      "questName": "Stealing Thunder Bluff's Flame",
+      "url": "https://www.wowhead.com/classic/quest=9325",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stealing Thunder Bluff’s Flame — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9325/stealing-thunder-bluffs-flame",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Classic comments place the bonfire on Spirit Rise and report a guard-heavy approach."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Enemy-capital flame theft; the bonfire is guarded and an exposed approach can be fatal near minimum level. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "PvP quest. The Thunder Bluff bonfire is near guards inside the enemy capital. Plan a quick route in and out, and avoid engaging guards.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9326,
+      "questName": "Stealing the Undercity's Flame",
+      "url": "https://www.wowhead.com/classic/quest=9326",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Enemy-capital flame theft exposes the player to hostile guards; plan a quick escape and avoid combat. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "PvP quest. The Undercity flame is inside the enemy capital, with hostile guards along the approach. Plan a quick route in and out and avoid engaging guards.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9330,
+      "questName": "Stealing Stormwind's Flame",
+      "url": "https://www.wowhead.com/classic/quest=9330",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Enemy-capital flame theft exposes a level 50 character to hostile guards and players; plan entry and escape and avoid combat. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "PvP quest. The Stormwind bonfire is inside the enemy capital, where guards and opposing players can threaten a level 50 character. Plan a route and escape, and avoid fighting guards.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9331,
+      "questName": "Stealing Ironforge's Flame",
+      "url": "https://www.wowhead.com/classic/quest=9331",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Enemy-capital flame theft exposes the player to hostile guards; plan a quick escape and avoid combat. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "PvP quest. The Ironforge bonfire is inside the enemy capital, where guards can converge on the approach. Plan a route in and out, and avoid engaging guards.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9332,
+      "questName": "Stealing Darnassus's Flame",
+      "url": "https://www.wowhead.com/classic/quest=9332",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Enemy-capital flame theft exposes the player to hostile guards and players; plan entry and escape and avoid combat. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "PvP quest. The Darnassus bonfire lies inside the enemy capital; hostile guards and opposing players can threaten a level 50 character. Plan a route and escape, and avoid fighting guards.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9333,
+      "questName": "Argent Dawn Gloves",
+      "url": "https://www.wowhead.com/classic/quest=9333",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Argent Dawn Gloves — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9333/argent-dawn-gloves",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Quartermaster exchange of 30 Necrotic Runes for gloves."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Exchange 30 event runes for gloves at the quartermaster; no combat objective. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Trade in 30 Necrotic Runes for a choice of gloves at the Argent quartermaster. This stationary currency hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9334,
+      "questName": "Blessed Wizard Oil",
+      "url": "https://www.wowhead.com/classic/quest=9334",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Stationary event-currency exchange for wizard oil; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Exchange the required Scourge event runes for wizard oil at the Argent quartermaster. The turn-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9335,
+      "questName": "Consecrated Sharpening Stones",
+      "url": "https://www.wowhead.com/classic/quest=9335",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Stationary event-currency exchange for sharpening stones; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Exchange the required Scourge event runes for sharpening stones at the Argent quartermaster. The turn-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9336,
+      "questName": "Major Healing Potion",
+      "url": "https://www.wowhead.com/classic/quest=9336",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Stationary event-currency exchange for potions; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Exchange the required Scourge event runes for Major Healing Potions at the quartermaster. The turn-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9337,
+      "questName": "Major Mana Potion",
+      "url": "https://www.wowhead.com/classic/quest=9337",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Stationary event-currency exchange for potions; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Exchange the required Scourge event runes for Major Mana Potions at the quartermaster. The turn-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9338,
+      "questName": "Allegiance to Cenarion Circle",
+      "url": "https://www.wowhead.com/classic/quest=9338",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Allegiance to Cenarion Circle — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9338/allegiance-to-cenarion-circle",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Badge turn-in at Cenarion Hold; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Turn in faction badges at Cenarion Hold; the exchange adds no combat. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Turn in Cenarion badges at Cenarion Hold for reputation. The quest is a stationary currency hand-in with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9339,
+      "questName": "A Thief's Reward",
+      "url": "https://www.wowhead.com/classic/quest=9339",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "A Thief’s Reward — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9339/a-thiefs-reward",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Quest appears after the city-flame turn-ins and is a delivery/reward step."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Turn in a previously recovered city flame; the danger lies in the preceding enemy-capital quest. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "This is the capital-city hand-in after completing the enemy-city flame quests. Turning in the recovered flame adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9341,
+      "questName": "Tabard of the Argent Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9341",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Exchange event currency for a tabard; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Exchange Necrotic Runes for the Argent Dawn tabard at the quartermaster. This stationary currency hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9343,
+      "questName": "Tabard of the Argent Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9343",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Exchange 10 event runes for a tabard; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Exchange 10 Necrotic Runes for the Argent Dawn tabard at the quartermaster. This stationary currency hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9362,
+      "questName": "Warlord Krellian",
+      "url": "https://www.wowhead.com/classic/quest=9362",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Warlord Krellian — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9362/warlord-krellian",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Quest is level 60 Mage content; comments identify Krellian as level 55 and the guards as lower-level mobs."
+        },
+        {
+          "title": "Warlord Krellian — Classic NPC page",
+          "url": "https://www.wowhead.com/classic/npc=8408/warlord-krellian",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "NPC listing and Classic comments identify the target as a level 55 non-elite with nearby level 50 mobs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Level 60 Mage quest to retrieve a shell from a level 55 non-elite with nearby naga guards; separate him from the packs. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Mage quest. Warlord Krellian is a level 55 non-elite among nearby naga guards; at quest level 60, draw him away from the surrounding packs before fighting.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9364,
+      "questName": "Fragmented Magic",
+      "url": "https://www.wowhead.com/classic/quest=9364",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Fragmented Magic — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9364/fragmented-magic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Quest objective is to polymorph Spitelash and kill clones; Classic comments describe low-health clones and area damage."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "At quest level 60, the clones are low-health targets; avoid pulling nearby naga while repeating the objective. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Mage quest. Polymorph nearby Spitelash naga to create low-health clones, and clear them with area damage. Keep the fight away from other naga packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9365,
+      "questName": "A Thief's Reward",
+      "url": "https://www.wowhead.com/classic/quest=9365",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Turn in a previously recovered city flame; the danger lies in the preceding enemy-capital quest. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "This is the capital-city hand-in after completing the enemy-city flame quests. Turning in the recovered flame adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9367,
+      "questName": "The Festival of Fire",
+      "url": "https://www.wowhead.com/classic/quest=9367",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Capital-city bonfire interactions and dialogue; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Touch bonfires and speak with the festival keeper inside the Alliance capitals. This holiday interaction adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9368,
+      "questName": "The Festival of Fire",
+      "url": "https://www.wowhead.com/classic/quest=9368",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Capital-city bonfire interactions and dialogue; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Touch bonfires and speak with the festival keeper inside the Horde capitals. This holiday interaction adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9378,
+      "questName": "DND FLAG The Dread Citadel - Naxxramas",
+      "url": "https://www.wowhead.com/classic/quest=9378",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Placeholder/reputation-gated interaction at Light’s Hope Chapel; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Placeholder quest metadata for Argent Dawn arcane cloaking at Light’s Hope Chapel. The described interaction is a reputation-gated turn-in with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9386,
+      "questName": "A Light in Dark Places",
+      "url": "https://www.wowhead.com/classic/quest=9386",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T23:20:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog description requires touching festival bonfires inside Blackrock Spire, Dire Maul, Scholomance, and Stratholme; skipped under the dungeon rule before external research."
+    },
+    {
+      "questId": 9388,
+      "questName": "Flickering Flames in Kalimdor",
+      "url": "https://www.wowhead.com/classic/quest=9388",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Multi-zone travel includes hostile areas; use roads and avoid camps when underleveled. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "The bonfire route spans Ashenvale, the Barrens, Darkshore, and Stonetalon Mountains. Travel by roads and flight paths, and avoid hostile camps if below the zone level.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9389,
+      "questName": "Flickering Flames in the Eastern Kingdoms",
+      "url": "https://www.wowhead.com/classic/quest=9389",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Multi-zone travel includes hostile areas; use roads and avoid camps when underleveled. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "The bonfire route spans Hillsbrad Foothills, Silverpine Forest, Westfall, and the Wetlands. Use roads and flight paths, and avoid hostile camps if below the zone level.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9415,
+      "questName": "Report to Marshal Bluewall",
+      "url": "https://www.wowhead.com/classic/quest=9415",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Dialogue at the Alliance camp in Silithus; avoid unrelated hive camps on the approach. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Report to Marshal Bluewall at the Alliance camp near Hive’Zora. The objective is dialogue; approach the camp without entering nearby Silithid hives.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9416,
+      "questName": "Report to General Kirika",
+      "url": "https://www.wowhead.com/classic/quest=9416",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Dialogue at the Horde camp in Silithus; avoid unrelated hive camps on the approach. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Report to General Kirika at the Horde camp near Hive’Regal. The objective is dialogue; approach the camp without entering nearby Silithid hives.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9419,
+      "questName": "Scouring the Desert",
+      "url": "https://www.wowhead.com/classic/quest=9419",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Scouring the Desert — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9419/scouring-the-desert",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Classic comments report the Silithyst carry is slower, drops on mounting/stealth, and flags PvP; Silithus mobs and opposing players threaten the run."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Silithyst carry slows movement and flags PvP in hostile Silithus; clear a route and deliver it directly. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "PvP quest. Carrying Silithyst slows movement, prevents mounting or stealth, and flags you for PvP while crossing Silithus. Clear a route first and carry it directly to the extractor.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9422,
+      "questName": "Scouring the Desert",
+      "url": "https://www.wowhead.com/classic/quest=9422",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The Silithyst carry slows movement and flags PvP in hostile Silithus; clear a route and deliver it directly. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "PvP quest. Carrying Silithyst slows movement, prevents mounting or stealth, and flags you for PvP while crossing Silithus. Clear a route first and carry it directly to the extractor.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9664,
+      "questName": "Establishing New Outposts",
+      "url": "https://www.wowhead.com/classic/quest=9664",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Establishing New Outposts — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=9664/establishing-new-outposts",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Quest requires capturing four EPL towers; Classic comments describe waiting exposed for tower control and warn about hostile players near towers."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Four exposed tower captures in contested Eastern Plaguelands leave the character vulnerable to PvP; check control and surroundings first. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "PvP quest. Capturing each Eastern Plaguelands tower requires remaining exposed while control changes, giving hostile players time to interrupt or attack. Check faction control and nearby players before channeling.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9665,
+      "questName": "Bolstering Our Defenses",
+      "url": "https://www.wowhead.com/classic/quest=9665",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Four exposed tower captures in contested Eastern Plaguelands leave the character vulnerable to PvP; check control and surroundings first. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "PvP quest. Capturing each Eastern Plaguelands tower requires remaining exposed while control changes, giving hostile players time to interrupt or attack. Check faction control and nearby players before channeling.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 65593,
+      "questName": "Hearts of the Lovers",
+      "url": "https://www.wowhead.com/classic/quest=65593",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hearts of the Lovers — Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Hearts_of_the_Lovers",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Era-specific Warlock quest requires two hearts from Ambermill and Ratchet at level 20."
+        },
+        {
+          "title": "Hearts of the Lovers — Wowhead Classic page",
+          "url": "https://www.wowhead.com/classic/quest=65593/hearts-of-the-lovers",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Quest identity and objective confirmed; Wowhead comments retrieved in search output describe the guarded Ambermill courtyard, clustered casters, and a level-20 death."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Level 20 Warlock quest; the Ambermill heart is inside a defended courtyard and inn with several nearby hostile casters and guards. Avoid a multi-mob pull. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Warlock class quest. One heart requires entering Ambermill’s guarded courtyard and inn; several nearby enemies can aggro together, making the level 20 objective dangerous. Scout the approach and avoid fighting inside the camp.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 65597,
+      "questName": "The Binding",
+      "url": "https://www.wowhead.com/classic/quest=65597",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Binding (Incubus, Undercity) — Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/The_Binding_(Incubus,_Undercity)",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Era-specific Warlock quest is level 20 and requires defeating a summoned Incubus."
+        },
+        {
+          "title": "The Binding — Wowhead Classic page",
+          "url": "https://www.wowhead.com/classic/quest=65597/the-binding",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Classic quest page confirms level 20, Warlock class, Incubus summoned and slain; this disproves the stale level-60-elite description."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Incubus is a level 20 class-quest opponent, not a level 60 elite. Prepare for its stated beguilement and fight in the ritual chamber. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Level 20 Warlock class quest. Summon the Incubus in the Undercity ritual chamber and defeat it; its charm is the main stated danger. Keep your pet and health ready for the duel.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 65601,
+      "questName": "Love Hurts",
+      "url": "https://www.wowhead.com/classic/quest=65601",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog description and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Dialogue step in Orgrimmar; no combat objective. Medium: catalog context and coherent knowledge support the assessment; no external research was needed.",
+      "reason": "Speak with Magar in Orgrimmar to begin the Incubus quest chain. This city dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 65602,
+      "questName": "What Is Love?",
+      "url": "https://www.wowhead.com/classic/quest=65602",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:20:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval only; comments were not treated as a ranked sample.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "What Is Love? — Wowhead Classic page",
+          "url": "https://www.wowhead.com/classic/quest=65602/what-is-love",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:20:00+03:00",
+          "evidence": "Quest comments describe lighting a torch, drawing two archaeologists outside, and taking the figurine upstairs while they are distracted."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The figurine is inside a defended Ashenvale house; distract the archaeologists with the torch and leave before they return. Medium: limited source retrieval confirms the objective and key mechanic; tier still reflects the Classic Era Hardcore solo-risk assessment.",
+      "reason": "Warlock class quest. Distract the two archaeologists outside the Ashenvale house with a lit torch, then take the figurine upstairs before they return. If discovered, nearby enemies can make a level 20 character’s escape dangerous.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
     }
   ]
 }

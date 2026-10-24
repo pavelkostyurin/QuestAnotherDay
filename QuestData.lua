@@ -11442,97 +11442,116 @@ addon.quests = {
     [9271] = { threat = "EXTREME", reason = "Requires entering Stratholme to use Atiesh on Consecrated Earth and defeat the entity that is exorcised. The entity is a level 62 elite. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Cracked Necrotic Crystal
-    [9292] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9272] = { threat = "LOW", reason = "Bloodsail reputation reward turn-in with no combat objective. Speak to Fleet Master Firallon and collect the uniform.", confidence = "medium" },
+    [9292] = { threat = "LOW", reason = "This is a delivery after the Scourge invasion objective; the crystal is turned in outside Stormwind and adds no combat.", confidence = "medium" },
 
     -- Letter from the Front
-    [9295] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9295] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Note from the Front
-    [9299] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9299] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Page from the Front
-    [9300] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9300] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Envelope from the Front
-    [9301] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9301] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Missive from the Front
-    [9302] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9302] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Document from the Front
-    [9304] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9304] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Faint Necrotic Crystal
-    [9310] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9310] = { threat = "LOW", reason = "The provided crystal is delivered to Lieutenant Rukag in the Undercity courtyard after the event encounter. This turn-in adds no combat.", confidence = "medium" },
 
     -- A Light in Dark Places
+    [9317] = { threat = "LOW", reason = "Trade in eight Necrotic Runes for sharpening stones at the Argent quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
+    [9318] = { threat = "LOW", reason = "Trade in eight Necrotic Runes for wizard oil at the Argent quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
     [9319] = { threat = "EXTREME", reason = "Requires touching bonfires inside Blackrock Spire, Dire Maul, Scholomance, and Stratholme. All four are level 55-60 dungeons filled with elites. A full group of level 55+ is required for each. Do not attempt solo.", confidence = "high" },
 
     -- Wild Fires in Kalimdor
-    [9322] = { threat = "MEDIUM", reason = "Midsummer Fire Festival quest. Requires visiting camps in Azshara, Silithus, Un'Goro Crater, and Winterspring. All four zones are patrolled by level 50-58 mobs. The camps themselves are safe, but the travel is dangerous. Do not attempt below level 50 solo.", confidence = "medium" },
+    [9320] = { threat = "LOW", reason = "Exchange the required Scourge event runes for Major Mana Potions at the quartermaster. The turn-in adds no combat.", confidence = "medium" },
+    [9321] = { threat = "LOW", reason = "Exchange the required Scourge event runes for Major Healing Potions at the quartermaster. The turn-in adds no combat.", confidence = "medium" },
+    [9322] = { threat = "MEDIUM", reason = "Midsummer travel crosses Azshara, Silithus, Un’Goro, and Winterspring, where hostile camps and high-level wildlife can threaten underleveled characters. Use flight paths, stay on roads, and avoid nearby camps.", confidence = "medium" },
 
     -- Wild Fires in the Eastern Kingdoms
-    [9323] = { threat = "MEDIUM", reason = "Midsummer Fire Festival quest. Requires visiting camps in Blasted Lands, Eastern Plaguelands, the Hinterlands, and Searing Gorge. All four zones are patrolled by level 45-58 mobs. Do not attempt below level 48 solo.", confidence = "medium" },
+    [9323] = { threat = "MEDIUM", reason = "Midsummer travel crosses Blasted Lands, Eastern Plaguelands, the Hinterlands, and Searing Gorge. Use flight paths and roads, and avoid hostile camps in the higher-level zones.", confidence = "medium" },
 
     -- Stealing Orgrimmar's Flame
-    [9324] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Orgrimmar from the enemy capital, which is patrolled by level 60+ guards and players. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9324] = { threat = "HIGH", reason = "PvP quest. The Orgrimmar bonfire is inside the enemy capital, where guards and players can threaten a level 50 character. Use a planned route, avoid fighting guards, and keep an escape available.", confidence = "medium" },
 
     -- Stealing Thunder Bluff's Flame
-    [9325] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Thunder Bluff from the enemy capital. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9325] = { threat = "HIGH", reason = "PvP quest. The Thunder Bluff bonfire is near guards inside the enemy capital. Plan a quick route in and out, and avoid engaging guards.", confidence = "medium" },
 
     -- Stealing the Undercity's Flame
-    [9326] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of the Undercity from the enemy capital. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9326] = { threat = "HIGH", reason = "PvP quest. The Undercity flame is inside the enemy capital, with hostile guards along the approach. Plan a quick route in and out and avoid engaging guards.", confidence = "medium" },
 
     -- Stealing Stormwind's Flame
-    [9330] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Stormwind from the enemy capital. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9330] = { threat = "HIGH", reason = "PvP quest. The Stormwind bonfire is inside the enemy capital, where guards and opposing players can threaten a level 50 character. Plan a route and escape, and avoid fighting guards.", confidence = "medium" },
 
     -- Stealing Ironforge's Flame
-    [9331] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Ironforge from the enemy capital. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9331] = { threat = "HIGH", reason = "PvP quest. The Ironforge bonfire is inside the enemy capital, where guards can converge on the approach. Plan a route in and out, and avoid engaging guards.", confidence = "medium" },
 
     -- Stealing Darnassus's Flame
-    [9332] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Darnassus from the enemy capital, which is patrolled by level 60+ guards and players. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9332] = { threat = "HIGH", reason = "PvP quest. The Darnassus bonfire lies inside the enemy capital; hostile guards and opposing players can threaten a level 50 character. Plan a route and escape, and avoid fighting guards.", confidence = "medium" },
 
     -- Warlord Krellian
-    [9362] = { threat = "HIGH", reason = "Warlord Krellian is a level 57 elite in the Ruins of Eldarath in Azshara, surrounded by elite naga guards. He hits hard and the ruins are dense with mobs. A group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [9333] = { threat = "LOW", reason = "Trade in 30 Necrotic Runes for a choice of gloves at the Argent quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
+    [9334] = { threat = "LOW", reason = "Exchange the required Scourge event runes for wizard oil at the Argent quartermaster. The turn-in adds no combat.", confidence = "medium" },
+    [9335] = { threat = "LOW", reason = "Exchange the required Scourge event runes for sharpening stones at the Argent quartermaster. The turn-in adds no combat.", confidence = "medium" },
+    [9336] = { threat = "LOW", reason = "Exchange the required Scourge event runes for Major Healing Potions at the quartermaster. The turn-in adds no combat.", confidence = "medium" },
+    [9337] = { threat = "LOW", reason = "Exchange the required Scourge event runes for Major Mana Potions at the quartermaster. The turn-in adds no combat.", confidence = "medium" },
+    [9338] = { threat = "LOW", reason = "Turn in Cenarion badges at Cenarion Hold for reputation. The quest is a stationary currency hand-in with no combat objective.", confidence = "medium" },
+    [9339] = { threat = "LOW", reason = "This is the capital-city hand-in after completing the enemy-city flame quests. Turning in the recovered flame adds no combat.", confidence = "medium" },
+    [9341] = { threat = "LOW", reason = "Exchange Necrotic Runes for the Argent Dawn tabard at the quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
+    [9343] = { threat = "LOW", reason = "Exchange 10 Necrotic Runes for the Argent Dawn tabard at the quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
+    [9362] = { threat = "LOW", reason = "Mage quest. Warlord Krellian is a level 55 non-elite among nearby naga guards; at quest level 60, draw him away from the surrounding packs before fighting.", confidence = "medium" },
 
     -- Fragmented Magic
-    [9364] = { threat = "MEDIUM", reason = "Requires polymorphing Spitelash naga in Azshara and killing 50 clones. The naga are levels 50-54 and pull in groups. The clones are non-elite but numerous. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [9364] = { threat = "LOW", reason = "Mage quest. Polymorph nearby Spitelash naga to create low-health clones, and clear them with area damage. Keep the fight away from other naga packs.", confidence = "medium" },
 
     -- The Festival of Fire (Alliance)
-    [9367] = { threat = "LOW", reason = "Midsummer Fire Festival holiday interaction step with no combat. Touch bonfires in Stormwind, Ironforge, and Darnassus. Safe if you stay in the cities.", confidence = "high" },
+    [9365] = { threat = "LOW", reason = "This is the capital-city hand-in after completing the enemy-city flame quests. Turning in the recovered flame adds no combat.", confidence = "medium" },
+    [9367] = { threat = "LOW", reason = "Touch bonfires and speak with the festival keeper inside the Alliance capitals. This holiday interaction adds no combat.", confidence = "medium" },
 
     -- The Festival of Fire (Horde)
-    [9368] = { threat = "LOW", reason = "Midsummer Fire Festival holiday interaction step with no combat. Touch bonfires in Orgrimmar, Thunder Bluff, and the Undercity. Safe if you stay in the cities.", confidence = "high" },
+    [9368] = { threat = "LOW", reason = "Touch bonfires and speak with the festival keeper inside the Horde capitals. This holiday interaction adds no combat.", confidence = "medium" },
 
     -- DND FLAG The Dread Citadel - Naxxramas
-    [9378] = { threat = "LOW", reason = "Attunement turn-in with no combat. Requires Exalted reputation with Argent Dawn. This is a placeholder/DND quest. Safe if you stay in the area.", confidence = "high" },
+    [9378] = { threat = "LOW", reason = "Placeholder quest metadata for Argent Dawn arcane cloaking at Light’s Hope Chapel. The described interaction is a reputation-gated turn-in with no combat objective.", confidence = "medium" },
 
     -- A Light in Dark Places (9386)
     [9386] = { threat = "EXTREME", reason = "Requires touching bonfires inside Blackrock Spire, Dire Maul, Scholomance, and Stratholme. All four are level 55-60 dungeons filled with elites. A full group of level 55+ is required for each. Do not attempt solo.", confidence = "high" },
 
     -- Flickering Flames in Kalimdor
-    [9388] = { threat = "MEDIUM", reason = "Midsummer Fire Festival quest. Requires visiting bonfires in Ashenvale, the Barrens, Darkshore, and Stonetalon Mountains. All four zones are patrolled by level 15-30 mobs. Do not attempt below level 25 solo.", confidence = "medium" },
+    [9388] = { threat = "MEDIUM", reason = "The bonfire route spans Ashenvale, the Barrens, Darkshore, and Stonetalon Mountains. Travel by roads and flight paths, and avoid hostile camps if below the zone level.", confidence = "medium" },
 
     -- Flickering Flames in the Eastern Kingdoms
-    [9389] = { threat = "MEDIUM", reason = "Midsummer Fire Festival quest. Requires visiting bonfires in Hillsbrad Foothills, Silverpine Forest, Westfall, and the Wetlands. All four zones are patrolled by level 15-30 mobs. Do not attempt below level 25 solo.", confidence = "medium" },
+    [9389] = { threat = "MEDIUM", reason = "The bonfire route spans Hillsbrad Foothills, Silverpine Forest, Westfall, and the Wetlands. Use roads and flight paths, and avoid hostile camps if below the zone level.", confidence = "medium" },
 
     -- Report to Marshal Bluewall
-    [9415] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9415] = { threat = "LOW", reason = "Report to Marshal Bluewall at the Alliance camp near Hive’Zora. The objective is dialogue; approach the camp without entering nearby Silithid hives.", confidence = "medium" },
 
     -- Report to General Kirika
-    [9416] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9416] = { threat = "LOW", reason = "Report to General Kirika at the Horde camp near Hive’Regal. The objective is dialogue; approach the camp without entering nearby Silithid hives.", confidence = "medium" },
 
     -- Hearts of the Lovers
-    [65593] = { threat = "MEDIUM", reason = "Love is in the Air holiday quest. Requires bringing the hearts of Avelina Lilly and Isaac Pearson to Carendin Halgar. The hearts are obtained from level 60 mobs in the Undercity. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [9419] = { threat = "HIGH", reason = "PvP quest. Carrying Silithyst slows movement, prevents mounting or stealth, and flags you for PvP while crossing Silithus. Clear a route first and carry it directly to the extractor.", confidence = "medium" },
+    [9422] = { threat = "HIGH", reason = "PvP quest. Carrying Silithyst slows movement, prevents mounting or stealth, and flags you for PvP while crossing Silithus. Clear a route first and carry it directly to the extractor.", confidence = "medium" },
+    [9664] = { threat = "HIGH", reason = "PvP quest. Capturing each Eastern Plaguelands tower requires remaining exposed while control changes, giving hostile players time to interrupt or attack. Check faction control and nearby players before channeling.", confidence = "medium" },
+    [9665] = { threat = "HIGH", reason = "PvP quest. Capturing each Eastern Plaguelands tower requires remaining exposed while control changes, giving hostile players time to interrupt or attack. Check faction control and nearby players before channeling.", confidence = "medium" },
+    [65593] = { threat = "HIGH", reason = "Warlock class quest. One heart requires entering Ambermill’s guarded courtyard and inn; several nearby enemies can aggro together, making the level 20 objective dangerous. Scout the approach and avoid fighting inside the camp.", confidence = "medium" },
 
     -- The Binding (Lovers' Hearts)
-    [65597] = { threat = "EXTREME", reason = "Warlock class quest. Requires summoning and subduing an incubus, a level 60 elite demon. The fight takes place in the Magic Quarter of the Undercity. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [65597] = { threat = "MEDIUM", reason = "Level 20 Warlock class quest. Summon the Incubus in the Undercity ritual chamber and defeat it; its charm is the main stated danger. Keep your pet and health ready for the duel.", confidence = "medium" },
 
     -- Love Hurts
-    [65601] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [65601] = { threat = "LOW", reason = "Speak with Magar in Orgrimmar to begin the Incubus quest chain. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- What Is Love?
-    [65602] = { threat = "LOW", reason = "Love is in the Air holiday collection step with no combat. The figurine is obtained from a quest. Safe if you stay in the city.", confidence = "high" },
+    [65602] = { threat = "MEDIUM", reason = "Warlock class quest. Distract the two archaeologists outside the Ashenvale house with a lit torch, then take the figurine upstairs before they return. If discovered, nearby enemies can make a level 20 character’s escape dangerous.", confidence = "medium" },
 
     -- The Binding (Wooden Figurine)
     [65603] = { threat = "EXTREME", reason = "Warlock class quest. Requires summoning and subduing an incubus, a level 60 elite demon. The fight takes place in the Slaughtered Lamb in Stormwind. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },

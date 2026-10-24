@@ -3863,48 +3863,54 @@ addon.quests = {
     -- Atiesh, Greatstaff of the Guardian
     [9271] = { threat = "EXTREME", reason = "Requires entering Stratholme to use Atiesh on Consecrated Earth and defeat the entity that is exorcised. The entity is a level 62 elite. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
+    -- Dressing the Part
+    [9272] = { threat = "LOW", reason = "Bloodsail reputation reward turn-in with no combat objective. Speak to Fleet Master Firallon and collect the uniform.", confidence = "medium" },
+
     -- Letter from the Front
-    [9295] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9295] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Note from the Front
-    [9299] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9299] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Page from the Front
-    [9300] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9300] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Envelope from the Front
-    [9301] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9301] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Missive from the Front
-    [9302] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9302] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- Document from the Front
-    [9304] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9304] = { threat = "LOW", reason = "Deliver the event item to Light’s Hope Chapel. The hand-in itself adds no combat; use the road and avoid unrelated Plaguewood packs.", confidence = "medium" },
 
     -- A Light in Dark Places
     [9319] = { threat = "EXTREME", reason = "Requires touching bonfires inside Blackrock Spire, Dire Maul, Scholomance, and Stratholme. All four are level 55-60 dungeons filled with elites. A full group of level 55+ is required for each. Do not attempt solo.", confidence = "high" },
 
     -- Wild Fires in Kalimdor
-    [9322] = { threat = "MEDIUM", reason = "Midsummer Fire Festival quest. Requires visiting camps in Azshara, Silithus, Un'Goro Crater, and Winterspring. All four zones are patrolled by level 50-58 mobs. The camps themselves are safe, but the travel is dangerous. Do not attempt below level 50 solo.", confidence = "medium" },
+    [9322] = { threat = "MEDIUM", reason = "Midsummer travel crosses Azshara, Silithus, Un’Goro, and Winterspring, where hostile camps and high-level wildlife can threaten underleveled characters. Use flight paths, stay on roads, and avoid nearby camps.", confidence = "medium" },
 
     -- Wild Fires in the Eastern Kingdoms
-    [9323] = { threat = "MEDIUM", reason = "Midsummer Fire Festival quest. Requires visiting camps in Blasted Lands, Eastern Plaguelands, the Hinterlands, and Searing Gorge. All four zones are patrolled by level 45-58 mobs. Do not attempt below level 48 solo.", confidence = "medium" },
+    [9323] = { threat = "MEDIUM", reason = "Midsummer travel crosses Blasted Lands, Eastern Plaguelands, the Hinterlands, and Searing Gorge. Use flight paths and roads, and avoid hostile camps in the higher-level zones.", confidence = "medium" },
+
+    -- Allegiance to Cenarion Circle
+    [9338] = { threat = "LOW", reason = "Turn in Cenarion badges at Cenarion Hold for reputation. The quest is a stationary currency hand-in with no combat objective.", confidence = "medium" },
 
     -- Warlord Krellian
-    [9362] = { threat = "HIGH", reason = "Warlord Krellian is a level 57 elite in the Ruins of Eldarath in Azshara, surrounded by elite naga guards. He hits hard and the ruins are dense with mobs. A group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [9362] = { threat = "LOW", reason = "Mage quest. Warlord Krellian is a level 55 non-elite among nearby naga guards; at quest level 60, draw him away from the surrounding packs before fighting.", confidence = "medium" },
 
     -- Fragmented Magic
-    [9364] = { threat = "MEDIUM", reason = "Requires polymorphing Spitelash naga in Azshara and killing 50 clones. The naga are levels 50-54 and pull in groups. The clones are non-elite but numerous. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [9364] = { threat = "LOW", reason = "Mage quest. Polymorph nearby Spitelash naga to create low-health clones, and clear them with area damage. Keep the fight away from other naga packs.", confidence = "medium" },
 
     -- DND FLAG The Dread Citadel - Naxxramas
-    [9378] = { threat = "LOW", reason = "Attunement turn-in with no combat. Requires Exalted reputation with Argent Dawn. This is a placeholder/DND quest. Safe if you stay in the area.", confidence = "high" },
+    [9378] = { threat = "LOW", reason = "Placeholder quest metadata for Argent Dawn arcane cloaking at Light’s Hope Chapel. The described interaction is a reputation-gated turn-in with no combat objective.", confidence = "medium" },
 
     -- A Light in Dark Places
     [9386] = { threat = "EXTREME", reason = "Requires touching bonfires inside Blackrock Spire, Dire Maul, Scholomance, and Stratholme. All four are level 55-60 dungeons filled with elites. A full group of level 55+ is required for each. Do not attempt solo.", confidence = "high" },
 
     -- Flickering Flames in Kalimdor
-    [9388] = { threat = "MEDIUM", reason = "Midsummer Fire Festival quest. Requires visiting bonfires in Ashenvale, the Barrens, Darkshore, and Stonetalon Mountains. All four zones are patrolled by level 15-30 mobs. Do not attempt below level 25 solo.", confidence = "medium" },
+    [9388] = { threat = "MEDIUM", reason = "The bonfire route spans Ashenvale, the Barrens, Darkshore, and Stonetalon Mountains. Travel by roads and flight paths, and avoid hostile camps if below the zone level.", confidence = "medium" },
 
     -- Flickering Flames in the Eastern Kingdoms
-    [9389] = { threat = "MEDIUM", reason = "Midsummer Fire Festival quest. Requires visiting bonfires in Hillsbrad Foothills, Silverpine Forest, Westfall, and the Wetlands. All four zones are patrolled by level 15-30 mobs. Do not attempt below level 25 solo.", confidence = "medium" },
+    [9389] = { threat = "MEDIUM", reason = "The bonfire route spans Hillsbrad Foothills, Silverpine Forest, Westfall, and the Wetlands. Use roads and flight paths, and avoid hostile camps if below the zone level.", confidence = "medium" },
 }

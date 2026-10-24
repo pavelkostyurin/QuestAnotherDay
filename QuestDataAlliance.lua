@@ -4533,25 +4533,49 @@ local quests = {
     [9262] = { threat = "LOW", reason = "Outside Darnassus, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Cracked Necrotic Crystal
-    [9292] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9292] = { threat = "LOW", reason = "This is a delivery after the Scourge invasion objective; the crystal is turned in outside Stormwind and adds no combat.", confidence = "medium" },
+
+    -- Consecrated Sharpening Stones
+    [9317] = { threat = "LOW", reason = "Trade in eight Necrotic Runes for sharpening stones at the Argent quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
+
+    -- Blessed Wizard Oil
+    [9318] = { threat = "LOW", reason = "Trade in eight Necrotic Runes for wizard oil at the Argent quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
+
+    -- Major Healing Potion
+    [9321] = { threat = "LOW", reason = "Exchange the required Scourge event runes for Major Healing Potions at the quartermaster. The turn-in adds no combat.", confidence = "medium" },
 
     -- Stealing Orgrimmar's Flame
-    [9324] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Orgrimmar from the enemy capital, which is patrolled by level 60+ guards and players. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9324] = { threat = "HIGH", reason = "PvP quest. The Orgrimmar bonfire is inside the enemy capital, where guards and players can threaten a level 50 character. Use a planned route, avoid fighting guards, and keep an escape available.", confidence = "medium" },
 
     -- Stealing Thunder Bluff's Flame
-    [9325] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of Thunder Bluff from the enemy capital. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9325] = { threat = "HIGH", reason = "PvP quest. The Thunder Bluff bonfire is near guards inside the enemy capital. Plan a quick route in and out, and avoid engaging guards.", confidence = "medium" },
 
     -- Stealing the Undercity's Flame
-    [9326] = { threat = "EXTREME", reason = "PvP quest. Requires stealing the Flame of the Undercity from the enemy capital. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [9326] = { threat = "HIGH", reason = "PvP quest. The Undercity flame is inside the enemy capital, with hostile guards along the approach. Plan a quick route in and out and avoid engaging guards.", confidence = "medium" },
+
+    -- Major Mana Potion
+    [9337] = { threat = "LOW", reason = "Exchange the required Scourge event runes for Major Mana Potions at the quartermaster. The turn-in adds no combat.", confidence = "medium" },
+
+    -- Tabard of the Argent Dawn
+    [9341] = { threat = "LOW", reason = "Exchange Necrotic Runes for the Argent Dawn tabard at the quartermaster. This stationary currency hand-in adds no combat.", confidence = "medium" },
+
+    -- A Thief's Reward
+    [9365] = { threat = "LOW", reason = "This is the capital-city hand-in after completing the enemy-city flame quests. Turning in the recovered flame adds no combat.", confidence = "medium" },
 
     -- The Festival of Fire
-    [9367] = { threat = "LOW", reason = "Midsummer Fire Festival holiday interaction step with no combat. Touch bonfires in Stormwind, Ironforge, and Darnassus. Safe if you stay in the cities.", confidence = "high" },
+    [9367] = { threat = "LOW", reason = "Touch bonfires and speak with the festival keeper inside the Alliance capitals. This holiday interaction adds no combat.", confidence = "medium" },
 
     -- Report to Marshal Bluewall
-    [9415] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9415] = { threat = "LOW", reason = "Report to Marshal Bluewall at the Alliance camp near Hive’Zora. The objective is dialogue; approach the camp without entering nearby Silithid hives.", confidence = "medium" },
+
+    -- Scouring the Desert
+    [9419] = { threat = "HIGH", reason = "PvP quest. Carrying Silithyst slows movement, prevents mounting or stealth, and flags you for PvP while crossing Silithus. Clear a route first and carry it directly to the extractor.", confidence = "medium" },
+
+    -- Establishing New Outposts
+    [9664] = { threat = "HIGH", reason = "PvP quest. Capturing each Eastern Plaguelands tower requires remaining exposed while control changes, giving hostile players time to interrupt or attack. Check faction control and nearby players before channeling.", confidence = "medium" },
 
     -- What Is Love?
-    [65602] = { threat = "LOW", reason = "Love is in the Air holiday collection step with no combat. The figurine is obtained from a quest. Safe if you stay in the city.", confidence = "high" },
+    [65602] = { threat = "MEDIUM", reason = "Warlock class quest. Distract the two archaeologists outside the Ashenvale house with a lit torch, then take the figurine upstairs before they return. If discovered, nearby enemies can make a level 20 character’s escape dangerous.", confidence = "medium" },
 
     -- The Binding
     [65603] = { threat = "EXTREME", reason = "Warlock class quest. Requires summoning and subduing an incubus, a level 60 elite demon. The fight takes place in the Slaughtered Lamb in Stormwind. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },
