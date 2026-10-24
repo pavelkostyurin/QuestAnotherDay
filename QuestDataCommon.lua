@@ -2930,8 +2930,23 @@ addon.quests = {
     -- Skyseer the Elder
     [8682] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
 
+    -- Dawnstrider the Elder
+    [8683] = { threat = "MEDIUM", reason = "The elder is in a remote outdoor zone near hostile camps or patrols, and nearby enemies can join the approach. Stay on a cleared route, avoid the camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Dreamseer the Elder
+    [8684] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Mistwalker the Elder
+    [8685] = { threat = "MEDIUM", reason = "The elder is in the outdoor arena near Dire Maul, where nearby hostile ogres can join the approach. Enter by a cleared route and avoid fighting inside the arena.", confidence = "medium" },
+
+    -- High Mountain the Elder
+    [8686] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
     -- Target: Hive'Zora Tunnelers
-    [8687] = { threat = "HIGH", reason = "Hive'Zora Tunnelers are non-elite silithid inside the hive, levels 58-60. They are surrounded by elite guards. Stealth or careful pulling required. Do not attempt below level 58 solo without a plan.", confidence = "high" },
+    [8687] = { threat = "EXTREME", reason = "Elite quest. Hive’Zora Tunnelers are level 58–59 elites inside a hostile hive, and the objective requires 30 kills. Bring a suitable group or skip this assignment on Hardcore.", confidence = "medium" },
+
+    -- Windrun the Elder
+    [8688] = { threat = "MEDIUM", reason = "The elder is in a remote outdoor zone near hostile camps or patrols, and nearby enemies can join the approach. Stay on a cleared route, avoid the camps, and leave if enemies converge.", confidence = "medium" },
 
     -- Shroud of Infinite Wisdom
     [8689] = { threat = "EXTREME", reason = "Requires a Qiraji Martial Drape from Ahn'Qiraj and 2 Jasper Idols. A full raid group is required for the drape. Do not attempt solo. Requires Revered reputation with Cenarion Circle.", confidence = "high" },
@@ -2987,8 +3002,47 @@ addon.quests = {
     -- Scythe of the Unseen Path
     [8712] = { threat = "EXTREME", reason = "Requires a Qiraji Spiked Hilt from Ahn'Qiraj. A full raid group is required for the hilt. Do not attempt solo. Requires Exalted reputation with Cenarion Circle.", confidence = "high" },
 
+    -- Moonstrike the Elder
+    [8714] = { threat = "MEDIUM", reason = "The elder is in a remote outdoor zone near hostile camps or patrols, and nearby enemies can join the approach. Stay on a cleared route, avoid the camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Bladeleaf the Elder
+    [8715] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Starglade the Elder
+    [8716] = { threat = "MEDIUM", reason = "The elder is in a remote outdoor zone near hostile camps or patrols, and nearby enemies can join the approach. Stay on a cleared route, avoid the camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Moonwarden the Elder
+    [8717] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Bladeswift the Elder
+    [8718] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Bladesing the Elder
+    [8719] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Skygleam the Elder
+    [8720] = { threat = "MEDIUM", reason = "The elder is in a remote outdoor zone near hostile camps or patrols, and nearby enemies can join the approach. Stay on a cleared route, avoid the camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Starweave the Elder
+    [8721] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Meadowrun the Elder
+    [8722] = { threat = "MEDIUM", reason = "The elder is in a remote outdoor zone near hostile camps or patrols, and nearby enemies can join the approach. Stay on a cleared route, avoid the camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Nightwind the Elder
+    [8723] = { threat = "MEDIUM", reason = "The elder is in a remote outdoor zone near hostile camps or patrols, and nearby enemies can join the approach. Stay on a cleared route, avoid the camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Morningdew the Elder
+    [8724] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Riversong the Elder
+    [8725] = { threat = "LOW", reason = "The elder is in a city, settlement, or well-traveled hub, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Brightspear the Elder
+    [8726] = { threat = "MEDIUM", reason = "The elder is in a remote outdoor zone near hostile camps or patrols, and nearby enemies can join the approach. Stay on a cleared route, avoid the camps, and leave if enemies converge.", confidence = "medium" },
+
     -- The Good News and The Bad News
-    [8728] = { threat = "LOW", reason = "Collection step with no combat beyond gathering the materials. The materials are crafted or purchased. Safe if you stay in the city.", confidence = "high" },
+    [8728] = { threat = "LOW", reason = "This is a materials hand-in at Narain Soothfancy with no combat objective in this quest step. Use the normal route to the Tanaris recipient.", confidence = "medium" },
 
     -- The Wrath of Neptulon
     [8729] = { threat = "HIGH", reason = "Requires using the Arcanite Buoy at the Swirling Maelstrom in Azshara to summon and kill Maws, a level 60 elite sea giant. He hits hard and has water-based abilities. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },

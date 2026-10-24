@@ -3660,7 +3660,10 @@ local quests = {
     [8706] = { threat = "EXTREME", reason = "Requires a Qiraji Spiked Hilt from Ahn'Qiraj. A full raid group is required for the hilt. Do not attempt solo. Requires Exalted reputation with Cenarion Circle.", confidence = "high" },
 
     -- Field Duty
-    [8731] = { threat = "HIGH", reason = "Requires reporting to the Orgrimmar Legion post in front of Hive'Regal and obtaining Signed Field Duty Papers. The area is contested and patrolled by elite silithid. Note: healing or buffing Legion members flags you for PvP. Do not attempt solo below level 55.", confidence = "high" },
+    [8731] = { threat = "EXTREME", reason = "Elite quest. The field-duty defense summons a level-60 elite Hive’Regal Hunter-Killer while the captain must survive; the mob can overwhelm the guards. Bring a suitable group, and avoid beneficial spells on Legion members unless you accept the PvP flag.", confidence = "medium" },
+
+    -- Field Duty Papers
+    [8732] = { threat = "LOW", reason = "This is a materials hand-in at Narain Soothfancy with no combat objective in this quest step. Use the normal route to the Tanaris recipient.", confidence = "medium" },
 
     -- Metzen the Reindeer
     [8746] = { threat = "MEDIUM", reason = "Winter Veil holiday quest. Requires finding Metzen in the Alterac Mountains and freeing him. The area is patrolled by level 30-40 mobs, and the kidnappers are level 40 elites. Do not attempt below level 40 solo without a group.", confidence = "high" },
