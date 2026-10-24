@@ -3288,10 +3288,10 @@ addon.quests = {
     [8945] = { threat = "EXTREME", reason = "Requires entering Stratholme to rescue Ysida Harmon from Baron Rivendare. Rivendare is a level 62 elite death knight boss in a level 58-60 dungeon. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Proof of Life
-    [8946] = { threat = "LOW", reason = "Delivery step with no combat. The locket is obtained from Ysida in Stratholme. Safe if you stay on the road.", confidence = "high" },
+    [8946] = { threat = "LOW", reason = "Locket delivery to Anthion with no combat objective; the dangerous rescue occurs in the preceding dungeon step. Follow the normal road through the Plaguelands.", confidence = "medium" },
 
     -- Anthion's Strange Request
-    [8947] = { threat = "LOW", reason = "Collection and delivery step with no combat beyond gathering the materials. Safe if you stay in the area.", confidence = "high" },
+    [8947] = { threat = "LOW", reason = "Material turn-in to Anthion with no combat objective. Use the normal route through the Eastern Plaguelands and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Anthion's Old Friend
     [8948] = { threat = "EXTREME", reason = "Requires entering Dire Maul to speak with Falrin Treeshaper at the library. Dire Maul is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -3306,16 +3306,16 @@ addon.quests = {
     [8961] = { threat = "EXTREME", reason = "Requires gathering the Incendicite of Incendius, the Ember of Emberseer, and the Cinder of Cynders. These drop from elite bosses in Blackrock Depths and Upper Blackrock Spire, both level 55-60 dungeons filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Components of Importance
-    [8962] = { threat = "EXTREME", reason = "Requires acquiring Druidical Remains from a level 60 elite mob in Dire Maul. Dire Maul is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8962] = { threat = "HIGH", reason = "Hive’Regal Remains require fighting level 59–60 elite silithids; spit attacks can erode armor and stealthed bugs can add. Isolate one target, interrupt the spit when possible, and bring help if your build cannot manage them.", confidence = "medium" },
 
     -- Components of Importance
-    [8963] = { threat = "EXTREME", reason = "Requires acquiring a Starbreeze Village Relic from a level 60 elite mob in Dire Maul. Dire Maul is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8963] = { threat = "HIGH", reason = "Frostmaul Giants and Preservers are level 59–60 elites that hit hard, and the relic can take repeated kills to find. Pull one at a time and bring help if you are not equipped for elite fights.", confidence = "medium" },
 
     -- Components of Importance
-    [8964] = { threat = "EXTREME", reason = "Requires retrieving a Brilliant Sword of Zealotry from a level 60 elite mob in Stratholme. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8964] = { threat = "MEDIUM", reason = "Scarlet Praetorians are level 56–57 elites in Tyr’s Hand, where nearby Scarlet patrols can join a fight. Scout the courtyard and pull single targets away from the camp.", confidence = "medium" },
 
     -- Components of Importance
-    [8965] = { threat = "EXTREME", reason = "Requires obtaining Soul Ashes of the Banished from a level 60 elite mob in Stratholme. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8965] = { threat = "HIGH", reason = "Purgation Isle is occupied by level 57–60 elite ghosts with stuns, interrupts, and healing. Clear space and fight one at a time; bring help if you cannot control their abilities.", confidence = "medium" },
 
     -- The Left Piece of Lord Valthalak's Amulet
     [8966] = { threat = "EXTREME", reason = "Requires using the Brazier of Beckoning to summon and slay the spirit of Mor Grayhoof, a level 60 elite. The summon takes place in Blackrock Mountain. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
@@ -3330,19 +3330,19 @@ addon.quests = {
     [8969] = { threat = "EXTREME", reason = "Requires using the Brazier of Beckoning to summon and slay the spirit of Kormok, a level 60 elite. The summon takes place in Scholomance. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- I See Alcaz Island In Your Future...
-    [8970] = { threat = "MEDIUM", reason = "Requires gathering 20 Bloodkelp from the Strashaz naga on Alcaz Island. The naga are levels 55-58 and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8970] = { threat = "MEDIUM", reason = "Alcaz Island is patrolled by level 59–61 elite nagas and hydras. Search Bloodkelp baskets and avoid fights where possible; bring help if guarded baskets force you to fight elite packs.", confidence = "medium" },
 
     -- More Components of Importance
-    [8985] = { threat = "EXTREME", reason = "Requires acquiring a Starbreeze Village Relic from a level 60 elite mob in Dire Maul. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8985] = { threat = "HIGH", reason = "Elite quest. This variant requires a level 59–60 Frostmaul relic or equivalent elite component. Isolate targets and bring help if your build cannot handle repeated elite fights.", confidence = "medium" },
 
     -- More Components of Importance
-    [8986] = { threat = "EXTREME", reason = "Requires acquiring Druidical Remains from a level 60 elite mob in Dire Maul. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8986] = { threat = "HIGH", reason = "Elite quest. Hive’Regal Remains require fighting level 59–60 elite silithids; spit attacks can erode armor and stealthed bugs can add. Isolate one target and interrupt the spit when possible.", confidence = "medium" },
 
     -- More Components of Importance
-    [8987] = { threat = "EXTREME", reason = "Requires retrieving a Brilliant Sword of Zealotry from a level 60 elite mob in Stratholme. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8987] = { threat = "MEDIUM", reason = "Elite quest. Scarlet Praetorians are level 56–57 elites at Tyr’s Hand, where nearby Scarlet patrols can join a fight. Scout the courtyard and pull single targets away from the camp.", confidence = "medium" },
 
     -- More Components of Importance
-    [8988] = { threat = "EXTREME", reason = "Requires obtaining Soul Ashes of the Banished from a level 60 elite mob in Stratholme. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8988] = { threat = "HIGH", reason = "Elite quest. Purgation Isle is occupied by level 57–60 elite ghosts with stuns, interrupts, and healing. Clear space and fight one at a time; bring help if you cannot control their abilities.", confidence = "medium" },
 
     -- The Right Piece of Lord Valthalak's Amulet
     [8989] = { threat = "EXTREME", reason = "Requires using the Brazier of Beckoning to summon and slay the spirit of Mor Grayhoof, a level 60 elite. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
@@ -3363,7 +3363,7 @@ addon.quests = {
     [8995] = { threat = "EXTREME", reason = "Requires using the Brazier of Beckoning to summon and slay Lord Valthalak, a level 60 elite. The summon takes place in Blackrock Mountain. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Return to Bodley
-    [8996] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8996] = { threat = "LOW", reason = "Bodley’s final dialogue and item turn-in is outside the Blackrock Spire entrance. Blackrock Mountain has hostile patrols, so use a clear route and avoid unnecessary pulls.", confidence = "medium" },
 
     -- The Challenge
     [9015] = { threat = "EXTREME", reason = "Requires entering Blackrock Depths to fight Theldren and his gladiators in the Ring of the Law. Theldren is a level 60 elite, and the fight spawns waves of elite gladiators. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },

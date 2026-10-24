@@ -98054,6 +98054,936 @@
       "checkedAt": "2026-10-24T19:27:20+03:00",
       "skipReason": "dungeon",
       "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8945,
+      "questName": "Dead Man's Plea",
+      "url": "https://www.wowhead.com/classic/quest=8945",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8946,
+      "questName": "Proof of Life",
+      "url": "https://www.wowhead.com/classic/quest=8946",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Proof of Life",
+          "url": "https://www.wowhead.com/classic/quest=8946/proof-of-life",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Requires delivering Ysida’s Locket to Anthion in Eastern Plaguelands; the combat rescue belongs to the preceding dungeon quest."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Locket delivery to Anthion with no combat objective; the dangerous rescue occurs in the preceding dungeon step. Follow the normal road through the Plaguelands.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8947,
+      "questName": "Anthion's Strange Request",
+      "url": "https://www.wowhead.com/classic/quest=8947",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Anthion’s Strange Request",
+          "url": "https://www.wowhead.com/classic/quest=8947/anthions-strange-request",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Quest objectives are material turn-ins to Anthion in Eastern Plaguelands; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Material turn-in to Anthion with no combat objective. Use the normal route through the Eastern Plaguelands and avoid unrelated hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8948,
+      "questName": "Anthion's Old Friend",
+      "url": "https://www.wowhead.com/classic/quest=8948",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8949,
+      "questName": "Falrin's Vendetta",
+      "url": "https://www.wowhead.com/classic/quest=8949",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8950,
+      "questName": "The Instigator's Enchantment",
+      "url": "https://www.wowhead.com/classic/quest=8950",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8951,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8951",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8952,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8952",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8953,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8953",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8954,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8954",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8955,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8955",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8956,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8956",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8957,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8957",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8958,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8958",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8959,
+      "questName": "Anthion's Parting Words",
+      "url": "https://www.wowhead.com/classic/quest=8959",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8960,
+      "questName": "Bodley's Unfortunate Fate",
+      "url": "https://www.wowhead.com/classic/quest=8960",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Bodley’s Unfortunate Fate",
+          "url": "https://www.wowhead.com/classic/quest=8960/bodleys-unfortunate-fate",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Requires using the Ghost Revealer near Blackrock Spire to speak with Bodley outside the instance."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "The Ghost Revealer leads to Bodley near the Blackrock Spire balcony, outside the instance. Hostile level 55–58 mobs patrol Blackrock Mountain; keep an escape route and avoid pulls while using the item.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8961,
+      "questName": "Three Kings of Flame",
+      "url": "https://www.wowhead.com/classic/quest=8961",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8962,
+      "questName": "Components of Importance",
+      "url": "https://www.wowhead.com/classic/quest=8962",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a selected sample of Classic Era comments; they document class-dependent solo outcomes and armor-corroding attacks.",
+      "commentsReviewed": 7,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Components of Importance",
+          "url": "https://www.wowhead.com/classic/quest=8962/components-of-importance",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Requires Druidical Remains from level 59–60 Hive’Regal elites. Classic Era comments report armor-corroding spits and stealthed mobs, with solo success for some classes and substantial difficulty for warriors without raid gear."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments verify Hive’Regal elites and show class-specific soloability: some players report easy solo kills, while warrior reports require strong gear because spits corrode armor. HIGH reflects meaningful solo danger without claiming a group is always mandatory; confidence is medium because results vary by class and gear.",
+      "reason": "Hive’Regal Remains require fighting level 59–60 elite silithids; spit attacks can erode armor and stealthed bugs can add. Isolate one target, interrupt the spit when possible, and bring help if your build cannot manage them.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8963,
+      "questName": "Components of Importance",
+      "url": "https://www.wowhead.com/classic/quest=8963",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a selected sample of Classic Era comments; solo reports coexist with very long kill counts, so only danger mechanics were used.",
+      "commentsReviewed": 4,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "More Components of Importance",
+          "url": "https://www.wowhead.com/classic/quest=8985/more-components-of-importance",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "The Starbreeze variant requires a relic from level 59–60 Frostmaul elite giants. Classic Era comments include solo kills by a level-60 rogue in blues and reports of prolonged farming, supporting serious but not universal group-only danger."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Frostmaul targets are level 59–60 elites. Classic-era comments include a level-60 rogue soloing in blues and other reports of very long farming; HIGH reflects dangerous repeated elite pulls, while the solo report argues against EXTREME. Confidence is medium.",
+      "reason": "Frostmaul Giants and Preservers are level 59–60 elites that hit hard, and the relic can take repeated kills to find. Pull one at a time and bring help if you are not equipped for elite fights.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8964,
+      "questName": "Components of Importance",
+      "url": "https://www.wowhead.com/classic/quest=8964",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Read four Era comments; two document level-60 solo single-pulls, while the source confirms elite enemies at Tyr’s Hand.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Components of Importance",
+          "url": "https://classicdb.ch/?quest=8964",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Requires a Brilliant Sword from Scarlet Praetorians at Tyr’s Hand. Era comments report level-60 priest and hunter solo kills and note that single pulls are available in the courtyard."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Praetorians are lower-level elites in a dense camp; Era reports confirm single pulls and level-60 solo completion. MEDIUM reflects manageable danger with cautious pulls. Confidence is medium.",
+      "reason": "Scarlet Praetorians are level 56–57 elites in Tyr’s Hand, where nearby Scarlet patrols can join a fight. Scout the courtyard and pull single targets away from the camp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8965,
+      "questName": "Components of Importance",
+      "url": "https://www.wowhead.com/classic/quest=8965",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a selected Era comment sample showing mixed solo/group reports and mob control abilities.",
+      "commentsReviewed": 6,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Soul Ashes of the Banished",
+          "url": "https://www.wowhead.com/classic/item=22229/soul-ashes-of-the-banished",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "The ashes come from 57–60 elite ghosts on Purgation Isle. Era comments report stun/heal/interrupt abilities and mixed solo/group outcomes; one recommends a group unless the character can solo well."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Purgation Isle has level 57–60 elite ghosts with crowd-control and healing abilities. Reports vary from solo kills to recommending a group; HIGH reflects meaningful danger while allowing prepared solo attempts. Confidence is medium.",
+      "reason": "Purgation Isle is occupied by level 57–60 elite ghosts with stuns, interrupts, and healing. Clear space and fight one at a time; bring help if you cannot control their abilities.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8966,
+      "questName": "The Left Piece of Lord Valthalak's Amulet",
+      "url": "https://www.wowhead.com/classic/quest=8966",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8967,
+      "questName": "The Left Piece of Lord Valthalak's Amulet",
+      "url": "https://www.wowhead.com/classic/quest=8967",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8968,
+      "questName": "The Left Piece of Lord Valthalak's Amulet",
+      "url": "https://www.wowhead.com/classic/quest=8968",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8969,
+      "questName": "The Left Piece of Lord Valthalak's Amulet",
+      "url": "https://www.wowhead.com/classic/quest=8969",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8970,
+      "questName": "I See Alcaz Island In Your Future...",
+      "url": "https://www.wowhead.com/classic/quest=8970",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited sample of Era comments. Some report elite fights; others document basket routes avoiding most combat.",
+      "commentsReviewed": 8,
+      "commentsUsed": 5,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "I See Alcaz Island In Your Future…",
+          "url": "https://www.wowhead.com/classic/quest=8970/i-see-alcaz-island-in-your-future",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Requires 20 Bloodkelp from level 59–61 elite nagas on Alcaz Island; comments also document Bloodkelp baskets that can reduce or avoid combat. Solo reports range from class-specific hard fights to no-kill basket routes."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest can be completed by fighting level 59–61 elite naga or collecting Bloodkelp from baskets, some of which can be approached safely. MEDIUM reflects the hostile area and class-neutral avoidance route; confidence is medium because reports differ by route and class.",
+      "reason": "Alcaz Island is patrolled by level 59–61 elite nagas and hydras. Search Bloodkelp baskets and avoid fights where possible; bring help if guarded baskets force you to fight elite packs.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8977,
+      "questName": "Return to Deliana",
+      "url": "https://www.wowhead.com/classic/quest=8977",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Return of the Ghost Revealer to Deliana in Ironforge adds no combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8978,
+      "questName": "Return to Mokvar",
+      "url": "https://www.wowhead.com/classic/quest=8978",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Return of the Ghost Revealer to Mokvar in Orgrimmar adds no combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8979,
+      "questName": "Fenstad's Hunch",
+      "url": "https://www.wowhead.com/classic/quest=8979",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Holiday material delivery to Apothecary Zinge in Undercity with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8980,
+      "questName": "Zinge's Assessment",
+      "url": "https://www.wowhead.com/classic/quest=8980",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Holiday conversation with Fenstad Argyle in Undercity with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8981,
+      "questName": "Gift Giving",
+      "url": "https://www.wowhead.com/classic/quest=8981",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Gift Giving",
+          "url": "https://www.wowhead.com/classic/quest=8981/gift-giving",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Horde turn-in of the Gift Collection to Kwee Q. Peddlefeet in Undercity for holiday rewards; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Love is in the Air Gift Collection hand-in to Kwee Q. Peddlefeet in Undercity with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8982,
+      "questName": "Tracing the Source",
+      "url": "https://www.wowhead.com/classic/quest=8982",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Holiday conversation with Innkeeper Norman in Undercity with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8983,
+      "questName": "Tracing the Source",
+      "url": "https://www.wowhead.com/classic/quest=8983",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Holiday conversation with Mara Rennick in Undercity with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8984,
+      "questName": "The Source Revealed",
+      "url": "https://www.wowhead.com/classic/quest=8984",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Source Revealed",
+          "url": "https://www.wowhead.com/classic/quest=8984/the-source-revealed",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Quest asks the player to find Staffron beyond Ravenholdt Manor; the turn-in is outside the manor in a secluded mountain area, not a combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text places Staffron beyond Ravenholdt Manor; route details are indirect and the exact movement hazard is not independently measured. MEDIUM reflects remote mountain travel; confidence is low-to-medium.",
+      "reason": "Staffron is hidden along the mountain path beyond Ravenholdt Manor. The route is easy to miss and passes through remote terrain, but this step adds no fight; follow the path carefully and avoid hostile patrols.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8985,
+      "questName": "More Components of Importance",
+      "url": "https://www.wowhead.com/classic/quest=8985",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "More Components of Importance",
+          "url": "https://www.wowhead.com/classic/quest=8985/more-components-of-importance",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "This Elite quest repeats one of four outdoor elite-item objectives: Starbreeze relic from Frostmaul giants, Druidical Remains from Hive’Regal, Brilliant Sword from Tyr’s Hand, or Soul Ashes from Purgation Isle. The exact danger depends on which item variant is assigned."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Elite quest. This variant requires a level 59–60 Frostmaul relic or equivalent elite component. Isolate targets and bring help if your build cannot handle repeated elite fights.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8986,
+      "questName": "More Components of Importance",
+      "url": "https://www.wowhead.com/classic/quest=8986",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "More Components of Importance",
+          "url": "https://www.wowhead.com/classic/quest=8985/more-components-of-importance",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "This Elite quest repeats the Hive’Regal Druidical Remains objective from level 59–60 elite silithids; see the source’s four listed variants."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Elite quest. Hive’Regal Remains require fighting level 59–60 elite silithids; spit attacks can erode armor and stealthed bugs can add. Isolate one target and interrupt the spit when possible.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8987,
+      "questName": "More Components of Importance",
+      "url": "https://www.wowhead.com/classic/quest=8987",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "More Components of Importance",
+          "url": "https://www.wowhead.com/classic/quest=8987/more-components-of-importance",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "The quest requires a Brilliant Sword from a Scarlet Praetorian in Tyr’s Hand; comments document solo level-60 frost mage completion and the source lists the outdoor elite objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Elite quest. Scarlet Praetorians are level 56–57 elites at Tyr’s Hand, where nearby Scarlet patrols can join a fight. Scout the courtyard and pull single targets away from the camp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8988,
+      "questName": "More Components of Importance",
+      "url": "https://www.wowhead.com/classic/quest=8988",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "More Components of Importance",
+          "url": "https://www.wowhead.com/classic/quest=8985/more-components-of-importance",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "This Elite quest repeats the Purgation Isle Soul Ashes objective from level 57–60 elite undead; see the source’s four listed variants."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Elite quest. Purgation Isle is occupied by level 57–60 elite ghosts with stuns, interrupts, and healing. Clear space and fight one at a time; bring help if you cannot control their abilities.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8989,
+      "questName": "The Right Piece of Lord Valthalak's Amulet",
+      "url": "https://www.wowhead.com/classic/quest=8989",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8990,
+      "questName": "The Right Piece of Lord Valthalak's Amulet",
+      "url": "https://www.wowhead.com/classic/quest=8990",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8991,
+      "questName": "The Right Piece of Lord Valthalak's Amulet",
+      "url": "https://www.wowhead.com/classic/quest=8991",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8992,
+      "questName": "The Right Piece of Lord Valthalak's Amulet",
+      "url": "https://www.wowhead.com/classic/quest=8992",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8993,
+      "questName": "Gift Giving",
+      "url": "https://www.wowhead.com/classic/quest=8993",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objectives and locations verified from the retrieved page; comments were not needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Gift Giving",
+          "url": "https://www.wowhead.com/classic/quest=8993/gift-giving",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:30:05+03:00",
+          "evidence": "Alliance turn-in of the Gift Collection for holiday rewards; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Love is in the Air Gift Collection hand-in in a capital city with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8994,
+      "questName": "Final Preparations",
+      "url": "https://www.wowhead.com/classic/quest=8994",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8995,
+      "questName": "Mea Culpa, Lord Valthalak",
+      "url": "https://www.wowhead.com/classic/quest=8995",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8996,
+      "questName": "Return to Bodley",
+      "url": "https://www.wowhead.com/classic/quest=8996",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Bodley’s final dialogue and item turn-in is outside the Blackrock Spire entrance. Blackrock Mountain has hostile patrols, so use a clear route and avoid unnecessary pulls.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8997,
+      "questName": "Back to the Beginning",
+      "url": "https://www.wowhead.com/classic/quest=8997",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Dialogue with Deliana in Ironforge adds no combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8998,
+      "questName": "Back to the Beginning",
+      "url": "https://www.wowhead.com/classic/quest=8998",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:30:05+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the local description and established quest context; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retrieved objectives or local quest context support the warning. Confidence is medium because there is no unresolved tier-changing uncertainty and the danger claims are limited to the described steps.",
+      "reason": "Dialogue with Mokvar in Orgrimmar adds no combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8999,
+      "questName": "Saving the Best for Last",
+      "url": "https://www.wowhead.com/classic/quest=8999",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 9000,
+      "questName": "Saving the Best for Last",
+      "url": "https://www.wowhead.com/classic/quest=9000",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:30:05+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
     }
   ]
 }

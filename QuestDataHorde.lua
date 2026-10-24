@@ -3858,25 +3858,28 @@ local quests = {
     [8957] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Return to Mokvar
-    [8978] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8978] = { threat = "LOW", reason = "Return of the Ghost Revealer to Mokvar in Orgrimmar adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Fenstad's Hunch
-    [8979] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8979] = { threat = "LOW", reason = "Holiday material delivery to Apothecary Zinge in Undercity with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Zinge's Assessment
-    [8980] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8980] = { threat = "LOW", reason = "Holiday conversation with Fenstad Argyle in Undercity with no combat objective. Stay within the city.", confidence = "medium" },
+
+    -- Gift Giving
+    [8981] = { threat = "LOW", reason = "Love is in the Air Gift Collection hand-in to Kwee Q. Peddlefeet in Undercity with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Tracing the Source
-    [8982] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8982] = { threat = "LOW", reason = "Holiday conversation with Innkeeper Norman in Undercity with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Tracing the Source
-    [8983] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8983] = { threat = "LOW", reason = "Holiday conversation with Mara Rennick in Undercity with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Source Revealed
-    [8984] = { threat = "MEDIUM", reason = "Requires finding Apothecary Staffron Lerent in the Hillsbrad Foothills past Ravenholdt Manor. The area is patrolled by level 30-40 mobs. Do not attempt below level 30 solo.", confidence = "medium" },
+    [8984] = { threat = "MEDIUM", reason = "Staffron is hidden along the mountain path beyond Ravenholdt Manor. The route is easy to miss and passes through remote terrain, but this step adds no fight; follow the path carefully and avoid hostile patrols.", confidence = "medium" },
 
     -- Back to the Beginning
-    [8998] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8998] = { threat = "LOW", reason = "Dialogue with Mokvar in Orgrimmar adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Saving the Best for Last
     [9007] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },

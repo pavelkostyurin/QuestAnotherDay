@@ -4470,13 +4470,16 @@ local quests = {
     [8959] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Bodley's Unfortunate Fate
-    [8960] = { threat = "MEDIUM", reason = "Requires traveling to Blackrock Mountain and using the Ghost Revealer to find Bodley near Blackrock Spire. The area is patrolled by level 55-58 mobs. Bodley is a friendly ghost, but the journey is dangerous. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [8960] = { threat = "MEDIUM", reason = "The Ghost Revealer leads to Bodley near the Blackrock Spire balcony, outside the instance. Hostile level 55–58 mobs patrol Blackrock Mountain; keep an escape route and avoid pulls while using the item.", confidence = "medium" },
 
     -- Return to Deliana
-    [8977] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8977] = { threat = "LOW", reason = "Return of the Ghost Revealer to Deliana in Ironforge adds no combat. Stay within the city.", confidence = "medium" },
+
+    -- Gift Giving
+    [8993] = { threat = "LOW", reason = "Love is in the Air Gift Collection hand-in in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Back to the Beginning
-    [8997] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8997] = { threat = "LOW", reason = "Dialogue with Deliana in Ironforge adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Saving the Best for Last
     [8999] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
