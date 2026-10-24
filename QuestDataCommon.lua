@@ -1776,49 +1776,49 @@ addon.quests = {
     [5863] = { threat = "MEDIUM", reason = "Kill Dunemaul brutes and enforcers in Tanaris and defeat Gor’marok the Ravager. The camp is hostile and the named target may have nearby guards; pull from the edge and avoid drawing several enemies together.", confidence = "medium" },
 
     -- Return to Chromie
-    [5941] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5941] = { threat = "LOW", reason = "Take the Bundle of Relics to Chromie in Andorhal. This delivery adds no combat if you already have the bundle; approach the town carefully through hostile territory.", confidence = "medium" },
 
     -- Hidden Treasures
-    [5942] = { threat = "LOW", reason = "Interaction step with no combat. The chest is in Andorhal; the key is obtained from a previous quest. Safe if you avoid the mob camps. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5942] = { threat = "LOW", reason = "Use Joseph’s Key on Joseph’s Chest in Andorhal. The interaction itself adds no combat; clear nearby Scourge before opening it and keep an exit route.", confidence = "medium" },
 
     -- Gizelton Caravan
-    [5943] = { threat = "HIGH", reason = "Escort quest. The Gizelton Caravan must be protected through Mannoroc Coven in Desolace, a demon-infested area with level 37-40 mobs that pull in groups. The caravan moves slowly and can be attacked by felhounds and doomguards. A full group or significant overleveling is required. Do not attempt solo.", confidence = "high" },
+    [5943] = { threat = "HIGH", reason = "Escort the Gizelton caravan through Mannoroc Coven and speak with Smeed afterward. Demons and other hostile creatures occupy the route and can attack the caravan; clear ahead, stay close, and bring help if you cannot control the pulls.", confidence = "medium" },
 
     -- In Dreams
-    [5944] = { threat = "HIGH", reason = "Escort quest. Taelan Fordring must be protected as he fights his way out of Hearthglen, an elite Scarlet Crusade town. The escort spawns waves of level 55-58 elites, and Taelan can die. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [5944] = { threat = "HIGH", reason = "Escort Taelan through Hearthglen. He draws repeated Scarlet elite packs and can die before the scripted ending; clear the route and help him survive the attacks, with a suitable group.", confidence = "medium" },
 
     -- Unfinished Business
-    [6004] = { threat = "MEDIUM", reason = "Scarlet Medics, Hunters, Magi, and Knights are levels 53-56 in the Western Plaguelands. They pull in groups and the Medics heal. Kill the Medics first and clear methodically. Do not attempt below level 53 solo.", confidence = "medium" },
+    [6004] = { threat = "MEDIUM", reason = "Kill Scarlet medics, hunters, magi and knights in the Western Plaguelands. Medics can prolong fights by healing and nearby enemies may join; pull into cleared space and deal with healers first.", confidence = "medium" },
 
     -- Zaeldarr the Outcast
-    [6021] = { threat = "HIGH", reason = "Zaeldarr is a level 58 elite undead in the Eastern Plaguelands, surrounded by Scourge mobs. He hits hard and summons adds. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [6021] = { threat = "HIGH", reason = "Defeat Zaeldarr the Outcast in the Eastern Plaguelands and take its head to Light’s Hope Chapel. This is a dangerous named undead in Scourge territory; clear nearby enemies and bring help if you cannot manage the target and adds.", confidence = "medium" },
 
     -- Unfinished Business
-    [6023] = { threat = "MEDIUM", reason = "Huntsman Radley and Cavalier Durgen are levels 54-56 in the Western Plaguelands, patrolled by Scarlet Crusade mobs. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [6023] = { threat = "MEDIUM", reason = "Kill Huntsman Radley and Cavalier Durgen in the Western Plaguelands. Scarlet patrols can join either encounter; pull the named targets into cleared space and avoid fighting near the road.", confidence = "medium" },
 
     -- Hameya's Plea
-    [6024] = { threat = "HIGH", reason = "Infiltrator Hameya is a level 58 elite undead in the Eastern Plaguelands. The key is used on a Mound of Dirt behind the Undercroft, which is patrolled by level 55-58 Scourge mobs. Clear the area before engaging and watch for adds. Do not attempt below level 55 solo without a group.", confidence = "high" },
+    [6024] = { threat = "HIGH", reason = "Kill Infiltrator Hameya and use his key on the mound behind the Undercroft. The named target and surrounding Scourge are dangerous; clear the approach, then use the key only when the mound is safe.", confidence = "medium" },
 
     -- Unfinished Business
-    [6025] = { threat = "MEDIUM", reason = "Requires entering Hearthglen to find a vantage point. Hearthglen is an elite Scarlet Crusade town with level 55-58 mobs patrolling every street. The illusion from Scarlet Subterfuge is the intended route, but it has a time limit. Do not attempt below level 55 solo without a plan to avoid the elites.", confidence = "medium" },
+    [6025] = { threat = "MEDIUM", reason = "Enter Hearthglen, find a vantage point, and return to Kirsta. The Scarlet Illusion helps you pass hostile guards, but the town is dangerous if the disguise fails; take a direct route and avoid combat.", confidence = "medium" },
 
     -- That's Asking A Lot
-    [6026] = { threat = "LOW", reason = "Collection step with no combat. The materials are crafted or purchased. Safe if you stay in the city.", confidence = "high" },
+    [6026] = { threat = "LOW", reason = "Deliver the thorium, golden rod, bombs and unstable triggers to Smokey LaRue. This is a materials hand-in and adds no combat if you already have the items.", confidence = "medium" },
 
     -- Book of the Ancients
-    [6027] = { threat = "HIGH", reason = "The Book of the Ancients is in the Temple of Zin-Malor in Azshara, a level 50-55 zone patrolled by elite naga and elementals. The temple is deep in Azshara's southern peninsula. Do not attempt below level 52 solo without a group.", confidence = "high" },
+    [6027] = { threat = "HIGH", reason = "Place the Gem of the Serpent on the statue at Ranazjar Isle to summon Lord Kragaru, defeat him and recover the book. The island and its statue are guarded by hostile naga; clear nearby enemies and prepare for the summoned level-appropriate fight.", confidence = "medium" },
 
     -- Duke Nicholas Zverenhoff
-    [6030] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Light's Hope Chapel is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6030] = { threat = "LOW", reason = "Deliver Studies in Spirit Speaking to Duke Nicholas at Light’s Hope Chapel. This is a safe item hand-in if you already have the book.", confidence = "medium" },
 
     -- Runecloth
-    [6031] = { threat = "LOW", reason = "Collection step with no combat. The runecloth is purchased or gathered. The journey to Timbermaw Hold is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6031] = { threat = "LOW", reason = "Deliver 30 Runecloth to Meilosh in Timbermaw Hold. This is a materials hand-in; it adds no combat if you already have the cloth and can reach Meilosh safely.", confidence = "medium" },
 
     -- Sacred Cloth
-    [6032] = { threat = "LOW", reason = "Collection step with no combat. The mooncloth is crafted or purchased. The journey to Timbermaw Hold is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6032] = { threat = "LOW", reason = "Deliver two Mooncloth to Meilosh in Timbermaw Hold. This is a materials hand-in; it adds no combat if you already have the cloth and can reach Meilosh safely.", confidence = "medium" },
 
     -- When Smokey Sings, I Get Violent
-    [6041] = { threat = "HIGH", reason = "Requires entering the Plaguewood in the Eastern Plaguelands to plant bombs inside Scourge structures. The area is filled with level 55-58 Scourge mobs, including elites. The compound is unstable and can damage you if you linger. Clear the area before planting and watch for adds. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [6041] = { threat = "HIGH", reason = "Plant Smokey’s compound at eight marked Scourge structures in Plaguewood. Each building is guarded by hostile Scourge, sometimes including elites, and the explosive can hurt you if you stay close; clear a safe entrance, plant the charge, then leave promptly.", confidence = "medium" },
 
     -- Get Me Out of Here!
     [6132] = { threat = "HIGH", reason = "Escort quest. Melizza Brimbuzzle must be protected through the Kodo Graveyard in Desolace, patrolled by level 35-40 kodos, scavengers, and centaurs. The route is long and the NPC can die. A level 40 warrior reported it is a 'hard one to solo' due to dense mobs and the NPC's fragility. Do not attempt below level 38 solo without a plan to clear the path ahead.", confidence = "high" },

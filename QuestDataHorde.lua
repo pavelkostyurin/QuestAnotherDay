@@ -2592,70 +2592,70 @@ local quests = {
     [5891] = { threat = "LOW", reason = "Exchange a Lesser Nether Essence for Cenarion Plant Salve. This is a safe item hand-in and adds no combat if you already have the essence.", confidence = "medium" },
 
     -- Coldtooth Supplies
-    [5893] = { threat = "MEDIUM", reason = "The mine is contested territory in a battleground, patrolled by Alliance players and underground denizens. The supplies are in boxes scattered throughout the mine. Clear the area before looting and watch for enemy players. Do not attempt solo in a live AV match.", confidence = "high" },
+    [5893] = { threat = "MEDIUM", reason = "Collect ten supply crates in Coldtooth Mine in Alterac Valley and return them to the Horde quartermaster. Troggs guard the mine, and battleground control can shift; enter with help and leave if enemies or opposing players close in.", confidence = "medium" },
 
     -- A Plague Upon Thee
-    [5901] = { threat = "MEDIUM", reason = "The Plaguewood is patrolled by level 55-58 Scourge mobs, and the lumber mill is guarded by Scarlet Crusade. Clear the area before releasing the termites and be ready to flee. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5901] = { threat = "MEDIUM", reason = "Gather 100 Plagueland Termites from mounds in Plaguewood, then return to the Bulwark. Scourge patrols make this repeated gathering exposed; clear a small route and avoid spending too long at one mound.", confidence = "medium" },
 
     -- A Plague Upon Thee
-    [5902] = { threat = "MEDIUM", reason = "The quest leads into Plaguewood and the Northridge Lumber Mill. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [5902] = { threat = "MEDIUM", reason = "Place the termite barrel at the center of Northridge Lumber Mill. The mill is occupied by hostile Scarlet Crusade; approach from a cleared route and leave if patrols converge.", confidence = "medium" },
 
     -- Moonglade
-    [5922] = { threat = "LOW", reason = "Travel to Moonglade and speak with the NPC. Travel and dialogue step with no combat. Safe if you stay on the road and avoid the guards.", confidence = "high" },
+    [5922] = { threat = "LOW", reason = "Use Teleport: Moonglade and speak with Dendrite Starblaze in Nighthaven. The druid class step adds no combat.", confidence = "medium" },
 
     -- Heeding the Call
-    [5926] = { threat = "LOW", reason = "Speak with Turak Runetotem in Thunder Bluff. This quest was marked obsolete by Blizzard and cannot be obtained or completed in Classic Era. If you somehow have it, it's a dialogue step with no combat.", confidence = "high" },
+    [5926] = { threat = "LOW", reason = "Speak with Turak Runetotem on the Elder Rise in Thunder Bluff. This is a city dialogue step and adds no combat.", confidence = "medium" },
 
     -- Heeding the Call
-    [5927] = { threat = "LOW", reason = "Speak with Turak Runetotem in Thunder Bluff. This quest was marked obsolete by Blizzard and cannot be obtained or completed in Classic Era. If you somehow have it, it's a dialogue step with no combat.", confidence = "high" },
+    [5927] = { threat = "LOW", reason = "Speak with Turak Runetotem on the Elder Rise in Thunder Bluff. This is a city dialogue step and adds no combat.", confidence = "medium" },
 
     -- Heeding the Call
-    [5928] = { threat = "LOW", reason = "Speak with Turak Runetotem in Thunder Bluff to begin your Bear Form training. This is the authentic Tauren Druid quest ID. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5928] = { threat = "LOW", reason = "Speak with Turak Runetotem on the Elder Rise in Thunder Bluff. This is a city dialogue step and adds no combat.", confidence = "medium" },
 
     -- Great Bear Spirit
-    [5930] = { threat = "LOW", reason = "Seek out the Great Bear Spirit in northwestern Moonglade and learn from it. The spirit is at approximately 39, 27 near a fallen tree. No combat required; this is a dialogue and roleplay step. Safe if you stay on the path. Note: Moonglade is a neutral sanctuary, but PvP can still occur if flagged.", confidence = "high" },
+    [5930] = { threat = "LOW", reason = "Seek out the Great Bear Spirit in northwestern Moonglade, listen to its lesson, then return to Dendrite. This is a dialogue and exploration step with no required combat.", confidence = "medium" },
 
     -- Back to Thunder Bluff
-    [5932] = { threat = "LOW", reason = "Return to Turak Runetotem in Thunder Bluff after speaking with the Great Bear Spirit. Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5932] = { threat = "LOW", reason = "Return to Thunder Bluff and speak with Turak Runetotem. This city delivery adds no combat.", confidence = "medium" },
 
     -- The Champion of the Banshee Queen
-    [5961] = { threat = "MEDIUM", reason = "The quest leads into contested territory and requires combat against level 50+ mobs. Clear the area before engaging and watch for patrolling Alliance players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5961] = { threat = "LOW", reason = "Speak with Nathanos Blightcaller at Marris Stead in the Eastern Plaguelands. This is a dialogue step and adds no combat; avoid nearby Scourge while approaching.", confidence = "medium" },
 
     -- Body and Heart
-    [6002] = { threat = "MEDIUM", reason = "The quest requires you to kill a specific mob for a quest item. The mob is a level 30-32 mob in a contested zone. The combat is manageable for a level 30+ druid, but the journey adds risk. Do not attempt below level 30.", confidence = "medium" },
+    [6002] = { threat = "MEDIUM", reason = "Use Cenarion Lunardust on the Moonkin Stone near Mulgore to summon Lunaclaw and defeat it. Recover fully before starting; this is a low-level class challenge against a dangerous beast.", confidence = "medium" },
 
     -- To Kill With Purpose
-    [6022] = { threat = "MEDIUM", reason = "The quest leads into contested territory with hostile mobs. Clear the area before engaging and watch for patrolling Alliance players.", confidence = "medium" },
+    [6022] = { threat = "MEDIUM", reason = "Collect seven pieces of Living Rot from Scourge in Corin’s Crossing and grind them within the ten-minute limit. Hostile enemies occupy the town and the timer discourages waiting; clear a route first and avoid pulling several groups.", confidence = "medium" },
 
     -- The Everlook Report
-    [6029] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "high" },
+    [6029] = { threat = "LOW", reason = "Deliver the Everlook Report to Argent Officer Garush at the Bulwark. This delivery adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Un-Life's Little Annoyances
-    [6042] = { threat = "MEDIUM", reason = "The mobs are levels 53-56 and are packed in the Plaguewood. Clear the area before engaging and watch for patrolling Scourge mobs. Do not attempt below level 52 solo.", confidence = "medium" },
+    [6042] = { threat = "MEDIUM", reason = "Kill Noxious and Monstrous Plaguebats in Plaguewood. The bats are hostile and nearby Scourge can join; pull from a cleared area and avoid fighting under patrols.", confidence = "medium" },
 
     -- Taming the Beast
-    [6061] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob in Mulgore. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6061] = { threat = "LOW", reason = "Use the Taming Rod on an Adult Plainstrider in Mulgore, then return it to Yaw. This hunter training interaction adds no combat beyond the brief taming exposure.", confidence = "medium" },
 
     -- Taming the Beast
-    [6062] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob in Durotar. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6062] = { threat = "LOW", reason = "Use the Taming Rod on a Dire Mottled Boar in Durotar, then return it to Thotar. This hunter training interaction adds no combat beyond the brief taming exposure.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6065] = { threat = "LOW", reason = "Speak with the hunter trainer in Thunder Bluff to begin your training. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6065] = { threat = "LOW", reason = "Speak with Yaw Sharpmane in Bloodhoof Village. This hunter trainer dialogue adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6066] = { threat = "LOW", reason = "Continue the Hunter's Path chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6066] = { threat = "LOW", reason = "Continue the Hunter’s Path conversation with Yaw Sharpmane in Bloodhoof Village. It adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6067] = { threat = "LOW", reason = "Continue the Hunter's Path chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6067] = { threat = "LOW", reason = "Continue the Hunter’s Path conversation with Yaw Sharpmane in Bloodhoof Village. It adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6068] = { threat = "LOW", reason = "Speak with the hunter trainer in Orgrimmar to begin your training. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6068] = { threat = "LOW", reason = "Speak with Thotar at Razor Hill to begin hunter training. This dialogue adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6069] = { threat = "LOW", reason = "Continue the Hunter's Path chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6069] = { threat = "LOW", reason = "Continue the Hunter’s Path conversation with Thotar at Razor Hill. It adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6070] = { threat = "LOW", reason = "Continue the Hunter's Path chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6070] = { threat = "LOW", reason = "Continue the Hunter’s Path conversation with Thotar at Razor Hill. It adds no combat.", confidence = "medium" },
 
     -- Training the Beast
     [6081] = { threat = "LOW", reason = "Train your tamed beast at the hunter trainer. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },

@@ -3399,43 +3399,43 @@ local quests = {
     [5892] = { threat = "MEDIUM", reason = "Enter Irondeep Mine in Alterac Valley and collect ten supply crates for the Alliance quartermaster. Troggs guard the mine, and the battleground’s shifting control can add player threats; enter with a group and leave if the fight moves into the mine.", confidence = "medium" },
 
     -- A Plague Upon Thee
-    [5903] = { threat = "MEDIUM", reason = "Requires using the Empty Termite Jar on Termite Mounds in the Eastern Plaguelands and gathering 100 termites. The mounds are in Scourge territory, patrolled by level 55-58 mobs. Clear the area before interacting and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5903] = { threat = "MEDIUM", reason = "Gather 100 Plagueland Termites from mounds in Plaguewood, then return to Chillwind Camp. Scourge patrols make this repeated gathering exposed; clear a small route and avoid spending too long at one mound.", confidence = "medium" },
 
     -- A Plague Upon Thee
-    [5904] = { threat = "MEDIUM", reason = "Requires placing the Barrel of Plagueland Termites in the center of the Northridge Lumber Mill in the Western Plaguelands. The mill is patrolled by level 50-54 Scarlet Crusade mobs. Clear the area before placing the barrel and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5904] = { threat = "MEDIUM", reason = "Place the termite barrel at the center of Northridge Lumber Mill. The mill is occupied by hostile Scarlet Crusade; approach from a cleared route and leave if patrols converge.", confidence = "medium" },
 
     -- Moonglade
-    [5921] = { threat = "LOW", reason = "Druid class quest teleport step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5921] = { threat = "LOW", reason = "Use Teleport: Moonglade and speak with Dendrite Starblaze in Nighthaven. The druid class step adds no combat.", confidence = "medium" },
 
     -- Heeding the Call
-    [5923] = { threat = "LOW", reason = "Druid class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5923] = { threat = "LOW", reason = "Speak with Mathrengyl Bearwalker in Darnassus. This is a city dialogue step and adds no combat.", confidence = "medium" },
 
     -- Heeding the Call
-    [5924] = { threat = "LOW", reason = "Druid class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5924] = { threat = "LOW", reason = "Speak with Mathrengyl Bearwalker in Darnassus. This is a city dialogue step and adds no combat.", confidence = "medium" },
 
     -- Heeding the Call
-    [5925] = { threat = "LOW", reason = "Druid class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5925] = { threat = "LOW", reason = "Speak with Mathrengyl Bearwalker in Darnassus. This is a city dialogue step and adds no combat.", confidence = "medium" },
 
     -- Great Bear Spirit
-    [5929] = { threat = "LOW", reason = "Druid class quest dialogue and exploration step with no combat. Safe if you stay in Moonglade.", confidence = "high" },
+    [5929] = { threat = "LOW", reason = "Seek out the Great Bear Spirit in northwestern Moonglade, listen to its lesson, then return to Dendrite. This is a dialogue and exploration step with no required combat.", confidence = "medium" },
 
     -- Back to Darnassus
-    [5931] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5931] = { threat = "LOW", reason = "Return to Darnassus and speak with Mathrengyl Bearwalker. This city delivery adds no combat.", confidence = "medium" },
 
     -- Rampaging Giants
-    [5981] = { threat = "MEDIUM", reason = "Frostmaul Giants and Preservers are levels 55-58 in Winterspring. They hit hard and have knockbacks. The drop rate is 100%, but the giants pull in pairs. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [5981] = { threat = "MEDIUM", reason = "Kill Frostmaul Giants and Preservers in Winterspring. These large hostile enemies hit hard and may have nearby patrols; pull one at a time and avoid fighting near other giants.", confidence = "medium" },
 
     -- Body and Heart
-    [6001] = { threat = "MEDIUM", reason = "Druid class quest. Lunaclaw is a level 10 elite moonkin summoned at the Moonkin Stone in Auberdine. The fight is a test of endurance; Lunaclaw hits hard for the level and has a knockback. A level 10 druid can solo this with heals and potions, but it is not trivial. Do not attempt below level 10 solo without a plan.", confidence = "high" },
+    [6001] = { threat = "MEDIUM", reason = "Use Cenarion Moondust on the Moonkin Stone near Auberdine to summon Lunaclaw and defeat it. This is a class challenge against a dangerous summoned beast; recover fully and use your druid forms and healing before starting.", confidence = "medium" },
 
     -- The Everlook Report
-    [6028] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6028] = { threat = "LOW", reason = "Deliver the Everlook Report to Argent Officer Pureheart at Chillwind Camp. This delivery adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Taming the Beast
-    [6063] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Webwood Lurker is a level 7-9 spider in Teldrassil. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6063] = { threat = "LOW", reason = "Use the Taming Rod on a Webwood Lurker in Teldrassil, then return it to Dazalar. This hunter training interaction adds no combat beyond the brief taming exposure.", confidence = "medium" },
 
     -- Taming the Beast
-    [6064] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Large Crag Boar is a level 7-9 boar in Dun Morogh. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6064] = { threat = "LOW", reason = "Use the Taming Rod on a Large Crag Boar in Dun Morogh, then return it to Grif. This hunter training interaction adds no combat beyond the brief taming exposure.", confidence = "medium" },
 
     -- The Hunter's Path
     [6071] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
