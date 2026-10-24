@@ -858,34 +858,37 @@ addon.quests = {
     [3042] = { threat = "HIGH", reason = "The temper drops from trolls inside Zul'Farrak, a level 44-50 dungeon filled with elites. This requires a full group of level 46+. Do not attempt solo.", confidence = "high" },
 
     -- Loramus
-    [3141] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Azshara is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3141] = { threat = "LOW", reason = "This is a conversation step with Loramus and adds no combat. Avoid nearby hostile creatures while reaching the NPC.", confidence = "medium" },
 
     -- Gahz'ridian
-    [3161] = { threat = "MEDIUM", reason = "The ornaments are found on the ground throughout the zone using a provided detector helmet. The main danger is the Tanaris wildlife: level 40-48 scorpions, hyenas, and basilisks that patrol the desert. The ornaments are in the open, so you can avoid most mobs if you are careful. Do not attempt below level 40 solo without a plan to avoid the mob camps.", confidence = "medium" },
+    [3161] = { threat = "MEDIUM", reason = "The ornaments are collected from exposed ground sites across Tanaris, where hostile wildlife can be nearby. Move between sites carefully and avoid crossing dense camps.", confidence = "medium" },
 
     -- Did You Lose This?
-    [3321] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3321] = { threat = "LOW", reason = "Waiting for Trenton to finish his work adds no combat. Remain in the settlement.", confidence = "medium" },
 
     -- Thistleshrub Valley
-    [3362] = { threat = "MEDIUM", reason = "The thistleshrubs are levels 46-48 and are packed in the Thistleshrub Valley in Tanaris. They are plants with ranged attacks and can pull in groups. Clear methodically and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
+    [3362] = { threat = "MEDIUM", reason = "The thistleshrubs are hostile in a concentrated valley and can create dangerous extra pulls. Clear a route and fight enemies separately.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [3363] = { threat = "MEDIUM", reason = "Use Cenarion Plant Salve on a Corrupted Songflower in Felwood. The interaction itself requires no fight, but hostile creatures nearby can catch you while you stop to cleanse it.", confidence = "medium" },
 
     -- The Essence of Eranikus
     [3373] = { threat = "HIGH", reason = "The Sunken Temple is a level 50-55 dungeon filled with elites. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
 
     -- The Essence of Eranikus
-    [3374] = { threat = "MEDIUM", reason = "The journey to the Swamp of Sorrows is dangerous for low-level players. The items are obtained from the Sunken Temple. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3374] = { threat = "LOW", reason = "This is an item turn-in to Itharius in the Swamp of Sorrows; it adds no combat once the items are obtained. Use a route appropriate to the hostile zone and avoid nearby mobs.", confidence = "medium" },
 
     -- Shadoweaver
-    [3379] = { threat = "HIGH", reason = "There are five of them, and they are level 48-50 elites. They patrol together and hit hard. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3379] = { threat = "MEDIUM", reason = "The five poachers roam together, so engaging the full group can be dangerous. They can be separated while distracted by spiders; use the provided helper if available or draw targets away one at a time.", confidence = "medium" },
 
     -- A Crew Under Fire
-    [3382] = { threat = "HIGH", reason = "Captain Vanessa Beltis must survive. The naga are level 48-50 elites that attack in waves. This is an Elite defense event by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3382] = { threat = "MEDIUM", reason = "Naga attack in waves and Captain Vanessa must survive, but the crew helps defend the ship. Keep enemies off the captain and handle each wave before it overwhelms the friendly crew.", confidence = "medium" },
 
     -- The Undermarket
-    [3385] = { threat = "HIGH", reason = "Retrieve the Trader's Satchel from his corpse and return it to Nilith. Kovic and Clunk are level 50 elites in the Searing Gorge. They hit hard and are in a confined area. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3385] = { threat = "HIGH", reason = "Trade Master Kovic is a level 50 caster accompanied by Clunk, a level 48 elite. Separate them if possible and bring help if you cannot handle the elite alongside Kovic.", confidence = "medium" },
 
     -- The Undermarket
-    [3402] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3402] = { threat = "LOW", reason = "This is a report to Vizzklick in Gadgetzan and adds no combat.", confidence = "medium" },
 
     -- Divine Retribution
     [3441] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },

@@ -1923,52 +1923,52 @@ local quests = {
     [3099] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- A Strange Request
-    [3121] = { threat = "MEDIUM", reason = "The delivery itself is safe, but the route through Lethlor Ravine is patrolled by black drakes (levels 40-44) that will attack on sight. The quest description even warns 'Mind the black drakes, they bite!' Stay on the path and be ready to flee if you pull a drake.", confidence = "high" },
+    [3121] = { threat = "LOW", reason = "This is a city turn-in in Orgrimmar; no combat is required. The earlier warning about Lethlor Ravine does not apply to this quest step.", confidence = "medium" },
 
     -- Return to Witch Doctor Uzer'i
-    [3122] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3122] = { threat = "LOW", reason = "This delivery step adds no combat. Use the normal route to Camp Mojache and avoid nearby hostile wildlife.", confidence = "medium" },
 
     -- Testing the Vessel
-    [3123] = { threat = "MEDIUM", reason = "The Wildkin are levels 42-46 and can be found in the High Wilderness. They are not elite but hit hard and can pull in groups. Use the vessel immediately after killing each one, as the corpse disappears once used. Do not attempt below level 42.", confidence = "high" },
+    [3123] = { threat = "MEDIUM", reason = "Wildkin in the Hinterlands are hostile and can be close enough to join a pull. Kill each target before using the vessel on its corpse; clear space and avoid fighting near additional wildkin.", confidence = "medium" },
 
     -- Hippogryph Muisek
-    [3124] = { threat = "MEDIUM", reason = "The hippogryphs are levels 42-46 and are scattered across the wilderness. They are not elite but can be aggressive. The drop rate is 100% if you use the vessel on the corpse before it disappears. Do not attempt below level 42.", confidence = "high" },
+    [3124] = { threat = "MEDIUM", reason = "Frayfeather hippogryphs are hostile across their nesting area and nearby enemies can join a pull. Fight on the outskirts and check for adds before using the vessel on each corpse.", confidence = "medium" },
 
     -- Faerie Dragon Muisek
-    [3125] = { threat = "MEDIUM", reason = "The sprite darters are levels 42-46 and are found northwest of Camp Mojache in an arc running from northwest to southwest. They are not elite but can be hard to find. Use the vessel on each corpse immediately. Do not attempt below level 42.", confidence = "high" },
+    [3125] = { threat = "MEDIUM", reason = "Sprite Darters and Sprite Dragons are hostile in their Feralas habitat. Pull them away from nearby enemies and use the vessel on each corpse before moving on.", confidence = "medium" },
 
     -- Treant Muisek
-    [3126] = { threat = "MEDIUM", reason = "The treants are levels 45-48 and spawn at fixed points around Feralas, including locations near Camp Mojache, the Woodpaw Hills, and Dire Maul. They have a long respawn timer (5-10 minutes), so this quest can take a while. They are not elite but hit hard. Do not confuse them with Cursed Sycamores, which do not count. Do not attempt below level 45.", confidence = "high" },
+    [3126] = { threat = "MEDIUM", reason = "The required forest walkers are tough hostile enemies in Feralas. Pull them separately and watch for nearby wildlife while using the vessel on each corpse.", confidence = "medium" },
 
     -- Mountain Giant Muisek
-    [3127] = { threat = "HIGH", reason = "The giants are levels 48-50 and are ELITE. They hit extremely hard and have high health (around 6,000 HP). Some players use Zorbin's Ultra-Shrinker from the quest 'Zapped Giants' to make them non-elite, but this may not work in Classic Era. Fight one at a time and use all cooldowns. Do not attempt solo below level 50. A level 44 hunter died twice trying this quest alone.", confidence = "high" },
+    [3127] = { threat = "HIGH", reason = "Elite quest. The required level 48–50 giants are elite and can overwhelm a solo character near their level. Bring a group or use Zorbin’s Ultra-Shrinker if available; it works in Classic Era.", confidence = "medium" },
 
     -- Natural Materials
-    [3128] = { threat = "MEDIUM", reason = "The treants are levels 45-48 and have a long respawn timer. This quest can be done alongside Treant Muisek. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3128] = { threat = "MEDIUM", reason = "The materials come from several kinds of hostile creatures in Feralas, so collecting them can expose you to varied camps and adds. Farm one area at a time and avoid dense pulls.", confidence = "medium" },
 
     -- Weapons of Spirit
-    [3129] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [3129] = { threat = "LOW", reason = "This is a dialogue step in Camp Mojache with no combat objective. Stay in the settlement.", confidence = "medium" },
 
     -- Speak with Renferrel
-    [3221] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3221] = { threat = "LOW", reason = "This is a report to an NPC at the Sepulcher and adds no combat.", confidence = "medium" },
 
     -- Jorn Skyseer
-    [3261] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3261] = { threat = "LOW", reason = "This is a report to an NPC at Camp Taurajo and adds no combat.", confidence = "medium" },
 
     -- Stolen Silver
-    [3281] = { threat = "MEDIUM", reason = "The chest is guarded by 3 Sunscale raptors (levels 17-18) at the back of the grounds. You can pull one raptor at a time if you approach from the back, or use fear/sleep to grab the silver and run. A level 12 hunter can do this with a pet sacrifice. Do not attempt below level 15 without a plan.", confidence = "high" },
+    [3281] = { threat = "MEDIUM", reason = "The stolen silver is in a chest guarded by several hostile raptors. Pull guards individually from the edge of the camp instead of rushing the chest.", confidence = "medium" },
 
     -- Mura Runetotem
-    [3301] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3301] = { threat = "LOW", reason = "This is a report to an NPC at the Sepulcher and adds no combat.", confidence = "medium" },
 
     -- Bring the End
     [3341] = { threat = "HIGH", reason = "Razorfen Downs is a level 37-40 dungeon filled with elite quilboar, undead, and Scourge mobs. Amnennar is the final boss and is a powerful Lich. This requires a full group of 5 at level 40+. Do not attempt solo.", confidence = "high" },
 
     -- In Nightmares
-    [3369] = { threat = "HIGH", reason = "The shard is obtained by completing the Wailing Caverns dungeon and awakening Naralex, which spawns a final boss that drops the shard. Wailing Caverns is a level 17-22 dungeon filled with elites. You must complete the entire instance to get the shard. This requires a full group. Do not attempt solo.", confidence = "high" },
+    [3369] = { threat = "LOW", reason = "This is a turn-in to Hamuul Runetotem in Thunder Bluff and adds no combat; the shard is already obtained before this step.", confidence = "medium" },
 
     -- Break Sharptusk!
-    [3376] = { threat = "MEDIUM", reason = "Sharptusk is a level 8-9 named quilboar who is surrounded by several Bristleback guards. Clear the guards before engaging him. Do not attempt below level 7 without a group.", confidence = "high" },
+    [3376] = { threat = "MEDIUM", reason = "Chief Sharptusk is a named enemy in a quilboar camp with guards nearby. Pull the guards separately and avoid entering the center of the camp with several enemies in range.", confidence = "medium" },
 
     -- The Sunken Temple
     [3380] = { threat = "EXTREME", reason = "This is a level 50-55 dungeon filled with elite trolls, dragonkin, and Old God minions. The dungeon requires a full group of 5 at level 50+, and the quest chain to enter is lengthy. The final boss, Eranikus, is one of the deadliest encounters in Classic. Do not attempt without a coordinated group and significant preparation.", confidence = "high" },

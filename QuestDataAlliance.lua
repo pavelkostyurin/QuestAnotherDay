@@ -2628,70 +2628,70 @@ local quests = {
     [3113] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Memorandum
-    [3114] = { threat = "LOW", reason = "This is a Mage class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3114] = { threat = "LOW", reason = "Reading the memorandum and speaking to the trainer in Anvilmar adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Tainted Memorandum
-    [3115] = { threat = "LOW", reason = "This is a Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3115] = { threat = "LOW", reason = "Reading the memorandum and speaking to the trainer in Anvilmar adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Simple Sigil
-    [3116] = { threat = "LOW", reason = "This is a Warrior class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3116] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Shadowglen adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Etched Sigil
-    [3117] = { threat = "LOW", reason = "This is a Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3117] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Shadowglen adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Encrypted Sigil
-    [3118] = { threat = "LOW", reason = "This is a Rogue class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3118] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Shadowglen adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Hallowed Sigil
-    [3119] = { threat = "LOW", reason = "This is a Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3119] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Aldrassil adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Verdant Sigil
-    [3120] = { threat = "LOW", reason = "This is a Druid class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3120] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Aldrassil adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Against the Hatecrest
-    [3130] = { threat = "LOW", reason = "This is a breadcrumb dialogue step for the Feralas naga quest chain. No combat required. Safe if you stay in the stronghold.", confidence = "high" },
+    [3130] = { threat = "LOW", reason = "This is a report to an NPC inside Feathermoon Stronghold; no combat is required for the turn-in.", confidence = "medium" },
 
     -- The Horn of the Beast
-    [3181] = { threat = "HIGH", reason = "Margol is a level 51 elite mammoth in the Searing Gorge. The horn drops from him, and he hits extremely hard. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 50+ or skip on Hardcore.", confidence = "high" },
+    [3181] = { threat = "MEDIUM", reason = "Margol is a level 48 elite, but reports describe solo kills around that level and the encounter is isolated. Fight only when ready to handle an elite; retreat if you take a bad opening pull.", confidence = "medium" },
 
     -- Proof of Deed
-    [3182] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3182] = { threat = "LOW", reason = "This delivery ends in Ironforge and adds no combat.", confidence = "medium" },
 
     -- At Last!
-    [3201] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3201] = { threat = "LOW", reason = "This is a return delivery to the Mountaineer and adds no combat. Use the road and avoid unnecessary pulls.", confidence = "medium" },
 
     -- A Refugee's Quandary
-    [3361] = { threat = "LOW", reason = "The items are scattered around Dun Morogh, guarded by level 5-10 mobs. Manageable solo for a level 7+ character.", confidence = "high" },
+    [3361] = { threat = "LOW", reason = "The three items are scattered around Dun Morogh; nearby low-level wildlife can be avoided while collecting them. Keep to open paths and do not pull several enemies at once.", confidence = "medium" },
 
     -- Scalding Mornbrew Delivery
-    [3364] = { threat = "LOW", reason = "This is a timed delivery quest with no combat. The brew is purchased from a vendor in Kharanos. The journey to Anvilmar is safe if you stay on the road. Safe for any level.", confidence = "high" },
+    [3364] = { threat = "LOW", reason = "Timed quest (5 min). The delivery has no combat objective and the settlements are close; follow the road directly to Anvilmar before the brew cools.", confidence = "medium" },
 
     -- Bring Back the Mug
-    [3365] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3365] = { threat = "LOW", reason = "Returning the mug adds no combat. Stay on the ordinary route to Nori.", confidence = "medium" },
 
     -- Suntara Stones
-    [3367] = { threat = "HIGH", reason = "This is an escort quest through the Searing Gorge, a level 43-50 zone patrolled by Dark Iron dwarves, spiders, and elementals. Dorius is a level 45 NPC who must be protected. The route passes through multiple hostile camps. This is an Elite escort by design. Do not attempt solo at the intended level. Bring a group of level 45+ or skip on Hardcore.", confidence = "high" },
+    [3367] = { threat = "HIGH", reason = "Escort quest. Dorius faces spiders on the road and an ambush of four Dark Iron enemies; several attacking together can overwhelm him or you. Clear the starting area, keep aggro off Dorius, and be prepared for the ambush; a group or an overleveled solo attempt is safer.", confidence = "medium" },
 
     -- Suntara Stones
-    [3368] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3368] = { threat = "LOW", reason = "This is a delivery to an NPC in Ironforge and adds no combat.", confidence = "medium" },
 
     -- In Nightmares
-    [3370] = { threat = "LOW", reason = "This is a delivery step with no combat. The shard is obtained from the Wailing Caverns dungeon. Safe if you stay in the city.", confidence = "high" },
+    [3370] = { threat = "LOW", reason = "This is a city turn-in in Darnassus and adds no combat; the shard is already obtained before this step.", confidence = "medium" },
 
     -- Dwarven Justice
-    [3371] = { threat = "MEDIUM", reason = "The Searing Gorge is a level 43-50 zone patrolled by Dark Iron dwarves, spiders, and elementals. The archaeology unit is in a camp guarded by level 45-48 mobs. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3371] = { threat = "MEDIUM", reason = "The archaeology unit is in a hostile Searing Gorge camp, with nearby enemies able to join a pull. Approach slowly and clear a path before searching the site.", confidence = "medium" },
 
     -- Release Them
-    [3372] = { threat = "HIGH", reason = "The artifact is guarded by elite Twilight's Hammer cultists. The Slag Pit is filled with level 45-50 elites. This requires a full group of level 45+. Do not attempt solo.", confidence = "high" },
+    [3372] = { threat = "HIGH", reason = "Group quest. The artifact lies among hostile Twilight’s Hammer enemies in the Slag Pit, where overlapping pulls can overwhelm a solo character. Pull guards away from nearby packs and bring help if you cannot reliably handle several enemies.", confidence = "medium" },
 
     -- Replacement Phial
-    [3375] = { threat = "LOW", reason = "These are vendor-purchased items. No combat required. Safe if you stay in the city.", confidence = "high" },
+    [3375] = { threat = "LOW", reason = "The requested supplies can be obtained in Ironforge and the exchange adds no combat.", confidence = "medium" },
 
     -- Prayer to Elune
-    [3377] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to the Searing Gorge is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 43 solo.", confidence = "medium" },
+    [3377] = { threat = "LOW", reason = "This is a dialogue step with Zamael and adds no combat. Nearby Searing Gorge enemies can threaten you while approaching the NPC.", confidence = "medium" },
 
     -- Prayer to Elune
-    [3378] = { threat = "MEDIUM", reason = "The prayer is in the Searing Gorge, guarded by level 45-48 mobs. The journey to Darnassus is long and dangerous. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3378] = { threat = "MEDIUM", reason = "The prayer is retrieved in hostile Searing Gorge, where nearby enemies can join a pull. Secure the immediate area before taking it, then travel out cautiously.", confidence = "medium" },
 
     -- The Sunken Temple
     [3445] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Tanaris is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },

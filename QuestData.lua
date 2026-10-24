@@ -5191,151 +5191,154 @@ addon.quests = {
     [3113] = { threat = "LOW", reason = "This is a starting-area class dialogue step with no combat objective.", confidence = "medium" },
 
     -- Glyphic Memorandum (Mage)
-    [3114] = { threat = "LOW", reason = "This is a Mage class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3114] = { threat = "LOW", reason = "Reading the memorandum and speaking to the trainer in Anvilmar adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Tainted Memorandum (Warlock)
-    [3115] = { threat = "LOW", reason = "This is a Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3115] = { threat = "LOW", reason = "Reading the memorandum and speaking to the trainer in Anvilmar adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Simple Sigil (Warrior)
-    [3116] = { threat = "LOW", reason = "This is a Warrior class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3116] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Shadowglen adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Etched Sigil (Hunter)
-    [3117] = { threat = "LOW", reason = "This is a Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3117] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Shadowglen adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Encrypted Sigil (Rogue)
-    [3118] = { threat = "LOW", reason = "This is a Rogue class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3118] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Shadowglen adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Hallowed Sigil (Priest)
-    [3119] = { threat = "LOW", reason = "This is a Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3119] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Aldrassil adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- Verdant Sigil (Druid)
-    [3120] = { threat = "LOW", reason = "This is a Druid class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3120] = { threat = "LOW", reason = "Reading the sigil and speaking to the trainer in Aldrassil adds no combat. Stay inside the settlement.", confidence = "medium" },
 
     -- A Strange Request (Horde - Badlands)
-    [3121] = { threat = "MEDIUM", reason = "The delivery itself is safe, but the route through Lethlor Ravine is patrolled by black drakes (levels 40-44) that will attack on sight. The quest description even warns 'Mind the black drakes, they bite!' Stay on the path and be ready to flee if you pull a drake.", confidence = "high" },
+    [3121] = { threat = "LOW", reason = "This is a city turn-in in Orgrimmar; no combat is required. The earlier warning about Lethlor Ravine does not apply to this quest step.", confidence = "medium" },
 
     -- Return to Witch Doctor Uzer'i (Horde - Feralas)
-    [3122] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3122] = { threat = "LOW", reason = "This delivery step adds no combat. Use the normal route to Camp Mojache and avoid nearby hostile wildlife.", confidence = "medium" },
 
     -- Testing the Vessel (Horde - Feralas)
-    [3123] = { threat = "MEDIUM", reason = "The Wildkin are levels 42-46 and can be found in the High Wilderness. They are not elite but hit hard and can pull in groups. Use the vessel immediately after killing each one, as the corpse disappears once used. Do not attempt below level 42.", confidence = "high" },
+    [3123] = { threat = "MEDIUM", reason = "Wildkin in the Hinterlands are hostile and can be close enough to join a pull. Kill each target before using the vessel on its corpse; clear space and avoid fighting near additional wildkin.", confidence = "medium" },
 
     -- Hippogryph Muisek (Horde - Feralas)
-    [3124] = { threat = "MEDIUM", reason = "The hippogryphs are levels 42-46 and are scattered across the wilderness. They are not elite but can be aggressive. The drop rate is 100% if you use the vessel on the corpse before it disappears. Do not attempt below level 42.", confidence = "high" },
+    [3124] = { threat = "MEDIUM", reason = "Frayfeather hippogryphs are hostile across their nesting area and nearby enemies can join a pull. Fight on the outskirts and check for adds before using the vessel on each corpse.", confidence = "medium" },
 
     -- Faerie Dragon Muisek (Horde - Feralas)
-    [3125] = { threat = "MEDIUM", reason = "The sprite darters are levels 42-46 and are found northwest of Camp Mojache in an arc running from northwest to southwest. They are not elite but can be hard to find. Use the vessel on each corpse immediately. Do not attempt below level 42.", confidence = "high" },
+    [3125] = { threat = "MEDIUM", reason = "Sprite Darters and Sprite Dragons are hostile in their Feralas habitat. Pull them away from nearby enemies and use the vessel on each corpse before moving on.", confidence = "medium" },
 
     -- Treant Muisek (Horde - Feralas)
-    [3126] = { threat = "MEDIUM", reason = "The treants are levels 45-48 and spawn at fixed points around Feralas, including locations near Camp Mojache, the Woodpaw Hills, and Dire Maul. They have a long respawn timer (5-10 minutes), so this quest can take a while. They are not elite but hit hard. Do not confuse them with Cursed Sycamores, which do not count. Do not attempt below level 45.", confidence = "high" },
+    [3126] = { threat = "MEDIUM", reason = "The required forest walkers are tough hostile enemies in Feralas. Pull them separately and watch for nearby wildlife while using the vessel on each corpse.", confidence = "medium" },
 
     -- Mountain Giant Muisek (Horde - Feralas)
-    [3127] = { threat = "HIGH", reason = "The giants are levels 48-50 and are ELITE. They hit extremely hard and have high health (around 6,000 HP). Some players use Zorbin's Ultra-Shrinker from the quest 'Zapped Giants' to make them non-elite, but this may not work in Classic Era. Fight one at a time and use all cooldowns. Do not attempt solo below level 50. A level 44 hunter died twice trying this quest alone.", confidence = "high" },
+    [3127] = { threat = "HIGH", reason = "Elite quest. The required level 48–50 giants are elite and can overwhelm a solo character near their level. Bring a group or use Zorbin’s Ultra-Shrinker if available; it works in Classic Era.", confidence = "medium" },
 
     -- Natural Materials (Horde - Feralas)
-    [3128] = { threat = "MEDIUM", reason = "The treants are levels 45-48 and have a long respawn timer. This quest can be done alongside Treant Muisek. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3128] = { threat = "MEDIUM", reason = "The materials come from several kinds of hostile creatures in Feralas, so collecting them can expose you to varied camps and adds. Farm one area at a time and avoid dense pulls.", confidence = "medium" },
 
     -- Weapons of Spirit (Horde - Feralas)
-    [3129] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [3129] = { threat = "LOW", reason = "This is a dialogue step in Camp Mojache with no combat objective. Stay in the settlement.", confidence = "medium" },
 
     -- Against the Hatecrest (Report)
-    [3130] = { threat = "LOW", reason = "This is a breadcrumb dialogue step for the Feralas naga quest chain. No combat required. Safe if you stay in the stronghold.", confidence = "high" },
+    [3130] = { threat = "LOW", reason = "This is a report to an NPC inside Feathermoon Stronghold; no combat is required for the turn-in.", confidence = "medium" },
 
     -- Loramus
-    [3141] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Azshara is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3141] = { threat = "LOW", reason = "This is a conversation step with Loramus and adds no combat. Avoid nearby hostile creatures while reaching the NPC.", confidence = "medium" },
 
     -- Gahz'ridian
-    [3161] = { threat = "MEDIUM", reason = "The ornaments are found on the ground throughout the zone using a provided detector helmet. The main danger is the Tanaris wildlife: level 40-48 scorpions, hyenas, and basilisks that patrol the desert. The ornaments are in the open, so you can avoid most mobs if you are careful. Do not attempt below level 40 solo without a plan to avoid the mob camps.", confidence = "medium" },
+    [3161] = { threat = "MEDIUM", reason = "The ornaments are collected from exposed ground sites across Tanaris, where hostile wildlife can be nearby. Move between sites carefully and avoid crossing dense camps.", confidence = "medium" },
 
     -- The Horn of the Beast
-    [3181] = { threat = "HIGH", reason = "Margol is a level 51 elite mammoth in the Searing Gorge. The horn drops from him, and he hits extremely hard. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 50+ or skip on Hardcore.", confidence = "high" },
+    [3181] = { threat = "MEDIUM", reason = "Margol is a level 48 elite, but reports describe solo kills around that level and the encounter is isolated. Fight only when ready to handle an elite; retreat if you take a bad opening pull.", confidence = "medium" },
 
     -- Proof of Deed
-    [3182] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3182] = { threat = "LOW", reason = "This delivery ends in Ironforge and adds no combat.", confidence = "medium" },
 
     -- At Last!
-    [3201] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3201] = { threat = "LOW", reason = "This is a return delivery to the Mountaineer and adds no combat. Use the road and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Speak with Renferrel (Horde - Silverpine)
-    [3221] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3221] = { threat = "LOW", reason = "This is a report to an NPC at the Sepulcher and adds no combat.", confidence = "medium" },
 
     -- Jorn Skyseer (Horde - Barrens)
-    [3261] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3261] = { threat = "LOW", reason = "This is a report to an NPC at Camp Taurajo and adds no combat.", confidence = "medium" },
 
     -- Stolen Silver (Horde - Barrens)
-    [3281] = { threat = "MEDIUM", reason = "The chest is guarded by 3 Sunscale raptors (levels 17-18) at the back of the grounds. You can pull one raptor at a time if you approach from the back, or use fear/sleep to grab the silver and run. A level 12 hunter can do this with a pet sacrifice. Do not attempt below level 15 without a plan.", confidence = "high" },
+    [3281] = { threat = "MEDIUM", reason = "The stolen silver is in a chest guarded by several hostile raptors. Pull guards individually from the edge of the camp instead of rushing the chest.", confidence = "medium" },
 
     -- Mura Runetotem (Horde - Barrens/Silverpine)
-    [3301] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3301] = { threat = "LOW", reason = "This is a report to an NPC at the Sepulcher and adds no combat.", confidence = "medium" },
 
     -- Did You Lose This?
-    [3321] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3321] = { threat = "LOW", reason = "Waiting for Trenton to finish his work adds no combat. Remain in the settlement.", confidence = "medium" },
 
     -- Bring the End (Horde - Razorfen Downs)
     [3341] = { threat = "HIGH", reason = "Razorfen Downs is a level 37-40 dungeon filled with elite quilboar, undead, and Scourge mobs. Amnennar is the final boss and is a powerful Lich. This requires a full group of 5 at level 40+. Do not attempt solo.", confidence = "high" },
 
     -- A Refugee's Quandary
-    [3361] = { threat = "LOW", reason = "The items are scattered around Dun Morogh, guarded by level 5-10 mobs. Manageable solo for a level 7+ character.", confidence = "high" },
+    [3361] = { threat = "LOW", reason = "The three items are scattered around Dun Morogh; nearby low-level wildlife can be avoided while collecting them. Keep to open paths and do not pull several enemies at once.", confidence = "medium" },
 
     -- Thistleshrub Valley
-    [3362] = { threat = "MEDIUM", reason = "The thistleshrubs are levels 46-48 and are packed in the Thistleshrub Valley in Tanaris. They are plants with ranged attacks and can pull in groups. Clear methodically and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
+    [3362] = { threat = "MEDIUM", reason = "The thistleshrubs are hostile in a concentrated valley and can create dangerous extra pulls. Clear a route and fight enemies separately.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [3363] = { threat = "MEDIUM", reason = "Use Cenarion Plant Salve on a Corrupted Songflower in Felwood. The interaction itself requires no fight, but hostile creatures nearby can catch you while you stop to cleanse it.", confidence = "medium" },
 
     -- Scalding Mornbrew Delivery
-    [3364] = { threat = "LOW", reason = "This is a timed delivery quest with no combat. The brew is purchased from a vendor in Kharanos. The journey to Anvilmar is safe if you stay on the road. Safe for any level.", confidence = "high" },
+    [3364] = { threat = "LOW", reason = "Timed quest (5 min). The delivery has no combat objective and the settlements are close; follow the road directly to Anvilmar before the brew cools.", confidence = "medium" },
 
     -- Bring Back the Mug
-    [3365] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3365] = { threat = "LOW", reason = "Returning the mug adds no combat. Stay on the ordinary route to Nori.", confidence = "medium" },
 
     -- Suntara Stones (Escort)
-    [3367] = { threat = "HIGH", reason = "This is an escort quest through the Searing Gorge, a level 43-50 zone patrolled by Dark Iron dwarves, spiders, and elementals. Dorius is a level 45 NPC who must be protected. The route passes through multiple hostile camps. This is an Elite escort by design. Do not attempt solo at the intended level. Bring a group of level 45+ or skip on Hardcore.", confidence = "high" },
+    [3367] = { threat = "HIGH", reason = "Escort quest. Dorius faces spiders on the road and an ambush of four Dark Iron enemies; several attacking together can overwhelm him or you. Clear the starting area, keep aggro off Dorius, and be prepared for the ambush; a group or an overleveled solo attempt is safer.", confidence = "medium" },
 
     -- Suntara Stones (Deliver)
-    [3368] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3368] = { threat = "LOW", reason = "This is a delivery to an NPC in Ironforge and adds no combat.", confidence = "medium" },
 
     -- In Nightmares (Horde - Wailing Caverns/Thunder Bluff)
-    [3369] = { threat = "HIGH", reason = "The shard is obtained by completing the Wailing Caverns dungeon and awakening Naralex, which spawns a final boss that drops the shard. Wailing Caverns is a level 17-22 dungeon filled with elites. You must complete the entire instance to get the shard. This requires a full group. Do not attempt solo.", confidence = "high" },
+    [3369] = { threat = "LOW", reason = "This is a turn-in to Hamuul Runetotem in Thunder Bluff and adds no combat; the shard is already obtained before this step.", confidence = "medium" },
 
     -- In Nightmares
-    [3370] = { threat = "LOW", reason = "This is a delivery step with no combat. The shard is obtained from the Wailing Caverns dungeon. Safe if you stay in the city.", confidence = "high" },
+    [3370] = { threat = "LOW", reason = "This is a city turn-in in Darnassus and adds no combat; the shard is already obtained before this step.", confidence = "medium" },
 
     -- Dwarven Justice
-    [3371] = { threat = "MEDIUM", reason = "The Searing Gorge is a level 43-50 zone patrolled by Dark Iron dwarves, spiders, and elementals. The archaeology unit is in a camp guarded by level 45-48 mobs. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3371] = { threat = "MEDIUM", reason = "The archaeology unit is in a hostile Searing Gorge camp, with nearby enemies able to join a pull. Approach slowly and clear a path before searching the site.", confidence = "medium" },
 
     -- Release Them
-    [3372] = { threat = "HIGH", reason = "The artifact is guarded by elite Twilight's Hammer cultists. The Slag Pit is filled with level 45-50 elites. This requires a full group of level 45+. Do not attempt solo.", confidence = "high" },
+    [3372] = { threat = "HIGH", reason = "Group quest. The artifact lies among hostile Twilight’s Hammer enemies in the Slag Pit, where overlapping pulls can overwhelm a solo character. Pull guards away from nearby packs and bring help if you cannot reliably handle several enemies.", confidence = "medium" },
 
     -- The Essence of Eranikus (Place)
     [3373] = { threat = "HIGH", reason = "The Sunken Temple is a level 50-55 dungeon filled with elites. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
 
     -- The Essence of Eranikus (Deliver)
-    [3374] = { threat = "MEDIUM", reason = "The journey to the Swamp of Sorrows is dangerous for low-level players. The items are obtained from the Sunken Temple. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3374] = { threat = "LOW", reason = "This is an item turn-in to Itharius in the Swamp of Sorrows; it adds no combat once the items are obtained. Use a route appropriate to the hostile zone and avoid nearby mobs.", confidence = "medium" },
 
     -- Replacement Phial
-    [3375] = { threat = "LOW", reason = "These are vendor-purchased items. No combat required. Safe if you stay in the city.", confidence = "high" },
+    [3375] = { threat = "LOW", reason = "The requested supplies can be obtained in Ironforge and the exchange adds no combat.", confidence = "medium" },
 
     -- Break Sharptusk! (Horde - Mulgore)
-    [3376] = { threat = "MEDIUM", reason = "Sharptusk is a level 8-9 named quilboar who is surrounded by several Bristleback guards. Clear the guards before engaging him. Do not attempt below level 7 without a group.", confidence = "high" },
+    [3376] = { threat = "MEDIUM", reason = "Chief Sharptusk is a named enemy in a quilboar camp with guards nearby. Pull the guards separately and avoid entering the center of the camp with several enemies in range.", confidence = "medium" },
 
     -- Prayer to Elune (Listen)
-    [3377] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to the Searing Gorge is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 43 solo.", confidence = "medium" },
+    [3377] = { threat = "LOW", reason = "This is a dialogue step with Zamael and adds no combat. Nearby Searing Gorge enemies can threaten you while approaching the NPC.", confidence = "medium" },
 
     -- Prayer to Elune (Find)
-    [3378] = { threat = "MEDIUM", reason = "The prayer is in the Searing Gorge, guarded by level 45-48 mobs. The journey to Darnassus is long and dangerous. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3378] = { threat = "MEDIUM", reason = "The prayer is retrieved in hostile Searing Gorge, where nearby enemies can join a pull. Secure the immediate area before taking it, then travel out cautiously.", confidence = "medium" },
 
     -- Shadoweaver
-    [3379] = { threat = "HIGH", reason = "There are five of them, and they are level 48-50 elites. They patrol together and hit hard. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3379] = { threat = "MEDIUM", reason = "The five poachers roam together, so engaging the full group can be dangerous. They can be separated while distracted by spiders; use the provided helper if available or draw targets away one at a time.", confidence = "medium" },
 
     -- The Sunken Temple (Horde - Swamp of Sorrows)
     [3380] = { threat = "EXTREME", reason = "This is a level 50-55 dungeon filled with elite trolls, dragonkin, and Old God minions. The dungeon requires a full group of 5 at level 50+, and the quest chain to enter is lengthy. The final boss, Eranikus, is one of the deadliest encounters in Classic. Do not attempt without a coordinated group and significant preparation.", confidence = "high" },
 
     -- A Crew Under Fire
-    [3382] = { threat = "HIGH", reason = "Captain Vanessa Beltis must survive. The naga are level 48-50 elites that attack in waves. This is an Elite defense event by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3382] = { threat = "MEDIUM", reason = "Naga attack in waves and Captain Vanessa must survive, but the crew helps defend the ship. Keep enemies off the captain and handle each wave before it overwhelms the friendly crew.", confidence = "medium" },
 
     -- The Undermarket (Kill)
-    [3385] = { threat = "HIGH", reason = "Retrieve the Trader's Satchel from his corpse and return it to Nilith. Kovic and Clunk are level 50 elites in the Searing Gorge. They hit hard and are in a confined area. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3385] = { threat = "HIGH", reason = "Trade Master Kovic is a level 50 caster accompanied by Clunk, a level 48 elite. Separate them if possible and bring help if you cannot handle the elite alongside Kovic.", confidence = "medium" },
 
     -- The Undermarket (Speak)
-    [3402] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3402] = { threat = "LOW", reason = "This is a report to Vizzklick in Gadgetzan and adds no combat.", confidence = "medium" },
 
     -- Divine Retribution (Listen)
     [3441] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
