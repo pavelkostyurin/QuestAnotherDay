@@ -5491,136 +5491,151 @@ addon.quests = {
     [3562] = { threat = "MEDIUM", reason = "This is a note delivery to Jediga in Azshara; the turn-in adds no combat, but the approach crosses hostile territory. Stay on the route and avoid the ruins and camps.", confidence = "medium" },
 
     -- Jes'rimon's Payment to Jediga (Horde - Azshara)
-    [3563] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
+    [3563] = { threat = "MEDIUM", reason = "The note turn-in adds no combat, but reaching Jediga takes you across Azshara's hostile terrain. Follow the road and avoid the ruins and camps.", confidence = "medium" },
 
     -- Andron's Payment to Jediga (Horde - Azshara)
-    [3564] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
+    [3564] = { threat = "MEDIUM", reason = "The note turn-in adds no combat, but reaching Jediga takes you across Azshara's hostile terrain. Follow the road and avoid the ruins and camps.", confidence = "medium" },
 
     -- Xylem's Payment to Jediga (Horde - Azshara)
-    [3565] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
+    [3565] = { threat = "MEDIUM", reason = "The note turn-in adds no combat, but reaching Jediga takes you across Azshara's hostile terrain. Follow the road and avoid the ruins and camps.", confidence = "medium" },
 
     -- Rise, Obsidion!
-    [3566] = { threat = "EXTREME", reason = "This is an Elite quest. Lathoric the Black and Obsidion are both level 49 elites with 3,207 health each. When you touch the altar, Lathoric spawns, walks to the altar, and summons Obsidion. You must fight both at once in a confined room deep inside the Slag Pit. A level 50 warlock died 3 times trying to solo this. The run back from the graveyard is long and dangerous. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
+    [3566] = { threat = "EXTREME", reason = "Elite quest. Activating the altar brings Lathoric and Obsidion into a difficult fight; reports describe hard-hitting elites and successful attempts with a group. Avoid a solo attempt at the intended level; bring help or skip.", confidence = "medium" },
 
     -- Seeping Corruption (Horde - Undercity → Azshara)
-    [3568] = { threat = "MEDIUM", reason = "The tide pools are guarded by level 45-50 naga. The naga are packed along the coast and can pull in groups. Clear the area before filling each vial and watch for patrolling mobs. Do not attempt below level 45.", confidence = "high" },
+    -- To the Top
+    [3567] = { threat = "MEDIUM", reason = "This is a one-way teleport to the top of a Twin Colossus, and getting down requires a controlled jump. Buy a parachute and use the south waterfall and lake route; a bad landing can be fatal.", confidence = "medium" },
+    [3568] = { threat = "MEDIUM", reason = "The tide pools lie along a naga-occupied coast, and careless pulls can bring nearby enemies into the fight. Work pool to pool, pull isolated naga only when needed, and keep an escape route.", confidence = "medium" },
 
     -- Seeping Corruption (Horde - Undercity)
-    [3569] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3569] = { threat = "LOW", reason = "Deliver Cuely’s elixir to Thersa in Undercity; this city handoff adds no combat.", confidence = "medium" },
 
     -- Seeping Corruption (Horde - Undercity)
-    [3570] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3570] = { threat = "LOW", reason = "This is a dialogue step in Undercity with no combat objective. Stay inside the city for the turn-in.", confidence = "medium" },
 
     -- Kim'jael Indeed!
-    [3601] = { threat = "HIGH", reason = "The items are in randomly spawning boxes throughout the Blood Elf camp, but each box only has a chance to contain a quest item. The Blood Elves are levels 50-54 and have a very high aggro radius. Surveyors are manageable, but Reclaimers hit for 300+ fire damage and have Renew and Heal abilities. A level 55 paladin had to bubble-heal and potion on a single pull. A level 55 player reported dying 4 times while opening 29 crates and still not finishing. Do not attempt below level 52 solo without a plan to handle the Reclaimers and the RNG.", confidence = "high" },
+    [3601] = { threat = "MEDIUM", reason = "Hostile Blood Elves occupy the camp around the searchable crates, and some crates contain no quest items. Scout for isolated crates, pull single guards, and leave if the camp forces several enemies at once.", confidence = "medium" },
 
     -- Azsharite
-    [3602] = { threat = "EXTREME", reason = "This is an Elite quest. The Azsharite is found in the southern arc of Azshara, which is patrolled by ancient cliff giants that are level 50-55 elites. The Felhound helps you sniff out deposits, but the giants are extremely violent and will kill you quickly if you aggro them. The deposits are scattered across a wide area, and you must dodge the giants while collecting. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
+    [3602] = { threat = "MEDIUM", reason = "Crystals are scattered across southern Azshara among level 53–55 cliff giants, but the giants can be avoided. Use the tracker to plan a route, watch for nearby elites, and avoid fighting packs.", confidence = "medium" },
 
     -- The Formation of Felbane
-    [3621] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Stranglethorn is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3621] = { threat = "LOW", reason = "The shipment handoff in Booty Bay adds no combat objective. Reach the town on a safe route through Stranglethorn and avoid hostile camps.", confidence = "medium" },
 
     -- Enchanted Azsharite Fel Weaponry
-    [3625] = { threat = "LOW", reason = "This is a dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3625] = { threat = "LOW", reason = "This is a wait and handoff step with no combat objective. Stay near Galvan in Booty Bay.", confidence = "medium" },
 
     -- Return to the Blasted Lands
-    [3626] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3626] = { threat = "LOW", reason = "Returning to the Fallen Hero adds no combat objective. Use a safe route through the Blasted Lands and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Uniting the Shattered Amulet
-    [3627] = { threat = "EXTREME", reason = "From their corpses take the Amulet of Grol, the Amulet of Sevine, and the Amulet of Allistarj. You must use your Enchanted Azsharite Fel Weaponry to weaken the triad, as they cannot be killed otherwise. All three are level 58-60 elites with powerful abilities. The fight takes place in the Blasted Lands, which is patrolled by elite demons. This is an Elite quest by design. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
+    [3627] = { threat = "EXTREME", reason = "Elite quest. Allistarj, Sevine, and Grol are high-level elites; Sevine summons infernals, and Grol is difficult even for prepared players. The weapon or Fel Salve is needed to weaken them; bring a suitable group and clear each approach.", confidence = "medium" },
 
     -- You Are Rakh'likh, Demon
-    [3628] = { threat = "EXTREME", reason = "Razelikh is a level 60 elite demon at the top of the Rise of the Defiler in the Blasted Lands. He hits extremely hard, summons adds, and has a knockback that can send you off the cliff to your death. A level 63 hunter soloed this using a very specific kiting strategy to Stonard. A level 57 warlock and 63 warlock duoed it with Felguards and still had to use healthstones. This is the final step of a long elite chain. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
+    [3628] = { threat = "EXTREME", reason = "Group quest. Razelikh is a level 60 elite who summons two champions and uses a knockback that can throw players off the mountain. Fight with a group, keep your back to a wall, and handle each add promptly.", confidence = "medium" },
 
     -- Goblin Engineering (Manual)
-    [3629] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3629] = { threat = "LOW", reason = "Deliver the engineering manual to Nixx in Gadgetzan; the profession handoff adds no combat. Stay inside town for the turn-in.", confidence = "medium" },
 
     -- Gnome Engineering (Manual - Ironforge)
-    [3630] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3630] = { threat = "LOW", reason = "Deliver the engineering manual to Tinkmaster in Ironforge; the profession handoff adds no combat.", confidence = "medium" },
 
     -- Summon Felsteed (Warlock - Ratchet)
-    [3631] = { threat = "MEDIUM", reason = "This requires level 40 and involves a ritual at the Ratchet tower. The ritual summons a felsteed that you must defeat. The tower is in Ratchet, which is safe, but the summoning ritual itself involves combat. Do not attempt below level 40.", confidence = "high" },
+    [3631] = { threat = "LOW", reason = "This step only asks you to speak with Strahad in the Barrens; it does not include the later mount ritual or a combat objective.", confidence = "medium" },
 
     -- Gnome Engineering (Manual - Ironforge)
-    [3632] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3632] = { threat = "LOW", reason = "Deliver the engineering manual to Tinkmaster in Ironforge; the profession handoff adds no combat.", confidence = "medium" },
 
     -- Goblin Engineering (Manual - Gadgetzan)
-    [3633] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3633] = { threat = "LOW", reason = "Deliver the engineering manual to Nixx in Gadgetzan; the profession handoff adds no combat. Stay inside town for the turn-in.", confidence = "medium" },
 
     -- Gnome Engineering (Manual - Ironforge)
-    [3634] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3634] = { threat = "LOW", reason = "Deliver the engineering manual to Tinkmaster in Ironforge; the profession handoff adds no combat.", confidence = "medium" },
 
     -- Gnome Engineering (Horde - Undercity → Booty Bay)
-    [3635] = { threat = "LOW", reason = "Requires level 30 and 200+ engineering skill. The quest involves travel to Booty Bay and delivering the manual to Oglethorpe Obnoticus. No combat objective. Note: This is a permanent specialization choice; you cannot learn Goblin Engineering after completing this.", confidence = "high" },
+    [3635] = { threat = "LOW", reason = "Deliver the engineering manual to Oglethorpe in Booty Bay; the profession handoff adds no combat. Use a safe route through Stranglethorn.", confidence = "medium" },
 
     -- Bring the Light
     [3636] = { threat = "HIGH", reason = "Amnennar is the final boss of Razorfen Downs, a level 37-40 dungeon filled with elites. This requires a full group of level 40+. Do not attempt solo.", confidence = "high" },
 
     -- Gnome Engineering (Horde - Undercity)
-    [3637] = { threat = "LOW", reason = "Dialogue and travel with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3637] = { threat = "LOW", reason = "This is a profession dialogue and delivery step in Booty Bay with no combat objective. Stay inside town for the turn-in.", confidence = "medium" },
 
     -- The Pledge of Secrecy (Goblin)
-    [3638] = { threat = "LOW", reason = "This is a profession quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3638] = { threat = "LOW", reason = "This is a Goblin Engineering pledge and dialogue step in Gadgetzan with no combat objective.", confidence = "medium" },
 
     -- Show Your Work (Goblin)
-    [3639] = { threat = "LOW", reason = "This is a profession quest with no combat objective beyond crafting the items. The materials are gathered or purchased. Safe if you stay in the city.", confidence = "high" },
+    [3639] = { threat = "LOW", reason = "The quest is a city handoff for crafted engineering items; it adds no required combat if you already have the materials.", confidence = "medium" },
 
     -- The Pledge of Secrecy (Gnome)
-    [3640] = { threat = "LOW", reason = "This is a profession quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3640] = { threat = "LOW", reason = "This is a Gnome Engineering pledge and dialogue step in Ironforge with no combat objective.", confidence = "medium" },
 
     -- Show Your Work (Gnome)
-    [3641] = { threat = "LOW", reason = "This is a profession quest with no combat objective beyond crafting the items. The materials are gathered or purchased. Safe if you stay in the city.", confidence = "high" },
+    [3641] = { threat = "LOW", reason = "The quest is a city handoff for crafted engineering items; it adds no required combat if you already have the materials.", confidence = "medium" },
 
     -- The Pledge of Secrecy (Horde - Booty Bay)
-    [3642] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in Booty Bay. Note: This is a permanent commitment.", confidence = "high" },
+    [3642] = { threat = "LOW", reason = "This is a Gnome Engineering pledge and dialogue step in Booty Bay with no combat objective. Use a safe route through Stranglethorn.", confidence = "medium" },
 
     -- Show Your Work (Horde - Booty Bay)
-    [3643] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in Booty Bay.", confidence = "high" },
+    [3643] = { threat = "LOW", reason = "The quest is a Booty Bay handoff for crafted engineering items; it adds no required combat if you already have the materials.", confidence = "medium" },
 
     -- Favored of Elune?
-    [3661] = { threat = "MEDIUM", reason = "The feathers are found on the ground around Quel'Danil Lodge, not dropped from mobs. The area is patrolled by level 45-48 mobs, including wolves, oozes, and wildkin. You can avoid most mobs by staying near the lodge and picking up feathers from the ground. A level 44 rogue completed this in 10 minutes with only one aggro. Do not attempt below level 44 solo without a plan to avoid the patrols.", confidence = "high" },
+    -- Membership Card Renewal
+    [3644] = { threat = "LOW", reason = "This membership renewal is a fee and dialogue turn-in with no combat objective.", confidence = "medium" },
+
+    -- Membership Card Renewal
+    [3645] = { threat = "LOW", reason = "This membership renewal is a fee and dialogue turn-in with no combat objective.", confidence = "medium" },
+
+    -- Membership Card Renewal
+    [3646] = { threat = "LOW", reason = "This membership renewal is a fee and dialogue turn-in with no combat objective.", confidence = "medium" },
+
+    -- Membership Card Renewal
+    [3647] = { threat = "LOW", reason = "This membership renewal is a fee and dialogue turn-in with no combat objective.", confidence = "medium" },
+    [3661] = { threat = "LOW", reason = "Wildkin Feathers are ground objects, not mob drops, and reports place many around Quel’Danil Lodge where Alliance players are friendly. Gather near the lodge and avoid roaming deeper into hostile areas.", confidence = "medium" },
 
     -- Tome of Divinity (Duthorian)
-    [3681] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3681] = { threat = "LOW", reason = "This Paladin quest step is a conversation with Duthorian Rall in Stormwind and adds no combat.", confidence = "medium" },
 
     -- The Smoldering Ruins of Thaurissan (Collect)
-    [3701] = { threat = "MEDIUM", reason = "Return to Royal Historian Archesonus when you have recovered the information. The ruins are patrolled by level 54-57 Thaurissan dwarves and War Reavers. The relics are scattered around the ruins. A level 52 hunter soloed this by using their pet to distract the Reavers. Do not attempt below level 52 solo without a plan to avoid the level 57 mobs.", confidence = "high" },
+    [3701] = { threat = "MEDIUM", reason = "Thaurissan guardians patrol the ruins around the relics. Search the outskirts first, pull enemies one at a time, and keep your route back clear.", confidence = "medium" },
 
     -- The Smoldering Ruins of Thaurissan (Listen)
-    [3702] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3702] = { threat = "LOW", reason = "This is a history dialogue step with Royal Historian Archesonus in Stormwind; it adds no combat.", confidence = "medium" },
 
     -- Hilary's Necklace
-    [3741] = { threat = "MEDIUM", reason = "The necklace is in the Redridge Mountains, guarded by level 20-24 mobs. The necklace is in a specific location, and the area is patrolled by gnolls and orcs. Clear the area before looting and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    -- An OOX of Your Own
+    [3721] = { threat = "LOW", reason = "This is a Booty Bay reward handoff after completing the three OOX escort chains; the turn-in itself adds no combat.", confidence = "medium" },
+    [3741] = { threat = "LOW", reason = "The necklace is in a glinting mud pile somewhere on the bottom of Lake Everstill; finding it requires swimming, but no combat. Watch your breath and surface between searches.", confidence = "medium" },
 
     -- Un'Goro Soil (Horde - Thunder Bluff)
-    [3761] = { threat = "LOW", reason = "The soil is found in Un'Goro Crater, which is a level 48-55 zone. The crater is dangerous for low-level players, but the quest itself is a collection task. Do not attempt below level 48 without a group.", confidence = "medium" },
+    [3761] = { threat = "MEDIUM", reason = "Un’Goro Soil can be gathered from ground piles in the crater, with hostile wildlife nearby. Collect from clear ground and avoid unnecessary fights while moving through the zone.", confidence = "medium" },
 
     -- Assisting Arch Druid Runetotem (Horde - Thunder Bluff)
-    [3762] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3762] = { threat = "LOW", reason = "Speak with Hamuul Runetotem in Thunder Bluff; this city step adds no combat.", confidence = "medium" },
 
     -- Assisting Arch Druid Staghelm
-    [3763] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3763] = { threat = "LOW", reason = "Speak with Fandral Staghelm in Darnassus; this city step adds no combat.", confidence = "medium" },
 
     -- Un'Goro Soil
-    [3764] = { threat = "MEDIUM", reason = "The soil is found in Un'Goro Crater as ground piles or drops from Ravasaurs. The crater is a level 48-55 zone patrolled by dinosaurs and elementals. A stealthed player can gather 24 samples without fighting anything, but non-stealth classes must fight or buy from the Auction House. Do not attempt below level 48 solo without a plan to avoid the high-level mobs.", confidence = "high" },
+    [3764] = { threat = "MEDIUM", reason = "Un’Goro Soil can be gathered from ground piles in the crater, with hostile wildlife nearby. Collect from clear ground and avoid unnecessary fights while moving through the zone.", confidence = "medium" },
 
     -- The Corruption Abroad
-    [3765] = { threat = "LOW", reason = "This is a breadcrumb quest from Stormwind to Darkshore. It is a travel and dialogue step with no combat. The journey requires taking the boat from Stormwind to Auberdine, which is safe. Safe if you stay on the road. Note: This quest is not available if you have already started Researching the Corruption.", confidence = "high" },
+    [3765] = { threat = "LOW", reason = "Travel to Gershala in Auberdine and speak with her; the step adds no combat objective. Use the boat route and avoid unnecessary detours through hostile camps.", confidence = "medium" },
 
     -- Morrowgrain Research (Take Voucher)
-    [3781] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3781] = { threat = "LOW", reason = "Deliver the Arch Druid’s Seed Voucher to Mathrengyl in Darnassus; this city handoff adds no combat.", confidence = "medium" },
 
     -- Morrowgrain Research (Horde - Thunder Bluff)
-    [3782] = { threat = "LOW", reason = "The Morrowgrain is found in Un'Goro Crater. The crater is dangerous, but the gathering itself is safe if you avoid mobs. Do not attempt below level 48 without a group.", confidence = "medium" },
+    [3782] = { threat = "LOW", reason = "Deliver the Seed Voucher to Bashana in Thunder Bluff; this city handoff adds no combat. The soil-gathering objective belongs to a separate quest step.", confidence = "medium" },
 
     -- Are We There, Yeti? (Umi's)
-    [3783] = { threat = "MEDIUM", reason = "The furs drop from yetis in Winterspring. The yetis are levels 55-58 and are packed in caves. They hit hard and have knockbacks. The caves are dark and respawn quickly. Do not attempt below level 55 solo without a group.", confidence = "medium" },
+    [3783] = { threat = "MEDIUM", reason = "Thick Yeti Furs come from Ice Thistle Yetis southeast of Everlook. Isolate the yetis and avoid pushing into the den if several enemies could join the fight.", confidence = "medium" },
 
     -- Assisting Arch Druid Runetotem (Horde - Thunder Bluff)
-    [3784] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3784] = { threat = "LOW", reason = "Speak with Hamuul Runetotem in Thunder Bluff; this city step adds no combat.", confidence = "medium" },
 
     -- Morrowgrain Research (Cultivate)
-    [3785] = { threat = "LOW", reason = "Bring 10 Morrowgrain to Mathrengyl Bearwalker in Darnassus. This is a profession and collection step with no combat. The pouch has a 10-minute cooldown, and the Morrowgrain drop rate is roughly 15-30%. This is tedious but safe if you stay in the city.", confidence = "high" },
+    [3785] = { threat = "LOW", reason = "Cultivate Morrowgrain with the pouch, soil, and seeds, then deliver it in Darnassus. No combat is required if you already have the materials.", confidence = "medium" },
 
     -- Morrowgrain Research (Horde - Thunder Bluff)
     [3786] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mobs in Un'Goro.", confidence = "medium" },

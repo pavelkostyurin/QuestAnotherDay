@@ -968,41 +968,56 @@ addon.quests = {
     -- The God Hakkar
     [3528] = { threat = "EXTREME", reason = "The egg is obtained by summoning and defeating Avatar of Hakkar in the Sunken Temple, a level 50-55 dungeon. The Avatar is a powerful elite boss with mind-control abilities and adds. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
 
+    -- To the Top
+    [3567] = { threat = "MEDIUM", reason = "This is a one-way teleport to the top of a Twin Colossus, and getting down requires a controlled jump. Buy a parachute and use the south waterfall and lake route; a bad landing can be fatal.", confidence = "medium" },
+
     -- Kim'jael Indeed!
-    [3601] = { threat = "HIGH", reason = "The items are in randomly spawning boxes throughout the Blood Elf camp, but each box only has a chance to contain a quest item. The Blood Elves are levels 50-54 and have a very high aggro radius. Surveyors are manageable, but Reclaimers hit for 300+ fire damage and have Renew and Heal abilities. A level 55 paladin had to bubble-heal and potion on a single pull. A level 55 player reported dying 4 times while opening 29 crates and still not finishing. Do not attempt below level 52 solo without a plan to handle the Reclaimers and the RNG.", confidence = "high" },
+    [3601] = { threat = "MEDIUM", reason = "Hostile Blood Elves occupy the camp around the searchable crates, and some crates contain no quest items. Scout for isolated crates, pull single guards, and leave if the camp forces several enemies at once.", confidence = "medium" },
 
     -- Azsharite
-    [3602] = { threat = "EXTREME", reason = "This is an Elite quest. The Azsharite is found in the southern arc of Azshara, which is patrolled by ancient cliff giants that are level 50-55 elites. The Felhound helps you sniff out deposits, but the giants are extremely violent and will kill you quickly if you aggro them. The deposits are scattered across a wide area, and you must dodge the giants while collecting. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
+    [3602] = { threat = "MEDIUM", reason = "Crystals are scattered across southern Azshara among level 53–55 cliff giants, but the giants can be avoided. Use the tracker to plan a route, watch for nearby elites, and avoid fighting packs.", confidence = "medium" },
 
     -- The Formation of Felbane
-    [3621] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Stranglethorn is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3621] = { threat = "LOW", reason = "The shipment handoff in Booty Bay adds no combat objective. Reach the town on a safe route through Stranglethorn and avoid hostile camps.", confidence = "medium" },
 
     -- Enchanted Azsharite Fel Weaponry
-    [3625] = { threat = "LOW", reason = "This is a dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3625] = { threat = "LOW", reason = "This is a wait and handoff step with no combat objective. Stay near Galvan in Booty Bay.", confidence = "medium" },
 
     -- Return to the Blasted Lands
-    [3626] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3626] = { threat = "LOW", reason = "Returning to the Fallen Hero adds no combat objective. Use a safe route through the Blasted Lands and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Uniting the Shattered Amulet
-    [3627] = { threat = "EXTREME", reason = "From their corpses take the Amulet of Grol, the Amulet of Sevine, and the Amulet of Allistarj. You must use your Enchanted Azsharite Fel Weaponry to weaken the triad, as they cannot be killed otherwise. All three are level 58-60 elites with powerful abilities. The fight takes place in the Blasted Lands, which is patrolled by elite demons. This is an Elite quest by design. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
+    [3627] = { threat = "EXTREME", reason = "Elite quest. Allistarj, Sevine, and Grol are high-level elites; Sevine summons infernals, and Grol is difficult even for prepared players. The weapon or Fel Salve is needed to weaken them; bring a suitable group and clear each approach.", confidence = "medium" },
 
     -- You Are Rakh'likh, Demon
-    [3628] = { threat = "EXTREME", reason = "Razelikh is a level 60 elite demon at the top of the Rise of the Defiler in the Blasted Lands. He hits extremely hard, summons adds, and has a knockback that can send you off the cliff to your death. A level 63 hunter soloed this using a very specific kiting strategy to Stonard. A level 57 warlock and 63 warlock duoed it with Felguards and still had to use healthstones. This is the final step of a long elite chain. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
+    [3628] = { threat = "EXTREME", reason = "Group quest. Razelikh is a level 60 elite who summons two champions and uses a knockback that can throw players off the mountain. Fight with a group, keep your back to a wall, and handle each add promptly.", confidence = "medium" },
 
     -- Goblin Engineering
-    [3633] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3633] = { threat = "LOW", reason = "Deliver the engineering manual to Nixx in Gadgetzan; the profession handoff adds no combat. Stay inside town for the turn-in.", confidence = "medium" },
 
     -- The Pledge of Secrecy
-    [3638] = { threat = "LOW", reason = "This is a profession quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3638] = { threat = "LOW", reason = "This is a Goblin Engineering pledge and dialogue step in Gadgetzan with no combat objective.", confidence = "medium" },
 
     -- Show Your Work
-    [3639] = { threat = "LOW", reason = "This is a profession quest with no combat objective beyond crafting the items. The materials are gathered or purchased. Safe if you stay in the city.", confidence = "high" },
+    [3639] = { threat = "LOW", reason = "The quest is a city handoff for crafted engineering items; it adds no required combat if you already have the materials.", confidence = "medium" },
+
+    -- Membership Card Renewal
+    [3644] = { threat = "LOW", reason = "This membership renewal is a fee and dialogue turn-in with no combat objective.", confidence = "medium" },
+
+    -- Membership Card Renewal
+    [3645] = { threat = "LOW", reason = "This membership renewal is a fee and dialogue turn-in with no combat objective.", confidence = "medium" },
+
+    -- Membership Card Renewal
+    [3646] = { threat = "LOW", reason = "This membership renewal is a fee and dialogue turn-in with no combat objective.", confidence = "medium" },
+
+    -- An OOX of Your Own
+    [3721] = { threat = "LOW", reason = "This is a Booty Bay reward handoff after completing the three OOX escort chains; the turn-in itself adds no combat.", confidence = "medium" },
 
     -- Hilary's Necklace
-    [3741] = { threat = "MEDIUM", reason = "The necklace is in the Redridge Mountains, guarded by level 20-24 mobs. The necklace is in a specific location, and the area is patrolled by gnolls and orcs. Clear the area before looting and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [3741] = { threat = "LOW", reason = "The necklace is in a glinting mud pile somewhere on the bottom of Lake Everstill; finding it requires swimming, but no combat. Watch your breath and surface between searches.", confidence = "medium" },
 
     -- Are We There, Yeti?
-    [3783] = { threat = "MEDIUM", reason = "The furs drop from yetis in Winterspring. The yetis are levels 55-58 and are packed in caves. They hit hard and have knockbacks. The caves are dark and respawn quickly. Do not attempt below level 55 solo without a group.", confidence = "medium" },
+    [3783] = { threat = "MEDIUM", reason = "Thick Yeti Furs come from Ice Thistle Yetis southeast of Everlook. Isolate the yetis and avoid pushing into the den if several enemies could join the fight.", confidence = "medium" },
 
     -- Dark Iron Legacy
     [3801] = { threat = "LOW", reason = "This is a dialogue step with no combat. You must be dead (in ghost form) to see Franclorn, who is inside Blackrock Depths. This quest is the prerequisite for the BRD key chain. Safe if you stay in the area.", confidence = "high" },

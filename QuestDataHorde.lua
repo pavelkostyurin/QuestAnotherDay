@@ -2013,49 +2013,49 @@ local quests = {
     [3562] = { threat = "MEDIUM", reason = "This is a note delivery to Jediga in Azshara; the turn-in adds no combat, but the approach crosses hostile territory. Stay on the route and avoid the ruins and camps.", confidence = "medium" },
 
     -- Jes'rimon's Payment to Jediga
-    [3563] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
+    [3563] = { threat = "MEDIUM", reason = "The note turn-in adds no combat, but reaching Jediga takes you across Azshara's hostile terrain. Follow the road and avoid the ruins and camps.", confidence = "medium" },
 
     -- Andron's Payment to Jediga
-    [3564] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
+    [3564] = { threat = "MEDIUM", reason = "The note turn-in adds no combat, but reaching Jediga takes you across Azshara's hostile terrain. Follow the road and avoid the ruins and camps.", confidence = "medium" },
 
     -- Xylem's Payment to Jediga
-    [3565] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
+    [3565] = { threat = "MEDIUM", reason = "The note turn-in adds no combat, but reaching Jediga takes you across Azshara's hostile terrain. Follow the road and avoid the ruins and camps.", confidence = "medium" },
 
     -- Seeping Corruption
-    [3568] = { threat = "MEDIUM", reason = "The tide pools are guarded by level 45-50 naga. The naga are packed along the coast and can pull in groups. Clear the area before filling each vial and watch for patrolling mobs. Do not attempt below level 45.", confidence = "high" },
+    [3568] = { threat = "MEDIUM", reason = "The tide pools lie along a naga-occupied coast, and careless pulls can bring nearby enemies into the fight. Work pool to pool, pull isolated naga only when needed, and keep an escape route.", confidence = "medium" },
 
     -- Seeping Corruption
-    [3569] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3569] = { threat = "LOW", reason = "Deliver Cuely’s elixir to Thersa in Undercity; this city handoff adds no combat.", confidence = "medium" },
 
     -- Seeping Corruption
-    [3570] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3570] = { threat = "LOW", reason = "This is a dialogue step in Undercity with no combat objective. Stay inside the city for the turn-in.", confidence = "medium" },
 
     -- Summon Felsteed
-    [3631] = { threat = "MEDIUM", reason = "This requires level 40 and involves a ritual at the Ratchet tower. The ritual summons a felsteed that you must defeat. The tower is in Ratchet, which is safe, but the summoning ritual itself involves combat. Do not attempt below level 40.", confidence = "high" },
+    [3631] = { threat = "LOW", reason = "This step only asks you to speak with Strahad in the Barrens; it does not include the later mount ritual or a combat objective.", confidence = "medium" },
 
     -- Gnome Engineering
-    [3635] = { threat = "LOW", reason = "Requires level 30 and 200+ engineering skill. The quest involves travel to Booty Bay and delivering the manual to Oglethorpe Obnoticus. No combat objective. Note: This is a permanent specialization choice; you cannot learn Goblin Engineering after completing this.", confidence = "high" },
+    [3635] = { threat = "LOW", reason = "Deliver the engineering manual to Oglethorpe in Booty Bay; the profession handoff adds no combat. Use a safe route through Stranglethorn.", confidence = "medium" },
 
     -- Gnome Engineering
-    [3637] = { threat = "LOW", reason = "Dialogue and travel with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3637] = { threat = "LOW", reason = "This is a profession dialogue and delivery step in Booty Bay with no combat objective. Stay inside town for the turn-in.", confidence = "medium" },
 
     -- The Pledge of Secrecy
-    [3642] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in Booty Bay. Note: This is a permanent commitment.", confidence = "high" },
+    [3642] = { threat = "LOW", reason = "This is a Gnome Engineering pledge and dialogue step in Booty Bay with no combat objective. Use a safe route through Stranglethorn.", confidence = "medium" },
 
     -- Show Your Work
-    [3643] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in Booty Bay.", confidence = "high" },
+    [3643] = { threat = "LOW", reason = "The quest is a Booty Bay handoff for crafted engineering items; it adds no required combat if you already have the materials.", confidence = "medium" },
 
     -- Un'Goro Soil
-    [3761] = { threat = "LOW", reason = "The soil is found in Un'Goro Crater, which is a level 48-55 zone. The crater is dangerous for low-level players, but the quest itself is a collection task. Do not attempt below level 48 without a group.", confidence = "medium" },
+    [3761] = { threat = "MEDIUM", reason = "Un’Goro Soil can be gathered from ground piles in the crater, with hostile wildlife nearby. Collect from clear ground and avoid unnecessary fights while moving through the zone.", confidence = "medium" },
 
     -- Assisting Arch Druid Runetotem
-    [3762] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3762] = { threat = "LOW", reason = "Speak with Hamuul Runetotem in Thunder Bluff; this city step adds no combat.", confidence = "medium" },
 
     -- Morrowgrain Research
-    [3782] = { threat = "LOW", reason = "The Morrowgrain is found in Un'Goro Crater. The crater is dangerous, but the gathering itself is safe if you avoid mobs. Do not attempt below level 48 without a group.", confidence = "medium" },
+    [3782] = { threat = "LOW", reason = "Deliver the Seed Voucher to Bashana in Thunder Bluff; this city handoff adds no combat. The soil-gathering objective belongs to a separate quest step.", confidence = "medium" },
 
     -- Assisting Arch Druid Runetotem
-    [3784] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3784] = { threat = "LOW", reason = "Speak with Hamuul Runetotem in Thunder Bluff; this city step adds no combat.", confidence = "medium" },
 
     -- Morrowgrain Research
     [3786] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mobs in Un'Goro.", confidence = "medium" },

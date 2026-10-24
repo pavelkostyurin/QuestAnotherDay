@@ -2727,55 +2727,58 @@ local quests = {
     [3524] = { threat = "MEDIUM", reason = "Several Greymist murlocs guard the sea-creature bones south of Auberdine. Pull them from the edge one at a time before interacting with the carcass.", confidence = "medium" },
 
     -- Rise, Obsidion!
-    [3566] = { threat = "EXTREME", reason = "This is an Elite quest. Lathoric the Black and Obsidion are both level 49 elites with 3,207 health each. When you touch the altar, Lathoric spawns, walks to the altar, and summons Obsidion. You must fight both at once in a confined room deep inside the Slag Pit. A level 50 warlock died 3 times trying to solo this. The run back from the graveyard is long and dangerous. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },
+    [3566] = { threat = "EXTREME", reason = "Elite quest. Activating the altar brings Lathoric and Obsidion into a difficult fight; reports describe hard-hitting elites and successful attempts with a group. Avoid a solo attempt at the intended level; bring help or skip.", confidence = "medium" },
 
     -- Goblin Engineering
-    [3629] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3629] = { threat = "LOW", reason = "Deliver the engineering manual to Nixx in Gadgetzan; the profession handoff adds no combat. Stay inside town for the turn-in.", confidence = "medium" },
 
     -- Gnome Engineering
-    [3630] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3630] = { threat = "LOW", reason = "Deliver the engineering manual to Tinkmaster in Ironforge; the profession handoff adds no combat.", confidence = "medium" },
 
     -- Gnome Engineering
-    [3632] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3632] = { threat = "LOW", reason = "Deliver the engineering manual to Tinkmaster in Ironforge; the profession handoff adds no combat.", confidence = "medium" },
 
     -- Gnome Engineering
-    [3634] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3634] = { threat = "LOW", reason = "Deliver the engineering manual to Tinkmaster in Ironforge; the profession handoff adds no combat.", confidence = "medium" },
 
     -- Bring the Light
     [3636] = { threat = "HIGH", reason = "Amnennar is the final boss of Razorfen Downs, a level 37-40 dungeon filled with elites. This requires a full group of level 40+. Do not attempt solo.", confidence = "high" },
 
     -- The Pledge of Secrecy
-    [3640] = { threat = "LOW", reason = "This is a profession quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3640] = { threat = "LOW", reason = "This is a Gnome Engineering pledge and dialogue step in Ironforge with no combat objective.", confidence = "medium" },
 
     -- Show Your Work
-    [3641] = { threat = "LOW", reason = "This is a profession quest with no combat objective beyond crafting the items. The materials are gathered or purchased. Safe if you stay in the city.", confidence = "high" },
+    [3641] = { threat = "LOW", reason = "The quest is a city handoff for crafted engineering items; it adds no required combat if you already have the materials.", confidence = "medium" },
+
+    -- Membership Card Renewal
+    [3647] = { threat = "LOW", reason = "This membership renewal is a fee and dialogue turn-in with no combat objective.", confidence = "medium" },
 
     -- Favored of Elune?
-    [3661] = { threat = "MEDIUM", reason = "The feathers are found on the ground around Quel'Danil Lodge, not dropped from mobs. The area is patrolled by level 45-48 mobs, including wolves, oozes, and wildkin. You can avoid most mobs by staying near the lodge and picking up feathers from the ground. A level 44 rogue completed this in 10 minutes with only one aggro. Do not attempt below level 44 solo without a plan to avoid the patrols.", confidence = "high" },
+    [3661] = { threat = "LOW", reason = "Wildkin Feathers are ground objects, not mob drops, and reports place many around Quel’Danil Lodge where Alliance players are friendly. Gather near the lodge and avoid roaming deeper into hostile areas.", confidence = "medium" },
 
     -- Tome of Divinity
-    [3681] = { threat = "LOW", reason = "This is a Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3681] = { threat = "LOW", reason = "This Paladin quest step is a conversation with Duthorian Rall in Stormwind and adds no combat.", confidence = "medium" },
 
     -- The Smoldering Ruins of Thaurissan
-    [3701] = { threat = "MEDIUM", reason = "Return to Royal Historian Archesonus when you have recovered the information. The ruins are patrolled by level 54-57 Thaurissan dwarves and War Reavers. The relics are scattered around the ruins. A level 52 hunter soloed this by using their pet to distract the Reavers. Do not attempt below level 52 solo without a plan to avoid the level 57 mobs.", confidence = "high" },
+    [3701] = { threat = "MEDIUM", reason = "Thaurissan guardians patrol the ruins around the relics. Search the outskirts first, pull enemies one at a time, and keep your route back clear.", confidence = "medium" },
 
     -- The Smoldering Ruins of Thaurissan
-    [3702] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3702] = { threat = "LOW", reason = "This is a history dialogue step with Royal Historian Archesonus in Stormwind; it adds no combat.", confidence = "medium" },
 
     -- Assisting Arch Druid Staghelm
-    [3763] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3763] = { threat = "LOW", reason = "Speak with Fandral Staghelm in Darnassus; this city step adds no combat.", confidence = "medium" },
 
     -- Un'Goro Soil
-    [3764] = { threat = "MEDIUM", reason = "The soil is found in Un'Goro Crater as ground piles or drops from Ravasaurs. The crater is a level 48-55 zone patrolled by dinosaurs and elementals. A stealthed player can gather 24 samples without fighting anything, but non-stealth classes must fight or buy from the Auction House. Do not attempt below level 48 solo without a plan to avoid the high-level mobs.", confidence = "high" },
+    [3764] = { threat = "MEDIUM", reason = "Un’Goro Soil can be gathered from ground piles in the crater, with hostile wildlife nearby. Collect from clear ground and avoid unnecessary fights while moving through the zone.", confidence = "medium" },
 
     -- The Corruption Abroad
-    [3765] = { threat = "LOW", reason = "This is a breadcrumb quest from Stormwind to Darkshore. It is a travel and dialogue step with no combat. The journey requires taking the boat from Stormwind to Auberdine, which is safe. Safe if you stay on the road. Note: This quest is not available if you have already started Researching the Corruption.", confidence = "high" },
+    [3765] = { threat = "LOW", reason = "Travel to Gershala in Auberdine and speak with her; the step adds no combat objective. Use the boat route and avoid unnecessary detours through hostile camps.", confidence = "medium" },
 
     -- Morrowgrain Research
-    [3781] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3781] = { threat = "LOW", reason = "Deliver the Arch Druid’s Seed Voucher to Mathrengyl in Darnassus; this city handoff adds no combat.", confidence = "medium" },
 
     -- Morrowgrain Research
-    [3785] = { threat = "LOW", reason = "Bring 10 Morrowgrain to Mathrengyl Bearwalker in Darnassus. This is a profession and collection step with no combat. The pouch has a 10-minute cooldown, and the Morrowgrain drop rate is roughly 15-30%. This is tedious but safe if you stay in the city.", confidence = "high" },
+    [3785] = { threat = "LOW", reason = "Cultivate Morrowgrain with the pouch, soil, and seeds, then deliver it in Darnassus. No combat is required if you already have the materials.", confidence = "medium" },
 
     -- Jonespyre's Request
     [3787] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
