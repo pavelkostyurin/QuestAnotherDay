@@ -1821,16 +1821,16 @@ addon.quests = {
     [6041] = { threat = "HIGH", reason = "Plant Smokey’s compound at eight marked Scourge structures in Plaguewood. Each building is guarded by hostile Scourge, sometimes including elites, and the explosive can hurt you if you stay close; clear a safe entrance, plant the charge, then leave promptly.", confidence = "medium" },
 
     -- Get Me Out of Here!
-    [6132] = { threat = "HIGH", reason = "Escort quest. Melizza Brimbuzzle must be protected through the Kodo Graveyard in Desolace, patrolled by level 35-40 kodos, scavengers, and centaurs. The route is long and the NPC can die. A level 40 warrior reported it is a 'hard one to solo' due to dense mobs and the NPC's fragility. Do not attempt below level 38 solo without a plan to clear the path ahead.", confidence = "high" },
+    [6132] = { threat = "HIGH", reason = "Escort Melizza Brimbuzzle through the Kodo Graveyard and report to Hornizz. Kodos, scavengers and centaurs occupy the route and may attack the fragile escort; clear ahead, stay close and bring help if you cannot keep the path controlled.", confidence = "medium" },
 
     -- Ghost-o-plasm Round Up
-    [6134] = { threat = "MEDIUM", reason = "Ghost-o-plasms drop from ghostly mobs in the Kodo Graveyard in Desolace, levels 35-38. The graveyard is patrolled by level 35-40 kodos and scavengers. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+    [6134] = { threat = "MEDIUM", reason = "Collect eight Ghost-o-plasms from the Kodo Graveyard and return the crate of magnets to Hornizz. Hostile ghosts and nearby roaming creatures can add during repeated fights; pull from a cleared edge.", confidence = "medium" },
 
     -- Claim Rackmore's Treasure!
-    [6161] = { threat = "MEDIUM", reason = "The keys and chest are in the Ruins of Rackmore in Desolace, patrolled by level 35-38 naga. The keys are held by named mobs, and the chest is guarded. Clear the area before looting and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+    [6161] = { threat = "MEDIUM", reason = "Find Rackmore’s Silver and Golden Keys and open the chest in the Ruins of Rackmore. Hostile naga occupy the ruins and the key carriers may be near other enemies; clear the approach before opening the chest.", confidence = "medium" },
 
     -- Augustus' Receipt Book
-    [6164] = { threat = "LOW", reason = "Delivery step with no combat. The receipt book is obtained from a previous quest. The journey to Terrordale is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [6164] = { threat = "LOW", reason = "Deliver Augustus’ Receipt Book to Augustus in Terrordale. The turn-in adds no combat if you already have the book; the route crosses hostile Eastern Plaguelands, so approach carefully.", confidence = "medium" },
 
     -- Trouble in Winterspring!
     [6603] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },

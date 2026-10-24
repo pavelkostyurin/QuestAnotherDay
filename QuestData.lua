@@ -7590,154 +7590,154 @@ addon.quests = {
     [6070] = { threat = "LOW", reason = "Continue the Hunter’s Path conversation with Thotar at Razor Hill. It adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path (6071)
-    [6071] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6071] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path (6072)
-    [6072] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6072] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path (6073)
-    [6073] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6073] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path (6074)
-    [6074] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6074] = { threat = "LOW", reason = "Speak with Grif Wildheart in Kharanos. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path (6075)
-    [6075] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6075] = { threat = "LOW", reason = "Speak with Grif Wildheart in Kharanos. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path (6076)
-    [6076] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6076] = { threat = "LOW", reason = "Speak with Grif Wildheart in Kharanos. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- Training the Beast (Hunter - Class Quest)
-    [6081] = { threat = "LOW", reason = "Train your tamed beast at the hunter trainer. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6081] = { threat = "LOW", reason = "Speak with Ormak Grimshot in Orgrimmar to train your pet. This city conversation adds no combat.", confidence = "medium" },
 
     -- Taming the Beast (Hunter - Class Quest)
-    [6082] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6082] = { threat = "LOW", reason = "Use the Taming Rod on an Armored Scorpid in Durotar, then return to Thotar. This hunter training interaction has no required kill; avoid nearby hostile creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast (Hunter - Class Quest)
-    [6083] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6083] = { threat = "LOW", reason = "Use the Taming Rod on a Surf Crawler in Durotar, then return to Thotar. This hunter training interaction has no required kill; avoid nearby hostile creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast (Snow Leopard - Dwarf)
-    [6084] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Snow Leopard is a level 7-9 cat in Dun Morogh. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6084] = { threat = "LOW", reason = "Use the Taming Rod on a Snow Leopard in Dun Morogh, then return to Grif. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast (Ice Claw Bear - Dwarf)
-    [6085] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Ice Claw Bear is a level 7-9 bear in Dun Morogh. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6085] = { threat = "LOW", reason = "Use the Taming Rod on an Ice Claw Bear in Dun Morogh, then return to Grif. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Training the Beast (Dwarf)
-    [6086] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6086] = { threat = "LOW", reason = "Speak with Belia Thundergranite in Ironforge. This trainer conversation adds no combat.", confidence = "medium" },
 
     -- Taming the Beast (Hunter - Class Quest)
-    [6087] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob in Mulgore. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6087] = { threat = "LOW", reason = "Use the Taming Rod on a Prairie Stalker in Mulgore, then return to Yaw. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast (Hunter - Class Quest)
-    [6088] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob in Mulgore. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6088] = { threat = "LOW", reason = "Use the Taming Rod on a Swoop in Mulgore, then return to Yaw. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Training the Beast (Hunter - Class Quest)
-    [6089] = { threat = "LOW", reason = "Train your tamed beast at the hunter trainer in Thunder Bluff. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6089] = { threat = "LOW", reason = "Speak with Holt Thunderhorn in Thunder Bluff to train your pet. This city conversation adds no combat.", confidence = "medium" },
 
     -- Taming the Beast (Nightsaber Stalker - Night Elf)
-    [6101] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Nightsaber Stalker is a level 7-9 cat in Teldrassil. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6101] = { threat = "LOW", reason = "Use the Taming Rod on a Nightsaber Stalker in Teldrassil, then return to Dazalar. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast (Strigid Screecher - Night Elf)
-    [6102] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Strigid Screecher is a level 7-9 owl in Teldrassil. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6102] = { threat = "LOW", reason = "Use the Taming Rod on a Strigid Screecher in Teldrassil, then return to Dazalar. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Training the Beast (Night Elf)
-    [6103] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6103] = { threat = "LOW", reason = "Speak with Jocaste in Darnassus. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- Lessons Anew
-    [6121] = { threat = "LOW", reason = "Druid class quest dialogue step with no combat. The journey to Moonglade is safe via flight path. Safe if you stay in the area.", confidence = "high" },
+    [6121] = { threat = "LOW", reason = "Use Teleport: Moonglade and speak with Dendrite Starblaze in Nighthaven. This druid class step adds no combat.", confidence = "medium" },
 
     -- The Principal Source
-    [6122] = { threat = "LOW", reason = "Collection step with no combat beyond travel. The cave by Cliffspring Falls is patrolled by low-level mobs. Safe if you avoid the camps. Do not attempt below level 14 solo.", confidence = "medium" },
+    [6122] = { threat = "LOW", reason = "Use the sampler at the mouth of the Cliffspring Falls cave in Darkshore, then deliver the water to Alanndarian in Auberdine. The interaction is brief; avoid nearby creatures on the approach.", confidence = "medium" },
 
     -- Gathering the Cure
-    [6123] = { threat = "LOW", reason = "Collection step with no combat beyond gathering Earthroot and Lunar Funguses. Both are found in Darkshore, guarded by low-level mobs. Safe if you avoid the camps. Do not attempt below level 14 solo.", confidence = "medium" },
+    [6123] = { threat = "LOW", reason = "Bring five Earthroot and twelve Lunar Fungus to Alanndarian in Auberdine. This materials hand-in adds no combat if you already have the plants.", confidence = "medium" },
 
     -- Curing the Sick
-    [6124] = { threat = "LOW", reason = "Interaction step with no combat beyond travel. The Sickly Deer are scattered across Darkshore and are neutral. Safe if you avoid the mob camps. Do not attempt below level 14 solo.", confidence = "medium" },
+    [6124] = { threat = "LOW", reason = "Use the curative salve on ten Sickly Deer in Darkshore. The deer are neutral, so this interaction adds no combat; avoid nearby hostile creatures while travelling between them.", confidence = "medium" },
 
     -- Power over Poison
-    [6125] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6125] = { threat = "LOW", reason = "Return to Mathrengyl Bearwalker in Darnassus. This druid class delivery adds no combat.", confidence = "medium" },
 
     -- Lessons Anew (Druid - Class Quest)
-    [6126] = { threat = "LOW", reason = "Speak with the druid trainer to learn a new form. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6126] = { threat = "LOW", reason = "Travel to Moonglade and speak with Dendrite Starblaze in Nighthaven. This class conversation adds no combat after arrival.", confidence = "medium" },
 
     -- The Principal Source (Druid - Class Quest)
-    [6127] = { threat = "MEDIUM", reason = "The quest requires you to collect a specific item from a mob in a contested zone. The combat is manageable for a level 20+ druid, but the journey adds risk. Do not attempt below level 20.", confidence = "medium" },
+    [6127] = { threat = "MEDIUM", reason = "Use the sampler at the pool near the top of Dreadmist Peak, then deliver the water to Tonga at the Crossroads. The peak is occupied by hostile creatures; clear the immediate approach and leave if patrols converge.", confidence = "medium" },
 
     -- Gathering the Cure (Druid - Class Quest)
-    [6128] = { threat = "MEDIUM", reason = "Collect items from mobs in a contested zone. The combat is manageable for a level 20+ druid, but the journey adds risk. Do not attempt below level 20.", confidence = "medium" },
+    [6128] = { threat = "MEDIUM", reason = "Bring five Earthroot and five Kodo Horns to Tonga at the Crossroads. The items can be gathered or looted from local kodos; avoid fighting near several beasts at once.", confidence = "medium" },
 
     -- Curing the Sick (Druid - Class Quest)
-    [6129] = { threat = "MEDIUM", reason = "Use the cure on sick creatures in a contested zone. The combat is manageable for a level 20+ druid, but the journey adds risk. Do not attempt below level 20.", confidence = "medium" },
+    [6129] = { threat = "LOW", reason = "Use the curative salve on ten Sickly Gazelles in the northern Barrens. The gazelles are neutral and this interaction adds no combat; avoid nearby hostile creatures while travelling.", confidence = "medium" },
 
     -- Power over Poison (Druid - Class Quest)
-    [6130] = { threat = "LOW", reason = "Learn the Cure Poison spell from the druid trainer. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6130] = { threat = "LOW", reason = "Return to Turak Runetotem on Thunder Bluff’s Elder Rise. This druid trainer turn-in adds no combat.", confidence = "medium" },
 
     -- Get Me Out of Here!
-    [6132] = { threat = "HIGH", reason = "Escort quest. Melizza Brimbuzzle must be protected through the Kodo Graveyard in Desolace, patrolled by level 35-40 kodos, scavengers, and centaurs. The route is long and the NPC can die. A level 40 warrior reported it is a 'hard one to solo' due to dense mobs and the NPC's fragility. Do not attempt below level 38 solo without a plan to clear the path ahead.", confidence = "high" },
+    [6132] = { threat = "HIGH", reason = "Escort Melizza Brimbuzzle through the Kodo Graveyard and report to Hornizz. Kodos, scavengers and centaurs occupy the route and may attack the fragile escort; clear ahead, stay close and bring help if you cannot keep the path controlled.", confidence = "medium" },
 
     -- The Ranger Lord's Behest (Horde - Undercity)
-    [6133] = { threat = "MEDIUM", reason = "The quest leads into contested territory and requires combat against level 50+ mobs. Clear the area before engaging and watch for patrolling Alliance players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6133] = { threat = "HIGH", reason = "Search Quel’Lithien Lodge for the Quel’Thalas Registry and kill the required rangers, pathstriders and woodsmen. The lodge is a hostile camp with many defenders; clear in sections and avoid overlapping pulls while searching.", confidence = "medium" },
 
     -- Ghost-o-plasm Round Up
-    [6134] = { threat = "MEDIUM", reason = "Ghost-o-plasms drop from ghostly mobs in the Kodo Graveyard in Desolace, levels 35-38. The graveyard is patrolled by level 35-40 kodos and scavengers. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+    [6134] = { threat = "MEDIUM", reason = "Collect eight Ghost-o-plasms from the Kodo Graveyard and return the crate of magnets to Hornizz. Hostile ghosts and nearby roaming creatures can add during repeated fights; pull from a cleared edge.", confidence = "medium" },
 
     -- Duskwing, Oh How I Hate Thee... (Horde - Western Plaguelands)
-    [6135] = { threat = "HIGH", reason = "Duskwing is a powerful named mob that patrols the Plaguewood. He hits hard and has a fear effect. Clear the area before engaging and bring a group. Do not attempt below level 55 solo.", confidence = "high" },
+    [6135] = { threat = "HIGH", reason = "Find and kill Duskwing north of Marris Stead, then recover its fur. This named creature is dangerous and roams among hostile Scourge; scout the area, clear nearby enemies and bring help if you cannot manage the encounter.", confidence = "medium" },
 
     -- The Corpulent One (Horde - Western Plaguelands)
-    [6136] = { threat = "HIGH", reason = "Borelgore is a powerful named mob that patrols the Plaguewood. He hits hard and has a knockback. Clear the area before engaging and bring a group. Do not attempt below level 55 solo.", confidence = "high" },
+    [6136] = { threat = "HIGH", reason = "Find Borelgore in the northern Eastern Plaguelands and defeat it. The named target is in hostile Scourge territory; clear nearby enemies and bring help if you cannot safely manage the fight.", confidence = "medium" },
 
     -- Brother Anton
-    [6141] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Desolace is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [6141] = { threat = "LOW", reason = "Speak with Brother Anton in Desolace. This dialogue step adds no combat; avoid unnecessary pulls while travelling to the camp.", confidence = "medium" },
 
     -- Clam Bait (Horde - Feralas)
-    [6142] = { threat = "MEDIUM", reason = "The clams are guarded by level 42-46 mobs, including murlocs and nagas. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 42 solo.", confidence = "medium" },
+    [6142] = { threat = "MEDIUM", reason = "Collect ten Soft-shelled Clam Meat near Shadowprey Village. Gathering in the water leaves you exposed to hostile naga or other creatures; choose a clear stretch and return to shore if enemies approach.", confidence = "medium" },
 
     -- Other Fish to Fry (Horde - Feralas)
-    [6143] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [6143] = { threat = "MEDIUM", reason = "Kill Slitherblade myrmidons, naga and sorceresses near Shadowprey Village. The camp includes hostile casters and melee enemies; pull from the edge and interrupt or break away from casts where possible.", confidence = "medium" },
 
     -- The Call to Command (Horde - Undercity)
-    [6144] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey through the Plaguelands is dangerous, but the destination is a Horde camp. Safe if you stay on the road.", confidence = "medium" },
+    [6144] = { threat = "LOW", reason = "Travel to Undercity and speak with Varimathras. This is a city conversation and adds no combat.", confidence = "medium" },
 
     -- The Crimson Courier (Horde - Eastern Plaguelands)
-    [6145] = { threat = "MEDIUM", reason = "The courier is a level 58 elite Scarlet Crusade mob with guards. Clear the area before engaging and bring a group. Do not attempt below level 56 solo.", confidence = "medium" },
+    [6145] = { threat = "HIGH", reason = "Find and kill the Crimson Courier in the Eastern Plaguelands, recover the command, and return it to Nathanos. The courier is a dangerous Scarlet target with nearby guards; isolate the encounter and avoid fighting in the middle of a patrol.", confidence = "medium" },
 
     -- Nathanos' Ruse (Horde - Eastern Plaguelands)
-    [6146] = { threat = "MEDIUM", reason = "The quest requires you to walk through a camp filled with level 55-58 elites while disguised. If the disguise fails, you will be attacked by multiple mobs. Do not attempt without a group or significant preparation.", confidence = "medium" },
+    [6146] = { threat = "HIGH", reason = "Travel to Tyr’s Hand, eat the Rotten Apple to assume the Scarlet disguise, and deliver the command to Crusader Lord Valdelmar. The camp is heavily guarded; take a direct route and avoid combat, since losing the disguise can draw multiple enemies.", confidence = "medium" },
 
     -- Return to Nathanos (Horde - Eastern Plaguelands)
-    [6147] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the Scarlet Crusade camps.", confidence = "medium" },
+    [6147] = { threat = "LOW", reason = "Return to Nathanos Blightcaller with the information. This delivery adds no combat; use a clear route and avoid Scarlet camps.", confidence = "medium" },
 
     -- The Scarlet Oracle, Demetria (Horde - Eastern Plaguelands)
-    [6148] = { threat = "HIGH", reason = "Demetria is a powerful caster surrounded by Scarlet Crusade guards. She hits extremely hard and has a fear effect. Clear the area before engaging and bring a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [6148] = { threat = "HIGH", reason = "Find and kill Demetria along the road between Tyr’s Hand and Stratholme. She travels with Scarlet guards and is a dangerous named caster; scout the patrol, clear nearby enemies and bring help if you cannot handle the group.", confidence = "medium" },
 
     -- Claim Rackmore's Treasure!
-    [6161] = { threat = "MEDIUM", reason = "The keys and chest are in the Ruins of Rackmore in Desolace, patrolled by level 35-38 naga. The keys are held by named mobs, and the chest is guarded. Clear the area before looting and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+    [6161] = { threat = "MEDIUM", reason = "Find Rackmore’s Silver and Golden Keys and open the chest in the Ruins of Rackmore. Hostile naga occupy the ruins and the key carriers may be near other enemies; clear the approach before opening the chest.", confidence = "medium" },
 
     -- A Husband's Last Battle (Horde - Felwood)
-    [6162] = { threat = "MEDIUM", reason = "Overlord Ror is in a hostile furbolg camp in Felwood, where nearby enemies can join the fight. Clear the approach and pull him away from other furbolgs.", confidence = "medium" },
+    [6162] = { threat = "MEDIUM", reason = "Kill Overlord Ror in the hostile furbolg camp in Felwood and return his claw to Dreka’Sur. Nearby furbolgs can join; clear a route and pull him away from the camp.", confidence = "medium" },
 
     -- Ramstein
     [6163] = { threat = "HIGH", reason = "This is a dungeon quest that requires a full group of level 58+. Stratholme is one of the deadliest dungeons in Classic, and Ramstein is a powerful abomination who must be summoned by clearing the slaughterhouse of all abominations first. He hits hard and summons waves of Mindless Undead after he dies. Do not attempt solo.", confidence = "high" },
 
     -- Augustus' Receipt Book
-    [6164] = { threat = "LOW", reason = "Delivery step with no combat. The receipt book is obtained from a previous quest. The journey to Terrordale is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [6164] = { threat = "LOW", reason = "Deliver Augustus’ Receipt Book to Augustus in Terrordale. The turn-in adds no combat if you already have the book; the route crosses hostile Eastern Plaguelands, so approach carefully.", confidence = "medium" },
 
     -- A Swift Message
-    [6181] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6181] = { threat = "LOW", reason = "Deliver Lewis’ Note to Thor, the gryphon master. This turn-in adds no combat.", confidence = "medium" },
 
     -- The First and the Last
-    [6182] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6182] = { threat = "LOW", reason = "Speak with Mathias Shaw in Stormwind’s Old Town. This city conversation adds no combat.", confidence = "medium" },
 
     -- Honor the Dead
-    [6183] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6183] = { threat = "LOW", reason = "Speak with Mathias Shaw again if you want to accept the task. This city conversation adds no combat.", confidence = "medium" },
 
     -- Flint Shadowmore
-    [6184] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6184] = { threat = "LOW", reason = "Travel to Chillwind Camp and meet Flint Shadowmore. This is a dialogue step at the camp; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- The Eastern Plagues
-    [6185] = { threat = "MEDIUM", reason = "Requires scouring the Eastern Plaguelands for SI:7 Insignias, which drop from level 55-58 Scourge and Horde mobs. The area is dense with hostile mobs. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [6185] = { threat = "MEDIUM", reason = "Search the Eastern Plaguelands for SI:7 insignias and return them to Flint at Chillwind Camp. The search involves combat with Scourge and may take you through hostile camps; clear one area at a time and leave room to retreat.", confidence = "medium" },
 
     -- The Blightcaller Cometh
     [6186] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },

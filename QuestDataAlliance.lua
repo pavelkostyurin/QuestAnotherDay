@@ -3438,73 +3438,73 @@ local quests = {
     [6064] = { threat = "LOW", reason = "Use the Taming Rod on a Large Crag Boar in Dun Morogh, then return it to Grif. This hunter training interaction adds no combat beyond the brief taming exposure.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6071] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6071] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6072] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6072] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6073] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6073] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6074] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6074] = { threat = "LOW", reason = "Speak with Grif Wildheart in Kharanos. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6075] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6075] = { threat = "LOW", reason = "Speak with Grif Wildheart in Kharanos. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6076] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6076] = { threat = "LOW", reason = "Speak with Grif Wildheart in Kharanos. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- Taming the Beast
-    [6084] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Snow Leopard is a level 7-9 cat in Dun Morogh. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6084] = { threat = "LOW", reason = "Use the Taming Rod on a Snow Leopard in Dun Morogh, then return to Grif. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast
-    [6085] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Ice Claw Bear is a level 7-9 bear in Dun Morogh. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6085] = { threat = "LOW", reason = "Use the Taming Rod on an Ice Claw Bear in Dun Morogh, then return to Grif. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Training the Beast
-    [6086] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6086] = { threat = "LOW", reason = "Speak with Belia Thundergranite in Ironforge. This trainer conversation adds no combat.", confidence = "medium" },
 
     -- Taming the Beast
-    [6101] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Nightsaber Stalker is a level 7-9 cat in Teldrassil. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6101] = { threat = "LOW", reason = "Use the Taming Rod on a Nightsaber Stalker in Teldrassil, then return to Dazalar. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast
-    [6102] = { threat = "LOW", reason = "Hunter class quest taming step with light combat. The Strigid Screecher is a level 7-9 owl in Teldrassil. Manageable solo for a level 10+ hunter.", confidence = "high" },
+    [6102] = { threat = "LOW", reason = "Use the Taming Rod on a Strigid Screecher in Teldrassil, then return to Dazalar. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Training the Beast
-    [6103] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6103] = { threat = "LOW", reason = "Speak with Jocaste in Darnassus. This hunter trainer conversation adds no combat.", confidence = "medium" },
 
     -- Lessons Anew
-    [6121] = { threat = "LOW", reason = "Druid class quest dialogue step with no combat. The journey to Moonglade is safe via flight path. Safe if you stay in the area.", confidence = "high" },
+    [6121] = { threat = "LOW", reason = "Use Teleport: Moonglade and speak with Dendrite Starblaze in Nighthaven. This druid class step adds no combat.", confidence = "medium" },
 
     -- The Principal Source
-    [6122] = { threat = "LOW", reason = "Collection step with no combat beyond travel. The cave by Cliffspring Falls is patrolled by low-level mobs. Safe if you avoid the camps. Do not attempt below level 14 solo.", confidence = "medium" },
+    [6122] = { threat = "LOW", reason = "Use the sampler at the mouth of the Cliffspring Falls cave in Darkshore, then deliver the water to Alanndarian in Auberdine. The interaction is brief; avoid nearby creatures on the approach.", confidence = "medium" },
 
     -- Gathering the Cure
-    [6123] = { threat = "LOW", reason = "Collection step with no combat beyond gathering Earthroot and Lunar Funguses. Both are found in Darkshore, guarded by low-level mobs. Safe if you avoid the camps. Do not attempt below level 14 solo.", confidence = "medium" },
+    [6123] = { threat = "LOW", reason = "Bring five Earthroot and twelve Lunar Fungus to Alanndarian in Auberdine. This materials hand-in adds no combat if you already have the plants.", confidence = "medium" },
 
     -- Curing the Sick
-    [6124] = { threat = "LOW", reason = "Interaction step with no combat beyond travel. The Sickly Deer are scattered across Darkshore and are neutral. Safe if you avoid the mob camps. Do not attempt below level 14 solo.", confidence = "medium" },
+    [6124] = { threat = "LOW", reason = "Use the curative salve on ten Sickly Deer in Darkshore. The deer are neutral, so this interaction adds no combat; avoid nearby hostile creatures while travelling between them.", confidence = "medium" },
 
     -- Power over Poison
-    [6125] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6125] = { threat = "LOW", reason = "Return to Mathrengyl Bearwalker in Darnassus. This druid class delivery adds no combat.", confidence = "medium" },
 
     -- Brother Anton
-    [6141] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Desolace is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [6141] = { threat = "LOW", reason = "Speak with Brother Anton in Desolace. This dialogue step adds no combat; avoid unnecessary pulls while travelling to the camp.", confidence = "medium" },
 
     -- A Swift Message
-    [6181] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6181] = { threat = "LOW", reason = "Deliver Lewis’ Note to Thor, the gryphon master. This turn-in adds no combat.", confidence = "medium" },
 
     -- The First and the Last
-    [6182] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6182] = { threat = "LOW", reason = "Speak with Mathias Shaw in Stormwind’s Old Town. This city conversation adds no combat.", confidence = "medium" },
 
     -- Honor the Dead
-    [6183] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6183] = { threat = "LOW", reason = "Speak with Mathias Shaw again if you want to accept the task. This city conversation adds no combat.", confidence = "medium" },
 
     -- Flint Shadowmore
-    [6184] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6184] = { threat = "LOW", reason = "Travel to Chillwind Camp and meet Flint Shadowmore. This is a dialogue step at the camp; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- The Eastern Plagues
-    [6185] = { threat = "MEDIUM", reason = "Requires scouring the Eastern Plaguelands for SI:7 Insignias, which drop from level 55-58 Scourge and Horde mobs. The area is dense with hostile mobs. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [6185] = { threat = "MEDIUM", reason = "Search the Eastern Plaguelands for SI:7 insignias and return them to Flint at Chillwind Camp. The search involves combat with Scourge and may take you through hostile camps; clear one area at a time and leave room to retreat.", confidence = "medium" },
 
     -- The Blightcaller Cometh
     [6186] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },

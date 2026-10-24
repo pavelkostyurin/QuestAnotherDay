@@ -2658,70 +2658,70 @@ local quests = {
     [6070] = { threat = "LOW", reason = "Continue the Hunter’s Path conversation with Thotar at Razor Hill. It adds no combat.", confidence = "medium" },
 
     -- Training the Beast
-    [6081] = { threat = "LOW", reason = "Train your tamed beast at the hunter trainer. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6081] = { threat = "LOW", reason = "Speak with Ormak Grimshot in Orgrimmar to train your pet. This city conversation adds no combat.", confidence = "medium" },
 
     -- Taming the Beast
-    [6082] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6082] = { threat = "LOW", reason = "Use the Taming Rod on an Armored Scorpid in Durotar, then return to Thotar. This hunter training interaction has no required kill; avoid nearby hostile creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast
-    [6083] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6083] = { threat = "LOW", reason = "Use the Taming Rod on a Surf Crawler in Durotar, then return to Thotar. This hunter training interaction has no required kill; avoid nearby hostile creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast
-    [6087] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob in Mulgore. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6087] = { threat = "LOW", reason = "Use the Taming Rod on a Prairie Stalker in Mulgore, then return to Yaw. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Taming the Beast
-    [6088] = { threat = "LOW", reason = "Tame a specific beast for your hunter training. The beast is a low-level mob in Mulgore. Manageable solo for any hunter at the appropriate level.", confidence = "high" },
+    [6088] = { threat = "LOW", reason = "Use the Taming Rod on a Swoop in Mulgore, then return to Yaw. This hunter training interaction has no required kill; avoid nearby creatures during the channel.", confidence = "medium" },
 
     -- Training the Beast
-    [6089] = { threat = "LOW", reason = "Train your tamed beast at the hunter trainer in Thunder Bluff. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6089] = { threat = "LOW", reason = "Speak with Holt Thunderhorn in Thunder Bluff to train your pet. This city conversation adds no combat.", confidence = "medium" },
 
     -- Lessons Anew
-    [6126] = { threat = "LOW", reason = "Speak with the druid trainer to learn a new form. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6126] = { threat = "LOW", reason = "Travel to Moonglade and speak with Dendrite Starblaze in Nighthaven. This class conversation adds no combat after arrival.", confidence = "medium" },
 
     -- The Principal Source
-    [6127] = { threat = "MEDIUM", reason = "The quest requires you to collect a specific item from a mob in a contested zone. The combat is manageable for a level 20+ druid, but the journey adds risk. Do not attempt below level 20.", confidence = "medium" },
+    [6127] = { threat = "MEDIUM", reason = "Use the sampler at the pool near the top of Dreadmist Peak, then deliver the water to Tonga at the Crossroads. The peak is occupied by hostile creatures; clear the immediate approach and leave if patrols converge.", confidence = "medium" },
 
     -- Gathering the Cure
-    [6128] = { threat = "MEDIUM", reason = "Collect items from mobs in a contested zone. The combat is manageable for a level 20+ druid, but the journey adds risk. Do not attempt below level 20.", confidence = "medium" },
+    [6128] = { threat = "MEDIUM", reason = "Bring five Earthroot and five Kodo Horns to Tonga at the Crossroads. The items can be gathered or looted from local kodos; avoid fighting near several beasts at once.", confidence = "medium" },
 
     -- Curing the Sick
-    [6129] = { threat = "MEDIUM", reason = "Use the cure on sick creatures in a contested zone. The combat is manageable for a level 20+ druid, but the journey adds risk. Do not attempt below level 20.", confidence = "medium" },
+    [6129] = { threat = "LOW", reason = "Use the curative salve on ten Sickly Gazelles in the northern Barrens. The gazelles are neutral and this interaction adds no combat; avoid nearby hostile creatures while travelling.", confidence = "medium" },
 
     -- Power over Poison
-    [6130] = { threat = "LOW", reason = "Learn the Cure Poison spell from the druid trainer. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6130] = { threat = "LOW", reason = "Return to Turak Runetotem on Thunder Bluff’s Elder Rise. This druid trainer turn-in adds no combat.", confidence = "medium" },
 
     -- The Ranger Lord's Behest
-    [6133] = { threat = "MEDIUM", reason = "The quest leads into contested territory and requires combat against level 50+ mobs. Clear the area before engaging and watch for patrolling Alliance players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6133] = { threat = "HIGH", reason = "Search Quel’Lithien Lodge for the Quel’Thalas Registry and kill the required rangers, pathstriders and woodsmen. The lodge is a hostile camp with many defenders; clear in sections and avoid overlapping pulls while searching.", confidence = "medium" },
 
     -- Duskwing, Oh How I Hate Thee...
-    [6135] = { threat = "HIGH", reason = "Duskwing is a powerful named mob that patrols the Plaguewood. He hits hard and has a fear effect. Clear the area before engaging and bring a group. Do not attempt below level 55 solo.", confidence = "high" },
+    [6135] = { threat = "HIGH", reason = "Find and kill Duskwing north of Marris Stead, then recover its fur. This named creature is dangerous and roams among hostile Scourge; scout the area, clear nearby enemies and bring help if you cannot manage the encounter.", confidence = "medium" },
 
     -- The Corpulent One
-    [6136] = { threat = "HIGH", reason = "Borelgore is a powerful named mob that patrols the Plaguewood. He hits hard and has a knockback. Clear the area before engaging and bring a group. Do not attempt below level 55 solo.", confidence = "high" },
+    [6136] = { threat = "HIGH", reason = "Find Borelgore in the northern Eastern Plaguelands and defeat it. The named target is in hostile Scourge territory; clear nearby enemies and bring help if you cannot safely manage the fight.", confidence = "medium" },
 
     -- Clam Bait
-    [6142] = { threat = "MEDIUM", reason = "The clams are guarded by level 42-46 mobs, including murlocs and nagas. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 42 solo.", confidence = "medium" },
+    [6142] = { threat = "MEDIUM", reason = "Collect ten Soft-shelled Clam Meat near Shadowprey Village. Gathering in the water leaves you exposed to hostile naga or other creatures; choose a clear stretch and return to shore if enemies approach.", confidence = "medium" },
 
     -- Other Fish to Fry
-    [6143] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [6143] = { threat = "MEDIUM", reason = "Kill Slitherblade myrmidons, naga and sorceresses near Shadowprey Village. The camp includes hostile casters and melee enemies; pull from the edge and interrupt or break away from casts where possible.", confidence = "medium" },
 
     -- The Call to Command
-    [6144] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey through the Plaguelands is dangerous, but the destination is a Horde camp. Safe if you stay on the road.", confidence = "medium" },
+    [6144] = { threat = "LOW", reason = "Travel to Undercity and speak with Varimathras. This is a city conversation and adds no combat.", confidence = "medium" },
 
     -- The Crimson Courier
-    [6145] = { threat = "MEDIUM", reason = "The courier is a level 58 elite Scarlet Crusade mob with guards. Clear the area before engaging and bring a group. Do not attempt below level 56 solo.", confidence = "medium" },
+    [6145] = { threat = "HIGH", reason = "Find and kill the Crimson Courier in the Eastern Plaguelands, recover the command, and return it to Nathanos. The courier is a dangerous Scarlet target with nearby guards; isolate the encounter and avoid fighting in the middle of a patrol.", confidence = "medium" },
 
     -- Nathanos' Ruse
-    [6146] = { threat = "MEDIUM", reason = "The quest requires you to walk through a camp filled with level 55-58 elites while disguised. If the disguise fails, you will be attacked by multiple mobs. Do not attempt without a group or significant preparation.", confidence = "medium" },
+    [6146] = { threat = "HIGH", reason = "Travel to Tyr’s Hand, eat the Rotten Apple to assume the Scarlet disguise, and deliver the command to Crusader Lord Valdelmar. The camp is heavily guarded; take a direct route and avoid combat, since losing the disguise can draw multiple enemies.", confidence = "medium" },
 
     -- Return to Nathanos
-    [6147] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the Scarlet Crusade camps.", confidence = "medium" },
+    [6147] = { threat = "LOW", reason = "Return to Nathanos Blightcaller with the information. This delivery adds no combat; use a clear route and avoid Scarlet camps.", confidence = "medium" },
 
     -- The Scarlet Oracle, Demetria
-    [6148] = { threat = "HIGH", reason = "Demetria is a powerful caster surrounded by Scarlet Crusade guards. She hits extremely hard and has a fear effect. Clear the area before engaging and bring a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [6148] = { threat = "HIGH", reason = "Find and kill Demetria along the road between Tyr’s Hand and Stratholme. She travels with Scarlet guards and is a dangerous named caster; scout the patrol, clear nearby enemies and bring help if you cannot handle the group.", confidence = "medium" },
 
     -- A Husband's Last Battle
-    [6162] = { threat = "MEDIUM", reason = "Overlord Ror is in a hostile furbolg camp in Felwood, where nearby enemies can join the fight. Clear the approach and pull him away from other furbolgs.", confidence = "medium" },
+    [6162] = { threat = "MEDIUM", reason = "Kill Overlord Ror in the hostile furbolg camp in Felwood and return his claw to Dreka’Sur. Nearby furbolgs can join; clear a route and pull him away from the camp.", confidence = "medium" },
 
     -- Ramstein
     [6163] = { threat = "HIGH", reason = "This is a dungeon quest that requires a full group of level 58+. Stratholme is one of the deadliest dungeons in Classic, and Ramstein is a powerful abomination who must be summoned by clearing the slaughterhouse of all abominations first. He hits hard and summons waves of Mindless Undead after he dies. Do not attempt solo.", confidence = "high" },
