@@ -8388,24 +8388,25 @@ addon.quests = {
     [7490] = { threat = "LOW", reason = "Take Onyxia’s Head to Thrall in Orgrimmar to report the Horde’s victory. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- For All To See (Alterac Valley)
-    [7491] = { threat = "LOW", reason = "Speak with the NPC to receive your reward. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7491] = { threat = "LOW", reason = "Speak with Overlord Runthak in Orgrimmar after the Horde’s victory. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Camp Mojache (Horde - Feralas)
     [7492] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
 
     -- The Journey Has Just Begun (Horde - Feralas)
-    [7493] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [7493] = { threat = "LOW", reason = "Speak with Overlord Runthak in Orgrimmar to learn the Onyxia Scale Cloak pattern. This is a city training and reward step with no combat.", confidence = "medium" },
 
     -- Feathermoon Stronghold
     [7494] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- Victory for the Alliance
-    [7495] = { threat = "LOW", reason = "Delivery step with no combat. The Head of Onyxia is obtained from a raid; this is a turn-in to Bolvar in Stormwind. Safe if you stay in the city.", confidence = "high" },
+    [7495] = { threat = "LOW", reason = "Take Onyxia’s Head to Highlord Bolvar Fordragon in Stormwind. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- Celebrating Good Times
-    [7496] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7496] = { threat = "LOW", reason = "Speak with Major Mattingly in Stormwind’s Valley of Heroes to celebrate the Alliance victory. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Garona: A Study on Stealth and Treachery
+    [7497] = { threat = "LOW", reason = "Speak with the Stormwind leatherworking trainer to learn the Onyxia Scale Cloak pattern. This city training step adds no combat.", confidence = "medium" },
     [7498] = { threat = "LOW", reason = "Delivery step with no combat. The book is obtained from a dungeon; this is a turn-in. Safe if you stay in the area.", confidence = "high" },
 
     -- Codex of Defense
@@ -8442,91 +8443,93 @@ addon.quests = {
     [7509] = { threat = "EXTREME", reason = "Elite quest. Requires getting Onyxia to breathe fire on the blade, then killing her and driving the blade into her corpse. Onyxia is a level 63 elite raid boss in her lair. A full raid group of 20-40 players at level 60 is required. Do not attempt solo.", confidence = "high" },
 
     -- Service to the Horde (Horde - Orgrimmar)
-    [7541] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7541] = { threat = "LOW", reason = "Speak with Zor Lonetree in Orgrimmar and choose a ring reward. This is a city reward hand-in with no combat.", confidence = "medium" },
 
     -- Mor'zul Bloodbringer
-    [7562] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [7562] = { threat = "LOW", reason = "Travel to Mor’zul Bloodbringer near the Altar of Storms in the Burning Steppes and speak with him about the Dreadsteed ritual. The conversation adds no combat; use a safe route through the zone.", confidence = "medium" },
 
     -- Rage of Blood
-    [7563] = { threat = "MEDIUM", reason = "Warlock class quest. Raging Beast's Blood drops from beasts in the Burning Steppes and Blasted Lands, levels 50-54. The mobs are aggressive and pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [7563] = { threat = "MEDIUM", reason = "Collect 30 Raging Beast’s Blood from owl beasts in Winterspring. These repeated fights leave you exposed in a high-level zone; choose an open area, keep an escape route and avoid the Darkwhisper Gorge.", confidence = "medium" },
 
     -- Wildeyes
-    [7564] = { threat = "LOW", reason = "Warlock class quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [7564] = { threat = "LOW", reason = "Deliver the Case of Blood to Gorzeeki Wildeyes in the Burning Steppes. This hand-in adds no combat; use a safe route through the zone.", confidence = "medium" },
 
     -- The Prison's Bindings
     [7581] = { threat = "EXTREME", reason = "Elite quest. Requires entering Dire Maul's Warpwood Quarter to kill Wildspawn Satyrs for Satyr Blood. The wing is filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- The Prison's Casing
-    [7582] = { threat = "EXTREME", reason = "Elite quest. Requires entering Darkwhisper Gorge in Winterspring to kill Hederine demons for Tears of the Hederine. The demons are level 58-60 elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [7582] = { threat = "HIGH", reason = "Elite quest. Collect Tears of the Hederine in Darkwhisper Gorge. These demons are dangerous, but a Warlock can control and kite one at a time; pull the entrance Slayers separately and keep a Healthstone ready.", confidence = "medium" },
 
     -- Suppression
-    [7583] = { threat = "EXTREME", reason = "Elite quest. Requires capturing a Doomguard Commander in the Tainted Scar of the Blasted Lands. The Doomguard is a level 60 elite demon with powerful attacks. The Tainted Scar is filled with elite demons. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [7583] = { threat = "HIGH", reason = "Warlock class quest. Capture a Doomguard Commander in the Tainted Scar with the supplied prison crystal. The channel leaves you exposed to a lethal counterattack; isolate one commander, use a Voidwalker and keep healing items ready.", confidence = "medium" },
 
     -- What Niby Commands
-    [7601] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to Felwood is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [7601] = { threat = "LOW", reason = "Speak with Impsy in Felwood about the Dreadsteed ritual. This Warlock dialogue step adds no combat; use a safe route to the camp.", confidence = "medium" },
 
     -- Flawless Fel Essence
-    [7602] = { threat = "HIGH", reason = "Warlock class quest. Requires killing Legashi Satyrs in Azshara, Jaedenar Legionnaires in Felwood, and Felguard Sentries in the Blasted Lands. The sentries are level 55-58 elites. The other mobs pull in groups. A group or significant overleveling is required for the Blasted Lands portion. Do not attempt solo below level 55.", confidence = "high" },
+    [7602] = { threat = "HIGH", reason = "Warlock class quest. Collect three Flawless Fel Essences from satyrs and demons in Azshara, Jaedenar and the Blasted Lands. The Jaedenar and Dark Portal camps contain dangerous enemies and patrols; pull carefully and leave if several join.", confidence = "medium" },
 
     -- Kroshius' Infernal Core
-    [7603] = { threat = "EXTREME", reason = "Elite quest. Requires summoning Kroshius, a level 58 elite infernal, in Shatter Scar Vale in Felwood. He hits hard and summons adds. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [7603] = { threat = "HIGH", reason = "Elite quest. Reanimate Kroshius in Shatter Scar Vale and defeat the infernal. Warlocks can fear him and use damage-over-time spells, but a break or resisted Fear can turn the long fight dangerous; bring a Healthstone and keep a clear escape route.", confidence = "medium" },
 
     -- A Binding Contract
     [7604] = { threat = "LOW", reason = "Delivery step with no combat. The contract is obtained from a previous quest; this is a turn-in to Lokhtos in Blackrock Depths. Safe if you stay in the area.", confidence = "high" },
 
     -- The Balance of Light and Shadow
-    [7622] = { threat = "HIGH", reason = "Priest class quest. Requires saving 50 peasants before 15 are slain in a scripted event in Eastern Plaguelands. The event spawns waves of undead that attack the peasants. A level 60 priest soloed this, but it required precise timing and consumables. Do not attempt below level 58 solo without a plan.", confidence = "high" },
+    [7621] = { threat = "LOW", reason = "Listen to Eris Havenfire’s warning about the priest challenge. This is an introduction and dialogue step; the dangerous test begins in the follow-up quest.", confidence = "medium" },
+    [7622] = { threat = "HIGH", reason = "Priest class quest. Save 50 peasants before 15 are slain during the Eastern Plaguelands event. Disease and waves of undead can overwhelm your mana and healing; prepare consumables and follow a practiced healing route before starting.", confidence = "medium" },
 
     -- Lord Banehollow
-    [7623] = { threat = "HIGH", reason = "Warlock class quest. Requires using Shadowy Potions to travel through Jaedenar and speak with Lord Banehollow, a level 60 elite satyr. The potions are consumed, and Jaedenar is filled with level 50-54 demons. A group or significant overleveling is required. Do not attempt solo below level 55.", confidence = "high" },
+    [7623] = { threat = "MEDIUM", reason = "Warlock class quest. Use a Shadowy Potion to reach Lord Banehollow deep in Jaedenar and speak with him. Travel through the hostile area without engaging its demons, and keep a safe route back to the potion vendor.", confidence = "medium" },
 
     -- Ulathek the Traitor
-    [7624] = { threat = "HIGH", reason = "Warlock class quest. Requires confronting Ulathek, a level 58 elite satyr in Jaedenar, and bringing his heart to Lord Banehollow. Jaedenar is filled with elite demons. A group is required. Do not attempt solo.", confidence = "high" },
+    [7624] = { threat = "MEDIUM", reason = "Warlock class quest. Defeat Ulathek in Jaedenar and return his heart to Lord Banehollow. The potion route avoids most hostiles, but this single target can still draw nearby enemies; clear the area and avoid fighting multiple demons.", confidence = "medium" },
 
     -- Xorothian Stardust
-    [7625] = { threat = "LOW", reason = "Warlock class quest delivery step with no combat. The stardust is purchased from a vendor. Safe if you stay on the road.", confidence = "high" },
+    [7625] = { threat = "LOW", reason = "Buy Xorothian Stardust from Ur’dan and deliver it to Gorzeeki Wildeyes in the Burning Steppes. This is a vendor and hand-in step with no combat.", confidence = "medium" },
 
     -- Bell of Dethmoora
-    [7626] = { threat = "LOW", reason = "Warlock class quest collection step with no combat beyond gathering the elixirs. Safe if you stay in the area.", confidence = "high" },
+    [7626] = { threat = "LOW", reason = "Bring ten Elixirs of Shadow Power to Gorzeeki Wildeyes in the Burning Steppes. This is a material hand-in with no combat beyond obtaining the elixirs.", confidence = "medium" },
 
     -- Wheel of the Black March
-    [7627] = { threat = "LOW", reason = "Warlock class quest collection step with no combat beyond gathering the materials. Safe if you stay in the area.", confidence = "high" },
+    [7627] = { threat = "LOW", reason = "Bring six Large Brilliant Shards and 25 Dark Iron Ore to Gorzeeki in the Burning Steppes. This is a material hand-in; use safe sources or buy what you need.", confidence = "medium" },
 
     -- Doomsday Candle
-    [7628] = { threat = "LOW", reason = "Warlock class quest collection step with no combat beyond gathering the dragonscales. Safe if you stay in the area.", confidence = "high" },
+    [7628] = { threat = "LOW", reason = "Bring 35 Black Dragonscales to Gorzeeki Wildeyes in the Burning Steppes. This is a material hand-in; avoid dangerous dragon areas if gathering the scales yourself.", confidence = "medium" },
 
     -- Imp Delivery
     [7629] = { threat = "HIGH", reason = "Elite quest. Requires entering Scholomance to use the Imp in a Jar at the alchemy lab. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Arcanite
-    [7630] = { threat = "LOW", reason = "Warlock class quest collection step with no combat beyond gathering the arcanite bars. Safe if you stay in the area.", confidence = "high" },
+    [7630] = { threat = "LOW", reason = "Bring three Arcanite Bars to Gorzeeki in the Burning Steppes. This is a material hand-in and adds no combat.", confidence = "medium" },
 
     -- Dreadsteed of Xoroth
     [7631] = { threat = "EXTREME", reason = "Elite quest. Requires summoning and defeating a Xorothian Dreadsteed, a level 60 elite demon. The summoning ritual takes place in Dire Maul's West wing and requires specific reagents and a group. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- The Ancient Leaf
-    [7632] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [7632] = { threat = "LOW", reason = "Find the owner of the Ancient Petrified Leaf and return it to the appropriate quest giver. This is a Hunter class-quest search step with no combat objective.", confidence = "medium" },
 
     -- Ancient Sinew Wrapped Lamina
+    [7633] = { threat = "LOW", reason = "Speak to the Ancients through the rock in Felwood to begin the Hunter class-quest challenges. This introduction adds no combat.", confidence = "medium" },
     [7634] = { threat = "HIGH", reason = "Hunter class quest. Requires obtaining a Mature Blue Dragon Sinew from a level 60 elite dragon in Winterspring or Azshara. The dragon is elite and hits hard. A group or significant overleveling is required. Do not attempt solo below level 58.", confidence = "high" },
 
     -- A Proper String
     [7635] = { threat = "HIGH", reason = "Hunter class quest. Requires obtaining a Mature Black Dragon Sinew from a level 60 elite dragon in the Burning Steppes or Badlands. The dragon is elite and hits hard. A group or significant overleveling is required. Do not attempt solo below level 58.", confidence = "high" },
 
     -- Stave of the Ancients
-    [7636] = { threat = "EXTREME", reason = "Elite quest. Requires killing four level 60 elite demons (Simone, Klinfran, Solenor, Artorius) solo. The quest text explicitly says 'You MUST complete this task by yourself.' Each demon is a challenging solo encounter that requires specific strategies and consumables. A level 60 hunter with full raid gear is recommended. Do not attempt below level 58 solo without extensive preparation.", confidence = "high" },
+    [7636] = { threat = "HIGH", reason = "Hunter class quest. Track and defeat four demonic corrupters one at a time; the quest requires you to fight each alone. Their mechanics demand a specific strategy and careful preparation, so study each Petrified Bark clue and bring suitable consumables.", confidence = "medium" },
 
     -- Emphasis on Sacrifice
-    [7637] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Requires a 150 gold donation. Safe if you stay in the city.", confidence = "high" },
+    [7637] = { threat = "LOW", reason = "Donate 150 gold to obtain High Priest Rohan’s Exorcism Censer in Ironforge. This city transaction adds no combat.", confidence = "medium" },
 
     -- Lord Grayson Shadowbreaker
-    [7638] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7638] = { threat = "LOW", reason = "Speak with Lord Grayson Shadowbreaker in Stormwind. This Paladin class-quest dialogue step adds no combat.", confidence = "medium" },
 
     -- To Show Due Judgment
-    [7639] = { threat = "LOW", reason = "Paladin class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7639] = { threat = "LOW", reason = "Return the Exorcism Censer to Lord Grayson Shadowbreaker in Stormwind. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Exorcising Terrordale
-    [7640] = { threat = "HIGH", reason = "Paladin class quest. Requires killing 25 Terrordale Spirits in the Eastern Plaguelands, levels 55-58. The spirits are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "high" },
+    [7640] = { threat = "HIGH", reason = "Paladin class quest. Use the Exorcism Censer at green auras in Terrordale and defeat the spirits that emerge. Several spirits can attack together and their curse can sharply reduce your combat resources; clear nearby undead and activate one area at a time.", confidence = "medium" },
 
     -- The Work of Grimand Elmore
     [7641] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },

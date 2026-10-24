@@ -3750,22 +3750,25 @@ local quests = {
     [7494] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- Victory for the Alliance
-    [7495] = { threat = "LOW", reason = "Delivery step with no combat. The Head of Onyxia is obtained from a raid; this is a turn-in to Bolvar in Stormwind. Safe if you stay in the city.", confidence = "high" },
+    [7495] = { threat = "LOW", reason = "Take Onyxia’s Head to Highlord Bolvar Fordragon in Stormwind. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- Celebrating Good Times
-    [7496] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7496] = { threat = "LOW", reason = "Speak with Major Mattingly in Stormwind’s Valley of Heroes to celebrate the Alliance victory. This city dialogue step adds no combat.", confidence = "medium" },
+
+    -- The Journey Has Just Begun
+    [7497] = { threat = "LOW", reason = "Speak with the Stormwind leatherworking trainer to learn the Onyxia Scale Cloak pattern. This city training step adds no combat.", confidence = "medium" },
 
     -- Emphasis on Sacrifice
-    [7637] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Requires a 150 gold donation. Safe if you stay in the city.", confidence = "high" },
+    [7637] = { threat = "LOW", reason = "Donate 150 gold to obtain High Priest Rohan’s Exorcism Censer in Ironforge. This city transaction adds no combat.", confidence = "medium" },
 
     -- Lord Grayson Shadowbreaker
-    [7638] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7638] = { threat = "LOW", reason = "Speak with Lord Grayson Shadowbreaker in Stormwind. This Paladin class-quest dialogue step adds no combat.", confidence = "medium" },
 
     -- To Show Due Judgment
-    [7639] = { threat = "LOW", reason = "Paladin class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7639] = { threat = "LOW", reason = "Return the Exorcism Censer to Lord Grayson Shadowbreaker in Stormwind. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Exorcising Terrordale
-    [7640] = { threat = "HIGH", reason = "Paladin class quest. Requires killing 25 Terrordale Spirits in the Eastern Plaguelands, levels 55-58. The spirits are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "high" },
+    [7640] = { threat = "HIGH", reason = "Paladin class quest. Use the Exorcism Censer at green auras in Terrordale and defeat the spirits that emerge. Several spirits can attack together and their curse can sharply reduce your combat resources; clear nearby undead and activate one area at a time.", confidence = "medium" },
 
     -- The Work of Grimand Elmore
     [7641] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },

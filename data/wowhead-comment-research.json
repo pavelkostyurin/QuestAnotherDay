@@ -74250,6 +74250,1084 @@
       "confidence": "medium",
       "addonAppliedAt": "2026-10-24T21:40:54+03:00",
       "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7491,
+      "questName": "For All To See",
+      "url": "https://www.wowhead.com/classic/quest=7491",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; corrects the old reference to a cave and identifies the city conversation. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Speak with Overlord Runthak in Orgrimmar after the Horde’s victory. This city dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7492,
+      "questName": "Camp Mojache",
+      "url": "https://www.wowhead.com/classic/quest=7492",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7493,
+      "questName": "The Journey Has Just Begun",
+      "url": "https://www.wowhead.com/classic/quest=7493",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Journey Has Just Begun - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7493/the-journey-has-just-begun",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest data confirms this is a Stormwind/Orgrimmar city training step that teaches the Onyxia Scale Cloak pattern."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; Classic quest data confirms the cloak-training reward in Orgrimmar. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Speak with Overlord Runthak in Orgrimmar to learn the Onyxia Scale Cloak pattern. This is a city training and reward step with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7494,
+      "questName": "Feathermoon Stronghold",
+      "url": "https://www.wowhead.com/classic/quest=7494",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7495,
+      "questName": "Victory for the Alliance",
+      "url": "https://www.wowhead.com/classic/quest=7495",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the raid encounter is a prerequisite, not part of the turn-in. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Take Onyxia’s Head to Highlord Bolvar Fordragon in Stormwind. This is a city hand-in with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7496,
+      "questName": "Celebrating Good Times",
+      "url": "https://www.wowhead.com/classic/quest=7496",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; safe city dialogue. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Speak with Major Mattingly in Stormwind’s Valley of Heroes to celebrate the Alliance victory. This city dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7497,
+      "questName": "The Journey Has Just Begun",
+      "url": "https://www.wowhead.com/classic/quest=7497",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Journey Has Just Begun - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7497/the-journey-has-just-begun",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest data confirms this is the Alliance city counterpart that teaches the Onyxia Scale Cloak pattern."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds LOW; Classic quest data identifies the reward as the cloak pattern. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Speak with the Stormwind leatherworking trainer to learn the Onyxia Scale Cloak pattern. This city training step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7498,
+      "questName": "Garona: A Study on Stealth and Treachery",
+      "url": "https://www.wowhead.com/classic/quest=7498",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7499,
+      "questName": "Codex of Defense",
+      "url": "https://www.wowhead.com/classic/quest=7499",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7500,
+      "questName": "The Arcanist's Cookbook",
+      "url": "https://www.wowhead.com/classic/quest=7500",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7501,
+      "questName": "The Light and How To Swing It",
+      "url": "https://www.wowhead.com/classic/quest=7501",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7502,
+      "questName": "Harnessing Shadows",
+      "url": "https://www.wowhead.com/classic/quest=7502",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7503,
+      "questName": "The Greatest Race of Hunters",
+      "url": "https://www.wowhead.com/classic/quest=7503",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7504,
+      "questName": "Holy Bologna: What the Light Won't Tell You",
+      "url": "https://www.wowhead.com/classic/quest=7504",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7505,
+      "questName": "Frost Shock and You",
+      "url": "https://www.wowhead.com/classic/quest=7505",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7506,
+      "questName": "The Emerald Dream...",
+      "url": "https://www.wowhead.com/classic/quest=7506",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7507,
+      "questName": "Nostro's Compendium",
+      "url": "https://www.wowhead.com/classic/quest=7507",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7508,
+      "questName": "The Forging of Quel'Serrar",
+      "url": "https://www.wowhead.com/classic/quest=7508",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7509,
+      "questName": "The Forging of Quel'Serrar",
+      "url": "https://www.wowhead.com/classic/quest=7509",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Catalog marks this quest as raid; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7541,
+      "questName": "Service to the Horde",
+      "url": "https://www.wowhead.com/classic/quest=7541",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Service to the Horde - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7541/service-to-the-horde",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest page confirms the objective is a reward choice with Zor Lonetree in Orgrimmar."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the Classic quest page confirms a choice of rings at Zor. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Speak with Zor Lonetree in Orgrimmar and choose a ring reward. This is a city reward hand-in with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7562,
+      "questName": "Mor'zul Bloodbringer",
+      "url": "https://www.wowhead.com/classic/quest=7562",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; this is the opening Warlock conversation, while the dangerous challenges belong to later quests. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Travel to Mor’zul Bloodbringer near the Altar of Storms in the Burning Steppes and speak with him about the Dreadsteed ritual. The conversation adds no combat; use a safe route through the zone.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7563,
+      "questName": "Rage of Blood",
+      "url": "https://www.wowhead.com/classic/quest=7563",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 2,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7563/rage-of-blood#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Rage of Blood - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7563/rage-of-blood",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest text identifies Raging Owlbeasts in Winterspring as the source of 30 blood vials; comments describe the repeated kill route and ordinary drop range."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM; Classic quest text confirms the Winterspring owl-beast objective, while drop rates and travel expose the player to repeated fights. Confidence remains medium because evidence is useful but not independently corroborated.",
+      "reason": "Collect 30 Raging Beast’s Blood from owl beasts in Winterspring. These repeated fights leave you exposed in a high-level zone; choose an open area, keep an escape route and avoid the Darkwhisper Gorge.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7564,
+      "questName": "Wildeyes",
+      "url": "https://www.wowhead.com/classic/quest=7564",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; a delivery step. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Deliver the Case of Blood to Gorzeeki Wildeyes in the Burning Steppes. This hand-in adds no combat; use a safe route through the zone.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7581,
+      "questName": "The Prison's Bindings",
+      "url": "https://www.wowhead.com/classic/quest=7581",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7582,
+      "questName": "The Prison's Casing",
+      "url": "https://www.wowhead.com/classic/quest=7582",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 3,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7582/the-prisons-casing#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Prison’s Casing - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7582/the-prisons-casing",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest text sends Warlocks to Darkwhisper Gorge for Tears of the Hederine; comments document elite Slayers and class-specific fear/kiting solo methods."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Lowers EXTREME to HIGH; retrieved comments document Warlock solo strategies, so the quest is difficult but not beyond a prepared class-specific solo attempt. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Elite quest. Collect Tears of the Hederine in Darkwhisper Gorge. These demons are dangerous, but a Warlock can control and kite one at a time; pull the entrance Slayers separately and keep a Healthstone ready.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7583,
+      "questName": "Suppression",
+      "url": "https://www.wowhead.com/classic/quest=7583",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/wotlk/quest=7583/suppression#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Suppression - Quest - WotLK Classic",
+          "url": "https://www.wowhead.com/wotlk/quest=7583/suppression",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Quest text warns the Doomguard Commander will attack during the capture channel and recommends companions; a Vanilla comment reports soloing with a Voidwalker and healing items. The later page is used only for stable objective text."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Lowers EXTREME to HIGH; a Vanilla comment documents a prepared Warlock solo attempt, though the quest text recommends companions. Confidence remains medium because evidence is useful but not independently corroborated.",
+      "reason": "Warlock class quest. Capture a Doomguard Commander in the Tainted Scar with the supplied prison crystal. The channel leaves you exposed to a lethal counterattack; isolate one commander, use a Voidwalker and keep healing items ready.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7601,
+      "questName": "What Niby Commands",
+      "url": "https://www.wowhead.com/classic/quest=7601",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; a dialogue step. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Speak with Impsy in Felwood about the Dreadsteed ritual. This Warlock dialogue step adds no combat; use a safe route to the camp.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7602,
+      "questName": "Flawless Fel Essence",
+      "url": "https://www.wowhead.com/classic/quest=7602",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 2,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7602/flawless-fel-essence#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Flawless Fel Essence - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7602/flawless-fel-essence",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest text requires an essence from each of Azshara, Jaedenar and the Blasted Lands; comments describe patrols and more dangerous demon camps in the latter regions."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains HIGH; Classic quest text confirms the three distinct hostile regions, while exact mob levels and drop counts were removed. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Warlock class quest. Collect three Flawless Fel Essences from satyrs and demons in Azshara, Jaedenar and the Blasted Lands. The Jaedenar and Dark Portal camps contain dangerous enemies and patrols; pull carefully and leave if several join.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7603,
+      "questName": "Kroshius' Infernal Core",
+      "url": "https://www.wowhead.com/classic/quest=7603",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 3,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7603/kroshius-infernal-core#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Kroshius’ Infernal Core - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7603/kroshius-infernal-core",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest text warns Kroshius may kill the Warlock and recommends bringing friends; comments document solo kills around levels 50–60 using Fear and damage-over-time spells."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Lowers EXTREME to HIGH; Classic comments document class-specific solo kills near the quest’s level, though the quest text warns that Kroshius may kill you. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Elite quest. Reanimate Kroshius in Shatter Scar Vale and defeat the infernal. Warlocks can fear him and use damage-over-time spells, but a break or resisted Fear can turn the long fight dangerous; bring a Healthstone and keep a clear escape route.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7604,
+      "questName": "A Binding Contract",
+      "url": "https://www.wowhead.com/classic/quest=7604",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7621,
+      "questName": "A Warning",
+      "url": "https://www.wowhead.com/classic/quest=7621",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "A Warning - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7621/a-warning",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest completion text is a warning and story introduction to a separate test; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds LOW; Classic quest text frames this as a warning and preparation before the solo challenge. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Listen to Eris Havenfire’s warning about the priest challenge. This is an introduction and dialogue step; the dangerous test begins in the follow-up quest.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7622,
+      "questName": "The Balance of Light and Shadow",
+      "url": "https://www.wowhead.com/classic/quest=7622",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7622/the-balance-of-light-and-shadow#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Balance of Light and Shadow - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7622/the-balance-of-light-and-shadow",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest text sets the 50-rescued/15-lost event goal; comments describe the healing route, disease removal, skeleton waves and consumables needed for a prepared solo attempt."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains HIGH; Classic quest text confirms the survival objective, and comments describe the high preparation and precise healing needed. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Priest class quest. Save 50 peasants before 15 are slain during the Eastern Plaguelands event. Disease and waves of undead can overwhelm your mana and healing; prepare consumables and follow a practiced healing route before starting.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7623,
+      "questName": "Lord Banehollow",
+      "url": "https://www.wowhead.com/classic/quest=7623",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Lowers HIGH to MEDIUM; the Shadowy Potion is part of the Jaedenar route, so the previous full-group claim overstated this conversation step. Confidence remains medium because evidence is useful but not independently corroborated.",
+      "reason": "Warlock class quest. Use a Shadowy Potion to reach Lord Banehollow deep in Jaedenar and speak with him. Travel through the hostile area without engaging its demons, and keep a safe route back to the potion vendor.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7624,
+      "questName": "Ulathek the Traitor",
+      "url": "https://www.wowhead.com/classic/quest=7624",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Lowers HIGH to MEDIUM; this is a single target in the potion-assisted Warlock chain, not a confirmed full-group encounter. Confidence remains medium because evidence is useful but not independently corroborated.",
+      "reason": "Warlock class quest. Defeat Ulathek in Jaedenar and return his heart to Lord Banehollow. The potion route avoids most hostiles, but this single target can still draw nearby enemies; clear the area and avoid fighting multiple demons.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7625,
+      "questName": "Xorothian Stardust",
+      "url": "https://www.wowhead.com/classic/quest=7625",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the item is purchased from a vendor. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Buy Xorothian Stardust from Ur’dan and deliver it to Gorzeeki Wildeyes in the Burning Steppes. This is a vendor and hand-in step with no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7626,
+      "questName": "Bell of Dethmoora",
+      "url": "https://www.wowhead.com/classic/quest=7626",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; a collection and delivery step. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Bring ten Elixirs of Shadow Power to Gorzeeki Wildeyes in the Burning Steppes. This is a material hand-in with no combat beyond obtaining the elixirs.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7627,
+      "questName": "Wheel of the Black March",
+      "url": "https://www.wowhead.com/classic/quest=7627",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the quest itself adds no combat. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Bring six Large Brilliant Shards and 25 Dark Iron Ore to Gorzeeki in the Burning Steppes. This is a material hand-in; use safe sources or buy what you need.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7628,
+      "questName": "Doomsday Candle",
+      "url": "https://www.wowhead.com/classic/quest=7628",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; risk depends on where the material is gathered, not the hand-in. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Bring 35 Black Dragonscales to Gorzeeki Wildeyes in the Burning Steppes. This is a material hand-in; avoid dangerous dragon areas if gathering the scales yourself.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7629,
+      "questName": "Imp Delivery",
+      "url": "https://www.wowhead.com/classic/quest=7629",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7630,
+      "questName": "Arcanite",
+      "url": "https://www.wowhead.com/classic/quest=7630",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; a collection and delivery step. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Bring three Arcanite Bars to Gorzeeki in the Burning Steppes. This is a material hand-in and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7631,
+      "questName": "Dreadsteed of Xoroth",
+      "url": "https://www.wowhead.com/classic/quest=7631",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7632,
+      "questName": "The Ancient Leaf",
+      "url": "https://www.wowhead.com/classic/quest=7632",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; no combat is required by the described step. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Find the owner of the Ancient Petrified Leaf and return it to the appropriate quest giver. This is a Hunter class-quest search step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7633,
+      "questName": "An Introduction",
+      "url": "https://www.wowhead.com/classic/quest=7633",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "An Introduction - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7633/an-introduction",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest completion text identifies this as an introduction to later Ancient tasks, with no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds LOW; Classic quest text confirms it is a dialogue step before the later tasks. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Speak to the Ancients through the rock in Felwood to begin the Hunter class-quest challenges. This introduction adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7634,
+      "questName": "Ancient Sinew Wrapped Lamina",
+      "url": "https://www.wowhead.com/classic/quest=7634",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Catalog marks this quest as raid; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7635,
+      "questName": "A Proper String",
+      "url": "https://www.wowhead.com/classic/quest=7635",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:42:56+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Catalog marks this quest as raid; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 7636,
+      "questName": "Stave of the Ancients",
+      "url": "https://www.wowhead.com/classic/quest=7636",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stave of the Ancients - Quest - TBC Classic",
+          "url": "https://www.wowhead.com/tbc/quest=7636/stave-of-the-ancients",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Retrieved quest text explicitly requires four solo demon fights and says the player must complete them alone; the rating reflects class-specific strategy demands, not an assumed group requirement."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Lowers EXTREME to HIGH; the quest is explicitly designed as four solo encounters, and documented solo strategies make it achievable with preparation. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Hunter class quest. Track and defeat four demonic corrupters one at a time; the quest requires you to fight each alone. Their mechanics demand a specific strategy and careful preparation, so study each Petrified Bark clue and bring suitable consumables.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7637,
+      "questName": "Emphasis on Sacrifice",
+      "url": "https://www.wowhead.com/classic/quest=7637",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; removes unsupported minimum-level and safety wording. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Donate 150 gold to obtain High Priest Rohan’s Exorcism Censer in Ironforge. This city transaction adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7638,
+      "questName": "Lord Grayson Shadowbreaker",
+      "url": "https://www.wowhead.com/classic/quest=7638",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; city dialogue. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Speak with Lord Grayson Shadowbreaker in Stormwind. This Paladin class-quest dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7639,
+      "questName": "To Show Due Judgment",
+      "url": "https://www.wowhead.com/classic/quest=7639",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; city delivery. Confidence is medium because this rating has limited external evidence or coherent local context without independent corroboration.",
+      "reason": "Return the Exorcism Censer to Lord Grayson Shadowbreaker in Stormwind. This city hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7640,
+      "questName": "Exorcising Terrordale",
+      "url": "https://www.wowhead.com/classic/quest=7640",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:42:56+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=7640/exorcising-terrordale#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Exorcising Terrordale - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7640/exorcising-terrordale",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:42:56+03:00",
+          "evidence": "Classic quest text requires censer-triggered spirit kills at green auras; comments describe curses and occasional multi-spirit spawns."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains HIGH; Classic quest text and comments confirm censer-triggered fights, possible multiple spirits and a curse that reduces combat resources. Confidence remains medium because evidence is useful but not independently corroborated.",
+      "reason": "Paladin class quest. Use the Exorcism Censer at green auras in Terrordale and defeat the spirits that emerge. Several spirits can attack together and their curse can sharply reduce your combat resources; clear nearby undead and activate one area at a time.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:42:56+03:00",
+      "addonSource": "QuestData.lua"
     }
   ]
 }

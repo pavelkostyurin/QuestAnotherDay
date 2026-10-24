@@ -3120,16 +3120,16 @@ local quests = {
     [7490] = { threat = "LOW", reason = "Take Onyxia’s Head to Thrall in Orgrimmar to report the Horde’s victory. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- For All To See
-    [7491] = { threat = "LOW", reason = "Speak with the NPC to receive your reward. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7491] = { threat = "LOW", reason = "Speak with Overlord Runthak in Orgrimmar after the Horde’s victory. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Camp Mojache
     [7492] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
 
     -- The Journey Has Just Begun
-    [7493] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [7493] = { threat = "LOW", reason = "Speak with Overlord Runthak in Orgrimmar to learn the Onyxia Scale Cloak pattern. This is a city training and reward step with no combat.", confidence = "medium" },
 
     -- Service to the Horde
-    [7541] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7541] = { threat = "LOW", reason = "Speak with Zor Lonetree in Orgrimmar and choose a ring reward. This is a city reward hand-in with no combat.", confidence = "medium" },
 
     -- Wolf Swapping - Arctic Wolf
     [7660] = { threat = "LOW", reason = "Exchange your mount for an Arctic Wolf. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
