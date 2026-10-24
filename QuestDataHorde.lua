@@ -3398,11 +3398,35 @@ local quests = {
     -- Hero of the Frostwolf
     [8272] = { threat = "EXTREME", reason = "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
+    -- Oran's Gratitude
+    [8273] = { threat = "LOW", reason = "Final gratitude hand-in in Undercity after Rin'ji's Secret. The conversation adds no combat; use the normal city route.", confidence = "medium" },
+
     -- Taking Back Silithus
-    [8276] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8276] = { threat = "LOW", reason = "Dialogue step at Cenarion Hold with no combat objective. Travel to Silithus by a familiar route and avoid hostile camps.", confidence = "medium" },
+
+    -- Mark of Honor
+    [8293] = { threat = "LOW", reason = "Turn in the Warsong Mark of Honor to claim the reward. This step adds no battleground combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Quell the Silverwing Usurpers
+    [8294] = { threat = "EXTREME", reason = "PvP quest. It requires Warsong Gulch participation and a Mark of Honor, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Quell the Silverwing Usurpers
+    [8295] = { threat = "EXTREME", reason = "PvP quest. It requires Warsong Gulch participation and a Mark of Honor, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Mark of Honor
+    [8296] = { threat = "LOW", reason = "Turn in a Warsong Mark of Honor to claim the reward. This step adds no battleground combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Cut Arathor Supply Lines
+    [8299] = { threat = "EXTREME", reason = "PvP quest. It requires winning an Arathi Basin battle and its resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8300] = { threat = "EXTREME", reason = "PvP quest. It requires winning an Arathi Basin battle and its resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- Hallow's End Treats for Spoops!
-    [8312] = { threat = "LOW", reason = "Hallow's End holiday quest. Requires performing emotes at innkeepers in Orgrimmar, Undercity, and Thunder Bluff. No combat required. Safe if you stay in the cities.", confidence = "high" },
+    [8312] = { threat = "LOW", reason = "This Hallow's End city circuit uses dialogue and requested emotes at Horde innkeepers. It adds no combat objective; stay within the cities and use familiar routes.", confidence = "medium" },
+
+    -- Rotten Eggs
+    [8322] = { threat = "EXTREME", reason = "PvP quest. The keg is inside Southshore, a hostile Alliance town with guards far above the quest's level. A low-level visitor can be overwhelmed before reaching or leaving the inn; skip this on Hardcore.", confidence = "medium" },
 
     -- Chicken Clucking for a Mint
     [8354] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },

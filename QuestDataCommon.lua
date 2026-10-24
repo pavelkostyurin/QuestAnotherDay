@@ -2442,94 +2442,97 @@ addon.quests = {
     [8257] = { threat = "EXTREME", reason = "Elite quest. Requires killing Morphaz, a level 55 elite dragon in the Sunken Temple, for his blood. The dungeon is filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Deadly Desert Venom
-    [8277] = { threat = "MEDIUM", reason = "Stonelash Scorpids and Sand Skitterers are levels 55-58 in Silithus. They are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8277] = { threat = "MEDIUM", reason = "Collecting stingers and fangs requires repeated fights with hostile Silithus creatures. Pull targets singly in open ground and leave if adds close around you.", confidence = "medium" },
 
     -- Noggle's Last Hope
-    [8278] = { threat = "MEDIUM", reason = "Stonelash Pincers, Stonelash Flayers, and Rock Stalkers are levels 55-58 in Silithus. They are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8278] = { threat = "MEDIUM", reason = "Collecting three kinds of silithid parts requires repeated fights in Silithus. Pull isolated targets and stop if adds or respawns close your retreat.", confidence = "medium" },
 
     -- The Twilight Lexicon
-    [8279] = { threat = "MEDIUM", reason = "The Twilight Lexicon chapters drop from Twilight's Hammer cultists in Silithus, levels 55-58. The cultists pull in groups and cast shadow magic. The drop rate is low. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8279] = { threat = "MEDIUM", reason = "The three lexicon chapters come from hostile Twilight's Hammer cultists. Clear isolated targets and avoid pushing into a crowded camp.", confidence = "medium" },
 
     -- Securing the Supply Lines
-    [8280] = { threat = "MEDIUM", reason = "Dredge Strikers are levels 55-58 in Silithus. They are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8280] = { threat = "MEDIUM", reason = "Killing 15 Dredge Strikers requires repeated combat in Silithus. Pull from open ground and watch for nearby silithid.", confidence = "medium" },
 
     -- Stepping Up Security
-    [8281] = { threat = "MEDIUM", reason = "Dredge Crushers are levels 56-59 in Silithus. They hit hard and pull in groups. Clear methodically and watch for adds. Do not attempt below level 56 solo.", confidence = "medium" },
+    [8281] = { threat = "MEDIUM", reason = "Killing 20 Dredge Crushers requires repeated combat in Silithus. Pull from open ground and watch for nearby silithid.", confidence = "medium" },
 
     -- Noggle's Lost Satchel
-    [8282] = { threat = "MEDIUM", reason = "The satchel is in the mountains south of Cenarion Hold, patrolled by level 55-58 silithid and cultists. Clear the area before looting and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8282] = { threat = "MEDIUM", reason = "The satchel lies in the southern Silithus mountains amid hostile creatures. Approach carefully, check the area before looting, and keep an escape route.", confidence = "medium" },
 
     -- Wanted - Deathclasp, Terror of the Sands
-    [8283] = { threat = "HIGH", reason = "Deathclasp is a level 58 elite silithid in Silithus. He hits hard and has adds nearby. A group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8283] = { threat = "HIGH", reason = "Deathclasp is a dangerous elite silithid with nearby adds. Era reports include solo kills around level 55–59, but success is class- and strategy-dependent; bring help or use a strong solo plan.", confidence = "medium" },
 
     -- The Twilight Mystery
-    [8284] = { threat = "MEDIUM", reason = "Twilight Tablet Fragments drop from Twilight's Hammer cultists in Silithus, levels 55-58. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8284] = { threat = "MEDIUM", reason = "Collecting eight tablet fragments requires repeated fights with Twilight's Hammer cultists in Silithus. Pull isolated enemies and watch for adds.", confidence = "medium" },
 
     -- The Deserter
-    [8285] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8285] = { threat = "LOW", reason = "This is a delivery step to Hermit Ortell with no added combat objective. Travel through Silithus carefully and avoid nearby hostile groups.", confidence = "medium" },
 
     -- What Tomorrow Brings
-    [8286] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Caverns of Time is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8286] = { threat = "LOW", reason = "Travel and dialogue at the Caverns of Time add no combat objective. Use the established road and avoid hostile desert creatures along the route.", confidence = "medium" },
 
     -- A Terrible Purpose
-    [8287] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8287] = { threat = "LOW", reason = "This is a parchment delivery to Commander Mar'alith with no added combat objective. Return to Cenarion Hold by a familiar route.", confidence = "medium" },
 
     -- Only One May Rise
     [8288] = { threat = "LOW", reason = "Delivery step with no combat. The Head of Broodlord Lashlayer is obtained from Blackwing Lair, a raid dungeon. Safe if you stay in the area.", confidence = "high" },
 
     -- The Path of the Righteous
-    [8301] = { threat = "MEDIUM", reason = "Requires collecting 200 Silithid Carapace Fragments from silithid in Silithus, levels 55-58. The drop rate is moderate, so expect a long grind. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8301] = { threat = "MEDIUM", reason = "Collecting 200 Silithid Carapace Fragments requires repeated fights with hostile Silithus silithids. Pull from open ground and pause if nearby enemies or respawns close in.", confidence = "medium" },
 
     -- The Hand of the Righteous
-    [8302] = { threat = "MEDIUM", reason = "Requires collecting 200 Silithid Carapace Fragments from silithid in Silithus, levels 55-58. The drop rate is moderate, so expect a long grind. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8302] = { threat = "MEDIUM", reason = "Collecting 200 Silithid Carapace Fragments requires repeated fights with hostile Silithus silithids. Pull from open ground and pause if nearby enemies or respawns close in.", confidence = "medium" },
 
     -- Anachronos
-    [8303] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Caverns of Time is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8303] = { threat = "LOW", reason = "Travel and dialogue at the Caverns of Time add no combat objective. Use the established route through Tanaris and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Dearest Natalia
-    [8304] = { threat = "LOW", reason = "Dialogue and exploration step with no combat. The Bronzebeard's Encampment is in southern Silithus, patrolled by level 55-58 mobs. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8304] = { threat = "LOW", reason = "Question the camp inhabitants and return to Commander Mar'alith; no combat is required by the objective. Stay alert on the Silithus route and leave if enemies approach.", confidence = "medium" },
 
     -- Long Forgotten Memories
-    [8305] = { threat = "LOW", reason = "Exploration step with no combat. The Crystalline Tear is in Silithus, patrolled by level 55-58 mobs. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8305] = { threat = "LOW", reason = "This exploration step requires locating and viewing the Crystalline Tear, not fighting. Watch for nearby Silithus hostiles while approaching and keep a clear exit.", confidence = "medium" },
 
     -- Into The Maw of Madness
-    [8306] = { threat = "HIGH", reason = "Requires entering Hive'Regal in Silithus to find Natalia. The hive is filled with level 58-60 elite silithid and powerful named mobs. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8306] = { threat = "EXTREME", reason = "Hive'Regal contains dangerous silithid and Mistress Natalia, who can heal, fear, and mind-control during the encounter. The objective warns that it is not easy alone; bring a capable group rather than attempting a solo clear at level 60.", confidence = "medium" },
 
     -- Desert Recipe
-    [8307] = { threat = "MEDIUM", reason = "Requires exploring the Twilight's Hammer camp west of Cenarion Hold. The camp is filled with level 55-58 cultists that pull in groups. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8307] = { threat = "MEDIUM", reason = "The information is at a hostile Twilight's Hammer camp in Silithus. Approach from the edge, use the interaction without drawing a cluster, and retreat if enemies converge.", confidence = "medium" },
 
     -- Brann Bronzebeard's Lost Letter
-    [8308] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Bronzebeard's Encampment is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8308] = { threat = "LOW", reason = "This is a letter delivery to Bronzebeard's Encampment with no added combat. Travel through Silithus carefully and avoid hostile groups on the approach.", confidence = "medium" },
 
     -- Glyph Chasing
-    [8309] = { threat = "EXTREME", reason = "Elite quest. Requires venturing into all three Silithid hives (Hive'Ashi, Hive'Zora, Hive'Regal) to transcribe glyphs from crystals. The hives are filled with level 58-60 elites. While stealth classes can solo this by grabbing rubbings and dying/vanishing, non-stealth classes need a group to fight through. Do not attempt solo without a stealth or death-run strategy.", confidence = "high" },
+    [8309] = { threat = "HIGH", reason = "Reaching the glyph crystals crosses three silithid hives, and the Hive'Regal crystal is guarded by Mistress Natalia. Era reports describe stealth or a corpse-run approach as alternatives to fighting through; ordinary solo characters should bring help or use a deliberate escape plan.", confidence = "medium" },
 
     -- Breaking the Code
-    [8310] = { threat = "EXTREME", reason = "Elite quest. Requires collecting a Silithid Brain from each of the three hives. The brains drop from elite silithid inside the hives, though perimeter non-elites can also drop them at a low rate. A group or long solo grind on the outskirts is required. Do not attempt deep inside the hives solo.", confidence = "high" },
+    [8310] = { threat = "HIGH", reason = "Each brain requires fighting silithids in a different hive, including elite enemies. Some Era reports describe difficult but possible solo kills at 60; choose isolated targets, interrupt dangerous casts, and bring help if a pull stacks up.", confidence = "medium" },
 
     -- Sharing the Knowledge
-    [8313] = { threat = "LOW", reason = "Delivery step with no combat. The recipe page is obtained from a previous quest. Safe if you stay in the area.", confidence = "high" },
+    [8313] = { threat = "LOW", reason = "This is a recipe-page hand-in at Cenarion Hold with no added combat. Use the normal route through the area.", confidence = "medium" },
 
     -- Unraveling the Mystery
-    [8314] = { threat = "LOW", reason = "Delivery step with no combat. The prism is obtained from Glyph Chasing. Safe if you stay in the area.", confidence = "high" },
+    [8314] = { threat = "LOW", reason = "This is a prism delivery at Cenarion Hold with no added combat. Use the normal route through the area.", confidence = "medium" },
 
     -- The Calling
     [8315] = { threat = "EXTREME", reason = "Elite quest. Requires drawing glyphs at the Bones of Grakkarond to summon silithid overlords and the Qiraji Emissary. The quest text explicitly says 'Assemble an army for this task.' The emissary and its guards are elite. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Kitchen Assistance
-    [8317] = { threat = "LOW", reason = "Cooking profession quest with no combat beyond gathering materials. Safe if you stay in the area.", confidence = "high" },
+    [8317] = { threat = "LOW", reason = "This cooking hand-in adds no combat; the required dumplings are a profession-made item. Use the normal route to Calandrath.", confidence = "medium" },
 
     -- Secret Communication
-    [8318] = { threat = "MEDIUM", reason = "Encrypted Twilight Texts drop from Twilight's Hammer cultists in Silithus, levels 55-58. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8318] = { threat = "MEDIUM", reason = "Ten Encrypted Twilight Texts require repeated fights with cultists in Silithus. Pull isolated enemies, watch for adds, and stop if the camp becomes crowded.", confidence = "medium" },
+
+    -- Encrypted Twilight Texts
+    [8319] = { threat = "MEDIUM", reason = "Encrypted Twilight Texts come from hostile Twilight cultists in Silithus. Farm isolated targets and avoid pushing into a crowded camp.", confidence = "medium" },
 
     -- Twilight Geolords
-    [8320] = { threat = "MEDIUM", reason = "Twilight Geolords are level 59-60 in the cultist camps west of Cenarion Hold. They are elite-adjacent (higher health/damage) and are surrounded by other cultists. A level 60 player can solo them carefully, but a group is safer. Do not attempt below level 58 solo without a plan.", confidence = "high" },
+    [8320] = { threat = "MEDIUM", reason = "The ten Twilight Geolords are level-appropriate hostile targets in camps west of Cenarion Hold, where groups can wander close. Pull one at a time from the camp edge and keep an escape route.", confidence = "medium" },
 
     -- Vyral the Vile
-    [8321] = { threat = "HIGH", reason = "Vyral the Vile is a level 60 named cultist inside Twilight's Run cave in northeastern Silithus. The cave is filled with level 58-60 cultists that pull in groups. Vyral himself hits hard and has guards. A group of level 58+ is recommended. Do not attempt solo below level 58 without a plan to clear the cave.", confidence = "high" },
+    [8321] = { threat = "MEDIUM", reason = "Vyral is inside Twilight's Run, where the approach has caster and melee cultists and the boss can add a guard. Pull the cave carefully; soloing at 60 is reported possible but requires managing the pulls and damage spells.", confidence = "medium" },
 
     -- True Believers
-    [8323] = { threat = "MEDIUM", reason = "Requires collecting 10 Encrypted Twilight Texts from cultists in Silithus. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8323] = { threat = "MEDIUM", reason = "Bringing ten Encrypted Twilight Texts requires collecting them from hostile cultists in Silithus. Farm isolated targets and watch for adds or respawns.", confidence = "medium" },
 
     -- Aurel Goldleaf
     [8331] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },

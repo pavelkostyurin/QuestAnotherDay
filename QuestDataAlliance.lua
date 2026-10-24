@@ -3996,10 +3996,28 @@ local quests = {
     [8271] = { threat = "EXTREME", reason = "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- Taking Back Silithus
-    [8275] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8275] = { threat = "LOW", reason = "Dialogue step at Cenarion Hold with no combat objective. Travel to Silithus by a familiar route and avoid hostile camps.", confidence = "medium" },
+
+    -- Talismans of Merit
+    [8289] = { threat = "LOW", reason = "Turn in the Silverwing Talisman of Merit to claim the reward. This step adds no battleground combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Vanquish the Invaders
+    [8290] = { threat = "EXTREME", reason = "PvP quest. It requires a Warsong Gulch Mark of Honor and battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Vanquish the Invaders!
+    [8291] = { threat = "EXTREME", reason = "PvP quest. It requires a Warsong Gulch Mark of Honor and battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Talismans of Merit
+    [8292] = { threat = "LOW", reason = "Turn in the Silverwing Talisman of Merit to claim the reward. This step adds no battleground combat; use the normal route to the NPC.", confidence = "medium" },
+
+    -- Arathi Basin Resources!
+    [8297] = { threat = "EXTREME", reason = "PvP quest. It requires winning an Arathi Basin battle and its resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- More Resource Crates
+    [8298] = { threat = "EXTREME", reason = "PvP quest. It requires winning an Arathi Basin battle and its resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- Hallow's End Treats for Jesper!
-    [8311] = { threat = "LOW", reason = "Hallow's End holiday quest. Requires performing emotes at innkeepers in Stormwind, Ironforge, and Darnassus. No combat required. Safe if you stay in the cities.", confidence = "high" },
+    [8311] = { threat = "LOW", reason = "This Hallow's End city circuit uses dialogue and requested emotes at Alliance innkeepers. It adds no combat objective; stay within the cities and use familiar routes.", confidence = "medium" },
 
     -- Chicken Clucking for a Mint
     [8353] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },

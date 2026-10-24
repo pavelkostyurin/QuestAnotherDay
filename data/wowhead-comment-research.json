@@ -83409,6 +83409,1345 @@
       "reason": "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
       "threat": "EXTREME",
       "confidence": "high"
+    },
+    {
+      "questId": 8273,
+      "questName": "Oran's Gratitude",
+      "url": "https://www.wowhead.com/classic/quest=8273",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Oran's Gratitude - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8273/orans-gratitude",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Classic page identifies this as the gratitude step after Rin'ji's Secret; the hand-in adds no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era quest page confirms the item or objective used in this review. Confidence is medium; the source does not establish a broader danger profile.",
+      "reason": "Final gratitude hand-in in Undercity after Rin'ji's Secret. The conversation adds no combat; use the normal city route.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8275,
+      "questName": "Taking Back Silithus",
+      "url": "https://www.wowhead.com/classic/quest=8275",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Dialogue step at Cenarion Hold with no combat objective. Travel to Silithus by a familiar route and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8276,
+      "questName": "Taking Back Silithus",
+      "url": "https://www.wowhead.com/classic/quest=8276",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Dialogue step at Cenarion Hold with no combat objective. Travel to Silithus by a familiar route and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8277,
+      "questName": "Deadly Desert Venom",
+      "url": "https://www.wowhead.com/classic/quest=8277",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Collecting stingers and fangs requires repeated fights with hostile Silithus creatures. Pull targets singly in open ground and leave if adds close around you.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8278,
+      "questName": "Noggle's Last Hope",
+      "url": "https://www.wowhead.com/classic/quest=8278",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Collecting three kinds of silithid parts requires repeated fights in Silithus. Pull isolated targets and stop if adds or respawns close your retreat.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8279,
+      "questName": "The Twilight Lexicon",
+      "url": "https://www.wowhead.com/classic/quest=8279",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "The three lexicon chapters come from hostile Twilight's Hammer cultists. Clear isolated targets and avoid pushing into a crowded camp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8280,
+      "questName": "Securing the Supply Lines",
+      "url": "https://www.wowhead.com/classic/quest=8280",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Killing 15 Dredge Strikers requires repeated combat in Silithus. Pull from open ground and watch for nearby silithid.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8281,
+      "questName": "Stepping Up Security",
+      "url": "https://www.wowhead.com/classic/quest=8281",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Killing 20 Dredge Crushers requires repeated combat in Silithus. Pull from open ground and watch for nearby silithid.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8282,
+      "questName": "Noggle's Lost Satchel",
+      "url": "https://www.wowhead.com/classic/quest=8282",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "The satchel lies in the southern Silithus mountains amid hostile creatures. Approach carefully, check the area before looting, and keep an escape route.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8283,
+      "questName": "Wanted - Deathclasp, Terror of the Sands",
+      "url": "https://www.wowhead.com/classic/quest=8283",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 6 comments; ordering and completeness were not established.",
+      "commentsReviewed": 6,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8283/wanted-deathclasp-terror-of-the-sands#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Wanted - Deathclasp, Terror of the Sands - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8283/wanted-deathclasp-terror-of-the-sands",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Comments report an elite with adds and respawns, group recommendations, and class-specific solo kills around levels 55–59."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era page and player reports support the danger claims; the mixed evidence is anecdotal and supports medium confidence. Deathclasp is a dangerous elite silithid with nearby adds. Era reports include solo kills around level 55–59, but success is class- and strategy-dependent; bring help or use a strong solo plan.",
+      "reason": "Deathclasp is a dangerous elite silithid with nearby adds. Era reports include solo kills around level 55–59, but success is class- and strategy-dependent; bring help or use a strong solo plan.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8284,
+      "questName": "The Twilight Mystery",
+      "url": "https://www.wowhead.com/classic/quest=8284",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Collecting eight tablet fragments requires repeated fights with Twilight's Hammer cultists in Silithus. Pull isolated enemies and watch for adds.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8285,
+      "questName": "The Deserter",
+      "url": "https://www.wowhead.com/classic/quest=8285",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This is a delivery step to Hermit Ortell with no added combat objective. Travel through Silithus carefully and avoid nearby hostile groups.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8286,
+      "questName": "What Tomorrow Brings",
+      "url": "https://www.wowhead.com/classic/quest=8286",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Travel and dialogue at the Caverns of Time add no combat objective. Use the established road and avoid hostile desert creatures along the route.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8287,
+      "questName": "A Terrible Purpose",
+      "url": "https://www.wowhead.com/classic/quest=8287",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This is a parchment delivery to Commander Mar'alith with no added combat objective. Return to Cenarion Hold by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8288,
+      "questName": "Only One May Rise",
+      "url": "https://www.wowhead.com/classic/quest=8288",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:07:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8289,
+      "questName": "Talismans of Merit",
+      "url": "https://www.wowhead.com/classic/quest=8289",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The exact quest page lists the required item but not objective text; the matching follow-up page clarifies the reward hand-in. Comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Talismans of Merit - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=8289",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:10:00+03:00",
+          "evidence": "The exact quest page identifies a Silverwing Talisman of Merit item and marks the quest PvP; the corresponding reward step is a token hand-in."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The exact Classic quest page lists the Silverwing Talisman of Merit and PvP category; the matching follow-up reward page confirms this quest family uses a token hand-in. The quest row adds no new battleground objective itself. Confidence is medium because the exact page has sparse objective details.",
+      "reason": "Turn in the Silverwing Talisman of Merit to claim the reward. This step adds no battleground combat; use the normal route to the NPC.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8290,
+      "questName": "Vanquish the Invaders",
+      "url": "https://www.wowhead.com/classic/quest=8290",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Blizzard states battlegrounds and Battlemasters are disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog explicitly requires the battleground objective. Blizzard states battlegrounds are disabled on Hardcore realms. Confidence is high from the quest objective and official rule.",
+      "reason": "PvP quest. It requires a Warsong Gulch Mark of Honor and battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8291,
+      "questName": "Vanquish the Invaders!",
+      "url": "https://www.wowhead.com/classic/quest=8291",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Blizzard states battlegrounds and Battlemasters are disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog explicitly requires the battleground objective. Blizzard states battlegrounds are disabled on Hardcore realms. Confidence is high from the quest objective and official rule.",
+      "reason": "PvP quest. It requires a Warsong Gulch Mark of Honor and battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8292,
+      "questName": "Talismans of Merit",
+      "url": "https://www.wowhead.com/classic/quest=8292",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Talismans of Merit - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8292/talismans-of-merit",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "The Classic page lists the Silverwing Talisman of Merit as the quest item and a reputation reward."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era quest page confirms the item or objective used in this review. Confidence is medium; the source does not establish a broader danger profile.",
+      "reason": "Turn in the Silverwing Talisman of Merit to claim the reward. This step adds no battleground combat; use the normal route to the NPC.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8293,
+      "questName": "Mark of Honor",
+      "url": "https://www.wowhead.com/classic/quest=8293",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Mark of Honor - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8293/mark-of-honor",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "The Classic page lists one Warsong Mark of Honor as the item for this reward turn-in."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era quest page confirms the item or objective used in this review. Confidence is medium; the source does not establish a broader danger profile.",
+      "reason": "Turn in the Warsong Mark of Honor to claim the reward. This step adds no battleground combat; use the normal route to the NPC.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8294,
+      "questName": "Quell the Silverwing Usurpers",
+      "url": "https://www.wowhead.com/classic/quest=8294",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Blizzard states battlegrounds and Battlemasters are disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog explicitly requires the battleground objective. Blizzard states battlegrounds are disabled on Hardcore realms. Confidence is high from the quest objective and official rule.",
+      "reason": "PvP quest. It requires Warsong Gulch participation and a Mark of Honor, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8295,
+      "questName": "Quell the Silverwing Usurpers",
+      "url": "https://www.wowhead.com/classic/quest=8295",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Blizzard states battlegrounds and Battlemasters are disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog explicitly requires the battleground objective. Blizzard states battlegrounds are disabled on Hardcore realms. Confidence is high from the quest objective and official rule.",
+      "reason": "PvP quest. It requires Warsong Gulch participation and a Mark of Honor, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8296,
+      "questName": "Mark of Honor",
+      "url": "https://www.wowhead.com/classic/quest=8296",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Mark of Honor - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8296/mark-of-honor",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "The Classic page lists one Warsong Mark of Honor as the quest item for a reputation reward."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era quest page confirms the item or objective used in this review. Confidence is medium; the source does not establish a broader danger profile.",
+      "reason": "Turn in a Warsong Mark of Honor to claim the reward. This step adds no battleground combat; use the normal route to the NPC.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8297,
+      "questName": "Arathi Basin Resources!",
+      "url": "https://www.wowhead.com/classic/quest=8297",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Blizzard states battlegrounds and Battlemasters are disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog explicitly requires the battleground objective. Blizzard states battlegrounds are disabled on Hardcore realms. Confidence is high from the quest objective and official rule.",
+      "reason": "PvP quest. It requires winning an Arathi Basin battle and its resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8298,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8298",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Blizzard states battlegrounds and Battlemasters are disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog explicitly requires the battleground objective. Blizzard states battlegrounds are disabled on Hardcore realms. Confidence is high from the quest objective and official rule.",
+      "reason": "PvP quest. It requires winning an Arathi Basin battle and its resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8299,
+      "questName": "Cut Arathor Supply Lines",
+      "url": "https://www.wowhead.com/classic/quest=8299",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Blizzard states battlegrounds and Battlemasters are disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog explicitly requires the battleground objective. Blizzard states battlegrounds are disabled on Hardcore realms. Confidence is high from the quest objective and official rule.",
+      "reason": "PvP quest. It requires winning an Arathi Basin battle and its resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8300,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8300",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Blizzard states battlegrounds and Battlemasters are disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog explicitly requires the battleground objective. Blizzard states battlegrounds are disabled on Hardcore realms. Confidence is high from the quest objective and official rule.",
+      "reason": "PvP quest. It requires winning an Arathi Basin battle and its resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8301,
+      "questName": "The Path of the Righteous",
+      "url": "https://www.wowhead.com/classic/quest=8301",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Collecting 200 Silithid Carapace Fragments requires repeated fights with hostile Silithus silithids. Pull from open ground and pause if nearby enemies or respawns close in.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8302,
+      "questName": "The Hand of the Righteous",
+      "url": "https://www.wowhead.com/classic/quest=8302",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Collecting 200 Silithid Carapace Fragments requires repeated fights with hostile Silithus silithids. Pull from open ground and pause if nearby enemies or respawns close in.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8303,
+      "questName": "Anachronos",
+      "url": "https://www.wowhead.com/classic/quest=8303",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Travel and dialogue at the Caverns of Time add no combat objective. Use the established route through Tanaris and avoid nearby hostile creatures.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8304,
+      "questName": "Dearest Natalia",
+      "url": "https://www.wowhead.com/classic/quest=8304",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Question the camp inhabitants and return to Commander Mar'alith; no combat is required by the objective. Stay alert on the Silithus route and leave if enemies approach.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8305,
+      "questName": "Long Forgotten Memories",
+      "url": "https://www.wowhead.com/classic/quest=8305",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This exploration step requires locating and viewing the Crystalline Tear, not fighting. Watch for nearby Silithus hostiles while approaching and keep a clear exit.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8306,
+      "questName": "Into The Maw of Madness",
+      "url": "https://www.wowhead.com/classic/quest=8306",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 8 comments; ordering and completeness were not established.",
+      "commentsReviewed": 8,
+      "commentsUsed": 5,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8306/into-the-maw-of-madness#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Into the Maw of Madness - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8306/into-the-maw-of-madness",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Quest text warns the task is not easy alone; comments report elite silithids, Natalia abilities, close respawns, groups of two to five, and some class-specific solo attempts."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era page and player reports support the danger claims; the mixed evidence is anecdotal and supports medium confidence. Hive'Regal contains dangerous silithid and Mistress Natalia, who can heal, fear, and mind-control during the encounter. The objective warns that it is not easy alone; bring a capable group rather than attempting a solo clear at level 60.",
+      "reason": "Hive'Regal contains dangerous silithid and Mistress Natalia, who can heal, fear, and mind-control during the encounter. The objective warns that it is not easy alone; bring a capable group rather than attempting a solo clear at level 60.",
+      "threat": "EXTREME",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8307,
+      "questName": "Desert Recipe",
+      "url": "https://www.wowhead.com/classic/quest=8307",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "The information is at a hostile Twilight's Hammer camp in Silithus. Approach from the edge, use the interaction without drawing a cluster, and retreat if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8308,
+      "questName": "Brann Bronzebeard's Lost Letter",
+      "url": "https://www.wowhead.com/classic/quest=8308",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This is a letter delivery to Bronzebeard's Encampment with no added combat. Travel through Silithus carefully and avoid hostile groups on the approach.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8309,
+      "questName": "Glyph Chasing",
+      "url": "https://www.wowhead.com/classic/quest=8309",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 10 comments; ordering and completeness were not established.",
+      "commentsReviewed": 10,
+      "commentsUsed": 6,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8309/glyph-chasing#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Glyph Chasing - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8309/glyph-chasing",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Quest asks for rubbings from three hives; comments describe elite guards, Natalia at the Regal crystal, and stealth/corpse-run tactics."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era page and player reports support the danger claims; the mixed evidence is anecdotal and supports medium confidence. Reaching the glyph crystals crosses three silithid hives, and the Hive'Regal crystal is guarded by Mistress Natalia. Era reports describe stealth or a corpse-run approach as alternatives to fighting through; ordinary solo characters should bring help or use a deliberate escape plan.",
+      "reason": "Reaching the glyph crystals crosses three silithid hives, and the Hive'Regal crystal is guarded by Mistress Natalia. Era reports describe stealth or a corpse-run approach as alternatives to fighting through; ordinary solo characters should bring help or use a deliberate escape plan.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8310,
+      "questName": "Breaking the Code",
+      "url": "https://www.wowhead.com/classic/quest=8310",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 10 comments; ordering and completeness were not established.",
+      "commentsReviewed": 10,
+      "commentsUsed": 5,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8310/breaking-the-code#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Breaking the Code - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8310/breaking-the-code",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Comments describe brains from elite hive silithids, difficult but possible solo kills, multi-mob groups, and variable drop experience."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era page and player reports support the danger claims; the mixed evidence is anecdotal and supports medium confidence. Each brain requires fighting silithids in a different hive, including elite enemies. Some Era reports describe difficult but possible solo kills at 60; choose isolated targets, interrupt dangerous casts, and bring help if a pull stacks up.",
+      "reason": "Each brain requires fighting silithids in a different hive, including elite enemies. Some Era reports describe difficult but possible solo kills at 60; choose isolated targets, interrupt dangerous casts, and bring help if a pull stacks up.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8311,
+      "questName": "Hallow's End Treats for Jesper!",
+      "url": "https://www.wowhead.com/classic/quest=8311",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This Hallow's End city circuit uses dialogue and requested emotes at Alliance innkeepers. It adds no combat objective; stay within the cities and use familiar routes.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8312,
+      "questName": "Hallow's End Treats for Spoops!",
+      "url": "https://www.wowhead.com/classic/quest=8312",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This Hallow's End city circuit uses dialogue and requested emotes at Horde innkeepers. It adds no combat objective; stay within the cities and use familiar routes.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8313,
+      "questName": "Sharing the Knowledge",
+      "url": "https://www.wowhead.com/classic/quest=8313",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This is a recipe-page hand-in at Cenarion Hold with no added combat. Use the normal route through the area.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8314,
+      "questName": "Unraveling the Mystery",
+      "url": "https://www.wowhead.com/classic/quest=8314",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This is a prism delivery at Cenarion Hold with no added combat. Use the normal route through the area.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8315,
+      "questName": "The Calling",
+      "url": "https://www.wowhead.com/classic/quest=8315",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:07:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8316,
+      "questName": "Armaments of War",
+      "url": "https://www.wowhead.com/classic/quest=8316",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:07:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8317,
+      "questName": "Kitchen Assistance",
+      "url": "https://www.wowhead.com/classic/quest=8317",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "This cooking hand-in adds no combat; the required dumplings are a profession-made item. Use the normal route to Calandrath.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8318,
+      "questName": "Secret Communication",
+      "url": "https://www.wowhead.com/classic/quest=8318",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Ten Encrypted Twilight Texts require repeated fights with cultists in Silithus. Pull isolated enemies, watch for adds, and stop if the camp becomes crowded.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8319,
+      "questName": "Encrypted Twilight Texts",
+      "url": "https://www.wowhead.com/classic/quest=8319",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read one relevant Vanilla-era comment; ordering and completeness were not established.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8319/encrypted-twilight-texts#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Encrypted Twilight Texts - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8319/encrypted-twilight-texts",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:10:00+03:00",
+          "evidence": "A Vanilla-era comment states the texts drop from Twilight Cultist mobs; the item hand-in itself is at Bor Wildmane."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms the item hand-in and a Vanilla-era comment says the texts drop from Twilight Cultists. That supports the acquisition risk in the warning; confidence is medium because support is a single comment.",
+      "reason": "Encrypted Twilight Texts come from hostile Twilight cultists in Silithus. Farm isolated targets and avoid pushing into a crowded camp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8320,
+      "questName": "Twilight Geolords",
+      "url": "https://www.wowhead.com/classic/quest=8320",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 5 comments; ordering and completeness were not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8320/twilight-geolords#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Twilight Geolords - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8320/twilight-geolords",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Comments identify level-59 targets, solo kills around level 56, and occasional wandering groups near the camps."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era page and player reports support the danger claims; the mixed evidence is anecdotal and supports medium confidence. The ten Twilight Geolords are level-appropriate hostile targets in camps west of Cenarion Hold, where groups can wander close. Pull one at a time from the camp edge and keep an escape route.",
+      "reason": "The ten Twilight Geolords are level-appropriate hostile targets in camps west of Cenarion Hold, where groups can wander close. Pull one at a time from the camp edge and keep an escape route.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8321,
+      "questName": "Vyral the Vile",
+      "url": "https://www.wowhead.com/classic/quest=8321",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 3 comments; ordering and completeness were not established.",
+      "commentsReviewed": 3,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8321/vyral-the-vile#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Vyral the Vile - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8321/vyral-the-vile",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Comments report level-60 solo completion, single pulls through much of the cave, damaging spells, and a guard at Vyral."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era page and player reports support the danger claims; the mixed evidence is anecdotal and supports medium confidence. Vyral is inside Twilight's Run, where the approach has caster and melee cultists and the boss can add a guard. Pull the cave carefully; soloing at 60 is reported possible but requires managing the pulls and damage spells.",
+      "reason": "Vyral is inside Twilight's Run, where the approach has caster and melee cultists and the boss can add a guard. Pull the cave carefully; soloing at 60 is reported possible but requires managing the pulls and damage spells.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8322,
+      "questName": "Rotten Eggs",
+      "url": "https://www.wowhead.com/classic/quest=8322",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 5 comments; ordering and completeness were not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8322/rotten-eggs#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Rotten Eggs - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8322/rotten-eggs",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:07:00+03:00",
+          "evidence": "Quest requires placing eggs in Southshore's inn; comments describe hostile guards and deaths on the route."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era page and player reports support the danger claims; the mixed evidence is anecdotal and supports medium confidence. PvP quest. The keg is inside Southshore, a hostile Alliance town with guards far above the quest's level. A low-level visitor can be overwhelmed before reaching or leaving the inn; skip this on Hardcore.",
+      "reason": "PvP quest. The keg is inside Southshore, a hostile Alliance town with guards far above the quest's level. A low-level visitor can be overwhelmed before reaching or leaving the inn; skip this on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8323,
+      "questName": "True Believers",
+      "url": "https://www.wowhead.com/classic/quest=8323",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:07:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective, zone context, and existing Classic knowledge. Confidence is medium; no unsupported exact levels or drop rates are asserted.",
+      "reason": "Bringing ten Encrypted Twilight Texts requires collecting them from hostile cultists in Silithus. Farm isolated targets and watch for adds or respawns.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
     }
   ]
 }
