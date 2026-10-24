@@ -359,9 +359,10 @@ test("the Questie integration decorates tracker quest titles", () => {
   assert.match(integration, /questieTrackerModule:Update\(\)/);
 });
 
-test("the standard quest log fallback is disabled when Questie is loaded", () => {
+test("the standard quest log integration remains active alongside Questie", () => {
   const integration = fs.readFileSync(path.join(root, "StandardQuestLogIntegration.lua"), "utf8");
-  assert.match(integration, /IsAddOnLoaded\("Questie"\)/);
+  assert.doesNotMatch(integration, /IsAddOnLoaded\("Questie"\)/);
+  assert.doesNotMatch(integration, /IsQuestieLoaded/);
   assert.match(integration, /QuestLogTitle/);
   assert.match(integration, /ShowThreatTooltip/);
   assert.match(integration, /hooksecurefunc\("QuestLog_Update"/);
