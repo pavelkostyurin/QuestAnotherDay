@@ -2058,22 +2058,22 @@ local quests = {
     [3784] = { threat = "LOW", reason = "Speak with Hamuul Runetotem in Thunder Bluff; this city step adds no combat.", confidence = "medium" },
 
     -- Morrowgrain Research
-    [3786] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mobs in Un'Goro.", confidence = "medium" },
+    [3786] = { threat = "MEDIUM", reason = "Un'Goro Soil is obtained in the crater, where hostile wildlife can turn gathering into combat. Bring the materials beforehand or collect them away from dense camps.", confidence = "medium" },
 
     -- Morrowgrain to Thunder Bluff
-    [3804] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3804] = { threat = "LOW", reason = "This is a Morrowgrain hand-in in Thunder Bluff; the turn-in adds no combat.", confidence = "medium" },
 
     -- Dreadmaul Rock
-    [3821] = { threat = "MEDIUM", reason = "The journey to Dreadmaul Rock is dangerous: the Burning Steppes is a level 50-58 zone patrolled by elite dragons, ogres, and blackrock orcs. Sha'ni's remains are on an altar at the top of Dreadmaul Rock (79, 45). The path up is narrow and patrolled by Firegut ogres. Do not attempt below level 50 without a group.", confidence = "high" },
+    [3821] = { threat = "MEDIUM", reason = "Hostile ogres and other creatures occupy Dreadmaul Rock, where Sha'ni's remains are on the summit. Approach from an open route and avoid drawing nearby camps.", confidence = "medium" },
 
     -- Krom'Grul
-    [3822] = { threat = "HIGH", reason = "Krom'Grul has multiple spawn points across at least two caves in Dreadmaul Rock. The caves are packed with level 50-55 Firegut ogres that respawn quickly (around 15 minutes). A level 60 frost mage described the larger cave as 'tedious but cake' to solo, but a level 51 mage reported spending 'the next HOUR fighting for survival in there, enduring wave after wave of repops.' Finding Krom'Grul is harder than killing him. Do not attempt below level 52 without a group. Bring a group of 2-3 to clear the caves efficiently.", confidence = "high" },
+    [3822] = { threat = "MEDIUM", reason = "Krom'Grul is somewhere among the caves and mines at Dreadmaul Rock, so searching can lead into hostile ogre camps and multiple pulls. Pull enemies out of cave entrances and leave if respawns close the route.", confidence = "medium" },
 
     -- Rattling the Rattlecages
-    [3901] = { threat = "LOW", reason = "The skeletons are level 2-3 and are neutral mobs. They are easy to kill solo, though on fresh servers there may be competition for spawns. A simple starter quest with minimal risk.", confidence = "high" },
+    [3901] = { threat = "LOW", reason = "Rattlecage Skeletons are hostile starter-area enemies, but this is ordinary low-level combat. Pull them one at a time and watch for nearby enemies.", confidence = "medium" },
 
     -- Scavenging Deathknell
-    [3902] = { threat = "LOW", reason = "The goods are in stacks of boxes around the starting area. No combat required. A simple starter quest with minimal risk.", confidence = "high" },
+    [3902] = { threat = "LOW", reason = "The goods are scattered around Deathknell; nearby starter-area enemies can aggro while you search. Loot the crates between pulls rather than running through hostile mobs.", confidence = "medium" },
 
     -- Disharmony of Flame
     [3906] = { threat = "MEDIUM", reason = "The quest leads into dangerous territory with hostile mobs. Clear the area before engaging and watch for patrolling mobs. Do not attempt below the recommended level.", confidence = "medium" },
@@ -2082,16 +2082,16 @@ local quests = {
     [3907] = { threat = "MEDIUM", reason = "The quest leads into dangerous territory with hostile mobs. Clear the area before engaging and watch for patrolling mobs. Do not attempt below the recommended level.", confidence = "medium" },
 
     -- Wenikee Boltbucket
-    [3921] = { threat = "LOW", reason = "Travel step with no combat. You can talk to Brak to teleport directly to her.", confidence = "high" },
+    [3921] = { threat = "LOW", reason = "Deliver the Broken Samophlange to Wenikee Boltbucket; no quest combat is required. Use the roads and avoid hostile camps along the route.", confidence = "medium" },
 
     -- Nugget Slugs
-    [3922] = { threat = "MEDIUM", reason = "The buckets are guarded by level 14-18 Venture Co. mobs, including enforcers and overseers. The mobs are packed in the area and can chain-pull. The Sludge Fen also has a rogue poison quest on a nearby hill, so expect competition. Do not attempt below level 14 solo.", confidence = "high" },
+    [3922] = { threat = "MEDIUM", reason = "Tool buckets sit around Venture Co. structures in the Sludge Fen, where enemies can aggro or run for help. Collect from the perimeter and avoid entering the tower unless necessary.", confidence = "medium" },
 
     -- Rilli Greasygob
-    [3923] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3923] = { threat = "LOW", reason = "Deliver the repaired Samophlange to Rilli in Orgrimmar; this city hand-in adds no combat.", confidence = "medium" },
 
     -- Samophlange Manual
-    [3924] = { threat = "HIGH", reason = "The mine is packed with level 15-18 Venture Co. mobs that are spaced 2-3 yards apart, meaning you will chain-pull constantly. Patrols roam the mine, and mobs respawn in about 30 seconds. A level 19 rogue stealthed through, sapped the boss, and killed him easily. A level 17 warrior soloed it but noted it was 'a bit tough.' A level 15 player died 'five or six times' trying. Do not attempt below level 17 without a group or stealth.", confidence = "high" },
+    [3924] = { threat = "MEDIUM", reason = "The missing pages and manual cover come from enemies around and inside Boulder Lode Mine, with Boss Copperplug deeper in the cave. Pull carefully, watch for patrols and respawns, and keep an exit route.", confidence = "medium" },
 
     -- Commander Gor'shak
     [3981] = { threat = "HIGH", reason = "BRD is a level 52-60 dungeon filled with elite Dark Iron dwarves, fire elementals, and powerful bosses. The dungeon is massive and requires a full group of 5 at level 55+. Gor'shak is deep inside the prison section. Do not attempt solo.", confidence = "high" },

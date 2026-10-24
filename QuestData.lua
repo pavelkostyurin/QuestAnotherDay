@@ -5638,22 +5638,25 @@ addon.quests = {
     [3785] = { threat = "LOW", reason = "Cultivate Morrowgrain with the pouch, soil, and seeds, then deliver it in Darnassus. No combat is required if you already have the materials.", confidence = "medium" },
 
     -- Morrowgrain Research (Horde - Thunder Bluff)
-    [3786] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mobs in Un'Goro.", confidence = "medium" },
+    [3786] = { threat = "MEDIUM", reason = "Un'Goro Soil is obtained in the crater, where hostile wildlife can turn gathering into combat. Bring the materials beforehand or collect them away from dense camps.", confidence = "medium" },
 
     -- Jonespyre's Request (Speak with Quintis)
-    [3787] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3787] = { threat = "LOW", reason = "This is a city-to-city dialogue step with no quest combat. Use the established road to Feathermoon and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Jonespyre's Request (Speak with Quintis - Feralas)
-    [3788] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3788] = { threat = "LOW", reason = "This is a city-to-city dialogue step with no quest combat. Use the established road to Feathermoon and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Assisting Arch Druid Staghelm (Speak with Fandral)
-    [3789] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3789] = { threat = "LOW", reason = "Speak with Fandral in Darnassus; this city step adds no combat.", confidence = "medium" },
 
     -- Assisting Arch Druid Staghelm (Speak with Fandral)
-    [3790] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3790] = { threat = "LOW", reason = "Speak with Fandral in Darnassus; this city step adds no combat.", confidence = "medium" },
 
     -- The Mystery of Morrowgrain
-    [3791] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The Morrowgrain is cultivated using the Evergreen Pouch. Safe if you stay in the stronghold.", confidence = "high" },
+    [3791] = { threat = "LOW", reason = "This is a Morrowgrain hand-in at Feathermoon Stronghold; the turn-in itself adds no combat.", confidence = "medium" },
+
+    -- Morrowgrain to Feathermoon Stronghold
+    [3792] = { threat = "LOW", reason = "Repeatable hand-in of five Morrowgrain at Feathermoon Stronghold; no quest combat is required.", confidence = "medium" },
 
     -- Dark Iron Legacy (Speak with Franclorn)
     [3801] = { threat = "LOW", reason = "This is a dialogue step with no combat. You must be dead (in ghost form) to see Franclorn, who is inside Blackrock Depths. This quest is the prerequisite for the BRD key chain. Safe if you stay in the area.", confidence = "high" },
@@ -5661,68 +5664,71 @@ addon.quests = {
     -- Dark Iron Legacy (Kill Fineous)
     [3802] = { threat = "HIGH", reason = "Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright. Fineous is a level 52 elite in Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
+    -- Morrowgrain to Darnassus
+    [3803] = { threat = "LOW", reason = "Repeatable hand-in of ten Morrowgrain in Darnassus; no quest combat is required.", confidence = "medium" },
+
     -- Morrowgrain to Thunder Bluff (Horde - Thunder Bluff)
-    [3804] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3804] = { threat = "LOW", reason = "This is a Morrowgrain hand-in in Thunder Bluff; the turn-in adds no combat.", confidence = "medium" },
 
     -- Dreadmaul Rock (Horde - Burning Steppes)
-    [3821] = { threat = "MEDIUM", reason = "The journey to Dreadmaul Rock is dangerous: the Burning Steppes is a level 50-58 zone patrolled by elite dragons, ogres, and blackrock orcs. Sha'ni's remains are on an altar at the top of Dreadmaul Rock (79, 45). The path up is narrow and patrolled by Firegut ogres. Do not attempt below level 50 without a group.", confidence = "high" },
+    [3821] = { threat = "MEDIUM", reason = "Hostile ogres and other creatures occupy Dreadmaul Rock, where Sha'ni's remains are on the summit. Approach from an open route and avoid drawing nearby camps.", confidence = "medium" },
 
     -- Krom'Grul (Horde - Burning Steppes)
-    [3822] = { threat = "HIGH", reason = "Krom'Grul has multiple spawn points across at least two caves in Dreadmaul Rock. The caves are packed with level 50-55 Firegut ogres that respawn quickly (around 15 minutes). A level 60 frost mage described the larger cave as 'tedious but cake' to solo, but a level 51 mage reported spending 'the next HOUR fighting for survival in there, enduring wave after wave of repops.' Finding Krom'Grul is harder than killing him. Do not attempt below level 52 without a group. Bring a group of 2-3 to clear the caves efficiently.", confidence = "high" },
+    [3822] = { threat = "MEDIUM", reason = "Krom'Grul is somewhere among the caves and mines at Dreadmaul Rock, so searching can lead into hostile ogre camps and multiple pulls. Pull enemies out of cave entrances and leave if respawns close the route.", confidence = "medium" },
 
     -- Extinguish the Firegut
-    [3823] = { threat = "MEDIUM", reason = "The ogres are levels 50-54 and are packed around Dreadmaul Rock. They share spawns, so if you kill ogres, brutes and mages will respawn. The Brutes have a knockback that can throw you off the mountain. A level 49 shadow priest soloed this, but warned that it is easy to draw multiple ogres in the caves. Do not attempt below level 50 solo without a plan to avoid the caves and the knockbacks.", confidence = "high" },
+    [3823] = { threat = "MEDIUM", reason = "Firegut ogres and mages occupy the Dreadmaul Rock area, and collecting all three kill counts requires several pulls. Fight on open ground and watch for nearby enemies joining.", confidence = "medium" },
 
     -- Gor'tesh the Brute Lord
-    [3824] = { threat = "HIGH", reason = "Kill Gor'tesh and take his Lopped Off Head back to Oralius in the Burning Steppes. Gor'tesh is a level 53 named ogre who hits like an elite, with a warlock guard that hits for 400+ fire damage. A level 53 druid died twice trying to solo this. A level 52 fire mage soloed him by nuking him from range, grabbing the loot, and running. A level 52 druid soloed him by rooting Gor'tesh, killing the add, then running until aggro dropped. Do not attempt below level 52 solo without a plan to separate Gor'tesh from his guard and escape.", confidence = "high" },
+    [3824] = { threat = "HIGH", reason = "Gor'tesh is in a hostile ogre camp west of Dreadmaul Rock, where nearby guards can complicate the fight. Separate him from the camp before engaging and have an escape route.", confidence = "medium" },
 
     -- Ogre Head On A Stick = Party
-    [3825] = { threat = "MEDIUM", reason = "Look for a soft dirt mound to plant the pike. The mound is at approximately 82, 47 on top of Dreadmaul Rock, guarded by two level 52-53 ogres. You must fight or avoid them to plant the head. The climb to the top is patrolled by ogres and elementals. Do not attempt below level 52 solo without a plan to handle the guards at the mound.", confidence = "high" },
+    [3825] = { threat = "MEDIUM", reason = "The planting spot is on Dreadmaul Rock summit, reached through hostile ogre territory. Clear or avoid the nearby guards before stopping to plant the head.", confidence = "medium" },
 
     -- An Orphan Looking For a Home
-    [3841] = { threat = "LOW", reason = "This is a dialogue step for the Sprite Darter quest chain. No combat required. Safe if you stay in the area.", confidence = "high" },
+    [3841] = { threat = "LOW", reason = "This is a dialogue step with Quentin in Thousand Needles; it adds no quest combat.", confidence = "medium" },
 
     -- A Short Incubation
-    [3842] = { threat = "LOW", reason = "The elixirs are purchased or crafted. No combat required. Safe if you stay in the area.", confidence = "high" },
+    [3842] = { threat = "LOW", reason = "Bring two Elixirs of Fortitude to Quentin; the delivery itself adds no combat.", confidence = "medium" },
 
     -- The Newest Member of the Family
-    [3843] = { threat = "MEDIUM", reason = "This is a timed delivery quest with no combat. The journey from Thousand Needles to the Hinterlands is long and dangerous for low-level players. You must reach Agnar within 1 hour or the quest fails. Do not attempt below level 45 solo without a plan for the journey.", confidence = "high" },
+    [3843] = { threat = "LOW", reason = "Timed quest (60 min). The objective is a long delivery to the Hinterlands, but it requires no combat; stay on established routes and avoid shortcuts through hostile camps.", confidence = "medium" },
 
     -- It's a Secret to Everybody (Clue)
-    [3844] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [3844] = { threat = "MEDIUM", reason = "The clue is underwater at the wrecked raft's pond in Un'Goro, amid hostile crater wildlife. Check the shoreline before diving and avoid fighting near the water.", confidence = "medium" },
 
     -- It's a Secret to Everybody (Deliver)
-    [3845] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3845] = { threat = "LOW", reason = "Examine the recovered pack and return its contents to Linken at Marshal’s Refuge; this delivery step adds no combat.", confidence = "medium" },
 
     -- CLUCK!
-    [3861] = { threat = "LOW", reason = "When you find it, /cheer at it before trying to give it the Special Chicken Feed. This is a quest with no combat. You must find a chicken in Westfall or Elwynn Forest, /cheer at it, and feed it. Safe if you avoid the mob camps.", confidence = "high" },
+    [3861] = { threat = "LOW", reason = "Find the feed, /cheer at the befriended chicken, and give it the feed; no combat is required by this quest step.", confidence = "medium" },
 
     -- Expedition Salvation
-    [3881] = { threat = "MEDIUM", reason = "The crate is in the northern part of the crater, guarded by level 50-54 mobs. The journey through Un'Goro is dangerous. Clear the area before looting and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [3881] = { threat = "MEDIUM", reason = "The food crate is at an abandoned camp, while the research equipment is in a separate area with many hostile creatures, including elites. Approach the research camp cautiously and avoid pulling several enemies at once.", confidence = "medium" },
 
     -- Roll the Bones
-    [3882] = { threat = "MEDIUM", reason = "The bones are found on the ground in the crater, not dropped from mobs. The crater is patrolled by level 50-54 dinosaurs and elementals. You can avoid most mobs by picking up bones from the ground and staying alert. Do not attempt below level 50 solo without a plan to avoid the mobs.", confidence = "medium" },
+    [3882] = { threat = "MEDIUM", reason = "Dinosaur Bones can be found on the ground and from creatures around Un'Goro; searching exposed ground near patrols can create dangerous pulls. Use ground piles where available and watch for nearby elites.", confidence = "medium" },
 
     -- Alien Ecology
-    [3883] = { threat = "HIGH", reason = "The hatcheries are filled with level 52-56 Gorishi silithid, including Swarmers that spawn dozens of minions. The chambers with hanging larval spawns are deep inside the hives. Clear methodically and watch for adds. Do not attempt below level 52 solo without a group.", confidence = "high" },
+    [3883] = { threat = "MEDIUM", reason = "Use the vial in a Gorishi hatchery's larval room; the hive contains hostile silithids and careless pulls can bring adds. Pull only what blocks the sample and avoid pushing deeper into the hive.", confidence = "medium" },
 
     -- Williden's Journal
-    [3884] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "high" },
+    [3884] = { threat = "LOW", reason = "Return the journal to Williden in Un'Goro; the hand-in adds no combat. Use the road and avoid nearby wildlife if crossing the crater.", confidence = "medium" },
 
     -- Rattling the Rattlecages (Horde - Deathknell)
-    [3901] = { threat = "LOW", reason = "The skeletons are level 2-3 and are neutral mobs. They are easy to kill solo, though on fresh servers there may be competition for spawns. A simple starter quest with minimal risk.", confidence = "high" },
+    [3901] = { threat = "LOW", reason = "Rattlecage Skeletons are hostile starter-area enemies, but this is ordinary low-level combat. Pull them one at a time and watch for nearby enemies.", confidence = "medium" },
 
     -- Scavenging Deathknell (Horde - Deathknell)
-    [3902] = { threat = "LOW", reason = "The goods are in stacks of boxes around the starting area. No combat required. A simple starter quest with minimal risk.", confidence = "high" },
+    [3902] = { threat = "LOW", reason = "The goods are scattered around Deathknell; nearby starter-area enemies can aggro while you search. Loot the crates between pulls rather than running through hostile mobs.", confidence = "medium" },
 
     -- Milly Osworth
-    [3903] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3903] = { threat = "LOW", reason = "Speak with Milly at Northshire Abbey; this dialogue step adds no combat.", confidence = "medium" },
 
     -- Milly's Harvest
-    [3904] = { threat = "LOW", reason = "The crates are in the vineyards, guarded by level 3-5 Defias mobs. Manageable solo for a level 4+ character.", confidence = "high" },
+    [3904] = { threat = "LOW", reason = "Collect the harvest crates in the Northshire vineyards; low-level Defias may aggro nearby. Pull them one at a time if they block a crate.", confidence = "medium" },
 
     -- Grape Manifest
-    [3905] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3905] = { threat = "LOW", reason = "Deliver the Grape Manifest to Brother Neals at Northshire Abbey; no quest combat is required.", confidence = "medium" },
 
     -- Disharmony of Flame (Horde - Undercity)
     [3906] = { threat = "MEDIUM", reason = "The quest leads into dangerous territory with hostile mobs. Clear the area before engaging and watch for patrolling mobs. Do not attempt below the recommended level.", confidence = "medium" },
@@ -5731,43 +5737,43 @@ addon.quests = {
     [3907] = { threat = "MEDIUM", reason = "The quest leads into dangerous territory with hostile mobs. Clear the area before engaging and watch for patrolling mobs. Do not attempt below the recommended level.", confidence = "medium" },
 
     -- It's a Secret to Everybody (Winterspring)
-    [3908] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Winterspring is dangerous for low-level players, but the quest itself is safe. Do not attempt below level 50 solo.", confidence = "high" },
+    [3908] = { threat = "LOW", reason = "Take Linken’s Sword to Donova in Winterspring; this delivery adds no combat. Stay on the road and avoid nearby wildlife when leaving the settled route.", confidence = "medium" },
 
     -- The Videre Elixir
-    [3909] = { threat = "MEDIUM", reason = "The journey to Feralas is dangerous, and Gregan is in a remote area patrolled by level 45-50 mobs. The quest itself is a dialogue step with no combat. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3909] = { threat = "MEDIUM", reason = "Gregan is in northern Feralas, so reaching him can mean a long trip through hostile territory. Keep to roads and avoid detours through camps; the dialogue itself adds no combat.", confidence = "medium" },
 
     -- Meet at the Grave
-    [3912] = { threat = "EXTREME", reason = "This elixir kills you instantly with no warning, no timer, and no counterplay [citation:1]. In Hardcore, this means permanent character deletion. There is no way to survive this quest. Do not accept this quest on Hardcore. Skip entirely.", confidence = "high" },
+    [3912] = { threat = "MEDIUM", reason = "The official Hardcore version of Videre Elixir leaves the character at critically low health rather than requiring permanent death. Heal before moving on to Gaeriyan, since nearby damage could still be fatal.", confidence = "medium" },
 
     -- A Grave Situation
-    [3913] = { threat = "EXTREME", reason = "This quest requires you to have completed Meet at the Grave [3912], which means you must die first. In Hardcore, death is permanent. This quest is impossible to complete on Hardcore. Do not accept this quest.", confidence = "high" },
+    [3913] = { threat = "LOW", reason = "On official Hardcore realms, the death prerequisite is replaced with an alternate completion. After speaking with Gaeriyan, the gravestone interaction itself requires no combat.", confidence = "medium" },
 
     -- Linken's Sword
-    [3914] = { threat = "MEDIUM", reason = "The journey to Un'Goro Crater is dangerous for low-level players, as the crater is patrolled by level 48-55 dinosaurs and elementals. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3914] = { threat = "LOW", reason = "Deliver Linken's Superior Sword to Linken in Marshal's Refuge; this hand-in adds no combat.", confidence = "medium" },
 
     -- Wenikee Boltbucket (Horde - Barrens)
-    [3921] = { threat = "LOW", reason = "Travel step with no combat. You can talk to Brak to teleport directly to her.", confidence = "high" },
+    [3921] = { threat = "LOW", reason = "Deliver the Broken Samophlange to Wenikee Boltbucket; no quest combat is required. Use the roads and avoid hostile camps along the route.", confidence = "medium" },
 
     -- Nugget Slugs (Horde - Barrens)
-    [3922] = { threat = "MEDIUM", reason = "The buckets are guarded by level 14-18 Venture Co. mobs, including enforcers and overseers. The mobs are packed in the area and can chain-pull. The Sludge Fen also has a rogue poison quest on a nearby hill, so expect competition. Do not attempt below level 14 solo.", confidence = "high" },
+    [3922] = { threat = "MEDIUM", reason = "Tool buckets sit around Venture Co. structures in the Sludge Fen, where enemies can aggro or run for help. Collect from the perimeter and avoid entering the tower unless necessary.", confidence = "medium" },
 
     -- Rilli Greasygob (Horde - Ratchet)
-    [3923] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3923] = { threat = "LOW", reason = "Deliver the repaired Samophlange to Rilli in Orgrimmar; this city hand-in adds no combat.", confidence = "medium" },
 
     -- Samophlange Manual (Horde - Barrens)
-    [3924] = { threat = "HIGH", reason = "The mine is packed with level 15-18 Venture Co. mobs that are spaced 2-3 yards apart, meaning you will chain-pull constantly. Patrols roam the mine, and mobs respawn in about 30 seconds. A level 19 rogue stealthed through, sapped the boss, and killed him easily. A level 17 warrior soloed it but noted it was 'a bit tough.' A level 15 player died 'five or six times' trying. Do not attempt below level 17 without a group or stealth.", confidence = "high" },
+    [3924] = { threat = "MEDIUM", reason = "The missing pages and manual cover come from enemies around and inside Boulder Lode Mine, with Boss Copperplug deeper in the cave. Pull carefully, watch for patrols and respawns, and keep an exit route.", confidence = "medium" },
 
     -- A Gnome's Assistance
-    [3941] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Un'Goro Crater is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3941] = { threat = "LOW", reason = "Find J.D. Collie in the cave at Marshal's Refuge; the cave conversation adds no combat.", confidence = "medium" },
 
     -- Linken's Memory
-    [3942] = { threat = "MEDIUM", reason = "The journey to Felwood is dangerous for low-level players, as the zone is patrolled by level 48-55 corrupted mobs. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3942] = { threat = "MEDIUM", reason = "Eridan is in southern Felwood, a hostile zone with dangerous creatures along the approach. Stay on the road and avoid corrupted camps; the dialogue itself adds no combat.", confidence = "medium" },
 
     -- Linken's Adventure
-    [3961] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Un'Goro Crater is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3961] = { threat = "LOW", reason = "Deliver the Silver Totem of Aquementas to Linken at Marshal's Refuge; the hand-in itself adds no combat.", confidence = "medium" },
 
     -- It's Dangerous to Go Alone
-    [3962] = { threat = "EXTREME", reason = "Blazerunner is a level 58 elite elemental who hits extremely hard and has a knockback [citation:3]. The quest text itself warns 'You will want to bring others with you -- it's dangerous to go alone' [citation:2][citation:11]. A level 61 paladin died twice trying to solo this [citation:10]. A level 54 warlock soloed it but needed to sacrifice their Voidwalker and use healthstones [citation:10]. Do not attempt solo at the intended level. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [3962] = { threat = "EXTREME", reason = "Elite quest. Blazerunner is a level 56 elite, and the quest itself advises bringing others; removing his aura and looting the cave does not make the solo fight reasonable at the intended level. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Commander Gor'shak (Horde - Blackrock Depths)
     [3981] = { threat = "HIGH", reason = "BRD is a level 52-60 dungeon filled with elite Dark Iron dwarves, fire elementals, and powerful bosses. The dungeon is massive and requires a full group of 5 at level 55+. Gor'shak is deep inside the prison section. Do not attempt solo.", confidence = "high" },

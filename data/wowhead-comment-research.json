@@ -49756,6 +49756,1288 @@
       "reason": "Cultivate Morrowgrain with the pouch, soil, and seeds, then deliver it in Darnassus. No combat is required if you already have the materials.",
       "threat": "LOW",
       "confidence": "medium"
+    },
+    {
+      "questId": 3786,
+      "questName": "Morrowgrain Research",
+      "url": "https://www.wowhead.com/classic/quest=3786",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Morrowgrain Research - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/wotlk/quest=3786/morrowgrain-research",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest text confirms pouch, seeds, and two Un'Goro Soil samples are used to cultivate Morrowgrain; WotLK Classic page is used only for stable quest mechanics."
+        },
+        {
+          "title": "Morrowgrain to Darnassus - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3803/morrowgrain-to-darnassus",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Classic comment describes Un'Goro Soil collection from ground and Gorishi creatures; gathering can expose the player to crater wildlife."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog requires Un'Goro Soil and Morrowgrain; Classic quest material confirms how the pouch uses the soil, and Era comments describe gathering soil in the crater. The danger rating reflects travel and hostile wildlife, while materials can be obtained beforehand; confidence is medium because the farming risk varies with route and source comments are anecdotal.",
+      "reason": "Un'Goro Soil is obtained in the crater, where hostile wildlife can turn gathering into combat. Bring the materials beforehand or collect them away from dense camps.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3787,
+      "questName": "Jonespyre's Request",
+      "url": "https://www.wowhead.com/classic/quest=3787",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is only to speak with Quintis in Feathermoon Stronghold. The old fixed level threshold was unsupported; confidence is medium from clear objective context and known route risk.",
+      "reason": "This is a city-to-city dialogue step with no quest combat. Use the established road to Feathermoon and avoid hostile camps along the way.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3788,
+      "questName": "Jonespyre's Request",
+      "url": "https://www.wowhead.com/classic/quest=3788",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is only to speak with Quintis in Feathermoon Stronghold. The old fixed level threshold was unsupported; confidence is medium from clear objective context and known route risk.",
+      "reason": "This is a city-to-city dialogue step with no quest combat. Use the established road to Feathermoon and avoid hostile camps along the way.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3789,
+      "questName": "Assisting Arch Druid Staghelm",
+      "url": "https://www.wowhead.com/classic/quest=3789",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog places the dialogue objective in Darnassus, so the ordinary risk is low. Confidence is medium because this was assessed from local quest context without external corroboration.",
+      "reason": "Speak with Fandral in Darnassus; this city step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3790,
+      "questName": "Assisting Arch Druid Staghelm",
+      "url": "https://www.wowhead.com/classic/quest=3790",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog places the dialogue objective in Darnassus, so the ordinary risk is low. Confidence is medium because this was assessed from local quest context without external corroboration.",
+      "reason": "Speak with Fandral in Darnassus; this city step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3791,
+      "questName": "The Mystery of Morrowgrain",
+      "url": "https://www.wowhead.com/classic/quest=3791",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a simple delivery to Quintis in the stronghold. Confidence is medium because the turn-in is clear but not independently corroborated.",
+      "reason": "This is a Morrowgrain hand-in at Feathermoon Stronghold; the turn-in itself adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3792,
+      "questName": "Morrowgrain to Feathermoon Stronghold",
+      "url": "https://www.wowhead.com/classic/quest=3792",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Morrowgrain to Feathermoon Stronghold - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3792/morrowgrain-to-feathermoon-stronghold",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest objective and completion text confirm a repeatable five-Morrowgrain turn-in at Quintis in Feathermoon Stronghold."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest data confirms this repeatable five-Morrowgrain hand-in starts and ends at Quintis in Feathermoon. No objective combat is involved; confidence is medium because the rating follows the explicit turn-in objective.",
+      "reason": "Repeatable hand-in of five Morrowgrain at Feathermoon Stronghold; no quest combat is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3801,
+      "questName": "Dark Iron Legacy",
+      "url": "https://www.wowhead.com/classic/quest=3801",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:46:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
+    },
+    {
+      "questId": 3802,
+      "questName": "Dark Iron Legacy",
+      "url": "https://www.wowhead.com/classic/quest=3802",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:46:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
+    },
+    {
+      "questId": 3803,
+      "questName": "Morrowgrain to Darnassus",
+      "url": "https://www.wowhead.com/classic/quest=3803",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Morrowgrain to Darnassus - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3803/morrowgrain-to-darnassus",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest objective and completion text confirm a repeatable ten-Morrowgrain turn-in in Darnassus."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest data confirms this repeatable ten-Morrowgrain hand-in starts and ends in Darnassus. No objective combat is involved; confidence is medium because the rating follows the explicit turn-in objective.",
+      "reason": "Repeatable hand-in of ten Morrowgrain in Darnassus; no quest combat is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3804,
+      "questName": "Morrowgrain to Thunder Bluff",
+      "url": "https://www.wowhead.com/classic/quest=3804",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest is a city delivery step. Confidence is medium because its routine objective is clear but no independent source was consulted.",
+      "reason": "This is a Morrowgrain hand-in in Thunder Bluff; the turn-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3821,
+      "questName": "Dreadmaul Rock",
+      "url": "https://www.wowhead.com/classic/quest=3821",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Sha'ni Proudtusk's Remains - Object",
+          "url": "https://www.wowhead.com/object=160445/shani-proudtusks-remains",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Classic object page places the remains at the top of Dreadmaul Rock; it does not establish exact patrol composition or a safe route."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic object record places Sha'ni's remains on the summit of Dreadmaul Rock; hostile-zone risk and the need to reach the summit are assessed from known area context. Confidence is medium because the location is sourced but the route's current patrol pattern is not independently established.",
+      "reason": "Hostile ogres and other creatures occupy Dreadmaul Rock, where Sha'ni's remains are on the summit. Approach from an open route and avoid drawing nearby camps.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3822,
+      "questName": "Krom'Grul",
+      "url": "https://www.wowhead.com/classic/quest=3822",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Krom'Grul - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3822/kromgrul",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest objective explicitly sends the player through various caves and mines in Dreadmaul Rock to find Krom'Grul."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog and Classic quest page say to search multiple caves and mines for Krom'Grul. Hostile pulls are expected from the Firegut area; exact spawn counts, respawn timers, and fixed solo level cutoffs in the prior warning were unsupported. Confidence is medium with limited page evidence and known local hazards.",
+      "reason": "Krom'Grul is somewhere among the caves and mines at Dreadmaul Rock, so searching can lead into hostile ogre camps and multiple pulls. Pull enemies out of cave entrances and leave if respawns close the route.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3823,
+      "questName": "Extinguish the Firegut",
+      "url": "https://www.wowhead.com/classic/quest=3823",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Extinguish the Firegut - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3823/extinguish-the-firegut",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest page confirms 29 Firegut kills; comments describe dense camp/cave pulls and class-specific solo experiences."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest material confirms three Firegut enemy objectives in the Dreadmaul Rock area; Era comments describe the camp and warn that cave pulls can add enemies. Removed unsupported shared-spawn, fixed level, and knockback-to-fall claims. Confidence is medium because the danger is clear but reports vary by route and class.",
+      "reason": "Firegut ogres and mages occupy the Dreadmaul Rock area, and collecting all three kill counts requires several pulls. Fight on open ground and watch for nearby enemies joining.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3824,
+      "questName": "Gor'tesh the Brute Lord",
+      "url": "https://www.wowhead.com/classic/quest=3824",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Gor'tesh the Brute Lord - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3824/gortesh-the-brute-lord",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest page locates Gor'tesh west of Dreadmaul Rock; comments report guards and a hard encounter, with variable solo success."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms Gor'tesh's location west of Dreadmaul Rock and comments describe a difficult guarded encounter with mixed solo outcomes. The unsupported exact fire-damage figure and class-specific anecdotes were removed. Confidence is medium because the challenge is supported but solo viability depends on pulls and class.",
+      "reason": "Gor'tesh is in a hostile ogre camp west of Dreadmaul Rock, where nearby guards can complicate the fight. Separate him from the camp before engaging and have an escape route.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3825,
+      "questName": "Ogre Head On A Stick = Party",
+      "url": "https://www.wowhead.com/classic/quest=3825",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Ogre Head On A Stick = Party - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3825/ogre-head-on-a-stick-party",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest description requires planting the head at the summit; comments describe hostile ogres and elemental hazards along approaches."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest page confirms the summit planting objective; Era comments describe routes with hostile ogres and an elemental. Removed unsupported exact coordinate, guard count, and fixed level cutoff. Confidence is medium because route hazards are supported by comments but approach varies.",
+      "reason": "The planting spot is on Dreadmaul Rock summit, reached through hostile ogre territory. Clear or avoid the nearby guards before stopping to plant the head.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3841,
+      "questName": "An Orphan Looking For a Home",
+      "url": "https://www.wowhead.com/classic/quest=3841",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective is a conversation in Thousand Needles. Confidence is medium because the local step is clear but not independently sourced.",
+      "reason": "This is a dialogue step with Quentin in Thousand Needles; it adds no quest combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3842,
+      "questName": "A Short Incubation",
+      "url": "https://www.wowhead.com/classic/quest=3842",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a simple item hand-in at Quentin. Confidence is medium because no unusual danger is indicated and no external lookup was needed.",
+      "reason": "Bring two Elixirs of Fortitude to Quentin; the delivery itself adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3843,
+      "questName": "The Newest Member of the Family",
+      "url": "https://www.wowhead.com/classic/quest=3843",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Newest Member of the Family - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3843/the-newest-member-of-the-family",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest text explicitly gives one hour to deliver the egg to Agnar in the Hinterlands."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog and Classic quest page both verify a one-hour delivery timer. Route danger is based on known zone travel; the generous timer does not itself require risky movement. Confidence is medium because the timer is sourced while route risk is not independently mapped.",
+      "reason": "Timed quest (60 min). The objective is a long delivery to the Hinterlands, but it requires no combat; stay on established routes and avoid shortcuts through hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3844,
+      "questName": "It's a Secret to Everybody",
+      "url": "https://www.wowhead.com/classic/quest=3844",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "It's a Secret to Everybody - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3844/its-a-secret-to-everybody",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest page and comments locate the clue at the wrecked raft pond in Un'Goro and describe the submerged pack area."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest material places the clue underwater by a pond in Un'Goro; comments and area context indicate nearby wildlife. This is more than a safe road delivery, so the rating rises to medium. Confidence is medium because the source confirms location but not a fixed mob pattern.",
+      "reason": "The clue is underwater at the wrecked raft's pond in Un'Goro, amid hostile crater wildlife. Check the shoreline before diving and avoid fighting near the water.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3845,
+      "questName": "It's a Secret to Everybody",
+      "url": "https://www.wowhead.com/classic/quest=3845",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "It's a Secret to Everybody - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3845/its-a-secret-to-everybody",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest objective is to examine the pack contents and return them to their owner; the retrieval is a prior quest step."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest data confirms this step uses the recovered pack and returns the items to Linken. Any wildlife risk belongs to retrieving the pack in the preceding step, so this hand-in stays low. Confidence is medium.",
+      "reason": "Examine the recovered pack and return its contents to Linken at Marshal’s Refuge; this delivery step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3861,
+      "questName": "CLUCK!",
+      "url": "https://www.wowhead.com/classic/quest=3861",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "CLUCK! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3861/cluck",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest objective requires Special Chicken Feed and /cheer; comments identify vendor feed and the interaction rather than combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest material confirms the feed-and-emote objective; comments identify feed sources. The former Westfall/Elwynn restriction was too narrow. Confidence is medium because the no-combat interaction is clear but locations can vary by faction.",
+      "reason": "Find the feed, /cheer at the befriended chicken, and give it the feed; no combat is required by this quest step.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3881,
+      "questName": "Expedition Salvation",
+      "url": "https://www.wowhead.com/classic/quest=3881",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted Classic quest/NPC material was read; 4 comments were sampled, 2 used. Comment ordering was not verified.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=3881#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Expedition Salvation - Quest - Classic PTR",
+          "url": "https://www.wowhead.com/classic-ptr/quest=3881/expedition-salvation",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Classic PTR comments distinguish the easy food cache from research equipment in an elite-heavy camp; reports include a level 48 hunter and a level 51 druid using class tools."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic PTR quest comments confirm the two abandoned camps are separate and report the research-equipment camp is heavily occupied, while the food cache is easier to reach. The old single northern-crate description was wrong. Confidence is medium because comments are firsthand but anecdotal and partly class-dependent.",
+      "reason": "The food crate is at an abandoned camp, while the research equipment is in a separate area with many hostile creatures, including elites. Approach the research camp cautiously and avoid pulling several enemies at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3882,
+      "questName": "Roll the Bones",
+      "url": "https://www.wowhead.com/classic/quest=3882",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Roll the Bones - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3882/roll-the-bones",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest page confirms the bone collection; comments describe both ground piles and creature drops in the crater."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments correct the prior claim that bones are only ground objects: they can also drop from creatures. The crater's hostile wildlife remains the primary hazard. Confidence is medium because this source resolves the collection method but does not quantify patrol risk.",
+      "reason": "Dinosaur Bones can be found on the ground and from creatures around Un'Goro; searching exposed ground near patrols can create dangerous pulls. Use ground piles where available and watch for nearby elites.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3883,
+      "questName": "Alien Ecology",
+      "url": "https://www.wowhead.com/classic/quest=3883",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Alien Ecology - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3883/alien-ecology",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Classic quest comments describe the first larval room and a small number of nearby Gorishi, contradicting the prior unsupported minion claim."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments place the vial objective in the first larval room and describe a few nearby level-appropriate mobs. The former claim that Swarmers spawn dozens of minions was unsupported and removed. Confidence is medium because the objective location is sourced but pull conditions vary.",
+      "reason": "Use the vial in a Gorishi hatchery's larval room; the hive contains hostile silithids and careless pulls can bring adds. Pull only what blocks the sample and avoid pushing deeper into the hive.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3884,
+      "questName": "Williden's Journal",
+      "url": "https://www.wowhead.com/classic/quest=3884",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective is a delivery in Un’Goro. Confidence is medium because the step is simple while the approach route is not separately researched.",
+      "reason": "Return the journal to Williden in Un'Goro; the hand-in adds no combat. Use the road and avoid nearby wildlife if crossing the crater.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3901,
+      "questName": "Rattling the Rattlecages",
+      "url": "https://www.wowhead.com/classic/quest=3901",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog requires killing 12 skeletons in Deathknell. The previous description incorrectly called them neutral; hostile starter-area mobs pose only ordinary low-level risk. Confidence is medium based on clear local context.",
+      "reason": "Rattlecage Skeletons are hostile starter-area enemies, but this is ordinary low-level combat. Pull them one at a time and watch for nearby enemies.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3902,
+      "questName": "Scavenging Deathknell",
+      "url": "https://www.wowhead.com/classic/quest=3902",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog confirms a collection objective around the starter area. Confidence is medium; nearby aggro is standard local risk and no special mechanic is claimed.",
+      "reason": "The goods are scattered around Deathknell; nearby starter-area enemies can aggro while you search. Loot the crates between pulls rather than running through hostile mobs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3903,
+      "questName": "Milly Osworth",
+      "url": "https://www.wowhead.com/classic/quest=3903",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a simple conversation in the abbey. Confidence is medium because the safe city context is clear but not independently corroborated.",
+      "reason": "Speak with Milly at Northshire Abbey; this dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3904,
+      "questName": "Milly's Harvest",
+      "url": "https://www.wowhead.com/classic/quest=3904",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective is crate collection in the starter zone. The existing level-specific claim was unnecessary; confidence is medium from local context and known low-level area behavior.",
+      "reason": "Collect the harvest crates in the Northshire vineyards; low-level Defias may aggro nearby. Pull them one at a time if they block a crate.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3905,
+      "questName": "Grape Manifest",
+      "url": "https://www.wowhead.com/classic/quest=3905",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a city delivery step. Confidence is medium because the objective is unambiguous and no external lookup was needed.",
+      "reason": "Deliver the Grape Manifest to Brother Neals at Northshire Abbey; no quest combat is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3906,
+      "questName": "Disharmony of Flame",
+      "url": "https://www.wowhead.com/classic/quest=3906",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:46:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
+    },
+    {
+      "questId": 3907,
+      "questName": "Disharmony of Fire",
+      "url": "https://www.wowhead.com/classic/quest=3907",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:46:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
+    },
+    {
+      "questId": 3908,
+      "questName": "It's a Secret to Everybody",
+      "url": "https://www.wowhead.com/classic/quest=3908",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is delivery to Donova in Winterspring. Removed the arbitrary minimum level; confidence is medium because only the route context, not exact threat, is inferred.",
+      "reason": "Take Linken’s Sword to Donova in Winterspring; this delivery adds no combat. Stay on the road and avoid nearby wildlife when leaving the settled route.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3909,
+      "questName": "The Videre Elixir",
+      "url": "https://www.wowhead.com/classic/quest=3909",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Videre Elixir - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3909/the-videre-elixir",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest page places Gregan in northern Feralas and describes obtaining the Videre Elixir; the interaction itself has no kill objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest data confirms the northern Feralas objective, and the Classic quest page confirms the elixir-gathering dialogue chain. The route risk is local knowledge rather than direct path evidence; confidence remains medium.",
+      "reason": "Gregan is in northern Feralas, so reaching him can mean a long trip through hostile territory. Keep to roads and avoid detours through camps; the dialogue itself adds no combat.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3912,
+      "questName": "Meet at the Grave",
+      "url": "https://www.wowhead.com/classic/quest=3912",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Rules of Engagement: Classic Hardcore is Coming to World of Warcraft",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23973734/rules-of-engagement-classic-hardcore-is-coming-to-world-of-warcraft",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Blizzard says quests requiring the player to die can be completed without demise on Hardcore realms."
+        },
+        {
+          "title": "Linken Questline and Similar Quests - WoW Classic Hardcore - World of Warcraft Forums",
+          "url": "https://us.forums.blizzard.com/en/wow/t/linken-questline-and-similar-quests/1621632",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Players discussing the official implementation report Videre leaves the character at 1% health; this is community evidence, not an official mechanic specification."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Blizzard’s Hardcore rules state that death-required quests receive alternatives, and player evidence for the official Videre step reports survival at 1 HP. The former instant-death/no-counterplay warning is false for official Hardcore. Confidence is medium because exact health and debuff details can vary by implementation/source.",
+      "reason": "The official Hardcore version of Videre Elixir leaves the character at critically low health rather than requiring permanent death. Heal before moving on to Gaeriyan, since nearby damage could still be fatal.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3913,
+      "questName": "A Grave Situation",
+      "url": "https://www.wowhead.com/classic/quest=3913",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Rules of Engagement: Classic Hardcore is Coming to World of Warcraft",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23973734/rules-of-engagement-classic-hardcore-is-coming-to-world-of-warcraft",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Blizzard states death-required quests and objectives may be completed without the player’s demise on Hardcore realms."
+        },
+        {
+          "title": "A Grave Situation - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3913/a-grave-situation",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest objective is to find the gravestone after Gaeriyan; comments describe the gravestone step after the spectral interaction."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Blizzard confirms Hardcore alternatives for quests requiring death, while the Classic quest objective and comments place the remaining step at a gravestone after speaking with Gaeriyan. The precise alternate trigger is inferred from the official general rule; confidence is medium.",
+      "reason": "On official Hardcore realms, the death prerequisite is replaced with an alternate completion. After speaking with Gaeriyan, the gravestone interaction itself requires no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3914,
+      "questName": "Linken's Sword",
+      "url": "https://www.wowhead.com/classic/quest=3914",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective is a delivery at Marshal’s Refuge. Threat is low for the step itself; confidence is medium because no external lookup was needed.",
+      "reason": "Deliver Linken's Superior Sword to Linken in Marshal's Refuge; this hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3921,
+      "questName": "Wenikee Boltbucket",
+      "url": "https://www.wowhead.com/classic/quest=3921",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a delivery to Wenikee Boltbucket. Confidence is medium from the clear objective and ordinary Barrens travel risk.",
+      "reason": "Deliver the Broken Samophlange to Wenikee Boltbucket; no quest combat is required. Use the roads and avoid hostile camps along the route.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3922,
+      "questName": "Nugget Slugs",
+      "url": "https://www.wowhead.com/classic/quest=3922",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted Classic quest/NPC material was read; 20 comments were sampled, 3 used. Comment ordering was not verified.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=3922#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Nugget Slugs - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3922/nugget-slugs",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest text confirms tool buckets in Sludge Fen; sampled comments describe perimeter collection, hostile Venture Co. mobs, runners, and occasional extra aggro."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms slugs come from Venture Company tool buckets; Era comments report perimeter buckets, nearby hostile workers, and occasional adds/runners. The old exact enemy-level and adjacent-quest claims were unnecessary. Confidence is medium because comment reports vary and are anecdotal.",
+      "reason": "Tool buckets sit around Venture Co. structures in the Sludge Fen, where enemies can aggro or run for help. Collect from the perimeter and avoid entering the tower unless necessary.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3923,
+      "questName": "Rilli Greasygob",
+      "url": "https://www.wowhead.com/classic/quest=3923",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective is a delivery in Orgrimmar. Confidence is medium because no unusual danger is present and the assessment uses local context.",
+      "reason": "Deliver the repaired Samophlange to Rilli in Orgrimmar; this city hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3924,
+      "questName": "Samophlange Manual",
+      "url": "https://www.wowhead.com/classic/quest=3924",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted Classic quest/NPC material was read; 1 comments were sampled, 1 used. Comment ordering was not verified.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=3924#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Samophlange Manual - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3924/samophlange-manual",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest page identifies Boss Copperplug and missing manual pages; historical Era reports describe cave patrols, respawns, adds, and solo outcomes near level 20."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest data confirms the pages/cover collection and Copperplug in the mine; Era comments report dense pulls, patrols, and respawns, alongside successful solo clears near level 20. This supports a cautious solo rating, not the prior unsupported exact spacing and respawn time. Confidence is medium because reports are class- and route-dependent.",
+      "reason": "The missing pages and manual cover come from enemies around and inside Boulder Lode Mine, with Boss Copperplug deeper in the cave. Pull carefully, watch for patrols and respawns, and keep an exit route.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3941,
+      "questName": "A Gnome's Assistance",
+      "url": "https://www.wowhead.com/classic/quest=3941",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is to find the NPC in the refuge cave. Confidence is medium because the target location is explicit and no external lookup was needed.",
+      "reason": "Find J.D. Collie in the cave at Marshal's Refuge; the cave conversation adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3942,
+      "questName": "Linken's Memory",
+      "url": "https://www.wowhead.com/classic/quest=3942",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog places the NPC in southern Felwood. Zone travel presents the material risk; removed unsupported precise level ranges. Confidence is medium from clear location context and known zone hazards.",
+      "reason": "Eridan is in southern Felwood, a hostile zone with dangerous creatures along the approach. Stay on the road and avoid corrupted camps; the dialogue itself adds no combat.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3961,
+      "questName": "Linken's Adventure",
+      "url": "https://www.wowhead.com/classic/quest=3961",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and current warning; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a delivery to Linken at Marshal’s Refuge. Confidence is medium because this is a routine hand-in with no unusual hazard.",
+      "reason": "Deliver the Silver Totem of Aquementas to Linken at Marshal's Refuge; the hand-in itself adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3962,
+      "questName": "It's Dangerous to Go Alone",
+      "url": "https://www.wowhead.com/classic/quest=3962",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:46:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest or NPC text was read; no comment sample was needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "It's Dangerous to Go Alone - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=3962/its-dangerous-to-go-alone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Quest text directly advises bringing others; objective requires defeating Blazerunner after removing his protective aura."
+        },
+        {
+          "title": "Blazerunner - NPC - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/forever/npc=9376/blazerunner",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:46:43+03:00",
+          "evidence": "Classic-era NPC data lists Blazerunner as level 56 Elite; source identifies it as added in patch 1.13.2."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text explicitly recommends bringing others, and the Classic NPC record identifies Blazerunner as a level 56 elite. Those specific Era facts support the group recommendation; confidence is medium because detailed solo viability reports were not reviewed.",
+      "reason": "Elite quest. Blazerunner is a level 56 elite, and the quest itself advises bringing others; removing his aura and looting the cave does not make the solo fight reasonable at the intended level. Bring a suitable group or skip on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3981,
+      "questName": "Commander Gor'shak",
+      "url": "https://www.wowhead.com/classic/quest=3981",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:46:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
+    },
+    {
+      "questId": 3982,
+      "questName": "What Is Going On?",
+      "url": "https://www.wowhead.com/classic/quest=3982",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:46:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
+    },
+    {
+      "questId": 4001,
+      "questName": "What Is Going On?",
+      "url": "https://www.wowhead.com/classic/quest=4001",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:46:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
+    },
+    {
+      "questId": 4002,
+      "questName": "The Eastern Kingdom",
+      "url": "https://www.wowhead.com/classic/quest=4002",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:46:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
     }
   ]
 }

@@ -2781,49 +2781,55 @@ local quests = {
     [3785] = { threat = "LOW", reason = "Cultivate Morrowgrain with the pouch, soil, and seeds, then deliver it in Darnassus. No combat is required if you already have the materials.", confidence = "medium" },
 
     -- Jonespyre's Request
-    [3787] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3787] = { threat = "LOW", reason = "This is a city-to-city dialogue step with no quest combat. Use the established road to Feathermoon and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Jonespyre's Request
-    [3788] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3788] = { threat = "LOW", reason = "This is a city-to-city dialogue step with no quest combat. Use the established road to Feathermoon and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Assisting Arch Druid Staghelm
-    [3789] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3789] = { threat = "LOW", reason = "Speak with Fandral in Darnassus; this city step adds no combat.", confidence = "medium" },
 
     -- Assisting Arch Druid Staghelm
-    [3790] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3790] = { threat = "LOW", reason = "Speak with Fandral in Darnassus; this city step adds no combat.", confidence = "medium" },
 
     -- The Mystery of Morrowgrain
-    [3791] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The Morrowgrain is cultivated using the Evergreen Pouch. Safe if you stay in the stronghold.", confidence = "high" },
+    [3791] = { threat = "LOW", reason = "This is a Morrowgrain hand-in at Feathermoon Stronghold; the turn-in itself adds no combat.", confidence = "medium" },
+
+    -- Morrowgrain to Feathermoon Stronghold
+    [3792] = { threat = "LOW", reason = "Repeatable hand-in of five Morrowgrain at Feathermoon Stronghold; no quest combat is required.", confidence = "medium" },
+
+    -- Morrowgrain to Darnassus
+    [3803] = { threat = "LOW", reason = "Repeatable hand-in of ten Morrowgrain in Darnassus; no quest combat is required.", confidence = "medium" },
 
     -- Extinguish the Firegut
-    [3823] = { threat = "MEDIUM", reason = "The ogres are levels 50-54 and are packed around Dreadmaul Rock. They share spawns, so if you kill ogres, brutes and mages will respawn. The Brutes have a knockback that can throw you off the mountain. A level 49 shadow priest soloed this, but warned that it is easy to draw multiple ogres in the caves. Do not attempt below level 50 solo without a plan to avoid the caves and the knockbacks.", confidence = "high" },
+    [3823] = { threat = "MEDIUM", reason = "Firegut ogres and mages occupy the Dreadmaul Rock area, and collecting all three kill counts requires several pulls. Fight on open ground and watch for nearby enemies joining.", confidence = "medium" },
 
     -- Gor'tesh the Brute Lord
-    [3824] = { threat = "HIGH", reason = "Kill Gor'tesh and take his Lopped Off Head back to Oralius in the Burning Steppes. Gor'tesh is a level 53 named ogre who hits like an elite, with a warlock guard that hits for 400+ fire damage. A level 53 druid died twice trying to solo this. A level 52 fire mage soloed him by nuking him from range, grabbing the loot, and running. A level 52 druid soloed him by rooting Gor'tesh, killing the add, then running until aggro dropped. Do not attempt below level 52 solo without a plan to separate Gor'tesh from his guard and escape.", confidence = "high" },
+    [3824] = { threat = "HIGH", reason = "Gor'tesh is in a hostile ogre camp west of Dreadmaul Rock, where nearby guards can complicate the fight. Separate him from the camp before engaging and have an escape route.", confidence = "medium" },
 
     -- Ogre Head On A Stick = Party
-    [3825] = { threat = "MEDIUM", reason = "Look for a soft dirt mound to plant the pike. The mound is at approximately 82, 47 on top of Dreadmaul Rock, guarded by two level 52-53 ogres. You must fight or avoid them to plant the head. The climb to the top is patrolled by ogres and elementals. Do not attempt below level 52 solo without a plan to handle the guards at the mound.", confidence = "high" },
+    [3825] = { threat = "MEDIUM", reason = "The planting spot is on Dreadmaul Rock summit, reached through hostile ogre territory. Clear or avoid the nearby guards before stopping to plant the head.", confidence = "medium" },
 
     -- An Orphan Looking For a Home
-    [3841] = { threat = "LOW", reason = "This is a dialogue step for the Sprite Darter quest chain. No combat required. Safe if you stay in the area.", confidence = "high" },
+    [3841] = { threat = "LOW", reason = "This is a dialogue step with Quentin in Thousand Needles; it adds no quest combat.", confidence = "medium" },
 
     -- A Short Incubation
-    [3842] = { threat = "LOW", reason = "The elixirs are purchased or crafted. No combat required. Safe if you stay in the area.", confidence = "high" },
+    [3842] = { threat = "LOW", reason = "Bring two Elixirs of Fortitude to Quentin; the delivery itself adds no combat.", confidence = "medium" },
 
     -- The Newest Member of the Family
-    [3843] = { threat = "MEDIUM", reason = "This is a timed delivery quest with no combat. The journey from Thousand Needles to the Hinterlands is long and dangerous for low-level players. You must reach Agnar within 1 hour or the quest fails. Do not attempt below level 45 solo without a plan for the journey.", confidence = "high" },
+    [3843] = { threat = "LOW", reason = "Timed quest (60 min). The objective is a long delivery to the Hinterlands, but it requires no combat; stay on established routes and avoid shortcuts through hostile camps.", confidence = "medium" },
 
     -- CLUCK!
-    [3861] = { threat = "LOW", reason = "When you find it, /cheer at it before trying to give it the Special Chicken Feed. This is a quest with no combat. You must find a chicken in Westfall or Elwynn Forest, /cheer at it, and feed it. Safe if you avoid the mob camps.", confidence = "high" },
+    [3861] = { threat = "LOW", reason = "Find the feed, /cheer at the befriended chicken, and give it the feed; no combat is required by this quest step.", confidence = "medium" },
 
     -- Milly Osworth
-    [3903] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [3903] = { threat = "LOW", reason = "Speak with Milly at Northshire Abbey; this dialogue step adds no combat.", confidence = "medium" },
 
     -- Milly's Harvest
-    [3904] = { threat = "LOW", reason = "The crates are in the vineyards, guarded by level 3-5 Defias mobs. Manageable solo for a level 4+ character.", confidence = "high" },
+    [3904] = { threat = "LOW", reason = "Collect the harvest crates in the Northshire vineyards; low-level Defias may aggro nearby. Pull them one at a time if they block a crate.", confidence = "medium" },
 
     -- Grape Manifest
-    [3905] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3905] = { threat = "LOW", reason = "Deliver the Grape Manifest to Brother Neals at Northshire Abbey; no quest combat is required.", confidence = "medium" },
 
     -- Cleansing Felwood
     [4101] = { threat = "MEDIUM", reason = "The Blood Amber drops from Warpwood elementals in the Irontree Caverns. The elementals are levels 48-52 and are packed in the caverns. The drop rate is 100% while the quest is active. Clear methodically and watch for respawns. Do not attempt below level 48 solo.", confidence = "high" },

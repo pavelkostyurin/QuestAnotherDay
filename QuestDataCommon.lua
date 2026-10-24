@@ -1026,49 +1026,49 @@ addon.quests = {
     [3802] = { threat = "HIGH", reason = "Take Ironfel to the Shrine of Thaurissan and place it on the statue of Franclorn Forgewright. Fineous is a level 52 elite in Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
     -- It's a Secret to Everybody
-    [3844] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [3844] = { threat = "MEDIUM", reason = "The clue is underwater at the wrecked raft's pond in Un'Goro, amid hostile crater wildlife. Check the shoreline before diving and avoid fighting near the water.", confidence = "medium" },
 
     -- It's a Secret to Everybody
-    [3845] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [3845] = { threat = "LOW", reason = "Examine the recovered pack and return its contents to Linken at Marshal’s Refuge; this delivery step adds no combat.", confidence = "medium" },
 
     -- Expedition Salvation
-    [3881] = { threat = "MEDIUM", reason = "The crate is in the northern part of the crater, guarded by level 50-54 mobs. The journey through Un'Goro is dangerous. Clear the area before looting and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [3881] = { threat = "MEDIUM", reason = "The food crate is at an abandoned camp, while the research equipment is in a separate area with many hostile creatures, including elites. Approach the research camp cautiously and avoid pulling several enemies at once.", confidence = "medium" },
 
     -- Roll the Bones
-    [3882] = { threat = "MEDIUM", reason = "The bones are found on the ground in the crater, not dropped from mobs. The crater is patrolled by level 50-54 dinosaurs and elementals. You can avoid most mobs by picking up bones from the ground and staying alert. Do not attempt below level 50 solo without a plan to avoid the mobs.", confidence = "medium" },
+    [3882] = { threat = "MEDIUM", reason = "Dinosaur Bones can be found on the ground and from creatures around Un'Goro; searching exposed ground near patrols can create dangerous pulls. Use ground piles where available and watch for nearby elites.", confidence = "medium" },
 
     -- Alien Ecology
-    [3883] = { threat = "HIGH", reason = "The hatcheries are filled with level 52-56 Gorishi silithid, including Swarmers that spawn dozens of minions. The chambers with hanging larval spawns are deep inside the hives. Clear methodically and watch for adds. Do not attempt below level 52 solo without a group.", confidence = "high" },
+    [3883] = { threat = "MEDIUM", reason = "Use the vial in a Gorishi hatchery's larval room; the hive contains hostile silithids and careless pulls can bring adds. Pull only what blocks the sample and avoid pushing deeper into the hive.", confidence = "medium" },
 
     -- Williden's Journal
-    [3884] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "high" },
+    [3884] = { threat = "LOW", reason = "Return the journal to Williden in Un'Goro; the hand-in adds no combat. Use the road and avoid nearby wildlife if crossing the crater.", confidence = "medium" },
 
     -- It's a Secret to Everybody
-    [3908] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Winterspring is dangerous for low-level players, but the quest itself is safe. Do not attempt below level 50 solo.", confidence = "high" },
+    [3908] = { threat = "LOW", reason = "Take Linken’s Sword to Donova in Winterspring; this delivery adds no combat. Stay on the road and avoid nearby wildlife when leaving the settled route.", confidence = "medium" },
 
     -- The Videre Elixir
-    [3909] = { threat = "MEDIUM", reason = "The journey to Feralas is dangerous, and Gregan is in a remote area patrolled by level 45-50 mobs. The quest itself is a dialogue step with no combat. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3909] = { threat = "MEDIUM", reason = "Gregan is in northern Feralas, so reaching him can mean a long trip through hostile territory. Keep to roads and avoid detours through camps; the dialogue itself adds no combat.", confidence = "medium" },
 
     -- Meet at the Grave
-    [3912] = { threat = "EXTREME", reason = "This elixir kills you instantly with no warning, no timer, and no counterplay [citation:1]. In Hardcore, this means permanent character deletion. There is no way to survive this quest. Do not accept this quest on Hardcore. Skip entirely.", confidence = "high" },
+    [3912] = { threat = "MEDIUM", reason = "The official Hardcore version of Videre Elixir leaves the character at critically low health rather than requiring permanent death. Heal before moving on to Gaeriyan, since nearby damage could still be fatal.", confidence = "medium" },
 
     -- A Grave Situation
-    [3913] = { threat = "EXTREME", reason = "This quest requires you to have completed Meet at the Grave [3912], which means you must die first. In Hardcore, death is permanent. This quest is impossible to complete on Hardcore. Do not accept this quest.", confidence = "high" },
+    [3913] = { threat = "LOW", reason = "On official Hardcore realms, the death prerequisite is replaced with an alternate completion. After speaking with Gaeriyan, the gravestone interaction itself requires no combat.", confidence = "medium" },
 
     -- Linken's Sword
-    [3914] = { threat = "MEDIUM", reason = "The journey to Un'Goro Crater is dangerous for low-level players, as the crater is patrolled by level 48-55 dinosaurs and elementals. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3914] = { threat = "LOW", reason = "Deliver Linken's Superior Sword to Linken in Marshal's Refuge; this hand-in adds no combat.", confidence = "medium" },
 
     -- A Gnome's Assistance
-    [3941] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Un'Goro Crater is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3941] = { threat = "LOW", reason = "Find J.D. Collie in the cave at Marshal's Refuge; the cave conversation adds no combat.", confidence = "medium" },
 
     -- Linken's Memory
-    [3942] = { threat = "MEDIUM", reason = "The journey to Felwood is dangerous for low-level players, as the zone is patrolled by level 48-55 corrupted mobs. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3942] = { threat = "MEDIUM", reason = "Eridan is in southern Felwood, a hostile zone with dangerous creatures along the approach. Stay on the road and avoid corrupted camps; the dialogue itself adds no combat.", confidence = "medium" },
 
     -- Linken's Adventure
-    [3961] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Un'Goro Crater is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3961] = { threat = "LOW", reason = "Deliver the Silver Totem of Aquementas to Linken at Marshal's Refuge; the hand-in itself adds no combat.", confidence = "medium" },
 
     -- It's Dangerous to Go Alone
-    [3962] = { threat = "EXTREME", reason = "Blazerunner is a level 58 elite elemental who hits extremely hard and has a knockback [citation:3]. The quest text itself warns 'You will want to bring others with you -- it's dangerous to go alone' [citation:2][citation:11]. A level 61 paladin died twice trying to solo this [citation:10]. A level 54 warlock soloed it but needed to sacrifice their Voidwalker and use healthstones [citation:10]. Do not attempt solo at the intended level. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [3962] = { threat = "EXTREME", reason = "Elite quest. Blazerunner is a level 56 elite, and the quest itself advises bringing others; removing his aura and looting the cave does not make the solo fight reasonable at the intended level. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Aquementas
     [4005] = { threat = "MEDIUM", reason = "Aquementas is a level 54 non-elite water elemental, but he hits hard and can punt you into the air [citation:4]. A level 51 druid was killed by him [citation:4]. A level 54 mage soloed this easily, and a level 49 warrior lost the fight but still got the totem because the quest completes when the battle ends or you die [citation:4]. The totem is created once Aquementas becomes hostile, so you can technically flee or die and still complete the quest. Do not attempt below level 50 solo without a plan to survive or escape.", confidence = "high" },
