@@ -11172,106 +11172,124 @@ addon.quests = {
     [9120] = { threat = "LOW", reason = "Delivery step with no combat. The phylactery is obtained from Kel'Thuzad in Naxxramas. Safe if you stay on the road.", confidence = "high" },
 
     -- The Dread Citadel - Naxxramas (Honored)
-    [9121] = { threat = "LOW", reason = "Attunement turn-in with no combat. Requires 5 Arcane Crystals, 2 Nexus Crystals, 1 Righteous Orb, 60 gold, and Honored reputation with Argent Dawn. Safe if you stay in the area.", confidence = "high" },
+    [9121] = { threat = "LOW", reason = "Naxxramas attunement is a Light’s Hope Chapel hand-in for reputation, gold, and tradeable materials. This step adds no combat; use the road through Eastern Plaguelands and avoid nearby hostiles.", confidence = "medium" },
 
     -- The Dread Citadel - Naxxramas (Revered)
-    [9122] = { threat = "LOW", reason = "Attunement turn-in with no combat. Requires 2 Arcane Crystals, 1 Nexus Crystal, 30 gold, and Revered reputation with Argent Dawn. Safe if you stay in the area.", confidence = "high" },
+    [9122] = { threat = "LOW", reason = "Revered Naxxramas attunement is a Light’s Hope Chapel hand-in for gold and tradeable materials. This step adds no combat; use the road through Eastern Plaguelands and avoid nearby hostiles.", confidence = "medium" },
 
     -- The Dread Citadel - Naxxramas (Exalted)
-    [9123] = { threat = "LOW", reason = "Attunement turn-in with no combat. Requires Exalted reputation with Argent Dawn. Free Arcane Cloaking. Safe if you stay in the area.", confidence = "high" },
+    [9123] = { threat = "LOW", reason = "Exalted Naxxramas attunement is a free Arcane Cloaking hand-in at Light’s Hope Chapel. This step adds no combat; use the road through Eastern Plaguelands and avoid nearby hostiles.", confidence = "medium" },
 
     -- Cryptstalker Armor Doesn't Make Itself...
-    [9124] = { threat = "EXTREME", reason = "Requires 30 Crypt Fiend Parts from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },
+    [9124] = { threat = "MEDIUM", reason = "Collect 30 Crypt Fiend Parts from level 53–60 undead. Repeated pulls around Terrorweb Tunnel or Terrordale can draw nearby mobs; farm open-world crypt fiends carefully or obtain the parts through trade. Naxxramas is not required.", confidence = "medium" },
 
     -- Bonescythe Digs
-    [9126] = { threat = "EXTREME", reason = "Requires 30 Bone Fragments from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },
+    -- Crypt Fiend Parts (9125)
+    [9125] = { threat = "MEDIUM", reason = "Collect 30 Crypt Fiend Parts from level 53–60 undead. Repeated pulls around Terrorweb Tunnel or Terrordale can draw nearby mobs; farm open-world crypt fiends carefully or obtain the parts through trade. Naxxramas is not required.", confidence = "medium" },
+
+    [9126] = { threat = "MEDIUM", reason = "Collect 30 Bone Fragments from skeletal undead in the Plaguelands. Repeated fights near dense undead camps can cause adds; pull isolated skeletons and avoid high-level patrols. Scholomance or Stratholme are optional sources, not required.", confidence = "medium" },
 
     -- The Elemental Equation
-    [9128] = { threat = "EXTREME", reason = "Requires 30 Core of Elements from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },
+    -- Bone Fragments (9127)
+    [9127] = { threat = "MEDIUM", reason = "Repeatable hand-in requiring 30 Bone Fragments from skeletal undead in the Plaguelands. Repeated fights near dense undead camps can cause adds; pull isolated skeletons and avoid high-level patrols. Dungeons are optional sources.", confidence = "medium" },
+
+    [9128] = { threat = "MEDIUM", reason = "Collect 30 Cores of Elements from high-level elementals in open zones such as Silithus, Felwood, Searing Gorge, and Burning Steppes. Repeated combat and nearby elemental packs can cause adds; pull carefully or obtain cores through trade.", confidence = "medium" },
 
     -- Binding the Dreadnaught
-    [9131] = { threat = "EXTREME", reason = "Requires 30 Dark Iron Scraps, which drop from Dark Iron dwarves inside Blackrock Depths, a level 52-60 dungeon filled with elites. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
+    -- Core of Elements (9129)
+    [9129] = { threat = "MEDIUM", reason = "Repeatable hand-in requiring 30 Cores of Elements from high-level elementals. Repeated combat around elemental camps can cause adds; pull isolated targets or obtain cores through trade. Dungeons are optional sources.", confidence = "medium" },
+
+    [9131] = { threat = "MEDIUM", reason = "Collect 30 Dark Iron Scraps from hostile humanoids in Searing Gorge or Burning Steppes. Repeated pulls around camps can bring patrols; farm lower-level open-world targets and avoid the Blackrock Mountain elites. Blackrock Depths is not required.", confidence = "medium" },
 
     -- Savage Flora
-    [9136] = { threat = "EXTREME", reason = "Requires 30 Savage Fronds, which drop from plant mobs inside Dire Maul's East wing, a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    -- Dark Iron Scraps (9132)
+    [9132] = { threat = "MEDIUM", reason = "Repeatable hand-in requiring 30 Dark Iron Scraps from hostile humanoids. Searing Gorge and Burning Steppes have open-world sources; farm lower-level targets and avoid Blackrock Mountain elites. Blackrock Depths is optional.", confidence = "medium" },
+
+    [9136] = { threat = "LOW", reason = "Collect 30 Savage Fronds from plant creatures in open zones such as Un’Goro Crater and Felwood. These are lower-level targets for a level-55 quest; avoid dense pulls, or obtain the fronds through trade. Dire Maul is optional.", confidence = "medium" },
 
     -- They Call Me "The Rooster"
-    [9141] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires an Argent Dawn Valor Token. Safe if you stay in the area.", confidence = "high" },
+    -- Savage Fronds (9137)
+    [9137] = { threat = "LOW", reason = "Repeatable hand-in requiring 30 Savage Fronds from plant creatures in open zones such as Un’Goro Crater and Felwood. These are lower-level targets for a level-55 quest; avoid dense pulls, or obtain the fronds through trade. Dungeons are optional.", confidence = "medium" },
+
+    [9141] = { threat = "LOW", reason = "Turn in an Argent Dawn Valor Token at Light’s Hope Chapel to receive a Craftsman’s Writ. The step itself is dialogue and has no combat objective.", confidence = "medium" },
 
     -- Under the Shadow
-    [9153] = { threat = "HIGH", reason = "Requires damaging a necropolis by defeating the Scourge around it, then returning 10 Necrotic Runes. The Scourge are level 58-60 elites that spawn in waves. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    -- Craftsman's Writ (9142)
+    [9142] = { threat = "LOW", reason = "Turn in the Valor Token to receive a sealed Craftsman’s Writ at Light’s Hope Chapel. The step itself has no combat objective.", confidence = "medium" },
+
+    [9153] = { threat = "MEDIUM", reason = "Collect 10 Necrotic Runes by fighting Scourge around an active invasion necropolis. Attackers can spawn around the ritual circles and add during repeated pulls; follow the active invasion marker and pull the perimeter mobs carefully. This does not require killing a Shadow of Doom.", confidence = "medium" },
 
     -- Light's Hope Chapel
-    [9154] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9154] = { threat = "LOW", reason = "Deliver the Call to Arms announcement to the Keeper of the Rolls at Light’s Hope Chapel. This is a travel and dialogue step with no combat objective; follow the road through Eastern Plaguelands and avoid hostile packs.", confidence = "medium" },
 
     -- Writ of Safe Passage
-    [9165] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9165] = { threat = "LOW", reason = "Deliver the signed Writ of Safe Passage to Dispatch Commander Metz at Light’s Hope Chapel. The escort occurs before this hand-in; this step adds no combat. Follow the road back through Eastern Plaguelands and avoid hostile packs.", confidence = "medium" },
 
     -- Craftsman's Writ - Dense Weightstone
-    [9178] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 120 Dense Weightstones. Safe if you stay in the area.", confidence = "high" },
+    [9178] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Imperial Plate Chest
-    [9179] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 3 Imperial Plate Chests. Safe if you stay in the area.", confidence = "high" },
+    [9179] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Volcanic Hammer
-    [9181] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 3 Volcanic Hammers. Safe if you stay in the area.", confidence = "high" },
+    [9181] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Huge Thorium Battleaxe
-    [9182] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 3 Huge Thorium Battleaxes. Safe if you stay in the area.", confidence = "high" },
+    [9182] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Radiant Circlet
-    [9183] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 3 Radiant Circlets. Safe if you stay in the area.", confidence = "high" },
+    [9183] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Wicked Leather Headband
-    [9184] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 10 Wicked Leather Headbands. Safe if you stay in the area.", confidence = "high" },
+    [9184] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Rugged Armor Kit
-    [9185] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 25 Rugged Armor Kits. Safe if you stay in the area.", confidence = "high" },
+    [9185] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Wicked Leather Belt
-    [9186] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 9 Wicked Leather Belts. Safe if you stay in the area.", confidence = "high" },
+    [9186] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Runic Leather Pants
-    [9187] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 4 Runic Leather Pants. Safe if you stay in the area.", confidence = "high" },
+    [9187] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Brightcloth Pants
-    [9188] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 6 Brightcloth Pants. Safe if you stay in the area.", confidence = "high" },
+    [9188] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Runecloth Boots
-    [9190] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 8 Runecloth Boots. Safe if you stay in the area.", confidence = "high" },
+    [9190] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Runecloth Bag
-    [9191] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 8 Runecloth Bags. Safe if you stay in the area.", confidence = "high" },
+    [9191] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Runecloth Robe
-    [9194] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 8 Runecloth Robes. Safe if you stay in the area.", confidence = "high" },
+    [9194] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Goblin Sapper Charge
-    [9195] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 20 Goblin Sapper Charges. Safe if you stay in the area.", confidence = "high" },
+    [9195] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Thorium Grenade
-    [9196] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 20 Thorium Grenades. Safe if you stay in the area.", confidence = "high" },
+    [9196] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Gnomish Battle Chicken
-    [9197] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 4 Gnomish Battle Chickens. Safe if you stay in the area.", confidence = "high" },
+    [9197] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Thorium Tube
-    [9198] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 14 Thorium Tubes. Safe if you stay in the area.", confidence = "high" },
+    [9198] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Major Mana Potion
-    [9200] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 10 Major Mana Potions. Safe if you stay in the area.", confidence = "high" },
+    [9200] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Greater Arcane Protection Potion
-    [9201] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 15 Greater Arcane Protection Potions. Safe if you stay in the area.", confidence = "high" },
+    [9201] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Major Healing Potion
-    [9202] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 20 Major Healing Potions. Safe if you stay in the area.", confidence = "high" },
+    [9202] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Flask of Petrification
-    [9203] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 1 Flask of Petrification. Safe if you stay in the area.", confidence = "high" },
+    [9203] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Stonescale Eel
-    [9204] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 40 Stonescale Eel. Safe if you stay in the area.", confidence = "high" },
+    [9204] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Plated Armorfish
     [9205] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 30 Plated Armorfish. Safe if you stay in the area.", confidence = "high" },

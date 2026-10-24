@@ -100128,6 +100128,1378 @@
       "checkedAt": "2026-10-24T19:32:17+03:00",
       "skipReason": "raid",
       "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9110,
+      "questName": "Plagueheart Bindings",
+      "url": "https://www.wowhead.com/classic/quest=9110",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9111,
+      "questName": "Robe of Faith",
+      "url": "https://www.wowhead.com/classic/quest=9111",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9112,
+      "questName": "Leggings of Faith",
+      "url": "https://www.wowhead.com/classic/quest=9112",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9113,
+      "questName": "Circlet of Faith",
+      "url": "https://www.wowhead.com/classic/quest=9113",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9114,
+      "questName": "Shoulderpads of Faith",
+      "url": "https://www.wowhead.com/classic/quest=9114",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9115,
+      "questName": "Sandals of Faith",
+      "url": "https://www.wowhead.com/classic/quest=9115",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9116,
+      "questName": "Gloves of Faith",
+      "url": "https://www.wowhead.com/classic/quest=9116",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9117,
+      "questName": "Belt of Faith",
+      "url": "https://www.wowhead.com/classic/quest=9117",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9118,
+      "questName": "Bindings of Faith",
+      "url": "https://www.wowhead.com/classic/quest=9118",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9120,
+      "questName": "The Fall of Kel'Thuzad",
+      "url": "https://classicdb.ch/?quest=9120",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:34:17+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Newly established raid objective: The Phylactery of Kel’Thuzad drops from Kel’Thuzad in Naxxramas. Skipped under the instance rule."
+    },
+    {
+      "questId": 9121,
+      "questName": "The Dread Citadel - Naxxramas",
+      "url": "https://www.wowhead.com/classic/quest=9121",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Dread Citadel - Naxxramas (Honored)",
+          "url": "https://www.wowhead.com/classic/quest=9121/the-dread-citadel-naxxramas",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "The quest is a Light’s Hope attunement hand-in for materials and gold, with no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Naxxramas attunement is a Light’s Hope Chapel hand-in for reputation, gold, and tradeable materials. This step adds no combat; use the road through Eastern Plaguelands and avoid nearby hostiles.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9122,
+      "questName": "The Dread Citadel - Naxxramas",
+      "url": "https://www.wowhead.com/classic/quest=9122",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Dread Citadel - Naxxramas (Revered)",
+          "url": "https://www.wowhead.com/classic/quest=9121/the-dread-citadel-naxxramas",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "The Argent Dawn reputation guide lists the Revered tier as a simple attunement hand-in for gold and materials; no combat objective is required."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Revered Naxxramas attunement is a Light’s Hope Chapel hand-in for gold and tradeable materials. This step adds no combat; use the road through Eastern Plaguelands and avoid nearby hostiles.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9123,
+      "questName": "The Dread Citadel - Naxxramas",
+      "url": "https://www.wowhead.com/classic/quest=9123",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Dread Citadel - Naxxramas (Exalted)",
+          "url": "https://www.wowhead.com/classic/quest=9123/the-dread-citadel-naxxramas",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "The quest grants Arcane Cloaking at Light’s Hope Chapel for Exalted reputation and has no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Exalted Naxxramas attunement is a free Arcane Cloaking hand-in at Light’s Hope Chapel. This step adds no combat; use the road through Eastern Plaguelands and avoid nearby hostiles.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9124,
+      "questName": "Cryptstalker Armor Doesn't Make Itself...",
+      "url": "https://www.wowhead.com/classic/quest=9124",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Cryptstalker Armor Doesn’t Make Itself...",
+          "url": "https://www.wowhead.com/classic/quest=9124/cryptstalker-armor-doesnt-make-itself",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "The quest asks for 30 Crypt Fiend Parts. Classic Era comments document open-world sources in Terrordale and Terrorweb Tunnel in Eastern Plaguelands, as well as optional dungeon sources."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Collect 30 Crypt Fiend Parts from level 53–60 undead. Repeated pulls around Terrorweb Tunnel or Terrordale can draw nearby mobs; farm open-world crypt fiends carefully or obtain the parts through trade. Naxxramas is not required.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9125,
+      "questName": "Crypt Fiend Parts",
+      "url": "https://www.wowhead.com/classic/quest=9125",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Crypt Fiend Parts",
+          "url": "https://classicdb.ch/?quest=9125",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic Era record confirms a repeatable 30-part hand-in. The preceding quest and matching item record identify crypt fiends in Eastern Plaguelands as open-world sources."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Collect 30 Crypt Fiend Parts from level 53–60 undead. Repeated pulls around Terrorweb Tunnel or Terrordale can draw nearby mobs; farm open-world crypt fiends carefully or obtain the parts through trade. Naxxramas is not required.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9126,
+      "questName": "Bonescythe Digs",
+      "url": "https://www.wowhead.com/classic/quest=9126",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Bonescythe Digs",
+          "url": "https://classicdb.ch/?quest=9126",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic Era comments identify skeletal undead throughout Western and Eastern Plaguelands as sources of Bone Fragments; dungeon sources are additional options."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Collect 30 Bone Fragments from skeletal undead in the Plaguelands. Repeated fights near dense undead camps can cause adds; pull isolated skeletons and avoid high-level patrols. Scholomance or Stratholme are optional sources, not required.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9127,
+      "questName": "Bone Fragments",
+      "url": "https://www.wowhead.com/classic/quest=9127",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Bone Fragments",
+          "url": "https://classicdb.ch/?quest=9127",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic Era record confirms a repeatable 30-fragment hand-in; Bone Fragments drop from skeletal undead in both Plaguelands as well as optional dungeons."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Repeatable hand-in requiring 30 Bone Fragments from skeletal undead in the Plaguelands. Repeated fights near dense undead camps can cause adds; pull isolated skeletons and avoid high-level patrols. Dungeons are optional sources.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9128,
+      "questName": "The Elemental Equation",
+      "url": "https://www.wowhead.com/classic/quest=9128",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Elemental Equation",
+          "url": "https://warcraft.wiki.gg/wiki/The_Elemental_Equation",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Quest requires 30 Cores of Elements from high-level elementals across the world; the quest record and Era comments identify open-world sources in Silithus, Felwood, Searing Gorge, and Burning Steppes."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Collect 30 Cores of Elements from high-level elementals in open zones such as Silithus, Felwood, Searing Gorge, and Burning Steppes. Repeated combat and nearby elemental packs can cause adds; pull carefully or obtain cores through trade.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9129,
+      "questName": "Core of Elements",
+      "url": "https://www.wowhead.com/classic/quest=9129",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Core of Elements",
+          "url": "https://classicdb.ch/?quest=9129",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic Era record confirms a repeatable 30-core hand-in. Era comments identify elemental sources in Silithus, Felwood, Searing Gorge, and Burning Steppes as well as optional instances."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Repeatable hand-in requiring 30 Cores of Elements from high-level elementals. Repeated combat around elemental camps can cause adds; pull isolated targets or obtain cores through trade. Dungeons are optional sources.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9131,
+      "questName": "Binding the Dreadnaught",
+      "url": "https://www.wowhead.com/classic/quest=9131",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Binding the Dreadnaught",
+          "url": "https://www.wowhead.com/classic/quest=9131/binding-the-dreadnaught",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Quest requires 30 Dark Iron Scraps. Classic item sources and Era reports confirm open-world sources among hostile Burning Steppes and Searing Gorge humanoids, in addition to optional BRD sources."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Collect 30 Dark Iron Scraps from hostile humanoids in Searing Gorge or Burning Steppes. Repeated pulls around camps can bring patrols; farm lower-level open-world targets and avoid the Blackrock Mountain elites. Blackrock Depths is not required.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9132,
+      "questName": "Dark Iron Scraps",
+      "url": "https://www.wowhead.com/classic/quest=9132",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Dark Iron Scraps",
+          "url": "https://wowclassicdb.com/quest/9132",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic loot record lists open-world Burning Steppes, Searing Gorge, and Blackrock humanoid sources, plus instance sources."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Repeatable hand-in requiring 30 Dark Iron Scraps from hostile humanoids. Searing Gorge and Burning Steppes have open-world sources; farm lower-level targets and avoid Blackrock Mountain elites. Blackrock Depths is optional.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9136,
+      "questName": "Savage Flora",
+      "url": "https://www.wowhead.com/classic/quest=9136",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Savage Flora",
+          "url": "https://www.wowhead.com/classic/quest=9136/savage-flora",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Quest requires 30 Savage Fronds. Era comments identify plant creatures in open-world Un’Goro Crater and Felwood as sources; Dire Maul and Maraudon are optional sources."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Collect 30 Savage Fronds from plant creatures in open zones such as Un’Goro Crater and Felwood. These are lower-level targets for a level-55 quest; avoid dense pulls, or obtain the fronds through trade. Dire Maul is optional.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9137,
+      "questName": "Savage Fronds",
+      "url": "https://www.wowhead.com/classic/quest=9137",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Savage Fronds",
+          "url": "https://classicdb.ch/?quest=9137",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic Era record confirms a repeatable 30-frond hand-in; comments identify lower-level plant creatures in open-world Un’Goro Crater and Felwood as sources."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Repeatable hand-in requiring 30 Savage Fronds from plant creatures in open zones such as Un’Goro Crater and Felwood. These are lower-level targets for a level-55 quest; avoid dense pulls, or obtain the fronds through trade. Dungeons are optional.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9141,
+      "questName": "They Call Me \"The Rooster\"",
+      "url": "https://www.wowhead.com/classic/quest=9141",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "They Call Me “The Rooster”",
+          "url": "https://www.wowhead.com/classic/quest=9141/they-call-me-the-rooster",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Quest turns in an Argent Dawn Valor Token to Commander Metz at Light’s Hope Chapel for a Sealed Craftsman’s Writ."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Turn in an Argent Dawn Valor Token at Light’s Hope Chapel to receive a Craftsman’s Writ. The step itself is dialogue and has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9142,
+      "questName": "Craftsman's Writ",
+      "url": "https://www.wowhead.com/classic/quest=9142",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ",
+          "url": "https://www.wowhead.com/classic/quest=9142/craftsmans-writ",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Quest turns in a Valor Token at Light’s Hope Chapel to receive a Sealed Craftsman’s Writ; it has no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Turn in the Valor Token to receive a sealed Craftsman’s Writ at Light’s Hope Chapel. The step itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9153,
+      "questName": "Under the Shadow",
+      "url": "https://www.wowhead.com/classic/quest=9153",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-verified",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and invasion mechanics. Current comments sometimes conflate this rune quest with the separate Shadow of Doom kill quest; those higher-level group details were excluded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Under the Shadow",
+          "url": "https://classicdb.ch/?quest=9153",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic Era objective is to defeat Scourge around an active necropolis and return 10 Necrotic Runes. It does not ask players to kill the Shadow of Doom; the invasion attackers spawn around ritual circles."
+        }
+      ],
+      "excludedEvidence": [
+        "Comments and guidance describing the separate Shadow of Doom elite-kill quest were excluded from this rune-gathering quest assessment."
+      ],
+      "summary": "The objective is to collect 10 Necrotic Runes by defeating Scourge around an active necropolis. Available Classic Era quest text describes nearby invasion attackers, not mandatory elite or Shadow of Doom kills. MEDIUM reflects repeated combat and possible adds; confidence is medium.",
+      "reason": "Collect 10 Necrotic Runes by fighting Scourge around an active invasion necropolis. Attackers can spawn around the ritual circles and add during repeated pulls; follow the active invasion marker and pull the perimeter mobs carefully. This does not require killing a Shadow of Doom.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9154,
+      "questName": "Light's Hope Chapel",
+      "url": "https://www.wowhead.com/classic/quest=9154",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Light’s Hope Chapel",
+          "url": "https://classicdb.ch/?quest=9154",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic Era objective is to deliver a provided Call to Arms Announcement to the Keeper of the Rolls at Light’s Hope Chapel."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Deliver the Call to Arms announcement to the Keeper of the Rolls at Light’s Hope Chapel. This is a travel and dialogue step with no combat objective; follow the road through Eastern Plaguelands and avoid hostile packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9165,
+      "questName": "Writ of Safe Passage",
+      "url": "https://www.wowhead.com/classic/quest=9165",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Writ of Safe Passage",
+          "url": "https://www.wowhead.com/classic/quest=9165/writ-of-safe-passage",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "The quest objective is delivery of the signed writ from the completed caravan event to Commander Metz at Light’s Hope Chapel."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era objective and source records establish the required item or travel step and accessible non-instance completion path. The rating reflects quest-related danger; confidence is medium.",
+      "reason": "Deliver the signed Writ of Safe Passage to Dispatch Commander Metz at Light’s Hope Chapel. The escort occurs before this hand-in; this step adds no combat. Follow the road back through Eastern Plaguelands and avoid hostile packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9178,
+      "questName": "Craftsman's Writ - Dense Weightstone",
+      "url": "https://www.wowhead.com/classic/quest=9178",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9179,
+      "questName": "Craftsman's Writ - Imperial Plate Chest",
+      "url": "https://www.wowhead.com/classic/quest=9179",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9181,
+      "questName": "Craftsman's Writ - Volcanic Hammer",
+      "url": "https://www.wowhead.com/classic/quest=9181",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9182,
+      "questName": "Craftsman's Writ - Huge Thorium Battleaxe",
+      "url": "https://www.wowhead.com/classic/quest=9182",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9183,
+      "questName": "Craftsman's Writ - Radiant Circlet",
+      "url": "https://www.wowhead.com/classic/quest=9183",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9184,
+      "questName": "Craftsman's Writ - Wicked Leather Headband",
+      "url": "https://www.wowhead.com/classic/quest=9184",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9185,
+      "questName": "Craftsman's Writ - Rugged Armor Kit",
+      "url": "https://www.wowhead.com/classic/quest=9185",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9186,
+      "questName": "Craftsman's Writ - Wicked Leather Belt",
+      "url": "https://www.wowhead.com/classic/quest=9186",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9187,
+      "questName": "Craftsman's Writ - Runic Leather Pants",
+      "url": "https://www.wowhead.com/classic/quest=9187",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9188,
+      "questName": "Craftsman's Writ - Brightcloth Pants",
+      "url": "https://www.wowhead.com/classic/quest=9188",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9190,
+      "questName": "Craftsman's Writ - Runecloth Boots",
+      "url": "https://www.wowhead.com/classic/quest=9190",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9191,
+      "questName": "Craftsman's Writ - Runecloth Bag",
+      "url": "https://www.wowhead.com/classic/quest=9191",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9194,
+      "questName": "Craftsman's Writ - Runecloth Robe",
+      "url": "https://www.wowhead.com/classic/quest=9194",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9195,
+      "questName": "Craftsman's Writ - Goblin Sapper Charge",
+      "url": "https://www.wowhead.com/classic/quest=9195",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9196,
+      "questName": "Craftsman's Writ - Thorium Grenade",
+      "url": "https://www.wowhead.com/classic/quest=9196",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9197,
+      "questName": "Craftsman's Writ - Gnomish Battle Chicken",
+      "url": "https://www.wowhead.com/classic/quest=9197",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9198,
+      "questName": "Craftsman's Writ - Thorium Tube",
+      "url": "https://www.wowhead.com/classic/quest=9198",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9200,
+      "questName": "Craftsman's Writ - Major Mana Potion",
+      "url": "https://www.wowhead.com/classic/quest=9200",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9201,
+      "questName": "Craftsman's Writ - Greater Arcane Protection Potion",
+      "url": "https://www.wowhead.com/classic/quest=9201",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9202,
+      "questName": "Craftsman's Writ - Major Healing Potion",
+      "url": "https://www.wowhead.com/classic/quest=9202",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9203,
+      "questName": "Craftsman's Writ - Flask of Petrification",
+      "url": "https://www.wowhead.com/classic/quest=9203",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9204,
+      "questName": "Craftsman's Writ - Stonescale Eel",
+      "url": "https://www.wowhead.com/classic/quest=9204",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:34:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Era objective and relevant source records for whether completion requires open-world combat or an instance. No broad comment review was needed for hand-in-only objectives.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Dense Weightstone",
+          "url": "https://www.wowhead.com/classic/quest=9178/craftsmans-writ-dense-weightstone",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:34:17+03:00",
+          "evidence": "Classic objective is to deliver prepared profession supplies and the writ to Packmaster Stonebruiser at Light’s Hope Chapel; the supply items can be crafted or traded and the hand-in requires no combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a prepared profession-supply hand-in to Packmaster Stonebruiser. It adds no quest combat and items can be crafted or traded. LOW reflects the safe turn-in; confidence is medium.",
+      "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
     }
   ]
 }
