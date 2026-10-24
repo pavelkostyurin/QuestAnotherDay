@@ -3273,73 +3273,88 @@ local quests = {
     [5545] = { threat = "LOW", reason = "Collect eight bundles of wood in Elwynn Forest and deliver them to Raelen at Eastvale Logging Camp. The gathering objective is low risk; avoid nearby hostile creatures while moving between bundles.", confidence = "medium" },
 
     -- Garments of the Moon
-    [5621] = { threat = "LOW", reason = "Priest class quest. Heal Sentinel Shaya with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5621] = { threat = "LOW", reason = "Heal Sentinel Shaya with Lesser Heal and cast Power Word: Fortitude, then return to Laurna. The task adds no combat; avoid nearby wildlife on the approach.", confidence = "high" },
 
     -- In Favor of Elune
-    [5622] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5622] = { threat = "LOW", reason = "Speak to Laurna Morninglight in Teldrassil. This is dialogue and adds no combat; avoid unnecessary pulls on the route.", confidence = "high" },
 
     -- In Favor of the Light
-    [5623] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5623] = { threat = "LOW", reason = "Speak to Priestess Josetta in Elwynn Forest. This dialogue step adds no combat; use a familiar route to Goldshire.", confidence = "high" },
 
     -- Garments of the Light
-    [5624] = { threat = "LOW", reason = "Priest class quest. Heal Guard Roberts with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5624] = { threat = "LOW", reason = "Heal Guard Roberts with Lesser Heal and cast Power Word: Fortitude, then return to Priestess Josetta. The task adds no combat; use the normal route around Goldshire.", confidence = "high" },
 
     -- Garments of the Light
-    [5625] = { threat = "LOW", reason = "Priest class quest. Heal Mountaineer Dolf with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5625] = { threat = "LOW", reason = "Heal Mountaineer Dolf with Lesser Heal and cast Power Word: Fortitude, then return to Maxan Anvol. The task adds no combat; use the normal route near Kharanos.", confidence = "high" },
 
     -- In Favor of the Light
-    [5626] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5626] = { threat = "LOW", reason = "Speak to Maxan Anvol in Dun Morogh. This is dialogue and adds no combat.", confidence = "high" },
+
+    -- Stars of Elune
+    [5627] = { threat = "LOW", reason = "Complete the Night Elf priest conversation with Priestess Alathea in Darnassus to learn Starshards. It takes place in the city and adds no combat.", confidence = "high" },
 
     -- Returning Home
-    [5628] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5628] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home
-    [5629] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5629] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home
-    [5630] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5630] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home
-    [5631] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5631] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home
-    [5632] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5632] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home
-    [5633] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5633] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Desperate Prayer
-    [5635] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5634] = { threat = "LOW", reason = "Travel to the appropriate Alliance priest trainer to learn Desperate Prayer. This quest is a spell-training conversation; the travel between settlements adds no quest combat.", confidence = "high" },
 
     -- Desperate Prayer
-    [5636] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5635] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
 
     -- Desperate Prayer
-    [5637] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5636] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
 
     -- Desperate Prayer
-    [5638] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5637] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
 
     -- Desperate Prayer
-    [5639] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5638] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
 
     -- Desperate Prayer
-    [5640] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5639] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
+
+    -- Desperate Prayer
+    [5640] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
 
     -- A Lack of Fear
-    [5645] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5641] = { threat = "LOW", reason = "Speak to High Priest Rohan in Ironforge to learn Fear Ward. The training conversation adds no combat; use the normal route through the city.", confidence = "high" },
 
     -- A Lack of Fear
-    [5647] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5645] = { threat = "LOW", reason = "Speak to High Priest Rohan in Ironforge to learn Fear Ward. This city conversation adds no combat.", confidence = "high" },
+
+    -- A Lack of Fear
+    [5647] = { threat = "LOW", reason = "Speak to High Priest Rohan in Ironforge to learn Fear Ward. This city conversation adds no combat.", confidence = "high" },
 
     -- Elune's Grace
-    [5673] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5672] = { threat = "LOW", reason = "Speak with the Darnassus priest trainer to learn Elune’s Grace. The training step takes place in the city and adds no combat.", confidence = "high" },
 
     -- Elune's Grace
-    [5674] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5673] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.", confidence = "high" },
 
     -- Elune's Grace
-    [5675] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5674] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.", confidence = "high" },
+
+    -- Elune's Grace
+    [5675] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.", confidence = "high" },
+
+    -- Arcane Feedback
+    [5676] = { threat = "LOW", reason = "Speak with the human priest trainer to learn Arcane Feedback. This is a city spell-training conversation and adds no combat.", confidence = "high" },
 
     -- Arcane Feedback
     [5677] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },

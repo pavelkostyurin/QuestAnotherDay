@@ -1731,13 +1731,13 @@ addon.quests = {
     [5544] = { threat = "MEDIUM", reason = "Kill carrion grubs and devourers and collect their meat in the Eastern Plaguelands. Nearby enemies can add during repeated fights; clear space and recover between pulls.", confidence = "medium" },
 
     -- Kodo Roundup
-    [5561] = { threat = "MEDIUM", reason = "Requires using the Kodo Kombobulator to tame and escort five Kodos from the Kodo Graveyard in Desolace. The kodos are level 35-40 and are neutral until provoked. The graveyard is patrolled by level 35-40 kodos and scavengers. Clear the area before taming and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+    [5561] = { threat = "MEDIUM", reason = "The Kodo Kombobulator requires taming five kodos in the Kodo Graveyard. Nearby creatures can interfere and the kodos may become hostile during the objective; clear the route and handle one at a time.", confidence = "medium" },
 
     -- Healthy Dragon Scale
     [5582] = { threat = "HIGH", reason = "The Healthy Dragon Scale drops from a level 60 elite dragonkin in the Eastern Plaguelands. The dragonkin are elite and hit hard. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Sister Pamela
-    [5601] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Pamela is a ghost child in Darrowshire. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5601] = { threat = "LOW", reason = "Find Pamela Redpath in Darrowshire. This is a dialogue step and adds no combat; avoid nearby Scourge while travelling through the ruins.", confidence = "high" },
 
     -- The Battle of Darrowshire
     [5721] = { threat = "HIGH", reason = "Elite defense event. You must protect Davil Lightfire and Captain Redpath through waves of Scourge, then defeat Redpath the Corrupted when he appears. The event spawns elites and requires coordinated crowd control. A full group of level 55+ is recommended. Do not attempt solo.", confidence = "high" },

@@ -7172,131 +7172,136 @@ addon.quests = {
     [5545] = { threat = "LOW", reason = "Collect eight bundles of wood in Elwynn Forest and deliver them to Raelen at Eastvale Logging Camp. The gathering objective is low risk; avoid nearby hostile creatures while moving between bundles.", confidence = "medium" },
 
     -- Kodo Roundup
-    [5561] = { threat = "MEDIUM", reason = "Requires using the Kodo Kombobulator to tame and escort five Kodos from the Kodo Graveyard in Desolace. The kodos are level 35-40 and are neutral until provoked. The graveyard is patrolled by level 35-40 kodos and scavengers. Clear the area before taming and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+    [5561] = { threat = "MEDIUM", reason = "The Kodo Kombobulator requires taming five kodos in the Kodo Graveyard. Nearby creatures can interfere and the kodos may become hostile during the objective; clear the route and handle one at a time.", confidence = "medium" },
 
     -- Portals of the Legion (Horde - Blasted Lands)
-    [5581] = { threat = "HIGH", reason = "The quest requires you to kill demons at the Tainted Scar and close their portals. The demons are level 55-58 elites, including felhounds, doomguards, and infernals. This is an Elite quest by design. Bring a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [5581] = { threat = "HIGH", reason = "Banish six portals at Mannoroc Coven using the Hand of Iruxos. Each portal summons a level 37–38 demon guardian, while patrols and infernals move through the camp; pull each guardian away from other enemies and bring help if you cannot handle the fight.", confidence = "medium" },
 
     -- Healthy Dragon Scale
     [5582] = { threat = "HIGH", reason = "The Healthy Dragon Scale drops from a level 60 elite dragonkin in the Eastern Plaguelands. The dragonkin are elite and hit hard. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Sister Pamela
-    [5601] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Pamela is a ghost child in Darrowshire. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5601] = { threat = "LOW", reason = "Find Pamela Redpath in Darrowshire. This is a dialogue step and adds no combat; avoid nearby Scourge while travelling through the ruins.", confidence = "high" },
 
     -- Garments of the Moon (Night Elf Priest)
-    [5621] = { threat = "LOW", reason = "Priest class quest. Heal Sentinel Shaya with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5621] = { threat = "LOW", reason = "Heal Sentinel Shaya with Lesser Heal and cast Power Word: Fortitude, then return to Laurna. The task adds no combat; avoid nearby wildlife on the approach.", confidence = "high" },
 
     -- In Favor of Elune
-    [5622] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5622] = { threat = "LOW", reason = "Speak to Laurna Morninglight in Teldrassil. This is dialogue and adds no combat; avoid unnecessary pulls on the route.", confidence = "high" },
 
     -- In Favor of the Light (Priestess Josetta)
-    [5623] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5623] = { threat = "LOW", reason = "Speak to Priestess Josetta in Elwynn Forest. This dialogue step adds no combat; use a familiar route to Goldshire.", confidence = "high" },
 
     -- Garments of the Light (Human Priest)
-    [5624] = { threat = "LOW", reason = "Priest class quest. Heal Guard Roberts with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5624] = { threat = "LOW", reason = "Heal Guard Roberts with Lesser Heal and cast Power Word: Fortitude, then return to Priestess Josetta. The task adds no combat; use the normal route around Goldshire.", confidence = "high" },
 
     -- Garments of the Light (Dwarf Priest)
-    [5625] = { threat = "LOW", reason = "Priest class quest. Heal Mountaineer Dolf with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5625] = { threat = "LOW", reason = "Heal Mountaineer Dolf with Lesser Heal and cast Power Word: Fortitude, then return to Maxan Anvol. The task adds no combat; use the normal route near Kharanos.", confidence = "high" },
 
     -- In Favor of the Light (Maxan Anvol)
-    [5626] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5626] = { threat = "LOW", reason = "Speak to Maxan Anvol in Dun Morogh. This is dialogue and adds no combat.", confidence = "high" },
 
     -- Returning Home (5628)
-    [5628] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5627] = { threat = "LOW", reason = "Complete the Night Elf priest conversation with Priestess Alathea in Darnassus to learn Starshards. It takes place in the city and adds no combat.", confidence = "high" },
+    [5628] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home (5629)
-    [5629] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5629] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home (5630)
-    [5630] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5630] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home (5631)
-    [5631] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5631] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home (5632)
-    [5632] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5632] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Returning Home (5633)
-    [5633] = { threat = "LOW", reason = "Priest class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5633] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus. This city conversation adds no combat.", confidence = "high" },
 
     -- Desperate Prayer (5635-5640)
-    [5635] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-    [5636] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-    [5637] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-    [5638] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-    [5639] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-    [5640] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5634] = { threat = "LOW", reason = "Travel to the appropriate Alliance priest trainer to learn Desperate Prayer. This quest is a spell-training conversation; the travel between settlements adds no quest combat.", confidence = "high" },
+    [5635] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
+    [5636] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
+    [5637] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
+    [5638] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
+    [5639] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
+    [5640] = { threat = "LOW", reason = "Speak to High Priestess Laurena in Stormwind to learn Desperate Prayer. This city turn-in adds no combat.", confidence = "high" },
 
     -- Shadowguard (Horde - Priest)
-    [5642] = { threat = "LOW", reason = "Speak with the priest trainer in Undercity to learn Shadowguard. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5641] = { threat = "LOW", reason = "Speak to High Priest Rohan in Ironforge to learn Fear Ward. The training conversation adds no combat; use the normal route through the city.", confidence = "high" },
+    [5642] = { threat = "LOW", reason = "Speak to Ur’kyo in Orgrimmar to learn Shadowguard. This is a city dialogue step and adds no combat.", confidence = "high" },
 
     -- Shadowguard (Horde - Priest)
-    [5643] = { threat = "LOW", reason = "Continue the Shadowguard chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5643] = { threat = "LOW", reason = "Continue the Shadowguard training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
 
     -- Devouring Plague (Horde - Priest)
-    [5644] = { threat = "LOW", reason = "Speak with the priest trainer in Undercity to learn Devouring Plague. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5644] = { threat = "LOW", reason = "Speak to Aelthalyste in Undercity to learn Devouring Plague. This city conversation adds no combat.", confidence = "high" },
 
     -- A Lack of Fear (5645)
-    [5645] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5645] = { threat = "LOW", reason = "Speak to High Priest Rohan in Ironforge to learn Fear Ward. This city conversation adds no combat.", confidence = "high" },
 
     -- Devouring Plague (Horde - Priest)
-    [5646] = { threat = "LOW", reason = "Continue the Devouring Plague chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5646] = { threat = "LOW", reason = "Continue the Devouring Plague training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
 
     -- A Lack of Fear (5647)
-    [5647] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5647] = { threat = "LOW", reason = "Speak to High Priest Rohan in Ironforge to learn Fear Ward. This city conversation adds no combat.", confidence = "high" },
 
     -- Garments of Spirituality (Horde - Priest)
-    [5648] = { threat = "MEDIUM", reason = "The mob is a level 30-32 mob in a contested zone. The combat is manageable for a level 30+ priest, but the journey adds risk. Do not attempt below level 30.", confidence = "medium" },
+    [5648] = { threat = "LOW", reason = "Heal Grunt Kor’ja with Lesser Heal and cast Power Word: Fortitude, then return to Tai’jin at Razor Hill. This is a priest training task with no required combat.", confidence = "high" },
 
     -- In Favor of Spirituality (Horde - Priest)
-    [5649] = { threat = "LOW", reason = "Speak with the priest trainer in Undercity. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5649] = { threat = "LOW", reason = "Speak to Tai’jin in Razor Hill to continue priest training. This dialogue adds no combat.", confidence = "high" },
 
     -- Garments of Darkness (Horde - Priest)
-    [5650] = { threat = "MEDIUM", reason = "The mob is a level 30-32 mob in a contested zone. The combat is manageable for a level 30+ priest, but the journey adds risk. Do not attempt below level 30.", confidence = "medium" },
+    [5650] = { threat = "LOW", reason = "Heal Deathguard Kel with Lesser Heal and cast Power Word: Fortitude, then return to Dark Cleric Beryl in Brill. This is a priest training task with no required combat.", confidence = "high" },
 
     -- In Favor of Darkness (Horde - Priest)
-    [5651] = { threat = "LOW", reason = "Speak with the priest trainer in Undercity. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5651] = { threat = "LOW", reason = "Speak to Dark Cleric Beryl in Brill to continue priest training. This dialogue adds no combat.", confidence = "high" },
 
     -- Hex of Weakness (Horde - Priest)
-    [5652] = { threat = "LOW", reason = "Speak with the priest trainer to learn Hex of Weakness. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5652] = { threat = "LOW", reason = "Speak with the priest trainer to learn Hex of Weakness. This is a conversation and adds no combat.", confidence = "high" },
 
     -- Hex of Weakness (Horde - Priest)
-    [5654] = { threat = "LOW", reason = "Continue the Hex of Weakness chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5654] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
 
     -- Hex of Weakness (Horde - Priest)
-    [5655] = { threat = "LOW", reason = "Continue the Hex of Weakness chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5655] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
 
     -- Hex of Weakness (Horde - Priest)
-    [5656] = { threat = "LOW", reason = "Continue the Hex of Weakness chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5656] = { threat = "LOW", reason = "Continue the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
 
     -- Hex of Weakness (Horde - Priest)
-    [5657] = { threat = "LOW", reason = "Final step of the Hex of Weakness chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5657] = { threat = "LOW", reason = "Complete the Hex of Weakness training conversation with Ur’kyo in Orgrimmar. It adds no combat.", confidence = "high" },
 
     -- Touch of Weakness (Horde - Priest)
-    [5658] = { threat = "LOW", reason = "Speak with the priest trainer to learn Touch of Weakness. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5658] = { threat = "LOW", reason = "Speak with the priest trainer to learn Touch of Weakness. This is a conversation and adds no combat.", confidence = "high" },
 
     -- Touch of Weakness (Horde - Priest)
-    [5660] = { threat = "LOW", reason = "Continue the Touch of Weakness chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5660] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
 
     -- Touch of Weakness (Horde - Priest)
-    [5661] = { threat = "LOW", reason = "Continue the Touch of Weakness chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5661] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
 
     -- Touch of Weakness (Horde - Priest)
-    [5662] = { threat = "LOW", reason = "Continue the Touch of Weakness chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5662] = { threat = "LOW", reason = "Continue the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
 
     -- Touch of Weakness (Horde - Priest)
-    [5663] = { threat = "LOW", reason = "Final step of the Touch of Weakness chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5663] = { threat = "LOW", reason = "Complete the Touch of Weakness training conversation with Aelthalyste in Undercity. It adds no combat.", confidence = "high" },
 
     -- Elune's Grace (5673)
-    [5673] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5672] = { threat = "LOW", reason = "Speak with the Darnassus priest trainer to learn Elune’s Grace. The training step takes place in the city and adds no combat.", confidence = "high" },
+    [5673] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.", confidence = "high" },
 
     -- Elune's Grace (5674)
-    [5674] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5674] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.", confidence = "high" },
 
     -- Elune's Grace (5675)
-    [5675] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5675] = { threat = "LOW", reason = "Speak to Priestess Alathea in Darnassus to learn Elune’s Grace. This city conversation adds no combat.", confidence = "high" },
 
     -- Arcane Feedback (5677)
+    [5676] = { threat = "LOW", reason = "Speak with the human priest trainer to learn Arcane Feedback. This is a city spell-training conversation and adds no combat.", confidence = "high" },
     [5677] = { threat = "LOW", reason = "Priest racial class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Arcane Feedback (5678)
