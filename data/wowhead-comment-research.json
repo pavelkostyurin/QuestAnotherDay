@@ -88504,6 +88504,1340 @@
       "confidence": "medium",
       "addonAppliedAt": "2026-10-24T22:15:00+03:00",
       "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8525,
+      "questName": "The Alliance Needs More Rainbow Fin Albacore!",
+      "url": "https://www.wowhead.com/classic/quest=8525",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8526,
+      "questName": "The Alliance Needs Roast Raptor!",
+      "url": "https://www.wowhead.com/classic/quest=8526",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8527,
+      "questName": "The Alliance Needs More Roast Raptor!",
+      "url": "https://www.wowhead.com/classic/quest=8527",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8528,
+      "questName": "The Alliance Needs Spotted Yellowtail!",
+      "url": "https://www.wowhead.com/classic/quest=8528",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8529,
+      "questName": "The Alliance Needs More Spotted Yellowtail!",
+      "url": "https://www.wowhead.com/classic/quest=8529",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8532,
+      "questName": "The Horde Needs Copper Bars!",
+      "url": "https://www.wowhead.com/classic/quest=8532",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8533,
+      "questName": "The Horde Needs More Copper Bars!",
+      "url": "https://www.wowhead.com/classic/quest=8533",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8534,
+      "questName": "Hive'Zora Scout Report",
+      "url": "https://www.wowhead.com/classic/quest=8534",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Zora Scout Report - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8534/hivezora-scout-report",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Quest objective places the scout inside Hive’Zora; Classic comments describe packs of three wasps and class-specific routes through the hive."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms the scout is inside the hive; Classic comments describe three-wasp packs and report class-dependent stealth or escape routes. This supports a risky, strategy-dependent visit but does not prove every route is impassable.",
+      "reason": "Hostile elite silithids fill Hive’Zora, and the scout is deep inside the tunnels. The objective is to contact her and leave, so use stealth or a planned route and avoid fighting packs in confined passages.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8535,
+      "questName": "Hoary Templar",
+      "url": "https://www.wowhead.com/classic/quest=8535",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hoary Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8535/hoary-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 assignment to summon and slay the Hoary Templar; historical comments describe the summon and required cultist attire."
+        },
+        {
+          "title": "Earthen Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8536/earthen-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 elite assignment to summon and slay the Earthen Templar."
+        },
+        {
+          "title": "Crimson Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8537/crimson-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 assignment; Classic-era comments describe the templar’s heavy fire damage and report class-specific solo kills."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest pages identify these level-60 elite assignments. Historical comments document solo kills or small-group kills for some Templars, so the old claim that a full group is always required was too strong; class and gear matter.",
+      "reason": "Elite quest. Summoning the level-62 Templar creates a hard single-target fight at the level-60 quest tier. Bring a partner or use a well-geared class and a prepared solo strategy.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8536,
+      "questName": "Earthen Templar",
+      "url": "https://www.wowhead.com/classic/quest=8536",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hoary Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8535/hoary-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 assignment to summon and slay the Hoary Templar; historical comments describe the summon and required cultist attire."
+        },
+        {
+          "title": "Earthen Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8536/earthen-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 elite assignment to summon and slay the Earthen Templar."
+        },
+        {
+          "title": "Crimson Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8537/crimson-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 assignment; Classic-era comments describe the templar’s heavy fire damage and report class-specific solo kills."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest pages identify these level-60 elite assignments. Historical comments document solo kills or small-group kills for some Templars, so the old claim that a full group is always required was too strong; class and gear matter.",
+      "reason": "Elite quest. Summoning the level-62 Templar creates a hard single-target fight at the level-60 quest tier. Bring a partner or use a well-geared class and a prepared solo strategy.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8537,
+      "questName": "Crimson Templar",
+      "url": "https://www.wowhead.com/classic/quest=8537",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hoary Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8535/hoary-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 assignment to summon and slay the Hoary Templar; historical comments describe the summon and required cultist attire."
+        },
+        {
+          "title": "Earthen Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8536/earthen-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 elite assignment to summon and slay the Earthen Templar."
+        },
+        {
+          "title": "Crimson Templar - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8537/crimson-templar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest page identifies the level-60 assignment; Classic-era comments describe the templar’s heavy fire damage and report class-specific solo kills."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest pages identify these level-60 elite assignments. Historical comments document solo kills or small-group kills for some Templars, so the old claim that a full group is always required was too strong; class and gear matter.",
+      "reason": "Elite quest. Summoning the level-62 Templar creates a hard single-target fight at the level-60 quest tier. Bring a partner or use a well-geared class and a prepared solo strategy.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8538,
+      "questName": "The Four Dukes",
+      "url": "https://www.wowhead.com/classic/quest=8538",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Four Dukes - Quest - Classic",
+          "url": "https://www.wowhead.com/tbc/quest=8538/the-four-dukes",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Quest objective requires all four summoned Dukes and the page lists a suggested group size of two."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest source recommends two players, not a full group, and the objective requires four separate elite kills; this supports HIGH rather than the previous claim that a full group is required.",
+      "reason": "Elite quest. The objective requires four summoned Abyssal Dukes, which are dangerous elite fights and require repeated access to Twilight summoning sites. A partner is recommended; attempt alone only with a strong class-specific plan.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8539,
+      "questName": "Target: Hive'Zora Hive Sisters",
+      "url": "https://www.wowhead.com/classic/quest=8539",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Zora Hive Sister - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11729",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic Era database lists Hive’Zora Hive Sister as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies the Hive Sisters as level 59–60 elites; the quest requires 30, so the previous non-elite description understated the repeated combat risk.",
+      "reason": "Elite quest. Hive’Zora Hive Sisters are level 59–60 elites, and the objective requires 30 kills inside a hostile hive. Bring a suitable group or skip this assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8540,
+      "questName": "Boots for the Guard",
+      "url": "https://www.wowhead.com/classic/quest=8540",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The pinned objective is an item hand-in; danger from obtaining badges or materials occurs during their separate source content, not this quest step.",
+      "reason": "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8541,
+      "questName": "Grinding Stones for the Guard",
+      "url": "https://www.wowhead.com/classic/quest=8541",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The pinned objective is an item hand-in; danger from obtaining badges or materials occurs during their separate source content, not this quest step.",
+      "reason": "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8542,
+      "questName": "The Horde Needs Tin Bars!",
+      "url": "https://www.wowhead.com/classic/quest=8542",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8543,
+      "questName": "The Horde Needs More Tin Bars!",
+      "url": "https://www.wowhead.com/classic/quest=8543",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8544,
+      "questName": "Conqueror's Spaulders",
+      "url": "https://www.wowhead.com/classic/quest=8544",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8545,
+      "questName": "The Horde Needs Mithril Bars!",
+      "url": "https://www.wowhead.com/classic/quest=8545",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8546,
+      "questName": "The Horde Needs More Mithril Bars!",
+      "url": "https://www.wowhead.com/classic/quest=8546",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8548,
+      "questName": "Volunteer's Battlegear",
+      "url": "https://www.wowhead.com/classic/quest=8548",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The pinned objective is an item hand-in; danger from obtaining badges or materials occurs during their separate source content, not this quest step.",
+      "reason": "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8549,
+      "questName": "The Horde Needs Peacebloom!",
+      "url": "https://www.wowhead.com/classic/quest=8549",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8550,
+      "questName": "The Horde Needs Peacebloom!",
+      "url": "https://www.wowhead.com/classic/quest=8550",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8551,
+      "questName": "The Captain's Chest",
+      "url": "https://www.wowhead.com/classic/quest=8551",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8552,
+      "questName": "The Monogrammed Sash",
+      "url": "https://www.wowhead.com/classic/quest=8552",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8553,
+      "questName": "The Captain's Cutlass",
+      "url": "https://www.wowhead.com/classic/quest=8553",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8554,
+      "questName": "Facing Negolash",
+      "url": "https://www.wowhead.com/classic/quest=8554",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Facing Negolash - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8554/facing-negolash",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic comments identify a level-52 elite, report a level-53 hunter solo, and describe warlock fear control; other near-level solo attempts failed."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments identify Negolash as a level-52 elite and include successful solo reports near level 53 using a hunter or fear-based warlock strategy, alongside failed attempts. This supports HIGH for a class-dependent solo attempt, not a universal full-group requirement.",
+      "reason": "Elite quest. Negolash is a level-52 elite that hits hard, and the shoreline encounter can punish a failed pull. Bring a group or attempt only with a class and strategy suited to soloing elites.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8555,
+      "questName": "The Charge of the Dragonflights",
+      "url": "https://www.wowhead.com/classic/quest=8555",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Charge of the Dragonflights - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8555/the-charge-of-the-dragonflights",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "The quest is completed by speaking with Anachronos in Tanaris and points to three fallen dragons; encounter content is in subsequent quests."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page shows a conversation with Anachronos that opens the dragonflight branches; the raid encounters belong to later quests in the chain.",
+      "reason": "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8556,
+      "questName": "Signet of Unyielding Strength",
+      "url": "https://www.wowhead.com/classic/quest=8556",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8557,
+      "questName": "Drape of Unyielding Strength",
+      "url": "https://www.wowhead.com/classic/quest=8557",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8558,
+      "questName": "Sickle of Unyielding Strength",
+      "url": "https://www.wowhead.com/classic/quest=8558",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8559,
+      "questName": "Conqueror's Greaves",
+      "url": "https://www.wowhead.com/classic/quest=8559",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8560,
+      "questName": "Conqueror's Legguards",
+      "url": "https://www.wowhead.com/classic/quest=8560",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8561,
+      "questName": "Conqueror's Crown",
+      "url": "https://www.wowhead.com/classic/quest=8561",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8562,
+      "questName": "Conqueror's Breastplate",
+      "url": "https://www.wowhead.com/classic/quest=8562",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8565,
+      "questName": "Past Victories in Arathi",
+      "url": "https://www.wowhead.com/classic/quest=8565",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Past Victories in Arathi - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8565/past-victories-in-arathi",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is an Arathi Resource Crate, exchanged for three Arathi Basin Marks of Honor."
+        },
+        {
+          "title": "Past Efforts in Warsong Gulch - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8570/past-efforts-in-warsong-gulch",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is a Warsong Gulch Ribbon of Sacrifice exchanged for a Warsong Gulch Mark of Honor."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest pages list an Arathi Resource Crate or Warsong Gulch Ribbon of Sacrifice as the objective and award a battleground mark; this assessment covers the exchange step after obtaining the item.",
+      "reason": "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8566,
+      "questName": "Past Victories in Arathi",
+      "url": "https://www.wowhead.com/classic/quest=8566",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Past Victories in Arathi - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8565/past-victories-in-arathi",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is an Arathi Resource Crate, exchanged for three Arathi Basin Marks of Honor."
+        },
+        {
+          "title": "Past Efforts in Warsong Gulch - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8570/past-efforts-in-warsong-gulch",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is a Warsong Gulch Ribbon of Sacrifice exchanged for a Warsong Gulch Mark of Honor."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest pages list an Arathi Resource Crate or Warsong Gulch Ribbon of Sacrifice as the objective and award a battleground mark; this assessment covers the exchange step after obtaining the item.",
+      "reason": "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8567,
+      "questName": "Past Victories in Warsong Gulch",
+      "url": "https://www.wowhead.com/classic/quest=8567",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Past Victories in Arathi - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8565/past-victories-in-arathi",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is an Arathi Resource Crate, exchanged for three Arathi Basin Marks of Honor."
+        },
+        {
+          "title": "Past Efforts in Warsong Gulch - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8570/past-efforts-in-warsong-gulch",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is a Warsong Gulch Ribbon of Sacrifice exchanged for a Warsong Gulch Mark of Honor."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest pages list an Arathi Resource Crate or Warsong Gulch Ribbon of Sacrifice as the objective and award a battleground mark; this assessment covers the exchange step after obtaining the item.",
+      "reason": "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8568,
+      "questName": "Past Victories in Warsong Gulch",
+      "url": "https://www.wowhead.com/classic/quest=8568",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Past Victories in Arathi - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8565/past-victories-in-arathi",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is an Arathi Resource Crate, exchanged for three Arathi Basin Marks of Honor."
+        },
+        {
+          "title": "Past Efforts in Warsong Gulch - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8570/past-efforts-in-warsong-gulch",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is a Warsong Gulch Ribbon of Sacrifice exchanged for a Warsong Gulch Mark of Honor."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest pages list an Arathi Resource Crate or Warsong Gulch Ribbon of Sacrifice as the objective and award a battleground mark; this assessment covers the exchange step after obtaining the item.",
+      "reason": "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8569,
+      "questName": "Past Efforts in Warsong Gulch",
+      "url": "https://www.wowhead.com/classic/quest=8569",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Past Victories in Arathi - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8565/past-victories-in-arathi",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is an Arathi Resource Crate, exchanged for three Arathi Basin Marks of Honor."
+        },
+        {
+          "title": "Past Efforts in Warsong Gulch - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8570/past-efforts-in-warsong-gulch",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is a Warsong Gulch Ribbon of Sacrifice exchanged for a Warsong Gulch Mark of Honor."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest pages list an Arathi Resource Crate or Warsong Gulch Ribbon of Sacrifice as the objective and award a battleground mark; this assessment covers the exchange step after obtaining the item.",
+      "reason": "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8570,
+      "questName": "Past Efforts in Warsong Gulch",
+      "url": "https://www.wowhead.com/classic/quest=8570",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Past Victories in Arathi - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8565/past-victories-in-arathi",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is an Arathi Resource Crate, exchanged for three Arathi Basin Marks of Honor."
+        },
+        {
+          "title": "Past Efforts in Warsong Gulch - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8570/past-efforts-in-warsong-gulch",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest objective is a Warsong Gulch Ribbon of Sacrifice exchanged for a Warsong Gulch Mark of Honor."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest pages list an Arathi Resource Crate or Warsong Gulch Ribbon of Sacrifice as the objective and award a battleground mark; this assessment covers the exchange step after obtaining the item.",
+      "reason": "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8572,
+      "questName": "Veteran's Battlegear",
+      "url": "https://www.wowhead.com/classic/quest=8572",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The pinned objective is an item hand-in; danger from obtaining badges or materials occurs during their separate source content, not this quest step.",
+      "reason": "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8573,
+      "questName": "Champion's Battlegear",
+      "url": "https://www.wowhead.com/classic/quest=8573",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The pinned objective is an item hand-in; danger from obtaining badges or materials occurs during their separate source content, not this quest step.",
+      "reason": "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8574,
+      "questName": "Stalwart's Battlegear",
+      "url": "https://www.wowhead.com/classic/quest=8574",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The pinned objective is an item hand-in; danger from obtaining badges or materials occurs during their separate source content, not this quest step.",
+      "reason": "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8575,
+      "questName": "Azuregos's Magical Ledger",
+      "url": "https://www.wowhead.com/classic/quest=8575",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8576,
+      "questName": "Translating the Ledger",
+      "url": "https://www.wowhead.com/classic/quest=8576",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8577,
+      "questName": "Stewvul, Ex-B.F.F.",
+      "url": "https://www.wowhead.com/classic/quest=8577",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material objective or hazard; comment ranking was not used as evidence.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stewvul, Ex-B.F.F. - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8577/stewvul-ex-b-f-f",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:24:00+03:00",
+          "evidence": "Classic quest comments place the goggles in a crate at the Greymane Wall in Silverpine Forest; no combat objective is listed."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments identify the goggles in a crate near the Greymane Wall in Silverpine Forest; the quest does not require killing a level-60 Stewvul or clearing Twilight cultists.",
+      "reason": "This is a retrieval and return step that can be completed by locating the inconspicuous crate near the Greymane Wall. Avoid unrelated hostile patrols; the old warning’s level-60 cultist camp does not describe this Classic objective.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8578,
+      "questName": "Scrying Goggles? No Problem!",
+      "url": "https://www.wowhead.com/classic/quest=8578",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8579,
+      "questName": "Mortal Champions",
+      "url": "https://www.wowhead.com/classic/quest=8579",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:24:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8580,
+      "questName": "The Horde Needs Firebloom!",
+      "url": "https://www.wowhead.com/classic/quest=8580",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:24:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective adds no unusual combat; confidence is medium from the objective and existing Classic knowledge.",
+      "reason": "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:24:00+03:00",
+      "addonSource": "QuestData.lua"
     }
   ]
 }

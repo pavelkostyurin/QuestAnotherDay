@@ -3537,31 +3537,40 @@ local quests = {
     [8485] = { threat = "LOW", reason = "This is a city hand-in for the Timbermaw Offering of Peace and adds no combat. Use the normal route to the faction leader.", confidence = "medium" },
 
     -- The Horde Needs Copper Bars!
-    [8532] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Copper Bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8532] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Copper Bars!
-    [8533] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Copper Bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8533] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Tin Bars!
-    [8542] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Tin Bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8542] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Tin Bars!
-    [8543] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Tin Bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8543] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Mithril Bars!
-    [8545] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Mithril Bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8545] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Mithril Bars!
-    [8546] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Mithril Bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8546] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Peacebloom!
-    [8549] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Peacebloom. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8549] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs Peacebloom!
-    [8550] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Peacebloom. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8550] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
+
+    -- Past Victories in Arathi
+    [8566] = { threat = "LOW", reason = "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.", confidence = "medium" },
+
+    -- Past Victories in Warsong Gulch
+    [8568] = { threat = "LOW", reason = "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.", confidence = "medium" },
+
+    -- Past Efforts in Warsong Gulch
+    [8570] = { threat = "LOW", reason = "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.", confidence = "medium" },
 
     -- The Horde Needs Firebloom!
-    [8580] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Firebloom. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8580] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Horde Needs More Firebloom!
     [8581] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Firebloom. Event-limited. Safe if you stay in the city.", confidence = "high" },

@@ -4215,25 +4215,34 @@ local quests = {
     [8524] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Rainbow Fin Albacore!
-    [8525] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Rainbow Fin Albacore. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8525] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Roast Raptor!
-    [8526] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Roast Raptor. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8526] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Roast Raptor!
-    [8527] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Roast Raptor. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8527] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Spotted Yellowtail!
-    [8528] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Spotted Yellowtail. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8528] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Spotted Yellowtail!
-    [8529] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Spotted Yellowtail. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8529] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- Boots for the Guard
-    [8540] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 3 Ornate Mithril Boots. Safe if you stay in the city.", confidence = "high" },
+    [8540] = { threat = "LOW", reason = "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.", confidence = "medium" },
 
     -- Grinding Stones for the Guard
-    [8541] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Dense, 10 Solid, and 10 Heavy Grinding Stones. Safe if you stay in the city.", confidence = "high" },
+    [8541] = { threat = "LOW", reason = "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.", confidence = "medium" },
+
+    -- Past Victories in Arathi
+    [8565] = { threat = "LOW", reason = "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.", confidence = "medium" },
+
+    -- Past Victories in Warsong Gulch
+    [8567] = { threat = "LOW", reason = "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.", confidence = "medium" },
+
+    -- Past Efforts in Warsong Gulch
+    [8569] = { threat = "LOW", reason = "This is an item exchange for a battleground reward and adds no combat objective once the token or crate is in hand. Use the normal city route to the turn-in.", confidence = "medium" },
 
     -- Avenger's Breastplate
     [8627] = { threat = "EXTREME", reason = "Raid quest. Requires the Carapace of the Old God from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Honored reputation with Brood of Nozdormu.", confidence = "high" },

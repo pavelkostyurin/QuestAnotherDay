@@ -2658,40 +2658,43 @@ addon.quests = {
     [8519] = { threat = "LOW", reason = "This is a dialogue and history step with no combat objective. Travel to Anachronos through the Caverns of Time by a familiar route.", confidence = "medium" },
 
     -- Hive'Zora Scout Report
-    [8534] = { threat = "EXTREME", reason = "Requires entering Hive'Zora to contact Cenarion Scout Azenel. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8534] = { threat = "HIGH", reason = "Hostile elite silithids fill Hive’Zora, and the scout is deep inside the tunnels. The objective is to contact her and leave, so use stealth or a planned route and avoid fighting packs in confined passages.", confidence = "medium" },
 
     -- Hoary Templar
-    [8535] = { threat = "EXTREME", reason = "Requires summoning and slaying a Hoary Templar, a level 62 elite Abyssal Templar. These are elite summons that require a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [8535] = { threat = "HIGH", reason = "Elite quest. Summoning the level-62 Templar creates a hard single-target fight at the level-60 quest tier. Bring a partner or use a well-geared class and a prepared solo strategy.", confidence = "medium" },
 
     -- Earthen Templar
-    [8536] = { threat = "EXTREME", reason = "Requires summoning and slaying an Earthen Templar, a level 62 elite Abyssal Templar. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8536] = { threat = "HIGH", reason = "Elite quest. Summoning the level-62 Templar creates a hard single-target fight at the level-60 quest tier. Bring a partner or use a well-geared class and a prepared solo strategy.", confidence = "medium" },
 
     -- Crimson Templar
-    [8537] = { threat = "EXTREME", reason = "Requires summoning and slaying a Crimson Templar, a level 62 elite Abyssal Templar. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8537] = { threat = "HIGH", reason = "Elite quest. Summoning the level-62 Templar creates a hard single-target fight at the level-60 quest tier. Bring a partner or use a well-geared class and a prepared solo strategy.", confidence = "medium" },
 
     -- The Four Dukes
-    [8538] = { threat = "EXTREME", reason = "Requires summoning and slaying four Abyssal Dukes, each a level 62 elite. These are elite summons that require a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [8538] = { threat = "HIGH", reason = "Elite quest. The objective requires four summoned Abyssal Dukes, which are dangerous elite fights and require repeated access to Twilight summoning sites. A partner is recommended; attempt alone only with a strong class-specific plan.", confidence = "medium" },
 
     -- Target: Hive'Zora Hive Sisters
-    [8539] = { threat = "HIGH", reason = "Hive'Zora Hive Sisters are non-elite silithid inside the hive, levels 58-60. They are surrounded by elite guards. Stealth or careful pulling required. Do not attempt below level 58 solo without a plan.", confidence = "high" },
+    [8539] = { threat = "EXTREME", reason = "Elite quest. Hive’Zora Hive Sisters are level 59–60 elites, and the objective requires 30 kills inside a hostile hive. Bring a suitable group or skip this assignment on Hardcore.", confidence = "medium" },
 
     -- Conqueror's Spaulders
     [8544] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Command from Ahn'Qiraj, a level 60 raid dungeon. A full raid group of 20-40 players is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Volunteer's Battlegear
-    [8548] = { threat = "MEDIUM", reason = "Requires 5 Cenarion Combat Badges, 3 Cenarion Logistics Badges, and 7 Cenarion Tactical Badges. These are earned by completing field duty quests in Silithus, many of which involve killing elites. The badges themselves are earned through dangerous content. Requires Friendly reputation with Cenarion Circle. Do not attempt the badge-gathering quests solo without a group.", confidence = "high" },
+    [8548] = { threat = "LOW", reason = "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.", confidence = "medium" },
 
     -- The Captain's Chest
-    [8551] = { threat = "LOW", reason = "Delivery step with no combat. The chest is obtained from a previous quest. Safe if you stay on the road.", confidence = "high" },
+    [8551] = { threat = "LOW", reason = "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- The Monogrammed Sash
-    [8552] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8552] = { threat = "LOW", reason = "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- The Captain's Cutlass
-    [8553] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [8553] = { threat = "LOW", reason = "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Facing Negolash
-    [8554] = { threat = "EXTREME", reason = "Elite quest. Negolash is a level 50 elite sea giant who spawns when you place the food. He hits extremely hard and has high health. The lifeboat is on the coast with no escape route. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [8554] = { threat = "HIGH", reason = "Elite quest. Negolash is a level-52 elite that hits hard, and the shoreline encounter can punish a failed pull. Bring a group or attempt only with a class and strategy suited to soloing elites.", confidence = "medium" },
+
+    -- The Charge of the Dragonflights
+    [8555] = { threat = "LOW", reason = "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Signet of Unyielding Strength
     [8556] = { threat = "EXTREME", reason = "Raid quest. Requires a Qiraji Magisterial Ring from Ahn'Qiraj, a level 60 raid dungeon. A full raid group of 20-40 players is required. Do not attempt solo. Requires Honored reputation with Cenarion Circle.", confidence = "high" },
@@ -2715,19 +2718,22 @@ addon.quests = {
     [8562] = { threat = "EXTREME", reason = "Raid quest. Requires the Carapace of the Old God from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Honored reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Veteran's Battlegear
-    [8572] = { threat = "MEDIUM", reason = "Requires 7 Cenarion Combat Badges, 4 Logistics Badges, and 4 Tactical Badges. These are earned from field duty quests in Silithus, many of which involve killing elites. Requires Honored reputation with Cenarion Circle. Do not attempt the badge-gathering solo without a group.", confidence = "high" },
+    [8572] = { threat = "LOW", reason = "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.", confidence = "medium" },
 
     -- Champion's Battlegear
-    [8573] = { threat = "MEDIUM", reason = "Requires 15 Combat, 20 Logistics, and 20 Tactical Badges plus 1 Mark of Cenarius. These are earned from field duty quests, many involving elites. Requires Exalted reputation with Cenarion Circle. Do not attempt the badge-gathering solo without a group.", confidence = "high" },
+    [8573] = { threat = "LOW", reason = "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.", confidence = "medium" },
 
     -- Stalwart's Battlegear
-    [8574] = { threat = "MEDIUM", reason = "Requires 15 Combat, 20 Logistics, and 17 Tactical Badges plus 1 Mark of Remulos. These are earned from field duty quests, many involving elites. Requires Revered reputation with Cenarion Circle. Do not attempt the badge-gathering solo without a group.", confidence = "high" },
+    [8574] = { threat = "LOW", reason = "This is a materials or badge turn-in at Cenarion Hold with no combat objective in this quest step. Use the normal route to the recipient.", confidence = "medium" },
 
     -- Azuregos's Magical Ledger
-    [8575] = { threat = "LOW", reason = "Delivery step with no combat. The ledger is obtained from Azuregos, a world boss. Safe if you stay on the road.", confidence = "high" },
+    [8575] = { threat = "LOW", reason = "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.", confidence = "medium" },
+
+    -- Translating the Ledger
+    [8576] = { threat = "LOW", reason = "This is a dialogue, delivery, or translation step with no combat objective. Use a familiar route to the quest NPC.", confidence = "medium" },
 
     -- Stewvul, Ex-B.F.F.
-    [8577] = { threat = "MEDIUM", reason = "Requires finding Stewvul, a level 60 mob in southern Silithus, and taking back the scrying goggles. Stewvul is guarded by Twilight's Hammer cultists. Clear the area before engaging and watch for adds. Do not attempt below level 58 solo.", confidence = "medium" },
+    [8577] = { threat = "LOW", reason = "This is a retrieval and return step that can be completed by locating the inconspicuous crate near the Greymane Wall. Avoid unrelated hostile patrols; the old warning’s level-60 cultist camp does not describe this Classic objective.", confidence = "medium" },
 
     -- Scrying Goggles? No Problem!
     [8578] = { threat = "MEDIUM", reason = "Requires finding Narain's Scrying Goggles in the South Seas. The goggles are on an island guarded by level 58-60 mobs. The journey involves water travel and fighting. Do not attempt below level 58 solo without a group.", confidence = "medium" },
