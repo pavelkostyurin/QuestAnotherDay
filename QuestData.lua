@@ -4304,46 +4304,46 @@ addon.quests = {
     [1999] = { threat = "MEDIUM", reason = "Rogue class quest. The report is locked in Ambermill, among hostile Kirin Tor forces. Use stealth to reach the chest or clear a safe path before lockpicking.", confidence = "medium" },
 
     -- Bingles' Missing Supplies
-    [2038] = { threat = "MEDIUM", reason = "The supplies are scattered around the Loch Modan area, guarded by level 10-14 troggs and kobolds. Clear the area around each item and watch for adds. Do not attempt below level 10 solo.", confidence = "medium" },
+    [2038] = { threat = "HIGH", reason = "Trogg camps around the supplies can chain into several enemies, including casters and warriors that make retreat difficult. Clear the approach, pull from the edges, and leave if respawns close your escape route.", confidence = "medium" },
 
     -- Find Bingles
-    [2039] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [2039] = { threat = "LOW", reason = "Finding Bingles is a travel step with no required combat. Follow the explored route and avoid crossing hostile camps.", confidence = "medium" },
 
     -- Underground Assault
     [2040] = { threat = "HIGH", reason = "The Deadmines is a level 17-20 dungeon filled with elite Defias mobs. The sprocket is deep inside, guarded by elites. This requires a full group of level 18-22. Do not attempt solo.", confidence = "high" },
 
     -- Speak with Shoni
-    [2041] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2041] = { threat = "LOW", reason = "This is a conversation in Stormwind with no required combat. Stay within the city.", confidence = "medium" },
 
     -- Gyromast's Revenge
-    [2078] = { threat = "MEDIUM", reason = "The Threshwackonator is a level 20 elite robot in the Ruins of Mathystra. You must escort it back to Gelkak, and it will fight any mobs that attack it. The ruins are patrolled by level 18-22 naga and satyrs. Clear the path ahead and watch for adds. Do not attempt below level 20 solo without a plan to keep the robot alive.", confidence = "medium" },
+    [2078] = { threat = "HIGH", reason = "Elite quest. The first mate turns hostile near Gelkak, creating a difficult solo fight at the end of the escort. Use a class-specific control or kiting plan, or bring help if you cannot safely defeat it.", confidence = "medium" },
 
     -- Gyromast's Retrieval
-    [2098] = { threat = "MEDIUM", reason = "The pieces drop from level 18-22 mobs in Darkshore and Ashenvale. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
+    [2098] = { threat = "MEDIUM", reason = "The three key pieces come from creatures spread along the Darkshore coast and nearby forest. Choose isolated targets and avoid fights near overlapping murloc or crawler groups.", confidence = "medium" },
 
     -- Plagued Lands
-    [2118] = { threat = "MEDIUM", reason = "The bear is a level 18-22 mob in Darkshore. You must weaken it and use the trap. The bear hits hard and can call for help. Clear the area before engaging and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
+    [2118] = { threat = "MEDIUM", reason = "A Rabid Thistle Bear may attack while you use the capture trap, and you must lead it back through hostile territory. Start at full health, use the trap near the bear, and take a cleared route home.", confidence = "medium" },
 
     -- Cleansing of the Infected
-    [2138] = { threat = "MEDIUM", reason = "The bears are levels 18-22 and are scattered across the forest. They are aggressive and can call for help when low on health. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
+    [2138] = { threat = "LOW", reason = "The required bears are ordinary outdoor targets, so the main exposure is repeated combat. Pull one at a time and stop if nearby enemies join.", confidence = "medium" },
 
     -- Tharnariun's Hope
-    [2139] = { threat = "HIGH", reason = "The Den Mother is a level 24 elite furbolg in a cave in Darkshore, surrounded by guards. She hits hard and the cave is tight. Clear the cave before engaging and be ready for adds. Do not attempt below level 22 solo without a group.", confidence = "high" },
+    [2139] = { threat = "HIGH", reason = "The Den Mother is in a cave with cubs that can join the fight and stun you. Clear the cubs separately and return near the quest level, or bring a partner if you cannot manage the combined pull.", confidence = "high" },
 
     -- Rest and Relaxation
-    [2158] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [2158] = { threat = "LOW", reason = "This inn conversation adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Dolanaar Delivery
-    [2159] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2159] = { threat = "LOW", reason = "This delivery adds no combat. Use the established route between the friendly settlements.", confidence = "medium" },
 
     -- Supplies to Tannok
-    [2160] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2160] = { threat = "LOW", reason = "This supply delivery adds no combat. Follow the road into Kharanos and avoid nearby hostile camps.", confidence = "medium" },
 
     -- A Peon's Burden (Horde - Durotar)
-    [2161] = { threat = "LOW", reason = "This is a pure delivery quest with no combat. The journey from the Valley of Trials to Razor Hill is safe if you stay on the road.", confidence = "high" },
+    [2161] = { threat = "LOW", reason = "This is a delivery to Razor Hill with no required combat. Follow the road and avoid unnecessary detours.", confidence = "medium" },
 
     -- Easy Strider Living
-    [2178] = { threat = "LOW", reason = "The meat drops from striders in Darkshore. The striders are levels 14-18 and are scattered across the zone. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "high" },
+    [2178] = { threat = "LOW", reason = "Striders are ordinary outdoor targets for this meat collection. Pull isolated animals and recover between fights.", confidence = "medium" },
 
     -- The Shattered Necklace
     [2198] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
@@ -4361,58 +4361,58 @@ addon.quests = {
     [2202] = { threat = "HIGH", reason = "The caps are found in the Uldaman dig site, which is filled with level 35-40 elite troggs and stone mobs. The clusters can spew poison spores when jostled. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- Badlands Reagent Run II (Horde - Badlands)
-    [2203] = { threat = "HIGH", reason = "The dragons are level 40-44 elite drakonids. Using a vessel on them will anger them greatly. You need to fill 3 vessels, which means fighting 3 elite dragons. This is an Elite quest by design. Bring a group or overlevel significantly. Do not attempt below level 44 solo.", confidence = "high" },
+    [2203] = { threat = "HIGH", reason = "Using each vessel angers a Scorched Guardian, an elite dragon in Lethlor Ravine. Use reliable control or range, keep an escape route clear, and do not engage multiple guardians together.", confidence = "medium" },
 
     -- Restoring the Necklace
     [2204] = { threat = "HIGH", reason = "The power source drops from a dungeon boss. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- Seek out SI: 7
-    [2205] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2205] = { threat = "LOW", reason = "This package delivery ends in Stormwind and adds no combat. Use the normal road or flight route.", confidence = "medium" },
 
     -- Snatch and Grab
-    [2206] = { threat = "MEDIUM", reason = "The Dockmaster is a level 22-24 mob in the Deadmines exterior area, guarded by Defias mobs. Clear the area before engaging and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [2206] = { threat = "MEDIUM", reason = "The shipping schedule is inside a Defias-held dock house, where nearby enemies can join a careless approach. Clear the entrance and retreat path before searching the building.", confidence = "medium" },
 
     -- Road to Salvation
-    [2218] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2218] = { threat = "LOW", reason = "This is a conversation in Ironforge with no required combat. Stay within the city.", confidence = "medium" },
 
     -- Simple Subterfugin'
-    [2238] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [2238] = { threat = "LOW", reason = "This is a meeting outside Gnomeregan with no required combat. Follow the road and avoid hostile creatures near the entrance.", confidence = "medium" },
 
     -- Onin's Report
-    [2239] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2239] = { threat = "LOW", reason = "This report delivery adds no combat. Use the normal route back to Ironforge.", confidence = "medium" },
 
     -- The Hidden Chamber
     [2240] = { threat = "HIGH", reason = "The hidden chamber is inside Uldaman, a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- The Apple Falls
-    [2241] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2241] = { threat = "LOW", reason = "This is a delivery in Darnassus with no required combat. Stay within the city.", confidence = "medium" },
 
     -- Destiny Calls
-    [2242] = { threat = "MEDIUM", reason = "Sethir is a level 20-24 mob in the Ruins of Mathystra in Darkshore, guarded by naga and satyrs. Clear the area before engaging and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [2242] = { threat = "HIGH", reason = "Rogue quest. Attacking Sethir summons several minions that can overwhelm a solo character. Stay in stealth, approach from behind, pickpocket the journal, and leave without starting a fight.", confidence = "high" },
 
     -- Badlands Reagent Run (Horde - Badlands)
-    [2258] = { threat = "MEDIUM", reason = "The drop rates are notoriously low, especially for the gizzards and shards. The buzzards are levels 39-40 and gather around carcasses, where pulling multiple can be dangerous. The rock elementals are in the mountains east of Kargath. Watch out for Zaricotl, a level 55 elite vulture who patrols the area and will one-shot you. Do not attempt below level 38.", confidence = "high" },
+    [2258] = { threat = "MEDIUM", reason = "This collection sends you among buzzards, coyotes, and rock elementals in the Badlands. Pull isolated targets and keep clear of stronger enemies while moving between areas.", confidence = "medium" },
 
     -- Erion Shadewhisper
-    [2259] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2259] = { threat = "LOW", reason = "This is a conversation in Darnassus with no required combat. Stay within the city.", confidence = "medium" },
 
     -- Erion's Behest
-    [2260] = { threat = "LOW", reason = "Safe if you stay in the city.", confidence = "high" },
+    [2260] = { threat = "LOW", reason = "This is a travel and conversation step ending in Stormwind. Use the normal route and avoid unnecessary combat.", confidence = "medium" },
 
     -- The Platinum Discs (Activate)
     [2278] = { threat = "HIGH", reason = "This takes place in the treasure chamber after the final boss of Uldaman, a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- The Platinum Discs (Deliver)
-    [2279] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2279] = { threat = "LOW", reason = "This is a turn-in in Ironforge with no required combat. Stay within the city.", confidence = "medium" },
 
     -- The Platinum Discs (Horde - Uldaman)
     [2280] = { threat = "HIGH", reason = "This quest takes place in the treasure chamber after the final boss of Uldaman. The chamber is safe once the boss is dead, but getting there requires a full dungeon group. Do not attempt without clearing the dungeon.", confidence = "high" },
 
     -- Redridge Rendezvous
-    [2281] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Redridge is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
+    [2281] = { threat = "LOW", reason = "This is a meeting in Lakeshire with no required combat. Follow the road through Redridge and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Alther's Mill
-    [2282] = { threat = "MEDIUM", reason = "The lockbox is in Alther's Mill, which is patrolled by level 20-24 Shadowhide gnolls. Clear the area before looting and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [2282] = { threat = "MEDIUM", reason = "The lockbox is in a hostile gnoll area near Alther’s Mill. Approach from the edge, clear nearby enemies, and leave a retreat route before opening it.", confidence = "medium" },
 
     -- Necklace Recovery (Horde - Uldaman)
     [2283] = { threat = "HIGH", reason = "The necklace is found on a corpse in the Uldaman dig site, which is filled with level 35-40 elites. This requires a full dungeon group. The corpse is deep inside the instance.", confidence = "high" },
@@ -4421,13 +4421,13 @@ addon.quests = {
     [2284] = { threat = "HIGH", reason = "You need to find the paladin's corpse and retrieve his journal. The corpse is deep inside the dungeon, past multiple elite packs. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- Kingly Shakedown
-    [2298] = { threat = "LOW", reason = "Safe if you stay in the city.", confidence = "high" },
+    [2298] = { threat = "LOW", reason = "This is a conversation in Stormwind with no required combat. Stay within the city.", confidence = "medium" },
 
     -- To Hulfdan!
-    [2299] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2299] = { threat = "LOW", reason = "This is a travel and conversation step ending in Ironforge. Use the normal route and avoid unnecessary combat.", confidence = "medium" },
 
     -- SI:7
-    [2300] = { threat = "LOW", reason = "Safe if you stay in the city.", confidence = "high" },
+    [2300] = { threat = "LOW", reason = "This is a conversation in Stormwind with no required combat. Stay within the city.", confidence = "medium" },
 
     -- Translating the Journal (Horde - Badlands)
     [2318] = { threat = "LOW", reason = "The closest location is Kargath in the Badlands. This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
@@ -4448,10 +4448,10 @@ addon.quests = {
     [2342] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Horns of Nez'ra
-    [2358] = { threat = "MEDIUM", reason = "The horns drop from a named demon in Redridge. The demon is level 24-26 and is surrounded by guards. Clear the area before engaging and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
+    [2358] = { threat = "MEDIUM", reason = "Rogue quest. Horns drop from Blackrock orcs across Redridge, including clustered camps and elite enemies. Farm isolated lower-level orcs and avoid elite patrols or groups you cannot handle.", confidence = "medium" },
 
     -- Klaven's Tower
-    [2359] = { threat = "HIGH", reason = "Take whatever information you find back to Mathias Shaw in Stormwind. The tower is in Duskwood and is filled with level 24-28 Defias mobs. The key is held by a named mob, and the tower has multiple floors with patrolling guards. A level 26 rogue soloed this by stealthing through and using Distract, but a level 30 warrior died trying to fight through. Do not attempt below level 26 solo without stealth or a group.", confidence = "high" },
+    [2359] = { threat = "HIGH", reason = "Rogue quest. Patrolling guards and the elite at the top make the tower dangerous, and the journal’s poison can make stealth harder. Take the outside key first, use stealth and control skills, and keep an escape ready.", confidence = "medium" },
 
     -- Mathias and the Defias
     [2360] = { threat = "MEDIUM", reason = "The journey passes through Duskwood and Westfall, which are patrolled by level 20-28 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 24 solo.", confidence = "medium" },

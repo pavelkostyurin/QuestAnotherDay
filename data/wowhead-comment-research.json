@@ -38523,6 +38523,1043 @@
       "reason": "Rogue class quest. The report is locked in Ambermill, among hostile Kirin Tor forces. Use stealth to reach the chest or clear a safe path before lockpicking.",
       "threat": "MEDIUM",
       "confidence": "medium"
+    },
+    {
+      "questId": 2038,
+      "questName": "Bingles' Missing Supplies",
+      "url": "https://www.wowhead.com/classic/quest=2038",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Relevant comment sample read; comment ordering was not verified.",
+      "commentsReviewed": 6,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Bingles' Missing Supplies - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2038/bingles-missing-supplies",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Quest text and readable comments place the items in trogg camps on Loch Modan islands; reports describe close groups, caster heals/stuns, and respawns that can add enemies."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies four pickups in trogg-held camps. Classic quest comments describe clustered camps, stuns/healing, and fast respawns. HIGH reflects the risk of chained pulls; confidence is medium because the supporting reports are community comments from one page.",
+      "reason": "Trogg camps around the supplies can chain into several enemies, including casters and warriors that make retreat difficult. Clear the approach, pull from the edges, and leave if respawns close your escape route.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2039,
+      "questName": "Find Bingles",
+      "url": "https://www.wowhead.com/classic/quest=2039",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog describes locating Bingles in Loch Modan; no combat objective is listed. LOW is supported by the travel-only step; confidence is medium from local context and established zone knowledge.",
+      "reason": "Finding Bingles is a travel step with no required combat. Follow the explored route and avoid crossing hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2040,
+      "questName": "Underground Assault",
+      "url": "https://www.wowhead.com/classic/quest=2040",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2041,
+      "questName": "Speak with Shoni",
+      "url": "https://www.wowhead.com/classic/quest=2041",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog describes a city conversation with no combat objective. LOW is supported by the local description; confidence is medium.",
+      "reason": "This is a conversation in Stormwind with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2078,
+      "questName": "Gyromast's Revenge",
+      "url": "https://www.wowhead.com/classic/quest=2078",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Relevant comment sample read; comment ordering was not verified.",
+      "commentsReviewed": 6,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Gyromast's Revenge - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2078/gyromasts-revenge",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Quest text supplies the key and directs the player to lead the first mate to Gelkak; readable comments say the robot turns hostile near the captain and document successful solo attempts with class-specific tactics as well as failures."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog describes leading the robot to Gelkak. Wowhead quest text and Classic comments confirm it becomes hostile near the captain; reports show class-specific solo strategies and failures. HIGH reflects a demanding elite fight; medium confidence accounts for mixed and anecdotal solo outcomes.",
+      "reason": "Elite quest. The first mate turns hostile near Gelkak, creating a difficult solo fight at the end of the escort. Use a class-specific control or kiting plan, or bring help if you cannot safely defeat it.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2098,
+      "questName": "Gyromast's Retrieval",
+      "url": "https://www.wowhead.com/classic/quest=2098",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Relevant comment sample read; comment ordering was not verified.",
+      "commentsReviewed": 4,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Gyromast's Retrieval - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2098/gyromasts-retrieval",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Quest text and comments identify the three key pieces as drops from Darkshore creatures; reports place the objectives among crawlers, murlocs, and foreststriders."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog requires three pieces from Darkshore wildlife. Wowhead comments identify crawlers, murlocs, and foreststriders as sources; ordinary outdoor pulls remain manageable but the spread and hostile groups add exposure. Confidence is medium.",
+      "reason": "The three key pieces come from creatures spread along the Darkshore coast and nearby forest. Choose isolated targets and avoid fights near overlapping murloc or crawler groups.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2118,
+      "questName": "Plagued Lands",
+      "url": "https://www.wowhead.com/classic/quest=2118",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Relevant comment sample read; comment ordering was not verified.",
+      "commentsReviewed": 5,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Plagued Lands - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2118/plagued-lands",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Quest text requires capturing and leading a Rabid Thistle Bear; Classic comments explain using the supplied trap near the bear and describe that it may attack before capture."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest text and Classic comments confirm the trap-and-return objective and that the bear can attack during capture. MEDIUM reflects brief combat plus an exposed return; confidence is medium because the attack details come from community reports.",
+      "reason": "A Rabid Thistle Bear may attack while you use the capture trap, and you must lead it back through hostile territory. Start at full health, use the trap near the bear, and take a cleared route home.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2138,
+      "questName": "Cleansing of the Infected",
+      "url": "https://www.wowhead.com/classic/quest=2138",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog calls for defeating Rabid Thistle Bears; no special event or elite objective is listed. LOW reflects routine outdoor combat at the quest’s intended level; confidence is medium from local context and game knowledge.",
+      "reason": "The required bears are ordinary outdoor targets, so the main exposure is repeated combat. Pull one at a time and stop if nearby enemies join.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2139,
+      "questName": "Tharnariun's Hope",
+      "url": "https://www.wowhead.com/classic/quest=2139",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Tharnariun's Hope - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2139/tharnariuns-hope",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Quest text locates the Den Mother in a cave northeast of Bashal’Aran."
+        },
+        {
+          "title": "Den Mother - WoWWiki archive",
+          "url": "https://wowwiki-archive.fandom.com/wiki/Den_Mother",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Records the Den Mother at levels 18–19 and describes cubs in the cave that join combat and stun; independently supports the dangerous cave pull."
+        },
+        {
+          "title": "WoW Forever Darkshore Leveling Guide",
+          "url": "https://bindonforever.com/zones/darkshore",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Identifies the Den Mother as level 18–19 and warns that nearby Thistle Cubs stun; recommends clearing them before the boss."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest text places the target in a cave. WoWWiki and the Bind on Forever Darkshore guide independently report level 18–19 and cubs that join and stun. HIGH reflects the dangerous multi-enemy cave pull; confidence is high because specific Era sources agree.",
+      "reason": "The Den Mother is in a cave with cubs that can join the fight and stun you. Clear the cubs separately and return near the quest level, or bring a partner if you cannot manage the combined pull.",
+      "threat": "HIGH",
+      "confidence": "high"
+    },
+    {
+      "questId": 2158,
+      "questName": "Rest and Relaxation",
+      "url": "https://www.wowhead.com/classic/quest=2158",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a conversation with an innkeeper. LOW and medium confidence follow from the travel-only local context.",
+      "reason": "This inn conversation adds no combat. Stay within the settlement.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2159,
+      "questName": "Dolanaar Delivery",
+      "url": "https://www.wowhead.com/classic/quest=2159",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a delivery between innkeepers. LOW and medium confidence follow from the travel-only local context.",
+      "reason": "This delivery adds no combat. Use the established route between the friendly settlements.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2160,
+      "questName": "Supplies to Tannok",
+      "url": "https://www.wowhead.com/classic/quest=2160",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a delivery to Kharanos. LOW is supported by the travel-only objective; confidence is medium from local context.",
+      "reason": "This supply delivery adds no combat. Follow the road into Kharanos and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2161,
+      "questName": "A Peon's Burden",
+      "url": "https://www.wowhead.com/classic/quest=2161",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a delivery objective in a friendly settlement. LOW and medium confidence follow from the travel-only local context.",
+      "reason": "This is a delivery to Razor Hill with no required combat. Follow the road and avoid unnecessary detours.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2178,
+      "questName": "Easy Strider Living",
+      "url": "https://www.wowhead.com/classic/quest=2178",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog calls for meat from striders without an elite or event objective. LOW reflects routine outdoor combat; confidence is medium from local context and game knowledge.",
+      "reason": "Striders are ordinary outdoor targets for this meat collection. Pull isolated animals and recover between fights.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2198,
+      "questName": "The Shattered Necklace",
+      "url": "https://www.wowhead.com/classic/quest=2198",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2199,
+      "questName": "Lore for a Price",
+      "url": "https://www.wowhead.com/classic/quest=2199",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2200,
+      "questName": "Back to Uldaman",
+      "url": "https://www.wowhead.com/classic/quest=2200",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2201,
+      "questName": "Find the Gems",
+      "url": "https://www.wowhead.com/classic/quest=2201",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2202,
+      "questName": "Uldaman Reagent Run",
+      "url": "https://www.wowhead.com/classic/quest=2202",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2203,
+      "questName": "Badlands Reagent Run II",
+      "url": "https://www.wowhead.com/classic/quest=2203",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Relevant comment sample read; comment ordering was not verified.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Badlands Reagent Run II - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2203/badlands-reagent-run-ii",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Quest text explicitly says using a vessel on a Scorched Guardian angers it; Classic Era comments describe these as elite dragons and report using roots, range, and escape/reset tactics."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog says the vessels are used on Scorched Guardians; quest text confirms the item angers its target, and Classic Era reports identify elite dragons and control/escape tactics. HIGH reflects the dangerous elite encounters; confidence is medium because the tactical reports are community evidence.",
+      "reason": "Using each vessel angers a Scorched Guardian, an elite dragon in Lethlor Ravine. Use reliable control or range, keep an escape route clear, and do not engage multiple guardians together.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2204,
+      "questName": "Restoring the Necklace",
+      "url": "https://www.wowhead.com/classic/quest=2204",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2205,
+      "questName": "Seek out SI: 7",
+      "url": "https://www.wowhead.com/classic/quest=2205",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a city delivery with no combat objective. LOW and medium confidence follow from the local description.",
+      "reason": "This package delivery ends in Stormwind and adds no combat. Use the normal road or flight route.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2206,
+      "questName": "Snatch and Grab",
+      "url": "https://www.wowhead.com/classic/quest=2206",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and Classic quest text place the objective inside a Defias-controlled dock house. MEDIUM reflects the hostile camp approach; confidence is medium because the exact pull risk is inferred from the described location.",
+      "reason": "The shipping schedule is inside a Defias-held dock house, where nearby enemies can join a careless approach. Clear the entrance and retreat path before searching the building.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2218,
+      "questName": "Road to Salvation",
+      "url": "https://www.wowhead.com/classic/quest=2218",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a city conversation with no combat objective. LOW and medium confidence follow from local context.",
+      "reason": "This is a conversation in Ironforge with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2238,
+      "questName": "Simple Subterfugin'",
+      "url": "https://www.wowhead.com/classic/quest=2238",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog describes finding Onin by Gnomeregan without a combat objective. LOW reflects a travel step; confidence is medium from local context.",
+      "reason": "This is a meeting outside Gnomeregan with no required combat. Follow the road and avoid hostile creatures near the entrance.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2239,
+      "questName": "Onin's Report",
+      "url": "https://www.wowhead.com/classic/quest=2239",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a report delivery to Ironforge. LOW and medium confidence follow from local context.",
+      "reason": "This report delivery adds no combat. Use the normal route back to Ironforge.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2240,
+      "questName": "The Hidden Chamber",
+      "url": "https://www.wowhead.com/classic/quest=2240",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2241,
+      "questName": "The Apple Falls",
+      "url": "https://www.wowhead.com/classic/quest=2241",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a city delivery. LOW and medium confidence follow from the local description.",
+      "reason": "This is a delivery in Darnassus with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2242,
+      "questName": "Destiny Calls",
+      "url": "https://www.wowhead.com/classic/quest=2242",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Relevant comment sample read; comment ordering was not verified.",
+      "commentsReviewed": 5,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Destiny Calls - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2242/destiny-calls",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Quest text suggests stealth and asks for an item from Sethir’s pack."
+        },
+        {
+          "title": "Sethir the Ancient - NPC - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/npc=6909/sethir-the-ancient",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Classic comments say the objective is pickpocketing; attacking can summon several Minions of Sethir, and a stealth approach from behind avoids a direct fight."
+        },
+        {
+          "title": "Sethir the Ancient - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Sethir_the_Ancient",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Describes the rogue objective as stealing Sethir’s Journal and warns that attacking summons many minions, supporting the pickpocket-and-retreat tactic."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog and Classic quest text point to stealth and an item from Sethir’s pack. Wowhead Classic comments and Warcraft Wiki describe pickpocketing the journal and multiple minions spawning if attacked. HIGH reflects the dangerous failure mode; confidence is high because independent sources agree on the mechanic and safe route.",
+      "reason": "Rogue quest. Attacking Sethir summons several minions that can overwhelm a solo character. Stay in stealth, approach from behind, pickpocket the journal, and leave without starting a fight.",
+      "threat": "HIGH",
+      "confidence": "high"
+    },
+    {
+      "questId": 2258,
+      "questName": "Badlands Reagent Run",
+      "url": "https://www.wowhead.com/classic/quest=2258",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog lists three outdoor creature drops across the Badlands. MEDIUM reflects varied hostile terrain and repeated pulls; confidence is medium. The previous warning’s exact level and patrol claims were not supported by the catalog and were removed.",
+      "reason": "This collection sends you among buzzards, coyotes, and rock elementals in the Badlands. Pull isolated targets and keep clear of stronger enemies while moving between areas.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2259,
+      "questName": "Erion Shadewhisper",
+      "url": "https://www.wowhead.com/classic/quest=2259",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a city conversation. LOW and medium confidence follow from local context.",
+      "reason": "This is a conversation in Darnassus with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2260,
+      "questName": "Erion's Behest",
+      "url": "https://www.wowhead.com/classic/quest=2260",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a city conversation after travel. LOW and medium confidence follow from local context.",
+      "reason": "This is a travel and conversation step ending in Stormwind. Use the normal route and avoid unnecessary combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2278,
+      "questName": "The Platinum Discs",
+      "url": "https://www.wowhead.com/classic/quest=2278",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2279,
+      "questName": "The Platinum Discs",
+      "url": "https://www.wowhead.com/classic/quest=2279",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies delivery of an item to the Explorers’ League in Ironforge. LOW and medium confidence follow from local context.",
+      "reason": "This is a turn-in in Ironforge with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2280,
+      "questName": "The Platinum Discs",
+      "url": "https://www.wowhead.com/classic/quest=2280",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2281,
+      "questName": "Redridge Rendezvous",
+      "url": "https://www.wowhead.com/classic/quest=2281",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a travel and conversation objective. LOW reflects travel on a road without a combat requirement; confidence is medium.",
+      "reason": "This is a meeting in Lakeshire with no required combat. Follow the road through Redridge and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2282,
+      "questName": "Alther's Mill",
+      "url": "https://www.wowhead.com/classic/quest=2282",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog requires opening a lockbox in a named hostile area. MEDIUM reflects the camp approach and possible adds; confidence is medium from the location and existing knowledge.",
+      "reason": "The lockbox is in a hostile gnoll area near Alther’s Mill. Approach from the edge, clear nearby enemies, and leave a retreat route before opening it.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2283,
+      "questName": "Necklace Recovery",
+      "url": "https://www.wowhead.com/classic/quest=2283",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2284,
+      "questName": "Necklace Recovery, Take 2",
+      "url": "https://www.wowhead.com/classic/quest=2284",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2298,
+      "questName": "Kingly Shakedown",
+      "url": "https://www.wowhead.com/classic/quest=2298",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a city conversation. LOW and medium confidence follow from local context.",
+      "reason": "This is a conversation in Stormwind with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2299,
+      "questName": "To Hulfdan!",
+      "url": "https://www.wowhead.com/classic/quest=2299",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies travel to a city and a conversation. LOW and medium confidence follow from local context.",
+      "reason": "This is a travel and conversation step ending in Ironforge. Use the normal route and avoid unnecessary combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2300,
+      "questName": "SI:7",
+      "url": "https://www.wowhead.com/classic/quest=2300",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies a city conversation. LOW and medium confidence follow from local context.",
+      "reason": "This is a conversation in Stormwind with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2318,
+      "questName": "Translating the Journal",
+      "url": "https://www.wowhead.com/classic/quest=2318",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2338,
+      "questName": "Translating the Journal",
+      "url": "https://www.wowhead.com/classic/quest=2338",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2339,
+      "questName": "Find the Gems and Power Source",
+      "url": "https://www.wowhead.com/classic/quest=2339",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2340,
+      "questName": "Deliver the Gems",
+      "url": "https://www.wowhead.com/classic/quest=2340",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2341,
+      "questName": "Necklace Recovery, Take 3",
+      "url": "https://www.wowhead.com/classic/quest=2341",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2342,
+      "questName": "Reclaimed Treasures",
+      "url": "https://www.wowhead.com/classic/quest=2342",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:39:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned Classic quest catalog tags this quest as a Dungeon quest."
+    },
+    {
+      "questId": 2358,
+      "questName": "Horns of Nez'ra",
+      "url": "https://www.wowhead.com/classic/quest=2358",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external lookup needed for this routine assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Horns of Nez'ra - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Horns_of_Nez%27ra",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "States that the horns are obtained from Blackrock orcs in Redridge, correcting the prior named-target claim."
+        },
+        {
+          "title": "Horns of Nez'ra - Objets - World of Warcraft Classic - JudgeHype",
+          "url": "https://wowclassic.judgehype.com/database/en/item/7906/horns-of-nez%27ra/",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Lists level 19–26 Blackrock orc sources, including elite Blackrock enemies, supporting the camp danger and lower-level farming advice."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic item and quest sources show the horns drop from multiple Blackrock orcs, not a unique named target. Item data includes level 19–26 enemies and several elites. MEDIUM reflects the risk of camp pulls at the level 22 quest; confidence is medium because the drop table is documented but the exact safest farming route is inferred.",
+      "reason": "Rogue quest. Horns drop from Blackrock orcs across Redridge, including clustered camps and elite enemies. Farm isolated lower-level orcs and avoid elite patrols or groups you cannot handle.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2359,
+      "questName": "Klaven's Tower",
+      "url": "https://www.wowhead.com/classic/quest=2359",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:39:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Relevant comment sample read; comment ordering was not verified.",
+      "commentsReviewed": 8,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Klaven's Tower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2359/klavens-tower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:39:17+03:00",
+          "evidence": "Quest text requires the outside key and journal from a guarded tower chest. Readable Classic comments describe patrolling guards, a dangerous elite near the chest, stealth/control tactics, and the journal’s poison making stealth harder."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms the guarded tower, outside key, and chest objective. Wowhead comments report patrolling guards, a dangerous elite, and a poison that complicates stealth, alongside successful rogue stealth/control routes. HIGH reflects the lethal cost of a failed solo infiltration; confidence is medium because the tactical details are community reports with mixed outcomes.",
+      "reason": "Rogue quest. Patrolling guards and the elite at the top make the tower dangerous, and the journal’s poison can make stealth harder. Take the outside key first, use stealth and control skills, and keep an escape ready.",
+      "threat": "HIGH",
+      "confidence": "medium"
     }
   ]
 }
