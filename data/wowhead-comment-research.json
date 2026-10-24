@@ -47148,6 +47148,1330 @@
       "reason": "This is a report to Vizzklick in Gadgetzan and adds no combat.",
       "threat": "LOW",
       "confidence": "medium"
+    },
+    {
+      "questId": 3421,
+      "questName": "Return Trip",
+      "url": "https://www.wowhead.com/classic/quest=3421",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 2 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 3,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Return Trip",
+          "url": "https://www.wowhead.com/classic/quest=3421/return-trip",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest reward teleports the player from Azshara Tower to Sanath’s camp."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This is the return teleport from Azshara Tower to Sanath’s camp; no combat objective is added.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3441,
+      "questName": "Divine Retribution",
+      "url": "https://www.wowhead.com/classic/quest=3441",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Listening to Kalaran adds no combat. Stay near the quest giver and avoid nearby hostile creatures.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3442,
+      "questName": "The Flawless Flame",
+      "url": "https://www.wowhead.com/classic/quest=3442",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 20 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 16,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Flawless Flame",
+          "url": "https://www.wowhead.com/classic/quest=3442/the-flawless-flame",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest text calls for golem and elemental materials; the retrieved Classic quest comments discuss farming these hostile mobs in and around the Cauldron, not elite flags."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The required materials come from hostile elementals and golems in Searing Gorge. Fight on the edges of the Cauldron and avoid pulling several enemies together.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3443,
+      "questName": "Forging the Shaft",
+      "url": "https://www.wowhead.com/classic/quest=3443",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 20 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Forging the Shaft",
+          "url": "https://www.wowhead.com/classic/quest=3443/forging-the-shaft",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest requires daggers from Dark Iron enemies; comments describe pulls in and around the Cauldron and occasional golem respawns."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved evidence supports part of the mechanics; the remaining danger assessment uses catalog context and inference.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Thorium Plated Daggers drop from Dark Iron enemies around the Cauldron and nearby dig site. Pull them individually and watch for golem respawns.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3444,
+      "questName": "The Stone Circle",
+      "url": "https://www.wowhead.com/classic/quest=3444",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text or local structured evidence was reviewed; no comments were used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Stone Circle",
+          "url": "https://www.wowhead.com/classic/quest=3444/the-stone-circle",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "The quest text says the item is in the Ratchet workshop; Ratchet is the pickup location."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The Stone Circle is in a chest by Marvon’s workshop in Ratchet; this step adds no combat. Use the ordinary route to and from town.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3445,
+      "questName": "The Sunken Temple",
+      "url": "https://www.wowhead.com/classic/quest=3445",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 10 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 10,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Sunken Temple",
+          "url": "https://www.wowhead.com/classic/quest=3445/the-sunken-temple",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic page and comments locate Marvon at Broken Pillar south of Gadgetzan, not inside the dungeon."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved evidence supports part of the mechanics; the remaining danger assessment uses catalog context and inference.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Marvon is at the Broken Pillar south of Gadgetzan. The turn-in adds no combat; avoid nearby Tanaris wildlife on the approach.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3446,
+      "questName": "Into the Depths",
+      "url": "https://www.wowhead.com/classic/quest=3446",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:22:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a dungeon; traversal skips catalog Dungeon/Raid quests before research."
+    },
+    {
+      "questId": 3447,
+      "questName": "Secret of the Circle",
+      "url": "https://www.wowhead.com/classic/quest=3447",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:22:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a dungeon; traversal skips catalog Dungeon/Raid quests before research."
+    },
+    {
+      "questId": 3448,
+      "questName": "Passing the Burden",
+      "url": "https://www.wowhead.com/classic/quest=3448",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This is a dialogue step in Ironforge and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3449,
+      "questName": "Arcane Runes",
+      "url": "https://www.wowhead.com/classic/quest=3449",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 8 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 9,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Arcane Runes",
+          "url": "https://www.wowhead.com/classic/quest=3449/arcane-runes",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest text identifies the Ruins of Eldarath and warns of other interested parties; comments locate the runes and island pickup and describe avoiding hydras by swimming."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The runes are in hostile Azshara ruins, and the pickup island is exposed to aquatic enemies. Use the marked locations and approach the island cautiously; swimming can avoid many shore mobs.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3450,
+      "questName": "An Easy Pickup",
+      "url": "https://www.wowhead.com/classic/quest=3450",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This is a dialogue step with Xiggs in Ironforge and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3451,
+      "questName": "Signal for Pickup",
+      "url": "https://www.wowhead.com/classic/quest=3451",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Picking up the flare gun from Xiggs in Ironforge adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3452,
+      "questName": "The Flame's Casing",
+      "url": "https://www.wowhead.com/classic/quest=3452",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 20 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Symbol of Ragnaros",
+          "url": "https://www.wowhead.com/classic/item=10552/symbol-of-ragnaros",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "The item drops from level 47–51 elite Twilight’s Hammer enemies; comments include solo reports with single pulls and class-specific tactics."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Elite quest. Twilight’s Hammer elites in the Searing Gorge camp can heal or deal heavy damage, and the symbol may take several kills to drop. Pull one at a time and interrupt casters; bring help if you cannot manage an elite safely.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3453,
+      "questName": "The Torch of Retribution",
+      "url": "https://www.wowhead.com/classic/quest=3453",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Waiting for Kalaran to finish the torch adds no combat. Stay near the quest giver.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3454,
+      "questName": "The Torch of Retribution",
+      "url": "https://www.wowhead.com/classic/quest=3454",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Taking the torch adds no combat. Stay near the quest giver and avoid nearby hostiles.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3461,
+      "questName": "Return to Tymor",
+      "url": "https://www.wowhead.com/classic/quest=3461",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Returning the drawing kit in Ironforge adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3462,
+      "questName": "Squire Maltrake",
+      "url": "https://www.wowhead.com/classic/quest=3462",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Speaking with Squire Maltrake adds no combat. Approach the NPC without cutting through hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3463,
+      "questName": "Set Them Ablaze!",
+      "url": "https://www.wowhead.com/classic/quest=3463",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 2 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Set Them Ablaze!",
+          "url": "https://www.wowhead.com/classic/quest=3463/set-them-ablaze",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "The Classic quest page warns of elite sentries; comments report using the torch without killing them and describe guards around the towers."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Elite quest. Each tower has an elite sentry, but the torch can be used without killing it; nearby guards can still join. Approach each tower carefully and be ready to escape or handle the sentry.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3481,
+      "questName": "Trinkets...",
+      "url": "https://www.wowhead.com/classic/quest=3481",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 4 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Trinkets...",
+          "url": "https://www.wowhead.com/classic/quest=3481/trinkets",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest is completed by opening the chest; comments locate it beside Kalaran after his preceding chain."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The chest beside Kalaran in Searing Gorge is opened to complete this step; no additional fight is required. Avoid nearby enemies while interacting.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3483,
+      "questName": "Signal for Pickup",
+      "url": "https://www.wowhead.com/classic/quest=3483",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text or local structured evidence was reviewed; no comments were used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Signal for Pickup",
+          "url": "https://www.wowhead.com/classic/quest=3483/signal-for-pickup",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest completion gives the Standard Issue Flare Gun from Xiggs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Xiggs provides the flare gun in Ironforge; this pickup step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3501,
+      "questName": "Everything Counts In Large Amounts",
+      "url": "https://www.wowhead.com/classic/quest=3501",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 20 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Everything Counts In Large Amounts",
+          "url": "https://www.wowhead.com/classic/quest=3501/everything-counts-in-large-amounts",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic page/comments state the fragment can drop from many kinds of Blasted Lands mobs and the quest can be turned in per fragment."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This repeatable turn-in exchanges an Imperfect Draenethyst Fragment already found; it requires no specific combat objective. Avoid farming dangerous mobs just for the item.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3502,
+      "questName": "One Draenei's Junk...",
+      "url": "https://www.wowhead.com/classic/quest=3502",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; the description says the fragment may drop from any Blasted Lands monster, so no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The local catalog describes an item turn-in repeatable for fragments carried by any Blasted Lands monster. The LOW rating is for turning in a fragment already found, not a recommendation to grind dangerous mobs. Confidence is medium because the judgment comes from the local description and knowledge.",
+      "reason": "This repeatable turn-in exchanges an Imperfect Draenethyst Fragment already found; it requires no specific combat objective. Avoid farming dangerous mobs just for the item.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3503,
+      "questName": "Meeting with the Master",
+      "url": "https://www.wowhead.com/classic/quest=3503",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 4 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 4,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Meeting with the Master",
+          "url": "https://www.wowhead.com/classic/quest=3503/meeting-with-the-master",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic page marks this as a repeatable interaction/teleport step with Sanath, with teleport to Azshara Tower."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This dialogue and teleport step with Sanath adds no combat. Reach his camp by the normal route and use the tower teleport.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3504,
+      "questName": "Betrayed",
+      "url": "https://www.wowhead.com/classic/quest=3504",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text or local structured evidence was reviewed; no comments were used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Betrayed",
+          "url": "https://www.wowhead.com/classic/quest=3504/betrayed",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic quest text makes this a letter delivery to Ag’tor at Valormok."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This is a delivery to Ag’tor at Valormok; no combat objective is added. Stay on the route and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3505,
+      "questName": "Betrayed",
+      "url": "https://www.wowhead.com/classic/quest=3505",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 8 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 8,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Betrayed",
+          "url": "https://www.wowhead.com/wotlk/quest=3505/betrayed",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest text requires 10 each of Reclaimers and Surveyors and inspecting the book; comments describe their abilities, aggro range, and the camp objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved evidence supports part of the mechanics; the remaining danger assessment uses catalog context and inference.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The Blood Elf Reclaimers can heal and Surveyors use a close-range fire attack; both have wide aggro. Pull them away from the camp, then inspect the book after the kills.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3506,
+      "questName": "Betrayed",
+      "url": "https://www.wowhead.com/classic/quest=3506",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 10 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 14,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Betrayed",
+          "url": "https://www.wowhead.com/classic/quest=3506/betrayed",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic comments describe crystal outcomes, a defender calling Rimtori at low health, fire/frost spells, and solo attempts with class-specific interrupts or control."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments describe crystal outcomes, a defender calling Rimtori at low health, fire/frost spells, and solo attempts with class-specific interrupts or control. Confidence is medium because the solo evidence is anecdotal and class-specific.",
+      "reason": "Destroying a crystal can summon an infernal; the correct one summons a defender who calls level 55 Magus Rimtori. Separate the defender from her, interrupt her spells, and bring help if you cannot handle the pair.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3507,
+      "questName": "Betrayed",
+      "url": "https://www.wowhead.com/classic/quest=3507",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This is a report to Belgrom inside Orgrimmar and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3508,
+      "questName": "Breaking the Ward",
+      "url": "https://www.wowhead.com/classic/quest=3508",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Waiting for Loramus’s spell to finish adds no combat. Stay near the quest giver.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3509,
+      "questName": "The Name of the Beast",
+      "url": "https://www.wowhead.com/classic/quest=3509",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 10 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 12,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Name of the Beast",
+          "url": "https://www.wowhead.com/classic/quest=3509/the-name-of-the-beast",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest text warns that Arkkoroc’s minions attack; comments describe hostile murlocs and pincers throughout the temple and that Arkkoroc himself is friendly."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Reaching Lord Arkkoroc requires crossing the bridge and temple among hostile murlocs and pincers. The giant is friendly; clear a path or use stealth rather than fighting through the whole temple.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3510,
+      "questName": "The Name of the Beast",
+      "url": "https://www.wowhead.com/classic/quest=3510",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 5 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Name of the Beast",
+          "url": "https://www.wowhead.com/classic/quest=3510/the-name-of-the-beast",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic page marks the quest Elite and reports Hetaera as a level 55 elite; solo reports vary by class and later patch comments conflict about elite status."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved evidence supports part of the mechanics; the remaining danger assessment uses catalog context and inference.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Elite quest. Hetaera is a level 55 elite; near the quest’s intended level the single-target fight is manageable with preparation, but her bite leaves a damage vulnerability. Bring healing and defensive cooldowns, especially if below level 55.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3511,
+      "questName": "The Name of the Beast",
+      "url": "https://www.wowhead.com/classic/quest=3511",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 3 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 5,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Name of the Beast",
+          "url": "https://www.wowhead.com/classic/quest=3511/the-name-of-the-beast",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic quest chain text identifies the objective as returning the temper to Loramus after Hetaera’s heads are processed."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved evidence supports part of the mechanics; the remaining danger assessment uses catalog context and inference.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This is a hand-in after the Hetaera encounter and adds no combat. Follow the route back to Loramus without detouring through hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3512,
+      "questName": "In Eranikus' Own Words",
+      "url": "https://www.wowhead.com/classic/quest=3512",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The route to Umbranse in northern Winterspring crosses a high-level zone with hostile wildlife and furbolgs. Stay on the road and avoid camps while reaching the NPC.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3513,
+      "questName": "The Runed Scroll",
+      "url": "https://www.wowhead.com/classic/quest=3513",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 10 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 10,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Runed Scroll",
+          "url": "https://wowclassicdb.com/quest/3513",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest item drops from Aean Swiftriver; page gives recommended level 25."
+        },
+        {
+          "title": "The Barrens quests",
+          "url": "https://warcraft.wiki.gg/wiki/The_Barrens_quests",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Lists the scroll as dropping from Aean Swiftriver, an Alliance Outrunner in southern Barrens."
+        },
+        {
+          "title": "The Runed Scroll",
+          "url": "https://www.wowhead.com/tbc/quest=3513/the-runed-scroll",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Comments describe the four roaming Outrunners and solo/group attempts; version/community reports are anecdotal."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved evidence supports part of the mechanics; the remaining danger assessment uses catalog context and inference.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The scroll starts from Aean Swiftriver, one of four level 24–26 elite Outrunners who travel together in the southern Barrens. The hand-in is safe once you have it; bring a group or use a careful pull-and-retreat strategy for the item.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3514,
+      "questName": "Horde Presence",
+      "url": "https://www.wowhead.com/classic/quest=3514",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 20 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Horde Presence",
+          "url": "https://www.wowhead.com/forever/quest=3514/horde-presence",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic-derived quest record identifies the quest as Elite, level 29. Comments describe elite cave guards and mixed solo outcomes."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Elite quest. Talon Den contains elite guards and Rynthariel is an elite at the end of the cave. Clear the approach and avoid pulling multiple guards; bring a group if you cannot manage elites near level 29.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3517,
+      "questName": "Stealing Knowledge",
+      "url": "https://www.wowhead.com/classic/quest=3517",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 6 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 9,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stealing Knowledge",
+          "url": "https://www.wowhead.com/classic/quest=3517/stealing-knowledge",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Classic page recommends level 52 and comments place the tablets in the Ruins of Eldarath among nearby level 48–52 mobs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The tablets are scattered through the Ruins of Eldarath among hostile level 48–52 enemies. Use the locations to limit time in the ruins and avoid the nearby camps.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3518,
+      "questName": "Delivery to Magatha",
+      "url": "https://www.wowhead.com/classic/quest=3518",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This is a tablet delivery to Magatha in Thunder Bluff and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3519,
+      "questName": "A Friend in Need",
+      "url": "https://www.wowhead.com/classic/quest=3519",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Speaking with Dirania in Shadowglen adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3520,
+      "questName": "Screecher Spirits",
+      "url": "https://www.wowhead.com/classic/quest=3520",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 20 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Screecher Spirits",
+          "url": "https://www.wowhead.com/classic/quest=3520/screecher-spirits",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest requires killing Vale Screechers and using the provided bramble on corpses; comments identify level 42–46 targets and Sonic Burst silence."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Vale Screechers in Feralas are hostile and can silence casters with Sonic Burst. Pull them separately, defeat each one, then use the bramble on its corpse and collect the spirit.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3521,
+      "questName": "Iverron's Antidote",
+      "url": "https://www.wowhead.com/classic/quest=3521",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "The reagents are gathered in low-level Teldrassil areas; use ordinary single-pull precautions around nearby spiders and wildlife.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3522,
+      "questName": "Iverron's Antidote",
+      "url": "https://www.wowhead.com/classic/quest=3522",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 3 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 6,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Iverron’s Antidote",
+          "url": "https://www.wowhead.com/classic/quest=3522/iverrons-antidote",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest text confirms five-minute expiration; comments place Iverron a short run outside the northern cave."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Timed quest (5 min). Iverron waits just outside the Webwood cave, a short run from the quest giver; go straight there rather than stopping on the way.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3523,
+      "questName": "Scourge of the Downs",
+      "url": "https://www.wowhead.com/classic/quest=3523",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:22:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a dungeon; traversal skips catalog Dungeon/Raid quests before research."
+    },
+    {
+      "questId": 3524,
+      "questName": "Washed Ashore",
+      "url": "https://www.wowhead.com/classic/quest=3524",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a bounded sample of 1 comments where exposed; comment ordering was not verified. Reports may be anecdotal or class/version-specific as noted in source evidence.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Washed Ashore",
+          "url": "https://www.wowhead.com/classic/quest=3524/washed-ashore",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest text says bones are guarded by Greymist murlocs; Classic comment locates the carcass south of Auberdine."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Several Greymist murlocs guard the sea-creature bones south of Auberdine. Pull them from the edge one at a time before interacting with the carcass.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3525,
+      "questName": "Extinguishing the Idol",
+      "url": "https://www.wowhead.com/classic/quest=3525",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:22:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a dungeon; traversal skips catalog Dungeon/Raid quests before research."
+    },
+    {
+      "questId": 3526,
+      "questName": "Goblin Engineering",
+      "url": "https://www.wowhead.com/classic/quest=3526",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Delivering the engineering manual to Nixx in Gadgetzan adds no combat. Avoid unnecessary pulls while traveling between settlements.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3527,
+      "questName": "The Prophecy of Mosh'aru",
+      "url": "https://www.wowhead.com/classic/quest=3527",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:22:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a dungeon; traversal skips catalog Dungeon/Raid quests before research."
+    },
+    {
+      "questId": 3528,
+      "questName": "The God Hakkar",
+      "url": "https://www.wowhead.com/classic/quest=3528",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:22:17+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog marks this quest as a dungeon; traversal skips catalog Dungeon/Raid quests before research."
+    },
+    {
+      "questId": 3541,
+      "questName": "Delivery to Jes'rimon",
+      "url": "https://www.wowhead.com/classic/quest=3541",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This tablet delivery ends with Jes’rimon in Orgrimmar and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3542,
+      "questName": "Delivery to Andron Gant",
+      "url": "https://www.wowhead.com/classic/quest=3542",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This tablet delivery ends with Andron Gant in Undercity and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3561,
+      "questName": "Delivery to Archmage Xylem",
+      "url": "https://www.wowhead.com/classic/quest=3561",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text or local structured evidence was reviewed; no comments were used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Delivery to Archmage Xylem",
+          "url": "https://www.wowhead.com/classic/quest=3561/delivery-to-archmage-xylem",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:22:17+03:00",
+          "evidence": "Quest text and comments describe Sanath teleporting the player to the tower and a simple delivery to Xylem."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest or item evidence supports the mechanics and action. Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "Sanath teleports visitors to Xylem’s tower; the delivery itself adds no combat and the tower route is not a hostile multi-floor clear. Reach Sanath cautiously through Azshara and use the teleporter.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 3562,
+      "questName": "Magatha's Payment to Jediga",
+      "url": "https://www.wowhead.com/classic/quest=3562",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:22:17+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessment uses catalog context and established quest-step mechanics.Confidence is medium because support is limited to the selected local context and targeted source material rather than multiple independent Era sources.",
+      "reason": "This is a note delivery to Jediga in Azshara; the turn-in adds no combat, but the approach crosses hostile territory. Stay on the route and avoid the ruins and camps.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
     }
   ]
 }

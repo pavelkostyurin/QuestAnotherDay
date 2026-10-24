@@ -87,6 +87,10 @@ that punctuation and multiline feedback survive copying and URL encoding.
 
 ## Future ideas
 
+- [ ] Add Wago as an addon distribution channel. Define the Wago project
+  metadata and release workflow, then publish the same validated package and
+  release notes used for other channels. Document any one-time account or
+  credential setup and verify a release reaches Wago successfully.
 - [ ] Add localization for the addon interface and quest warnings. Target
   languages and implementation details are to be decided later.
 

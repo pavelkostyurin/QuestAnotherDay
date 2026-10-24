@@ -1974,43 +1974,43 @@ local quests = {
     [3380] = { threat = "EXTREME", reason = "This is a level 50-55 dungeon filled with elite trolls, dragonkin, and Old God minions. The dungeon requires a full group of 5 at level 50+, and the quest chain to enter is lengthy. The final boss, Eranikus, is one of the deadliest encounters in Classic. Do not attempt without a coordinated group and significant preparation.", confidence = "high" },
 
     -- Betrayed
-    [3504] = { threat = "MEDIUM", reason = "Travel step with no combat objective, but the journey through Azshara is dangerous. The zone is patrolled by level 45-50 naga, satyrs, and blood elves. Stay on the road and avoid the ruins and camps along the way. Do not attempt below level 44.", confidence = "high" },
+    [3504] = { threat = "LOW", reason = "This is a delivery to Ag’tor at Valormok; no combat objective is added. Stay on the route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Betrayed
-    [3505] = { threat = "HIGH", reason = "The blood elves are levels 45-50 and are found along the southern bluffs on the northern peninsula of Azshara. They are packed in camps and can pull in groups. Rimtori herself is a powerful named mob with bodyguards. The camp is heavily guarded. Do not attempt solo below level 50. A level 44 hunter died trying this quest at the intended level.", confidence = "high" },
+    [3505] = { threat = "MEDIUM", reason = "The Blood Elf Reclaimers can heal and Surveyors use a close-range fire attack; both have wide aggro. Pull them away from the camp, then inspect the book after the kills.", confidence = "medium" },
 
     -- Betrayed
-    [3506] = { threat = "HIGH", reason = "She is surrounded by bodyguards and is a powerful caster. Clear the camp before engaging and bring a group. Do not attempt solo below level 50.", confidence = "medium" },
+    [3506] = { threat = "HIGH", reason = "Destroying a crystal can summon an infernal; the correct one summons a defender who calls level 55 Magus Rimtori. Separate the defender from her, interrupt her spells, and bring help if you cannot handle the pair.", confidence = "medium" },
 
     -- Betrayed
-    [3507] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3507] = { threat = "LOW", reason = "This is a report to Belgrom inside Orgrimmar and adds no combat.", confidence = "medium" },
 
     -- The Runed Scroll
-    [3513] = { threat = "HIGH", reason = "The scroll drops from a group of night elves wandering the southern Barrens. The group consists of 3-4 level 25-28 night elves, including a priestess who can heal. A level 28 priest soloed the group by abusing fear/leashing, but it was 'not easy by any means.' A level 22 druid barely escaped a group of these night elves. Do not attempt solo below level 25. Bring a group of level 20+ players.", confidence = "high" },
+    [3513] = { threat = "HIGH", reason = "The scroll starts from Aean Swiftriver, one of four level 24–26 elite Outrunners who travel together in the southern Barrens. The hand-in is safe once you have it; bring a group or use a careful pull-and-retreat strategy for the item.", confidence = "medium" },
 
     -- Horde Presence
-    [3514] = { threat = "MEDIUM", reason = "Rynthariel is a named dryad surrounded by guards in a cave. The Talon Den is a tight space with multiple mobs. Clear the cave before engaging Rynthariel and watch for respawns. Do not attempt solo below level 25.", confidence = "high" },
+    [3514] = { threat = "HIGH", reason = "Elite quest. Talon Den contains elite guards and Rynthariel is an elite at the end of the cave. Clear the approach and avoid pulling multiple guards; bring a group if you cannot manage elites near level 29.", confidence = "medium" },
 
     -- Stealing Knowledge
-    [3517] = { threat = "MEDIUM", reason = "The tablets are random spawns in the ruins at around 36, 60. The ruins are patrolled by level 45-50 naga and satyrs. A level 45 player can avoid most mobs if careful, but the ruins have a level 55 elite boss in one temple. The tablets respawn quickly. Do not attempt below level 45.", confidence = "high" },
+    [3517] = { threat = "MEDIUM", reason = "The tablets are scattered through the Ruins of Eldarath among hostile level 48–52 enemies. Use the locations to limit time in the ruins and avoid the nearby camps.", confidence = "medium" },
 
     -- Delivery to Magatha
-    [3518] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city. Magatha is on the Elder Rise, in the first hut beside the bridge.", confidence = "high" },
+    [3518] = { threat = "LOW", reason = "This is a tablet delivery to Magatha in Thunder Bluff and adds no combat.", confidence = "medium" },
 
     -- Goblin Engineering
-    [3526] = { threat = "LOW", reason = "Requires level 30 and 200+ engineering skill. The quest involves travel to Ratchet and Booty Bay, then delivering materials. No combat objective. Note: This is a permanent specialization choice; you cannot learn Gnome Engineering after completing this.", confidence = "high" },
+    [3526] = { threat = "LOW", reason = "Delivering the engineering manual to Nixx in Gadgetzan adds no combat. Avoid unnecessary pulls while traveling between settlements.", confidence = "medium" },
 
     -- Delivery to Jes'rimon
-    [3541] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3541] = { threat = "LOW", reason = "This tablet delivery ends with Jes’rimon in Orgrimmar and adds no combat.", confidence = "medium" },
 
     -- Delivery to Andron Gant
-    [3542] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3542] = { threat = "LOW", reason = "This tablet delivery ends with Andron Gant in Undercity and adds no combat.", confidence = "medium" },
 
     -- Delivery to Archmage Xylem
-    [3561] = { threat = "MEDIUM", reason = "Xylem is at the top of a tower in the Bay of Storms, guarded by level 50+ mobs. The tower has multiple floors with hostile mobs. Clear the tower methodically or use invisibility to reach the top. Do not attempt below level 48.", confidence = "high" },
+    [3561] = { threat = "LOW", reason = "Sanath teleports visitors to Xylem’s tower; the delivery itself adds no combat and the tower route is not a hostile multi-floor clear. Reach Sanath cautiously through Azshara and use the teleporter.", confidence = "medium" },
 
     -- Magatha's Payment to Jediga
-    [3562] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
+    [3562] = { threat = "MEDIUM", reason = "This is a note delivery to Jediga in Azshara; the turn-in adds no combat, but the approach crosses hostile territory. Stay on the route and avoid the ruins and camps.", confidence = "medium" },
 
     -- Jes'rimon's Payment to Jediga
     [3563] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },

@@ -890,17 +890,20 @@ addon.quests = {
     -- The Undermarket
     [3402] = { threat = "LOW", reason = "This is a report to Vizzklick in Gadgetzan and adds no combat.", confidence = "medium" },
 
+    -- Return Trip
+    [3421] = { threat = "LOW", reason = "This is the return teleport from Azshara Tower to Sanath’s camp; no combat objective is added.", confidence = "medium" },
+
     -- Divine Retribution
-    [3441] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3441] = { threat = "LOW", reason = "Listening to Kalaran adds no combat. Stay near the quest giver and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- The Flawless Flame
-    [3442] = { threat = "MEDIUM", reason = "The hearts drop from level 48-50 fire elementals, and the oil drops from level 48-50 golems. Both are elite-level threats. Clear methodically and watch for adds. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [3442] = { threat = "MEDIUM", reason = "The required materials come from hostile elementals and golems in Searing Gorge. Fight on the edges of the Cauldron and avoid pulling several enemies together.", confidence = "medium" },
 
     -- Forging the Shaft
-    [3443] = { threat = "MEDIUM", reason = "The daggers are crafted by blacksmiths. This is a profession and delivery step with no combat beyond gathering the materials. The journey to the Searing Gorge is dangerous for low-level players. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3443] = { threat = "MEDIUM", reason = "Thorium Plated Daggers drop from Dark Iron enemies around the Cauldron and nearby dig site. Pull them individually and watch for golem respawns.", confidence = "medium" },
 
     -- The Stone Circle
-    [3444] = { threat = "MEDIUM", reason = "The workshop is in Ratchet, which is safe, but the journey to Ratchet is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
+    [3444] = { threat = "LOW", reason = "The Stone Circle is in a chest by Marvon’s workshop in Ratchet; this step adds no combat. Use the ordinary route to and from town.", confidence = "medium" },
 
     -- Into the Depths
     [3446] = { threat = "HIGH", reason = "The Sunken Temple is a level 50-55 dungeon filled with elites. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
@@ -909,46 +912,49 @@ addon.quests = {
     [3447] = { threat = "HIGH", reason = "The Sunken Temple is a level 50-55 dungeon filled with elites. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
 
     -- The Flame's Casing
-    [3452] = { threat = "HIGH", reason = "The symbol drops from elite Twilight's Hammer cultists in the Searing Gorge. The cultists are level 48-50 elites and are packed in camps. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3452] = { threat = "HIGH", reason = "Elite quest. Twilight’s Hammer elites in the Searing Gorge camp can heal or deal heavy damage, and the symbol may take several kills to drop. Pull one at a time and interrupt casters; bring help if you cannot manage an elite safely.", confidence = "medium" },
 
     -- The Torch of Retribution
-    [3453] = { threat = "LOW", reason = "This is a dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3453] = { threat = "LOW", reason = "Waiting for Kalaran to finish the torch adds no combat. Stay near the quest giver.", confidence = "medium" },
 
     -- The Torch of Retribution
-    [3454] = { threat = "LOW", reason = "This is a dialogue and item pickup step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3454] = { threat = "LOW", reason = "Taking the torch adds no combat. Stay near the quest giver and avoid nearby hostiles.", confidence = "medium" },
 
     -- Squire Maltrake
-    [3462] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to the Searing Gorge is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3462] = { threat = "LOW", reason = "Speaking with Squire Maltrake adds no combat. Approach the NPC without cutting through hostile camps.", confidence = "medium" },
 
     -- Set Them Ablaze!
-    [3463] = { threat = "HIGH", reason = "The towers are in the Searing Gorge and are guarded by level 48-50 elite Dark Iron dwarves and Twilight's Hammer cultists. The buildings are packed with mobs, and you must enter each one to use the torch. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3463] = { threat = "MEDIUM", reason = "Elite quest. Each tower has an elite sentry, but the torch can be used without killing it; nearby guards can still join. Approach each tower carefully and be ready to escape or handle the sentry.", confidence = "medium" },
 
     -- Trinkets...
-    [3481] = { threat = "LOW", reason = "This is a simple interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3481] = { threat = "LOW", reason = "The chest beside Kalaran in Searing Gorge is opened to complete this step; no additional fight is required. Avoid nearby enemies while interacting.", confidence = "medium" },
 
     -- Everything Counts In Large Amounts
-    [3501] = { threat = "MEDIUM", reason = "The fragments drop from any mob in the Blasted Lands, a level 45-55 zone patrolled by elite demons and high-level mobs. This is a repeatable quest with a very low drop rate. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [3501] = { threat = "LOW", reason = "This repeatable turn-in exchanges an Imperfect Draenethyst Fragment already found; it requires no specific combat objective. Avoid farming dangerous mobs just for the item.", confidence = "medium" },
 
     -- One Draenei's Junk...
-    [3502] = { threat = "MEDIUM", reason = "Any mob in the Blasted Lands could be carrying a fragment. This is a repeatable quest with a very low drop rate. The Blasted Lands is patrolled by elite demons. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [3502] = { threat = "LOW", reason = "This repeatable turn-in exchanges an Imperfect Draenethyst Fragment already found; it requires no specific combat objective. Avoid farming dangerous mobs just for the item.", confidence = "medium" },
+
+    -- Meeting with the Master
+    [3503] = { threat = "LOW", reason = "This dialogue and teleport step with Sanath adds no combat. Reach his camp by the normal route and use the tower teleport.", confidence = "medium" },
 
     -- Breaking the Ward
-    [3508] = { threat = "LOW", reason = "This is a dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3508] = { threat = "LOW", reason = "Waiting for Loramus’s spell to finish adds no combat. Stay near the quest giver.", confidence = "medium" },
 
     -- The Name of the Beast
-    [3509] = { threat = "MEDIUM", reason = "Begin your search at the waters edge to find the Temple of Arkkoran. The temple is on the biggest island in the northeast of the Bay of Storms, filled with level 48-52 murlocs and other semi-aquatic beasts. You can avoid many by hugging the walls, but the temple itself is guarded. Do not attempt below level 48 solo without a plan to avoid the mobs.", confidence = "medium" },
+    [3509] = { threat = "MEDIUM", reason = "Reaching Lord Arkkoroc requires crossing the bridge and temple among hostile murlocs and pincers. The giant is friendly; clear a path or use stealth rather than fighting through the whole temple.", confidence = "medium" },
 
     -- The Name of the Beast
-    [3510] = { threat = "HIGH", reason = "Hetaera is a level 55 elite hydra in Azshara, found in Hetaera's Clutch. She hits hard and has high health. A level 60 rogue soloed her with major healing potions, Whipper Root Tuber, Night Dragon's Breath, Thistle Tea, and bandages, and still had only 2000 HP left. A level 54 warlock soloed her with a felguard, fear, and deathcoil. Do not attempt solo at the intended level without significant consumables and a specific strategy. Skip on Hardcore.", confidence = "high" },
+    [3510] = { threat = "MEDIUM", reason = "Elite quest. Hetaera is a level 55 elite; near the quest’s intended level the single-target fight is manageable with preparation, but her bite leaves a damage vulnerability. Bring healing and defensive cooldowns, especially if below level 55.", confidence = "medium" },
 
     -- The Name of the Beast
-    [3511] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey back to Azshara is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3511] = { threat = "LOW", reason = "This is a hand-in after the Hetaera encounter and adds no combat. Follow the route back to Loramus without detouring through hostile camps.", confidence = "medium" },
 
     -- In Eranikus' Own Words
-    [3512] = { threat = "MEDIUM", reason = "Winterspring is a level 50-58 zone patrolled by elite frostsabers, owls, and giants. The journey is long and dangerous. Do not attempt below level 50 solo without a plan to avoid the mob camps.", confidence = "medium" },
+    [3512] = { threat = "MEDIUM", reason = "The route to Umbranse in northern Winterspring crosses a high-level zone with hostile wildlife and furbolgs. Stay on the road and avoid camps while reaching the NPC.", confidence = "medium" },
 
     -- Screecher Spirits
-    [3520] = { threat = "MEDIUM", reason = "The screechers are levels 42-46 and are found in southern and central Feralas, including near the Forgotten Coast docks and the road to Dire Maul. They use Sonic Burst (Silence) and can pull in small groups. A level 44 hunter soloed this without issue. Do not attempt below level 42 solo without a plan to handle the silence.", confidence = "high" },
+    [3520] = { threat = "MEDIUM", reason = "Vale Screechers in Feralas are hostile and can silence casters with Sonic Burst. Pull them separately, defeat each one, then use the bramble on its corpse and collect the spirit.", confidence = "medium" },
 
     -- Scourge of the Downs
     [3523] = { threat = "LOW", reason = "This is a dialogue and prerequisite step for the Razorfen Downs escort quest. No combat required. Safe if you stay in the area.", confidence = "high" },

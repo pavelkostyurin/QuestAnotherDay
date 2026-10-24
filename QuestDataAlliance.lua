@@ -2694,34 +2694,37 @@ local quests = {
     [3378] = { threat = "MEDIUM", reason = "The prayer is retrieved in hostile Searing Gorge, where nearby enemies can join a pull. Secure the immediate area before taking it, then travel out cautiously.", confidence = "medium" },
 
     -- The Sunken Temple
-    [3445] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Tanaris is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [3445] = { threat = "LOW", reason = "Marvon is at the Broken Pillar south of Gadgetzan. The turn-in adds no combat; avoid nearby Tanaris wildlife on the approach.", confidence = "medium" },
 
     -- Passing the Burden
-    [3448] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3448] = { threat = "LOW", reason = "This is a dialogue step in Ironforge and adds no combat.", confidence = "medium" },
 
     -- Arcane Runes
-    [3449] = { threat = "HIGH", reason = "The runes are scattered across Azshara, a level 45-55 zone patrolled by elite naga, satyrs, and blood elves. The final pickup location is on a small island off the southern peninsula, guarded by level 50+ mobs. This is a long and dangerous journey through one of the deadliest zones in Classic. Do not attempt below level 50 solo without a group and a plan for each rune location.", confidence = "high" },
+    [3449] = { threat = "MEDIUM", reason = "The runes are in hostile Azshara ruins, and the pickup island is exposed to aquatic enemies. Use the marked locations and approach the island cautiously; swimming can avoid many shore mobs.", confidence = "medium" },
 
     -- An Easy Pickup
-    [3450] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3450] = { threat = "LOW", reason = "This is a dialogue step with Xiggs in Ironforge and adds no combat.", confidence = "medium" },
 
     -- Signal for Pickup
-    [3451] = { threat = "LOW", reason = "This is a dialogue and item pickup step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3451] = { threat = "LOW", reason = "Picking up the flare gun from Xiggs in Ironforge adds no combat.", confidence = "medium" },
 
     -- Return to Tymor
-    [3461] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3461] = { threat = "LOW", reason = "Returning the drawing kit in Ironforge adds no combat.", confidence = "medium" },
+
+    -- Signal for Pickup
+    [3483] = { threat = "LOW", reason = "Xiggs provides the flare gun in Ironforge; this pickup step adds no combat.", confidence = "medium" },
 
     -- A Friend in Need
-    [3519] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3519] = { threat = "LOW", reason = "Speaking with Dirania in Shadowglen adds no combat.", confidence = "medium" },
 
     -- Iverron's Antidote
-    [3521] = { threat = "LOW", reason = "The reagents are found in Teldrassil, guarded by level 5-8 mobs. Manageable solo for a level 6+ character.", confidence = "high" },
+    [3521] = { threat = "LOW", reason = "The reagents are gathered in low-level Teldrassil areas; use ordinary single-pull precautions around nearby spiders and wildlife.", confidence = "medium" },
 
     -- Iverron's Antidote
-    [3522] = { threat = "LOW", reason = "Iverron is in a cave to the north. This is a timed delivery quest with no combat. The cave is guarded by level 6-9 spiders. Manageable solo for a level 7+ character. Do not attempt without clearing the cave entrance first.", confidence = "medium" },
+    [3522] = { threat = "LOW", reason = "Timed quest (5 min). Iverron waits just outside the Webwood cave, a short run from the quest giver; go straight there rather than stopping on the way.", confidence = "medium" },
 
     -- Washed Ashore
-    [3524] = { threat = "LOW", reason = "The bones are on the beach and are not guarded. No combat required. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [3524] = { threat = "MEDIUM", reason = "Several Greymist murlocs guard the sea-creature bones south of Auberdine. Pull them from the edge one at a time before interacting with the carcass.", confidence = "medium" },
 
     -- Rise, Obsidion!
     [3566] = { threat = "EXTREME", reason = "This is an Elite quest. Lathoric the Black and Obsidion are both level 49 elites with 3,207 health each. When you touch the altar, Lathoric spawns, walks to the altar, and summons Obsidion. You must fight both at once in a confined room deep inside the Slag Pit. A level 50 warlock died 3 times trying to solo this. The run back from the graveyard is long and dangerous. Do not attempt solo at the intended level. Skip on Hardcore.", confidence = "high" },

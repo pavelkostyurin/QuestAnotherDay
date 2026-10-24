@@ -5340,20 +5340,23 @@ addon.quests = {
     -- The Undermarket (Speak)
     [3402] = { threat = "LOW", reason = "This is a report to Vizzklick in Gadgetzan and adds no combat.", confidence = "medium" },
 
+    -- Return Trip
+    [3421] = { threat = "LOW", reason = "This is the return teleport from Azshara Tower to Sanath’s camp; no combat objective is added.", confidence = "medium" },
+
     -- Divine Retribution (Listen)
-    [3441] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3441] = { threat = "LOW", reason = "Listening to Kalaran adds no combat. Stay near the quest giver and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- The Flawless Flame
-    [3442] = { threat = "MEDIUM", reason = "The hearts drop from level 48-50 fire elementals, and the oil drops from level 48-50 golems. Both are elite-level threats. Clear methodically and watch for adds. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [3442] = { threat = "MEDIUM", reason = "The required materials come from hostile elementals and golems in Searing Gorge. Fight on the edges of the Cauldron and avoid pulling several enemies together.", confidence = "medium" },
 
     -- Forging the Shaft
-    [3443] = { threat = "MEDIUM", reason = "The daggers are crafted by blacksmiths. This is a profession and delivery step with no combat beyond gathering the materials. The journey to the Searing Gorge is dangerous for low-level players. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3443] = { threat = "MEDIUM", reason = "Thorium Plated Daggers drop from Dark Iron enemies around the Cauldron and nearby dig site. Pull them individually and watch for golem respawns.", confidence = "medium" },
 
     -- The Stone Circle
-    [3444] = { threat = "MEDIUM", reason = "The workshop is in Ratchet, which is safe, but the journey to Ratchet is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
+    [3444] = { threat = "LOW", reason = "The Stone Circle is in a chest by Marvon’s workshop in Ratchet; this step adds no combat. Use the ordinary route to and from town.", confidence = "medium" },
 
     -- The Sunken Temple (Find Marvon)
-    [3445] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Tanaris is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [3445] = { threat = "LOW", reason = "Marvon is at the Broken Pillar south of Gadgetzan. The turn-in adds no combat; avoid nearby Tanaris wildlife on the approach.", confidence = "medium" },
 
     -- Into the Depths
     [3446] = { threat = "HIGH", reason = "The Sunken Temple is a level 50-55 dungeon filled with elites. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
@@ -5362,106 +5365,112 @@ addon.quests = {
     [3447] = { threat = "HIGH", reason = "The Sunken Temple is a level 50-55 dungeon filled with elites. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
 
     -- Passing the Burden
-    [3448] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3448] = { threat = "LOW", reason = "This is a dialogue step in Ironforge and adds no combat.", confidence = "medium" },
 
     -- Arcane Runes
-    [3449] = { threat = "HIGH", reason = "The runes are scattered across Azshara, a level 45-55 zone patrolled by elite naga, satyrs, and blood elves. The final pickup location is on a small island off the southern peninsula, guarded by level 50+ mobs. This is a long and dangerous journey through one of the deadliest zones in Classic. Do not attempt below level 50 solo without a group and a plan for each rune location.", confidence = "high" },
+    [3449] = { threat = "MEDIUM", reason = "The runes are in hostile Azshara ruins, and the pickup island is exposed to aquatic enemies. Use the marked locations and approach the island cautiously; swimming can avoid many shore mobs.", confidence = "medium" },
 
     -- An Easy Pickup
-    [3450] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3450] = { threat = "LOW", reason = "This is a dialogue step with Xiggs in Ironforge and adds no combat.", confidence = "medium" },
 
     -- Signal for Pickup
-    [3451] = { threat = "LOW", reason = "This is a dialogue and item pickup step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3451] = { threat = "LOW", reason = "Picking up the flare gun from Xiggs in Ironforge adds no combat.", confidence = "medium" },
 
     -- The Flame's Casing
-    [3452] = { threat = "HIGH", reason = "The symbol drops from elite Twilight's Hammer cultists in the Searing Gorge. The cultists are level 48-50 elites and are packed in camps. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3452] = { threat = "HIGH", reason = "Elite quest. Twilight’s Hammer elites in the Searing Gorge camp can heal or deal heavy damage, and the symbol may take several kills to drop. Pull one at a time and interrupt casters; bring help if you cannot manage an elite safely.", confidence = "medium" },
 
     -- The Torch of Retribution (Wait)
-    [3453] = { threat = "LOW", reason = "This is a dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3453] = { threat = "LOW", reason = "Waiting for Kalaran to finish the torch adds no combat. Stay near the quest giver.", confidence = "medium" },
 
     -- The Torch of Retribution (Take)
-    [3454] = { threat = "LOW", reason = "This is a dialogue and item pickup step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3454] = { threat = "LOW", reason = "Taking the torch adds no combat. Stay near the quest giver and avoid nearby hostiles.", confidence = "medium" },
 
     -- Return to Tymor
-    [3461] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3461] = { threat = "LOW", reason = "Returning the drawing kit in Ironforge adds no combat.", confidence = "medium" },
 
     -- Squire Maltrake
-    [3462] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to the Searing Gorge is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [3462] = { threat = "LOW", reason = "Speaking with Squire Maltrake adds no combat. Approach the NPC without cutting through hostile camps.", confidence = "medium" },
 
     -- Set Them Ablaze!
-    [3463] = { threat = "HIGH", reason = "The towers are in the Searing Gorge and are guarded by level 48-50 elite Dark Iron dwarves and Twilight's Hammer cultists. The buildings are packed with mobs, and you must enter each one to use the torch. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 48+ or skip on Hardcore.", confidence = "high" },
+    [3463] = { threat = "MEDIUM", reason = "Elite quest. Each tower has an elite sentry, but the torch can be used without killing it; nearby guards can still join. Approach each tower carefully and be ready to escape or handle the sentry.", confidence = "medium" },
 
     -- Trinkets...
-    [3481] = { threat = "LOW", reason = "This is a simple interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3481] = { threat = "LOW", reason = "The chest beside Kalaran in Searing Gorge is opened to complete this step; no additional fight is required. Avoid nearby enemies while interacting.", confidence = "medium" },
+
+    -- Signal for Pickup
+    [3483] = { threat = "LOW", reason = "Xiggs provides the flare gun in Ironforge; this pickup step adds no combat.", confidence = "medium" },
 
     -- Everything Counts In Large Amounts
-    [3501] = { threat = "MEDIUM", reason = "The fragments drop from any mob in the Blasted Lands, a level 45-55 zone patrolled by elite demons and high-level mobs. This is a repeatable quest with a very low drop rate. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [3501] = { threat = "LOW", reason = "This repeatable turn-in exchanges an Imperfect Draenethyst Fragment already found; it requires no specific combat objective. Avoid farming dangerous mobs just for the item.", confidence = "medium" },
 
     -- One Draenei's Junk...
-    [3502] = { threat = "MEDIUM", reason = "Any mob in the Blasted Lands could be carrying a fragment. This is a repeatable quest with a very low drop rate. The Blasted Lands is patrolled by elite demons. Do not attempt below level 48 solo without a group.", confidence = "medium" },
+    [3502] = { threat = "LOW", reason = "This repeatable turn-in exchanges an Imperfect Draenethyst Fragment already found; it requires no specific combat objective. Avoid farming dangerous mobs just for the item.", confidence = "medium" },
+
+    -- Meeting with the Master
+    [3503] = { threat = "LOW", reason = "This dialogue and teleport step with Sanath adds no combat. Reach his camp by the normal route and use the tower teleport.", confidence = "medium" },
 
     -- Betrayed (Horde - Orgrimmar → Azshara)
-    [3504] = { threat = "MEDIUM", reason = "Travel step with no combat objective, but the journey through Azshara is dangerous. The zone is patrolled by level 45-50 naga, satyrs, and blood elves. Stay on the road and avoid the ruins and camps along the way. Do not attempt below level 44.", confidence = "high" },
+    [3504] = { threat = "LOW", reason = "This is a delivery to Ag’tor at Valormok; no combat objective is added. Stay on the route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Betrayed (Horde - Azshara)
-    [3505] = { threat = "HIGH", reason = "The blood elves are levels 45-50 and are found along the southern bluffs on the northern peninsula of Azshara. They are packed in camps and can pull in groups. Rimtori herself is a powerful named mob with bodyguards. The camp is heavily guarded. Do not attempt solo below level 50. A level 44 hunter died trying this quest at the intended level.", confidence = "high" },
+    [3505] = { threat = "MEDIUM", reason = "The Blood Elf Reclaimers can heal and Surveyors use a close-range fire attack; both have wide aggro. Pull them away from the camp, then inspect the book after the kills.", confidence = "medium" },
 
     -- Betrayed (Horde - Azshara)
-    [3506] = { threat = "HIGH", reason = "She is surrounded by bodyguards and is a powerful caster. Clear the camp before engaging and bring a group. Do not attempt solo below level 50.", confidence = "medium" },
+    [3506] = { threat = "HIGH", reason = "Destroying a crystal can summon an infernal; the correct one summons a defender who calls level 55 Magus Rimtori. Separate the defender from her, interrupt her spells, and bring help if you cannot handle the pair.", confidence = "medium" },
 
     -- Betrayed (Horde - Orgrimmar)
-    [3507] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3507] = { threat = "LOW", reason = "This is a report to Belgrom inside Orgrimmar and adds no combat.", confidence = "medium" },
 
     -- Breaking the Ward
-    [3508] = { threat = "LOW", reason = "This is a dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3508] = { threat = "LOW", reason = "Waiting for Loramus’s spell to finish adds no combat. Stay near the quest giver.", confidence = "medium" },
 
     -- The Name of the Beast (Speak with Arkkoroc)
-    [3509] = { threat = "MEDIUM", reason = "Begin your search at the waters edge to find the Temple of Arkkoran. The temple is on the biggest island in the northeast of the Bay of Storms, filled with level 48-52 murlocs and other semi-aquatic beasts. You can avoid many by hugging the walls, but the temple itself is guarded. Do not attempt below level 48 solo without a plan to avoid the mobs.", confidence = "medium" },
+    [3509] = { threat = "MEDIUM", reason = "Reaching Lord Arkkoroc requires crossing the bridge and temple among hostile murlocs and pincers. The giant is friendly; clear a path or use stealth rather than fighting through the whole temple.", confidence = "medium" },
 
     -- The Name of the Beast (Kill Hetaera)
-    [3510] = { threat = "HIGH", reason = "Hetaera is a level 55 elite hydra in Azshara, found in Hetaera's Clutch. She hits hard and has high health. A level 60 rogue soloed her with major healing potions, Whipper Root Tuber, Night Dragon's Breath, Thistle Tea, and bandages, and still had only 2000 HP left. A level 54 warlock soloed her with a felguard, fear, and deathcoil. Do not attempt solo at the intended level without significant consumables and a specific strategy. Skip on Hardcore.", confidence = "high" },
+    [3510] = { threat = "MEDIUM", reason = "Elite quest. Hetaera is a level 55 elite; near the quest’s intended level the single-target fight is manageable with preparation, but her bite leaves a damage vulnerability. Bring healing and defensive cooldowns, especially if below level 55.", confidence = "medium" },
 
     -- The Name of the Beast (Return to Loramus)
-    [3511] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey back to Azshara is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [3511] = { threat = "LOW", reason = "This is a hand-in after the Hetaera encounter and adds no combat. Follow the route back to Loramus without detouring through hostile camps.", confidence = "medium" },
 
     -- In Eranikus' Own Words
-    [3512] = { threat = "MEDIUM", reason = "Winterspring is a level 50-58 zone patrolled by elite frostsabers, owls, and giants. The journey is long and dangerous. Do not attempt below level 50 solo without a plan to avoid the mob camps.", confidence = "medium" },
+    [3512] = { threat = "MEDIUM", reason = "The route to Umbranse in northern Winterspring crosses a high-level zone with hostile wildlife and furbolgs. Stay on the road and avoid camps while reaching the NPC.", confidence = "medium" },
 
     -- The Runed Scroll (Horde - Barrens)
-    [3513] = { threat = "HIGH", reason = "The scroll drops from a group of night elves wandering the southern Barrens. The group consists of 3-4 level 25-28 night elves, including a priestess who can heal. A level 28 priest soloed the group by abusing fear/leashing, but it was 'not easy by any means.' A level 22 druid barely escaped a group of these night elves. Do not attempt solo below level 25. Bring a group of level 20+ players.", confidence = "high" },
+    [3513] = { threat = "HIGH", reason = "The scroll starts from Aean Swiftriver, one of four level 24–26 elite Outrunners who travel together in the southern Barrens. The hand-in is safe once you have it; bring a group or use a careful pull-and-retreat strategy for the item.", confidence = "medium" },
 
     -- Horde Presence (Horde - Stonetalon)
-    [3514] = { threat = "MEDIUM", reason = "Rynthariel is a named dryad surrounded by guards in a cave. The Talon Den is a tight space with multiple mobs. Clear the cave before engaging Rynthariel and watch for respawns. Do not attempt solo below level 25.", confidence = "high" },
+    [3514] = { threat = "HIGH", reason = "Elite quest. Talon Den contains elite guards and Rynthariel is an elite at the end of the cave. Clear the approach and avoid pulling multiple guards; bring a group if you cannot manage elites near level 29.", confidence = "medium" },
 
     -- Stealing Knowledge (Horde - Azshara)
-    [3517] = { threat = "MEDIUM", reason = "The tablets are random spawns in the ruins at around 36, 60. The ruins are patrolled by level 45-50 naga and satyrs. A level 45 player can avoid most mobs if careful, but the ruins have a level 55 elite boss in one temple. The tablets respawn quickly. Do not attempt below level 45.", confidence = "high" },
+    [3517] = { threat = "MEDIUM", reason = "The tablets are scattered through the Ruins of Eldarath among hostile level 48–52 enemies. Use the locations to limit time in the ruins and avoid the nearby camps.", confidence = "medium" },
 
     -- Delivery to Magatha (Horde - Thunder Bluff)
-    [3518] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city. Magatha is on the Elder Rise, in the first hut beside the bridge.", confidence = "high" },
+    [3518] = { threat = "LOW", reason = "This is a tablet delivery to Magatha in Thunder Bluff and adds no combat.", confidence = "medium" },
 
     -- A Friend in Need
-    [3519] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [3519] = { threat = "LOW", reason = "Speaking with Dirania in Shadowglen adds no combat.", confidence = "medium" },
 
     -- Screecher Spirits
-    [3520] = { threat = "MEDIUM", reason = "The screechers are levels 42-46 and are found in southern and central Feralas, including near the Forgotten Coast docks and the road to Dire Maul. They use Sonic Burst (Silence) and can pull in small groups. A level 44 hunter soloed this without issue. Do not attempt below level 42 solo without a plan to handle the silence.", confidence = "high" },
+    [3520] = { threat = "MEDIUM", reason = "Vale Screechers in Feralas are hostile and can silence casters with Sonic Burst. Pull them separately, defeat each one, then use the bramble on its corpse and collect the spirit.", confidence = "medium" },
 
     -- Iverron's Antidote (Collect)
-    [3521] = { threat = "LOW", reason = "The reagents are found in Teldrassil, guarded by level 5-8 mobs. Manageable solo for a level 6+ character.", confidence = "high" },
+    [3521] = { threat = "LOW", reason = "The reagents are gathered in low-level Teldrassil areas; use ordinary single-pull precautions around nearby spiders and wildlife.", confidence = "medium" },
 
     -- Iverron's Antidote (Deliver)
-    [3522] = { threat = "LOW", reason = "Iverron is in a cave to the north. This is a timed delivery quest with no combat. The cave is guarded by level 6-9 spiders. Manageable solo for a level 7+ character. Do not attempt without clearing the cave entrance first.", confidence = "medium" },
+    [3522] = { threat = "LOW", reason = "Timed quest (5 min). Iverron waits just outside the Webwood cave, a short run from the quest giver; go straight there rather than stopping on the way.", confidence = "medium" },
 
     -- Scourge of the Downs
     [3523] = { threat = "LOW", reason = "This is a dialogue and prerequisite step for the Razorfen Downs escort quest. No combat required. Safe if you stay in the area.", confidence = "high" },
 
     -- Washed Ashore
-    [3524] = { threat = "LOW", reason = "The bones are on the beach and are not guarded. No combat required. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [3524] = { threat = "MEDIUM", reason = "Several Greymist murlocs guard the sea-creature bones south of Auberdine. Pull them from the edge one at a time before interacting with the carcass.", confidence = "medium" },
 
     -- Extinguishing the Idol
     [3525] = { threat = "HIGH", reason = "This is an escort and defense quest inside a level 32-40 dungeon. Belnistrasz does not fight and walks quickly, so if you stop to loot you may fail the escort. When he starts the ritual, waves of elite mobs spawn, including Plaguerot, a level 40 elite. This requires a full group of level 35+. A level 60 warrior with epic gear wiped on this quest. Do not attempt solo. The quest is also notorious for bugging and spawning double mobs if accepted incorrectly.", confidence = "high" },
 
     -- Goblin Engineering (Horde - Ratchet/Booty Bay)
-    [3526] = { threat = "LOW", reason = "Requires level 30 and 200+ engineering skill. The quest involves travel to Ratchet and Booty Bay, then delivering materials. No combat objective. Note: This is a permanent specialization choice; you cannot learn Gnome Engineering after completing this.", confidence = "high" },
+    [3526] = { threat = "LOW", reason = "Delivering the engineering manual to Nixx in Gadgetzan adds no combat. Avoid unnecessary pulls while traveling between settlements.", confidence = "medium" },
 
     -- The Prophecy of Mosh'aru
     [3527] = { threat = "HIGH", reason = "The tablets are obtained from elite mobs in Zul'Farrak, a level 44-50 dungeon, and the Sunken Temple, a level 50-55 dungeon. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
@@ -5470,16 +5479,16 @@ addon.quests = {
     [3528] = { threat = "EXTREME", reason = "The egg is obtained by summoning and defeating Avatar of Hakkar in the Sunken Temple, a level 50-55 dungeon. The Avatar is a powerful elite boss with mind-control abilities and adds. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
 
     -- Delivery to Jes'rimon (Horde - Orgrimmar)
-    [3541] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3541] = { threat = "LOW", reason = "This tablet delivery ends with Jes’rimon in Orgrimmar and adds no combat.", confidence = "medium" },
 
     -- Delivery to Andron Gant (Horde - Undercity)
-    [3542] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [3542] = { threat = "LOW", reason = "This tablet delivery ends with Andron Gant in Undercity and adds no combat.", confidence = "medium" },
 
     -- Delivery to Archmage Xylem (Horde - Azshara)
-    [3561] = { threat = "MEDIUM", reason = "Xylem is at the top of a tower in the Bay of Storms, guarded by level 50+ mobs. The tower has multiple floors with hostile mobs. Clear the tower methodically or use invisibility to reach the top. Do not attempt below level 48.", confidence = "high" },
+    [3561] = { threat = "LOW", reason = "Sanath teleports visitors to Xylem’s tower; the delivery itself adds no combat and the tower route is not a hostile multi-floor clear. Reach Sanath cautiously through Azshara and use the teleporter.", confidence = "medium" },
 
     -- Magatha's Payment to Jediga (Horde - Azshara)
-    [3562] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
+    [3562] = { threat = "MEDIUM", reason = "This is a note delivery to Jediga in Azshara; the turn-in adds no combat, but the approach crosses hostile territory. Stay on the route and avoid the ruins and camps.", confidence = "medium" },
 
     -- Jes'rimon's Payment to Jediga (Horde - Azshara)
     [3563] = { threat = "MEDIUM", reason = "Travel through Azshara with no combat objective, but the zone is dangerous. Stay on the road and avoid the ruins and camps.", confidence = "medium" },
