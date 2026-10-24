@@ -3210,25 +3210,61 @@ addon.quests = {
     [8829] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the supplies to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- Desert Survival Kits
-    [8856] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 4 Globes of Water, 4 Powerful Anti-Venom, and 4 Baked Salmon. Safe if you stay in the area.", confidence = "high" },
+    [8856] = { threat = "LOW", reason = "War Effort supply hand-in with no combat objective. Reach Cenarion Hold by a clear route and avoid hostile Silithus camps.", confidence = "medium" },
 
     -- Secrets of the Colossus - Ashi
-    [8857] = { threat = "LOW", reason = "Delivery step with no combat. The husk is obtained from a silithid colossus in Silithus. The journey to Booty Bay is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8857] = { threat = "LOW", reason = "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Secrets of the Colossus - Regal
-    [8858] = { threat = "LOW", reason = "Delivery step with no combat. The husk is obtained from a silithid colossus in Silithus. The journey to the Searing Gorge is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8858] = { threat = "LOW", reason = "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Secrets of the Colossus - Zora
-    [8859] = { threat = "LOW", reason = "Delivery step with no combat. The husk is obtained from a silithid colossus in Silithus. The journey to Light's Hope Chapel is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8859] = { threat = "LOW", reason = "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.", confidence = "medium" },
+
+    -- Elune's Candle
+    [8862] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Festival Dumplings
+    [8863] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Festive Lunar Dresses
+    [8864] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Festive Lunar Pant Suits
+    [8865] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Bronzebeard the Elder
+    [8866] = { threat = "HIGH", reason = "PvP quest. Elder Bronzebeard is inside Ironforge, where Horde characters face hostile city guards; a low-level visit can be fatal. Skip as Horde unless you have an escape plan and can survive the guard response.", confidence = "medium" },
 
     -- Lunar Fireworks
-    [8867] = { threat = "LOW", reason = "Lunar Festival holiday interaction step with no combat. Launch fireworks and return to a Harbinger. Safe if you stay in the city.", confidence = "high" },
+    [8867] = { threat = "LOW", reason = "Lunar Festival fireworks step with no combat objective. Launch them near a capital-city vendor and return to a Harbinger.", confidence = "medium" },
 
     -- Elune's Blessing
     [8868] = { threat = "EXTREME", reason = "Lunar Festival holiday quest. Requires summoning and defeating Omen, a level 60 elite wolf boss in Moonglade. Omen hits hard and requires a full group of level 60 players. Do not attempt solo.", confidence = "high" },
 
     -- Sweet Serenity
     [8869] = { threat = "HIGH", reason = "Requires entering Stratholme to kill the Crimson Hammersmith, a level 58 elite. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Small Rockets
+    [8876] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Firework Launcher
+    [8877] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Festive Recipes
+    [8878] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Large Rockets
+    [8879] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Cluster Rockets
+    [8880] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Large Cluster Rockets
+    [8881] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Cluster Launcher
+    [8882] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
 
     -- Valadar Starsong
     [8883] = { threat = "LOW", reason = "Lunar Festival holiday travel and dialogue step with no combat. Use the invitation to travel to Moonglade. Safe if you stay in the area.", confidence = "high" },

@@ -10391,50 +10391,155 @@ addon.quests = {
     -- One Commendation Signet (8832)
     [8832] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in Orgrimmar and avoid unnecessary travel through hostile areas.", confidence = "medium" },
 
+    -- Ten Commendation Signets (8833)
+    [8833] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet (8834)
+    [8834] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets (8835)
+    [8835] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet (8836)
+    [8836] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets (8837)
+    [8837] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet (8838)
+    [8838] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets (8839)
+    [8839] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet (8840)
+    [8840] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets (8841)
+    [8841] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet (8842)
+    [8842] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets (8843)
+    [8843] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet (8844)
+    [8844] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets (8845)
+    [8845] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Five Signets for War Supplies (8846)
+    [8846] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Ten Signets for War Supplies (8847)
+    [8847] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Fifteen Signets for War Supplies (8848)
+    [8848] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Twenty Signets for War Supplies (8849)
+    [8849] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Thirty Signets for War Supplies (8850)
+    [8850] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Five Signets for War Supplies (8851)
+    [8851] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Ten Signets for War Supplies (8852)
+    [8852] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Fifteen Signets for War Supplies (8853)
+    [8853] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Twenty Signets for War Supplies (8854)
+    [8854] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Thirty Signets for War Supplies (8855)
+    [8855] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
     -- Desert Survival Kits (8856)
-    [8856] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 4 Globes of Water, 4 Powerful Anti-Venom, and 4 Baked Salmon. Safe if you stay in the area.", confidence = "high" },
+    [8856] = { threat = "LOW", reason = "War Effort supply hand-in with no combat objective. Reach Cenarion Hold by a clear route and avoid hostile Silithus camps.", confidence = "medium" },
 
-    -- Secrets of the Colossus - Ashi
-    [8857] = { threat = "LOW", reason = "Delivery step with no combat. The husk is obtained from a silithid colossus in Silithus. The journey to Booty Bay is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    -- Secrets of the Colossus - Ashi (8857)
+    [8857] = { threat = "LOW", reason = "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.", confidence = "medium" },
 
-    -- Secrets of the Colossus - Regal
-    [8858] = { threat = "LOW", reason = "Delivery step with no combat. The husk is obtained from a silithid colossus in Silithus. The journey to the Searing Gorge is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    -- Secrets of the Colossus - Regal (8858)
+    [8858] = { threat = "LOW", reason = "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.", confidence = "medium" },
 
-    -- Secrets of the Colossus - Zora
-    [8859] = { threat = "LOW", reason = "Delivery step with no combat. The husk is obtained from a silithid colossus in Silithus. The journey to Light's Hope Chapel is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    -- Secrets of the Colossus - Zora (8859)
+    [8859] = { threat = "LOW", reason = "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.", confidence = "medium" },
 
-    -- New Year Celebrations! (Alliance)
-    [8860] = { threat = "LOW", reason = "Holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- New Year Celebrations! (8860)
+    [8860] = { threat = "LOW", reason = "Holiday supply delivery to a Stormwind innkeeper with no combat objective. Stay within the city.", confidence = "medium" },
 
-    -- New Year Celebrations! (Horde)
-    [8861] = { threat = "LOW", reason = "Holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- New Year Celebrations! (8861)
+    [8861] = { threat = "LOW", reason = "Holiday supply delivery to a Thunder Bluff innkeeper with no combat objective. Stay within the city.", confidence = "medium" },
 
-    -- Lunar Fireworks
-    [8867] = { threat = "LOW", reason = "Lunar Festival holiday interaction step with no combat. Launch fireworks and return to a Harbinger. Safe if you stay in the city.", confidence = "high" },
+    -- Elune's Candle (8862)
+    [8862] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
 
-    -- Elune's Blessing
+    -- Festival Dumplings (8863)
+    [8863] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Festive Lunar Dresses (8864)
+    [8864] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Festive Lunar Pant Suits (8865)
+    [8865] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Bronzebeard the Elder (8866)
+    [8866] = { threat = "HIGH", reason = "PvP quest. Elder Bronzebeard is inside Ironforge, where Horde characters face hostile city guards; a low-level visit can be fatal. Skip as Horde unless you have an escape plan and can survive the guard response.", confidence = "medium" },
+
+    -- Lunar Fireworks (8867)
+    [8867] = { threat = "LOW", reason = "Lunar Festival fireworks step with no combat objective. Launch them near a capital-city vendor and return to a Harbinger.", confidence = "medium" },
+
+    -- Elune's Blessing (8868)
     [8868] = { threat = "EXTREME", reason = "Lunar Festival holiday quest. Requires summoning and defeating Omen, a level 60 elite wolf boss in Moonglade. Omen hits hard and requires a full group of level 60 players. Do not attempt solo.", confidence = "high" },
 
-    -- Sweet Serenity
+    -- Sweet Serenity (8869)
     [8869] = { threat = "HIGH", reason = "Requires entering Stratholme to kill the Crimson Hammersmith, a level 58 elite. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
-    -- The Lunar Festival (Ironforge)
-    [8870] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- The Lunar Festival (8870)
+    [8870] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
-    -- The Lunar Festival (Stormwind)
-    [8871] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- The Lunar Festival (8871)
+    [8871] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
-    -- The Lunar Festival (Darnassus)
-    [8872] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- The Lunar Festival (8872)
+    [8872] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
-    -- The Lunar Festival (Orgrimmar)
-    [8873] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- The Lunar Festival (8873)
+    [8873] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
-    -- The Lunar Festival (Undercity)
-    [8874] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- The Lunar Festival (8874)
+    [8874] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
-    -- The Lunar Festival (Thunder Bluff)
-    [8875] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- The Lunar Festival (8875)
+    [8875] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
+
+    -- Small Rockets (8876)
+    [8876] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Firework Launcher (8877)
+    [8877] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Festive Recipes (8878)
+    [8878] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Large Rockets (8879)
+    [8879] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Cluster Rockets (8880)
+    [8880] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Large Cluster Rockets (8881)
+    [8881] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
+
+    -- Cluster Launcher (8882)
+    [8882] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
 
     -- Valadar Starsong
     [8883] = { threat = "LOW", reason = "Lunar Festival holiday travel and dialogue step with no combat. Use the invitation to travel to Moonglade. Safe if you stay in the area.", confidence = "high" },

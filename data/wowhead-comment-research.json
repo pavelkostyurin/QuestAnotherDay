@@ -95988,6 +95988,1296 @@
       "reason": "Commendation Signet exchange with no combat objective. Complete the turn-in in Orgrimmar and avoid unnecessary travel through hostile areas.",
       "threat": "LOW",
       "confidence": "medium"
+    },
+    {
+      "questId": 8833,
+      "questName": "Ten Commendation Signets",
+      "url": "https://www.wowhead.com/classic/quest=8833",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8834,
+      "questName": "One Commendation Signet",
+      "url": "https://www.wowhead.com/classic/quest=8834",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8835,
+      "questName": "Ten Commendation Signets",
+      "url": "https://www.wowhead.com/classic/quest=8835",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8836,
+      "questName": "One Commendation Signet",
+      "url": "https://www.wowhead.com/classic/quest=8836",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8837,
+      "questName": "Ten Commendation Signets",
+      "url": "https://www.wowhead.com/classic/quest=8837",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8838,
+      "questName": "One Commendation Signet",
+      "url": "https://www.wowhead.com/classic/quest=8838",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8839,
+      "questName": "Ten Commendation Signets",
+      "url": "https://www.wowhead.com/classic/quest=8839",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8840,
+      "questName": "One Commendation Signet",
+      "url": "https://www.wowhead.com/classic/quest=8840",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8841,
+      "questName": "Ten Commendation Signets",
+      "url": "https://www.wowhead.com/classic/quest=8841",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8842,
+      "questName": "One Commendation Signet",
+      "url": "https://www.wowhead.com/classic/quest=8842",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8843,
+      "questName": "Ten Commendation Signets",
+      "url": "https://www.wowhead.com/classic/quest=8843",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8844,
+      "questName": "One Commendation Signet",
+      "url": "https://www.wowhead.com/classic/quest=8844",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8845,
+      "questName": "Ten Commendation Signets",
+      "url": "https://www.wowhead.com/classic/quest=8845",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8846,
+      "questName": "Five Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8846",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Five Signets for War Supplies",
+          "url": "https://www.wowhead.com/classic/quest=8846/five-signets-for-war-supplies",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Requires five Alliance Commendation Signets and exchanges them for War Effort supplies; no combat objective is listed."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8847,
+      "questName": "Ten Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8847",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8848,
+      "questName": "Fifteen Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8848",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8849,
+      "questName": "Twenty Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8849",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8850,
+      "questName": "Thirty Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8850",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8851,
+      "questName": "Five Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8851",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8852,
+      "questName": "Ten Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8852",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Ten Signets for War Supplies",
+          "url": "https://www.wowhead.com/classic/quest=8852/ten-signets-for-war-supplies",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Horde supply exchange quest requiring commendation signets; quest data lists the War Effort supplies reward and no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8853,
+      "questName": "Fifteen Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8853",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8854,
+      "questName": "Twenty Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8854",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8855,
+      "questName": "Thirty Signets for War Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8855",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8856,
+      "questName": "Desert Survival Kits",
+      "url": "https://www.wowhead.com/classic/quest=8856",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "War Effort supply hand-in with no combat objective. Reach Cenarion Hold by a clear route and avoid hostile Silithus camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8857,
+      "questName": "Secrets of the Colossus - Ashi",
+      "url": "https://www.wowhead.com/classic/quest=8857",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8858,
+      "questName": "Secrets of the Colossus - Regal",
+      "url": "https://www.wowhead.com/classic/quest=8858",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8859,
+      "questName": "Secrets of the Colossus - Zora",
+      "url": "https://www.wowhead.com/classic/quest=8859",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Delivery step with no additional combat after obtaining the husk. Follow the normal route to the destination and avoid hostile camps along the way.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8860,
+      "questName": "New Year Celebrations!",
+      "url": "https://www.wowhead.com/classic/quest=8860",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Holiday supply delivery to a Stormwind innkeeper with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8861,
+      "questName": "New Year Celebrations!",
+      "url": "https://www.wowhead.com/classic/quest=8861",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Holiday supply delivery to a Thunder Bluff innkeeper with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8862,
+      "questName": "Elune's Candle",
+      "url": "https://www.wowhead.com/classic/quest=8862",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Elune’s Candle",
+          "url": "https://www.wowhead.com/classic/quest=8862/elunes-candle",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Exchanges five Coins of Ancestry with Valadar Starsong in Moonglade for Elune’s Candle and fireworks; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8863,
+      "questName": "Festival Dumplings",
+      "url": "https://www.wowhead.com/classic/quest=8863",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Festival Dumplings, dresses, and pant suits are purchases exchanged for Coins of Ancestry with Valadar; these are item/reward hand-ins."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8864,
+      "questName": "Festive Lunar Dresses",
+      "url": "https://www.wowhead.com/classic/quest=8864",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Festive Lunar Dresses exchanges five Coins of Ancestry with Valadar for a dress and fireworks; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8865,
+      "questName": "Festive Lunar Pant Suits",
+      "url": "https://www.wowhead.com/classic/quest=8865",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Festive Lunar Pant Suits exchanges five Coins of Ancestry with Valadar for a suit and fireworks; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8866,
+      "questName": "Bronzebeard the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8866",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read one relevant historical Classic-era comment; exact guard-route and solo details remain unverified.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Bronzebeard the Elder",
+          "url": "https://classicdb.ch/?quest=8866",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Classic Era page locates the quest at Elder Bronzebeard in Ironforge. One relevant historical comment reports that a Horde character had to corpse-run through Ironforge to complete it; the exact guard-route details are not independently verified."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Era quest is at Elder Bronzebeard inside Ironforge. A relevant historical Horde report describes corpse-running through the hostile capital; extrapolating this to serious guard danger is plausible, but its exact route is unverified. HIGH reflects the lethal hostile-city approach at the quest’s level-1 minimum; confidence is medium because the historical report is limited.",
+      "reason": "PvP quest. Elder Bronzebeard is inside Ironforge, where Horde characters face hostile city guards; a low-level visit can be fatal. Skip as Horde unless you have an escape plan and can survive the guard response.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8867,
+      "questName": "Lunar Fireworks",
+      "url": "https://www.wowhead.com/classic/quest=8867",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival: quests and locations",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Launch fireworks near capital-city vendors and return to a Lunar Festival Harbinger; fireworks can be used beside the vendor."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival fireworks step with no combat objective. Launch them near a capital-city vendor and return to a Harbinger.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8868,
+      "questName": "Elune's Blessing",
+      "url": "https://www.wowhead.com/classic/quest=8868",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:25:43+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8869,
+      "questName": "Sweet Serenity",
+      "url": "https://www.wowhead.com/classic/quest=8869",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:25:43+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Quest type is explicitly Dungeon; objective requires killing the Crimson Hammersmith in Stratholme and returning the apron. Skipped before rating under the dungeon rule."
+    },
+    {
+      "questId": 8870,
+      "questName": "The Lunar Festival",
+      "url": "https://www.wowhead.com/classic/quest=8870",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8871,
+      "questName": "The Lunar Festival",
+      "url": "https://www.wowhead.com/classic/quest=8871",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8872,
+      "questName": "The Lunar Festival",
+      "url": "https://www.wowhead.com/classic/quest=8872",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8873,
+      "questName": "The Lunar Festival",
+      "url": "https://www.wowhead.com/classic/quest=8873",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8874,
+      "questName": "The Lunar Festival",
+      "url": "https://www.wowhead.com/classic/quest=8874",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8875,
+      "questName": "The Lunar Festival",
+      "url": "https://www.wowhead.com/classic/quest=8875",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog and analogous reviewed signet-exchange records describe an item hand-in without combat. LOW reflects ordinary city travel only; confidence is medium because this assessment reuses the established exchange pattern and local context.",
+      "reason": "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8876,
+      "questName": "Small Rockets",
+      "url": "https://www.wowhead.com/classic/quest=8876",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Small Rockets exchanges Coins of Ancestry at Fariel Starsong in Nighthaven for engineering schematics; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8877,
+      "questName": "Firework Launcher",
+      "url": "https://www.wowhead.com/classic/quest=8877",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Firework Launcher exchanges Coins of Ancestry at Fariel Starsong in Nighthaven for an engineering schematic; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8878,
+      "questName": "Festive Recipes",
+      "url": "https://www.wowhead.com/classic/quest=8878",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Festive Recipes exchanges Coins of Ancestry at Fariel Starsong in Nighthaven for tailoring patterns; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8879,
+      "questName": "Large Rockets",
+      "url": "https://www.wowhead.com/classic/quest=8879",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Large Rockets exchanges Coins of Ancestry at Fariel Starsong in Nighthaven for engineering schematics; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8880,
+      "questName": "Cluster Rockets",
+      "url": "https://www.wowhead.com/classic/quest=8880",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Cluster Rockets exchanges Coins of Ancestry at Fariel Starsong in Nighthaven for engineering schematics; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8881,
+      "questName": "Large Cluster Rockets",
+      "url": "https://www.wowhead.com/classic/quest=8881",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Large Cluster Rockets exchanges Coins of Ancestry at Fariel Starsong in Nighthaven for engineering schematics; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8882,
+      "questName": "Cluster Launcher",
+      "url": "https://www.wowhead.com/classic/quest=8882",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:25:43+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective or established no-combat quest pattern verified from the retrieved page where listed; comments were not needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival reward quests",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:25:43+03:00",
+          "evidence": "Cluster Launcher exchanges Coins of Ancestry at Fariel Starsong in Nighthaven for an engineering schematic; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest data supports a reward exchange or conversation without a combat objective. LOW reflects ordinary travel risk only; confidence is medium because the objective is clear but no independent danger evidence was needed.",
+      "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
+      "threat": "LOW",
+      "confidence": "medium"
     }
   ]
 }

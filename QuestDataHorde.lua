@@ -3740,17 +3740,53 @@ local quests = {
     -- One Commendation Signet
     [8832] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in Orgrimmar and avoid unnecessary travel through hostile areas.", confidence = "medium" },
 
+    -- Ten Commendation Signets
+    [8833] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8840] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8841] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8842] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8843] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8844] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8845] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Five Signets for War Supplies
+    [8851] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Ten Signets for War Supplies
+    [8852] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Fifteen Signets for War Supplies
+    [8853] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Twenty Signets for War Supplies
+    [8854] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Thirty Signets for War Supplies
+    [8855] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
     -- New Year Celebrations!
-    [8861] = { threat = "LOW", reason = "Holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8861] = { threat = "LOW", reason = "Holiday supply delivery to a Thunder Bluff innkeeper with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Lunar Festival
-    [8873] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8873] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
     -- The Lunar Festival
-    [8874] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8874] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
     -- The Lunar Festival
-    [8875] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8875] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
     -- Dearest Elenia,
     [8900] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },

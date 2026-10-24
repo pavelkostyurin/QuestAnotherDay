@@ -4334,17 +4334,50 @@ local quests = {
     -- Ten Commendation Signets
     [8831] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
 
+    -- One Commendation Signet
+    [8834] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8835] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8836] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8837] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8838] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8839] = { threat = "LOW", reason = "Commendation Signet exchange in a capital city with no combat objective. Stay in the city and avoid hostile travel.", confidence = "medium" },
+
+    -- Five Signets for War Supplies
+    [8846] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Ten Signets for War Supplies
+    [8847] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Fifteen Signets for War Supplies
+    [8848] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Twenty Signets for War Supplies
+    [8849] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
+    -- Thirty Signets for War Supplies
+    [8850] = { threat = "LOW", reason = "War Effort supplies exchange for Commendation Signets with no combat objective. Complete the turn-in in the city.", confidence = "medium" },
+
     -- New Year Celebrations!
-    [8860] = { threat = "LOW", reason = "Holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8860] = { threat = "LOW", reason = "Holiday supply delivery to a Stormwind innkeeper with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Lunar Festival
-    [8870] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8870] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
     -- The Lunar Festival
-    [8871] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8871] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
     -- The Lunar Festival
-    [8872] = { threat = "LOW", reason = "Lunar Festival holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8872] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
     -- Dearest Colara,
     [8897] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
