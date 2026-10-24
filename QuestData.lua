@@ -6206,73 +6206,73 @@ addon.quests = {
     [4490] = { threat = "LOW", reason = "This step only teaches the warlock ability through dialogue. It adds no combat; use the normal route to Ratchet and avoid unnecessary pulls.", confidence = "medium" },
 
     -- A Little Help From My Friends
-    [4491] = { threat = "HIGH", reason = "Escort quest. Ringo faints periodically and must be revived with Spraggle's Canteen; if he dies, the quest fails. The route passes through Fire Plume Ridge and silithid territory in Un'Goro. Clear the path ahead and keep the canteen ready. Do not attempt below level 50 solo without a plan.", confidence = "high" },
+    [4491] = { threat = "MEDIUM", reason = "Escort quest. Ringo periodically faints and must be revived with Spraggle’s Canteen. Choose a route that avoids hostile wildlife, keep the canteen ready, and stay close enough to protect him.", confidence = "medium" },
 
     -- Lost!
-    [4492] = { threat = "MEDIUM", reason = "Ringo is on Fire Plume Ridge, which is patrolled by level 50-54 fire elementals and lava creatures. The ridge has steep terrain and hot spots that damage you. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4492] = { threat = "LOW", reason = "Finding Ringo requires reaching a cave on Fire Plume Ridge, where a nearby fire elemental can block the approach. Use the clear southern slope and avoid unnecessary fights.", confidence = "medium" },
 
     -- March of the Silithid
-    [4493] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4493] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- March of the Silithid (Horde - Tanaris)
-    [4494] = { threat = "MEDIUM", reason = "The quest leads into silithid territory with hostile mobs. Clear the area before engaging and watch for patrolling silithids.", confidence = "medium" },
+    [4494] = { threat = "LOW", reason = "This faction version is a dialogue step in Gadgetzan. It adds no combat; use the normal route to town and avoid nearby hostile camps.", confidence = "medium" },
 
     -- A Good Friend
-    [4495] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The cave is guarded by low-level spiders. Manageable solo for a level 7+ character.", confidence = "high" },
+    [4495] = { threat = "LOW", reason = "Finding Iverron by the northern cave adds little combat beyond travel through the starting area. Watch for nearby spiders and retreat if you draw more than one.", confidence = "medium" },
 
     -- Bungle in the Jungle
-    [4496] = { threat = "MEDIUM", reason = "Gorishi Scent Glands drop from silithid inside the Gorishi hives, which are packed with level 50-54 mobs that pull in groups. The Un'Goro Soil is found on the ground. Clear the hives methodically and watch for Swarmers. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4496] = { threat = "MEDIUM", reason = "Gorishi scent glands come from silithid in Un’Goro hives, where close enemies can join a fight. Pull from the edges and leave the tunnels if the route becomes crowded.", confidence = "medium" },
 
     -- Beware of Pterrordax
-    [4501] = { threat = "MEDIUM", reason = "Pterrordax are levels 48-52 and pull in pairs; Frenzied variants hit harder and fly fast. Fight in open areas and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+    [4501] = { threat = "MEDIUM", reason = "Pterrordax and Frenzied Pterrordax occupy hostile areas of Un’Goro and can join nearby fights. Pull in open ground and watch for other creatures while recovering.", confidence = "medium" },
 
     -- Volcanic Activity
-    [4502] = { threat = "HIGH", reason = "Fire elementals around the volcano are levels 50-54 and have fire shields that damage melee. The volcano rim has lava hazards and elite patrols. Bring fire resistance and clear methodically. Do not attempt below level 50 solo without a group.", confidence = "high" },
+    [4502] = { threat = "MEDIUM", reason = "Fire elementals around Fire Plume Ridge can punish close-range pulls, and the route passes through other hostile wildlife. Pull one target at a time and stay clear of the lava edge.", confidence = "medium" },
 
     -- Shizzle's Flyer
-    [4503] = { threat = "MEDIUM", reason = "Webbed diemetradon and pterrordax scales drop from level 48-52 mobs in the crater. Both mobs pull in groups and the pterrordax fly fast. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+    [4503] = { threat = "MEDIUM", reason = "Diemetradon and pterrordax scale collection takes you through hostile Un’Goro wildlife. Pull away from other creatures and keep room to retreat.", confidence = "medium" },
 
     -- Super Sticky
-    [4504] = { threat = "MEDIUM", reason = "Super Sticky Tar is found on the ground near tar pits in Un'Goro, patrolled by level 48-52 tar beasts and elementals. Clear the area before looting and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4504] = { threat = "MEDIUM", reason = "The tar samples are gathered near hostile tar creatures in Un’Goro. Clear nearby enemies before collecting samples and leave if respawns close the route.", confidence = "medium" },
 
     -- Well of Corruption (Horde - Felwood)
-    [4505] = { threat = "MEDIUM", reason = "The well is guarded by level 48-52 mobs and the area is patrolled by hostile creatures. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 48.", confidence = "medium" },
+    [4505] = { threat = "MEDIUM", reason = "The corrupted well lies among hostile Jadefire satyrs in Felwood. Clear a route to the water and avoid fighting with enemies at your back.", confidence = "medium" },
 
     -- Corrupted Sabers (Horde - Felwood)
-    [4506] = { threat = "MEDIUM", reason = "The saber cats are levels 48-52 and are aggressive. They can pull in pairs and have a bleed effect. Clear methodically and pull singles. Do not attempt below level 48.", confidence = "medium" },
+    [4506] = { threat = "MEDIUM", reason = "Taking Winna’s kitten to the corrupted moonwell brings you through hostile Felwood territory. Keep the cat in sight, clear nearby satyrs, and avoid pulling from the camp.", confidence = "medium" },
 
     -- Pawn Captures Queen
-    [4507] = { threat = "EXTREME", reason = "Elite quest. Summoning the Gorishi Hive Queen triggers three waves of elite silithid in a deep cave with no escape route. The Queen herself is a level 55 elite with adds. A full group of level 52+ is required. Do not attempt solo — this is a documented Hardcore killer.", confidence = "high" },
+    [4507] = { threat = "HIGH", reason = "Elite quest. Summoning the Gorishi Hive Queen triggers several waves of guards in a confined hive, with respawns able to join the final fight. Pull enemies into the tunnel to recover between waves; bring a group if you cannot control multiple attackers.", confidence = "medium" },
 
     -- Calm Before the Storm
-    [4508] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4508] = { threat = "LOW", reason = "This is a delivery to Darnassus with no new combat. Stay in the city and avoid unnecessary detours.", confidence = "medium" },
 
     -- Calm Before the Storm (Horde - Silithus)
-    [4509] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Silithus is dangerous for low-level players, but the quest itself is safe.", confidence = "high" },
+    [4509] = { threat = "LOW", reason = "This is a delivery to Orgrimmar with no new combat. Stay in the city and avoid unnecessary detours.", confidence = "medium" },
 
     -- Calm Before the Storm (Bank Voucher)
-    [4510] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4510] = { threat = "LOW", reason = "This bank-voucher hand-in is inside Darnassus and adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Calm Before the Storm (Horde - Silithus)
-    [4511] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the Cenarion Hold area.", confidence = "high" },
+    [4511] = { threat = "LOW", reason = "This bank-voucher hand-in is inside Orgrimmar and adds no combat. Stay within the city.", confidence = "medium" },
 
     -- A Little Slime Goes a Long Way (Cursed/Tainted)
-    [4512] = { threat = "HIGH", reason = "Cursed and tainted oozes are levels 50-54 in Felwood and Un'Goro; they split when killed and can overwhelm solo players. The jars must be filled while the ooze is alive, meaning you fight each one. Clear methodically and be ready to flee. Do not attempt below level 50 solo without a plan.", confidence = "high" },
+    [4512] = { threat = "MEDIUM", reason = "Filling jars from hostile oozes in Felwood and Un’Goro can expose you to nearby enemies and respawns. Work from the edge of a camp and keep a clear retreat route.", confidence = "medium" },
 
     -- A Little Slime Goes a Long Way (Pure Samples)
-    [4513] = { threat = "HIGH", reason = "Pure oozes are levels 52-56 in Winterspring and Un'Goro; they hit hard and split on death. The jars must be filled while the ooze is alive. Clear methodically and keep an escape route. Do not attempt below level 52 solo without a plan.", confidence = "high" },
+    [4513] = { threat = "MEDIUM", reason = "Collecting pure ooze samples takes you into hostile creature territory. Pull away from nearby enemies and leave if a fight draws adds or blocks your escape.", confidence = "medium" },
 
     -- Wild Guardians (Horde - Feralas)
-    [4521] = { threat = "MEDIUM", reason = "The screechers are levels 44-46 and are aggressive birds that patrol the forests. They can pull in pairs and have a knockback. Fight in open areas where you can see them coming. Do not attempt below level 44.", confidence = "medium" },
+    [4521] = { threat = "MEDIUM", reason = "Raging and Ragged Owlbeasts occupy hostile parts of Felwood and can join nearby fights. Pull from open ground and watch for patrols while recovering.", confidence = "medium" },
 
     -- Message to Freewind Post (Horde - Thousand Needles)
-    [4542] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the centaur camps.", confidence = "high" },
+    [4542] = { threat = "LOW", reason = "This is a delivery to Freewind Post. Travel through the Barrens and avoid nearby centaur camps; the hand-in adds no combat.", confidence = "medium" },
 
     -- Testing for Impurities - Un'Goro Crater (Horde - Un'Goro)
-    [4561] = { threat = "MEDIUM", reason = "The hot springs are guarded by level 48-52 mobs, including tar beasts and elementals. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 48.", confidence = "medium" },
+    [4561] = { threat = "MEDIUM", reason = "The hot-spring area in Un’Goro has hostile creatures nearby. Approach from a clear route and leave if the nearby pulls become unsafe.", confidence = "medium" },
 
     -- Kayneth Stillwind
-    [4581] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Ashenvale is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [4581] = { threat = "LOW", reason = "Delivering Shindrell’s note adds no combat beyond travel to Forest Song. Follow the safe route and avoid hostile camps along the way.", confidence = "medium" },
 
     -- The Sparklematic 5200! (4601)
     [4601] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
@@ -6281,61 +6281,61 @@ addon.quests = {
     [4602] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Avast Ye, Admiral!
-    [4621] = { threat = "EXTREME", reason = "PvP quest. Requires slaying Fleet Master Seahorn and Baron Revilgaz inside Booty Bay, a neutral town patrolled by elite Bruisers who one-shot low-level players. The targets are high-level elites with guards. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [4621] = { threat = "EXTREME", reason = "PvP quest. The objectives require killing two Booty Bay leaders inside the goblin port, where hostile Bruisers respond to attacks. Expect a dangerous fight and major Booty Bay reputation loss; skip it on Hardcore unless prepared for both consequences.", confidence = "medium" },
 
     -- Your Place In The World (Horde - Orgrimmar)
-    [4641] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4641] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Melding of Influences (Horde - Orgrimmar)
-    [4642] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4642] = { threat = "LOW", reason = "This is a sample hand-in to the chemist in Undercity. It adds no combat if you already have the Merged Ooze Sample; avoid detours through hostile areas.", confidence = "medium" },
 
     -- Testing for Corruption - Felwood (Horde - Felwood)
-    [4661] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with corrupted mobs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 48.", confidence = "medium" },
+    [4661] = { threat = "MEDIUM", reason = "The catalog has no objective text, and the existing record places the task in hostile Felwood territory. Clear a route and do not continue if nearby enemies close in.", confidence = "medium" },
 
     -- Washed Ashore (Sea Turtle Remains)
-    [4681] = { threat = "MEDIUM", reason = "The skeletal sea turtle is underwater west of Auberdine, guarded by level 18-22 murlocs. Fighting underwater risks drowning if feared or rooted. Clear the area before diving and surface before your breath runs out. Do not attempt below level 18 solo.", confidence = "medium" },
+    [4681] = { threat = "MEDIUM", reason = "Recovering the turtle remains requires an underwater trip near hostile murlocs. Clear nearby enemies first, monitor breath, and surface before fighting underwater.", confidence = "medium" },
 
     -- Put Her Down
     [4701] = { threat = "HIGH", reason = "Elite quest. Requires entering Blackrock Spire to kill Halycon, a level 60 elite worg boss in Lower Blackrock Spire. The dungeon is filled with elites and requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
 
     -- Wild Guardians (Horde - Feralas)
-    [4721] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with aggressive birds. Clear the area before engaging.", confidence = "medium" },
+    [4721] = { threat = "MEDIUM", reason = "Berserk Owlbeasts in Winterspring are hostile and can join nearby fights. Pull from open ground and watch for other enemies while recovering.", confidence = "medium" },
 
     -- Beached Sea Turtle (4722)
-    [4722] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4722] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Creature (4723)
-    [4723] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4723] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- The Pack Mistress (Horde - Feralas)
     [4724] = { threat = "HIGH", reason = "The target is a powerful named mob surrounded by her pack. The wolves are levels 46-48 and are aggressive. Clear the pack before engaging the Mistress and watch for patrolling mobs. Do not attempt below level 46 solo.", confidence = "medium" },
 
     -- Beached Sea Turtle (Strangely Marked Box)
-    [4725] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4725] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Broodling Essence
-    [4726] = { threat = "HIGH", reason = "Elite quest. Requires using the Draco-Incarcinatrix on black dragon whelps in the Burning Steppes; the whelps are levels 54-57 and pull in groups, with elite drakes patrolling nearby. Do not attempt below level 54 solo without a group.", confidence = "high" },
+    [4726] = { threat = "MEDIUM", reason = "Broodling Essence requires using the device on living dragon whelps and defeating them in Burning Steppes. Fight in open ground, pull one whelp at a time, and watch for nearby drakes.", confidence = "medium" },
 
     -- Beached Sea Turtle (4727)
-    [4727] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4727] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Creature (4728)
-    [4728] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4728] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Kibler's Exotic Pets
     [4729] = { threat = "HIGH", reason = "Elite quest. Requires entering Lower Blackrock Spire to find Bloodaxe Worg Pups, which are guarded by level 55-60 elite orcs and worgs. The pups themselves are aggressive. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Beached Sea Creature (4730)
-    [4730] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4730] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Turtle (4731)
-    [4731] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4731] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Turtle (4732)
-    [4732] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4732] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Creature (4733)
-    [4733] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4733] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Egg Freezing
     [4734] = { threat = "HIGH", reason = "Elite quest. Requires entering the Rookery in Upper Blackrock Spire to use the Eggscilloscope on a dragon egg. The Rookery is packed with level 55-60 elite dragonkin, and the room spawns adds when disturbed. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },

@@ -2193,40 +2193,40 @@ local quests = {
     [4489] = { threat = "MEDIUM", reason = "The warlock mount ritual involves combat after the Ratchet dialogue. Recover before starting it and do not begin while already under pressure from nearby enemies.", confidence = "medium" },
 
     -- March of the Silithid
-    [4494] = { threat = "MEDIUM", reason = "The quest leads into silithid territory with hostile mobs. Clear the area before engaging and watch for patrolling silithids.", confidence = "medium" },
+    [4494] = { threat = "LOW", reason = "This faction version is a dialogue step in Gadgetzan. It adds no combat; use the normal route to town and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Well of Corruption
-    [4505] = { threat = "MEDIUM", reason = "The well is guarded by level 48-52 mobs and the area is patrolled by hostile creatures. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 48.", confidence = "medium" },
+    [4505] = { threat = "MEDIUM", reason = "The corrupted well lies among hostile Jadefire satyrs in Felwood. Clear a route to the water and avoid fighting with enemies at your back.", confidence = "medium" },
 
     -- Corrupted Sabers
-    [4506] = { threat = "MEDIUM", reason = "The saber cats are levels 48-52 and are aggressive. They can pull in pairs and have a bleed effect. Clear methodically and pull singles. Do not attempt below level 48.", confidence = "medium" },
+    [4506] = { threat = "MEDIUM", reason = "Taking Winna’s kitten to the corrupted moonwell brings you through hostile Felwood territory. Keep the cat in sight, clear nearby satyrs, and avoid pulling from the camp.", confidence = "medium" },
 
     -- Calm Before the Storm
-    [4509] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Silithus is dangerous for low-level players, but the quest itself is safe.", confidence = "high" },
+    [4509] = { threat = "LOW", reason = "This is a delivery to Orgrimmar with no new combat. Stay in the city and avoid unnecessary detours.", confidence = "medium" },
 
     -- Calm Before the Storm
-    [4511] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the Cenarion Hold area.", confidence = "high" },
+    [4511] = { threat = "LOW", reason = "This bank-voucher hand-in is inside Orgrimmar and adds no combat. Stay within the city.", confidence = "medium" },
 
     -- Wild Guardians
-    [4521] = { threat = "MEDIUM", reason = "The screechers are levels 44-46 and are aggressive birds that patrol the forests. They can pull in pairs and have a knockback. Fight in open areas where you can see them coming. Do not attempt below level 44.", confidence = "medium" },
+    [4521] = { threat = "MEDIUM", reason = "Raging and Ragged Owlbeasts occupy hostile parts of Felwood and can join nearby fights. Pull from open ground and watch for patrols while recovering.", confidence = "medium" },
 
     -- Message to Freewind Post
-    [4542] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the centaur camps.", confidence = "high" },
+    [4542] = { threat = "LOW", reason = "This is a delivery to Freewind Post. Travel through the Barrens and avoid nearby centaur camps; the hand-in adds no combat.", confidence = "medium" },
 
     -- Testing for Impurities - Un'Goro Crater
-    [4561] = { threat = "MEDIUM", reason = "The hot springs are guarded by level 48-52 mobs, including tar beasts and elementals. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 48.", confidence = "medium" },
+    [4561] = { threat = "MEDIUM", reason = "The hot-spring area in Un’Goro has hostile creatures nearby. Approach from a clear route and leave if the nearby pulls become unsafe.", confidence = "medium" },
 
     -- Your Place In The World
-    [4641] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4641] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Melding of Influences
-    [4642] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4642] = { threat = "LOW", reason = "This is a sample hand-in to the chemist in Undercity. It adds no combat if you already have the Merged Ooze Sample; avoid detours through hostile areas.", confidence = "medium" },
 
     -- Testing for Corruption - Felwood
-    [4661] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with corrupted mobs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 48.", confidence = "medium" },
+    [4661] = { threat = "MEDIUM", reason = "The catalog has no objective text, and the existing record places the task in hostile Felwood territory. Clear a route and do not continue if nearby enemies close in.", confidence = "medium" },
 
     -- Wild Guardians
-    [4721] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with aggressive birds. Clear the area before engaging.", confidence = "medium" },
+    [4721] = { threat = "MEDIUM", reason = "Berserk Owlbeasts in Winterspring are hostile and can join nearby fights. Pull from open ground and watch for other enemies while recovering.", confidence = "medium" },
 
     -- The Pack Mistress
     [4724] = { threat = "HIGH", reason = "The target is a powerful named mob surrounded by her pack. The wolves are levels 46-48 and are aggressive. Clear the pack before engaging the Mistress and watch for patrolling mobs. Do not attempt below level 46 solo.", confidence = "medium" },

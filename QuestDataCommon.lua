@@ -1260,28 +1260,28 @@ addon.quests = {
     [4490] = { threat = "LOW", reason = "This step only teaches the warlock ability through dialogue. It adds no combat; use the normal route to Ratchet and avoid unnecessary pulls.", confidence = "medium" },
 
     -- A Little Help From My Friends
-    [4491] = { threat = "HIGH", reason = "Escort quest. Ringo faints periodically and must be revived with Spraggle's Canteen; if he dies, the quest fails. The route passes through Fire Plume Ridge and silithid territory in Un'Goro. Clear the path ahead and keep the canteen ready. Do not attempt below level 50 solo without a plan.", confidence = "high" },
+    [4491] = { threat = "MEDIUM", reason = "Escort quest. Ringo periodically faints and must be revived with Spraggle’s Canteen. Choose a route that avoids hostile wildlife, keep the canteen ready, and stay close enough to protect him.", confidence = "medium" },
 
     -- Lost!
-    [4492] = { threat = "MEDIUM", reason = "Ringo is on Fire Plume Ridge, which is patrolled by level 50-54 fire elementals and lava creatures. The ridge has steep terrain and hot spots that damage you. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4492] = { threat = "LOW", reason = "Finding Ringo requires reaching a cave on Fire Plume Ridge, where a nearby fire elemental can block the approach. Use the clear southern slope and avoid unnecessary fights.", confidence = "medium" },
 
     -- Bungle in the Jungle
-    [4496] = { threat = "MEDIUM", reason = "Gorishi Scent Glands drop from silithid inside the Gorishi hives, which are packed with level 50-54 mobs that pull in groups. The Un'Goro Soil is found on the ground. Clear the hives methodically and watch for Swarmers. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4496] = { threat = "MEDIUM", reason = "Gorishi scent glands come from silithid in Un’Goro hives, where close enemies can join a fight. Pull from the edges and leave the tunnels if the route becomes crowded.", confidence = "medium" },
 
     -- Beware of Pterrordax
-    [4501] = { threat = "MEDIUM", reason = "Pterrordax are levels 48-52 and pull in pairs; Frenzied variants hit harder and fly fast. Fight in open areas and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+    [4501] = { threat = "MEDIUM", reason = "Pterrordax and Frenzied Pterrordax occupy hostile areas of Un’Goro and can join nearby fights. Pull in open ground and watch for other creatures while recovering.", confidence = "medium" },
 
     -- Volcanic Activity
-    [4502] = { threat = "HIGH", reason = "Fire elementals around the volcano are levels 50-54 and have fire shields that damage melee. The volcano rim has lava hazards and elite patrols. Bring fire resistance and clear methodically. Do not attempt below level 50 solo without a group.", confidence = "high" },
+    [4502] = { threat = "MEDIUM", reason = "Fire elementals around Fire Plume Ridge can punish close-range pulls, and the route passes through other hostile wildlife. Pull one target at a time and stay clear of the lava edge.", confidence = "medium" },
 
     -- Shizzle's Flyer
-    [4503] = { threat = "MEDIUM", reason = "Webbed diemetradon and pterrordax scales drop from level 48-52 mobs in the crater. Both mobs pull in groups and the pterrordax fly fast. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+    [4503] = { threat = "MEDIUM", reason = "Diemetradon and pterrordax scale collection takes you through hostile Un’Goro wildlife. Pull away from other creatures and keep room to retreat.", confidence = "medium" },
 
     -- Super Sticky
-    [4504] = { threat = "MEDIUM", reason = "Super Sticky Tar is found on the ground near tar pits in Un'Goro, patrolled by level 48-52 tar beasts and elementals. Clear the area before looting and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4504] = { threat = "MEDIUM", reason = "The tar samples are gathered near hostile tar creatures in Un’Goro. Clear nearby enemies before collecting samples and leave if respawns close the route.", confidence = "medium" },
 
     -- Pawn Captures Queen
-    [4507] = { threat = "EXTREME", reason = "Elite quest. Summoning the Gorishi Hive Queen triggers three waves of elite silithid in a deep cave with no escape route. The Queen herself is a level 55 elite with adds. A full group of level 52+ is required. Do not attempt solo — this is a documented Hardcore killer.", confidence = "high" },
+    [4507] = { threat = "HIGH", reason = "Elite quest. Summoning the Gorishi Hive Queen triggers several waves of guards in a confined hive, with respawns able to join the final fight. Pull enemies into the tunnel to recover between waves; bring a group if you cannot control multiple attackers.", confidence = "medium" },
 
     -- The Sparklematic 5200!
     [4601] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
@@ -1290,10 +1290,10 @@ addon.quests = {
     [4602] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Avast Ye, Admiral!
-    [4621] = { threat = "EXTREME", reason = "PvP quest. Requires slaying Fleet Master Seahorn and Baron Revilgaz inside Booty Bay, a neutral town patrolled by elite Bruisers who one-shot low-level players. The targets are high-level elites with guards. Do not attempt on Hardcore. Skip entirely.", confidence = "high" },
+    [4621] = { threat = "EXTREME", reason = "PvP quest. The objectives require killing two Booty Bay leaders inside the goblin port, where hostile Bruisers respond to attacks. Expect a dangerous fight and major Booty Bay reputation loss; skip it on Hardcore unless prepared for both consequences.", confidence = "medium" },
 
     -- Broodling Essence
-    [4726] = { threat = "HIGH", reason = "Elite quest. Requires using the Draco-Incarcinatrix on black dragon whelps in the Burning Steppes; the whelps are levels 54-57 and pull in groups, with elite drakes patrolling nearby. Do not attempt below level 54 solo without a group.", confidence = "high" },
+    [4726] = { threat = "MEDIUM", reason = "Broodling Essence requires using the device on living dragon whelps and defeating them in Burning Steppes. Fight in open ground, pull one whelp at a time, and watch for nearby drakes.", confidence = "medium" },
 
     -- Kibler's Exotic Pets
     [4729] = { threat = "HIGH", reason = "Elite quest. Requires entering Lower Blackrock Spire to find Bloodaxe Worg Pups, which are guarded by level 55-60 elite orcs and worgs. The pups themselves are aggressive. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },

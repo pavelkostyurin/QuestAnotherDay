@@ -3000,58 +3000,58 @@ local quests = {
     [4488] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- March of the Silithid
-    [4493] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4493] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- A Good Friend
-    [4495] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The cave is guarded by low-level spiders. Manageable solo for a level 7+ character.", confidence = "high" },
+    [4495] = { threat = "LOW", reason = "Finding Iverron by the northern cave adds little combat beyond travel through the starting area. Watch for nearby spiders and retreat if you draw more than one.", confidence = "medium" },
 
     -- Calm Before the Storm
-    [4508] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4508] = { threat = "LOW", reason = "This is a delivery to Darnassus with no new combat. Stay in the city and avoid unnecessary detours.", confidence = "medium" },
 
     -- Calm Before the Storm
-    [4510] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4510] = { threat = "LOW", reason = "This bank-voucher hand-in is inside Darnassus and adds no combat. Stay within the city.", confidence = "medium" },
 
     -- A Little Slime Goes a Long Way
-    [4512] = { threat = "HIGH", reason = "Cursed and tainted oozes are levels 50-54 in Felwood and Un'Goro; they split when killed and can overwhelm solo players. The jars must be filled while the ooze is alive, meaning you fight each one. Clear methodically and be ready to flee. Do not attempt below level 50 solo without a plan.", confidence = "high" },
+    [4512] = { threat = "MEDIUM", reason = "Filling jars from hostile oozes in Felwood and Un’Goro can expose you to nearby enemies and respawns. Work from the edge of a camp and keep a clear retreat route.", confidence = "medium" },
 
     -- A Little Slime Goes a Long Way
-    [4513] = { threat = "HIGH", reason = "Pure oozes are levels 52-56 in Winterspring and Un'Goro; they hit hard and split on death. The jars must be filled while the ooze is alive. Clear methodically and keep an escape route. Do not attempt below level 52 solo without a plan.", confidence = "high" },
+    [4513] = { threat = "MEDIUM", reason = "Collecting pure ooze samples takes you into hostile creature territory. Pull away from nearby enemies and leave if a fight draws adds or blocks your escape.", confidence = "medium" },
 
     -- Kayneth Stillwind
-    [4581] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Ashenvale is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [4581] = { threat = "LOW", reason = "Delivering Shindrell’s note adds no combat beyond travel to Forest Song. Follow the safe route and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Washed Ashore
-    [4681] = { threat = "MEDIUM", reason = "The skeletal sea turtle is underwater west of Auberdine, guarded by level 18-22 murlocs. Fighting underwater risks drowning if feared or rooted. Clear the area before diving and surface before your breath runs out. Do not attempt below level 18 solo.", confidence = "medium" },
+    [4681] = { threat = "MEDIUM", reason = "Recovering the turtle remains requires an underwater trip near hostile murlocs. Clear nearby enemies first, monitor breath, and surface before fighting underwater.", confidence = "medium" },
 
     -- Put Her Down
     [4701] = { threat = "HIGH", reason = "Elite quest. Requires entering Blackrock Spire to kill Halycon, a level 60 elite worg boss in Lower Blackrock Spire. The dungeon is filled with elites and requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
 
     -- Beached Sea Turtle
-    [4722] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4722] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Creature
-    [4723] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4723] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Turtle
-    [4725] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4725] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Turtle
-    [4727] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4727] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Creature
-    [4728] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4728] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Creature
-    [4730] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4730] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Turtle
-    [4731] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4731] = { threat = "LOW", reason = "Delivery step with no combat. The box is on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Turtle
-    [4732] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4732] = { threat = "LOW", reason = "Delivery step with no combat. The remains are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- Beached Sea Creature
-    [4733] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "high" },
+    [4733] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- In Search of Menara Voidrender
     [4736] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to the Barrens is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
