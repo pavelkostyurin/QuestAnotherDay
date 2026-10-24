@@ -1206,25 +1206,25 @@ local quests = {
     [700] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the ogre camps.", confidence = "medium" },
 
     -- Agmond's Fate
-    [704] = { threat = "MEDIUM", reason = "The quest leads into trogg caves, which are narrow and respawn quickly. Clear methodically and keep an escape route.", confidence = "low" },
+    [704] = { threat = "MEDIUM", reason = "The quest leads into trogg caves, which are narrow and respawn quickly. Clear methodically and keep an escape route.", confidence = "medium" },
 
     -- Fiery Blaze Enchantments
-    [706] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have fire shields that damage melee attackers. Ranged classes have an advantage here.", confidence = "low" },
+    [706] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have fire shields that damage melee attackers. Ranged classes have an advantage here.", confidence = "medium" },
 
     -- Ironband Wants You!
     [707] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the trogg and ogre camps.", confidence = "medium" },
 
     -- The Black Box
-    [708] = { threat = "MEDIUM", reason = "The box is in a trogg cave with narrow passages and respawning mobs. Clear methodically and keep an escape route.", confidence = "low" },
+    [708] = { threat = "MEDIUM", reason = "The box is in a trogg cave with narrow passages and respawning mobs. Clear methodically and keep an escape route.", confidence = "medium" },
 
     -- Tremors of the Earth
-    [717] = { threat = "MEDIUM", reason = "The quest leads into a cave with troggs and golems. The cave is narrow and respawns quickly. Clear methodically.", confidence = "low" },
+    [717] = { threat = "EXTREME", reason = "Elite quest. Activating the seal releases two level-50 elite dragons in a ravine with other elite drakes. Do this with a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Mirages
     [718] = { threat = "LOW", reason = "Travel and exploration step. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- A Dwarf and His Tools
-    [719] = { threat = "MEDIUM", reason = "The tools are in a trogg cave with narrow passages. Clear methodically and keep an escape route.", confidence = "low" },
+    [719] = { threat = "MEDIUM", reason = "The tools are in a trogg cave with narrow passages. Clear methodically and keep an escape route.", confidence = "medium" },
 
     -- A Sign of Hope
     [720] = { threat = "LOW", reason = "Travel and dialogue step. Safe if you avoid the trogg camps.", confidence = "medium" },
@@ -1233,13 +1233,13 @@ local quests = {
     [721] = { threat = "LOW", reason = "Travel and dialogue step. Safe if you stay on the road.", confidence = "medium" },
 
     -- Amulet of Secrets
-    [722] = { threat = "MEDIUM", reason = "The amulet is in a cave with troggs and golems. The cave is narrow and respawns quickly. Clear methodically.", confidence = "low" },
+    [722] = { threat = "MEDIUM", reason = "The amulet is in a cave with troggs and golems. The cave is narrow and respawns quickly. Clear methodically.", confidence = "medium" },
 
     -- Prospect of Faith
-    [723] = { threat = "MEDIUM", reason = "The quest leads into a cave with troggs and golems. Clear the entrance before going deeper.", confidence = "low" },
+    [723] = { threat = "LOW", reason = "This is a delivery step from Uldaman to Prospector Ryedol in the Badlands. Use ordinary travel precautions and avoid hostile camps.", confidence = "medium" },
 
     -- Prospect of Faith
-    [724] = { threat = "MEDIUM", reason = "The second location has more troggs and golems. Fight in doorways to limit mobs.", confidence = "low" },
+    [724] = { threat = "LOW", reason = "This is a delivery step to Historian Karnik in Ironforge. The city destination adds no unusual combat risk.", confidence = "medium" },
 
     -- Passing Word of a Threat
     [725] = { threat = "LOW", reason = "Travel and dialogue step. Safe if you avoid the contested zones.", confidence = "medium" },
@@ -1248,40 +1248,43 @@ local quests = {
     [726] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- To Ironforge for Yagyin's Digest
-    [727] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [727] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Absent Minded Prospector
-    [729] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [729] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Trouble In Darkshore?
-    [730] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [730] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Absent Minded Prospector
-    [731] = { threat = "HIGH", reason = "This is an escort quest with a very squishy NPC. Remtravel has around 200-410 HP and will die if you do not immediately peel mobs off him. The escort spawns waves of mobs, including a caster at the end who hits for around 100 damage per firebolt. Multiple players report dying or failing this quest. A level 17 druid died twice. A level 17 priest soloed it by letting Remtravel tank and healing him. Clear the path of golems before starting. Do not attempt below level 17 solo without a plan to keep Remtravel alive.", confidence = "high" },
+    [731] = { threat = "HIGH", reason = "Escort quest. Scripted trogg ambushes can overwhelm the escort, and a caster wave can kill Remtravel quickly. Keep threat off him and bring help if you cannot control both enemies.", confidence = "medium" },
 
     -- Tremors of the Earth
-    [732] = { threat = "HIGH", reason = "The sign is in a cave in the Badlands filled with level 40-44 elite stone golems. This is an Elite quest by design. The golems hit hard and have knockbacks. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [732] = { threat = "MEDIUM", reason = "Boss Tho’grun patrols with ogres, but the patrol can be split and he is sometimes left with only one guard. Watch the route and pull him away from the group.", confidence = "medium" },
 
     -- Scrounging
     [733] = { threat = "MEDIUM", reason = "The scrap is found in the Badlands, guarded by level 40-44 mobs. The area is patrolled by troggs and golems. Clear methodically and watch for patrolling mobs. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- The Star, the Hand and the Heart
-    [735] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [735] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Find Agmond
-    [738] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. The Badlands is patrolled by level 35-40 mobs, but the corpse itself is unguarded. Safe if you avoid the mob camps and stay on the road. Do not attempt below level 35 solo.", confidence = "high" },
+    [738] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. The Badlands is patrolled by level 35-40 mobs, but the corpse itself is unguarded. Safe if you avoid the mob camps and stay on the road. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Murdaloc
-    [739] = { threat = "MEDIUM", reason = "Murdaloc is a level 42 trogg who wanders the camp with a level 40 shaman guard. He is not elite, but he aggros from a fair distance and can pull additional mobs. Multiple players soloed this at level 36-40 by clearing the area around him first and pulling him alone. A level 37 paladin soloed it, and a level 36 rogue soloed it. Do not attempt below level 36 solo without a plan to isolate him from his guard and avoid the patrolling ogres nearby.", confidence = "high" },
+    [739] = { threat = "MEDIUM", reason = "Murdaloc is a level 42 trogg who wanders the camp with a level 40 shaman guard. He is not elite, but he aggros from a fair distance and can pull additional mobs. Multiple players soloed this at level 36-40 by clearing the area around him first and pulling him alone. A level 37 paladin soloed it, and a level 36 rogue soloed it. Do not attempt below level 36 solo without a plan to isolate him from his guard and avoid the patrolling ogres nearby.", confidence = "medium" },
 
     -- The Absent Minded Prospector
-    [741] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Darnassus requires taking the boat from Auberdine, which is safe. Do not attempt below level 10 solo.", confidence = "high" },
+    [741] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Darnassus requires taking the boat from Auberdine, which is safe. Do not attempt below level 10 solo.", confidence = "medium" },
 
     -- An Ambassador of Evil
-    [762] = { threat = "EXTREME", reason = "This is flagged as an Elite quest. Infernus is a level 42 elite fire elemental at the bottom of Angor Fortress, with a level 41-42 golem guard nearby. He has a Fire Shield that damages melee attackers, and he applies a silencing DoT that prevents casting. The fortress is filled with level 38-39 non-elite dwarves that can add if you are not careful. Solo attempts at the intended level end in death for most classes. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [762] = { threat = "EXTREME", reason = "Elite quest. Ambassador Infernus is a level-42 elite inside Angor Fortress, among hostile dwarves and elite golems. Skip on Hardcore unless you are heavily overleveled or have a suitable group.", confidence = "medium" },
+
+    -- Seal of the Earth
+    [779] = { threat = "MEDIUM", reason = "Activating the seal releases two level-50 elite dragons, although their kills belong to the follow-up quest. Leave the area promptly after placing the runestones, or bring a group if you plan to fight.", confidence = "medium" },
 
     -- A Threat Within
-    [783] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [783] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "medium" },
 
     -- Webwood Venom
     [916] = { threat = "LOW", reason = "The sacs drop from Webwood spiders in Teldrassil. The spiders are levels 4-6 and are found in the Webwood area. The drop rate is moderate. Manageable solo for a level 5+ character.", confidence = "high" },

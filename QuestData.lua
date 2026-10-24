@@ -1905,61 +1905,61 @@ addon.quests = {
     [700] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the ogre camps.", confidence = "medium" },
 
     -- Guile of the Raptor (Step 1) (Arathi Highlands)
-    [701] = { threat = "MEDIUM", reason = "The raptors are level 35-38 and run in packs. They flee when low, so kill the runners first.", confidence = "low" },
+    [701] = { threat = "MEDIUM", reason = "The raptors are level 35-38 and run in packs. They flee when low, so kill the runners first.", confidence = "medium" },
 
     -- Guile of the Raptor (Step 2) (Arathi Highlands)
-    [702] = { threat = "MEDIUM", reason = "The second location has more raptors and possibly a named raptor. Clear the area before engaging.", confidence = "low" },
+    [702] = { threat = "LOW", reason = "This is a delivery step after the raptor objective. Take Tor’gan’s Orb to Gor’mul and avoid nearby hostile camps along the route.", confidence = "medium" },
 
     -- Barbecued Buzzard Wings (Badlands)
-    [703] = { threat = "MEDIUM", reason = "The buzzards are level 35-40 and patrol the canyons. They are fast and can pull multiple if you're not careful. Fight in open areas where you can see them coming.", confidence = "low" },
+    [703] = { threat = "MEDIUM", reason = "The buzzards are level 35-40 and patrol the canyons. They are fast and can pull multiple if you're not careful. Fight in open areas where you can see them coming.", confidence = "medium" },
 
     -- Agmond's Fate (Badlands)
-    [704] = { threat = "MEDIUM", reason = "The quest leads into trogg caves, which are narrow and respawn quickly. Clear methodically and keep an escape route.", confidence = "low" },
+    [704] = { threat = "MEDIUM", reason = "The quest leads into trogg caves, which are narrow and respawn quickly. Clear methodically and keep an escape route.", confidence = "medium" },
 
     -- Pearl Diving (Stranglethorn Vale)
-    [705] = { threat = "MEDIUM", reason = "The water is patrolled by murlocs and nagas. Drowning is a risk if you get feared. Bring water breathing and clear mobs before diving.", confidence = "low" },
+    [705] = { threat = "MEDIUM", reason = "The water is patrolled by murlocs and nagas. Drowning is a risk if you get feared. Bring water breathing and clear mobs before diving.", confidence = "medium" },
 
     -- Fiery Blaze Enchantments (Badlands)
-    [706] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have fire shields that damage melee attackers. Ranged classes have an advantage here.", confidence = "low" },
+    [706] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have fire shields that damage melee attackers. Ranged classes have an advantage here.", confidence = "medium" },
 
     -- Ironband Wants You! (Badlands)
     [707] = { threat = "LOW", reason = "Travel step with no combat. Safe if you avoid the trogg and ogre camps.", confidence = "medium" },
 
     -- The Black Box (Badlands)
-    [708] = { threat = "MEDIUM", reason = "The box is in a trogg cave with narrow passages and respawning mobs. Clear methodically and keep an escape route.", confidence = "low" },
+    [708] = { threat = "MEDIUM", reason = "The box is in a trogg cave with narrow passages and respawning mobs. Clear methodically and keep an escape route.", confidence = "medium" },
 
     -- Solution to Doom (Badlands)
-    [709] = { threat = "MEDIUM", reason = "The area has troggs and stone golems. The golems hit hard and have knockbacks. Fight in open areas where you can retreat.", confidence = "low" },
+    [709] = { threat = "MEDIUM", reason = "The area has troggs and stone golems. The golems hit hard and have knockbacks. Fight in open areas where you can retreat.", confidence = "medium" },
 
     -- Study of the Elements: Rock (Step 1) (Badlands)
-    [710] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have knockbacks. Fight near walls to avoid being knocked into other mobs.", confidence = "low" },
+    [710] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have knockbacks. Fight near walls to avoid being knocked into other mobs.", confidence = "medium" },
 
     -- Study of the Elements: Rock (Step 2) (Badlands)
-    [711] = { threat = "MEDIUM", reason = "The second location has more elementals and possibly a named elemental. Clear the area before engaging.", confidence = "low" },
+    [711] = { threat = "MEDIUM", reason = "The second location has more elementals and possibly a named elemental. Clear the area before engaging.", confidence = "medium" },
 
     -- Study of the Elements: Rock (Step 3) (Badlands)
-    [712] = { threat = "MEDIUM", reason = "The location has higher-level elementals and a named mob. Bring consumables and clear methodically.", confidence = "low" },
+    [712] = { threat = "MEDIUM", reason = "The location has higher-level elementals and a named mob. Bring consumables and clear methodically.", confidence = "medium" },
 
     -- Coolant Heads Prevail (Badlands)
-    [713] = { threat = "MEDIUM", reason = "The coolant is in a golem cave with stone golems that hit hard and have knockbacks. Fight in doorways to limit mobs.", confidence = "low" },
+    [713] = { threat = "LOW", reason = "This step asks for Frost Oil, which can be acquired without fighting in the golem cave. Use the ordinary Badlands travel precautions.", confidence = "medium" },
 
     -- Gyro... What? (Badlands)
-    [714] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the golem caves.", confidence = "medium" },
+    [714] = { threat = "LOW", reason = "This is a collection and delivery step; the description requires no combat. Avoid the nearby hostile camps while traveling.", confidence = "medium" },
 
     -- Liquid Stone (Badlands)
-    [715] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have knockbacks. Fight near walls to avoid being knocked into other mobs.", confidence = "low" },
+    [715] = { threat = "LOW", reason = "This step turns in two potions and requires no combat. Use the ordinary Badlands travel precautions.", confidence = "medium" },
 
     -- Stone Is Better than Cloth (Badlands)
-    [716] = { threat = "MEDIUM", reason = "The golems hit hard and have knockbacks. Fight in open areas where you can retreat if needed.", confidence = "low" },
+    [716] = { threat = "LOW", reason = "This step turns in crafted bracers and requires no combat. Use the ordinary Badlands travel precautions.", confidence = "medium" },
 
     -- Tremors of the Earth (Step 1) (Badlands)
-    [717] = { threat = "MEDIUM", reason = "The quest leads into a cave with troggs and golems. The cave is narrow and respawns quickly. Clear methodically.", confidence = "low" },
+    [717] = { threat = "EXTREME", reason = "Elite quest. Activating the seal releases two level-50 elite dragons in a ravine with other elite drakes. Do this with a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Mirages (Badlands)
     [718] = { threat = "LOW", reason = "Travel and exploration step. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- A Dwarf and His Tools (Badlands)
-    [719] = { threat = "MEDIUM", reason = "The tools are in a trogg cave with narrow passages. Clear methodically and keep an escape route.", confidence = "low" },
+    [719] = { threat = "MEDIUM", reason = "The tools are in a trogg cave with narrow passages. Clear methodically and keep an escape route.", confidence = "medium" },
 
     -- A Sign of Hope (Step 1) (Badlands)
     [720] = { threat = "LOW", reason = "Travel and dialogue step. Safe if you avoid the trogg camps.", confidence = "medium" },
@@ -1968,13 +1968,13 @@ addon.quests = {
     [721] = { threat = "LOW", reason = "Travel and dialogue step. Safe if you stay on the road.", confidence = "medium" },
 
     -- Amulet of Secrets (Badlands)
-    [722] = { threat = "MEDIUM", reason = "The amulet is in a cave with troggs and golems. The cave is narrow and respawns quickly. Clear methodically.", confidence = "low" },
+    [722] = { threat = "MEDIUM", reason = "The amulet is in a cave with troggs and golems. The cave is narrow and respawns quickly. Clear methodically.", confidence = "medium" },
 
     -- Prospect of Faith (Step 1) (Badlands)
-    [723] = { threat = "MEDIUM", reason = "The quest leads into a cave with troggs and golems. Clear the entrance before going deeper.", confidence = "low" },
+    [723] = { threat = "LOW", reason = "This is a delivery step from Uldaman to Prospector Ryedol in the Badlands. Use ordinary travel precautions and avoid hostile camps.", confidence = "medium" },
 
     -- Prospect of Faith (Step 2) (Badlands)
-    [724] = { threat = "MEDIUM", reason = "The second location has more troggs and golems. Fight in doorways to limit mobs.", confidence = "low" },
+    [724] = { threat = "LOW", reason = "This is a delivery step to Historian Karnik in Ironforge. The city destination adds no unusual combat risk.", confidence = "medium" },
 
     -- Passing Word of a Threat (Step 1) (Badlands)
     [725] = { threat = "LOW", reason = "Travel and dialogue step. Safe if you avoid the contested zones.", confidence = "medium" },
@@ -1983,412 +1983,415 @@ addon.quests = {
     [726] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- To Ironforge for Yagyin's Digest
-    [727] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [727] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- To the Undercity for Yagyin's Digest
-    [728] = { threat = "LOW", reason = "This is a pure delivery step with no combat. The only risk is the journey through the Badlands to reach the Undercity, but the destination itself is a Horde capital city.", confidence = "high" },
+    [728] = { threat = "LOW", reason = "This is a pure delivery step with no combat. The only risk is the journey through the Badlands to reach the Undercity, but the destination itself is a Horde capital city.", confidence = "medium" },
 
     -- The Absent Minded Prospector (Check on Remtravel)
-    [729] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [729] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Trouble In Darkshore?
-    [730] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [730] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Absent Minded Prospector (Protect Remtravel)
-    [731] = { threat = "HIGH", reason = "This is an escort quest with a very squishy NPC. Remtravel has around 200-410 HP and will die if you do not immediately peel mobs off him. The escort spawns waves of mobs, including a caster at the end who hits for around 100 damage per firebolt. Multiple players report dying or failing this quest. A level 17 druid died twice. A level 17 priest soloed it by letting Remtravel tank and healing him. Clear the path of golems before starting. Do not attempt below level 17 solo without a plan to keep Remtravel alive.", confidence = "high" },
+    [731] = { threat = "HIGH", reason = "Escort quest. Scripted trogg ambushes can overwhelm the escort, and a caster wave can kill Remtravel quickly. Keep threat off him and bring help if you cannot control both enemies.", confidence = "medium" },
 
     -- Tremors of the Earth
-    [732] = { threat = "HIGH", reason = "The sign is in a cave in the Badlands filled with level 40-44 elite stone golems. This is an Elite quest by design. The golems hit hard and have knockbacks. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [732] = { threat = "MEDIUM", reason = "Boss Tho’grun patrols with ogres, but the patrol can be split and he is sometimes left with only one guard. Watch the route and pull him away from the group.", confidence = "medium" },
 
     -- Scrounging
     [733] = { threat = "MEDIUM", reason = "The scrap is found in the Badlands, guarded by level 40-44 mobs. The area is patrolled by troggs and golems. Clear methodically and watch for patrolling mobs. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- This Is Going to Be Hard
-    [734] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [734] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "medium" },
 
     -- The Star, the Hand and the Heart
-    [735] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [735] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Star, the Hand and the Heart
-    [736] = { threat = "MEDIUM", reason = "This quest is flagged as a Group quest in Classic Era. Each relic requires killing a named mob: Dagun in Dustwallow Marsh (summoned via Murloc altar), Grel'borg the Miser in Alterac Mountains, and Mogh the Undying in Stranglethorn Vale. Mogh is particularly dangerous as he has a healing minion that must be killed first. Solo is possible for overleveled characters, but a group is recommended for the intended level range.", confidence = "medium" },
+    [736] = { threat = "HIGH", reason = "Group quest. Its required relics come from dangerous named enemies in widely separated zones, including a difficult target in Stranglethorn Vale. Bring help for the fights or overlevel before collecting them.", confidence = "medium" },
 
     -- Forbidden Knowledge
-    [737] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [737] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Find Agmond
-    [738] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. The Badlands is patrolled by level 35-40 mobs, but the corpse itself is unguarded. Safe if you avoid the mob camps and stay on the road. Do not attempt below level 35 solo.", confidence = "high" },
+    [738] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. The Badlands is patrolled by level 35-40 mobs, but the corpse itself is unguarded. Safe if you avoid the mob camps and stay on the road. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Murdaloc
-    [739] = { threat = "MEDIUM", reason = "Murdaloc is a level 42 trogg who wanders the camp with a level 40 shaman guard. He is not elite, but he aggros from a fair distance and can pull additional mobs. Multiple players soloed this at level 36-40 by clearing the area around him first and pulling him alone. A level 37 paladin soloed it, and a level 36 rogue soloed it. Do not attempt below level 36 solo without a plan to isolate him from his guard and avoid the patrolling ogres nearby.", confidence = "high" },
+    [739] = { threat = "MEDIUM", reason = "Murdaloc is a level 42 trogg who wanders the camp with a level 40 shaman guard. He is not elite, but he aggros from a fair distance and can pull additional mobs. Multiple players soloed this at level 36-40 by clearing the area around him first and pulling him alone. A level 37 paladin soloed it, and a level 36 rogue soloed it. Do not attempt below level 36 solo without a plan to isolate him from his guard and avoid the patrolling ogres nearby.", confidence = "medium" },
 
     -- The Absent Minded Prospector (Deliver Fossil)
-    [741] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Darnassus requires taking the boat from Auberdine, which is safe. Do not attempt below level 10 solo.", confidence = "high" },
+    [741] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Darnassus requires taking the boat from Auberdine, which is safe. Do not attempt below level 10 solo.", confidence = "medium" },
 
     -- The Ashenvale Hunt
-    [742] = { threat = "LOW", reason = "This is the introductory quest for the Ashenvale Hunt chain. Travel step with no combat. The journey to Splintertree Post from the Barrens is safe if you stay on the road.", confidence = "high" },
+    [742] = { threat = "LOW", reason = "This is the introductory quest for the Ashenvale Hunt chain. Travel step with no combat. The journey to Splintertree Post from the Barrens is safe if you stay on the road.", confidence = "medium" },
 
     -- Dangers of the Windfury
-    [743] = { threat = "LOW", reason = "The harpies are levels 7-8 and the drop rate is roughly 1 in 2 or 3. Watch for the rare elite Sister Hatelash who patrols the area, but the harpies themselves are manageable solo at level 7+.", confidence = "high" },
+    [743] = { threat = "LOW", reason = "The harpies are levels 7-8 and the drop rate is roughly 1 in 2 or 3. Watch for the rare elite Sister Hatelash who patrols the area, but the harpies themselves are manageable solo at level 7+.", confidence = "medium" },
 
     -- Preparation for Ceremony
-    [744] = { threat = "LOW", reason = "The harpies are levels 8-11. Watch for the rare elite Sister Hatelash who can appear among them. The drop rate is moderate, so you may need to kill 40-50 harpies. Manageable solo with caution.", confidence = "high" },
+    [744] = { threat = "LOW", reason = "The harpies are levels 8-11. Watch for the rare elite Sister Hatelash who can appear among them. The drop rate is moderate, so you may need to kill 40-50 harpies. Manageable solo with caution.", confidence = "medium" },
 
     -- Sharing the Land
-    [745] = { threat = "LOW", reason = "The gnolls are levels 5-7 and stand in small camps. Pull one at a time and avoid the cave to the west where mobs are denser. Standard low-level combat risk.", confidence = "high" },
+    [745] = { threat = "LOW", reason = "The gnolls are levels 5-7 and stand in small camps. Pull one at a time and avoid the cave to the west where mobs are denser. Standard low-level combat risk.", confidence = "medium" },
 
     -- Dwarven Digging
     [746] = { threat = "MEDIUM", reason = "The dwarves are levels 17-20 and flee at low health, which can chain-pull additional mobs. The excavation pit is deep and has no safe retreat once you are inside. Do not attempt below level 18. Bring a group or overlevel significantly.", confidence = "medium" },
 
     -- The Hunt Begins
-    [747] = { threat = "LOW", reason = "The mobs are levels 3-5 and manageable solo. Standard starting zone combat risk.", confidence = "high" },
+    [747] = { threat = "LOW", reason = "The mobs are levels 3-5 and manageable solo. Standard starting zone combat risk.", confidence = "medium" },
 
     -- Poison Water
-    [748] = { threat = "LOW", reason = "The wolves and striders are levels 4-6. Manageable solo at level 5+. Watch for the faster attack speed of plainstriders, which can catch warriors off guard.", confidence = "high" },
+    [748] = { threat = "LOW", reason = "The wolves and striders are levels 4-6. Manageable solo at level 5+. Watch for the faster attack speed of plainstriders, which can catch warriors off guard.", confidence = "medium" },
 
     -- The Ravaged Caravan
-    [749] = { threat = "LOW", reason = "The crate is in the open with no guards. Standard travel risk only. Do not confuse this with the Nagrand version of the same quest.", confidence = "high" },
+    [749] = { threat = "LOW", reason = "The crate is in the open with no guards. Standard travel risk only. Do not confuse this with the Nagrand version of the same quest.", confidence = "medium" },
 
     -- The Hunt Continues
-    [750] = { threat = "LOW", reason = "The cougars are levels 2-4 and the drop rate is high. Very easy quest, manageable solo at level 3+.", confidence = "high" },
+    [750] = { threat = "LOW", reason = "The cougars are levels 2-4 and the drop rate is high. Very easy quest, manageable solo at level 3+.", confidence = "medium" },
 
     -- The Ravaged Caravan (second step)
-    [751] = { threat = "LOW", reason = "This is a follow-up step to [749] with the same low risk. Click the crate and return to Morin Cloudstalker. No combat required.", confidence = "high" },
+    [751] = { threat = "LOW", reason = "This is a follow-up step to [749] with the same low risk. Click the crate and return to Morin Cloudstalker. No combat required.", confidence = "medium" },
 
     -- A Humble Task
-    [752] = { threat = "LOW", reason = "This is a pure dialogue/travel quest with no combat. She is at approximately 50, 80. Safe for any level.", confidence = "high" },
+    [752] = { threat = "LOW", reason = "This is a pure dialogue/travel quest with no combat. She is at approximately 50, 80. Safe for any level.", confidence = "medium" },
 
     -- A Humble Task (second step)
-    [753] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the path.", confidence = "high" },
+    [753] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the path.", confidence = "medium" },
 
     -- Winterhoof Cleansing
-    [754] = { threat = "LOW", reason = "The well is guarded by level 6 goblins, but you can use the totem without killing them if you can take a few hits. Tauren-only quest. Manageable solo at level 6+.", confidence = "high" },
+    [754] = { threat = "LOW", reason = "The well is guarded by level 6 goblins, but you can use the totem without killing them if you can take a few hits. Tauren-only quest. Manageable solo at level 6+.", confidence = "medium" },
 
     -- Rites of the Earthmother
-    [755] = { threat = "LOW", reason = "Travel step with no combat. Safe if you follow the road from Camp Narache.", confidence = "high" },
+    [755] = { threat = "LOW", reason = "Travel step with no combat. Safe if you follow the road from Camp Narache.", confidence = "medium" },
 
     -- Thunderhorn Totem
-    [756] = { threat = "LOW", reason = "The drop rate is low (roughly 15-20%), so expect to kill 40-60 mobs. The mobs are levels 5-7 and manageable solo. Grinding for drops is tedious but not dangerous.", confidence = "high" },
+    [756] = { threat = "LOW", reason = "The drop rate is low (roughly 15-20%), so expect to kill 40-60 mobs. The mobs are levels 5-7 and manageable solo. Grinding for drops is tedious but not dangerous.", confidence = "medium" },
 
     -- Rite of Strength
-    [757] = { threat = "LOW", reason = "The mobs are low-level and manageable solo. Standard starting zone risk.", confidence = "high" },
+    [757] = { threat = "LOW", reason = "The mobs are low-level and manageable solo. Standard starting zone risk.", confidence = "medium" },
 
     -- Thunderhorn Cleansing
-    [758] = { threat = "LOW", reason = "The well is surrounded by level 6-7 mobs, but they are easy to clear or avoid. Manageable solo at level 8+.", confidence = "high" },
+    [758] = { threat = "LOW", reason = "The well is surrounded by level 6-7 mobs, but they are easy to clear or avoid. Manageable solo at level 8+.", confidence = "medium" },
 
     -- Wildmane Totem
-    [759] = { threat = "LOW", reason = "The drop rate is notoriously low, and the alphas share spawns with flatland prowlers, meaning you may need to kill many cats to get wolves to spawn. The mobs are levels 8-10 and manageable solo, but the grind can take a long time. Tedious, not dangerous.", confidence = "high" },
+    [759] = { threat = "LOW", reason = "The drop rate is notoriously low, and the alphas share spawns with flatland prowlers, meaning you may need to kill many cats to get wolves to spawn. The mobs are levels 8-10 and manageable solo, but the grind can take a long time. Tedious, not dangerous.", confidence = "medium" },
 
     -- Wildmane Cleansing
-    [760] = { threat = "LOW", reason = "The well is guarded by level 8-9 humanoids, but they are easy to clear. The final step of the Mulgore water well chain. Manageable solo at level 10+.", confidence = "high" },
+    [760] = { threat = "LOW", reason = "The well is guarded by level 8-9 humanoids, but they are easy to clear. The final step of the Mulgore water well chain. Manageable solo at level 10+.", confidence = "medium" },
 
     -- Swoop Hunting
-    [761] = { threat = "LOW", reason = "The swoops are levels 5-7 and the drop rate is roughly 1 in 3-4. They are cunning birds that can be hard to spot, but they are not dangerous. Standard Mulgore travel risk only.", confidence = "high" },
+    [761] = { threat = "LOW", reason = "The swoops are levels 5-7 and the drop rate is roughly 1 in 3-4. They are cunning birds that can be hard to spot, but they are not dangerous. Standard Mulgore travel risk only.", confidence = "medium" },
 
     -- An Ambassador of Evil
-    [762] = { threat = "EXTREME", reason = "This is flagged as an Elite quest. Infernus is a level 42 elite fire elemental at the bottom of Angor Fortress, with a level 41-42 golem guard nearby. He has a Fire Shield that damages melee attackers, and he applies a silencing DoT that prevents casting. The fortress is filled with level 38-39 non-elite dwarves that can add if you are not careful. Solo attempts at the intended level end in death for most classes. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [762] = { threat = "EXTREME", reason = "Elite quest. Ambassador Infernus is a level-42 elite inside Angor Fortress, among hostile dwarves and elite golems. Skip on Hardcore unless you are heavily overleveled or have a suitable group.", confidence = "medium" },
 
     -- Rites of the Earthmother (Step 2)
-    [763] = { threat = "LOW", reason = "This is a pure travel step with no combat. Safe if you stay on the path.", confidence = "high" },
+    [763] = { threat = "LOW", reason = "This is a pure travel step with no combat. Safe if you stay on the path.", confidence = "medium" },
 
     -- The Venture Co.
     [764] = { threat = "MEDIUM", reason = "The goblins are levels 6-8 and are packed densely around the mine entrance. They also flee at low health and can chain-pull. Clear methodically from the outside and avoid going deep into the cave where respawns can trap you.", confidence = "medium" },
 
     -- Supervisor Fizsprocket
-    [765] = { threat = "MEDIUM", reason = "Fizsprocket is level 12 and located at approximately [65, 44] inside the cave, in the right tunnel from the entrance. He has a very fast respawn (under 1 minute), so he can respawn behind you while you are still fighting other mobs. The cave is dark and mobs are packed tightly. Pull mobs one at a time and do not linger after killing Fizsprocket.", confidence = "high" },
+    [765] = { threat = "MEDIUM", reason = "Fizsprocket is level 12 and located at approximately [65, 44] inside the cave, in the right tunnel from the entrance. He has a very fast respawn (under 1 minute), so he can respawn behind you while you are still fighting other mobs. The cave is dark and mobs are packed tightly. Pull mobs one at a time and do not linger after killing Fizsprocket.", confidence = "medium" },
 
     -- Mazzranache
-    [766] = { threat = "LOW", reason = "The drop rates are moderate (10-20 kills each for some parts). Mazzranache, a level 9 rare plainstrider with a poison attack, can spawn near the plainstriders southeast of Bloodhoof and drop the scale. He is not elite and is manageable solo, but his poison can be dangerous if you are already low on health.", confidence = "high" },
+    [766] = { threat = "LOW", reason = "The drop rates are moderate (10-20 kills each for some parts). Mazzranache, a level 9 rare plainstrider with a poison attack, can spawn near the plainstriders southeast of Bloodhoof and drop the scale. He is not elite and is manageable solo, but his poison can be dangerous if you are already low on health.", confidence = "medium" },
 
     -- Rite of Vision (Step 1)
-    [767] = { threat = "LOW", reason = "The reagents are found near the wells and trees around Mulgore. No combat required. Standard low-level travel risk only.", confidence = "high" },
+    [767] = { threat = "LOW", reason = "The reagents are found near the wells and trees around Mulgore. No combat required. Standard low-level travel risk only.", confidence = "medium" },
 
     -- Gathering Leather
-    [768] = { threat = "LOW", reason = "This is a profession quest with no combat objective. The leather is obtained through skinning, which is safe if you avoid the mobs while gathering. Safe if you stay in the city.", confidence = "high" },
+    [768] = { threat = "LOW", reason = "This is a profession quest with no combat objective. The leather is obtained through skinning, which is safe if you avoid the mobs while gathering. Safe if you stay in the city.", confidence = "medium" },
 
     -- Kodo Hide Bag
-    [769] = { threat = "LOW", reason = "Profession quest with no combat. The materials are easily obtained through skinning or vendors. Safe if you stay in the city.", confidence = "high" },
+    [769] = { threat = "LOW", reason = "Profession quest with no combat. The materials are easily obtained through skinning or vendors. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Demon Scarred Cloak
-    [770] = { threat = "LOW", reason = "This is a dialogue step with no combat. The quest takes place entirely in Mulgore. Safe if you stay near Bloodhoof Village.", confidence = "high" },
+    [770] = { threat = "LOW", reason = "This is a dialogue step with no combat. The quest takes place entirely in Mulgore. Safe if you stay near Bloodhoof Village.", confidence = "medium" },
 
     -- Rite of Vision (Step 2)
-    [771] = { threat = "LOW", reason = "The reagents are found near wells and trees in Mulgore. No combat required. Safe if you avoid the wandering mobs.", confidence = "high" },
+    [771] = { threat = "LOW", reason = "The reagents are found near wells and trees in Mulgore. No combat required. Safe if you avoid the wandering mobs.", confidence = "medium" },
 
     -- Rite of Vision (Step 3)
-    [772] = { threat = "LOW", reason = "This is a scripted event with no combat. The vision leads you to a cave entrance where you must speak with a spirit. Safe for any level.", confidence = "high" },
+    [772] = { threat = "LOW", reason = "This is a scripted event with no combat. The vision leads you to a cave entrance where you must speak with a spirit. Safe for any level.", confidence = "medium" },
 
     -- Rite of Wisdom
-    [773] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the path through Mulgore.", confidence = "high" },
+    [773] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the path through Mulgore.", confidence = "medium" },
 
     -- Journey into Thunder Bluff
-    [775] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road from Bloodhoof Village.", confidence = "high" },
+    [775] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road from Bloodhoof Village.", confidence = "medium" },
 
     -- Rites of the Earthmother (Step 3)
-    [776] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the path.", confidence = "high" },
+    [776] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the path.", confidence = "medium" },
 
     -- This Is Going to Be Hard (Cog #5)
-    [777] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cog is found on the ground near Lotwil's camp. Safe if you stay in the camp.", confidence = "high" },
+    [777] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cog is found on the ground near Lotwil's camp. Safe if you stay in the camp.", confidence = "medium" },
 
     -- This Is Going to Be Hard (Fam'retor Guardian)
-    [778] = { threat = "MEDIUM", reason = "The Guardian is a level 45 elemental summoned by Lotwil. It has around 2,200 HP and is not elite. Multiple players soloed this at level 40, including a level 40 druid who took about 5 minutes. It hits reasonably hard but is manageable with cooldowns and consumables. Do not attempt below level 40 solo without a healing potion.", confidence = "high" },
+    [778] = { threat = "MEDIUM", reason = "The Guardian is a level 45 elemental summoned by Lotwil. It has around 2,200 HP and is not elite. Multiple players soloed this at level 40, including a level 40 druid who took about 5 minutes. It hits reasonably hard but is manageable with cooldowns and consumables. Do not attempt below level 40 solo without a healing potion.", confidence = "medium" },
 
     -- The Battleboars
-    [780] = { threat = "LOW", reason = "The boars are levels 3-4 and manageable solo. Watch for the Bristleback quilboars in the ravine who may patrol nearby.", confidence = "high" },
+    -- Seal of the Earth
+    [779] = { threat = "MEDIUM", reason = "Activating the seal releases two level-50 elite dragons, although their kills belong to the follow-up quest. Leave the area promptly after placing the runestones, or bring a group if you plan to fight.", confidence = "medium" },
+
+    [780] = { threat = "LOW", reason = "The boars are levels 3-4 and manageable solo. Watch for the Bristleback quilboars in the ravine who may patrol nearby.", confidence = "medium" },
 
     -- Attack on Camp Narache
-    [781] = { threat = "LOW", reason = "This is a delivery step with no combat. The plans are found on a quilboar in Brambleblade Ravine, but the return journey is safe. Standard low-level risk only.", confidence = "high" },
+    [781] = { threat = "LOW", reason = "This is a delivery step with no combat. The plans are found on a quilboar in Brambleblade Ravine, but the return journey is safe. Standard low-level risk only.", confidence = "medium" },
 
     -- Broken Alliances (Mulgore Step)
-    [782] = { threat = "LOW", reason = "Speak with the NPC in Mulgore. Travel and dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [782] = { threat = "MEDIUM", reason = "Boss Tho’grun patrols with a band of ogres, but the patrol can be split to isolate him and one guard. Wait for the group to pass, then pull from behind into clear ground.", confidence = "medium" },
 
     -- A Threat Within
-    [783] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [783] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "medium" },
 
     -- Vanquish the Betrayers
     [784] = { threat = "MEDIUM", reason = "The humans are levels 7-10 and are packed in the keep. Lieutenant Benedict is a named mob with guards. Clear the keep from the outside in and pull mobs one at a time. Do not attempt below level 9.", confidence = "medium" },
 
     -- Thwarting Kolkar Aggression
-    [786] = { threat = "HIGH", reason = "The crag is packed with Kolkar centaurs, and Warlord Kolkanis (a rare mob with Thunder Clap and a large aggro radius) can spawn at the plan locations. He hits hard, pulls adds easily, and has a 1-2 hour respawn timer. A level 7 warrior died here trying to complete this quest. Bring a group or overlevel to 10+ before attempting.", confidence = "high" },
+    [786] = { threat = "HIGH", reason = "The crag is packed with Kolkar centaurs, and Warlord Kolkanis (a rare mob with Thunder Clap and a large aggro radius) can spawn at the plan locations. He hits hard, pulls adds easily, and has a 1-2 hour respawn timer. A level 7 warrior died here trying to complete this quest. Bring a group or overlevel to 10+ before attempting.", confidence = "medium" },
 
     -- The New Horde
-    [787] = { threat = "LOW", reason = "This is the very first quest for new Horde characters. Travel step with no combat. Safe.", confidence = "high" },
+    [787] = { threat = "LOW", reason = "This is the very first quest for new Horde characters. Travel step with no combat. Safe.", confidence = "medium" },
 
     -- Cutting Teeth
-    [788] = { threat = "LOW", reason = "The boars are level 1-2 and manageable solo at level 2+. Standard starting zone combat risk.", confidence = "high" },
+    [788] = { threat = "LOW", reason = "The boars are level 1-2 and manageable solo at level 2+. Standard starting zone combat risk.", confidence = "medium" },
 
     -- Sting of the Scorpid
-    [789] = { threat = "LOW", reason = "The scorpids are levels 2-3 and the drop rate is roughly 1 in 3. Their venom sting can be dangerous at very low health, but they are manageable solo at level 3+.", confidence = "high" },
+    [789] = { threat = "LOW", reason = "The scorpids are levels 2-3 and the drop rate is roughly 1 in 3. Their venom sting can be dangerous at very low health, but they are manageable solo at level 3+.", confidence = "medium" },
 
     -- Sarkoth
-    [790] = { threat = "LOW", reason = "Sarkoth is a level 4 scorpion at approximately [41, 67]. He is not elite and is easily soloable at level 3-4. Scorpion Workers nearby do not aggro when you attack Sarkoth.", confidence = "high" },
+    [790] = { threat = "LOW", reason = "Sarkoth is a level 4 scorpion at approximately [41, 67]. He is not elite and is easily soloable at level 3-4. Scorpion Workers nearby do not aggro when you attack Sarkoth.", confidence = "medium" },
 
     -- Carry Your Weight
-    [791] = { threat = "LOW", reason = "The scraps drop from level 5-7 humanoids in the area. Standard low-level combat risk. Safe if you pull singles.", confidence = "high" },
+    [791] = { threat = "LOW", reason = "The scraps drop from level 5-7 humanoids in the area. Standard low-level combat risk. Safe if you pull singles.", confidence = "medium" },
 
     -- Vile Familiars
-    [792] = { threat = "MEDIUM", reason = "The familiars are level 4-5 and are concentrated around the cave entrance. They are not elite, but the cave is the entrance to the Burning Blade Coven, which has higher-level mobs inside. Stay outside the cave and pull familiars one at a time.", confidence = "high" },
+    [792] = { threat = "MEDIUM", reason = "The familiars are level 4-5 and are concentrated around the cave entrance. They are not elite, but the cave is the entrance to the Burning Blade Coven, which has higher-level mobs inside. Stay outside the cave and pull familiars one at a time.", confidence = "medium" },
 
     -- Broken Alliances (Durotar Step)
-    [793] = { threat = "LOW", reason = "Travel and dialogue step in Durotar with no required combat. Safe if you stay on the road.", confidence = "high" },
+    [793] = { threat = "EXTREME", reason = "Elite quest. The objective frees and requires killing two level-50 elite dragons in a ravine with other elite drakes. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Burning Blade Medallion
     [794] = { threat = "MEDIUM", reason = "The medallion is guarded by a named Burning Blade agent and several familiars. The cave is tight and respawns quickly. Clear methodically and pull the named mob away from his guards. Do not attempt below level 6.", confidence = "medium" },
 
     -- Seal of the Earth
-    [795] = { threat = "HIGH", reason = "This quest itself is a dialogue step, but it is the gateway to the EXTREME dragon fight. Do not proceed to the summoning step without a full group of level 45+ players.", confidence = "high" },
+    [795] = { threat = "MEDIUM", reason = "Activating the seal releases two level-50 elite dragons, although their kills belong to the preceding quest. Leave promptly after placing the runestones, or bring a group if you plan to fight.", confidence = "medium" },
 
     -- Sarkoth (second entry)
-    [804] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the starting area.", confidence = "high" },
+    [804] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the starting area.", confidence = "medium" },
 
     -- Report to Sen'jin Village
-    [805] = { threat = "LOW", reason = "No combat objective. The journey is safe if you stay on the road and avoid the scorpids and boars along the way.", confidence = "high" },
+    [805] = { threat = "LOW", reason = "No combat objective. The journey is safe if you stay on the road and avoid the scorpids and boars along the way.", confidence = "medium" },
 
     -- Dark Storms
-    [806] = { threat = "MEDIUM", reason = "Fizzle is level 9 and is surrounded by Burning Blade cultists and summoned minions. The cultists are levels 7-9 and can pull in groups. Clear the area before engaging Fizzle, and be ready for his fire spells.", confidence = "medium" },
+    [806] = { threat = "MEDIUM", reason = "Fizzle is level 9 and is surrounded by Burning Blade cultists and summoned minions. Clear the area before engaging Fizzle, and be ready for his fire spells.", confidence = "medium" },
 
     -- Minshina's Skull
-    [808] = { threat = "MEDIUM", reason = "The skull is on top of a hill patrolled by Zalazane and his trolls. The safest approach is to swim around the south side of the island, climb the back ramp, and grab the skull while Zalazane is on his patrol route. Do not fight Zalazane here; just grab the skull and leave. Do not attempt below level 7.", confidence = "high" },
+    [808] = { threat = "MEDIUM", reason = "The skull is on top of a hill patrolled by Zalazane and his trolls. The safest approach is to swim around the south side of the island, climb the back ramp, and grab the skull while Zalazane is on his patrol route. Do not fight Zalazane here; just grab the skull and leave.", confidence = "medium" },
 
     -- Ak'Zeloth
-    [809] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road from Orgrimmar to the Barrens.", confidence = "high" },
+    [809] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road from Orgrimmar to the Barrens.", confidence = "medium" },
 
     -- Need for a Cure
-    [812] = { threat = "LOW", reason = "The scorpions are level 6-8 and manageable solo. Watch for their poison, which can be dangerous at low health.", confidence = "high" },
+    [812] = { threat = "MEDIUM", reason = "Timed quest (45 min). The antidote chain requires travel between Rhinag, Orgrimmar, and the nearby scorpids, so getting lost or delaying can leave too little time. Locate Kor’ghan before accepting and follow the shortest route.", confidence = "medium" },
 
     -- Finding the Antidote
-    [813] = { threat = "LOW", reason = "The trolls are levels 7-9 and can pull in groups. The drop rate is moderate. Fight them one at a time and watch for their healing spells.", confidence = "high" },
+    [813] = { threat = "MEDIUM", reason = "Venomtail Scorpids must be killed for poison sacs, and repeated kills expose a low-level character to poison and nearby wildlife. Pull one at a time and return to Kor’ghan when you have enough sacs.", confidence = "medium" },
 
     -- Break a Few Eggs
-    [815] = { threat = "MEDIUM", reason = "The Bloodtalon taillashers are level 8-10 and protect their nests aggressively. They have a poison attack and can pull in pairs. Clear the area around each nest before looting the eggs.", confidence = "medium" },
+    [815] = { threat = "MEDIUM", reason = "They have a poison attack and can pull in pairs. Clear the area around each nest before looting the eggs.", confidence = "medium" },
 
     -- Lost But Not Forgotten
     [816] = { threat = "MEDIUM", reason = "The corpse is in troll territory patrolled by Hexed and Voodoo Trolls. Clear the area before looting and be ready to retreat if adds spawn.", confidence = "medium" },
 
     -- Practical Prey
-    [817] = { threat = "MEDIUM", reason = "The tigers are level 8-10 and have a large aggro range (roughly 30 yards). They are stealthy and can ambush you while you are fighting other mobs. Keep your back to the water and check for prowling cats between pulls.", confidence = "medium" },
+    [817] = { threat = "MEDIUM", reason = "The objective requires repeated kills among prowling tigers that can join other fights. Pull them into clear ground and check for nearby cats before resting.", confidence = "medium" },
 
     -- A Solvent Spirit
-    [818] = { threat = "LOW", reason = "The mobs are levels 6-8 and manageable solo. The drop rates are moderate. Standard low-level coastal combat risk.", confidence = "high" },
+    [818] = { threat = "LOW", reason = "The drop rates are moderate.", confidence = "medium" },
 
     -- Chen's Empty Keg (first step)
-    [819] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The keg is found in the Barrens, and the quest giver is in Ratchet. Safe if you stay on the road.", confidence = "high" },
+    [819] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The keg is found in the Barrens, and the quest giver is in Ratchet. Safe if you stay on the road.", confidence = "medium" },
 
     -- Chen's Empty Keg (second step)
-    [821] = { threat = "LOW", reason = "The mobs are levels 11-15 and found throughout the Barrens. The drop rates are moderate. Standard Barrens combat risk; pull singles and avoid centaur camps.", confidence = "high" },
+    [821] = { threat = "LOW", reason = "The drop rates are moderate.", confidence = "medium" },
 
     -- Chen's Empty Keg (third step)
-    [822] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [822] = { threat = "MEDIUM", reason = "The requested glands and liver come from hostile Barrens wildlife, so this step still requires combat despite its delivery wording. Avoid centaur camps and pull isolated beasts.", confidence = "medium" },
 
     -- Report to Orgnil
-    [823] = { threat = "LOW", reason = "No combat objective. Safe if you stay on the road from Sen'jin Village.", confidence = "high" },
+    [823] = { threat = "LOW", reason = "No combat objective. Safe if you stay on the road from Sen'jin Village.", confidence = "medium" },
 
     -- Je'neu of the Earthen Ring
-    [824] = { threat = "MEDIUM", reason = "The journey passes through contested Ashenvale, which is patrolled by Alliance players and hostile mobs. Stay on the road and avoid the main Alliance routes. The outpost itself is Horde-controlled and safe.", confidence = "medium" },
+    [824] = { threat = "LOW", reason = "This is a delivery step with no new combat objective. Travel through Ashenvale on the road and avoid hostile camps.", confidence = "medium" },
 
     -- From The Wreckage....
-    [825] = { threat = "LOW", reason = "The tools are underwater and guarded by level 6-8 Clackers. The toolboxes respawn quickly (around 20-30 seconds), so you can often wait at one spot for all three. Watch your breath meter and surface before it runs out.", confidence = "high" },
+    [825] = { threat = "MEDIUM", reason = "The toolboxes are underwater near hostile coastal creatures. Watch your breath and surface before it runs low; avoid fighting while submerged.", confidence = "medium" },
 
     -- Zalazane
-    [826] = { threat = "MEDIUM", reason = "Zalazane heals himself and casts a shrink curse that reduces your strength and stamina. He also pulls nearby trolls if you fight him in the camp. The safest approach is to wait until he patrols up the hill, pull him alone, and interrupt his heals. Do not attempt below level 8 solo.", confidence = "medium" },
+    [826] = { threat = "MEDIUM", reason = "Zalazane heals himself and casts a shrink curse that reduces your strength and stamina. He also pulls nearby trolls if you fight him in the camp. The safest approach is to wait until he patrols up the hill, pull him alone, and interrupt his heals.", confidence = "medium" },
 
     -- Skull Rock (Margoz -> Skull Rock cave)
-    [827] = { threat = "HIGH", reason = "The cave entrance is at approximately 55, 10 in Durotar. While the first few mobs near the entrance are manageable, the deeper you go, the tighter the corridors and the higher the chance of pulling multiple cultists and their summoned Voidwalkers. Voidwalkers do not despawn when their summoner dies, and they hit hard. Clear methodically, keep your back to the cave wall, and be ready to run if you pull more than two.", confidence = "high" },
+    [827] = { threat = "HIGH", reason = "Skull Rock is a tight cave where cultists and their summoned demons can combine into dangerous multi-pulls. Clear only as far as needed, keep an exit open, and retreat if several enemies engage.", confidence = "medium" },
 
     -- Margoz
-    [828] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the scorpids and boars along the way.", confidence = "high" },
+    [828] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the scorpids and boars along the way.", confidence = "medium" },
 
     -- Neeru Fireblade
-    [829] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [829] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Admiral's Orders (first step)
-    [830] = { threat = "MEDIUM", reason = "The chest is opened with Benedict's Key, dropped by Lieutenant Benedict. The keep is packed with Kul Tiras Sailors and Marines (levels 7-9), and the ramparts have multiple mobs. Clear the keep methodically and be ready for adds.", confidence = "medium" },
+    [830] = { threat = "MEDIUM", reason = "The orders are inside a guarded keep and require obtaining a key from a named defender. Clear a retreat path and avoid fighting several marines at once.", confidence = "medium" },
 
     -- The Admiral's Orders (second step)
-    [831] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road from Tiragarde Keep.", confidence = "high" },
+    [831] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road from Tiragarde Keep.", confidence = "medium" },
 
     -- Burning Shadows
-    [832] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city. The eye drops from Gazz'uz in Skull Rock, but the turn-in itself is safe.", confidence = "high" },
+    [832] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city. The eye drops from Gazz'uz in Skull Rock, but the turn-in itself is safe.", confidence = "medium" },
 
     -- A Sacred Burial
-    [833] = { threat = "MEDIUM", reason = "The quilboars are levels 8-10 and are packed in the burial ground. They pull in groups and can chain-pull. Clear methodically and avoid the deeper camps where mobs are denser. Do not attempt below level 9.", confidence = "medium" },
+    [833] = { threat = "MEDIUM", reason = "They pull in groups and can chain-pull. Clear methodically and avoid the deeper camps where mobs are denser.", confidence = "medium" },
 
     -- Winds in the Desert
-    [834] = { threat = "MEDIUM", reason = "The supplies are in the Dustwind Cave in Durotar, which is filled with level 8-12 Dustwind harpies. The cave is tight and mobs pull in groups. Clear methodically and watch for respawns. Do not attempt below level 9 solo.", confidence = "medium" },
+    [834] = { threat = "MEDIUM", reason = "The supplies are inside a harpy cave with narrow passages and clustered enemies. Pull toward the entrance and leave before respawns close the route.", confidence = "medium" },
 
     -- Securing the Lines
-    [835] = { threat = "LOW", reason = "The harpies are levels 8-12 and are packed in the ravine. They pull in groups and the Storm Witches cast lightning bolts. Clear methodically and watch for adds. Manageable solo for a level 10+ character.", confidence = "high" },
+    [835] = { threat = "LOW", reason = "They pull in groups and the Storm Witches cast lightning bolts. Clear methodically and watch for adds.", confidence = "medium" },
 
     -- Rescue OOX-09/HL!
-    [836] = { threat = "HIGH", reason = "The robot moves fast, does not help you fight, and despawns if it gets too far ahead. The escort spawns scripted ambushes including 3 level 47 Owlbeasts and 3 level 47 Vilebranch trolls. The robot cannot be healed effectively and will die if you do not pull aggro immediately when it clucks. A level 47 warlock died once when the trolls appeared but succeeded on the second attempt. A level 44 affliction warlock soloed it with a soulstone and pet sacrifice. Do not attempt below level 44 solo without a plan to manage the ambushes and keep the robot alive.", confidence = "high" },
+    [836] = { threat = "HIGH", reason = "Escort quest. The robot keeps moving and ambushes attack along the route while it offers little help in combat. Stay close, intercept each wave, and bring help if you cannot handle the attackers alone.", confidence = "medium" },
 
     -- Encroachment
-    [837] = { threat = "MEDIUM", reason = "The quilboars are levels 7-10 and are packed in bramble camps. They pull in groups and flee at low health. Clear from the outside in and watch for runners. Do not attempt below level 8.", confidence = "medium" },
+    [837] = { threat = "MEDIUM", reason = "They pull in groups and flee at low health. Clear from the outside in and watch for runners.", confidence = "medium" },
 
     -- Scholomance
-    [838] = { threat = "EXTREME", reason = "Scholomance is filled with elite undead, necromancers, and powerful bosses. The dungeon requires a full group of 5 at level 58+, and the key to enter requires a lengthy quest chain. Do not attempt without a coordinated group. This is one of the deadliest dungeons in Classic.", confidence = "high" },
+    [838] = { threat = "LOW", reason = "This is a conversation step that starts the Scholomance key quest chain; it does not require entering the dungeon. Travel to the Bulwark by a safe route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Conscript of the Horde
-    [840] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [840] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Another Power Source?
-    [841] = { threat = "LOW", reason = "The pouches drop from Wastewander bandits in Tanaris, who are levels 40-45. The mobs are dangerous for the intended level, but the quest itself is a repeatable turn-in with no combat objective. Collect the pouches with a group or overlevel.", confidence = "medium" },
+    [841] = { threat = "MEDIUM", reason = "Collecting the water pouches requires fighting Wastewander bandits in Tanaris. Their camp can produce dangerous pulls for a character near the quest level; overlevel or clear carefully and pull singles.", confidence = "medium" },
 
     -- Crossroads Conscription
-    [842] = { threat = "LOW", reason = "No combat objective. Safe if you stay on the road from Razor Hill.", confidence = "high" },
+    [842] = { threat = "LOW", reason = "No combat objective. Safe if you stay on the road from Razor Hill.", confidence = "medium" },
 
     -- Gann's Reclamation (Bael Modan dwarves)
-    [843] = { threat = "HIGH", reason = "The dwarves flee at low health and pull additional mobs when they run, which chains into multi-pulls. Prospector Khazgorm is in the deepest part of the pit and is guarded by adds. This quest is notorious for killing players who try to solo it at the intended level (17-23). Bring a group or overlevel significantly.", confidence = "high" },
+    [843] = { threat = "HIGH", reason = "The Bael’dun pit and nearby keep contain dense dwarf camps, and fleeing enemies can bring additional guards. Work from the edge, stop runners, and bring help before entering the deeper area.", confidence = "medium" },
 
     -- Plainstrider Menace
-    [844] = { threat = "LOW", reason = "The plainstriders are levels 11-13 and manageable solo. The drop rate is roughly 15-50% depending on the type. Fleeting Plainstriders have a higher drop rate. Standard Barrens combat risk.", confidence = "high" },
+    [844] = { threat = "LOW", reason = "Fleeting Plainstriders have a higher drop rate.", confidence = "medium" },
 
     -- The Zhevra
-    [845] = { threat = "LOW", reason = "The zhevras are levels 11-13 and manageable solo. Their kick can knock you back, so fight them in open areas where you can retreat. Standard Barrens combat risk.", confidence = "high" },
+    [845] = { threat = "LOW", reason = "Their kick can knock you back, so fight them in open areas where you can retreat.", confidence = "medium" },
 
     -- Revenge of Gann
-    [846] = { threat = "HIGH", reason = "The dwarves are levels 20-25 and are packed in the keep. They flee at low health and chain-pull aggressively, making this one of the most notorious death traps in the Barrens. The items can drop from mobs outside the mine, so you can avoid the deeper areas. Do not attempt below level 24 without a group. A level 22 mage soloed it by killing outside mobs only, but the runners will kill unprepared players.", confidence = "high" },
+    [846] = { threat = "MEDIUM", reason = "The required items can drop from dwarves around Bael’dun Keep, including enemies outside the mine. The keep is densely guarded, so work from the perimeter and leave if enemies begin chaining.", confidence = "medium" },
 
     -- Guile of the Raptor
-    [847] = { threat = "MEDIUM", reason = "The raptors are levels 12-15 and run in packs of two or three. They flee at low health and can chain-pull. Kill the runners first and fight in open areas where you can see adds coming.", confidence = "medium" },
+    [847] = { threat = "LOW", reason = "This is a dialogue handoff with no combat objective. Reach Tor’gan by a safe route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Fungal Spores
     [848] = { threat = "MEDIUM", reason = "The quest sends you into the water, where you must dive to collect the spores. The pools are guarded by level 12-15 mobs, and drowning is a risk if you get rooted or feared underwater. Clear the area before diving and surface before your breath runs out.", confidence = "medium" },
 
     -- Revenge of Gann (second step)
-    [849] = { threat = "HIGH", reason = "Khazgorm is level 22 and has multiple adds guarding him in a dead-end area. The dwarves inside the pit are levels 20-25 and flee at low health, chain-pulling additional mobs. The pit has no safe retreat once you are inside. A level 22 rogue soloed this, but only by playing smart. Do not attempt below level 24 without a group. This quest is considered one of the worst in Classic for its death rate.", confidence = "high" },
+    [849] = { threat = "HIGH", reason = "Destroying the flying machine requires reaching the guarded Bael Modan site. Dwarves can chain-pull when they flee; approach from a cleared route, avoid the deeper camp, and bring help if you cannot reach the objective safely.", confidence = "medium" },
 
     -- Kolkar Leaders
-    [850] = { threat = "MEDIUM", reason = "Barak is level 17 and is surrounded by Kolkar centaurs. He guards a chest (Kolkar's Booty) on a hill. Pull him alone or clear his guards first. Do not attempt below level 15 without a group.", confidence = "medium" },
+    [850] = { threat = "MEDIUM", reason = "Barak is level 17 and is surrounded by Kolkar centaurs. He guards a chest (Kolkar's Booty) on a hill. Pull him alone or clear his guards first.", confidence = "medium" },
 
     -- Verog the Dervish
-    [851] = { threat = "MEDIUM", reason = "You have only a couple of minutes to reach and kill him before he despawns. He comes solo, so the fight itself is manageable, but the spawn mechanism is unreliable and can take many kills. Pull him down the hillside to avoid adds.", confidence = "high" },
+    [851] = { threat = "MEDIUM", reason = "Verog appears after fighting Kolkar near their command camp, so nearby enemies can join the encounter. Clear a small area first and stay near the camp to find him when he appears.", confidence = "medium" },
 
     -- Hezrul Bloodmark
-    [852] = { threat = "HIGH", reason = "He spawns every 15 minutes at the Wailing Caverns entrance and wanders clockwise. His guards cast a 10-second Corruption that ticks for about 10 damage. Killing him triggers a follow-up quest that sends you into the Wailing Caverns. Do not attempt below level 18 solo; bring a group or overlevel. A level 18 rogue died here after killing Hezrul but being killed by his remaining guard.", confidence = "high" },
+    [852] = { threat = "HIGH", reason = "Hezrul is a named target in a centaur area with guards and patrols. Clear an approach, pull him away from the camp, and bring help if you cannot control the adds.", confidence = "medium" },
 
     -- Apothecary Zamah
-    [853] = { threat = "LOW", reason = "This is a timed delivery quest with a 45-minute limit, but the route from the Crossroads to Thunder Bluff takes only 12-15 minutes on foot. No combat required. If you are worried about the timer, fly to Thunder Bluff first, get the flight path, then fly back and take the quest.", confidence = "high" },
+    [853] = { threat = "LOW", reason = "Timed delivery quest. The objective is to carry the spores to Thunder Bluff; plan the route before accepting and use the flight path if available.", confidence = "medium" },
 
     -- Journey to the Crossroads
-    [854] = { threat = "LOW", reason = "Pure travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [854] = { threat = "LOW", reason = "Pure travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Centaur Bracers
-    [855] = { threat = "MEDIUM", reason = "The drop rate is roughly 30-50%, meaning you will kill 30-50 centaurs. The centaurs are levels 13-17 and patrol in small groups. The real danger is the sheer time spent in centaur territory, where respawns and patrols can catch you off guard. This quest is a common Hardcore death point due to overconfidence during the long grind. Pull singles and never fight near multiple camps.", confidence = "high" },
+    [855] = { threat = "MEDIUM", reason = "Pull singles and never fight near multiple camps.", confidence = "medium" },
 
     -- The Tear of the Moons
-    [857] = { threat = "HIGH", reason = "The farm is guarded by level 24-27 dwarves, including a rifleman who interrupts chest-opening. The room is small, packed with mobs, and there is no escape route once you enter. The most common strategy involves intentionally dying and resurrecting on the fireplace mantle to loot the chest, which is not viable on Hardcore. Solo attempts at the intended level (22+) require significant cooldowns or a corpse-run exploit. Do not attempt without a group or significant overleveling.", confidence = "high" },
+    [857] = { threat = "HIGH", reason = "The Tear is inside the guarded Bael Modan site, where ranged defenders and close-packed enemies make reaching and looting the objective hazardous. Clear the approach with help or return overleveled.", confidence = "medium" },
 
     -- Ignition
-    [858] = { threat = "MEDIUM", reason = "The key drops from Tinkerer Sniggles, a level 18-20 goblin in the Sludge Fen. The area is packed with level 14-18 Venture Co. mobs that pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 16 solo.", confidence = "medium" },
+    [858] = { threat = "MEDIUM", reason = "The key drops from Tinkerer Sniggles, a level 18-20 goblin in the Sludge Fen. The area is packed with level 14-18 Venture Co. mobs that pull in groups.", confidence = "medium" },
 
     -- Sergra Darkthorn
-    [860] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [860] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Hunter's Way
-    [861] = { threat = "LOW", reason = "Travel and dialogue with light combat against low-level mobs. Safe for the intended level.", confidence = "high" },
+    [861] = { threat = "LOW", reason = "Travel and dialogue with light combat against low-level mobs. Safe for the intended level.", confidence = "medium" },
 
     -- Dig Rat Stew
-    [862] = { threat = "LOW", reason = "The dig rats are low-level and found in the field near the Crossroads. Manageable solo. Standard low-level combat risk.", confidence = "high" },
+    [862] = { threat = "LOW", reason = "The dig rats are low-level and found in the field near the Crossroads. Manageable solo.", confidence = "medium" },
 
     -- The Escape
-    [863] = { threat = "HIGH", reason = "This is an escort quest where Wizzlecrank rides a shredder that walks slowly and stops to fight mobs. The shredder can be destroyed, and Wizzlecrank can die. The route passes through the Sludge Fen and the Barrens, which are patrolled by level 15-20 mobs. Multiple players report the shredder dying or the escort failing. Do not attempt below level 18 solo without a plan to clear the path ahead and keep the shredder alive.", confidence = "high" },
+    [863] = { threat = "HIGH", reason = "Escort quest. Wizzlecrank’s shredder stops to fight along a route through hostile camps and can be destroyed. Clear the path ahead, stay close, and be ready to take attackers off the shredder.", confidence = "medium" },
 
     -- Return to Apothecary Zinge
-    [864] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [864] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Raptor Horns
-    [865] = { threat = "LOW", reason = "The raptors are levels 14-18 and are found in the Barrens. They run in packs and flee at low health. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "high" },
+    [865] = { threat = "LOW", reason = "They run in packs and flee at low health.", confidence = "medium" },
 
     -- Root Samples
-    [866] = { threat = "LOW", reason = "The roots are found on the ground in the Barrens. No combat required, but the area is patrolled by level 12-16 mobs. Safe if you avoid the mobs while gathering.", confidence = "high" },
+    [866] = { threat = "LOW", reason = "The roots are found on the ground in the Barrens. No combat required, but the area is patrolled by level 12-16 mobs. Safe if you avoid the mobs while gathering.", confidence = "medium" },
 
     -- Harpy Raiders
-    [867] = { threat = "MEDIUM", reason = "The drop rate is notoriously low (roughly 20-30%), meaning you will kill 25-30 harpies. The harpies are levels 14-18 and respawn quickly. They pull in small groups and can overwhelm you if you are underleveled. Pull singles to a clear spot and rest between fights.", confidence = "high" },
+    [867] = { threat = "MEDIUM", reason = "The drop rate is notoriously low (roughly 20-30%), meaning you will kill 25-30 harpies. They pull in small groups and can overwhelm you if you are underleveled. Pull singles to a clear spot and rest between fights.", confidence = "medium" },
 
     -- Egg Hunt
     [868] = { threat = "MEDIUM", reason = "The eggs are guarded by silithid and other mobs. The quest requires diving into the pools, where drowning is a risk if you get rooted. Clear the area before diving and surface before your breath runs out.", confidence = "medium" },
 
     -- Raptor Thieves
-    [869] = { threat = "MEDIUM", reason = "The raptors are levels 12-15 and run in packs of two or three. They flee at low health and can chain-pull additional mobs. Kill the runners first and fight in open areas where you can see adds coming.", confidence = "medium" },
+    [869] = { threat = "MEDIUM", reason = "They flee at low health and can chain-pull additional mobs. Kill the runners first and fight in open areas where you can see adds coming.", confidence = "medium" },
 
     -- The Forgotten Pools
-    [870] = { threat = "LOW", reason = "The pool is shallow and the surrounding mobs are low-level. Dive to the bottom to find the fissure, then return to Tonga. Standard early Barrens travel risk only.", confidence = "high" },
+    [870] = { threat = "LOW", reason = "The pool is shallow and the surrounding mobs are low-level. Dive to the bottom to find the fissure, then return to Tonga.", confidence = "medium" },
 
     -- Disrupt the Attacks
-    [871] = { threat = "MEDIUM", reason = "The quilboars are levels 10-14 and are packed in bramble camps. They pull in groups and flee at low health. Clear from the outside in and watch for runners. Do not attempt below level 12.", confidence = "medium" },
+    [871] = { threat = "MEDIUM", reason = "They pull in groups and flee at low health. Clear from the outside in and watch for runners.", confidence = "medium" },
 
     -- The Disruption Ends
     [872] = { threat = "MEDIUM", reason = "Kreenig is a named quilboar surrounded by guards in the Bristleback camps. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
 
     -- Isha Awak
-    [873] = { threat = "HIGH", reason = "Isha Awak is a large elite-level threat with heavy melee attacks and a knockback. He is not a standard mob and can kill players at the intended level (18-20) quickly. Fight him at range if possible and keep an escape route to the water. Group recommended.", confidence = "medium" },
+    [873] = { threat = "HIGH", reason = "Isha Awak is a high-level aquatic target, and hostile water creatures can complicate the fight. Clear nearby enemies and fight from a safe shore or with a group if you cannot manage the target solo.", confidence = "medium" },
 
     -- Mahren Skyseer
-    [874] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [874] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Harpy Lieutenants
-    [875] = { threat = "MEDIUM", reason = "The harpies are levels 12-16 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for the named harpies that patrol the area.", confidence = "medium" },
+    [875] = { threat = "MEDIUM", reason = "They pull in groups and can chain-pull. Clear methodically and watch for the named harpies that patrol the area.", confidence = "medium" },
 
     -- Serena Bloodfeather
     [876] = { threat = "MEDIUM", reason = "Serena is a level 18 named mob surrounded by guards in the harpy camp. Clear the camp before engaging and watch for patrolling harpies.", confidence = "medium" },
 
     -- The Stagnant Oasis
-    [877] = { threat = "LOW", reason = "The oasis is guarded by low-level turtles and crocolisks. There is a fissure at the bottom that provides underwater breathing. Standard Barrens travel risk only.", confidence = "high" },
+    [877] = { threat = "LOW", reason = "The oasis is guarded by low-level turtles and crocolisks. There is a fissure at the bottom that provides underwater breathing.", confidence = "medium" },
 
     -- Tribes at War
-    [878] = { threat = "MEDIUM", reason = "The centaurs are levels 13-17 and patrol in groups. They pull in packs and can chain-pull. Fight in open areas where you can retreat.", confidence = "medium" },
+    [878] = { threat = "MEDIUM", reason = "They pull in packs and can chain-pull. Fight in open areas where you can retreat.", confidence = "medium" },
 
     -- Betrayal from Within
     [879] = { threat = "MEDIUM", reason = "The target is surrounded by guards and the area is patrolled by additional centaurs. Clear the camp before engaging.", confidence = "medium" },
 
     -- Altered Beings
-    [880] = { threat = "LOW", reason = "The snapjaws are low-level turtles that are manageable solo. Standard coastal combat risk.", confidence = "high" },
+    [880] = { threat = "LOW", reason = "The snapjaws are low-level turtles that are manageable solo.", confidence = "medium" },
 
     -- Echeyakee
     [881] = { threat = "MEDIUM", reason = "The lion is level 12 and is summoned using a horn. He is not elite but hits hard for his level. Clear the area before summoning and be ready for a fight.", confidence = "medium" },
 
     -- Ishamuhale (Barrens)
-    [882] = { threat = "MEDIUM", reason = "Place the Fresh Zhevra Carcass at the base of the large tree at approximately [60, 30] to summon him. The raptor hits hard for its level, and the surrounding area is patrolled by hyenas, plainstriders, and savannah prowlers that can add mid-fight. Clear the nearby mobs before summoning Ishamuhale and fight him in a clear area where you can see adds coming.", confidence = "high" },
+    [882] = { threat = "MEDIUM", reason = "Place the Fresh Zhevra Carcass at the base of the large tree at approximately [60, 30] to summon him. The raptor hits hard for its level, and the surrounding area is patrolled by hyenas, plainstriders, and savannah prowlers that can add mid-fight. Clear the nearby mobs before summoning Ishamuhale and fight him in a clear area where you can see adds coming.", confidence = "medium" },
 
     -- Lakota'mani
     [883] = { threat = "MEDIUM", reason = "The kodo is level 14 and patrols a wide area. He hits hard and has a knockback. Clear the area before engaging and be ready to kite.", confidence = "medium" },
@@ -2400,46 +2403,46 @@ addon.quests = {
     [885] = { threat = "MEDIUM", reason = "The serpent is level 13 and patrols the area. It has a ranged lightning attack. Fight in open areas where you can see it coming.", confidence = "medium" },
 
     -- The Barrens Oases (Crossroads -> Wailing Caverns chain start)
-    [886] = { threat = "LOW", reason = "The journey from Thunder Bluff or Mulgore is safe if you stay on the road; the Barrens is dangerous only if you wander into mob camps.", confidence = "high" },
+    [886] = { threat = "LOW", reason = "The journey from Thunder Bluff or Mulgore is safe if you stay on the road; the Barrens is dangerous only if you wander into mob camps.", confidence = "medium" },
 
     -- Southsea Freebooters (Ratchet -> Fray Island)
-    [887] = { threat = "MEDIUM", reason = "The island is packed with Southsea Brigands and Cannoneers who pull in groups, and their respawn rate is fast. Fight methodically from the beach inward and keep an escape route to the water.", confidence = "medium" },
+    [887] = { threat = "MEDIUM", reason = "Fight methodically from the beach inward and keep an escape route to the water.", confidence = "medium" },
 
     -- Stolen Booty
-    [888] = { threat = "MEDIUM", reason = "The items are stolen by the Southsea Freebooters on the coast of the Barrens. The pirates are levels 15-18 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Do not attempt below level 15 solo.", confidence = "medium" },
+    [888] = { threat = "MEDIUM", reason = "The items are stolen by the Southsea Freebooters on the coast of the Barrens. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
 
     -- Spirit of the Wind
-    [889] = { threat = "LOW", reason = "Travel and collection step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [889] = { threat = "LOW", reason = "Travel and collection step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- The Missing Shipment
-    [890] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [890] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Guns of Northwatch (Ratchet -> Northwatch Hold)
-    [891] = { threat = "HIGH", reason = "The Hold is packed with Theramore soldiers who chain-pull aggressively, and the cannoneers hit hard from range. This is a group quest by design; solo attempts at the intended level usually end in death. Bring at least one other player and clear the courtyard before engaging the named mobs.", confidence = "medium" },
+    [891] = { threat = "HIGH", reason = "Group quest. Northwatch Hold is a guarded fort with several named defenders and ranged attackers. Bring a group or return well above the quest level; avoid pulling the courtyard and keep together.", confidence = "medium" },
 
     -- The Missing Shipment (Ratchet -> Booty Bay)
-    [892] = { threat = "LOW", reason = "Travel step with no combat objective. The road from Ratchet is safe if you avoid the pirate camps along the coast.", confidence = "high" },
+    [892] = { threat = "LOW", reason = "Travel step with no combat objective. The road from Ratchet is safe if you avoid the pirate camps along the coast.", confidence = "medium" },
 
     -- Weapons of Choice
-    [893] = { threat = "MEDIUM", reason = "The centaurs are levels 13-17 and patrol in groups. They pull in packs and can chain-pull. Fight in open areas and retreat if needed.", confidence = "medium" },
+    [893] = { threat = "MEDIUM", reason = "They pull in packs and can chain-pull. Fight in open areas and retreat if needed.", confidence = "medium" },
 
     -- Samophlange (Access Console)
     [894] = { threat = "MEDIUM", reason = "Venture Company guards make the console approach vulnerable to extra pulls. Clear nearby enemies and preserve a retreat route before interacting.", confidence = "medium" },
 
     -- WANTED: Baron Longshore
-    [895] = { threat = "MEDIUM", reason = "Baron Longshore is a level 16 pirate who spawns randomly at one of the Southsea Freebooter camps along the Barrens coast. He has around 356 HP and is accompanied by two other pirates. He is not elite, but the camps are patrolled by other pirates. A level 25 player killed him repeatedly for deviate recipe farming. Do not attempt below level 15 solo without a plan to handle his guards.", confidence = "high" },
+    [895] = { threat = "MEDIUM", reason = "Baron Longshore is a level 16 pirate who spawns randomly at one of the Southsea Freebooter camps along the Barrens coast. He has around 356 HP and is accompanied by two other pirates. He is not elite, but the camps are patrolled by other pirates.", confidence = "medium" },
 
     -- Miner's Fortune
-    [896] = { threat = "MEDIUM", reason = "The emerald drops from level 18-20 Venture Co. mobs at the Sludge Fen. The drop rate is moderate. The area is packed with mobs that pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
+    [896] = { threat = "MEDIUM", reason = "The emerald drops from level 18-20 Venture Co. mobs at the Sludge Fen. The area is packed with mobs that pull in groups.", confidence = "medium" },
 
     -- The Harvester
     [897] = { threat = "MEDIUM", reason = "The target is level 17 and is surrounded by guards. Clear the area before engaging.", confidence = "medium" },
 
     -- Free From the Hold
-    [898] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies. The NPC cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes.", confidence = "medium" },
+    [898] = { threat = "HIGH", reason = "Escort quest. Gilthares travels from Northwatch Hold through hostile Theramore and pirate camps and can draw enemies into nearby groups. Clear the opening route, stay close, and keep taking attackers off him all the way to Ratchet.", confidence = "medium" },
 
     -- Consumed by Hatred
-    [899] = { threat = "MEDIUM", reason = "The quilboars are levels 14-18 and are packed in the camps north of Camp Taurajo. The drop rate is roughly 90% with 1-2 tusks per kill, so you will need to kill 30-60 mobs. The camps are dense and respawn quickly, and the quilboars love to double you. A level 17 hunter died here after accidentally aggroing 4 mobs. Do not attempt below level 16 solo without a plan to pull singles and avoid getting boxed in.", confidence = "high" },
+    [899] = { threat = "MEDIUM", reason = "The many required tusks mean repeated fights in Bristleback camps where enemies can join from nearby groups. Pull singles toward open ground and leave before respawns close your route.", confidence = "medium" },
 
     -- Samophlange (Close Valves)
     [900] = { threat = "HIGH", reason = "Operating the valves summons additional Venture Company enemies even after the area has been cleared. Nearby enemies can turn the ambush into a dangerous multi-pull. Recover before each valve and bring help if you cannot control several enemies.", confidence = "high" },

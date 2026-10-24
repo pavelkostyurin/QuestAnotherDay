@@ -249,88 +249,88 @@ addon.quests = {
     [692] = { threat = "MEDIUM", reason = "The fragments are in trogg caves, which are narrow and respawn quickly. Clear methodically and keep an escape route.", confidence = "low" },
 
     -- Barbecued Buzzard Wings
-    [703] = { threat = "MEDIUM", reason = "The buzzards are level 35-40 and patrol the canyons. They are fast and can pull multiple if you're not careful. Fight in open areas where you can see them coming.", confidence = "low" },
+    [703] = { threat = "MEDIUM", reason = "The buzzards are level 35-40 and patrol the canyons. They are fast and can pull multiple if you're not careful. Fight in open areas where you can see them coming.", confidence = "medium" },
 
     -- Pearl Diving
-    [705] = { threat = "MEDIUM", reason = "The water is patrolled by murlocs and nagas. Drowning is a risk if you get feared. Bring water breathing and clear mobs before diving.", confidence = "low" },
+    [705] = { threat = "MEDIUM", reason = "The water is patrolled by murlocs and nagas. Drowning is a risk if you get feared. Bring water breathing and clear mobs before diving.", confidence = "medium" },
 
     -- Solution to Doom
-    [709] = { threat = "MEDIUM", reason = "The area has troggs and stone golems. The golems hit hard and have knockbacks. Fight in open areas where you can retreat.", confidence = "low" },
+    [709] = { threat = "MEDIUM", reason = "The area has troggs and stone golems. The golems hit hard and have knockbacks. Fight in open areas where you can retreat.", confidence = "medium" },
 
     -- Study of the Elements: Rock
-    [710] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have knockbacks. Fight near walls to avoid being knocked into other mobs.", confidence = "low" },
+    [710] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have knockbacks. Fight near walls to avoid being knocked into other mobs.", confidence = "medium" },
 
     -- Study of the Elements: Rock
-    [711] = { threat = "MEDIUM", reason = "The second location has more elementals and possibly a named elemental. Clear the area before engaging.", confidence = "low" },
+    [711] = { threat = "MEDIUM", reason = "The second location has more elementals and possibly a named elemental. Clear the area before engaging.", confidence = "medium" },
 
     -- Study of the Elements: Rock
-    [712] = { threat = "MEDIUM", reason = "The location has higher-level elementals and a named mob. Bring consumables and clear methodically.", confidence = "low" },
+    [712] = { threat = "MEDIUM", reason = "The location has higher-level elementals and a named mob. Bring consumables and clear methodically.", confidence = "medium" },
 
     -- Coolant Heads Prevail
-    [713] = { threat = "MEDIUM", reason = "The coolant is in a golem cave with stone golems that hit hard and have knockbacks. Fight in doorways to limit mobs.", confidence = "low" },
+    [713] = { threat = "LOW", reason = "This step asks for Frost Oil, which can be acquired without fighting in the golem cave. Use the ordinary Badlands travel precautions.", confidence = "medium" },
 
     -- Gyro... What?
-    [714] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the golem caves.", confidence = "medium" },
+    [714] = { threat = "LOW", reason = "This is a collection and delivery step; the description requires no combat. Avoid the nearby hostile camps while traveling.", confidence = "medium" },
 
     -- Liquid Stone
-    [715] = { threat = "MEDIUM", reason = "The elementals are level 35-40 and have knockbacks. Fight near walls to avoid being knocked into other mobs.", confidence = "low" },
+    [715] = { threat = "LOW", reason = "This step turns in two potions and requires no combat. Use the ordinary Badlands travel precautions.", confidence = "medium" },
 
     -- Stone Is Better than Cloth
-    [716] = { threat = "MEDIUM", reason = "The golems hit hard and have knockbacks. Fight in open areas where you can retreat if needed.", confidence = "low" },
+    [716] = { threat = "LOW", reason = "This step turns in crafted bracers and requires no combat. Use the ordinary Badlands travel precautions.", confidence = "medium" },
 
     -- This Is Going to Be Hard
-    [734] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [734] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "medium" },
 
     -- Forbidden Knowledge
-    [737] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [737] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- This Is Going to Be Hard
-    [777] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cog is found on the ground near Lotwil's camp. Safe if you stay in the camp.", confidence = "high" },
+    [777] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The cog is found on the ground near Lotwil's camp. Safe if you stay in the camp.", confidence = "medium" },
 
     -- This Is Going to Be Hard
-    [778] = { threat = "MEDIUM", reason = "The Guardian is a level 45 elemental summoned by Lotwil. It has around 2,200 HP and is not elite. Multiple players soloed this at level 40, including a level 40 druid who took about 5 minutes. It hits reasonably hard but is manageable with cooldowns and consumables. Do not attempt below level 40 solo without a healing potion.", confidence = "high" },
+    [778] = { threat = "MEDIUM", reason = "The Guardian is a level 45 elemental summoned by Lotwil. It has around 2,200 HP and is not elite. Multiple players soloed this at level 40, including a level 40 druid who took about 5 minutes. It hits reasonably hard but is manageable with cooldowns and consumables. Do not attempt below level 40 solo without a healing potion.", confidence = "medium" },
 
     -- Winds in the Desert
-    [834] = { threat = "MEDIUM", reason = "The supplies are in the Dustwind Cave in Durotar, which is filled with level 8-12 Dustwind harpies. The cave is tight and mobs pull in groups. Clear methodically and watch for respawns. Do not attempt below level 9 solo.", confidence = "medium" },
+    [834] = { threat = "MEDIUM", reason = "The supplies are inside a harpy cave with narrow passages and clustered enemies. Pull toward the entrance and leave before respawns close the route.", confidence = "medium" },
 
     -- Securing the Lines
-    [835] = { threat = "LOW", reason = "The harpies are levels 8-12 and are packed in the ravine. They pull in groups and the Storm Witches cast lightning bolts. Clear methodically and watch for adds. Manageable solo for a level 10+ character.", confidence = "high" },
+    [835] = { threat = "LOW", reason = "They pull in groups and the Storm Witches cast lightning bolts. Clear methodically and watch for adds.", confidence = "medium" },
 
     -- Rescue OOX-09/HL!
-    [836] = { threat = "HIGH", reason = "The robot moves fast, does not help you fight, and despawns if it gets too far ahead. The escort spawns scripted ambushes including 3 level 47 Owlbeasts and 3 level 47 Vilebranch trolls. The robot cannot be healed effectively and will die if you do not pull aggro immediately when it clucks. A level 47 warlock died once when the trolls appeared but succeeded on the second attempt. A level 44 affliction warlock soloed it with a soulstone and pet sacrifice. Do not attempt below level 44 solo without a plan to manage the ambushes and keep the robot alive.", confidence = "high" },
+    [836] = { threat = "HIGH", reason = "Escort quest. The robot keeps moving and ambushes attack along the route while it offers little help in combat. Stay close, intercept each wave, and bring help if you cannot handle the attackers alone.", confidence = "medium" },
 
     -- Ignition
-    [858] = { threat = "MEDIUM", reason = "The key drops from Tinkerer Sniggles, a level 18-20 goblin in the Sludge Fen. The area is packed with level 14-18 Venture Co. mobs that pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 16 solo.", confidence = "medium" },
+    [858] = { threat = "MEDIUM", reason = "The key drops from Tinkerer Sniggles, a level 18-20 goblin in the Sludge Fen. The area is packed with level 14-18 Venture Co. mobs that pull in groups.", confidence = "medium" },
 
     -- The Escape
-    [863] = { threat = "HIGH", reason = "This is an escort quest where Wizzlecrank rides a shredder that walks slowly and stops to fight mobs. The shredder can be destroyed, and Wizzlecrank can die. The route passes through the Sludge Fen and the Barrens, which are patrolled by level 15-20 mobs. Multiple players report the shredder dying or the escort failing. Do not attempt below level 18 solo without a plan to clear the path ahead and keep the shredder alive.", confidence = "high" },
+    [863] = { threat = "HIGH", reason = "Escort quest. Wizzlecrank’s shredder stops to fight along a route through hostile camps and can be destroyed. Clear the path ahead, stay close, and be ready to take attackers off the shredder.", confidence = "medium" },
 
     -- Raptor Horns
-    [865] = { threat = "LOW", reason = "The raptors are levels 14-18 and are found in the Barrens. They run in packs and flee at low health. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "high" },
+    [865] = { threat = "LOW", reason = "They run in packs and flee at low health.", confidence = "medium" },
 
     -- Root Samples
-    [866] = { threat = "LOW", reason = "The roots are found on the ground in the Barrens. No combat required, but the area is patrolled by level 12-16 mobs. Safe if you avoid the mobs while gathering.", confidence = "high" },
+    [866] = { threat = "LOW", reason = "The roots are found on the ground in the Barrens. No combat required, but the area is patrolled by level 12-16 mobs. Safe if you avoid the mobs while gathering.", confidence = "medium" },
 
     -- Southsea Freebooters
-    [887] = { threat = "MEDIUM", reason = "The island is packed with Southsea Brigands and Cannoneers who pull in groups, and their respawn rate is fast. Fight methodically from the beach inward and keep an escape route to the water.", confidence = "medium" },
+    [887] = { threat = "MEDIUM", reason = "Fight methodically from the beach inward and keep an escape route to the water.", confidence = "medium" },
 
     -- Stolen Booty
-    [888] = { threat = "MEDIUM", reason = "The items are stolen by the Southsea Freebooters on the coast of the Barrens. The pirates are levels 15-18 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Do not attempt below level 15 solo.", confidence = "medium" },
+    [888] = { threat = "MEDIUM", reason = "The items are stolen by the Southsea Freebooters on the coast of the Barrens. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
 
     -- The Missing Shipment
-    [890] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [890] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Missing Shipment
-    [892] = { threat = "LOW", reason = "Travel step with no combat objective. The road from Ratchet is safe if you avoid the pirate camps along the coast.", confidence = "high" },
+    [892] = { threat = "LOW", reason = "Travel step with no combat objective. The road from Ratchet is safe if you avoid the pirate camps along the coast.", confidence = "medium" },
 
     -- Samophlange
     [894] = { threat = "MEDIUM", reason = "Venture Company guards make the console approach vulnerable to extra pulls. Clear nearby enemies and preserve a retreat route before interacting.", confidence = "medium" },
 
     -- WANTED: Baron Longshore
-    [895] = { threat = "MEDIUM", reason = "Baron Longshore is a level 16 pirate who spawns randomly at one of the Southsea Freebooter camps along the Barrens coast. He has around 356 HP and is accompanied by two other pirates. He is not elite, but the camps are patrolled by other pirates. A level 25 player killed him repeatedly for deviate recipe farming. Do not attempt below level 15 solo without a plan to handle his guards.", confidence = "high" },
+    [895] = { threat = "MEDIUM", reason = "Baron Longshore is a level 16 pirate who spawns randomly at one of the Southsea Freebooter camps along the Barrens coast. He has around 356 HP and is accompanied by two other pirates. He is not elite, but the camps are patrolled by other pirates.", confidence = "medium" },
 
     -- Miner's Fortune
-    [896] = { threat = "MEDIUM", reason = "The emerald drops from level 18-20 Venture Co. mobs at the Sludge Fen. The drop rate is moderate. The area is packed with mobs that pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
+    [896] = { threat = "MEDIUM", reason = "The emerald drops from level 18-20 Venture Co. mobs at the Sludge Fen. The area is packed with mobs that pull in groups.", confidence = "medium" },
 
     -- Samophlange
     [900] = { threat = "HIGH", reason = "Operating the valves summons additional Venture Company enemies even after the area has been cleared. Nearby enemies can turn the ambush into a dangerous multi-pull. Recover before each valve and bring help if you cannot control several enemies.", confidence = "high" },
