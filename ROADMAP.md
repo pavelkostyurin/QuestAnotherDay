@@ -85,6 +85,11 @@ does not leave stale icons or tooltips, and passes automated and in-game checks.
 and prepare a GitHub or Discord report without first hovering its icon. Verify
 that punctuation and multiline feedback survive copying and URL encoding.
 
+## Future ideas
+
+- [ ] Add localization for the addon interface and quest warnings. Target
+  languages and implementation details are to be decided later.
+
 ## Suggested release sequence
 
 1. Ship quest-offer warnings and alert controls together, after integration

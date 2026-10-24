@@ -1071,7 +1071,7 @@ addon.quests = {
     [4292] = { threat = "HIGH", reason = "Lar'korwi is a level 50-52 named devilsaur with a fear effect and heavy melee damage. Summoning him at the carcass spawns him with two ravasaurs nearby. A level 49 hunter soloed him by kiting with a pet, but a level 52 warrior died. Fight in an open area and keep an escape route. Do not attempt solo below level 50 without a plan.", confidence = "high" },
 
     -- Tablet of the Seven
-    [4296] = { threat = "LOW", reason = "Delivery step with no combat. The transcript is obtained from a tablet inside Uldaman; if you already have it, this is safe.", confidence = "high" },
+    [4296] = { threat = "MEDIUM", reason = "The tablet is in the Ruins of Thaurissan, among hostile golems. Clear nearby enemies before transcribing it and keep a retreat route.", confidence = "medium" },
 
     -- The Mighty U'cha
     [4301] = { threat = "HIGH", reason = "U'cha is a level 50-52 elite gorilla inside the Gorishi hive cave in Un'Goro. He hits hard and is surrounded by level 50-54 gorillas that pull in groups. The cave has no escape route once you are deep inside. Clear methodically and keep an exit path. Do not attempt solo below level 52 without a group.", confidence = "high" },
@@ -1335,7 +1335,7 @@ addon.quests = {
     [5164] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
 
     -- Dousing the Flames of Protection
-    [5165] = { threat = "HIGH", reason = "Requires entering Shadow Hold in Felwood to douse four braziers, each guarded by level 52-56 demons and cultists. The cave is a maze with patrolling elites and no escape route deep inside. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
+    [5165] = { threat = "HIGH", reason = "Deep cave pulls and respawns in Shadow Hold can overwhelm a solo character and make retreat difficult. Clear toward each brazier with an exit route, recover between pulls, and bring help if you cannot control multiple enemies.", confidence = "medium" },
 
     -- Breastplate of the Chromatic Flight
     [5166] = { threat = "HIGH", reason = "Requires a Chromatic Carapace and 10 Brilliant Chromatic Scales from Upper Blackrock Spire, plus 10 Blood of Heroes and 10 Frayed Abomination Stitchings from high-level dungeons. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
@@ -1353,7 +1353,7 @@ addon.quests = {
     [5202] = { threat = "MEDIUM", reason = "The key is in Jaedenar, a demon-infested cave in Felwood, levels 50-54. The cave is a maze with patrolling elites and no escape route deep inside. Clear methodically and keep an exit path. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Rescue From Jaedenar
-    [5203] = { threat = "HIGH", reason = "Escort quest. Arko'narin must be protected through Shadow Hold in Felwood, which is filled with level 52-56 demons and cultists. The escort spawns waves of enemies, and Arko'narin can die. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
+    [5203] = { threat = "HIGH", reason = "Escort quest. Scripted demon attacks and a final elite can overlap with respawns, while Arko'narin may engage enemies before you recover. Clear ahead, save crowd control for the demon packs, and bring a group on Hardcore.", confidence = "medium" },
 
     -- Retribution of the Light
     [5204] = { threat = "HIGH", reason = "Rakaiah is a level 54 elite succubus in Jaedenar, surrounded by demons. The cave is a maze with patrolling elites. Clear the area before engaging and be ready for adds. Do not attempt below level 52 solo without a group.", confidence = "high" },

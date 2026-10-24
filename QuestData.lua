@@ -5890,14 +5890,14 @@ addon.quests = {
     -- A Taste of Flame (Kill Bael'Gar)
     [4024] = { threat = "HIGH", reason = "Use the Altered Black Dragonflight Molt on his remains to capture the Fiery Essence. Bael'Gar is a level 54 elite fire giant inside Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo [citation:13].", confidence = "high" },
 
-    -- The Rise of the Machines (Horde - Blackrock Depths)
-    [4061] = { threat = "HIGH", reason = "Argelmach is a dungeon boss surrounded by elite golems. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
+    -- The Rise of the Machines (Horde - Burning Steppes, shard collection)
+    [4061] = { threat = "MEDIUM", reason = "Fighting golems and elementals in Burning Steppes exposes you to nearby hostile enemies. Pull one at a time and leave room to retreat.", confidence = "medium" },
 
-    -- The Rise of the Machines (Horde - Blackrock Depths)
-    [4062] = { threat = "HIGH", reason = "The quest leads deeper into Blackrock Depths past elite golems and Dark Iron dwarves. Full group required at level 52+.", confidence = "high" },
+    -- The Rise of the Machines (Horde - Badlands, sample delivery)
+    [4062] = { threat = "LOW", reason = "This is a delivery to Lotwil's camp in the Badlands with no required combat. Stay clear of hostile enemies along the route.", confidence = "high" },
 
-    -- The Rise of the Machines (Horde - Blackrock Depths)
-    [4063] = { threat = "HIGH", reason = "Return Argelmach's head to Lotwil in the Badlands. The dungeon combat requires a full group, but the turn-in itself is safe.", confidence = "high" },
+    -- The Rise of the Machines (Horde - Blackrock Depths, Argelmach and cores)
+    [4063] = { threat = "EXTREME", reason = "Dungeon quest. Argelmach and the constructs needed for the cores are inside Blackrock Depths among elite enemies. Bring a suitable dungeon group or skip on Hardcore.", confidence = "high" },
 
     -- KILL ON SIGHT: Dark Iron Dwarves (Horde - Blackrock Depths)
     [4081] = { threat = "HIGH", reason = "These are elite Dark Iron dwarves that patrol the dungeon in packs. This requires a full group of level 52+. The mobs hit hard and can chain-pull if you are not careful. Do not attempt solo.", confidence = "high" },
@@ -6110,7 +6110,7 @@ addon.quests = {
     [4294] = { threat = "MEDIUM", reason = "The mobs are levels 48-52 and can pull in groups. Clear the area before looting.", confidence = "medium" },
 
     -- Tablet of the Seven
-    [4296] = { threat = "LOW", reason = "Delivery step with no combat. The transcript is obtained from a tablet inside Uldaman; if you already have it, this is safe.", confidence = "high" },
+    [4296] = { threat = "MEDIUM", reason = "The tablet is in the Ruins of Thaurissan, among hostile golems. Clear nearby enemies before transcribing it and keep a retreat route.", confidence = "medium" },
 
     -- Food for Baby
     [4297] = { threat = "MEDIUM", reason = "Silvermane Stalkers are stealthed wolves in the Hinterlands that ambush from camouflage. They pull in pairs and have a bleed effect. Fight in open areas and check for prowling cats between pulls. Do not attempt below level 45 solo.", confidence = "high" },
@@ -6791,7 +6791,7 @@ addon.quests = {
     [5164] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
 
     -- Dousing the Flames of Protection
-    [5165] = { threat = "HIGH", reason = "Requires entering Shadow Hold in Felwood to douse four braziers, each guarded by level 52-56 demons and cultists. The cave is a maze with patrolling elites and no escape route deep inside. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
+    [5165] = { threat = "HIGH", reason = "Deep cave pulls and respawns in Shadow Hold can overwhelm a solo character and make retreat difficult. Clear toward each brazier with an exit route, recover between pulls, and bring help if you cannot control multiple enemies.", confidence = "medium" },
 
     -- Breastplate of the Chromatic Flight
     [5166] = { threat = "HIGH", reason = "Requires a Chromatic Carapace and 10 Brilliant Chromatic Scales from Upper Blackrock Spire, plus 10 Blood of Heroes and 10 Frayed Abomination Stitchings from high-level dungeons. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
@@ -6812,7 +6812,7 @@ addon.quests = {
     [5202] = { threat = "MEDIUM", reason = "The key is in Jaedenar, a demon-infested cave in Felwood, levels 50-54. The cave is a maze with patrolling elites and no escape route deep inside. Clear methodically and keep an exit path. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Rescue From Jaedenar
-    [5203] = { threat = "HIGH", reason = "Escort quest. Arko'narin must be protected through Shadow Hold in Felwood, which is filled with level 52-56 demons and cultists. The escort spawns waves of enemies, and Arko'narin can die. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
+    [5203] = { threat = "HIGH", reason = "Escort quest. Scripted demon attacks and a final elite can overlap with respawns, while Arko'narin may engage enemies before you recover. Clear ahead, save crowd control for the demon packs, and bring a group on Hardcore.", confidence = "medium" },
 
     -- Retribution of the Light
     [5204] = { threat = "HIGH", reason = "Rakaiah is a level 54 elite succubus in Jaedenar, surrounded by demons. The cave is a maze with patrolling elites. Clear the area before engaging and be ready for adds. Do not attempt below level 52 solo without a group.", confidence = "high" },
@@ -7655,8 +7655,8 @@ addon.quests = {
     -- Claim Rackmore's Treasure!
     [6161] = { threat = "MEDIUM", reason = "The keys and chest are in the Ruins of Rackmore in Desolace, patrolled by level 35-38 naga. The keys are held by named mobs, and the chest is guarded. Clear the area before looting and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
-    -- A Husband's Last Battle (Horde - Western Plaguelands)
-    [6162] = { threat = "HIGH", reason = "Varo'then is a powerful named mob with guards. He hits hard and has a fear effect. Clear the area before engaging and bring a group. Do not attempt below level 56 solo.", confidence = "high" },
+    -- A Husband's Last Battle (Horde - Felwood)
+    [6162] = { threat = "MEDIUM", reason = "Overlord Ror is in a hostile furbolg camp in Felwood, where nearby enemies can join the fight. Clear the approach and pull him away from other furbolgs.", confidence = "medium" },
 
     -- Ramstein
     [6163] = { threat = "HIGH", reason = "This is a dungeon quest that requires a full group of level 58+. Stratholme is one of the deadliest dungeons in Classic, and Ramstein is a powerful abomination who must be summoned by clearing the slaughterhouse of all abominations first. He hits hard and summons waves of Mindless Undead after he dies. Do not attempt solo.", confidence = "high" },

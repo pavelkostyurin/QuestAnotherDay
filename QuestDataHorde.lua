@@ -2115,13 +2115,13 @@ local quests = {
     [4021] = { threat = "HIGH", reason = "Killing centaurs triggers waves of spawns, culminating in Warlord Krom'zar, a powerful named centaur who hits hard and summons reinforcements. The fight escalates quickly and there is no safe retreat once the waves begin. Group required for the intended level range.", confidence = "medium" },
 
     -- The Rise of the Machines
-    [4061] = { threat = "HIGH", reason = "Argelmach is a dungeon boss surrounded by elite golems. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
+    [4061] = { threat = "MEDIUM", reason = "Fighting golems and elementals in Burning Steppes exposes you to nearby hostile enemies. Pull one at a time and leave room to retreat.", confidence = "medium" },
 
     -- The Rise of the Machines
-    [4062] = { threat = "HIGH", reason = "The quest leads deeper into Blackrock Depths past elite golems and Dark Iron dwarves. Full group required at level 52+.", confidence = "high" },
+    [4062] = { threat = "LOW", reason = "This is a delivery to Lotwil's camp in the Badlands with no required combat. Stay clear of hostile enemies along the route.", confidence = "high" },
 
     -- The Rise of the Machines
-    [4063] = { threat = "HIGH", reason = "Return Argelmach's head to Lotwil in the Badlands. The dungeon combat requires a full group, but the turn-in itself is safe.", confidence = "high" },
+    [4063] = { threat = "EXTREME", reason = "Dungeon quest. Argelmach and the constructs needed for the cores are inside Blackrock Depths among elite enemies. Bring a suitable dungeon group or skip on Hardcore.", confidence = "high" },
 
     -- KILL ON SIGHT: Dark Iron Dwarves
     [4081] = { threat = "HIGH", reason = "These are elite Dark Iron dwarves that patrol the dungeon in packs. This requires a full group of level 52+. The mobs hit hard and can chain-pull if you are not careful. Do not attempt solo.", confidence = "high" },
@@ -2721,7 +2721,7 @@ local quests = {
     [6148] = { threat = "HIGH", reason = "Demetria is a powerful caster surrounded by Scarlet Crusade guards. She hits extremely hard and has a fear effect. Clear the area before engaging and bring a full group of level 58+. Do not attempt solo.", confidence = "high" },
 
     -- A Husband's Last Battle
-    [6162] = { threat = "HIGH", reason = "Varo'then is a powerful named mob with guards. He hits hard and has a fear effect. Clear the area before engaging and bring a group. Do not attempt below level 56 solo.", confidence = "high" },
+    [6162] = { threat = "MEDIUM", reason = "Overlord Ror is in a hostile furbolg camp in Felwood, where nearby enemies can join the fight. Clear the approach and pull him away from other furbolgs.", confidence = "medium" },
 
     -- Ramstein
     [6163] = { threat = "HIGH", reason = "This is a dungeon quest that requires a full group of level 58+. Stratholme is one of the deadliest dungeons in Classic, and Ramstein is a powerful abomination who must be summoned by clearing the slaughterhouse of all abominations first. He hits hard and summons waves of Mindless Undead after he dies. Do not attempt solo.", confidence = "high" },
