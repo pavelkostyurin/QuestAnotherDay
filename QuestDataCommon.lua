@@ -1640,35 +1640,59 @@ addon.quests = {
     -- Corruptor's Scourgestones
     [5404] = { threat = "HIGH", reason = "Collect Corruptor’s Scourgestones from powerful Scourge targets while wearing the Argent Dawn Commission. These are dangerous high-level encounters, often in dungeons or raid areas; use a suitable group or trade rather than entering high-risk content alone.", confidence = "medium" },
 
+    -- Argent Dawn Commission
+    [5405] = { threat = "LOW", reason = "Receive the Argent Dawn Commission at a friendly hub and equip it to enable Scourgestone collection. This step adds no combat; use the ordinary safe route to the officer.", confidence = "medium" },
+
+    -- Corruptor's Scourgestones
+    [5406] = { threat = "HIGH", reason = "Trade a Corruptor’s Scourgestone for a Valor Token. The stone comes from a powerful Scourge leader; acquire it only through a suitable group or trade and do not attempt a high-level boss alone.", confidence = "medium" },
+
+    -- Invader's Scourgestones
+    [5407] = { threat = "MEDIUM", reason = "Trade an Invader’s Scourgestone for a Valor Token. You must defeat Scourge enemies in hostile areas; pull carefully and avoid allowing patrols to join.", confidence = "medium" },
+
+    -- Minion's Scourgestones
+    [5408] = { threat = "MEDIUM", reason = "Trade Minion’s Scourgestones for Valor Tokens after defeating Scourge enemies. The repeated outdoor fights take place in hostile areas; isolate pulls and recover between them.", confidence = "medium" },
+
     -- The Human, Ras Frostwhisper
-    [5461] = { threat = "MEDIUM", reason = "The Keepsake of Remembrance is in the ruins of Stromgarde, patrolled by level 35-40 Syndicate mobs. The ruins are dense with hostile mobs that pull in groups. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
+    [5461] = { threat = "MEDIUM", reason = "Search the ruins of Stromgarde for a Keepsake of Remembrance. Syndicate and other hostile creatures occupy the ruins and can add during the search; clear the route in stages and leave room to retreat.", confidence = "medium" },
 
     -- The Dying, Ras Frostwhisper
-    [5462] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Light's Hope Chapel is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5462] = { threat = "LOW", reason = "Show the keepsake to Leonid at Light’s Hope Chapel. This delivery and conversation adds no combat; travel by a familiar safe route through the Eastern Plaguelands.", confidence = "medium" },
 
     -- Menethil's Gift
     [5463] = { threat = "HIGH", reason = "Requires entering Stratholme to find Menethil's Gift and place the Keepsake on the unholy ground. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Menethil's Gift
-    [5464] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5464] = { threat = "LOW", reason = "Deliver the Soulbound Keepsake to Leonid at Light’s Hope Chapel. The hand-in adds no combat; avoid unnecessary pulls on the route through the Eastern Plaguelands.", confidence = "medium" },
 
     -- Soulbound Keepsake
-    [5465] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Caer Darrow is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5465] = { threat = "LOW", reason = "Show the keepsake to Magistrate Marduke at Caer Darrow. The interaction adds no combat if you have the item; travel through the Western Plaguelands with a clear route.", confidence = "medium" },
 
     -- The Lich, Ras Frostwhisper
     [5466] = { threat = "HIGH", reason = "Requires entering Scholomance to find Ras Frostwhisper, a level 60 elite lich. Using the Soulbound Keepsake on him reverts him to mortal form, and he must then be killed. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Bone Collector
-    [5501] = { threat = "LOW", reason = "Collection step with no combat beyond gathering Kodo Bones from the Kodo Graveyard in Desolace. The bones are on the ground and unguarded. Safe if you avoid the patrolling kodos. Do not attempt below level 35 solo.", confidence = "medium" },
+    [5501] = { threat = "LOW", reason = "Collect ten Kodo Bones from the Kodo Graveyard and deliver them to Bibbly at Kormek’s Hut. The bones are gathered from the ground; avoid wandering kodos and nearby hostile creatures.", confidence = "medium" },
+
+    -- Argent Dawn Commission
+    [5503] = { threat = "LOW", reason = "Receive the Argent Dawn Commission from the Alliance officer and equip it to enable Scourgestone collection. This step adds no combat.", confidence = "medium" },
+
+    -- Corruptor's Scourgestones
+    [5508] = { threat = "HIGH", reason = "Turn in a Corruptor’s Scourgestone for a Valor Token. Acquiring the stone requires defeating a powerful Scourge leader; use an appropriate group or trade rather than attempting a boss alone.", confidence = "medium" },
+
+    -- Invader's Scourgestones
+    [5509] = { threat = "MEDIUM", reason = "Turn in an Invader’s Scourgestone for a Valor Token. The token requires combat against Scourge in hostile areas; isolate enemies and avoid patrols.", confidence = "medium" },
+
+    -- Minion's Scourgestones
+    [5510] = { threat = "MEDIUM", reason = "Turn in Minion’s Scourgestones for Valor Tokens after fighting Scourge enemies. These repeated outdoor encounters take place in hostile areas; pull one enemy at a time.", confidence = "medium" },
 
     -- Mantles of the Dawn
-    [5513] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5513] = { threat = "LOW", reason = "Turn in ten Argent Dawn Valor Tokens to Quartermaster Breechlock at Light’s Hope Chapel. This exchange adds no combat.", confidence = "medium" },
 
     -- Krastinov's Bag of Horrors
     [5515] = { threat = "HIGH", reason = "Requires entering Scholomance to kill Jandice Barov, a level 60 elite boss, and recover Krastinov's Bag of Horrors. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Chromatic Mantle of the Dawn
-    [5517] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5517] = { threat = "LOW", reason = "Turn in 25 Argent Dawn Valor Tokens to Quartermaster Breechlock at Light’s Hope Chapel. This exchange adds no combat.", confidence = "medium" },
 
     -- The Gordok Ogre Suit
     [5518] = { threat = "MEDIUM", reason = "Requires entering Dire Maul's Gordok wing to reach Knot Thimblejack, who is chained inside. Dire Maul is a level 55-60 dungeon filled with elites. The materials are crafted. Do not attempt solo without a group already clearing the wing.", confidence = "medium" },
@@ -1680,7 +1704,7 @@ addon.quests = {
     [5526] = { threat = "HIGH", reason = "Requires entering Dire Maul's East wing to kill Alzzin the Wildshaper, a level 60 elite satyr, and acquire a Felvine Shard. Dire Maul is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- A Reliquary of Purity
-    [5527] = { threat = "HIGH", reason = "The Reliquary of Purity is in the ruins of Southwind Village in Silithus, patrolled by level 55-58 silithid and Twilight's Hammer cultists. The village is dense with mobs and has patrolling elites. Clear methodically and watch for adds. Do not attempt below level 55 solo without a group.", confidence = "high" },
+    [5527] = { threat = "MEDIUM", reason = "Search the ruins of Southwind Village in Silithus for a Reliquary of Purity. Hostile silithids and Twilight’s Hammer members can converge around the ruins; clear a route and preserve an exit.", confidence = "medium" },
 
     -- Plagued Hatchlings
     [5529] = { threat = "MEDIUM", reason = "Plagued Hatchlings are in the Eastern Plaguelands, levels 53-57. They pull in groups and can overwhelm solo players. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
@@ -1689,22 +1713,22 @@ addon.quests = {
     [5531] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
 
     -- Kim'jael's "Missing" Equipment
-    [5534] = { threat = "MEDIUM", reason = "The rune is in the Ruins of Eldarath in Azshara, patrolled by level 48-52 naga. The ruins are dense with mobs that pull in groups. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [5534] = { threat = "MEDIUM", reason = "Search the Ruins of Eldarath for the rune held by naga and return it to Kim’jael. Hostile enemies occupy the ruins; clear the approach and avoid pulling multiple defenders together.", confidence = "medium" },
 
     -- Spiritual Unrest
-    [5535] = { threat = "MEDIUM", reason = "Highborne Apparitions and Lichlings are levels 48-52 in Azshara, and they cast shadow magic. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [5535] = { threat = "MEDIUM", reason = "Kill Highborne Apparitions and Lichlings in Azshara. They can cast spells and nearby enemies may join; pull one group at a time and recover between fights.", confidence = "medium" },
 
     -- A Land Filled with Hatred
-    [5536] = { threat = "MEDIUM", reason = "Haldarr satyrs are levels 45-50 on the border of Ashenvale and Azshara. They cast shadow magic and pull in groups. The tricksters can mind-control. Clear methodically and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
+    [5536] = { threat = "MEDIUM", reason = "Kill Haldarr satyrs and tricksters near the Azshara border. The camp contains spellcasters and several enemy types; pull from the edge and be ready to interrupt or break away from casts.", confidence = "medium" },
 
     -- Demon Dogs
-    [5542] = { threat = "MEDIUM", reason = "Plaguehound Runts, Plaguehounds, and Frenzied Plaguehounds are levels 53-57 in the Eastern Plaguelands. They are aggressive and pull in packs. The frenzied variants hit harder and have a disease effect. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5542] = { threat = "MEDIUM", reason = "Kill plaguehound runts, plaguehounds and frenzied plaguehounds in the Eastern Plaguelands. Hostile beasts can pull together, so work from a cleared edge and leave room to retreat.", confidence = "medium" },
 
     -- Blood Tinged Skies
-    [5543] = { threat = "MEDIUM", reason = "Plaguebats are levels 53-57 in the Eastern Plaguelands. They fly fast and pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5543] = { threat = "MEDIUM", reason = "Kill plaguebats in the Eastern Plaguelands. They are hostile flying enemies and can join other nearby Scourge; pull into cleared ground and watch for patrols.", confidence = "medium" },
 
     -- Carrion Grubbage
-    [5544] = { threat = "MEDIUM", reason = "Carrion Grubs and Devourers are levels 54-58 in the Eastern Plaguelands. They are aggressive and the drop rate for Slabs of Carrion Worm Meat is moderate. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5544] = { threat = "MEDIUM", reason = "Kill carrion grubs and devourers and collect their meat in the Eastern Plaguelands. Nearby enemies can add during repeated fights; clear space and recover between pulls.", confidence = "medium" },
 
     -- Kodo Roundup
     [5561] = { threat = "MEDIUM", reason = "Requires using the Kodo Kombobulator to tame and escort five Kodos from the Kodo Graveyard in Desolace. The kodos are level 35-40 and are neutral until provoked. The graveyard is patrolled by level 35-40 kodos and scavengers. Clear the area before taming and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },

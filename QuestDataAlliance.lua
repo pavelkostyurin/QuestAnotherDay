@@ -3248,26 +3248,29 @@ local quests = {
     -- The Last Barov
     [5344] = { threat = "HIGH", reason = "Assassinate Alexi Barov at the Bulwark and bring his head to Weldon. The target is in Horde territory and may be protected by guards or players; scout the approach, avoid fighting several defenders at once, and leave if the camp is active.", confidence = "medium" },
 
+    -- The Key to Scholomance
+    [5505] = { threat = "LOW", reason = "Turn in Araj’s Scarab to Alchemist Arbington in the Western Plaguelands to receive the Skeleton Key. This step is a safe hand-in once you have the scarab; Araj’s encounter belongs to the preceding acquisition.", confidence = "medium" },
+
     -- Mantles of the Dawn
-    [5507] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5507] = { threat = "LOW", reason = "Turn in ten Argent Dawn Valor Tokens to Quartermaster Lightspark at Chillwind Camp. The exchange adds no combat; use a clear route through the Western Plaguelands.", confidence = "medium" },
 
     -- Chromatic Mantle of the Dawn
-    [5521] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5521] = { threat = "LOW", reason = "Turn in 25 Argent Dawn Valor Tokens to Quartermaster Lightspark at Chillwind Camp. This exchange adds no combat; avoid unnecessary pulls on the route.", confidence = "medium" },
 
     -- Scholomance
-    [5533] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Point is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5533] = { threat = "LOW", reason = "Speak with Alchemist Arbington at Chillwind Point. This breadcrumb is dialogue and adds no combat; travel by a familiar route through the Western Plaguelands.", confidence = "medium" },
 
     -- Skeletal Fragments
-    [5537] = { threat = "MEDIUM", reason = "Skeletal Fragments drop from level 55-58 skeletons in the Western Plaguelands. The skeletons are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [5537] = { threat = "MEDIUM", reason = "Collect Skeletal Fragments from skeletons in the Western Plaguelands. Repeated kills in a Scourge area can draw nearby enemies; clear an area and avoid letting patrols join.", confidence = "medium" },
 
     -- Mold Rhymes With...
-    [5538] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5538] = { threat = "LOW", reason = "Deliver the Imbued Skeletal Fragments and 15 gold to Krinkle Goodsteel in Gadgetzan. This is a city hand-in and adds no combat if you have the items.", confidence = "medium" },
 
     -- Ammo for Rumbleshot
-    [5541] = { threat = "LOW", reason = "Delivery step with no combat. The ammo is in Dun Morogh, which is safe for low-level players. Safe if you stay on the road.", confidence = "high" },
+    [5541] = { threat = "LOW", reason = "Return Rumbleshot’s Ammo to Hegnar in Dun Morogh. This is a delivery and adds no combat if you have the item; avoid unnecessary pulls on the route.", confidence = "medium" },
 
     -- A Bundle of Trouble
-    [5545] = { threat = "LOW", reason = "Collection step with no combat beyond gathering wood. The bundles are in Elwynn Forest, guarded by low-level mobs. Safe if you avoid the camps. Do not attempt below level 8 solo.", confidence = "high" },
+    [5545] = { threat = "LOW", reason = "Collect eight bundles of wood in Elwynn Forest and deliver them to Raelen at Eastvale Logging Camp. The gathering objective is low risk; avoid nearby hostile creatures while moving between bundles.", confidence = "medium" },
 
     -- Garments of the Moon
     [5621] = { threat = "LOW", reason = "Priest class quest. Heal Sentinel Shaya with Lesser Heal (Rank 2) and grant Power Word: Fortitude. This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },

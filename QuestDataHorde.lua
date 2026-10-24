@@ -2436,31 +2436,31 @@ local quests = {
     [5386] = { threat = "MEDIUM", reason = "After speaking with Jinar’Zillen, bring two Bloodbelly fish to Nataka Longhorn. Fishing near hostile waters can leave you exposed to nearby creatures; choose a cleared pool and stop if enemies approach.", confidence = "medium" },
 
     -- Fish in a Bucket
-    [5421] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5421] = { threat = "MEDIUM", reason = "Open shellfish traps below the Shadowprey Village docks and bring five shellfish to Jinar’Zillen. You are exposed underwater, and traps can spawn hostile crawlers; clear nearby enemies and keep a safe way back to shore.", confidence = "medium" },
 
     -- Lazy Peons
-    [5441] = { threat = "LOW", reason = "The peons are sleeping under trees around the valley. No combat required. Just target them when they fall asleep and use the blackjack. This is one of the most memorable and safest quests in the game.", confidence = "high" },
+    [5441] = { threat = "LOW", reason = "Use the Foreman’s Blackjack on five sleeping peons in the Valley of Trials. This is an interaction with no required combat; avoid nearby hostile creatures while travelling between them.", confidence = "medium" },
 
     -- Gordo's Task
-    [5481] = { threat = "MEDIUM", reason = "The Doom Weed is guarded by level 8-10 undead mobs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 8 solo.", confidence = "medium" },
+    [5481] = { threat = "LOW", reason = "Collect three Gloom Weed and deliver it to Junior Apothecary Holland in Brill. This is a short gathering and hand-in step; avoid nearby undead while picking the plants.", confidence = "medium" },
 
     -- Doom Weed
-    [5482] = { threat = "LOW", reason = "The weed is found in the open and can be gathered without combat if you avoid the nearby mobs. Safe if you stay alert.", confidence = "high" },
+    [5482] = { threat = "LOW", reason = "Collect ten Doom Weed and return them to Junior Apothecary Holland. The plants can be gathered without combat if you avoid nearby undead and choose a clear route.", confidence = "medium" },
 
     -- A Warden of the Horde
-    [5502] = { threat = "LOW", reason = "This is a dialogue and reward step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5502] = { threat = "LOW", reason = "Return the Orcish Orphan Whistle to Orphan Matron Battlewail in Orgrimmar. This is a city turn-in and adds no combat.", confidence = "medium" },
 
     -- Mantles of the Dawn
-    [5504] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5504] = { threat = "LOW", reason = "Turn in ten Argent Dawn Valor Tokens to Quartermaster Hasana at the Bulwark. The reputation exchange adds no combat; travel safely through the Western Plaguelands.", confidence = "medium" },
 
     -- The Key to Scholomance
-    [5511] = { threat = "HIGH", reason = "Rattlegore is a level 58-60 elite boss inside Scholomance, and the Blood of Innocents drops from elite Scarlet Crusade mobs in the Western Plaguelands. This chain requires a full dungeon group and significant travel through high-level zones. Do not attempt without a group of level 58+.", confidence = "high" },
+    [5511] = { threat = "LOW", reason = "Turn in the completed materials to Apothecary Dithers to receive the Skeleton Key. This final hand-in adds no combat; the earlier quest chain and its item acquisition are separate steps.", confidence = "medium" },
 
     -- Mold Rhymes With...
-    [5514] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5514] = { threat = "LOW", reason = "Deliver the Imbued Skeletal Fragments and 15 gold to Krinkle Goodsteel in Gadgetzan. This is a city hand-in and adds no combat if you have the items.", confidence = "medium" },
 
     -- Chromatic Mantle of the Dawn
-    [5524] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5524] = { threat = "LOW", reason = "Turn in 25 Argent Dawn Valor Tokens to Quartermaster Hasana at the Bulwark. This exchange adds no combat; avoid unnecessary pulls on the route.", confidence = "medium" },
 
     -- Portals of the Legion
     [5581] = { threat = "HIGH", reason = "The quest requires you to kill demons at the Tainted Scar and close their portals. The demons are level 55-58 elites, including felhounds, doomguards, and infernals. This is an Elite quest by design. Bring a full group of level 55+. Do not attempt solo.", confidence = "high" },
