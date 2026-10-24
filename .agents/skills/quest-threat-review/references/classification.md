@@ -40,11 +40,15 @@ evidence and leave an existing warning intact.
 | Value | Evidence quality |
 | --- | --- |
 | `high` | Multiple specific Era sources agree and mechanics are clear; researched reviews include useful independent corroboration. |
-| `medium` | Useful but limited or conflicting evidence, or supported only within Wowhead. |
-| `low` | Sparse, indirect, class-specific, or difficult-to-date evidence supporting a tentative conclusion. |
+| `medium` | Clear catalog context plus coherent existing knowledge with no unresolved material uncertainty, or useful but limited external evidence. |
+| `low` | Tentative recollection or inference, sparse evidence, or class-specific or difficult-to-date reports supporting a tentative conclusion. |
 
-Confidence describes evidence quality, not severity. Prefer insufficient
-evidence over an unsupported classification.
+Confidence describes support for the assessment, not severity. Model knowledge
+and inference from descriptions alone are at most `medium`; familiarity is not
+corroboration. `high` requires traceable sources supporting the important danger
+or safety claims. A routine quest can receive a completed knowledge-based
+assessment without retrieval. Resolve uncertainty that could change the tier
+or advice before finalizing; prefer insufficient evidence over guessing.
 
 ## Reason structure
 
@@ -69,7 +73,7 @@ These are illustrative wording patterns, not researched facts or real IDs:
 ```lua
 [questId] = { threat = "EXTREME", reason = "Elite escort quest. The defense event spawns waves of elites that overwhelm a solo character at the intended level. Bring a suitable group or skip on Hardcore.", confidence = "high" },
 [questId] = { threat = "MEDIUM", reason = "Dense camps and patrols can turn a single pull into several enemies. Clear an escape route and pull enemies away from the camp.", confidence = "medium" },
-[questId] = { threat = "LOW", reason = "No unusual combat hazard is documented along the normal route. Stay on the road and avoid nearby hostile camps.", confidence = "medium" },
+[questId] = { threat = "LOW", reason = "The described route calls for standard combat precautions. Stay on the road and avoid nearby hostile camps.", confidence = "medium" },
 ```
 
 ## Availability

@@ -3,277 +3,277 @@ local _, addon = ...
 
 addon.quests = {
     -- Sharptalon's Claw (Ashenvale Hunt)
-    [2] = { threat = "MEDIUM", reason = "It is not an elite, but it patrols a wide area and hits hard for its level. Pull it to a clear spot and be ready to kite if things go wrong.", confidence = "medium" },
+    [2] = { threat = "LOW", reason = "This item-started step adds no new fight after the claw has been obtained. Use the normal route to the turn-in and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Jitters' Growling Gut
-    [5] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [5] = { threat = "LOW", reason = "The conversation adds no combat encounter. Stay within the settlement and avoid hostile patrols on the way.", confidence = "medium" },
 
     -- Bounty on Garrick Padfoot
-    [6] = { threat = "LOW", reason = "Garrick is level 5 and has one or two guards. He is a straightforward solo kill for a level 4-5 character. Watch for his guards if they are present. This quest was marked obsolete in later versions but is available in Classic Era.", confidence = "high" },
+    [6] = { threat = "LOW", reason = "Nearby bandits can join the named enemy if you rush into the camp. Clear a small approach and pull away from other enemies.", confidence = "medium" },
 
     -- Kobold Camp Cleanup
-    [7] = { threat = "LOW", reason = "The vermin are level 1-2 and are the easiest mobs in the game. No risk solo for any level 1+ character.", confidence = "high" },
+    [7] = { threat = "LOW", reason = "These starting-area enemies present ordinary single-target combat. Fight one at a time and recover health before another pull.", confidence = "medium" },
 
     -- A Rogue's Deal (Undead starter chain)
-    [8] = { threat = "LOW", reason = "The mobs are low-level and manageable solo. Watch for the occasional wandering mob.", confidence = "high" },
+    [8] = { threat = "LOW", reason = "This delivery adds no new fight. Follow the established route to the inn and avoid hostile camps along the way.", confidence = "medium" },
 
     -- The Killing Fields
-    [9] = { threat = "MEDIUM", reason = "The Watchers are levels 11-13 and are scattered across multiple fields. The main risk is the level 20 elite Golem that patrols one of the fields. If you accidentally aggro it, you will die. Stick to the fields away from the Golem and pull Watchers one at a time.", confidence = "high" },
+    [9] = { threat = "MEDIUM", reason = "Other field enemies and roaming patrols can join a harvest golem fight. Pull into cleared ground and avoid any patrol you cannot safely handle.", confidence = "medium" },
 
     -- The Scrimshank Redemption
-    [10] = { threat = "HIGH", reason = "The chasm is filled with level 46-50 silithid bugs, including Swarmers that spawn Parasites when killed. The tunnels are a maze and mobs respawn quickly. A level 48 prot paladin soloed it, but a level 41 druid died multiple times. Do not attempt below level 45 without a group or significant preparation.", confidence = "high" },
+    [10] = { threat = "HIGH", reason = "The silithid tunnels restrict escape, and patrols or extra insects can turn a pull into several enemies. Clear the route deliberately, preserve an exit, and bring help if you cannot control adds.", confidence = "medium" },
 
     -- Riverpaw Gnoll Bounty
-    [11] = { threat = "LOW", reason = "The gnolls are levels 7-9 and are found south of the guard tower and near Stone Cairn Lake. The drop rate is low, so expect to kill 15-20 gnolls. Pull one at a time and watch for other gnolls in the camps.", confidence = "high" },
+    [11] = { threat = "LOW", reason = "Gnolls near camp edges can be fought singly, but nearby enemies can join a careless pull. Choose isolated targets and keep away from stronger named enemies.", confidence = "medium" },
 
     -- The People's Militia (Step 1)
-    [12] = { threat = "LOW", reason = "The mobs are levels 10-12 and are found in the fields and along the coast. Pull singles and avoid the camps where mobs are packed together.", confidence = "high" },
+    [12] = { threat = "MEDIUM", reason = "Packed Defias camps make extra pulls and blocked retreats a concern. Pull from the edges into cleared ground and stop when respawns close the route behind you.", confidence = "medium" },
 
     -- The People's Militia (Step 2)
-    [13] = { threat = "LOW", reason = "The mobs are levels 13-15 and are packed in camps. Pull from the edges and watch for patrolling mobs.", confidence = "high" },
+    [13] = { threat = "HIGH", reason = "Defias Pillagers can deal heavy spell damage while nearby enemies join the fight. Isolate casters, interrupt or break line of sight, and bring help if you cannot control their casting.", confidence = "medium" },
 
     -- The People's Militia (Step 3)
-    [14] = { threat = "MEDIUM", reason = "The mobs are levels 15-17 and are packed in the hills. Pathstalkers are stealthed and can ambush you. Clear methodically and watch for adds.", confidence = "high" },
+    [14] = { threat = "MEDIUM", reason = "Hidden enemies and crowded Defias camps can turn an approach into multiple pulls. Clear cautiously and keep a retreat route away from unopened camps.", confidence = "medium" },
 
     -- Investigate Echo Ridge
-    [15] = { threat = "LOW", reason = "The workers are levels 2-3 and there is no proximity aggro. Easy solo for any level 2+ character.", confidence = "high" },
+    [15] = { threat = "LOW", reason = "The early kobold area calls for ordinary single pulls. Recover between fights and avoid collecting several enemies at once.", confidence = "medium" },
 
     -- Uldaman Reagent Run
     [17] = { threat = "HIGH", reason = "The caps are found in clusters inside and outside the instance, guarded by level 35-40 elite troggs and stone mobs. The clusters can spew poison spores when jostled. This requires a full group of level 38+ or careful soloing of the exterior. Do not attempt below level 38 without a group.", confidence = "high" },
 
     -- Brotherhood of Thieves
-    [18] = { threat = "LOW", reason = "The bandanas drop from Defias Thugs in the Northshire Vineyards. The thugs are level 3-4 and are easy solo for a level 3+ character.", confidence = "high" },
+    [18] = { threat = "LOW", reason = "Bandits in the vineyard can add to a fight if you move between groups carelessly. Pull isolated enemies and recover before approaching another group.", confidence = "medium" },
 
     -- Tharil'zun
-    [19] = { threat = "EXTREME", reason = "Tharil'zun has two melee bodyguards and a shadowcaller bodyguard, and he is inside Stonewatch Keep surrounded by additional orcs. A level 30 paladin could not solo it. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [19] = { threat = "EXTREME", reason = "Elite quest. The named orc and surrounding guards are not a reasonable ordinary solo fight at the intended level. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Blackrock Menace
-    [20] = { threat = "MEDIUM", reason = "The axes drop from Blackrock orcs in the Redridge Mountains. The orcs are levels 20-24 and are packed in camps. Pull singles and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [20] = { threat = "MEDIUM", reason = "Orc camps contain close enemies that can join a pull or block retreat. Work from the edges and avoid advancing into an uncleared camp.", confidence = "medium" },
 
     -- Skirmish at Echo Ridge
-    [21] = { threat = "LOW", reason = "The laborers are levels 4-5 and are slightly tougher than the Workers from [15]. Manageable solo for a level 4+ character. Pull singles.", confidence = "high" },
+    [21] = { threat = "LOW", reason = "Kobolds near the mine can join adjacent fights if you push too far in. Pull singly and keep the cleared entrance available for retreat.", confidence = "medium" },
 
     -- Goretusk Liver Pie
-    [22] = { threat = "LOW", reason = "The boars are levels 11-13 and are scattered across the zone. The drop rate is moderate. Pull singles and watch for other mobs in the fields.", confidence = "high" },
+    [22] = { threat = "LOW", reason = "Isolated boars can be handled with ordinary combat precautions. Check nearby patrols before pulling and recover health between fights.", confidence = "medium" },
 
     -- Ursangous's Paw (Ashenvale Hunt)
-    [23] = { threat = "LOW", reason = "It is not an elite and is a straightforward solo kill for its level. It roams among other bears, so clear a small area first.", confidence = "medium" },
+    [23] = { threat = "LOW", reason = "The item-started turn-in adds no new combat after the paw has been obtained. Follow the normal route and avoid unnecessary encounters.", confidence = "medium" },
 
     -- Shadumbra's Head (Ashenvale Hunt)
-    [24] = { threat = "LOW", reason = "It is not an elite and is considered easy for its level, though its fast attacks can be tricky for casters. Keep your distance and kite if needed.", confidence = "medium" },
+    [24] = { threat = "LOW", reason = "The item-started turn-in adds no new combat after the head has been obtained. Use the normal route and avoid unnecessary encounters.", confidence = "medium" },
 
     -- Stonetalon Standstill (Combat, Stonetalon)
-    [25] = { threat = "MEDIUM", reason = "The area is contested, and Alliance patrols can add an extra layer of danger. Stick to the Horde camp and pull mobs one at a time.", confidence = "medium" },
+    [25] = { threat = "MEDIUM", reason = "Water-side pulls and nearby hostile camps can complicate retreat. Fight from cleared ground where possible and keep away from outpost guards.", confidence = "medium" },
 
     -- A Lesson to Learn (Druid)
-    [26] = { threat = "LOW", reason = "This is a dialogue step for the druid aquatic form quest chain. No combat required. Safe if you stay on the road. This quest was marked obsolete in later versions but is the authentic Classic Era version.", confidence = "high" },
+    [26] = { threat = "LOW", reason = "The conversation does not require a new fight. Use the druid travel option and stay within the friendly settlement.", confidence = "medium" },
 
     -- A Lesson to Learn (Tauren-only, combat)
-    [27] = { threat = "LOW", reason = "The mobs are low-level and manageable solo. Standard starting zone risk.", confidence = "high" },
+    [27] = { threat = "LOW", reason = "The conversation does not require a new fight. Use the druid travel option and stay within the friendly settlement.", confidence = "medium" },
 
     -- Trial of the Lake (Tauren-only, druid)
-    [28] = { threat = "LOW", reason = "The journey is safe, and there is no required combat. Watch for wandering wildlife near the water.", confidence = "medium" },
+    [28] = { threat = "MEDIUM", reason = "Underwater searching can exhaust your breath before you reach the surface. Surface early, plan the swim back, and avoid fighting while low on breath.", confidence = "medium" },
 
     -- Trial of the Lake (Druid)
-    [29] = { threat = "MEDIUM", reason = "The bauble decays rapidly, and you have a 30-minute timer. The quest is a swimming challenge, not a combat challenge. The main risk is drowning if you get lost or delayed. Safe for any level 16+ druid who can swim.", confidence = "high" },
+    [29] = { threat = "MEDIUM", reason = "Underwater searching can exhaust your breath before you reach the surface. Surface early, plan the swim back, and avoid fighting while low on breath.", confidence = "medium" },
 
     -- Trial of the Sea Lion (Tauren-only, druid)
-    [30] = { threat = "MEDIUM", reason = "The area is contested and patrolled by murlocs and other hostile mobs. Bring water breathing if possible and stick to the surface when traveling.", confidence = "medium" },
+    [30] = { threat = "MEDIUM", reason = "Underwater collection combines breath management with hostile wildlife along the approaches. Check the return path before diving and surface well before your breath runs out.", confidence = "medium" },
 
     -- Aquatic Form (Druid)
-    [31] = { threat = "MEDIUM", reason = "The travel is the main risk. Avoid main roads where Alliance patrols are common.", confidence = "medium" },
+    [31] = { threat = "LOW", reason = "This return step adds no new combat. Use a learned flight route or familiar roads and avoid unnecessary detours.", confidence = "medium" },
 
     -- Rise of the Silithid (Combat chain, Horde)
-    [32] = { threat = "MEDIUM", reason = "The insects are levels 30-35 and often stand in small groups. They have a knockback and can chain-pull. Fight in open terrain where you can retreat.", confidence = "medium" },
+    [32] = { threat = "LOW", reason = "The report delivery does not require another insect fight. Use a learned flight route or normal roads to the city.", confidence = "medium" },
 
     -- Wolves Across the Border
-    [33] = { threat = "LOW", reason = "The meat drops from timber wolves and young wolves in Northshire. The wolves are level 1-2 and are easy solo. Standard starting zone risk.", confidence = "high" },
+    [33] = { threat = "LOW", reason = "Starting-area wolves call for ordinary single-target combat. Avoid pulling several together and recover before the next fight.", confidence = "medium" },
 
     -- An Unwelcome Guest
-    [34] = { threat = "MEDIUM", reason = "Bellygrub is a level 24 boar who roams the fields southwest of Lakeshire. He hits hard for his level and can charge. Clear the area before engaging and be ready to kite. Do not attempt below level 20 solo.", confidence = "medium" },
+    [34] = { threat = "MEDIUM", reason = "The named boar can hit hard while other field enemies join the fight. Clear an open fighting area and keep a retreat path before engaging.", confidence = "medium" },
 
     -- Further Concerns
-    [35] = { threat = "LOW", reason = "This is a dialogue step with no combat. Marshal Dughan offers a charger to speed your travel. Safe if you stay on the road.", confidence = "high" },
+    [35] = { threat = "LOW", reason = "This conversation step adds no new combat. Follow the road and avoid hostile camps along the route.", confidence = "medium" },
 
     -- Westfall Stew (Delivery)
-    [36] = { threat = "LOW", reason = "This is a pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [36] = { threat = "LOW", reason = "The recipe delivery adds no new combat. Stay on the normal route and avoid crossing through occupied farm buildings.", confidence = "medium" },
 
     -- Find the Lost Guards
-    [37] = { threat = "LOW", reason = "You must find Malakai's body first, then Rolf's. The area is patrolled by low-level murlocs and wildlife. Soloed easily at level 8-10 with careful pulling.", confidence = "high" },
+    [37] = { threat = "LOW", reason = "Murlocs and wildlife near the river can join an incautious approach. Stay out of the main camp and clear only the enemies blocking access.", confidence = "medium" },
 
     -- Westfall Stew (Collection)
-    [38] = { threat = "LOW", reason = "The mobs are levels 11-14 in Westfall. The drop rates are moderate. Pull singles and watch for other mobs in the fields and along the coast.", confidence = "high" },
+    [38] = { threat = "MEDIUM", reason = "Coastal murlocs and nearby packs can turn ingredient gathering into multiple pulls. Choose isolated targets and retreat through cleared ground.", confidence = "medium" },
 
     -- Deliver Thomas' Report
-    [39] = { threat = "LOW", reason = "This is a pure travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [39] = { threat = "LOW", reason = "The report delivery adds no new combat. Use the road and avoid shortcuts through hostile camps.", confidence = "medium" },
 
     -- A Fishy Peril
-    [40] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [40] = { threat = "LOW", reason = "This conversation takes place within the settlement and adds no fight. Avoid unnecessary excursions into nearby hostile areas.", confidence = "medium" },
 
     -- Discover Rolf's Fate
-    [45] = { threat = "MEDIUM", reason = "The village is at Stone Cairn Lake and is filled with level 8-10 murlocs. The murlocs pull in groups and flee at low health. Clear the area before looting the corpse. Do not attempt below level 8 solo.", confidence = "medium" },
+    [45] = { threat = "MEDIUM", reason = "The corpse lies in a murloc camp where close enemies can join a fight. Clear the approach and retreat path before interacting.", confidence = "medium" },
 
     -- Bounty on Murlocs
-    [46] = { threat = "MEDIUM", reason = "The fins drop from murlocs at Stone Cairn Lake and the southern stream fork. The murlocs are levels 8-10 and pull in groups. Clear methodically and watch for fleeing mobs that bring back friends.", confidence = "medium" },
+    [46] = { threat = "MEDIUM", reason = "Closely spaced murlocs can bring additional enemies into a pull. Fight from the edges and finish fleeing enemies before they reach another group.", confidence = "medium" },
 
     -- Gold Dust Exchange
-    [47] = { threat = "LOW", reason = "The dust drops from kobolds in the Fargodeep Mine and around the Jasperlode Mine. The kobolds are levels 4-8 and are packed in the mines. Pull singles and watch for respawns in the tunnels.", confidence = "high" },
+    [47] = { threat = "LOW", reason = "Kobold tunnels add crowding and respawn risk to otherwise ordinary combat. Prefer isolated targets and keep the entrance clear if you enter a mine.", confidence = "medium" },
 
     -- Sweet Amber (Chain Step 1)
-    [48] = { threat = "LOW", reason = "He is located in the Dagger Hills at approximately 45, 80, behind Moonbrook. No combat required, but the journey passes through Defias territory. Safe if you avoid the camps.", confidence = "high" },
+    [48] = { threat = "MEDIUM", reason = "The spring lies behind hostile naga in Stranglethorn, so a simple-looking pickup can require several fights. Clear a retreat route and approach without running through occupied packs.", confidence = "medium" },
 
     -- Sweet Amber (Chain Step 2)
-    [49] = { threat = "LOW", reason = "These are vendor-purchased items. No combat required. Safe if you stay on the road.", confidence = "high" },
+    [49] = { threat = "MEDIUM", reason = "The sacks are world pickups in hostile areas across several zones. Clear access to each container and avoid rushing through occupied camps.", confidence = "medium" },
 
     -- Sweet Amber (Chain Step 3)
-    [50] = { threat = "LOW", reason = "Truesilver is mined or purchased from the auction house. No combat required beyond gathering the ore. Safe if you avoid the mob camps while mining.", confidence = "high" },
+    [50] = { threat = "LOW", reason = "A purchased bar avoids mining trips through hostile areas. Obtain it through a safe trade route and turn it in without unnecessary combat.", confidence = "medium" },
 
     -- Sweet Amber (Chain Step 4)
-    [51] = { threat = "LOW", reason = "The branch is found on the ground near a tree in Westfall. No combat required. Safe if you avoid the Defias camps.", confidence = "high" },
+    [51] = { threat = "MEDIUM", reason = "The branch comes from fighting Cursed Sycamores in Feralas, not a loose item in Westfall. Pull one tree enemy at a time into cleared ground.", confidence = "medium" },
 
     -- Protect the Frontier
-    [52] = { threat = "LOW", reason = "The mobs are levels 6-8 and are scattered across the forest. Bears are often surrounded by grey wolves, so pull carefully to avoid adds. Manageable solo for a level 7+ character.", confidence = "high" },
+    [52] = { threat = "LOW", reason = "Wolves and bears can usually be fought as isolated outdoor targets. Check nearby patrols and recover fully before pulling another enemy.", confidence = "medium" },
 
     -- Sweet Amber (Chain Step 5)
-    [53] = { threat = "LOW", reason = "The charred oak is found at the burned-out farmstead in Westfall. No combat required. Safe if you avoid the Defias camps near the farmstead.", confidence = "high" },
+    [53] = { threat = "LOW", reason = "The pickup is in Searing Gorge, where surrounding enemies make careless travel dangerous. Follow the road, check the approach, and avoid unnecessary combat near the tree.", confidence = "medium" },
 
     -- Report to Goldshire
-    [54] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road from Northshire.", confidence = "high" },
+    [54] = { threat = "LOW", reason = "This document delivery adds no combat encounter. Follow the road rather than cutting through hostile groups.", confidence = "medium" },
 
     -- Morbent Fel
-    [55] = { threat = "EXTREME", reason = "Morbent Fel is a level 32 elite skeleton in the house atop the hill east of Raven Hill cemetery. He is surrounded by elite undead and hits extremely hard. The provided item removes his protective magics, but he still kills solo players at the intended level. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [55] = { threat = "EXTREME", reason = "Elite quest. The protected enemy and surrounding undead are a group encounter at the intended level. Use the supplied countermeasure with a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- The Night Watch (Step 1)
-    [56] = { threat = "LOW", reason = "The skeletons are levels 18-20 and are scattered around the cemetery. Manageable solo for a level 18+ character. Pull singles and watch for patrolling mobs.", confidence = "high" },
+    [56] = { threat = "MEDIUM", reason = "Skeleton casters and nearby undead can combine into a difficult pull in the cemetery. Pull away from other graves and keep a clear route out.", confidence = "medium" },
 
     -- The Night Watch (Step 2)
-    [57] = { threat = "LOW", reason = "The skeletons are levels 22-24 and are packed in the cemetery. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Do not attempt below level 22 solo.", confidence = "high" },
+    [57] = { threat = "MEDIUM", reason = "Crowded cemetery pulls and dangerous roaming undead can cut off retreat. Work along the edges and stop if a stronger patrol enters the area.", confidence = "medium" },
 
     -- The Night Watch (Step 3)
-    [58] = { threat = "MEDIUM", reason = "The Plague Spreaders are levels 24-26 and are packed inside the mausoleum. The building is tight and the mobs pull in groups. The name is misleading; they are not spreaders of disease, just skeletons. Clear methodically from the entrance and keep an escape route. Do not attempt below level 24 solo.", confidence = "high" },
+    [58] = { threat = "MEDIUM", reason = "The mausoleum confines movement and can leave enemies respawning behind you. Clear methodically from the entrance and turn back before the exit becomes blocked.", confidence = "medium" },
 
     -- Cloth and Leather Armor
-    [59] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [59] = { threat = "LOW", reason = "The marker exchange adds no new fight. Follow the road to the friendly camp and avoid hostile groups along the way.", confidence = "medium" },
 
     -- Kobold Candles
-    [60] = { threat = "LOW", reason = "The candles drop from kobolds in the Fargodeep and Jasperlode mines. The kobolds are levels 4-8 and are packed in the mines. Pull singles and watch for respawns in the tunnels.", confidence = "high" },
+    [60] = { threat = "LOW", reason = "Kobold mines have crowded passages and enemies can respawn behind you. Prefer isolated targets and keep a cleared exit if you enter the tunnels.", confidence = "medium" },
 
     -- Shipment to Stormwind
-    [61] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [61] = { threat = "LOW", reason = "The city delivery does not require a new fight. Travel by the normal road and avoid hostile detours.", confidence = "medium" },
 
     -- The Fargodeep Mine
-    [62] = { threat = "LOW", reason = "The mine is filled with level 4-8 kobolds. You only need to walk through about half the mine to complete the exploration. A level 4 priest can do this by running past mobs and resurrecting at the spirit healer, but this is not viable on Hardcore. Pull methodically and clear the entrance. Do not attempt below level 5 without caution.", confidence = "high" },
+    [62] = { threat = "MEDIUM", reason = "Narrow mine passages and respawns can trap you behind fresh enemies. Clear inward carefully and return as soon as the exploration completes.", confidence = "medium" },
 
     -- Call of Water (Shaman totem)
-    [63] = { threat = "MEDIUM", reason = "Involves combat and travel to a water source guarded by hostile mobs. The mobs are manageable for the level, but the journey through contested territory adds risk.", confidence = "medium" },
+    [63] = { threat = "MEDIUM", reason = "The manifestation fight takes place near other hostile enemies on the coast. Clear the area before starting and preserve health for the required combat.", confidence = "medium" },
 
     -- The Forgotten Heirloom
-    [64] = { threat = "LOW", reason = "The farmhouse is guarded by level 10-12 Defias mobs. Clear the outside before entering and watch for mobs inside the house. Do not attempt below level 10 solo.", confidence = "medium" },
+    [64] = { threat = "HIGH", reason = "The farmhouse guards can pull together, including an enemy stronger than the surrounding low-level bandits. Bring help or a reliable control plan before entering the enclosed room.", confidence = "medium" },
 
     -- The Defias Brotherhood (Chain Start)
-    [65] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road. The journey from Westfall to Redridge passes through dangerous territory, but the quest itself is safe.", confidence = "high" },
+    [65] = { threat = "LOW", reason = "The conversation step adds no fight. Travel through Elwynn on the established roads rather than taking a shortcut through Duskwood.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 1)
-    [66] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [66] = { threat = "LOW", reason = "The conversation takes place in town and adds no combat encounter. Stay within the settlement while completing this step.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 2)
-    [67] = { threat = "MEDIUM", reason = "The schoolhouse is in Moonbrook, which is filled with level 14-17 Defias mobs. The building itself contains a level 26 ghost that spawns when you loot the chest. Be prepared to fight or flee. Do not attempt below level 22.", confidence = "high" },
+    [67] = { threat = "MEDIUM", reason = "Opening the quest container can summon a hostile spirit amid the surrounding bandits. Clear nearby enemies and recover before interacting.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 3)
-    [68] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [68] = { threat = "LOW", reason = "This letter hand-in adds no new combat encounter. Use the normal return route and avoid hostile camps.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 4)
-    [69] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [69] = { threat = "LOW", reason = "The inn conversation adds no new fight. Follow the normal roads and avoid unnecessary detours.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 5)
-    [70] = { threat = "LOW", reason = "The chest is on the second floor of the inn. No combat required. Safe if you stay in the city.", confidence = "high" },
+    [70] = { threat = "MEDIUM", reason = "A hostile spirit can appear when the quest chest is opened, even inside a friendly inn. Recover before interacting and be prepared to fight.", confidence = "medium" },
 
     -- Report to Thomas
-    [71] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [71] = { threat = "LOW", reason = "Returning the recovered medallions does not add a fight. Leave the murloc camp by the cleared route and use the road.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 6)
-    [72] = { threat = "LOW", reason = "The chest is in the schoolhouse, which is guarded by Defias mobs outside. The building itself contains a level 26 ghost that spawns when you loot. Be prepared to fight or flee. Do not attempt below level 22.", confidence = "high" },
+    [72] = { threat = "MEDIUM", reason = "Opening the crate can summon a hostile spirit in the city and briefly disrupt your control. Recover before interacting and be prepared for combat.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 7)
-    [74] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [74] = { threat = "LOW", reason = "The journal follow-up adds no new fight. Travel along the normal route and avoid hostile detours.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 8)
-    [75] = { threat = "LOW", reason = "No combat required. Safe if you stay in the city.", confidence = "high" },
+    [75] = { threat = "MEDIUM", reason = "Opening the chest can summon another hostile spirit. Recover before interacting and leave enough room to handle the fight.", confidence = "medium" },
 
     -- The Jasperlode Mine
-    [76] = { threat = "MEDIUM", reason = "The mine is filled with level 8-10 kobolds, including Geomancers who cast fireballs from range. The mine entrance is at approximately 62, 54. You only need to go about half way in to complete the exploration. Pull singles and watch for the rare mob Mother Fang. Do not attempt below level 8 solo without caution.", confidence = "high" },
+    [76] = { threat = "MEDIUM", reason = "Mine passages and ranged kobold casters can make extra pulls difficult to escape. Clear a short route in and leave once exploration completes.", confidence = "medium" },
 
     -- A Sticky Situation (Combat, Tarren Mill)
-    [77] = { threat = "MEDIUM", reason = "The area around Tarren Mill is contested, and the spiders can web you in place. Clear a safe spot before engaging and watch for patrolling Alliance players.", confidence = "medium" },
+    [77] = { threat = "MEDIUM", reason = "Slimes and oozes around the ruins and cave can block access and retreat. Clear the approach to each crate and avoid pushing into fresh groups.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 9)
-    [78] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [78] = { threat = "LOW", reason = "The page delivery adds no new fight. Stay on the normal route and avoid hostile camps or unusually strong patrols.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 10)
-    [79] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [79] = { threat = "LOW", reason = "This page hand-in adds no new combat. Stay in the settlement while completing the conversation.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 11)
-    [80] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [80] = { threat = "LOW", reason = "The page hand-in adds no new fight. Remain within the friendly settlement for this step.", confidence = "medium" },
 
     -- Ripple Delivery
-    [81] = { threat = "LOW", reason = "This is a pure delivery quest with no required combat. The only risk is the journey from the Hinterlands to Orgrimmar, which is safe if you stay on the road.", confidence = "high" },
+    [81] = { threat = "LOW", reason = "The packaged delivery adds no new combat objective. Use learned flight routes and avoid shortcuts through hostile camps.", confidence = "medium" },
 
     -- Noxious Lair Investigation
-    [82] = { threat = "HIGH", reason = "The lair is filled with level 47-50 insects. The Swarmers (level 50) spawn dozens of tiny minions that hit for 1 damage each but will overwhelm you in seconds without AoE. The Stingers (level 47-49) have the best drop rate. A level 45 warlock was killed by Swarmers multiple times. Do not attempt below level 45 without AoE or a group.", confidence = "high" },
+    [82] = { threat = "MEDIUM", reason = "Dense silithid groups can turn part collection into several simultaneous fights. Prefer exposed edge targets and avoid entering tunnels when surface enemies will suffice.", confidence = "medium" },
 
     -- Red Linen Goods
-    [83] = { threat = "LOW", reason = "The bandanas drop from Defias mobs in Elwynn Forest. The Defias are levels 7-10 and are scattered in small camps. The drop rate is not 100%, so expect to kill 10-15 mobs. Manageable solo for a level 8+ character.", confidence = "high" },
+    [83] = { threat = "LOW", reason = "Bandit camps can add enemies to an otherwise ordinary fight. Pull isolated targets away from the camp and keep room to retreat.", confidence = "medium" },
 
     -- Back to Billy
-    [84] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [84] = { threat = "LOW", reason = "The pie delivery adds no new fight. Follow the normal farm route and avoid hostile groups.", confidence = "medium" },
 
     -- Lost Necklace
-    [85] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [85] = { threat = "LOW", reason = "The conversation adds no combat encounter. Avoid unnecessary pulls while moving between the farms.", confidence = "medium" },
 
     -- Pie for Billy
-    [86] = { threat = "LOW", reason = "The boar meat drops from Goretusk boars in Westfall. The boars are levels 11-13 and are scattered across the zone. The drop rate is not 100%. Manageable solo for a level 10+ character.", confidence = "high" },
+    [86] = { threat = "LOW", reason = "The required boar hunting uses ordinary nearby outdoor enemies. Pull singly and avoid wandering into a higher-level area for the same material.", confidence = "medium" },
 
     -- Goldtooth
-    [87] = { threat = "MEDIUM", reason = "Goldtooth is level 8 and wears a blue shirt, making him easy to spot among the red-shirted kobolds. He is deep inside the mine, which is filled with level 4-8 kobolds. Clear methodically and watch for respawns in the tunnels. Do not attempt below level 7 solo.", confidence = "high" },
+    [87] = { threat = "MEDIUM", reason = "The named kobold is inside a crowded mine where fresh spawns can block the exit. Clear the approach and retreat route before engaging.", confidence = "medium" },
 
     -- Princess Must Die!
-    [88] = { threat = "EXTREME", reason = "Princess is surrounded by two level 7 bodyguards and is in a pumpkin patch patrolled by Defias mobs. Solo attempts at the intended level require a corpse-run exploit or a specific kite strategy. Skip on Hardcore unless heavily overleveled.", confidence = "high" },
+    [88] = { threat = "HIGH", reason = "Princess and her two escorts create a dangerous multiple-enemy fight near other bandits. Bring help unless your class can reliably control the escorts and retreat through cleared ground.", confidence = "medium" },
 
     -- The Everstill Bridge
-    [89] = { threat = "LOW", reason = "The pikes and rivets drop from Redridge gnolls in the hills behind Lakeshire. The gnolls are levels 18-22 and are scattered in camps. The drop rate is moderate. Manageable solo for a level 18+ character.", confidence = "high" },
+    [89] = { threat = "MEDIUM", reason = "Gnoll camps can combine several enemies into one pull. Work from the edges and retreat before additional groups join.", confidence = "medium" },
 
     -- Seasoned Wolf Kabobs
-    [90] = { threat = "LOW", reason = "The flanks drop from wolves in Duskwood and Redridge. The wolves are levels 15-20 and are scattered across the zones. The drop rate is moderate. Manageable solo for a level 18+ character.", confidence = "high" },
+    [90] = { threat = "LOW", reason = "Outdoor wolves can be fought with normal single-target precautions. Choose isolated targets and watch nearby hostile patrols.", confidence = "medium" },
 
     -- Solomon's Law
-    [91] = { threat = "MEDIUM", reason = "The pendants drop from Shadowhide gnolls in Galardell Valley, Redridge Mountains. The gnolls are levels 21-26 and are packed in the valley. The drop rate is notoriously low. The best spot is at 70, 47 where the gnolls are separated and easier to pull. A level 21 mage soloed this in 25 kills at 71, 52. Watch for the level 25+ gnolls deeper in the valley. Do not attempt below level 20 solo.", confidence = "high" },
+    [91] = { threat = "MEDIUM", reason = "Packed gnoll groups and casters can make extra pulls difficult to escape. Pull into cleared ground and avoid advancing deeper while low on resources.", confidence = "medium" },
 
     -- Redridge Goulash
-    [92] = { threat = "LOW", reason = "The mobs are levels 15-20 in Redridge. The drop rates are moderate. Manageable solo for a level 18+ character.", confidence = "high" },
+    [92] = { threat = "LOW", reason = "Scattered outdoor enemies can be fought with ordinary precautions. Choose isolated targets rather than chasing a specific ingredient into a crowded camp.", confidence = "medium" },
 
     -- Dusky Crab Cakes
-    [93] = { threat = "LOW", reason = "The legs drop from spiders in Duskwood. The spiders are levels 18-22 and are scattered across the zone. The drop rate is moderate. Manageable solo for a level 18+ character.", confidence = "high" },
+    [93] = { threat = "LOW", reason = "Spider fights can leave damage continuing after the enemy falls. Recover before another pull and keep away from nearby hostile groups.", confidence = "medium" },
 
     -- A Watchful Eye
-    [94] = { threat = "MEDIUM", reason = "The path to the statue is patrolled by level 24-26 Shadowhide gnolls and a level 26 mage. A level 22 player found it 'green' difficulty but recommended non-rogues bring a friend. Approach from the back, place the glyph, and leave. Do not attempt below level 22 solo without stealth.", confidence = "high" },
+    [94] = { threat = "MEDIUM", reason = "Hostile gnolls and tower-area enemies can block the approach to the interaction. Clear a retreat route and avoid pulling defenders that are not required.", confidence = "medium" },
 
     -- Sven's Revenge
-    [95] = { threat = "MEDIUM", reason = "The mound is at approximately 49, 77, behind the houses at the Yorgen Farmstead. The area is guarded by 4-6 Defias mobs, including a level 27 mage who hits hard. A level 25 mage died here. The safest approach is from the back (the road to Stranglethorn) where you can sneak in and grab the item without fighting. Do not attempt below level 23 without stealth or a plan.", confidence = "high" },
+    [95] = { threat = "MEDIUM", reason = "Hostile enemies around the farm can turn a quick ground interaction into several pulls. Check the approach, clear nearby threats, and keep an exit before interacting.", confidence = "medium" },
 
     -- Call of Water (Shaman totem)
-    [96] = { threat = "MEDIUM", reason = "Requires combat against elementals in a contested zone. The elementals hit hard for their level. Pull singles and retreat if you pull more than one.", confidence = "medium" },
+    [96] = { threat = "LOW", reason = "This shard hand-in adds no new elemental fight. Use a learned flight route or normal roads and avoid unnecessary detours.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 12)
-    [97] = { threat = "LOW", reason = "Pure dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [97] = { threat = "LOW", reason = "The report is an in-town conversation with no new fight. Stay within the settlement while completing this step.", confidence = "medium" },
 
     -- The Legend of Stalvan (Step 13)
-    [98] = { threat = "MEDIUM", reason = "Stalvan is a level 30 mob who spawns in the cottage. He hits hard and the cottage is in a contested area. This is the finale of the long Stalvan chain. Do not attempt below level 28 solo.", confidence = "high" },
+    [98] = { threat = "MEDIUM", reason = "The named enemy can hit hard inside a confined cottage. Clear nearby threats, start at full resources, and keep the doorway available for retreat.", confidence = "medium" },
 
     -- Arugal's Folly (Elite kill, Silverpine)
-    [99] = { threat = "HIGH", reason = "The target is not an elite, but the area is patrolled by Son of Arugal, a level 25 elite who will one-shot low-level players. Check your minimap constantly and have an escape route ready.", confidence = "high" },
+    [99] = { threat = "EXTREME", reason = "Elite quest. Pyrewood enemies make this a group encounter at the intended level. Bring a suitable group or skip rather than treating the village as ordinary solo enemies.", confidence = "medium" },
 
     -- Call of Water (Shaman totem)
-    [100] = { threat = "MEDIUM", reason = "The ritual requires combat against a summoned elemental. Clear the area before starting and be ready for a tough fight. The elemental hits hard but is manageable with cooldowns.", confidence = "medium" },
+    [100] = { threat = "LOW", reason = "Speaking to the friendly manifestation adds no new fight after the earlier ritual. Finish the conversation in the cleared area and avoid unnecessary pulls.", confidence = "medium" },
 
     -- The Totem of Infliction
     [101] = { threat = "LOW", reason = "The items drop from undead and spiders in Duskwood. The mobs are levels 20-25. The drop rates are moderate. Manageable solo for a level 22+ character.", confidence = "high" },

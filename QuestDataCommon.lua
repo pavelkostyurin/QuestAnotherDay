@@ -3,10 +3,10 @@ local _, addon = ...
 
 addon.quests = {
     -- The Scrimshank Redemption
-    [10] = { threat = "HIGH", reason = "The chasm is filled with level 46-50 silithid bugs, including Swarmers that spawn Parasites when killed. The tunnels are a maze and mobs respawn quickly. A level 48 prot paladin soloed it, but a level 41 druid died multiple times. Do not attempt below level 45 without a group or significant preparation.", confidence = "high" },
+    [10] = { threat = "HIGH", reason = "The silithid tunnels restrict escape, and patrols or extra insects can turn a pull into several enemies. Clear the route deliberately, preserve an exit, and bring help if you cannot control adds.", confidence = "medium" },
 
     -- Noxious Lair Investigation
-    [82] = { threat = "HIGH", reason = "The lair is filled with level 47-50 insects. The Swarmers (level 50) spawn dozens of tiny minions that hit for 1 damage each but will overwhelm you in seconds without AoE. The Stingers (level 47-49) have the best drop rate. A level 45 warlock was killed by Swarmers multiple times. Do not attempt below level 45 without AoE or a group.", confidence = "high" },
+    [82] = { threat = "MEDIUM", reason = "Dense silithid groups can turn part collection into several simultaneous fights. Prefer exposed edge targets and avoid entering tunnels when surface enemies will suffice.", confidence = "medium" },
 
     -- Keeper of the Flame
     [103] = { threat = "MEDIUM", reason = "The flasks drop from Defias mobs at the lighthouse. The Defias are levels 15-18 and are packed around the lighthouse. The drop rate is not 100%. Clear methodically and watch for patrolling mobs. Do not attempt below level 15 solo.", confidence = "medium" },

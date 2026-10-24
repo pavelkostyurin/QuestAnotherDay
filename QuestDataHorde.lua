@@ -9,52 +9,52 @@ end
 
 local quests = {
     -- Sharptalon's Claw
-    [2] = { threat = "MEDIUM", reason = "It is not an elite, but it patrols a wide area and hits hard for its level. Pull it to a clear spot and be ready to kite if things go wrong.", confidence = "medium" },
+    [2] = { threat = "LOW", reason = "This item-started step adds no new fight after the claw has been obtained. Use the normal route to the turn-in and avoid unnecessary pulls.", confidence = "medium" },
 
     -- A Rogue's Deal
-    [8] = { threat = "LOW", reason = "The mobs are low-level and manageable solo. Watch for the occasional wandering mob.", confidence = "high" },
+    [8] = { threat = "LOW", reason = "This delivery adds no new fight. Follow the established route to the inn and avoid hostile camps along the way.", confidence = "medium" },
 
     -- Ursangous's Paw
-    [23] = { threat = "LOW", reason = "It is not an elite and is a straightforward solo kill for its level. It roams among other bears, so clear a small area first.", confidence = "medium" },
+    [23] = { threat = "LOW", reason = "The item-started turn-in adds no new combat after the paw has been obtained. Follow the normal route and avoid unnecessary encounters.", confidence = "medium" },
 
     -- Shadumbra's Head
-    [24] = { threat = "LOW", reason = "It is not an elite and is considered easy for its level, though its fast attacks can be tricky for casters. Keep your distance and kite if needed.", confidence = "medium" },
+    [24] = { threat = "LOW", reason = "The item-started turn-in adds no new combat after the head has been obtained. Use the normal route and avoid unnecessary encounters.", confidence = "medium" },
 
     -- Stonetalon Standstill
-    [25] = { threat = "MEDIUM", reason = "The area is contested, and Alliance patrols can add an extra layer of danger. Stick to the Horde camp and pull mobs one at a time.", confidence = "medium" },
+    [25] = { threat = "MEDIUM", reason = "Water-side pulls and nearby hostile camps can complicate retreat. Fight from cleared ground where possible and keep away from outpost guards.", confidence = "medium" },
 
     -- A Lesson to Learn
-    [27] = { threat = "LOW", reason = "The mobs are low-level and manageable solo. Standard starting zone risk.", confidence = "high" },
+    [27] = { threat = "LOW", reason = "The conversation does not require a new fight. Use the druid travel option and stay within the friendly settlement.", confidence = "medium" },
 
     -- Trial of the Lake
-    [28] = { threat = "LOW", reason = "The journey is safe, and there is no required combat. Watch for wandering wildlife near the water.", confidence = "medium" },
+    [28] = { threat = "MEDIUM", reason = "Underwater searching can exhaust your breath before you reach the surface. Surface early, plan the swim back, and avoid fighting while low on breath.", confidence = "medium" },
 
     -- Trial of the Sea Lion
-    [30] = { threat = "MEDIUM", reason = "The area is contested and patrolled by murlocs and other hostile mobs. Bring water breathing if possible and stick to the surface when traveling.", confidence = "medium" },
+    [30] = { threat = "MEDIUM", reason = "Underwater collection combines breath management with hostile wildlife along the approaches. Check the return path before diving and surface well before your breath runs out.", confidence = "medium" },
 
     -- Aquatic Form
-    [31] = { threat = "MEDIUM", reason = "The travel is the main risk. Avoid main roads where Alliance patrols are common.", confidence = "medium" },
+    [31] = { threat = "LOW", reason = "This return step adds no new combat. Use a learned flight route or familiar roads and avoid unnecessary detours.", confidence = "medium" },
 
     -- Rise of the Silithid
-    [32] = { threat = "MEDIUM", reason = "The insects are levels 30-35 and often stand in small groups. They have a knockback and can chain-pull. Fight in open terrain where you can retreat.", confidence = "medium" },
+    [32] = { threat = "LOW", reason = "The report delivery does not require another insect fight. Use a learned flight route or normal roads to the city.", confidence = "medium" },
 
     -- Call of Water
-    [63] = { threat = "MEDIUM", reason = "Involves combat and travel to a water source guarded by hostile mobs. The mobs are manageable for the level, but the journey through contested territory adds risk.", confidence = "medium" },
+    [63] = { threat = "MEDIUM", reason = "The manifestation fight takes place near other hostile enemies on the coast. Clear the area before starting and preserve health for the required combat.", confidence = "medium" },
 
     -- A Sticky Situation
-    [77] = { threat = "MEDIUM", reason = "The area around Tarren Mill is contested, and the spiders can web you in place. Clear a safe spot before engaging and watch for patrolling Alliance players.", confidence = "medium" },
+    [77] = { threat = "MEDIUM", reason = "Slimes and oozes around the ruins and cave can block access and retreat. Clear the approach to each crate and avoid pushing into fresh groups.", confidence = "medium" },
 
     -- Ripple Delivery
-    [81] = { threat = "LOW", reason = "This is a pure delivery quest with no required combat. The only risk is the journey from the Hinterlands to Orgrimmar, which is safe if you stay on the road.", confidence = "high" },
+    [81] = { threat = "LOW", reason = "The packaged delivery adds no new combat objective. Use learned flight routes and avoid shortcuts through hostile camps.", confidence = "medium" },
 
     -- Call of Water
-    [96] = { threat = "MEDIUM", reason = "Requires combat against elementals in a contested zone. The elementals hit hard for their level. Pull singles and retreat if you pull more than one.", confidence = "medium" },
+    [96] = { threat = "LOW", reason = "This shard hand-in adds no new elemental fight. Use a learned flight route or normal roads and avoid unnecessary detours.", confidence = "medium" },
 
     -- Arugal's Folly
-    [99] = { threat = "HIGH", reason = "The target is not an elite, but the area is patrolled by Son of Arugal, a level 25 elite who will one-shot low-level players. Check your minimap constantly and have an escape route ready.", confidence = "high" },
+    [99] = { threat = "EXTREME", reason = "Elite quest. Pyrewood enemies make this a group encounter at the intended level. Bring a suitable group or skip rather than treating the village as ordinary solo enemies.", confidence = "medium" },
 
     -- Call of Water
-    [100] = { threat = "MEDIUM", reason = "The ritual requires combat against a summoned elemental. Clear the area before starting and be ready for a tough fight. The elemental hits hard but is manageable with cooldowns.", confidence = "medium" },
+    [100] = { threat = "LOW", reason = "Speaking to the friendly manifestation adds no new fight after the earlier ritual. Finish the conversation in the cleared area and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Alas, Andorhal
     [105] = { threat = "HIGH", reason = "The mobs are levels 50-55 and hit extremely hard. Do not attempt below level 50 without a group.", confidence = "high" },
