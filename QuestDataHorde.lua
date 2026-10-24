@@ -1473,7 +1473,7 @@ local quests = {
     [1657] = { threat = "EXTREME", reason = "Southshore is an Alliance town patrolled by level 40+ guards who aggro from extreme range and one-shot low-level players. Even stealthed rogues and level 60 characters die here. This is a PvP quest that requires you to walk directly into enemy territory. Do not attempt on Hardcore. Skip entirely.", confidence = "medium" },
 
     -- Lordaeron Throne Room
-    [1800] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1800] = { threat = "LOW", reason = "This holiday step is a short visit to the Lordaeron throne room with no required combat. Stay inside the Undercity ruins and avoid nearby hostile guards if traveling at low level.", confidence = "medium" },
 
     -- Tome of the Cabal
     [1801] = { threat = "MEDIUM", reason = "The manuscript is in a box on a shelf inside the cave. The centaurs guarding the cave are levels 28-30 and can pull in groups. Clear the entrance and pull singles. The Tattered Manuscript is inside the cave on the right side, up a ramp.", confidence = "medium" },

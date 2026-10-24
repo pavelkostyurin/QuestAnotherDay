@@ -597,34 +597,40 @@ addon.quests = {
     [1691] = { threat = "MEDIUM", reason = "The mobs are levels 42-46 and are packed in camps in Tanaris. The Shadow Mages cast shadow bolts, and the Rogues are stealthed. Clear methodically and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
 
     -- Water Pouch Bounty
-    [1707] = { threat = "MEDIUM", reason = "The pouches drop from Wastewander bandits in Tanaris. The bandits are levels 40-44 and are packed in camps. They pull in groups and have ranged attackers. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
+    [1707] = { threat = "MEDIUM", reason = "Wastewander bandits occupy camps in Tanaris and can bring nearby ranged attackers into a pull. Clear the edge of a camp and retreat before the area becomes crowded.", confidence = "medium" },
 
     -- Cyclonian
-    [1712] = { threat = "HIGH", reason = "This is the collection step of the Warrior's Whirlwind weapon chain. You need 8 Liferoot, 30 Bloodscalp Tusks, 8 Burning Charms, 8 Cresting Charms, and 8 Thundering Charms. The charms drop from elementals in the Arathi Highlands, and the tusks drop from Bloodscalp trolls in Stranglethorn. The elementals are levels 35-40. The collection itself is a grind, not a single fight. Do not attempt below level 35 solo without a plan for each zone.", confidence = "high" },
+    [1712] = { threat = "HIGH", reason = "This Warrior chain step collects materials from several regions, including higher-level trolls and elementals around occupied camps. Work one camp at a time and return when closer to the enemies’ level.", confidence = "medium" },
 
     -- The Summoning
-    [1713] = { threat = "EXTREME", reason = "This is the final step of the Warrior's Whirlwind weapon chain. You must summon and kill Cyclonian, a level 40 elite air elemental. He hits hard, does magic damage that ignores armor, and has a massive health pool. A level 38 warrior reported getting 'WAXED' by him solo. A level 41 warrior soloed him with nature resistance potions and Retaliation. The intended strategy is to kite him through the river between Hillsbrad and Western Plaguelands, using ranged weapons to chip him down. This requires specific preparation and terrain knowledge. Do not attempt solo at the intended level without nature resistance potions, a kiting plan, and significant overleveling.", confidence = "high" },
+    [1713] = { threat = "EXTREME", reason = "Elite quest. Cyclonian is a level 40 elite summoned for this level 30 Warrior chain, making a solo attempt at the intended level unrealistic. Bring a suitable group or skip until substantially overleveled.", confidence = "medium" },
+
+    -- Essence of the Exile
+    [1714] = { threat = "HIGH", reason = "The Essence of the Exile comes from dangerous elementals around the Arathi binding circles. They hit hard for a newly eligible Warrior; return closer to their level and pull them separately.", confidence = "medium" },
 
     -- The Islander
-    [1718] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The island itself is safe. Safe if you stay on the island.", confidence = "high" },
+    [1718] = { threat = "LOW", reason = "This is a travel and dialogue step to Fray Island with no required combat. Stay on the island route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Affray
-    [1719] = { threat = "HIGH", reason = "This is a Warrior class quest. You must fight waves of level 26-28 challengers, then Big Will, a level 33 warrior. You can rest between waves if you move away from the spectators. Big Will does not attack until you attack him. Multiple players soloed this at level 31 with a green weapon and one healing potion. The timer is 10 minutes. Do not attempt below level 31 solo without a plan to manage the waves and Big Will.", confidence = "high" },
+    [1719] = { threat = "HIGH", reason = "The Affray pits a solo Warrior against successive challengers and then Big Will, whose level varies above the quest minimum. Heal between opponents, keep space from the next spawn, and bring consumables.", confidence = "medium" },
 
     -- The Orb of Soran'ruk
     [1740] = { threat = "HIGH", reason = "The fragments drop from Twilight's Hammer mobs in Blackfathom Deeps and Shadowfang Keep, both of which are level 20-30 dungeons filled with elites. This requires a full group of level 25+. Do not attempt solo.", confidence = "high" },
 
     -- The Windwatcher
-    [1791] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Alterac is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
+    [1791] = { threat = "MEDIUM", reason = "This is a travel and dialogue step to Bath’rah in Alterac, a hazardous route for a character near the chain’s minimum level. Stay on roads where possible and avoid hostile camps.", confidence = "medium" },
+
+    -- Whirlwind Weapon
+    [1792] = { threat = "LOW", reason = "This is the final weapon reward hand-in after the Cyclonian encounter, with no additional combat objective.", confidence = "medium" },
 
     -- The Binding
-    [1795] = { threat = "MEDIUM", reason = "The felhunter is a level 30 elite demon that you must defeat. This is a warlock class quest. The fight takes place in the tower above Ratchet. A level 30 warlock soloed this with a Voidwalker and fear kiting. Do not attempt below level 30 solo without a plan to manage the felhunter's spell lock and high damage.", confidence = "high" },
+    [1795] = { threat = "MEDIUM", reason = "Elite quest. The summoned felhunter is a difficult fight for a level 30 Warlock, but the class has tools to manage it. Clear around the tower, keep the demon controlled, and use the pet and cooldowns.", confidence = "medium" },
 
     -- Components for the Enchanted Gold Bloodrobe
-    [1796] = { threat = "MEDIUM", reason = "The robes are crafted from materials gathered in previous quests. This is a delivery step with no combat. The journey to the Barrens is safe if you stay on the road.", confidence = "high" },
+    [1796] = { threat = "LOW", reason = "This is a delivery step to the Barrens with no required combat. Use roads and avoid hostile camps along the long route.", confidence = "medium" },
 
     -- Fragments of the Orb of Orahil
-    [1799] = { threat = "MEDIUM", reason = "The Infernal Orb is obtained by killing a level 35 elite infernal. This is a warlock class quest. The journey to Dustwallow Marsh is dangerous for low-level players. Do not attempt below level 35 solo without a group.", confidence = "medium" },
+    [1799] = { threat = "HIGH", reason = "The quest chain requires fighting through higher-level Burning Blade enemies in Desolace and then defeating a level 40 elite demon summoned near Tabetha. Clear the area and use a Warlock pet, fear, and consumables; consider a group if those tools are not enough.", confidence = "medium" },
 
     -- Journey to the Marsh
     [1947] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Dustwallow Marsh is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },

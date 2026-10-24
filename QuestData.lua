@@ -3953,109 +3953,139 @@ addon.quests = {
     [1700] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Fire Hardened Mail
-    [1701] = { threat = "MEDIUM", reason = "The materials include 10 pieces of Incendicite Ore from the Incendicite Cavern in the Wetlands, which is filled with level 20-24 spiders. The cavern is dark and respawns quickly. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [1701] = { threat = "EXTREME", reason = "The final required material comes from Roogug inside Razorfen Kraul, an elite dungeon boss, so this chain requires a dangerous instance run. Bring a suitable group or wait until substantially overleveled.", confidence = "medium" },
 
     -- The Shieldsmith
-    [1702] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1702] = { threat = "LOW", reason = "This is a delivery step from Redridge to Stormwind with no required combat. Travel by road and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Mathiel
-    [1703] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1703] = { threat = "LOW", reason = "This is a delivery step to Mathiel with no required combat. Use the road and avoid hostile camps along the route.", confidence = "medium" },
 
     -- Klockmort Spannerspan
-    [1704] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1704] = { threat = "LOW", reason = "This is a delivery step to Klockmort with no required combat. Use the road and avoid hostile camps along the route.", confidence = "medium" },
 
     -- Burning Blood
-    [1705] = { threat = "HIGH", reason = "The blood drops from Burning Exiles in the Arathi Highlands, and the rock drops from a named elemental. The elementals are levels 35-40 and are packed around the Circles of Binding. They have fire shields and hit hard. This is part of the Warrior's Whirlwind weapon chain. Do not attempt below level 35 solo without a plan to handle the elementals.", confidence = "high" },
+    [1705] = { threat = "HIGH", reason = "Burning Exiles and the named elemental are higher-level fire elementals clustered around the Arathi binding circles. Return when closer to their level, pull carefully, and prepare for strong fire damage.", confidence = "medium" },
+
+    -- Grimand's Armor
+    [1706] = { threat = "LOW", reason = "This is a city hand-in for the armor reward with no required combat.", confidence = "medium" },
 
     -- Water Pouch Bounty
-    [1707] = { threat = "MEDIUM", reason = "The pouches drop from Wastewander bandits in Tanaris. The bandits are levels 40-44 and are packed in camps. They pull in groups and have ranged attackers. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
+    [1707] = { threat = "MEDIUM", reason = "Wastewander bandits occupy camps in Tanaris and can bring nearby ranged attackers into a pull. Clear the edge of a camp and retreat before the area becomes crowded.", confidence = "medium" },
 
     -- Iron Coral
-    [1708] = { threat = "HIGH", reason = "The coral is in the Vile Reef off Stranglethorn, which is populated by level 35-37 Elite murlocs. The coral is underwater, and fighting underwater is dangerous. Drowning is a real risk. This is part of the Warrior's Whirlwind weapon chain. Do not attempt below level 38 solo without water breathing and a plan to avoid the elites.", confidence = "high" },
+    [1708] = { threat = "HIGH", reason = "The Searing Coral is underwater in Vile Reef among elite murlocs, making both combat and air management dangerous. Bring water breathing and a plan to avoid or handle the elites.", confidence = "medium" },
+
+    -- Klockmort's Creation
+    [1709] = { threat = "LOW", reason = "This is a hand-in to Klockmort with no required combat.", confidence = "medium" },
 
     -- Sunscorched Shells
-    [1710] = { threat = "MEDIUM", reason = "The shells drop from Sunscorched creatures in the Tanaris desert. The mobs are levels 40-44 and are scattered across the dunes. They are not elite but hit hard and can pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
+    [1710] = { threat = "MEDIUM", reason = "The Sunscorched creatures are spread through Tanaris and can be higher-level than a newly eligible character. Pull one at a time and avoid crossing occupied camps.", confidence = "medium" },
+
+    -- Mathiel's Armor
+    [1711] = { threat = "LOW", reason = "This is a city hand-in for the armor reward with no required combat.", confidence = "medium" },
 
     -- Cyclonian
-    [1712] = { threat = "HIGH", reason = "This is the collection step of the Warrior's Whirlwind weapon chain. You need 8 Liferoot, 30 Bloodscalp Tusks, 8 Burning Charms, 8 Cresting Charms, and 8 Thundering Charms. The charms drop from elementals in the Arathi Highlands, and the tusks drop from Bloodscalp trolls in Stranglethorn. The elementals are levels 35-40. The collection itself is a grind, not a single fight. Do not attempt below level 35 solo without a plan for each zone.", confidence = "high" },
+    [1712] = { threat = "HIGH", reason = "This Warrior chain step collects materials from several regions, including higher-level trolls and elementals around occupied camps. Work one camp at a time and return when closer to the enemies’ level.", confidence = "medium" },
 
     -- The Summoning
-    [1713] = { threat = "EXTREME", reason = "This is the final step of the Warrior's Whirlwind weapon chain. You must summon and kill Cyclonian, a level 40 elite air elemental. He hits hard, does magic damage that ignores armor, and has a massive health pool. A level 38 warrior reported getting 'WAXED' by him solo. A level 41 warrior soloed him with nature resistance potions and Retaliation. The intended strategy is to kite him through the river between Hillsbrad and Western Plaguelands, using ranged weapons to chip him down. This requires specific preparation and terrain knowledge. Do not attempt solo at the intended level without nature resistance potions, a kiting plan, and significant overleveling.", confidence = "high" },
+    [1713] = { threat = "EXTREME", reason = "Elite quest. Cyclonian is a level 40 elite summoned for this level 30 Warrior chain, making a solo attempt at the intended level unrealistic. Bring a suitable group or skip until substantially overleveled.", confidence = "medium" },
+
+    -- Essence of the Exile
+    [1714] = { threat = "HIGH", reason = "The Essence of the Exile comes from dangerous elementals around the Arathi binding circles. They hit hard for a newly eligible Warrior; return closer to their level and pull them separately.", confidence = "medium" },
 
     -- The Slaughtered Lamb
-    [1715] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1715] = { threat = "LOW", reason = "This is a dialogue step in Stormwind with no combat.", confidence = "medium" },
 
     -- Devourer of Souls
-    [1716] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to the Barrens is safe if you stay on the road. Safe if you avoid the mob camps.", confidence = "high" },
+    [1716] = { threat = "MEDIUM", reason = "This travel step sends an Alliance character to the Barrens, far from safe Alliance hubs. Travel with care through contested zones and avoid hostile camps.", confidence = "medium" },
 
     -- Gakin's Summons
-    [1717] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1717] = { threat = "LOW", reason = "This is a dialogue step in Stormwind with no combat.", confidence = "medium" },
 
     -- The Islander
-    [1718] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The island itself is safe. Safe if you stay on the island.", confidence = "high" },
+    [1718] = { threat = "LOW", reason = "This is a travel and dialogue step to Fray Island with no required combat. Stay on the island route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Affray
-    [1719] = { threat = "HIGH", reason = "This is a Warrior class quest. You must fight waves of level 26-28 challengers, then Big Will, a level 33 warrior. You can rest between waves if you move away from the spectators. Big Will does not attack until you attack him. Multiple players soloed this at level 31 with a green weapon and one healing potion. The timer is 10 minutes. Do not attempt below level 31 solo without a plan to manage the waves and Big Will.", confidence = "high" },
+    [1719] = { threat = "HIGH", reason = "The Affray pits a solo Warrior against successive challengers and then Big Will, whose level varies above the quest minimum. Heal between opponents, keep space from the next spawn, and bring consumables.", confidence = "medium" },
 
     -- Heartswood
-    [1738] = { threat = "MEDIUM", reason = "The Heartswood is in the ruins of Ordil'Aran in northwestern Ashenvale, which are patrolled by level 20-25 mobs. The tree is guarded by satyrs. Clear the area before interacting and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [1738] = { threat = "MEDIUM", reason = "The Heartswood is in a satyr-guarded ruin in Ashenvale, where nearby enemies can join the fight. Clear around the tree and keep an escape route open.", confidence = "medium" },
 
     -- The Binding (Succubus)
-    [1739] = { threat = "MEDIUM", reason = "The succubus is a level 20 elite demon that you must defeat in the basement of the Slaughtered Lamb. You must keep her inside the summoning circle; if she moves out, the guards will kill her and the quest fails. A level 21 warlock soloed this easily with a Voidwalker. Do not attempt below level 20 solo without a plan to keep her inside the circle.", confidence = "high" },
+    [1739] = { threat = "MEDIUM", reason = "Elite quest. The summoned succubus is a dangerous opponent for a level 20 Warlock, and letting her leave the summoning area can fail the encounter. Use the pet and control tools, and clear nearby enemies first.", confidence = "medium" },
 
     -- The Orb of Soran'ruk
     [1740] = { threat = "HIGH", reason = "The fragments drop from Twilight's Hammer mobs in Blackfathom Deeps and Shadowfang Keep, both of which are level 20-30 dungeons filled with elites. This requires a full group of level 25+. Do not attempt solo.", confidence = "high" },
 
     -- Tome of the Cabal (Speak to Krom)
-    [1758] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1758] = { threat = "LOW", reason = "This is a dialogue step in Ironforge with no combat.", confidence = "medium" },
 
     -- The Tome of Divinity (Tiza Battleforge)
-    [1778] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1778] = { threat = "LOW", reason = "This is a dialogue step in Ironforge with no combat.", confidence = "medium" },
 
     -- The Tome of Divinity (Muiredon)
-    [1779] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1779] = { threat = "LOW", reason = "This is a dialogue and item hand-in in Ironforge with no combat.", confidence = "medium" },
 
     -- The Tome of Divinity (Duthorian)
-    [1780] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1780] = { threat = "LOW", reason = "This is a dialogue step in Stormwind with no combat.", confidence = "medium" },
 
     -- The Tome of Divinity (Gazin)
-    [1781] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1781] = { threat = "LOW", reason = "This is a dialogue and item hand-in in Stormwind with no combat.", confidence = "medium" },
+
+    -- Furen's Armor
+    [1782] = { threat = "LOW", reason = "This is a city hand-in for the armor reward with no required combat.", confidence = "medium" },
 
     -- The Tome of Divinity (Resurrect Narm)
-    [1783] = { threat = "MEDIUM", reason = "Narm's corpse is in a cave in Dun Morogh, guarded by level 10-14 Dark Iron dwarves. Clear the area before resurrecting and watch for adds. Do not attempt below level 12 solo.", confidence = "medium" },
+    [1783] = { threat = "MEDIUM", reason = "The resurrection target is inside a Dark Iron camp in Dun Morogh. Clear nearby dwarves before using the Symbol of Life and watch for enemies respawning behind you.", confidence = "medium" },
 
     -- The Tome of Divinity (Dark Iron Script)
-    [1784] = { threat = "MEDIUM", reason = "The dwarves are levels 12-16 and are packed in the cave. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 12 solo.", confidence = "medium" },
+    [1784] = { threat = "MEDIUM", reason = "Dark Iron dwarves near Helm’s Bed guard the script and can chain-pull from the camp. Pull enemies away from the objective and leave a clear retreat path.", confidence = "medium" },
 
     -- The Tome of Divinity (Tiza Battleforge)
-    [1785] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1785] = { threat = "LOW", reason = "This is a dialogue step in Ironforge with no combat.", confidence = "medium" },
 
     -- The Tome of Divinity (Resurrect Henze)
-    [1786] = { threat = "MEDIUM", reason = "Henze's corpse is in a Defias camp in Elwynn Forest, guarded by level 10-14 Defias mobs. Clear the area before resurrecting and watch for adds. Do not attempt below level 12 solo.", confidence = "medium" },
+    [1786] = { threat = "MEDIUM", reason = "The resurrection target is in a Defias camp in Elwynn Forest. Clear nearby enemies before using the Symbol of Life and watch for respawns.", confidence = "medium" },
 
     -- The Tome of Divinity (Defias Script)
-    [1787] = { threat = "MEDIUM", reason = "The wizards are levels 12-16 and are packed in camps. They cast fireballs and can pull in groups. Clear methodically and watch for adds. Do not attempt below level 12 solo.", confidence = "medium" },
+    [1787] = { threat = "MEDIUM", reason = "Defias Rogue Wizards guard the script and use ranged fire attacks from camps. Pull them separately and avoid fighting several casters at once.", confidence = "medium" },
 
     -- The Tome of Divinity (Duthorian)
-    [1788] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1788] = { threat = "LOW", reason = "This is a dialogue step in Stormwind with no combat.", confidence = "medium" },
+
+    -- The Symbol of Life (Dwarf)
+    [1789] = { threat = "LOW", reason = "This is a class-item hand-in with no required combat.", confidence = "medium" },
+
+    -- The Symbol of Life (Human)
+    [1790] = { threat = "LOW", reason = "This is a class-item hand-in with no required combat.", confidence = "medium" },
 
     -- The Windwatcher
-    [1791] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Alterac is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
+    [1791] = { threat = "MEDIUM", reason = "This is a travel and dialogue step to Bath’rah in Alterac, a hazardous route for a character near the chain’s minimum level. Stay on roads where possible and avoid hostile camps.", confidence = "medium" },
+
+    -- Whirlwind Weapon
+    [1792] = { threat = "LOW", reason = "This is the final weapon reward hand-in after the Cyclonian encounter, with no additional combat objective.", confidence = "medium" },
+
+    -- The Tome of Valor (Stormwind)
+    [1793] = { threat = "LOW", reason = "This is a book hand-in in Stormwind with no combat.", confidence = "medium" },
+
+    -- The Tome of Valor (Ironforge)
+    [1794] = { threat = "LOW", reason = "This is a book hand-in in Ironforge with no combat.", confidence = "medium" },
 
     -- The Binding (Felhunter)
-    [1795] = { threat = "MEDIUM", reason = "The felhunter is a level 30 elite demon that you must defeat. This is a warlock class quest. The fight takes place in the tower above Ratchet. A level 30 warlock soloed this with a Voidwalker and fear kiting. Do not attempt below level 30 solo without a plan to manage the felhunter's spell lock and high damage.", confidence = "high" },
+    [1795] = { threat = "MEDIUM", reason = "Elite quest. The summoned felhunter is a difficult fight for a level 30 Warlock, but the class has tools to manage it. Clear around the tower, keep the demon controlled, and use the pet and cooldowns.", confidence = "medium" },
 
     -- Components for the Enchanted Gold Bloodrobe
-    [1796] = { threat = "MEDIUM", reason = "The robes are crafted from materials gathered in previous quests. This is a delivery step with no combat. The journey to the Barrens is safe if you stay on the road.", confidence = "high" },
+    [1796] = { threat = "LOW", reason = "This is a delivery step to the Barrens with no required combat. Use roads and avoid hostile camps along the long route.", confidence = "medium" },
 
     -- Seeking Strahad
-    [1798] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Ratchet is safe if you stay on the road.", confidence = "high" },
+    [1798] = { threat = "MEDIUM", reason = "This Alliance travel step leads to Ratchet in the Barrens, far from safe Alliance hubs. Travel through contested zones carefully and avoid hostile camps.", confidence = "medium" },
 
     -- Fragments of the Orb of Orahil
-    [1799] = { threat = "MEDIUM", reason = "The Infernal Orb is obtained by killing a level 35 elite infernal. This is a warlock class quest. The journey to Dustwallow Marsh is dangerous for low-level players. Do not attempt below level 35 solo without a group.", confidence = "medium" },
+    [1799] = { threat = "HIGH", reason = "The quest chain requires fighting through higher-level Burning Blade enemies in Desolace and then defeating a level 40 elite demon summoned near Tabetha. Clear the area and use a Warlock pet, fear, and consumables; consider a group if those tools are not enough.", confidence = "medium" },
 
     -- Lordaeron Throne Room (Undercity)
-    [1800] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1800] = { threat = "LOW", reason = "This holiday step is a short visit to the Lordaeron throne room with no required combat. Stay inside the Undercity ruins and avoid nearby hostile guards if traveling at low level.", confidence = "medium" },
 
     -- Tome of the Cabal (Warlock - Thousand Needles)
     [1801] = { threat = "MEDIUM", reason = "The manuscript is in a box on a shelf inside the cave. The centaurs guarding the cave are levels 28-30 and can pull in groups. Clear the entrance and pull singles. The Tattered Manuscript is inside the cave on the right side, up a ramp.", confidence = "medium" },
