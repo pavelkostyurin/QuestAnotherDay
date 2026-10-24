@@ -2048,41 +2048,65 @@ addon.quests = {
     -- Enchanted Thorium Platemail: Volume III
     [7651] = { threat = "LOW", reason = "Delivery step with no combat. The book is obtained from a dungeon; this is a turn-in. Safe if you stay in the area.", confidence = "high" },
 
+    -- A Blue Light Bargain
+    [7652] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper in Gadgetzan for an Imperial Plate recipe. This is a vendor transaction with no combat objective.", confidence = "medium" },
+
+    -- Imperial Plate Belt
+    [7653] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Belt plans. This is a city transaction with no combat objective.", confidence = "medium" },
+
+    -- Imperial Plate Boots
+    [7654] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Boots plans. This is a city transaction with no combat objective.", confidence = "medium" },
+
+    -- Imperial Plate Bracer
+    [7655] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Bracer plans. This is a city transaction with no combat objective.", confidence = "medium" },
+
+    -- Imperial Plate Chest
+    [7656] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Chest plans. This is a city transaction with no combat objective.", confidence = "medium" },
+
+    -- Imperial Plate Helm
+    [7657] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Helm plans. This is a city transaction with no combat objective.", confidence = "medium" },
+
+    -- Imperial Plate Leggings
+    [7658] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Leggings plans. This is a city transaction with no combat objective.", confidence = "medium" },
+
+    -- Imperial Plate Shoulders
+    [7659] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Shoulders plans. This is a city transaction with no combat objective.", confidence = "medium" },
+
     -- WANTED: Overseer Maltorius
-    [7701] = { threat = "HIGH", reason = "Overseer Maltorius is a level 50 elite Dark Iron dwarf inside the Slag Pit in the Searing Gorge. He is surrounded by elite guards. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7701] = { threat = "HIGH", reason = "Elite quest. Overseer Maltorius is guarded by two elite dwarves inside the Slag Pit, where nearby enemies can make retreat difficult. Isolate the guards and bring help or return with a strong overleveling advantage.", confidence = "medium" },
 
     -- Unfinished Gordok Business
     [7703] = { threat = "EXTREME", reason = "Elite quest. Requires entering Dire Maul's Gordok wing to find the Gauntlet of Gordok Might. The wing is filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Look at the Size of It!
-    [7704] = { threat = "LOW", reason = "Delivery step with no combat. The pillow is obtained from a previous quest. The journey to the Searing Gorge is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [7704] = { threat = "LOW", reason = "Deliver the pillow to Evonice Sootsmoker in the Searing Gorge. The hand-in adds no combat; use a safe route through the zone.", confidence = "medium" },
 
     -- Fuel for the Zapping
-    [7721] = { threat = "MEDIUM", reason = "Water Elemental Cores drop from Sea Elementals and Sea Sprays along the Forgotten Coast in Feralas, levels 45-48. The elementals are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [7721] = { threat = "MEDIUM", reason = "Collect Water Elemental Cores along the Forgotten Coast. The elementals hit hard, appear densely along the shore and can take many kills to yield ten cores; pull away from nearby giants and keep an escape route.", confidence = "medium" },
 
     -- What the Flux?
-    [7722] = { threat = "HIGH", reason = "The Secret Plans: Fiery Flux are in the Slag Pit in the Searing Gorge, patrolled by level 48-52 elite Dark Iron dwarves and golems. The Slag Pit is a deathtrap for solo players. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7722] = { threat = "HIGH", reason = "The Fiery Flux plans lie inside the Slag Pit among elite Dark Iron enemies. Class control can make a quick grab possible, but a resisted control or blocked escape can turn the pull lethal; scout a route and avoid clearing the whole camp.", confidence = "medium" },
 
     -- Curse These Fat Fingers
-    [7723] = { threat = "MEDIUM", reason = "Heavy War Golems are levels 48-52 in the Searing Gorge. They hit hard and have knockbacks. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [7723] = { threat = "LOW", reason = "Defeat Heavy War Golems around the Searing Gorge Cauldron. They are ordinary open-area targets; pull one at a time and avoid nearby camps.", confidence = "medium" },
 
     -- Fiery Menace!
-    [7724] = { threat = "MEDIUM", reason = "Greater Lava Spiders are levels 48-52 in the Searing Gorge, found near lava pools. They have a fire-based attack. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [7724] = { threat = "MEDIUM", reason = "Greater Lava Spiders patrol plateaus and lava pools in the Searing Gorge. Their fire attacks and the rough ground can complicate a retreat; pull one at a time on open ground.", confidence = "low" },
 
     -- Again With the Zapped Giants
-    [7725] = { threat = "EXTREME", reason = "The zapper turns elite giants into non-elites, but the giants are elite until zapped. Without the zapper, elite giants require a group or level 55+. With the zapper, soloable at 45+. Do not attempt the giants without the zapper below level 55.", confidence = "high" },
+    [7725] = { threat = "MEDIUM", reason = "Use Zorbin’s Ultra-Shrinker on Feralas giants before fighting them and collect residue from the reduced targets. Nearby unshrunk giants can overwhelm a solo character; keep the device ready and avoid fighting an unshrunk giant.", confidence = "medium" },
 
     -- Refuel for the Zapping
-    [7726] = { threat = "MEDIUM", reason = "Water Elemental Cores drop from Sea Elementals and Sea Sprays along the Forgotten Coast in Feralas, levels 45-48. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [7726] = { threat = "MEDIUM", reason = "Collect six Water Elemental Cores along the Forgotten Coast. Elementals can hit hard and the shore is crowded; pull carefully and keep away from the nearby giants.", confidence = "medium" },
 
     -- Incendosaurs? Whateverosaur is More Like It
-    [7727] = { threat = "HIGH", reason = "Incendosaurs are levels 50-54 in the lava pools inside the Slag Pit in the Searing Gorge. The Slag Pit is filled with elite Dark Iron dwarves and golems. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7727] = { threat = "MEDIUM", reason = "Defeat Incendosaurs in the lava pools inside the Slag Pit. The confined area and nearby Dark Iron enemies can add extra attackers; clear a short retreat path and avoid pulling from several camps.", confidence = "medium" },
 
     -- STOLEN: Smithing Tuyere and Lookout's Spyglass
-    [7728] = { threat = "HIGH", reason = "The items are held by level 48-52 elite Dark Iron dwarves in the Searing Gorge. They are in camps patrolled by additional elites. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7728] = { threat = "MEDIUM", reason = "Find the Smithing Tuyere and Lookout’s Spyglass from Dark Iron Steamsmiths and Lookouts around the Cauldron. The low drops can keep you exposed to hostile camps for many kills; work the outer spawns and pull away from towers.", confidence = "medium" },
 
     -- JOB OPPORTUNITY: Culling the Competition
-    [7729] = { threat = "HIGH", reason = "Dark Iron Taskmasters and Slavers are levels 48-52 elites in the Searing Gorge. They pull in groups and hit hard. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7729] = { threat = "MEDIUM", reason = "Defeat Dark Iron Taskmasters and Slavers in the Searing Gorge camps. Nearby enemies can join pulls, especially around the Cauldron; work the outer camps and draw targets into clear ground.", confidence = "medium" },
 
     -- Blackhand's Command
     [7761] = { threat = "EXTREME", reason = "Elite quest. Requires entering Upper Blackrock Spire to find the Mark of Drakkisath, which is guarded by General Drakkisath, a level 63 elite boss. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },

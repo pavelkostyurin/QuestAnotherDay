@@ -8532,7 +8532,7 @@ addon.quests = {
     [7640] = { threat = "HIGH", reason = "Paladin class quest. Use the Exorcism Censer at green auras in Terrordale and defeat the spirits that emerge. Several spirits can attack together and their curse can sharply reduce your combat resources; clear nearby undead and activate one area at a time.", confidence = "medium" },
 
     -- The Work of Grimand Elmore
-    [7641] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7641] = { threat = "LOW", reason = "Speak with Grimand Elmore in Stormwind’s Dwarven District. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Collection of Goods
     [7642] = { threat = "LOW", reason = "Paladin class quest collection step with no combat beyond gathering the materials and 150 gold. Safe if you stay in the city.", confidence = "high" },
@@ -8541,19 +8541,19 @@ addon.quests = {
     [7643] = { threat = "EXTREME", reason = "Elite quest. Requires entering Dire Maul to kill Tendris Warpwood, a level 58 elite treant, and free the Ancient Equine Spirit. Dire Maul is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Blessed Arcanite Barding
-    [7644] = { threat = "LOW", reason = "Paladin class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7644] = { threat = "LOW", reason = "Return the blessed barding to Lord Grayson in Stormwind’s Cathedral District. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Manna-Enriched Horse Feed
-    [7645] = { threat = "LOW", reason = "Paladin class quest collection step with no combat beyond purchasing the biscuits and 50 gold. Safe if you stay in the city.", confidence = "high" },
+    [7645] = { threat = "LOW", reason = "Bring the requested Enriched Manna Biscuits to Merideth Carlson in Southshore. Obtaining the trade goods and handing them in adds no unusual combat objective.", confidence = "medium" },
 
     -- The Divination Scryer
-    [7646] = { threat = "LOW", reason = "Paladin class quest collection step with no combat beyond gathering the diamonds. Safe if you stay in the city.", confidence = "high" },
+    [7646] = { threat = "LOW", reason = "Deliver the two diamonds to Lord Grayson in Stormwind. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- Judgment and Redemption
     [7647] = { threat = "EXTREME", reason = "Elite quest. Requires using the Divination Scryer in Scholomance to summon waves of elite spirits, culminating in Death Knight Darkreaver, a level 60 elite. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ with a coordinated strategy is required. Do not attempt solo.", confidence = "high" },
 
     -- Grimand's Finest Work
-    [7648] = { threat = "LOW", reason = "Paladin class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7648] = { threat = "LOW", reason = "Take the Arcanite Barding to Lord Grayson in Stormwind for inspection. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Enchanted Thorium Platemail: Volume I
     [7649] = { threat = "LOW", reason = "Delivery step with no combat. The book is obtained from a dungeon; this is a turn-in. Safe if you stay in the area.", confidence = "high" },
@@ -8564,74 +8564,89 @@ addon.quests = {
     -- Enchanted Thorium Platemail: Volume III
     [7651] = { threat = "LOW", reason = "Delivery step with no combat. The book is obtained from a dungeon; this is a turn-in. Safe if you stay in the area.", confidence = "high" },
 
+    [7652] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper in Gadgetzan for an Imperial Plate recipe. This is a vendor transaction with no combat objective.", confidence = "medium" },
+    [7653] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Belt plans. This is a city transaction with no combat objective.", confidence = "medium" },
+    [7654] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Boots plans. This is a city transaction with no combat objective.", confidence = "medium" },
+    [7655] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Bracer plans. This is a city transaction with no combat objective.", confidence = "medium" },
+    [7656] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Chest plans. This is a city transaction with no combat objective.", confidence = "medium" },
+    [7657] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Helm plans. This is a city transaction with no combat objective.", confidence = "medium" },
+    [7658] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Leggings plans. This is a city transaction with no combat objective.", confidence = "medium" },
+    [7659] = { threat = "LOW", reason = "Trade the required thorium bars to Derotain Mudsipper for the Imperial Plate Shoulders plans. This is a city transaction with no combat objective.", confidence = "medium" },
     -- Wolf Swapping - Arctic Wolf (Alterac Valley)
-    [7660] = { threat = "LOW", reason = "Exchange your mount for an Arctic Wolf. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7660] = { threat = "LOW", reason = "Exchange your mount for an Arctic Wolf with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Wolf Swapping - Red Wolf (Alterac Valley)
-    [7661] = { threat = "LOW", reason = "Exchange your mount for a Red Wolf. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7661] = { threat = "LOW", reason = "Exchange your mount for a Red Wolf with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- New Kodo - Teal (Alterac Valley)
-    [7662] = { threat = "LOW", reason = "Exchange your mount for a Teal Kodo. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7662] = { threat = "LOW", reason = "Exchange your mount for a Teal Kodo with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- New Kodo - Green (Alterac Valley)
-    [7663] = { threat = "LOW", reason = "Exchange your mount for a Green Kodo. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7663] = { threat = "LOW", reason = "Exchange your mount for a Green Kodo with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Ivory Raptor Replacement (Alterac Valley)
-    [7664] = { threat = "LOW", reason = "Exchange your mount for an Ivory Raptor. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7664] = { threat = "LOW", reason = "Exchange your mount for an Ivory Raptor with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Red Raptor Replacement (Alterac Valley)
-    [7665] = { threat = "LOW", reason = "Exchange your mount for a Red Raptor. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7665] = { threat = "LOW", reason = "Exchange your mount for a Red Raptor with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Material Assistance (Horde - Orgrimmar)
-    [7667] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7667] = { threat = "LOW", reason = "Bring the diamonds to Sagorne Crestrider in Orgrimmar. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- The Darkreaver Menace (Horde - Scholomance)
     [7668] = { threat = "EXTREME", reason = "You must fight through three waves of elite ghosts (blue, green, and purple) before Darkreaver spawns. The green wave is the hardest, with 3-4 level 59-60 elites that wander and can pull the whole room. The fight lasts 15-25 minutes and expects wipes. This requires a full group of level 58+ with a coordinated strategy. Do not attempt without a group and voice communication.", confidence = "high" },
 
     -- Again Into the Great Ossuary (Horde - Scholomance)
-    [7669] = { threat = "HIGH", reason = "This is the follow-up to The Darkreaver Menace. Scholomance is a level 58-60 dungeon filled with elites. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [7669] = { threat = "LOW", reason = "Obtain another Divination Scryer from the Horde quest giver in Orgrimmar. This repeatable city exchange adds no combat.", confidence = "medium" },
 
     -- Lord Grayson Shadowbreaker (7670)
-    [7670] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7670] = { threat = "LOW", reason = "Speak with Lord Grayson Shadowbreaker in Stormwind’s Cathedral District. This city dialogue step adds no combat.", confidence = "medium" },
 
+    [7671] = { threat = "LOW", reason = "Exchange your mount for a Frostsaber with the Darnassus mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+    [7672] = { threat = "LOW", reason = "Exchange your mount for a Nightsaber with the Darnassus mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+    [7673] = { threat = "LOW", reason = "Exchange your mount for a Frost Ram with the Ironforge mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+    [7674] = { threat = "LOW", reason = "Exchange your mount for a Black Ram with the Ironforge mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+    [7675] = { threat = "LOW", reason = "Exchange your mount for an Icy Blue Mechanostrider with the Ironforge mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+    [7676] = { threat = "LOW", reason = "Exchange your mount for a White Mechanostrider with the Ironforge mount vendor. This reward transaction adds no combat.", confidence = "medium" },
     -- White Stallion Exchange
-    [7677] = { threat = "LOW", reason = "Mount exchange step with no combat. Requires 500 gold. Safe if you stay in the city.", confidence = "high" },
+    [7677] = { threat = "LOW", reason = "Exchange your White Stallion for a Palomino and pay the required fee. This Stormwind mount transaction adds no combat.", confidence = "medium" },
 
+    [7678] = { threat = "LOW", reason = "Exchange your mount for a Palomino with the Stormwind mount vendor. This reward transaction adds no combat.", confidence = "medium" },
     -- WANTED: Overseer Maltorius
-    [7701] = { threat = "HIGH", reason = "Overseer Maltorius is a level 50 elite Dark Iron dwarf inside the Slag Pit in the Searing Gorge. He is surrounded by elite guards. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7701] = { threat = "HIGH", reason = "Elite quest. Overseer Maltorius is guarded by two elite dwarves inside the Slag Pit, where nearby enemies can make retreat difficult. Isolate the guards and bring help or return with a strong overleveling advantage.", confidence = "medium" },
 
     -- Unfinished Gordok Business
     [7703] = { threat = "EXTREME", reason = "Elite quest. Requires entering Dire Maul's Gordok wing to find the Gauntlet of Gordok Might. The wing is filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Look at the Size of It!
-    [7704] = { threat = "LOW", reason = "Delivery step with no combat. The pillow is obtained from a previous quest. The journey to the Searing Gorge is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [7704] = { threat = "LOW", reason = "Deliver the pillow to Evonice Sootsmoker in the Searing Gorge. The hand-in adds no combat; use a safe route through the zone.", confidence = "medium" },
 
     -- Fuel for the Zapping
-    [7721] = { threat = "MEDIUM", reason = "Water Elemental Cores drop from Sea Elementals and Sea Sprays along the Forgotten Coast in Feralas, levels 45-48. The elementals are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [7721] = { threat = "MEDIUM", reason = "Collect Water Elemental Cores along the Forgotten Coast. The elementals hit hard, appear densely along the shore and can take many kills to yield ten cores; pull away from nearby giants and keep an escape route.", confidence = "medium" },
 
     -- What the Flux?
-    [7722] = { threat = "HIGH", reason = "The Secret Plans: Fiery Flux are in the Slag Pit in the Searing Gorge, patrolled by level 48-52 elite Dark Iron dwarves and golems. The Slag Pit is a deathtrap for solo players. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7722] = { threat = "HIGH", reason = "The Fiery Flux plans lie inside the Slag Pit among elite Dark Iron enemies. Class control can make a quick grab possible, but a resisted control or blocked escape can turn the pull lethal; scout a route and avoid clearing the whole camp.", confidence = "medium" },
 
     -- Curse These Fat Fingers
-    [7723] = { threat = "MEDIUM", reason = "Heavy War Golems are levels 48-52 in the Searing Gorge. They hit hard and have knockbacks. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [7723] = { threat = "LOW", reason = "Defeat Heavy War Golems around the Searing Gorge Cauldron. They are ordinary open-area targets; pull one at a time and avoid nearby camps.", confidence = "medium" },
 
     -- Fiery Menace!
-    [7724] = { threat = "MEDIUM", reason = "Greater Lava Spiders are levels 48-52 in the Searing Gorge, found near lava pools. They have a fire-based attack. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [7724] = { threat = "MEDIUM", reason = "Greater Lava Spiders patrol plateaus and lava pools in the Searing Gorge. Their fire attacks and the rough ground can complicate a retreat; pull one at a time on open ground.", confidence = "low" },
 
     -- Again With the Zapped Giants
-    [7725] = { threat = "EXTREME", reason = "The zapper turns elite giants into non-elites, but the giants are elite until zapped. Without the zapper, elite giants require a group or level 55+. With the zapper, soloable at 45+. Do not attempt the giants without the zapper below level 55.", confidence = "high" },
+    [7725] = { threat = "MEDIUM", reason = "Use Zorbin’s Ultra-Shrinker on Feralas giants before fighting them and collect residue from the reduced targets. Nearby unshrunk giants can overwhelm a solo character; keep the device ready and avoid fighting an unshrunk giant.", confidence = "medium" },
 
     -- Refuel for the Zapping
-    [7726] = { threat = "MEDIUM", reason = "Water Elemental Cores drop from Sea Elementals and Sea Sprays along the Forgotten Coast in Feralas, levels 45-48. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [7726] = { threat = "MEDIUM", reason = "Collect six Water Elemental Cores along the Forgotten Coast. Elementals can hit hard and the shore is crowded; pull carefully and keep away from the nearby giants.", confidence = "medium" },
 
     -- Incendosaurs? Whateverosaur is More Like It
-    [7727] = { threat = "HIGH", reason = "Incendosaurs are levels 50-54 in the lava pools inside the Slag Pit in the Searing Gorge. The Slag Pit is filled with elite Dark Iron dwarves and golems. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7727] = { threat = "MEDIUM", reason = "Defeat Incendosaurs in the lava pools inside the Slag Pit. The confined area and nearby Dark Iron enemies can add extra attackers; clear a short retreat path and avoid pulling from several camps.", confidence = "medium" },
 
     -- STOLEN: Smithing Tuyere and Lookout's Spyglass
-    [7728] = { threat = "HIGH", reason = "The items are held by level 48-52 elite Dark Iron dwarves in the Searing Gorge. They are in camps patrolled by additional elites. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7728] = { threat = "MEDIUM", reason = "Find the Smithing Tuyere and Lookout’s Spyglass from Dark Iron Steamsmiths and Lookouts around the Cauldron. The low drops can keep you exposed to hostile camps for many kills; work the outer spawns and pull away from towers.", confidence = "medium" },
 
     -- JOB OPPORTUNITY: Culling the Competition
-    [7729] = { threat = "HIGH", reason = "Dark Iron Taskmasters and Slavers are levels 48-52 elites in the Searing Gorge. They pull in groups and hit hard. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [7729] = { threat = "MEDIUM", reason = "Defeat Dark Iron Taskmasters and Slavers in the Searing Gorge camps. Nearby enemies can join pulls, especially around the Cauldron; work the outer camps and draw targets into clear ground.", confidence = "medium" },
 
     -- Zukk'ash Infestation (Horde - Feralas)
     [7730] = { threat = "MEDIUM", reason = "The bugs are levels 44-46 and the drop rate is 100%. The Workers run away at low health at +60% speed and can go through terrain, so be ready to chase or kill them quickly. Watch for Stinglasher, a level 47 named bug who patrols the area and can ambush you mid-fight. A level 44 shaman almost died to Stinglasher. Bring a healing potion.", confidence = "high" },

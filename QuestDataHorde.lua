@@ -3132,31 +3132,31 @@ local quests = {
     [7541] = { threat = "LOW", reason = "Speak with Zor Lonetree in Orgrimmar and choose a ring reward. This is a city reward hand-in with no combat.", confidence = "medium" },
 
     -- Wolf Swapping - Arctic Wolf
-    [7660] = { threat = "LOW", reason = "Exchange your mount for an Arctic Wolf. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7660] = { threat = "LOW", reason = "Exchange your mount for an Arctic Wolf with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Wolf Swapping - Red Wolf
-    [7661] = { threat = "LOW", reason = "Exchange your mount for a Red Wolf. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7661] = { threat = "LOW", reason = "Exchange your mount for a Red Wolf with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- New Kodo - Teal
-    [7662] = { threat = "LOW", reason = "Exchange your mount for a Teal Kodo. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7662] = { threat = "LOW", reason = "Exchange your mount for a Teal Kodo with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- New Kodo - Green
-    [7663] = { threat = "LOW", reason = "Exchange your mount for a Green Kodo. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7663] = { threat = "LOW", reason = "Exchange your mount for a Green Kodo with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Ivory Raptor Replacement
-    [7664] = { threat = "LOW", reason = "Exchange your mount for an Ivory Raptor. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7664] = { threat = "LOW", reason = "Exchange your mount for an Ivory Raptor with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Red Raptor Replacement
-    [7665] = { threat = "LOW", reason = "Exchange your mount for a Red Raptor. Dialogue and reward step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7665] = { threat = "LOW", reason = "Exchange your mount for a Red Raptor with the Horde mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Material Assistance
-    [7667] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7667] = { threat = "LOW", reason = "Bring the diamonds to Sagorne Crestrider in Orgrimmar. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- The Darkreaver Menace
     [7668] = { threat = "EXTREME", reason = "You must fight through three waves of elite ghosts (blue, green, and purple) before Darkreaver spawns. The green wave is the hardest, with 3-4 level 59-60 elites that wander and can pull the whole room. The fight lasts 15-25 minutes and expects wipes. This requires a full group of level 58+ with a coordinated strategy. Do not attempt without a group and voice communication.", confidence = "high" },
 
     -- Again Into the Great Ossuary
-    [7669] = { threat = "HIGH", reason = "This is the follow-up to The Darkreaver Menace. Scholomance is a level 58-60 dungeon filled with elites. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
+    [7669] = { threat = "LOW", reason = "Obtain another Divination Scryer from the Horde quest giver in Orgrimmar. This repeatable city exchange adds no combat.", confidence = "medium" },
 
     -- Zukk'ash Infestation
     [7730] = { threat = "MEDIUM", reason = "The bugs are levels 44-46 and the drop rate is 100%. The Workers run away at low health at +60% speed and can go through terrain, so be ready to chase or kill them quickly. Watch for Stinglasher, a level 47 named bug who patrols the area and can ambush you mid-fight. A level 44 shaman almost died to Stinglasher. Bring a healing potion.", confidence = "high" },

@@ -3771,7 +3771,7 @@ local quests = {
     [7640] = { threat = "HIGH", reason = "Paladin class quest. Use the Exorcism Censer at green auras in Terrordale and defeat the spirits that emerge. Several spirits can attack together and their curse can sharply reduce your combat resources; clear nearby undead and activate one area at a time.", confidence = "medium" },
 
     -- The Work of Grimand Elmore
-    [7641] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7641] = { threat = "LOW", reason = "Speak with Grimand Elmore in Stormwind’s Dwarven District. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Collection of Goods
     [7642] = { threat = "LOW", reason = "Paladin class quest collection step with no combat beyond gathering the materials and 150 gold. Safe if you stay in the city.", confidence = "high" },
@@ -3780,25 +3780,46 @@ local quests = {
     [7643] = { threat = "EXTREME", reason = "Elite quest. Requires entering Dire Maul to kill Tendris Warpwood, a level 58 elite treant, and free the Ancient Equine Spirit. Dire Maul is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Blessed Arcanite Barding
-    [7644] = { threat = "LOW", reason = "Paladin class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7644] = { threat = "LOW", reason = "Return the blessed barding to Lord Grayson in Stormwind’s Cathedral District. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Manna-Enriched Horse Feed
-    [7645] = { threat = "LOW", reason = "Paladin class quest collection step with no combat beyond purchasing the biscuits and 50 gold. Safe if you stay in the city.", confidence = "high" },
+    [7645] = { threat = "LOW", reason = "Bring the requested Enriched Manna Biscuits to Merideth Carlson in Southshore. Obtaining the trade goods and handing them in adds no unusual combat objective.", confidence = "medium" },
 
     -- The Divination Scryer
-    [7646] = { threat = "LOW", reason = "Paladin class quest collection step with no combat beyond gathering the diamonds. Safe if you stay in the city.", confidence = "high" },
+    [7646] = { threat = "LOW", reason = "Deliver the two diamonds to Lord Grayson in Stormwind. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- Judgment and Redemption
     [7647] = { threat = "EXTREME", reason = "Elite quest. Requires using the Divination Scryer in Scholomance to summon waves of elite spirits, culminating in Death Knight Darkreaver, a level 60 elite. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ with a coordinated strategy is required. Do not attempt solo.", confidence = "high" },
 
     -- Grimand's Finest Work
-    [7648] = { threat = "LOW", reason = "Paladin class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7648] = { threat = "LOW", reason = "Take the Arcanite Barding to Lord Grayson in Stormwind for inspection. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Lord Grayson Shadowbreaker
-    [7670] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7670] = { threat = "LOW", reason = "Speak with Lord Grayson Shadowbreaker in Stormwind’s Cathedral District. This city dialogue step adds no combat.", confidence = "medium" },
+
+    -- Frostsaber Replacement
+    [7671] = { threat = "LOW", reason = "Exchange your mount for a Frostsaber with the Darnassus mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+
+    -- Nightsaber Replacement
+    [7672] = { threat = "LOW", reason = "Exchange your mount for a Nightsaber with the Darnassus mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+
+    -- Frost Ram Exchange
+    [7673] = { threat = "LOW", reason = "Exchange your mount for a Frost Ram with the Ironforge mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+
+    -- Black Ram Exchange
+    [7674] = { threat = "LOW", reason = "Exchange your mount for a Black Ram with the Ironforge mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+
+    -- Icy Blue Mechanostrider Replacement
+    [7675] = { threat = "LOW", reason = "Exchange your mount for an Icy Blue Mechanostrider with the Ironforge mount vendor. This reward transaction adds no combat.", confidence = "medium" },
+
+    -- White Mechanostrider Replacement
+    [7676] = { threat = "LOW", reason = "Exchange your mount for a White Mechanostrider with the Ironforge mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- White Stallion Exchange
-    [7677] = { threat = "LOW", reason = "Mount exchange step with no combat. Requires 500 gold. Safe if you stay in the city.", confidence = "high" },
+    [7677] = { threat = "LOW", reason = "Exchange your White Stallion for a Palomino and pay the required fee. This Stormwind mount transaction adds no combat.", confidence = "medium" },
+
+    -- Palomino Exchange
+    [7678] = { threat = "LOW", reason = "Exchange your mount for a Palomino with the Stormwind mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Improved Quality
     [7733] = { threat = "MEDIUM", reason = "Rage Scar Yeti Hides drop from yetis in Feralas, levels 43-47. The yetis are aggressive and pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
