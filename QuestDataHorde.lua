@@ -2823,7 +2823,7 @@ local quests = {
     [6503] = { threat = "MEDIUM", reason = "Kill nine Ashenvale Outrunners and return to Kuray’bin. The night elf scouts can be stealthed and patrol the roads; fight in open ground and watch for additional enemies.", confidence = "medium" },
 
     -- The Lost Pages
-    [6504] = { threat = "MEDIUM", reason = "The satyrs are levels 25-28 and cast shadow magic. They are concentrated in camps and can pull in groups. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
+    [6504] = { threat = "MEDIUM", reason = "Collect the twelve missing Shredder Operating Manual pages in Ashenvale and assemble them into three chapters. The pages come from hostile local creatures, so work through camps carefully and avoid pulling several satyrs at once.", confidence = "medium" },
 
     -- An Unholy Alliance
     [6521] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before engaging.", confidence = "medium" },
@@ -2832,31 +2832,31 @@ local quests = {
     [6522] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before engaging.", confidence = "medium" },
 
     -- Protect Kaya
-    [6523] = { threat = "MEDIUM", reason = "The escort spawns three mobs at the ruined village (including a caster who deals heavy damage). Kaya has limited health and will die if you do not pull aggro off her. Use AoE or tab-target to grab the mobs quickly. A level 18 mage died on the first attempt. Solo is possible at level 18+ with careful play, but bringing a friend is safer.", confidence = "high" },
+    [6523] = { threat = "MEDIUM", reason = "Escort Kaya Flathoof from Stonetalon to Camp Aparaje, then return to Makaba. Grimtotem enemies attack during the route and Kaya can be overwhelmed; stay close, pull attackers off her and avoid starting while nearby camps are active.", confidence = "medium" },
 
     -- Report to Kadrak
-    [6541] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6541] = { threat = "LOW", reason = "Report to Kadrak at the northern Barrens watchtower. This dialogue step adds no combat; use a clear route.", confidence = "medium" },
 
     -- Report to Kadrak
-    [6542] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6542] = { threat = "LOW", reason = "Report to Kadrak at the northern Barrens watchtower. This dialogue step adds no combat; use a clear route.", confidence = "medium" },
 
     -- The Warsong Reports
-    [6543] = { threat = "MEDIUM", reason = "The outrunners are stealthed night elves that patrol the roads. They are levels 25-28 and can ambush you. Fight in open areas and check for prowling cats between pulls.", confidence = "medium" },
+    [6543] = { threat = "LOW", reason = "Read the Warsong Reports and speak with the scout, runner and outrider to collect their updates. These are conversations along Ashenvale routes; avoid nearby hostile patrols while travelling.", confidence = "medium" },
 
     -- Torek's Assault
-    [6544] = { threat = "HIGH", reason = "The quest spawns waves of enemies, including elites. Torek can die, failing the quest. Clear the area before starting and bring a group. Do not attempt solo below level 28.", confidence = "high" },
+    [6544] = { threat = "HIGH", reason = "Escort Torek as he attacks Silverwing Outpost and defeats Duriel Moonfire, then report to Ertog. The assault draws multiple hostile defenders and Torek can die; clear the approach and bring help if you cannot handle the event safely.", confidence = "medium" },
 
     -- Warsong Runner Update
-    [6545] = { threat = "MEDIUM", reason = "The runner patrols the roads and can be hard to find. The area is contested and patrolled by hostile mobs. Stay alert and avoid pulling multiple mobs.", confidence = "medium" },
+    [6545] = { threat = "LOW", reason = "Find the Warsong Runner and ask for an update. This is a conversation with a patrolling ally; avoid nearby hostile enemies while approaching.", confidence = "medium" },
 
     -- Warsong Outrider Update
-    [6546] = { threat = "MEDIUM", reason = "The outrider rides a wolf along the road between Splintertree Post and Azshara. The area is patrolled by satyrs (level 27+) and naga. Stay on the road and avoid the satyr villages. Do not attempt below level 20.", confidence = "high" },
+    [6546] = { threat = "LOW", reason = "Find the Warsong Outrider and ask for an update. This is a conversation with a patrolling ally; avoid nearby hostile enemies while approaching.", confidence = "medium" },
 
     -- Warsong Scout Update
-    [6547] = { threat = "MEDIUM", reason = "The scout patrols the roads and can be hard to find. The area is contested and patrolled by hostile mobs. Stay alert and avoid pulling multiple mobs.", confidence = "medium" },
+    [6547] = { threat = "LOW", reason = "Find the Warsong Scout and ask for an update. This is a conversation with a patrolling ally; avoid nearby hostile enemies while approaching.", confidence = "medium" },
 
     -- Avenge My Village
-    [6548] = { threat = "HIGH", reason = "The targets are elite night elves surrounded by guards. This is an Elite quest by design. Bring a group or overlevel significantly. Do not attempt solo below level 28.", confidence = "high" },
+    [6548] = { threat = "MEDIUM", reason = "Kill Grimtotem ruffians and mercenaries in Stonetalon, then return to Makaba. The hostile camp contains several enemies that may assist each other; pull from the edge and avoid overlapping groups.", confidence = "medium" },
 
     -- Blackfathom Villainy
     [6561] = { threat = "HIGH", reason = "Kelris is a powerful elite boss who mind-controls players and summons adds. He is deep inside the dungeon, past multiple elite packs. This requires a full group of level 22+. Do not attempt solo.", confidence = "high" },
@@ -2874,25 +2874,25 @@ local quests = {
     [6565] = { threat = "HIGH", reason = "Lorgus is a level 26 elite who patrols the tunnels. He is not particularly hard for a group, but the dungeon leading up to him is filled with elites. This requires a full group of level 22+. Do not attempt solo.", confidence = "high" },
 
     -- What the Wind Carries
-    [6566] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6566] = { threat = "LOW", reason = "Listen to Thrall in Orgrimmar. This city conversation adds no combat.", confidence = "medium" },
 
     -- The Champion of the Horde
-    [6567] = { threat = "MEDIUM", reason = "Rexxar wanders the desert wasteland between Stonetalon Mountains and Feralas. The journey through Desolace is dangerous for low-level players, but the quest itself is a dialogue step with no combat. Stay on the road and avoid the centaur camps. Do not attempt below level 40.", confidence = "high" },
+    [6567] = { threat = "LOW", reason = "Search the roads between Stonetalon and Feralas for Rexxar. This is a tracking and conversation step; avoid centaur camps and hostile patrols while travelling.", confidence = "medium" },
 
     -- The Testament of Rexxar
-    [6568] = { threat = "MEDIUM", reason = "The journey through the Plaguelands is dangerous for low-level players, but the quest itself is a delivery step with no combat. Stay on the road and avoid the Scourge camps. Do not attempt below level 45.", confidence = "high" },
+    [6568] = { threat = "LOW", reason = "Deliver Rexxar’s letter to Myranda the Hag in the Western Plaguelands. This delivery adds no combat if you have the letter; use a safe route through the zone.", confidence = "medium" },
 
     -- Oculus Illusions
     [6569] = { threat = "HIGH", reason = "You must venture into Blackrock Spire and kill elite mobs to collect an item. LBRS is a level 55-60 dungeon filled with elite orcs and trolls. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
 
     -- Emberstrife
-    [6570] = { threat = "HIGH", reason = "You must weaken him to 10% health, then use the Orb of Draconic Energy to mind-control him and use his breath to forge your Seal of Ascension. Emberstrife hits extremely hard and can resist the mind-control. A level 60 healing priest was killed by a fatal resist on Psychic Scream. Bring a group or significant overleveling. Do not attempt solo below level 58.", confidence = "high" },
+    [6570] = { threat = "MEDIUM", reason = "Enter Emberstrife’s Den in the Wyrmbog, wear the Amulet of Draconic Subversion, and speak with Emberstrife. The amulet provides an illusion for the den, but the surrounding marsh and cave are hostile; avoid combat and leave if the disguise fails.", confidence = "medium" },
 
     -- Warsong Supplies
-    [6571] = { threat = "MEDIUM", reason = "The rope and oil are held by Thistlefur and Foulweald furbolgs and satyrs in Night Run, Satyrnaar, and Xavian. These are contested zones with dense mob camps and patrolling elites. Travel to Booty Bay adds pirate and jungle risk. Clear camps from the outside in and avoid the satyr camps at night.", confidence = "medium" },
+    [6571] = { threat = "MEDIUM", reason = "Collect the Warsong supplies from Ashenvale camps and Booty Bay, including rope and oil in hostile areas. Satyrs and furbolgs guard some objectives; clear a route and avoid prolonged fights in camps with dangerous debuffs.", confidence = "medium" },
 
     -- Warsong Saw Blades
-    [6581] = { threat = "MEDIUM", reason = "The oil is guarded by level 25-28 satyrs who curse you with a 5-minute debuff that stuns and damages you. The satyrs at Night Run are the easiest to kill (topping out at level 27) and do not cast the deadly curse. A level 27 rogue soloed this. Do not attempt below level 25.", confidence = "high" },
+    [6581] = { threat = "LOW", reason = "Exchange a Deadly Blunderbuss with Pixel at Splintertree Post for the Warsong Saw Blades. This is a safe item hand-in if you already have the gun.", confidence = "medium" },
 
     -- The Test of Skulls, Scryer
     [6582] = { threat = "HIGH", reason = "Scryer is surrounded by other elite dragonkin and hits extremely hard. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
@@ -2907,40 +2907,40 @@ local quests = {
     [6585] = { threat = "HIGH", reason = "Axtroz is surrounded by elite dragonkin and hits extremely hard. This requires a full group of level 58+. Do not attempt solo.", confidence = "high" },
 
     -- Ascension...
-    [6601] = { threat = "LOW", reason = "This is a dialogue and turn-in step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6601] = { threat = "LOW", reason = "Show Rexxar the Dull Drakefire Amulet and explain the problem. This is a dialogue step and adds no combat.", confidence = "medium" },
 
     -- Blood of the Black Dragon Champion
     [6602] = { threat = "HIGH", reason = "Drakkisath is the final boss of Upper Blackrock Spire and is one of the deadliest encounters in Classic. He hits extremely hard and has powerful abilities. This requires a full raid group of 10-15 players at level 58+. Do not attempt without a coordinated group.", confidence = "high" },
 
     -- A Strange One
-    [6605] = { threat = "MEDIUM", reason = "The mob is a level 30-35 mob in a contested zone. The combat is manageable for a level 30+ character, but the journey adds risk. Do not attempt below level 30.", confidence = "medium" },
+    [6605] = { threat = "LOW", reason = "Speak with Winna Hazzard in Felwood. This is a conversation, not a level 30–35 mob fight; avoid nearby hostile creatures on the approach.", confidence = "medium" },
 
     -- You Too Good.
-    [6608] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6608] = { threat = "LOW", reason = "Travel to Nat Pagle’s island south of Theramore and speak with him. The dialogue adds no combat, though the approach crosses Dustwallow Marsh; avoid nearby hostile creatures.", confidence = "medium" },
 
     -- To Gadgetzan You Go!
-    [6611] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6611] = { threat = "LOW", reason = "Travel to Gadgetzan and speak with Dirge Quikcleave. This cooking trainer conversation adds no combat.", confidence = "medium" },
 
     -- King of the Foulweald
-    [6621] = { threat = "HIGH", reason = "The Foulwealds will swarm the banner in waves, and Chief Murgut will spawn after a few minutes. The quest text explicitly says 'Gather your allies, this is no task for a single <class>.' The furbolgs are levels 23-25 and can overwhelm solo players. A level 26 paladin soloed it but died to the chief on the first attempt. A level 25 druid soloed it by kiting the waves. Do not attempt below level 26 solo without a specific kiting strategy. Bring a group if possible.", confidence = "high" },
+    [6621] = { threat = "HIGH", reason = "Place Karang’s Banner at the Foulweald Totem Mound, defend it, defeat Chief Murgut and return with his totem. Furbolgs attack in waves and the chief joins the event; bring allies and clear the area before starting.", confidence = "medium" },
 
     -- Triage
-    [6622] = { threat = "LOW", reason = "You must save 15 patients before 6 die by using Triage Bandages. This is a timed puzzle quest with no combat. The bandages are supplied. Safe if you follow the correct order: Critically Injured first, then Badly Injured, then Injured.", confidence = "high" },
+    [6622] = { threat = "LOW", reason = "Use the supplied Triage Bandages to save fifteen patients before six die. This is a timed profession challenge with no combat; treat the critically injured first, then the badly injured, then the injured.", confidence = "medium" },
 
     -- Horde Trauma
-    [6623] = { threat = "LOW", reason = "This is the follow-up to Triage. You must complete the Triage exam to earn the Horde Trauma title. No combat required. Safe if you follow the triage order.", confidence = "high" },
+    [6623] = { threat = "LOW", reason = "Speak with Doctor Gregory Victor at Hammerfall about Horde Trauma. This is a settlement conversation and adds no combat.", confidence = "medium" },
 
     -- Test of Lore
-    [6627] = { threat = "MEDIUM", reason = "The quest leads into the Scarlet Monastery to retrieve a book. The Monastery is a level 30-40 dungeon filled with elites. This requires a full group of level 33+. Do not attempt solo.", confidence = "high" },
+    [6627] = { threat = "LOW", reason = "Answer Braug Dimspirit’s lore question and speak with him again. This is a quiz and adds no combat; in Classic, a wrong answer teleports you rather than starting a fight.", confidence = "medium" },
 
     -- Test of Lore
-    [6628] = { threat = "MEDIUM", reason = "The quest leads deeper into the Scarlet Monastery. Full group of level 33+ required.", confidence = "high" },
+    [6628] = { threat = "LOW", reason = "Answer Parqual Fintallas’ lore question and speak with him again in Undercity. This is a city quiz and adds no combat.", confidence = "medium" },
 
     -- Kill Grundig Darkcloud
-    [6629] = { threat = "MEDIUM", reason = "Grundig is a level 18 named tauren surrounded by level 15-18 Grimtotem brutes and sorcerers. Clear the guards before engaging him. A level 17 shaman soloed it easily, and a level 18 priest soloed it. Do not attempt below level 16 without a group.", confidence = "high" },
+    [6629] = { threat = "MEDIUM", reason = "Kill Grundig Darkcloud and six Grimtotem brutes in the Stonetalon camp. Nearby tauren can join the fight; clear a route and pull the named target away from the others.", confidence = "medium" },
 
     -- Vorsha the Lasher
-    [6641] = { threat = "MEDIUM", reason = "Vorsha is a level 20 named mob surrounded by guards. Clear the area before engaging and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [6641] = { threat = "HIGH", reason = "Escort Muglash to the brazier, extinguish it, then help him defeat Vorsha and the attacking naga. The scripted event combines an escort with a dangerous hydra fight; the quest text recommends bringing strong allies.", confidence = "medium" },
 
     -- More Booty!
     [6741] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "high" },

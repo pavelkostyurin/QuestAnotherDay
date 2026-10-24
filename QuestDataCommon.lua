@@ -1833,16 +1833,16 @@ addon.quests = {
     [6164] = { threat = "LOW", reason = "Deliver Augustus’ Receipt Book to Augustus in Terrordale. The turn-in adds no combat if you already have the book; the route crosses hostile Eastern Plaguelands, so approach carefully.", confidence = "medium" },
 
     -- Trouble in Winterspring!
-    [6603] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6603] = { threat = "LOW", reason = "Find Donova Snowden near the Winterspring hot springs. This is a dialogue step; travel carefully through the high-level zone.", confidence = "medium" },
 
     -- A Little Luck
-    [6606] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Everlook is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6606] = { threat = "LOW", reason = "Speak with Witch Doctor Mau’ari in Everlook. This settlement conversation adds no combat; use a safe route through Winterspring.", confidence = "medium" },
 
     -- Nat Pagle, Angler Extreme
-    [6607] = { threat = "MEDIUM", reason = "Requires fishing in four zones: Swamp of Sorrows, Desolace, Feralas, and Stranglethorn Vale. Each zone is patrolled by level 35-50 mobs. The fishing itself is safe, but the travel between zones is dangerous. Do not attempt below level 40 solo.", confidence = "medium" },
+    [6607] = { threat = "MEDIUM", reason = "Catch the four specified fish in Swamp of Sorrows, Desolace, Feralas and Stranglethorn, then return to Nat Pagle. Fishing leaves you stationary near hostile shores, and the long trip crosses several dangerous zones; pick cleared spots and leave if enemies approach.", confidence = "medium" },
 
     -- Clamlette Surprise
-    [6610] = { threat = "LOW", reason = "Collection step with no combat beyond gathering the materials. The items are found in Tanaris and purchased from vendors. Safe if you avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [6610] = { threat = "MEDIUM", reason = "Gather twelve Giant Eggs from large birds in Tanaris, ten Zesty Clam Meat from clams, and twenty Alterac Swiss from a vendor. The bird eggs require combat in the desert; pull rocs away from patrols and avoid fighting several at once.", confidence = "medium" },
 
     -- A Host of Evil
     [6626] = { threat = "MEDIUM", reason = "Razorfen Battleguards, Thornweavers, and Death's Head Cultists are levels 35-38 outside Razorfen Downs. They pull in groups and the cultists cast shadow magic. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },

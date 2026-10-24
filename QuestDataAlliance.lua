@@ -3561,19 +3561,19 @@ local quests = {
     [6502] = { threat = "EXTREME", reason = "Elite quest. Requires killing General Drakkisath, the final boss of Upper Blackrock Spire, and retrieving the Blood of the Black Dragon Champion. Drakkisath is a level 63 elite with powerful abilities and adds. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Enraged Wildkin
-    [6604] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6604] = { threat = "LOW", reason = "Speak with Jaron Stoneshaper at Starfall Village. This village conversation adds no combat.", confidence = "medium" },
 
     -- I Got Nothin' Left!
-    [6609] = { threat = "MEDIUM", reason = "Requires traveling to Theramore and finding an island south of the main town. The journey through Dustwallow Marsh is dangerous for low-level players. The island itself is patrolled by level 35-40 mobs. Do not attempt below level 35 solo.", confidence = "medium" },
+    [6609] = { threat = "MEDIUM", reason = "Find Nat Pagle on the island south of Theramore and speak with him. The route and small island are exposed in Dustwallow Marsh; approach carefully and leave if hostile creatures close in.", confidence = "medium" },
 
     -- I Know A Guy...
-    [6612] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Gadgetzan is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
+    [6612] = { threat = "LOW", reason = "Speak with Dirge Quikcleave in Gadgetzan about cooking training. This is a city conversation and adds no combat.", confidence = "medium" },
 
     -- Triage
-    [6624] = { threat = "LOW", reason = "First Aid profession quest. Timed puzzle with no combat. Save 15 patients before 6 die by using Triage Bandages in the correct order: Critically Injured first, then Badly Injured, then Injured. Safe if you follow the order.", confidence = "high" },
+    [6624] = { threat = "LOW", reason = "Use the supplied Triage Bandages to save fifteen patients before six die. This is a timed profession challenge with no combat; treat the critically injured first, then the badly injured, then the injured.", confidence = "medium" },
 
     -- Alliance Trauma
-    [6625] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Theramore is dangerous for low-level players. Do not attempt below level 35 solo.", confidence = "medium" },
+    [6625] = { threat = "LOW", reason = "Speak with Doctor Gustaf VanHowzen in Theramore about Alliance Trauma. This city conversation adds no combat.", confidence = "medium" },
 
     -- Deeprun Rat Roundup
     [6661] = { threat = "LOW", reason = "Interaction step with no combat. Capture rats using the Rat Catcher's Flute in the Deeprun Tram. Safe if you stay in the area.", confidence = "high" },
