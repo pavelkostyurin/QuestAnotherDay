@@ -2454,7 +2454,7 @@ addon.quests = {
     [902] = { threat = "LOW", reason = "The return delivery adds no new combat encounter. Leave the site by a cleared route and avoid unnecessary fights on the way to Ratchet.", confidence = "medium" },
 
     -- Prowlers of the Barrens
-    [903] = { threat = "LOW", reason = "The prowlers are levels 13-15 and are manageable solo. Watch for patrolling cats and fight in open areas.", confidence = "high" },
+    [903] = { threat = "LOW", reason = "The prowlers are levels 13-15 and are manageable solo. Watch for patrolling cats and fight in open areas.", confidence = "medium" },
 
     -- The Angry Scytheclaws
     [905] = { threat = "MEDIUM", reason = "The raptors are levels 14-17 and run in packs. They flee at low health and can chain-pull. Kill the runners first.", confidence = "medium" },
@@ -2466,10 +2466,10 @@ addon.quests = {
     [907] = { threat = "MEDIUM", reason = "The lizards are levels 15-18 and have a lightning attack that can chain. Fight them away from other mobs.", confidence = "medium" },
 
     -- Down at the Docks
-    [910] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [910] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Gateway to the Frontier
-    [911] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [911] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Cry of the Thunderhawk
     [913] = { threat = "MEDIUM", reason = "The hawks are levels 14-17 and patrol the skies. They can be hard to reach and may pull additional mobs. Fight in open areas.", confidence = "medium" },
@@ -2481,82 +2481,82 @@ addon.quests = {
     [915] = { threat = "MEDIUM", reason = "The quest involves travel and light combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Webwood Venom
-    [916] = { threat = "LOW", reason = "The sacs drop from Webwood spiders in Teldrassil. The spiders are levels 4-6 and are found in the Webwood area. The drop rate is moderate. Manageable solo for a level 5+ character.", confidence = "high" },
+    [916] = { threat = "LOW", reason = "The sacs drop from Webwood spiders in Teldrassil. The spiders are levels 4-6 and are found in the Webwood area. The drop rate is moderate. Manageable solo for a level 5+ character.", confidence = "medium" },
 
     -- Webwood Egg
-    [917] = { threat = "LOW", reason = "The egg is found in a spider nest in the Webwood area of Teldrassil. The nest is guarded by level 5-7 spiders. Clear the area before looting and watch for adds. Manageable solo for a level 6+ character.", confidence = "high" },
+    [917] = { threat = "LOW", reason = "The egg is found in a spider nest in the Webwood area of Teldrassil. The nest is guarded by level 5-7 spiders. Clear the area before looting and watch for adds. Manageable solo for a level 6+ character.", confidence = "medium" },
 
     -- Timberling Seeds
-    [918] = { threat = "LOW", reason = "The seeds drop from Timberlings in Teldrassil. The Timberlings are levels 5-8 and are found near the lake. Manageable solo for a level 6+ character.", confidence = "high" },
+    [918] = { threat = "LOW", reason = "The seeds drop from Timberlings in Teldrassil. The Timberlings are levels 5-8 and are found near the lake. Manageable solo for a level 6+ character.", confidence = "medium" },
 
     -- Timberling Sprouts
-    [919] = { threat = "LOW", reason = "The sprouts drop from Timberlings in Teldrassil. The Timberlings are levels 5-8 and are found near the lake. The drop rate is moderate. Manageable solo for a level 6+ character.", confidence = "high" },
+    [919] = { threat = "LOW", reason = "The sprouts drop from Timberlings in Teldrassil. The Timberlings are levels 5-8 and are found near the lake. The drop rate is moderate. Manageable solo for a level 6+ character.", confidence = "medium" },
 
     -- Tenaron's Summons
-    [920] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [920] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Crown of the Earth (Fill Phial)
-    [921] = { threat = "LOW", reason = "The phial is filled at a moonwell in Teldrassil. No combat required, but the area is patrolled by level 3-5 mobs. Safe if you avoid the mobs while filling the phial.", confidence = "high" },
+    [921] = { threat = "LOW", reason = "The phial is filled at a moonwell in Teldrassil. No combat required, but the area is patrolled by level 3-5 mobs. Safe if you avoid the mobs while filling the phial.", confidence = "medium" },
 
     -- Rellian Greenspyre
-    [922] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [922] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Tumors
-    [923] = { threat = "LOW", reason = "The tumors drop from Timberlings in Teldrassil. The mobs are levels 5-8 and are found near Lake Al'Ameth. The drop rate is moderate. Manageable solo for a level 7+ character.", confidence = "high" },
+    [923] = { threat = "LOW", reason = "The tumors drop from Timberlings in Teldrassil. The mobs are levels 5-8 and are found near Lake Al'Ameth. The drop rate is moderate. Manageable solo for a level 7+ character.", confidence = "medium" },
 
     -- The Demon Seed
-    [924] = { threat = "MEDIUM", reason = "The area is patrolled by hostile mobs. Clear the area before looting.", confidence = "medium" },
+    [924] = { threat = "MEDIUM", reason = "Timed quest (30 min). The stone expires after pickup, and the route ends at a guarded cave on Dreadmist Peak. Know the climb before taking the stone and avoid unnecessary fights.", confidence = "medium" },
 
     -- Cairne's Hoofprint
-    [925] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [925] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Flawed Power Stone
-    [926] = { threat = "MEDIUM", reason = "The stones are guarded by hostile mobs. Clear the area before looting.", confidence = "medium" },
+    [926] = { threat = "LOW", reason = "This step is only the unstable stone pickup for The Demon Seed. Collect it when ready to begin the timed route, then head directly for the altar.", confidence = "medium" },
 
     -- The Moss-twined Heart
-    [927] = { threat = "LOW", reason = "The heart drops from a named Timberling in Teldrassil. The mob is level 8-10 and is manageable solo for a level 8+ character. Clear the area before engaging and watch for adds.", confidence = "high" },
+    [927] = { threat = "LOW", reason = "The heart drops from a named Timberling in Teldrassil. The mob is level 8-10 and is manageable solo for a level 8+ character. Clear the area before engaging and watch for adds.", confidence = "medium" },
 
     -- Crown of the Earth (Partially Filled Vessel)
-    [928] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [928] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Crown of the Earth (Jade Phial)
-    [929] = { threat = "LOW", reason = "The phial is filled at a moonwell in Teldrassil. No combat required, but the area is patrolled by level 5-8 mobs. Safe if you avoid the mobs while filling the phial.", confidence = "high" },
+    [929] = { threat = "LOW", reason = "The phial is filled at a moonwell in Teldrassil. No combat required, but the area is patrolled by level 5-8 mobs. Safe if you avoid the mobs while filling the phial.", confidence = "medium" },
 
     -- The Glowing Fruit
-    [930] = { threat = "LOW", reason = "The fruit is found on a plant in Teldrassil. No combat required, but the area is patrolled by level 6-9 mobs. Safe if you avoid the mobs while gathering.", confidence = "high" },
+    [930] = { threat = "LOW", reason = "The fruit is found on a plant in Teldrassil. No combat required, but the area is patrolled by level 6-9 mobs. Safe if you avoid the mobs while gathering.", confidence = "medium" },
 
     -- The Shimmering Frond
-    [931] = { threat = "LOW", reason = "The frond is found on a plant in Teldrassil. No combat required, but the area is patrolled by level 6-9 mobs. Safe if you avoid the mobs while gathering.", confidence = "high" },
+    [931] = { threat = "LOW", reason = "The frond is found on a plant in Teldrassil. No combat required, but the area is patrolled by level 6-9 mobs. Safe if you avoid the mobs while gathering.", confidence = "medium" },
 
     -- Twisted Hatred
     [932] = { threat = "MEDIUM", reason = "Lord Melenas is a level 10 named gnarlpine furbolg in the Fel Rock cave in Teldrassil. He is surrounded by guards and the cave is filled with other furbolgs. Clear the cave methodically and pull Lord Melenas away from his guards. Do not attempt below level 9 solo.", confidence = "medium" },
 
     -- Crown of the Earth (Tourmaline Phial)
-    [933] = { threat = "LOW", reason = "The phial is filled at a moonwell in Teldrassil. No combat required, but the area is patrolled by level 5-8 mobs. Safe if you avoid the mobs while filling the phial.", confidence = "high" },
+    [933] = { threat = "LOW", reason = "The phial is filled at a moonwell in Teldrassil. No combat required, but the area is patrolled by level 5-8 mobs. Safe if you avoid the mobs while filling the phial.", confidence = "medium" },
 
     -- Crown of the Earth (Amethyst Phial)
-    [934] = { threat = "LOW", reason = "The phial is filled at a moonwell in Teldrassil. No combat required, but the area is patrolled by level 5-8 mobs. Safe if you avoid the mobs while filling the phial.", confidence = "high" },
+    [934] = { threat = "LOW", reason = "The phial is filled at a moonwell in Teldrassil. No combat required, but the area is patrolled by level 5-8 mobs. Safe if you avoid the mobs while filling the phial.", confidence = "medium" },
 
     -- Crown of the Earth (Filled Vessel)
-    [935] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [935] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Assisting Arch Druid Runetotem
-    [936] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [936] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Enchanted Glade
     [937] = { threat = "MEDIUM", reason = "The belts drop from Bloodfeather harpies in Teldrassil. The harpies are levels 8-11 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Do not attempt below level 9 solo.", confidence = "medium" },
 
     -- Mist
-    [938] = { threat = "MEDIUM", reason = "This is an escort quest through Teldrassil. The route is patrolled by level 8-11 mobs, and Mist can be attacked. Clear the path ahead and be ready for ambushes. Do not attempt below level 9 solo without a plan to keep Mist alive.", confidence = "medium" },
+    [938] = { threat = "MEDIUM", reason = "Timed quest (9 min). Mist follows you to the sentinel, and nearby hostile mobs can obstruct the route. Choose a clear path and complete the turn-in promptly.", confidence = "medium" },
 
     -- Flute of Xavaric
-    [939] = { threat = "HIGH", reason = "The flute drops from Xavaric, a level 55 satyr in Felwood. The Jadefire Felbind samples drop from Jadefire satyrs in Felwood, who are levels 48-52 and cast shadow magic. The journey to Felwood is dangerous for low-level players. Do not attempt below level 50 solo without a group.", confidence = "high" },
+    [939] = { threat = "HIGH", reason = "The flute drops from Xavaric, a level 55 satyr in Felwood. The Jadefire Felbind samples drop from Jadefire satyrs in Felwood, who are levels 48-52 and cast shadow magic. The journey to Felwood is dangerous for low-level players. Do not attempt below level 50 solo without a group.", confidence = "medium" },
 
     -- Teldrassil
-    [940] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [940] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Planting the Heart
-    [941] = { threat = "LOW", reason = "This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [941] = { threat = "LOW", reason = "This is a dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- The Absent Minded Prospector (Flagongut)
     [942] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Menethil Harbor passes through the Wetlands, which is patrolled by level 20-25 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
@@ -2568,34 +2568,34 @@ addon.quests = {
     [944] = { threat = "MEDIUM", reason = "The Master's Glaive is in Darkshore, patrolled by level 20-24 Twilight's Hammer cultists. The area is dense with mobs and has patrolling elementals. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Therylune's Escape
-    [945] = { threat = "MEDIUM", reason = "This is an escort quest through Darkshore. The route is patrolled by level 18-22 mobs, and Therylune can be attacked. Clear the path ahead and be ready for ambushes. Do not attempt below level 18 solo without a plan to keep Therylune alive.", confidence = "medium" },
+    [945] = { threat = "MEDIUM", reason = "Escort quest. Therylune moves through a hostile cultist camp and can aggro enemies; pulls near the exit may overlap. Clear ahead and stay close enough to protect her.", confidence = "medium" },
 
     -- Cave Mushrooms
     [947] = { threat = "MEDIUM", reason = "The mushrooms are found in the caves of Darkshore, which are filled with level 18-22 mobs. The caves are dark and respawn quickly. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Onu
-    [948] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [948] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- The Twilight Camp
     [949] = { threat = "MEDIUM", reason = "The camp is in Darkshore and is filled with level 20-24 Twilight's Hammer cultists. The camp is dense with mobs and has patrolling elementals. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Return to Onu
-    [950] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [950] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Mathystra Relics
     [951] = { threat = "MEDIUM", reason = "The relics are found in the Ruins of Mathystra in Darkshore, which are patrolled by level 18-22 naga and satyrs. The ruins are dense with mobs and have patrolling elites. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Grove of the Ancients
-    [952] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [952] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Fall of Ameth'Aran
     [953] = { threat = "MEDIUM", reason = "The ruins are patrolled by level 18-22 mobs, including ghosts and satyrs. The tablets are scattered around the ruins. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Bashal'Aran (Source of Aura)
-    [954] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [954] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Bashal'Aran (Grell Earrings)
-    [955] = { threat = "LOW", reason = "The earrings drop from Grell in Darkshore. The Grell are levels 16-20 and are scattered around the ruins. The drop rate is moderate. Manageable solo for a level 16+ character.", confidence = "high" },
+    [955] = { threat = "LOW", reason = "The earrings drop from Grell in Darkshore. The Grell are levels 16-20 and are scattered around the ruins. The drop rate is moderate. Manageable solo for a level 16+ character.", confidence = "medium" },
 
     -- Bashal'Aran (Moonstone Seal)
     [956] = { threat = "MEDIUM", reason = "The seal drops from a named Grell in the ruins of Bashal'Aran. The named mob is level 20 and is surrounded by other Grell. Clear the area before engaging and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
@@ -2607,10 +2607,16 @@ addon.quests = {
     [958] = { threat = "MEDIUM", reason = "The relics drop from level 16-20 naga and satyrs in the Ruins of Mathystra in Darkshore. The ruins are dense with mobs and have patrolling elites. Clear methodically and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
 
     -- Trouble at the Docks (Wailing Caverns dungeon)
-    [959] = { threat = "HIGH", reason = "Mad Magglish is located in the tunnels *outside* the instance proper, but the path to him is filled with non-elite and elite mobs. He is stealthed and can be hard to spot. The caves respawn quickly. Bring a group or be prepared to fight through respawning mobs on the way out.", confidence = "high" },
+    [959] = { threat = "HIGH", reason = "Mad Magglish is stealthed in the hostile Wailing Caverns cave outside the instance entrance, near other dangerous creatures. Locate him carefully and leave by a cleared route; bring help if you cannot manage the cave.", confidence = "medium" },
+
+    -- Onu is meditating
+    [960] = { threat = "LOW", reason = "This auxiliary step provides a replacement Phial of Scrying through dialogue with Onu; it has no combat objective.", confidence = "medium" },
+
+    -- Onu is meditating
+    [961] = { threat = "LOW", reason = "This auxiliary step provides a replacement Phial of Scrying through dialogue with Onu; it has no combat objective.", confidence = "medium" },
 
     -- Serpentbloom (Wailing Caverns dungeon)
-    [962] = { threat = "MEDIUM", reason = "The plants are found on the ground against the cave walls, both outside and inside the instance. In Classic Era, the outer cave mobs are non-elite, but the instance proper has elites. The plants are hard to see without Herbalism tracking. The main danger is other players clearing mobs quickly or pulling extra mobs while you're looking for flowers. Do this with a group or carefully solo the outer caves.", confidence = "high" },
+    [962] = { threat = "MEDIUM", reason = "The plants are found on the ground against the cave walls, both outside and inside the instance. In Classic Era, the outer cave mobs are non-elite, but the instance proper has elites. The plants are hard to see without Herbalism tracking. The main danger is other players clearing mobs quickly or pulling extra mobs while you're looking for flowers. Do this with a group or carefully solo the outer caves.", confidence = "medium" },
 
     -- For Love Eternal
     [963] = { threat = "MEDIUM", reason = "Anaya's ghost is in the Ruins of Mathystra in Darkshore, guarded by level 16-20 naga and satyrs. Clear the area before engaging and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
@@ -2619,7 +2625,7 @@ addon.quests = {
     [964] = { threat = "MEDIUM", reason = "The fragments are guarded by undead mobs. Clear the area before looting.", confidence = "medium" },
 
     -- The Tower of Althalaxx (Find Balthule)
-    [965] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [965] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- The Tower of Althalaxx (Worn Parchments)
     [966] = { threat = "MEDIUM", reason = "The parchments drop from level 18-22 Dark Strand cultists around the tower. The area is dense with mobs and patrolling elementals. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
@@ -2628,10 +2634,10 @@ addon.quests = {
     [967] = { threat = "MEDIUM", reason = "The journey passes through Ashenvale, which is contested and patrolled by level 20-25 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- The Powers Below
-    [968] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [968] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Luck Be With You
-    [969] = { threat = "MEDIUM", reason = "The shards drop from Frostmaul giants in Winterspring. The giants are levels 55-58 and are elite-level threats. They hit extremely hard and have knockbacks. The area is patrolled by additional elites. Do not attempt below level 55 solo without a group.", confidence = "high" },
+    [969] = { threat = "MEDIUM", reason = "The shards can be gathered from Frostwhisper Gorge without fighting giants, but the route passes near elites and other dangerous wildlife. Use visible shards along the outer path and retreat if enemies engage.", confidence = "medium" },
 
     -- The Tower of Althalaxx (Glowing Soul Gem)
     [970] = { threat = "MEDIUM", reason = "The gem drops from a named cultist at the Tower of Althalaxx in Darkshore. The cultist is level 20 and is surrounded by guards. Clear the area before engaging and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
@@ -2640,7 +2646,7 @@ addon.quests = {
     [971] = { threat = "MEDIUM", reason = "The manuscript is in the Ruins of Mathystra in Darkshore, guarded by level 16-20 naga. Clear the area before looting and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
 
     -- Water Sapta
-    [972] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [972] = { threat = "LOW", reason = "This repeatable Shaman step supplies Water Sapta through a turn-in; it adds no combat encounter.", confidence = "medium" },
 
     -- The Tower of Althalaxx (Ilkrud's Tome)
     [973] = { threat = "MEDIUM", reason = "Ilkrud is a level 24 named satyr in Ashenvale, surrounded by guards in a cave. Clear the cave before engaging and watch for adds. Do not attempt below level 22 solo without a group.", confidence = "medium" },
@@ -2649,10 +2655,10 @@ addon.quests = {
     [974] = { threat = "MEDIUM", reason = "The ridge is patrolled by level 50-54 fire elementals and lava creatures. The hottest spot is at the very top, guarded by elites. Bring fire resistance gear and clear methodically. Do not attempt below level 50 solo without a plan to avoid the elites.", confidence = "medium" },
 
     -- Cache of Mau'ari
-    [975] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in Everlook.", confidence = "high" },
+    [975] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in Everlook.", confidence = "medium" },
 
     -- Supplies to Auberdine
-    [976] = { threat = "HIGH", reason = "This is an escort quest where Feero walks slowly through Ashenvale, a contested zone patrolled by level 20-28 mobs. The escort spawns ambushes along the way, and Feero can die. Do not attempt below level 22 solo without a group.", confidence = "high" },
+    [976] = { threat = "HIGH", reason = "Escort quest. Feero faces three scripted ambush waves and can die if attackers focus him. Stay close, take enemy attention quickly, and bring help if you cannot manage each wave.", confidence = "medium" },
 
     -- Are We There, Yeti?
     [977] = { threat = "MEDIUM", reason = "The horns drop from yetis in Winterspring. The yetis are levels 55-58 and are packed in caves. They hit hard and have knockbacks. The caves are dark and respawn quickly. Do not attempt below level 55 solo without a group.", confidence = "medium" },
@@ -2667,25 +2673,25 @@ addon.quests = {
     [980] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- The Tower of Althalaxx (Talk to Delgren)
-    [981] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [981] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Deep Ocean, Vast Sea
     [982] = { threat = "MEDIUM", reason = "The lockboxes are underwater, guarded by level 18-22 murlocs. Fighting underwater is dangerous, and drowning is a real risk. Bring water breathing if possible and clear the area before diving. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Buzzbox 827
-    [983] = { threat = "LOW", reason = "The crawlers are levels 14-18 and are found along the coast. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "high" },
+    [983] = { threat = "LOW", reason = "The crawlers are levels 14-18 and are found along the coast. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "medium" },
 
     -- How Big a Threat? (Find Camp)
-    [984] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [984] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- How Big a Threat? (Kill Furbolgs)
     [985] = { threat = "MEDIUM", reason = "The furbolgs are levels 16-20 and are packed in camps. They pull in groups and the Windtalkers cast nature spells. Clear methodically and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
 
     -- A Lost Master (Pelts)
-    [986] = { threat = "LOW", reason = "The pelts drop from moonstalkers in Darkshore. The cats are levels 14-18 and are stealthed. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "high" },
+    [986] = { threat = "LOW", reason = "The pelts drop from moonstalkers in Darkshore. The cats are levels 14-18 and are stealthed. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "medium" },
 
     -- Trek to Ashenvale
-    [990] = { threat = "MEDIUM", reason = "The journey passes through Ashenvale, which is contested and patrolled by level 20-25 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
+    [990] = { threat = "LOW", reason = "This is a travel and dialogue step into Ashenvale with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Raene's Cleansing (Find Teronis)
     [991] = { threat = "MEDIUM", reason = "The journey passes through Ashenvale, which is contested and patrolled by level 20-28 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
@@ -2694,50 +2700,45 @@ addon.quests = {
     [992] = { threat = "MEDIUM", reason = "The area is patrolled by level 40-44 mobs, including basilisks and hyenas. Clear the area before using the widget and watch for patrolling mobs. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- A Lost Master (Find Volcor)
-    [993] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [993] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Escape Through Force
-    [994] = { threat = "HIGH", reason = "This is an escort quest through Darkshore. The route is patrolled by level 18-22 mobs, and Volcor can die. Clear the path ahead and be ready for ambushes. Do not attempt below level 18 solo without a plan to keep Volcor alive.", confidence = "high" },
+    [994] = { threat = "HIGH", reason = "Escort quest. Volcor fights through hostile furbolg camps to the road, and enemies can overwhelm either of you if they overlap. Clear nearby enemies, stay with him, and bring help if needed.", confidence = "medium" },
 
     -- Escape Through Stealth
-    [995] = { threat = "HIGH", reason = "This is the stealth variant of the previous escort quest. You must sneak out of the Blackwood furbolg cave in Darkshore without being detected. The cave is packed with level 18-22 furbolgs, and any mistake means death. Rogue stealth, druid cat form, or invisibility potions are recommended. Do not attempt below level 20 solo without a stealth ability or a plan to fight your way out.", confidence = "high" },
+    [995] = { threat = "MEDIUM", reason = "The stealth route sends Volcor through the hostile cave, but he can escape without requiring the player to have a stealth ability. Follow carefully, keep clear of nearby furbolgs, and wait until he reaches safety.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [996] = { threat = "MEDIUM", reason = "The interaction uses two plant salves on a Windblossom in Felwood and adds no required combat. Nearby hostile mobs can make reaching a plant hazardous; approach from a cleared path.", confidence = "medium" },
 
     -- Denalan's Earth
-    [997] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [997] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [998] = { threat = "MEDIUM", reason = "The interaction uses two plant salves on a Windblossom in Felwood and adds no required combat. Nearby hostile mobs can make reaching a plant hazardous; approach from a cleared path.", confidence = "medium" },
 
     -- The New Frontier (Horde - Dustwallow Marsh)
-    [1000] = { threat = "LOW", reason = "Pure travel and dialogue step with no combat. The journey from the Barrens is safe if you stay on the road.", confidence = "high" },
-
+    [1000] = { threat = "LOW", reason = "Pure travel and dialogue step with no combat. The journey from the Barrens is safe if you stay on the road.", confidence = "medium" },
     -- Buzzbox 411
     [1001] = { threat = "MEDIUM", reason = "The threshers are levels 18-22 and are found in the ocean. Fighting underwater is dangerous, and drowning is a real risk. Bring water breathing if possible and clear the area before diving. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- Buzzbox 323
-    [1002] = { threat = "LOW", reason = "The fangs drop from moonstalkers in Darkshore. The cats are levels 14-18 and are stealthed. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "high" },
-
+    [1002] = { threat = "LOW", reason = "The fangs drop from moonstalkers in Darkshore. The cats are levels 14-18 and are stealthed. The drop rate is moderate. Manageable solo for a level 14+ character.", confidence = "medium" },
     -- Buzzbox 525
     [1003] = { threat = "MEDIUM", reason = "The bears are levels 16-20 and are aggressive. They hit hard and can pull in pairs. Clear methodically and watch for adds. Do not attempt below level 16 solo.", confidence = "medium" },
-
     -- The New Frontier (Horde - Dustwallow Marsh)
-    [1004] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the village.", confidence = "high" },
-
+    [1004] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the village.", confidence = "medium" },
     -- The Ancient Statuette
-    [1007] = { threat = "MEDIUM", reason = "The statuette is found in a cave in Darkshore, guarded by level 16-20 naga. The journey to Talen's camp passes through contested territory. Do not attempt below level 16 solo.", confidence = "medium" },
-
+    [1007] = { threat = "MEDIUM", reason = "The statuette lies on the shore of Zoram Strand near hostile naga. Collect it from a safe angle or clear a path first.", confidence = "medium" },
     -- The Zoram Strand
     [1008] = { threat = "MEDIUM", reason = "The heads drop from Wrathtail naga along the Zoram Strand in Ashenvale. The naga are levels 18-22 and are packed along the coast. They pull in groups and have ranged casters. The drop rate is moderate. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- Ruuzel
-    [1009] = { threat = "HIGH", reason = "Ruuzel is a level 23 named naga in the Ruins of Mathystra in Darkshore, surrounded by guards. She hits hard and is in a confined space. Clear the area before engaging and be ready for adds. Do not attempt below level 21 solo without a group.", confidence = "high" },
-
+    [1009] = { threat = "MEDIUM", reason = "Ruuzel patrols an island with two naga guards, so a careless pull can bring several enemies into the fight. Separate the guards or bring help before challenging her.", confidence = "medium" },
     -- Bathran's Hair
     [1010] = { threat = "MEDIUM", reason = "The hair is found on the ground in the Ruins of Bathran in Ashenvale, which are patrolled by level 20-24 mobs. The ruins are dense with mobs and have patrolling elementals. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
-
     -- Forsaken Diseases
     [1011] = { threat = "MEDIUM", reason = "The bottle is found in a Forsaken camp in Ashenvale, guarded by level 20-24 mobs. Clear the area before looting and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
-
     -- Insane Druids
-    [1012] = { threat = "HIGH", reason = "The druids are level 24-26 named mobs in the Ruins of Stardust in Ashenvale, each surrounded by guards. They cast powerful nature spells and can heal themselves. Clear the area before engaging each one and be ready for adds. Do not attempt below level 24 solo without a group.", confidence = "high" },
-
+    [1012] = { threat = "MEDIUM", reason = "The three named druids are inside the winding Dor’danil Barrow Den, where stealth mobs and respawns can create adds. Clear a retreat route and pull carefully, or return overleveled.", confidence = "medium" },
     -- The Book of Ur (Shadowfang Keep dungeon)
     [1013] = { threat = "HIGH", reason = "The book is in the room with Fenrus the Devourer, one of the last bosses before Arugal. Shadowfang Keep is a level 18-25 dungeon filled with elite worgen and ghosts. After killing Fenrus, four voidwalkers spawn and hit hard. This requires a full group. The book respawns quickly, so you can loot it even if another group takes it first.", confidence = "high" },
 
@@ -2745,104 +2746,71 @@ addon.quests = {
     [1014] = { threat = "EXTREME", reason = "Arugal is a level 24 elite boss who teleports around the room, summons adds, and hits extremely hard with shadow magic. He regularly wipes groups of level 20-25 players. The entire dungeon leading up to him is filled with elites. This requires a full, coordinated group of 5 at level 22-26. Solo is impossible.", confidence = "high" },
 
     -- The New Frontier (Darnassus)
-    [1015] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1015] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Elemental Bracers
     [1016] = { threat = "MEDIUM", reason = "The bracers drop from level 20-24 elementals in Ashenvale. The elementals are aggressive and can pull in groups. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
-
     -- Mage Summoner
-    [1017] = { threat = "HIGH", reason = "Sarilus is a level 26 named human mage in the Ruins of Stardust in Ashenvale, surrounded by guards. He casts powerful frost spells and can polymorph you. Clear the area before engaging and be ready for adds. Do not attempt below level 24 solo without a group.", confidence = "high" },
-
+    [1017] = { threat = "MEDIUM", reason = "Sarilus Foulborne is at Dreadmist Peak in the Barrens and summons water elementals. Nearby hostile mobs and his adds can complicate the pull; clear space and keep an escape route.", confidence = "medium" },
     -- The New Frontier (Horde - Dustwallow Marsh)
-    [1018] = { threat = "LOW", reason = "Speak with the NPC in Brackenwall Village. Travel and dialogue with no combat. Safe if you stay in the village.", confidence = "high" },
-
+    [1018] = { threat = "LOW", reason = "Speak with the NPC in Brackenwall Village. Travel and dialogue with no combat. Safe if you stay in the village.", confidence = "medium" },
     -- The New Frontier (Darnassus)
-    [1019] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1019] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Orendil's Cure
-    [1020] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1020] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Vile Satyr! Dryads in Danger!
     [1021] = { threat = "MEDIUM", reason = "Anilia is a dryad trapped in the satyr camp of Xavian in Ashenvale. The camp is filled with level 20-24 satyrs that cast shadow magic. Clear the area before approaching and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
-
     -- The Howling Vale
     [1022] = { threat = "MEDIUM", reason = "The Howling Vale is in Ashenvale and is patrolled by level 22-26 mobs, including wolves and satyrs. The tome is in a cave guarded by mobs. Clear the area before looting and watch for adds. Do not attempt below level 22 solo.", confidence = "medium" },
-
     -- Raene's Cleansing (Glowing Gem)
     [1023] = { threat = "MEDIUM", reason = "The gem is in the Ruins of Stardust in Ashenvale, patrolled by level 22-26 mobs. Clear the area before looting and watch for adds. Do not attempt below level 22 solo.", confidence = "medium" },
-
     -- Raene's Cleansing (Find Shael'dryn)
-    [1024] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
-
+    [1024] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
     -- An Aggressive Defense
     [1025] = { threat = "MEDIUM", reason = "The furbolgs are levels 24-28 and are packed in the Foulweald village in Ashenvale. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Raene's Cleansing (Wooden Key)
     [1026] = { threat = "MEDIUM", reason = "The key and rod piece are in the Foulweald village, guarded by level 24-28 furbolgs. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Raene's Cleansing (Final Rod Piece)
     [1027] = { threat = "MEDIUM", reason = "The rod piece is in the Foulweald village, guarded by level 24-28 furbolgs. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Raene's Cleansing (Hidden Shrine)
     [1028] = { threat = "MEDIUM", reason = "The shrine is in a cave in Ashenvale, guarded by level 24-28 furbolgs. Clear the area before interacting and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Raene's Cleansing (Return to Raene)
-    [1029] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1029] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Raene's Cleansing (Uncorrupted Furbolg)
     [1030] = { threat = "MEDIUM", reason = "The uncorrupted furbolg is in a cave in Ashenvale, guarded by level 24-28 furbolgs. Clear the area before approaching and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- The Branch of Cenarius
-    [1031] = { threat = "HIGH", reason = "Geltharis is a level 28 named satyr in the Ruins of Stardust in Ashenvale, surrounded by guards. He casts powerful shadow spells and can fear you. Clear the area before engaging and be ready for adds. Do not attempt below level 26 solo without a group.", confidence = "high" },
-
+    [1031] = { threat = "HIGH", reason = "Geltharis is a level 28 named satyr in the Ruins of Stardust in Ashenvale, surrounded by guards. He casts powerful shadow spells and can fear you. Clear the area before engaging and be ready for adds. Do not attempt below level 26 solo without a group.", confidence = "medium" },
     -- Satyr Slaying!
     [1032] = { threat = "MEDIUM", reason = "The horns drop from satyrs in Ashenvale. The satyrs are levels 24-28 and are packed in camps. They pull in groups and cast shadow magic. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Elune's Tear
-    [1033] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1033] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- The Ruins of Stardust
     [1034] = { threat = "MEDIUM", reason = "The stardust is found in the Ruins of Stardust in Ashenvale, which are patrolled by level 24-28 satyrs and elementals. The ruins are dense with mobs and have patrolling elites. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Fallen Sky Lake
-    [1035] = { threat = "HIGH", reason = "The Oracle is a level 28 named elemental in Fallen Sky Lake in Ashenvale, surrounded by other elementals. It hits hard and has knockbacks. The lake is patrolled by additional mobs. Clear the area before engaging and be ready for adds. Do not attempt below level 26 solo without a group.", confidence = "high" },
-
+    [1035] = { threat = "MEDIUM", reason = "The level 30 Oracle stands on an island, with hostile mobs in the lake that can join the fight. Clear an approach and pull the Oracle toward shore.", confidence = "medium" },
     -- Avast Ye, Scallywag
-    [1036] = { threat = "MEDIUM", reason = "The ship is filled with level 40-44 Bloodsail pirates that pull in groups. The ship is cramped with no escape route. Do not attempt below level 42 solo without a plan to avoid the pirates.", confidence = "medium" },
-
+    [1036] = { threat = "LOW", reason = "This is a level 55+ dialogue quest aboard the Crimson Vale. Speak with the Fleet Master and avoid fighting the ship’s crew.", confidence = "medium" },
     -- Velinde Starsong
-    [1037] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1037] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Velinde's Effects
-    [1038] = { threat = "LOW", reason = "This is an exploration and delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1038] = { threat = "LOW", reason = "This is an exploration and delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- The Barrens Port
-    [1039] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
-
+    [1039] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
     -- Passage to Booty Bay
-    [1040] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you stay on the boat and in the town.", confidence = "high" },
-
+    [1040] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you stay on the boat and in the town.", confidence = "medium" },
     -- The Caravan Road
     [1041] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Darkshire passes through Stranglethorn and Duskwood, which are dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
-
     -- The Carevin Family
-    [1042] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
-
+    [1042] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
     -- The Scythe of Elune
     [1043] = { threat = "MEDIUM", reason = "The search takes you into the woods of Duskwood, which are patrolled by level 24-28 worgen and undead. The worgen are stealthed and can ambush you. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Answered Questions
-    [1044] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1044] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Raene's Cleansing (Kill Ran Bloodtooth)
     [1045] = { threat = "MEDIUM", reason = "Ran Bloodtooth is a level 26 named furbolg in Ashenvale, surrounded by guards. Clear the area before engaging and be ready for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Raene's Cleansing (Return to Raene)
-    [1046] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1046] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- The New Frontier (Darnassus)
-    [1047] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1047] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Into The Scarlet Monastery (Dungeon)
     [1048] = { threat = "EXTREME", reason = "This dungeon is filled with level 30-40 elite Scarlet Crusade mobs and requires a full group of 5 at level 33+. The bosses hit extremely hard and have mechanics that wipe unprepared groups. Do not attempt without a coordinated group and a healer.", confidence = "high" },
 
@@ -2853,152 +2821,105 @@ addon.quests = {
     [1050] = { threat = "HIGH", reason = "The book is in the Scarlet Monastery Library, a level 30-40 dungeon filled with elite Scarlet Crusade mobs. This requires a full group of level 33+. Do not attempt solo.", confidence = "high" },
 
     -- Vorrel's Revenge (Horde - Alterac Mountains)
-    [1051] = { threat = "HIGH", reason = "Nancy is a level 33 elite who is normally accompanied by Grandpa Vishas, a level 34 elite, inside the cottage at Lordamere Lake. Fighting both at once is extremely dangerous and not soloable for most classes at the intended level. The trick is to wait on the dock until Nancy walks out alone, then pull her away from the house. Without this trick, this quest is a death sentence. Do not attempt without patience or a group.", confidence = "high" },
-
+    [1051] = { threat = "HIGH", reason = "The ring requires a dangerous encounter with Nancy and Grandpa Vishas near Lordamere Lake; they can engage together. Separate them with a careful pull or bring a group.", confidence = "medium" },
     -- Down the Scarlet Path
     [1052] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Southshore passes through contested territory. Stay on the road and avoid the mob camps. Do not attempt below level 25 solo.", confidence = "medium" },
-
     -- In the Name of the Light
     [1053] = { threat = "EXTREME", reason = "This quest requires clearing most of the Scarlet Monastery dungeon, which is filled with level 30-40 elite Scarlet Crusade mobs. The bosses hit extremely hard and have mechanics that wipe unprepared groups. This requires a full group of level 33+. Do not attempt solo.", confidence = "high" },
 
     -- Culling the Threat
     [1054] = { threat = "MEDIUM", reason = "Dal Bloodclaw is a level 26 named furbolg in Ashenvale, surrounded by guards. Clear the area before engaging and be ready for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Raene's Cleansing (Return to Shael'dryn)
-    [1055] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1055] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Journey to Stonetalon Peak
     [1056] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey through Stonetalon Mountains is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
-
     -- Reclaiming the Charred Vale (Kill Harpies)
     [1057] = { threat = "MEDIUM", reason = "The harpies are levels 24-28 and are packed in the Charred Vale. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Jin'Zil's Forest Magic (Horde - Stonetalon)
     [1058] = { threat = "MEDIUM", reason = "The quest leads into contested territory with hostile mobs. Clear the area before looting and watch for patrolling Alliance players.", confidence = "medium" },
-
     -- Reclaiming the Charred Vale (Travel)
     [1059] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey through Thousand Needles is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 28 solo.", confidence = "medium" },
-
     -- Letter to Jin'Zil (Horde - Stonetalon)
-    [1060] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "high" },
-
+    [1060] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "medium" },
     -- The Spirits of Stonetalon (Barrens -> Stonetalon)
-    [1061] = { threat = "LOW", reason = "No combat objective; the journey through the Barrens is safe if you stay on the road. Seereth can occasionally be killed by Alliance players passing through, so if she is not there, wait for her respawn.", confidence = "high" },
-
+    [1061] = { threat = "LOW", reason = "No combat objective; the journey through the Barrens is safe if you stay on the road. Seereth can occasionally be killed by Alliance players passing through, so if she is not there, wait for her respawn.", confidence = "medium" },
     -- Goblin Invaders (Stonetalon Mountains)
-    [1062] = { threat = "MEDIUM", reason = "The loggers have surprisingly high aggro range and the area is also populated by spiders that will add if you are not careful. Pull singles from the edge of the camp and watch for patrolling shredders.", confidence = "high" },
-
+    [1062] = { threat = "MEDIUM", reason = "The loggers have surprisingly high aggro range and the area is also populated by spiders that will add if you are not careful. Pull singles from the edge of the camp and watch for patrolling shredders.", confidence = "medium" },
     -- The Elder Crone (Horde - Stonetalon)
-    [1063] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1063] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Forsaken Aid (Horde - Stonetalon)
-    [1064] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "high" },
-
+    [1064] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "medium" },
     -- Journey to Tarren Mill (Horde - Hillsbrad)
     [1065] = { threat = "MEDIUM", reason = "The journey passes through contested zones, including the Barrens and Hillsbrad. Stay on the road and avoid the Syndicate and ogre camps. The destination itself is a Horde town and safe.", confidence = "medium" },
-
     -- Blood of Innocents (Horde - Hillsbrad)
     [1066] = { threat = "MEDIUM", reason = "The quest leads into dangerous territory with hostile mobs. Clear the area before looting and watch for patrolling mobs.", confidence = "medium" },
-
     -- Return to Thunder Bluff (Horde - Thunder Bluff)
-    [1067] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1067] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Shredding Machines (Stonetalon Mountains)
-    [1068] = { threat = "MEDIUM", reason = "These are large mechanical mobs that patrol wide areas and can spawn unexpectedly. XT:4 roams the northern part of the crag, XT:9 the southern part. They hit hard for their level and can add with Venture Co. operators nearby. Clear a safe spot before engaging.", confidence = "high" },
-
+    [1068] = { threat = "MEDIUM", reason = "These are large mechanical mobs that patrol wide areas and can spawn unexpectedly. XT:4 roams the northern part of the crag, XT:9 the southern part. They hit hard for their level and can add with Venture Co. operators nearby. Clear a safe spot before engaging.", confidence = "medium" },
     -- Deepmoss Spider Eggs
-    [1069] = { threat = "LOW", reason = "The eggs drop from Deepmoss spiders in Stonetalon Mountains and the Barrens. The spiders are levels 15-20 and are found in caves. The drop rate is moderate. Manageable solo for a level 15+ character.", confidence = "high" },
-
+    [1069] = { threat = "LOW", reason = "The eggs drop from Deepmoss spiders in Stonetalon Mountains and the Barrens. The spiders are levels 15-20 and are found in caves. The drop rate is moderate. Manageable solo for a level 15+ character.", confidence = "medium" },
     -- On Guard in Stonetalon
-    [1070] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
-
+    [1070] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
     -- A Gnome's Respite
     [1071] = { threat = "MEDIUM", reason = "The goblins are levels 18-22 and are packed at the Windshear Crag. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- An Old Colleague
-    [1072] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1072] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Ineptitude + Chemicals = Fun (Gather)
-    [1073] = { threat = "LOW", reason = "These are vendor-purchased or crafted items. No combat required. Safe if you stay in the city.", confidence = "high" },
-
+    [1073] = { threat = "LOW", reason = "These are vendor-purchased or crafted items. No combat required. Safe if you stay in the city.", confidence = "medium" },
     -- Ineptitude + Chemicals = Fun (Deliver)
     [1074] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Stonetalon is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- A Scroll from Mauren
-    [1075] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1075] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Devils in Westfall
     [1076] = { threat = "MEDIUM", reason = "The debris drops from Dust Devils in Westfall. The elementals are levels 18-20 and are found in the western part of the zone. They have a knockback and can pull in groups. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- Special Delivery for Gaxim
     [1077] = { threat = "MEDIUM", reason = "This is a delivery step with no combat. The journey through Stonetalon Mountains is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- Retrieval for Mauren
     [1078] = { threat = "MEDIUM", reason = "The scales drop from Crystalized creatures in Westfall. The mobs are levels 18-22 and are found in the western part of the zone. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- Covert Ops - Alpha
     [1079] = { threat = "MEDIUM", reason = "The plans are in a building guarded by level 18-22 Venture Co. goblins. The area is packed with mobs that pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- Covert Ops - Beta
     [1080] = { threat = "MEDIUM", reason = "The letters are in a mine filled with level 18-22 Venture Co. goblins. The mine is dark and mobs respawn quickly. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
-
     -- Reception from Tyrande
-    [1081] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1081] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Update for Sentinel Thenysil
     [1082] = { threat = "MEDIUM", reason = "The journey through Ashenvale is contested and patrolled by level 20-28 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
-
     -- Enraged Spirits
     [1083] = { threat = "MEDIUM", reason = "The elementals are levels 24-28 and are packed in the Charred Vale. They have fire shields that damage melee attackers and can pull in groups. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- Wounded Ancients
     [1084] = { threat = "MEDIUM", reason = "The shrapnel drops from corrupted elementals in the Charred Vale. The mobs are levels 24-28 and are packed in the area. Clear methodically and watch for adds. Do not attempt below level 24 solo.", confidence = "medium" },
-
     -- On Guard in Stonetalon
-    [1085] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
-
+    [1085] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "medium" },
     -- The Flying Machine Airport (Horde - Barrens)
-    [1086] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1086] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Cenarius' Legacy (Horde - Stonetalon)
     [1087] = { threat = "MEDIUM", reason = "The quest leads into contested territory with hostile mobs. Clear the area before looting and watch for patrolling Alliance players.", confidence = "medium" },
-
     -- Ordanus Head (Ashenvale)
-    [1088] = { threat = "HIGH", reason = "Ordanus is surrounded by multiple satyrs and sits deep inside the village, which is packed with mobs. The named mob hits hard and has adds. A player on the Hardcore forums reported losing their character to this quest. Clear the village from the outside in and pull Ordanus to a cleared area before engaging.", confidence = "high" },
-
+    [1088] = { threat = "HIGH", reason = "Ordanus is surrounded by multiple satyrs and sits deep inside the village, which is packed with mobs. The named mob hits hard and has adds. A player on the Hardcore forums reported losing their character to this quest. Clear the village from the outside in and pull Ordanus to a cleared area before engaging.", confidence = "medium" },
     -- The Den (Horde - Stonetalon)
-    [1089] = { threat = "HIGH", reason = "The Den is guarded by level 26-30 mobs, including elites. The rare elite can spawn with two friends, making solo attempts very dangerous for the intended level (26-28). Fight carefully, pull singles, and be ready to flee if the elite appears with adds. A level 27 player reported dying multiple times trying to solo this.", confidence = "high" },
-
+    [1089] = { threat = "EXTREME", reason = "Group quest. The caches are guarded inside Talon Den, and the Classic 1.12 record identifies the quest as a group objective. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
     -- Gerenzo's Orders (Stonetalon Mountains)
-    [1090] = { threat = "HIGH", reason = "While he mines, Venture Co. patrols walk past the mining site, and if you are spotted, multiple mobs will engage at once. Piznik does not fight and cannot be healed. This quest is notorious for killing Hardcore characters: a level 28 druid with blues and Light of Elune died here because a healing potion was used first, making the immunity trinket useless. Clear the surrounding area completely before starting, and be ready to run.", confidence = "high" },
-
+    [1090] = { threat = "HIGH", reason = "Piznik needs several minutes to mine while Venture Co. patrols and worker waves pass the alcove. Being spotted can draw multiple level 21–24 mobs onto you and Piznik. Clear nearby enemies, watch patrols, and bring a group or return overleveled.", confidence = "medium" },
     -- Kaela's Update
-    [1091] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1091] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Gerenzo's Orders
-    [1092] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1092] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Super Reaper 6000
     [1093] = { threat = "MEDIUM", reason = "The blueprints are in the Windshear Crag area, guarded by level 20-24 Venture Co. mobs. The area is packed with mobs and patrolling shredders. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
-
     -- Further Instructions (Deliver to Sputtervalve)
-    [1094] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1094] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Further Instructions (Deliver to Ziz)
-    [1095] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [1095] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
     -- Gerenzo Wrenchwhistle (Stonetalon Mountains)
-    [1096] = { threat = "HIGH", reason = "The path is narrow, mobs are packed tightly, and the scaffolding has no railings. Gerenzo is a level 27 named goblin surrounded by several guards. Falling from the scaffolding is an instant death in Hardcore, and this location appears frequently in death compilation videos. Clear the platform methodically and do not fight near the edges.", confidence = "high" },
-
+    [1096] = { threat = "MEDIUM", reason = "Gerenzo is reached by a narrow path and platforms, where nearby guards and a mechanical add can join the fight; falling can be fatal. Clear the route, pull him away from edges, and check the landing before moving down.", confidence = "medium" },
     -- Elmore's Task
-    [1097] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [1097] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
     -- Deathstalkers in Shadowfang (Shadowfang Keep dungeon)
     [1098] = { threat = "HIGH", reason = "The first is in the prison section, and the second is in the courtyard after the first opens the door. Both are deep inside the dungeon, past multiple packs of elite worgen. This requires a full group. The first Deathstalker must be freed to progress, which pulls mobs. The second is in an open courtyard with patrolling elites.", confidence = "high" },
 
     -- Lonebrow's Journal
-    [1100] = { threat = "LOW", reason = "The journal is found on a corpse in the Wetlands. This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
-
+    [1100] = { threat = "LOW", reason = "The journal is found on a corpse in the Wetlands. This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
     -- The Crone of the Kraul
     [1101] = { threat = "MEDIUM", reason = "The medallion drops from Charlga Razorflank, the final boss of Razorfen Kraul. Razorfen Kraul is a level 25-30 dungeon filled with elite quilboar. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },
 

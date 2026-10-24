@@ -342,16 +342,16 @@ addon.quests = {
     [902] = { threat = "LOW", reason = "The return delivery adds no new combat encounter. Leave the site by a cleared route and avoid unnecessary fights on the way to Ratchet.", confidence = "medium" },
 
     -- Trouble at the Docks
-    [959] = { threat = "HIGH", reason = "Mad Magglish is located in the tunnels *outside* the instance proper, but the path to him is filled with non-elite and elite mobs. He is stealthed and can be hard to spot. The caves respawn quickly. Bring a group or be prepared to fight through respawning mobs on the way out.", confidence = "high" },
+    [959] = { threat = "HIGH", reason = "Mad Magglish is stealthed in the hostile Wailing Caverns cave outside the instance entrance, near other dangerous creatures. Locate him carefully and leave by a cleared route; bring help if you cannot manage the cave.", confidence = "medium" },
 
     -- Luck Be With You
-    [969] = { threat = "MEDIUM", reason = "The shards drop from Frostmaul giants in Winterspring. The giants are levels 55-58 and are elite-level threats. They hit extremely hard and have knockbacks. The area is patrolled by additional elites. Do not attempt below level 55 solo without a group.", confidence = "high" },
+    [969] = { threat = "MEDIUM", reason = "The shards can be gathered from Frostwhisper Gorge without fighting giants, but the route passes near elites and other dangerous wildlife. Use visible shards along the outer path and retreat if enemies engage.", confidence = "medium" },
 
     -- Finding the Source
     [974] = { threat = "MEDIUM", reason = "The ridge is patrolled by level 50-54 fire elementals and lava creatures. The hottest spot is at the very top, guarded by elites. Bring fire resistance gear and clear methodically. Do not attempt below level 50 solo without a plan to avoid the elites.", confidence = "medium" },
 
     -- Cache of Mau'ari
-    [975] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in Everlook.", confidence = "high" },
+    [975] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in Everlook.", confidence = "medium" },
 
     -- Are We There, Yeti?
     [977] = { threat = "MEDIUM", reason = "The horns drop from yetis in Winterspring. The yetis are levels 55-58 and are packed in caves. They hit hard and have knockbacks. The caves are dark and respawn quickly. Do not attempt below level 55 solo without a group.", confidence = "medium" },
@@ -362,29 +362,35 @@ addon.quests = {
     -- Gadgetzan Water Survey
     [992] = { threat = "MEDIUM", reason = "The area is patrolled by level 40-44 mobs, including basilisks and hyenas. Clear the area before using the widget and watch for patrolling mobs. Do not attempt below level 40 solo.", confidence = "medium" },
 
+    -- Corrupted Windblossom
+    [996] = { threat = "MEDIUM", reason = "The interaction uses two plant salves on a Windblossom in Felwood and adds no required combat. Nearby hostile mobs can make reaching a plant hazardous; approach from a cleared path.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [998] = { threat = "MEDIUM", reason = "The interaction uses two plant salves on a Windblossom in Felwood and adds no required combat. Nearby hostile mobs can make reaching a plant hazardous; approach from a cleared path.", confidence = "medium" },
+
     -- Avast Ye, Scallywag
-    [1036] = { threat = "MEDIUM", reason = "The ship is filled with level 40-44 Bloodsail pirates that pull in groups. The ship is cramped with no escape route. Do not attempt below level 42 solo without a plan to avoid the pirates.", confidence = "medium" },
+    [1036] = { threat = "LOW", reason = "This is a level 55+ dialogue quest aboard the Crimson Vale. Speak with the Fleet Master and avoid fighting the ship’s crew.", confidence = "medium" },
 
     -- Deepmoss Spider Eggs
-    [1069] = { threat = "LOW", reason = "The eggs drop from Deepmoss spiders in Stonetalon Mountains and the Barrens. The spiders are levels 15-20 and are found in caves. The drop rate is moderate. Manageable solo for a level 15+ character.", confidence = "high" },
+    [1069] = { threat = "LOW", reason = "The eggs drop from Deepmoss spiders in Stonetalon Mountains and the Barrens. The spiders are levels 15-20 and are found in caves. The drop rate is moderate. Manageable solo for a level 15+ character.", confidence = "medium" },
 
     -- Gerenzo's Orders
-    [1090] = { threat = "HIGH", reason = "While he mines, Venture Co. patrols walk past the mining site, and if you are spotted, multiple mobs will engage at once. Piznik does not fight and cannot be healed. This quest is notorious for killing Hardcore characters: a level 28 druid with blues and Light of Elune died here because a healing potion was used first, making the immunity trinket useless. Clear the surrounding area completely before starting, and be ready to run.", confidence = "high" },
+    [1090] = { threat = "HIGH", reason = "Piznik needs several minutes to mine while Venture Co. patrols and worker waves pass the alcove. Being spotted can draw multiple level 21–24 mobs onto you and Piznik. Clear nearby enemies, watch patrols, and bring a group or return overleveled.", confidence = "medium" },
 
     -- Gerenzo's Orders
-    [1092] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1092] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Super Reaper 6000
     [1093] = { threat = "MEDIUM", reason = "The blueprints are in the Windshear Crag area, guarded by level 20-24 Venture Co. mobs. The area is packed with mobs and patrolling shredders. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Further Instructions
-    [1094] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1094] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Further Instructions
-    [1095] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1095] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Gerenzo Wrenchwhistle
-    [1096] = { threat = "HIGH", reason = "The path is narrow, mobs are packed tightly, and the scaffolding has no railings. Gerenzo is a level 27 named goblin surrounded by several guards. Falling from the scaffolding is an instant death in Hardcore, and this location appears frequently in death compilation videos. Clear the platform methodically and do not fight near the edges.", confidence = "high" },
+    [1096] = { threat = "MEDIUM", reason = "Gerenzo is reached by a narrow path and platforms, where nearby guards and a mechanical add can join the fight; falling can be fatal. Clear the route, pull him away from edges, and check the landing before moving down.", confidence = "medium" },
 
     -- Salt Flat Venom
     [1104] = { threat = "LOW", reason = "The venoms drop from scorpids in the Shimmering Flats. The scorpids are levels 30-34 and are scattered across the flats. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },

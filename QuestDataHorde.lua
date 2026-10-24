@@ -945,7 +945,7 @@ local quests = {
     [899] = { threat = "MEDIUM", reason = "The many required tusks mean repeated fights in Bristleback camps where enemies can join from nearby groups. Pull singles toward open ground and leave before respawns close your route.", confidence = "medium" },
 
     -- Prowlers of the Barrens
-    [903] = { threat = "LOW", reason = "The prowlers are levels 13-15 and are manageable solo. Watch for patrolling cats and fight in open areas.", confidence = "high" },
+    [903] = { threat = "LOW", reason = "The prowlers are levels 13-15 and are manageable solo. Watch for patrolling cats and fight in open areas.", confidence = "medium" },
 
     -- The Angry Scytheclaws
     [905] = { threat = "MEDIUM", reason = "The raptors are levels 14-17 and run in packs. They flee at low health and can chain-pull. Kill the runners first.", confidence = "medium" },
@@ -957,10 +957,10 @@ local quests = {
     [907] = { threat = "MEDIUM", reason = "The lizards are levels 15-18 and have a lightning attack that can chain. Fight them away from other mobs.", confidence = "medium" },
 
     -- Down at the Docks
-    [910] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [910] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Gateway to the Frontier
-    [911] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [911] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Cry of the Thunderhawk
     [913] = { threat = "MEDIUM", reason = "The hawks are levels 14-17 and patrol the skies. They can be hard to reach and may pull additional mobs. Fight in open areas.", confidence = "medium" },
@@ -972,31 +972,31 @@ local quests = {
     [915] = { threat = "MEDIUM", reason = "The quest involves travel and light combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- The Demon Seed
-    [924] = { threat = "MEDIUM", reason = "The area is patrolled by hostile mobs. Clear the area before looting.", confidence = "medium" },
+    [924] = { threat = "MEDIUM", reason = "Timed quest (30 min). The stone expires after pickup, and the route ends at a guarded cave on Dreadmist Peak. Know the climb before taking the stone and avoid unnecessary fights.", confidence = "medium" },
 
     -- Cairne's Hoofprint
-    [925] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [925] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Flawed Power Stone
-    [926] = { threat = "MEDIUM", reason = "The stones are guarded by hostile mobs. Clear the area before looting.", confidence = "medium" },
+    [926] = { threat = "LOW", reason = "This step is only the unstable stone pickup for The Demon Seed. Collect it when ready to begin the timed route, then head directly for the altar.", confidence = "medium" },
 
     -- Assisting Arch Druid Runetotem
-    [936] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [936] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Serpentbloom
-    [962] = { threat = "MEDIUM", reason = "The plants are found on the ground against the cave walls, both outside and inside the instance. In Classic Era, the outer cave mobs are non-elite, but the instance proper has elites. The plants are hard to see without Herbalism tracking. The main danger is other players clearing mobs quickly or pulling extra mobs while you're looking for flowers. Do this with a group or carefully solo the outer caves.", confidence = "high" },
+    [962] = { threat = "MEDIUM", reason = "The plants are found on the ground against the cave walls, both outside and inside the instance. In Classic Era, the outer cave mobs are non-elite, but the instance proper has elites. The plants are hard to see without Herbalism tracking. The main danger is other players clearing mobs quickly or pulling extra mobs while you're looking for flowers. Do this with a group or carefully solo the outer caves.", confidence = "medium" },
 
     -- Skeletal Fragments
     [964] = { threat = "MEDIUM", reason = "The fragments are guarded by undead mobs. Clear the area before looting.", confidence = "medium" },
 
     -- Water Sapta
-    [972] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [972] = { threat = "LOW", reason = "This repeatable Shaman step supplies Water Sapta through a turn-in; it adds no combat encounter.", confidence = "medium" },
 
     -- The New Frontier
-    [1000] = { threat = "LOW", reason = "Pure travel and dialogue step with no combat. The journey from the Barrens is safe if you stay on the road.", confidence = "high" },
+    [1000] = { threat = "LOW", reason = "Pure travel and dialogue step with no combat. The journey from the Barrens is safe if you stay on the road.", confidence = "medium" },
 
     -- The New Frontier
-    [1004] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [1004] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the village.", confidence = "medium" },
 
     -- The Book of Ur
     [1013] = { threat = "HIGH", reason = "The book is in the room with Fenrus the Devourer, one of the last bosses before Arugal. Shadowfang Keep is a level 18-25 dungeon filled with elite worgen and ghosts. After killing Fenrus, four voidwalkers spawn and hit hard. This requires a full group. The book respawns quickly, so you can loot it even if another group takes it first.", confidence = "high" },
@@ -1005,7 +1005,7 @@ local quests = {
     [1014] = { threat = "EXTREME", reason = "Arugal is a level 24 elite boss who teleports around the room, summons adds, and hits extremely hard with shadow magic. He regularly wipes groups of level 20-25 players. The entire dungeon leading up to him is filled with elites. This requires a full, coordinated group of 5 at level 22-26. Solo is impossible.", confidence = "high" },
 
     -- The New Frontier
-    [1018] = { threat = "LOW", reason = "Speak with the NPC in Brackenwall Village. Travel and dialogue with no combat. Safe if you stay in the village.", confidence = "high" },
+    [1018] = { threat = "LOW", reason = "Speak with the NPC in Brackenwall Village. Travel and dialogue with no combat. Safe if you stay in the village.", confidence = "medium" },
 
     -- Into The Scarlet Monastery
     [1048] = { threat = "EXTREME", reason = "This dungeon is filled with level 30-40 elite Scarlet Crusade mobs and requires a full group of 5 at level 33+. The bosses hit extremely hard and have mechanics that wipe unprepared groups. Do not attempt without a coordinated group and a healer.", confidence = "high" },
@@ -1014,25 +1014,25 @@ local quests = {
     [1049] = { threat = "HIGH", reason = "The Library section is guarded by level 30-40 elite Scarlet Crusade mobs. This requires a full group of 5 at the appropriate level. The path to the library passes through multiple packs of elites. Do not attempt solo.", confidence = "high" },
 
     -- Vorrel's Revenge
-    [1051] = { threat = "HIGH", reason = "Nancy is a level 33 elite who is normally accompanied by Grandpa Vishas, a level 34 elite, inside the cottage at Lordamere Lake. Fighting both at once is extremely dangerous and not soloable for most classes at the intended level. The trick is to wait on the dock until Nancy walks out alone, then pull her away from the house. Without this trick, this quest is a death sentence. Do not attempt without patience or a group.", confidence = "high" },
+    [1051] = { threat = "HIGH", reason = "The ring requires a dangerous encounter with Nancy and Grandpa Vishas near Lordamere Lake; they can engage together. Separate them with a careful pull or bring a group.", confidence = "medium" },
 
     -- Jin'Zil's Forest Magic
     [1058] = { threat = "MEDIUM", reason = "The quest leads into contested territory with hostile mobs. Clear the area before looting and watch for patrolling Alliance players.", confidence = "medium" },
 
     -- Letter to Jin'Zil
-    [1060] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "high" },
+    [1060] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "medium" },
 
     -- The Spirits of Stonetalon
-    [1061] = { threat = "LOW", reason = "No combat objective; the journey through the Barrens is safe if you stay on the road. Seereth can occasionally be killed by Alliance players passing through, so if she is not there, wait for her respawn.", confidence = "high" },
+    [1061] = { threat = "LOW", reason = "No combat objective; the journey through the Barrens is safe if you stay on the road. Seereth can occasionally be killed by Alliance players passing through, so if she is not there, wait for her respawn.", confidence = "medium" },
 
     -- Goblin Invaders
-    [1062] = { threat = "MEDIUM", reason = "The loggers have surprisingly high aggro range and the area is also populated by spiders that will add if you are not careful. Pull singles from the edge of the camp and watch for patrolling shredders.", confidence = "high" },
+    [1062] = { threat = "MEDIUM", reason = "The loggers have surprisingly high aggro range and the area is also populated by spiders that will add if you are not careful. Pull singles from the edge of the camp and watch for patrolling shredders.", confidence = "medium" },
 
     -- The Elder Crone
-    [1063] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1063] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Forsaken Aid
-    [1064] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "high" },
+    [1064] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "medium" },
 
     -- Journey to Tarren Mill
     [1065] = { threat = "MEDIUM", reason = "The journey passes through contested zones, including the Barrens and Hillsbrad. Stay on the road and avoid the Syndicate and ogre camps. The destination itself is a Horde town and safe.", confidence = "medium" },
@@ -1041,22 +1041,22 @@ local quests = {
     [1066] = { threat = "MEDIUM", reason = "The quest leads into dangerous territory with hostile mobs. Clear the area before looting and watch for patrolling mobs.", confidence = "medium" },
 
     -- Return to Thunder Bluff
-    [1067] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1067] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Shredding Machines
-    [1068] = { threat = "MEDIUM", reason = "These are large mechanical mobs that patrol wide areas and can spawn unexpectedly. XT:4 roams the northern part of the crag, XT:9 the southern part. They hit hard for their level and can add with Venture Co. operators nearby. Clear a safe spot before engaging.", confidence = "high" },
+    [1068] = { threat = "MEDIUM", reason = "These are large mechanical mobs that patrol wide areas and can spawn unexpectedly. XT:4 roams the northern part of the crag, XT:9 the southern part. They hit hard for their level and can add with Venture Co. operators nearby. Clear a safe spot before engaging.", confidence = "medium" },
 
     -- The Flying Machine Airport
-    [1086] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1086] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Cenarius' Legacy
     [1087] = { threat = "MEDIUM", reason = "The quest leads into contested territory with hostile mobs. Clear the area before looting and watch for patrolling Alliance players.", confidence = "medium" },
 
     -- Ordanus
-    [1088] = { threat = "HIGH", reason = "Ordanus is surrounded by multiple satyrs and sits deep inside the village, which is packed with mobs. The named mob hits hard and has adds. A player on the Hardcore forums reported losing their character to this quest. Clear the village from the outside in and pull Ordanus to a cleared area before engaging.", confidence = "high" },
+    [1088] = { threat = "HIGH", reason = "Ordanus is surrounded by multiple satyrs and sits deep inside the village, which is packed with mobs. The named mob hits hard and has adds. A player on the Hardcore forums reported losing their character to this quest. Clear the village from the outside in and pull Ordanus to a cleared area before engaging.", confidence = "medium" },
 
     -- The Den
-    [1089] = { threat = "HIGH", reason = "The Den is guarded by level 26-30 mobs, including elites. The rare elite can spawn with two friends, making solo attempts very dangerous for the intended level (26-28). Fight carefully, pull singles, and be ready to flee if the elite appears with adds. A level 27 player reported dying multiple times trying to solo this.", confidence = "high" },
+    [1089] = { threat = "EXTREME", reason = "Group quest. The caches are guarded inside Talon Den, and the Classic 1.12 record identifies the quest as a group objective. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Deathstalkers in Shadowfang
     [1098] = { threat = "HIGH", reason = "The first is in the prison section, and the second is in the courtyard after the first opens the door. Both are deep inside the dungeon, past multiple packs of elite worgen. This requires a full group. The first Deathstalker must be freed to progress, which pulls mobs. The second is in an open courtyard with patrolling elites.", confidence = "high" },
