@@ -3374,8 +3374,29 @@ local quests = {
     -- The Battle for Arathi Basin!
     [8171] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
+    -- Could I get a Fishing Flier?
+    [8228] = { threat = "LOW", reason = "This is a dialogue step to receive the Booty Bay fishing contest flyer. It adds no combat; use the normal route to the local representative.", confidence = "medium" },
+
     -- The Darkreaver Menace
     [8258] = { threat = "EXTREME", reason = "Elite quest. Requires using the Divination Scryer in Scholomance to summon waves of elite spirits and Death Knight Darkreaver. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ with a coordinated strategy is required. Do not attempt solo.", confidence = "high" },
+
+    -- Defiler's Basic Care Package
+    [8263] = { threat = "LOW", reason = "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+
+    -- Defiler's Standard Care Package
+    [8264] = { threat = "LOW", reason = "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+
+    -- Defiler's Advanced Care Package
+    [8265] = { threat = "LOW", reason = "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+
+    -- Ribbons of Sacrifice
+    [8266] = { threat = "EXTREME", reason = "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Ribbons of Sacrifice
+    [8267] = { threat = "EXTREME", reason = "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Hero of the Frostwolf
+    [8272] = { threat = "EXTREME", reason = "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- Taking Back Silithus
     [8276] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },

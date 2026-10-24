@@ -3974,6 +3974,27 @@ local quests = {
     -- The Battle for Arathi Basin!
     [8168] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
+    -- Could I get a Fishing Flier?
+    [8229] = { threat = "LOW", reason = "This is a dialogue step to receive the Booty Bay fishing contest flyer. It adds no combat; use the normal route to the local representative.", confidence = "medium" },
+
+    -- Arathor Basic Care Package
+    [8260] = { threat = "LOW", reason = "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+
+    -- Arathor Standard Care Package
+    [8261] = { threat = "LOW", reason = "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+
+    -- Arathor Advanced Care Package
+    [8262] = { threat = "LOW", reason = "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+
+    -- Ribbons of Sacrifice
+    [8268] = { threat = "EXTREME", reason = "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Ribbons of Sacrifice
+    [8269] = { threat = "EXTREME", reason = "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Hero of the Stormpike
+    [8271] = { threat = "EXTREME", reason = "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
     -- Taking Back Silithus
     [8275] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
 

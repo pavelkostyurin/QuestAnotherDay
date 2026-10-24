@@ -8971,11 +8971,18 @@ addon.quests = {
     -- Paragons of Power: The Vindicator's Breastplate
     [8079] = { threat = "EXTREME", reason = "Raid quest. Requires a Primal Hakkari Kossack from Zul'Gurub. A full raid group of 20 players is required. Do not attempt solo. Requires Revered reputation with Zandalar Tribe.", confidence = "high" },
 
-    -- Honoring a Hero (Alliance)
     [8080] = { threat = "EXTREME", reason = "PvP quest. Win Arathi Basin and return with a resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     [8081] = { threat = "EXTREME", reason = "PvP quest. Win Arathi Basin and return with a resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     [8105] = { threat = "EXTREME", reason = "PvP quest. Assault four bases inside Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     [8114] = { threat = "EXTREME", reason = "PvP quest. Capture and control four bases in Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8115] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8120] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8121] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8122] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8123] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8124] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- Honoring a Hero (Alliance)
     [8149] = { threat = "LOW", reason = "The Harvest Festival visit to Uther's Tomb requires no combat. Travel through Western Plaguelands carefully and avoid nearby undead on the way to the statue.", confidence = "medium" },
 
     -- Honoring a Hero (Horde)
@@ -8987,12 +8994,6 @@ addon.quests = {
     -- Courser Antlers
     [8153] = { threat = "MEDIUM", reason = "Two Perfect Courser Antlers require hunting Mosshoof Coursers in Azshara, where closely spaced mobs can complicate repeated pulls. Pull one at a time, keep an escape route, and stop if nearby spawns close in.", confidence = "medium" },
 
-    [8115] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
-    [8120] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
-    [8121] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
-    [8122] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
-    [8123] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
-    [8124] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     [8154] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     [8155] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     [8156] = { threat = "EXTREME", reason = "PvP quest. Complete the Arathi Basin objective inside the battleground, which is disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
@@ -9021,26 +9022,39 @@ addon.quests = {
     -- The Heart of Hakkar
     [8183] = { threat = "LOW", reason = "Delivery step with no combat. The Heart of Hakkar is obtained from a raid boss in Zul'Gurub. Safe if you stay in the area.", confidence = "high" },
 
+    [8193] = { threat = "LOW", reason = "This is the Booty Bay fishing contest: catch 40 Tastyfish and turn them in first to win. Fish offshore from a safe route and avoid hostile shore areas while the event is active.", confidence = "medium" },
+    [8194] = { threat = "LOW", reason = "This is a five-fish hand-in to the Booty Bay fishing contest assistant. The turn-in adds no combat; use the normal route to the dock.", confidence = "medium" },
+    [8196] = { threat = "LOW", reason = "Exchange one Zandalar Honor Token for Essence Mangoes at the Yojamba Isle trader. The stationary trade adds no combat; use the normal route to the island.", confidence = "medium" },
+
     -- A Collection of Heads
     [8201] = { threat = "LOW", reason = "Delivery step with no combat. The Channeler's Heads are obtained from Zul'Gurub. Safe if you stay in the area.", confidence = "high" },
+
+    [8221] = { threat = "LOW", reason = "This is a rare-fish hand-in for an Angelfish caught from the Stranglethorn contest pools. Fish offshore from a safe route and avoid landing near hostile shore areas.", confidence = "medium" },
+    [8222] = { threat = "LOW", reason = "Collect ten Glowing Scorpid Blood from scorpids in the named open-world zones. Use clear ground and pull one at a time; leave if nearby creatures close around you.", confidence = "medium" },
+    [8223] = { threat = "LOW", reason = "Collect ten Glowing Scorpid Blood from scorpids in the named open-world zones. Use clear ground and pull one at a time; leave if nearby creatures close around you.", confidence = "medium" },
+    [8224] = { threat = "LOW", reason = "This is a rare-fish hand-in for a Queenfish caught from the Stranglethorn contest pools. Fish offshore from a safe route and avoid landing near hostile shore areas.", confidence = "medium" },
+    [8225] = { threat = "LOW", reason = "This is a rare-fish hand-in for a Blue Striped Racer caught from the Stranglethorn contest pools. Fish offshore from a safe route and avoid landing near hostile shore areas.", confidence = "medium" },
 
     -- Nat's Measuring Tape
     [8227] = { threat = "LOW", reason = "Delivery step with no combat. The measuring tape is found in Stranglethorn. The journey to Dustwallow Marsh is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
 
+    [8228] = { threat = "LOW", reason = "This is a dialogue step to receive the Booty Bay fishing contest flyer. It adds no combat; use the normal route to the local representative.", confidence = "medium" },
+    [8229] = { threat = "LOW", reason = "This is a dialogue step to receive the Booty Bay fishing contest flyer. It adds no combat; use the normal route to the local representative.", confidence = "medium" },
+
     -- Wavethrashing
-    [8231] = { threat = "MEDIUM", reason = "Wavethrasher Scales drop from Wavethrashers in Azshara, levels 48-52. The mobs are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8231] = { threat = "MEDIUM", reason = "Wavethrashers are powerful amphibious beasts along Azshara’s coast, and fighting them in water can complicate recovery and escape. Pull them from clear ground and collect scales one at a time.", confidence = "medium" },
 
     -- The Green Drake
     [8232] = { threat = "EXTREME", reason = "Requires killing Morphaz, a level 55 elite dragon in the Sunken Temple, for his tooth. The Sunken Temple is a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
     -- A Simple Request
-    [8233] = { threat = "LOW", reason = "Rogue class quest dialogue step with no combat. The journey to Ravenholdt Manor is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [8233] = { threat = "LOW", reason = "This is a dialogue step at Ravenholdt Manor. It adds no combat; travel to the manor by a familiar route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Sealed Azure Bag
-    [8234] = { threat = "MEDIUM", reason = "Rogue class quest. Requires retrieving the Sealed Azure Bag from Timbermaw Shaman in Azshara, levels 48-52. The shaman are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8234] = { threat = "MEDIUM", reason = "The bag is held by a Timbermaw shaman in Azshara, near other hostile furbolgs. Use stealth to pickpocket it or clear the approach first, and leave if the guards stack into an unsafe pull.", confidence = "medium" },
 
     -- Encoded Fragments
-    [8235] = { threat = "MEDIUM", reason = "Rogue class quest. Encoded Fragments drop from mobs in Azshara, levels 48-52. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8235] = { threat = "MEDIUM", reason = "Ten encoded fragments come from forest oozes in northeast Azshara, and the drop can require repeated kills. Pull from open ground and stop if respawns close around you.", confidence = "medium" },
 
     -- The Azure Key
     [8236] = { threat = "LOW", reason = "Rogue class quest delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
@@ -9048,32 +9062,51 @@ addon.quests = {
     -- A Bijou for Zanza
     [8240] = { threat = "EXTREME", reason = "Raid quest. Requires destroying a Hakkari Bijou at the Altar of Zanza on Yojamba Isle. The bijou is obtained from Zul'Gurub, a level 60 raid dungeon. A full raid group of 20 players is required. Do not attempt solo.", confidence = "high" },
 
+    [8241] = { threat = "LOW", reason = "This is a repeatable material hand-in to Master Smith Burninate. The turn-in adds no combat; if collecting Incendosaur Scales, pull the nearby creatures singly.", confidence = "medium" },
+    [8242] = { threat = "LOW", reason = "This is a repeatable material hand-in to Master Smith Burninate. The turn-in adds no combat; if collecting Incendosaur Scales, pull the nearby creatures singly.", confidence = "medium" },
+    [8243] = { threat = "LOW", reason = "Exchange a Zandalar Honor Token for one of Zanza’s consumables at Yojamba Isle. This stationary trade adds no combat; use the normal route to the trader.", confidence = "medium" },
+    [8246] = { threat = "LOW", reason = "Exchange 15 Zandalar Honor Tokens for one signet at the Yojamba Isle trader. This stationary trade adds no combat; use the normal route to the island.", confidence = "medium" },
+    [8249] = { threat = "MEDIUM", reason = "Five Heavy Junkboxes are turned in at Ravenholdt, but acquiring them can involve pickpocketing hostile humanoids in crowded areas. Farm from isolated targets, keep an escape route, and use help or an alternate source if the route is unsafe.", confidence = "medium" },
+
     -- Magecraft
-    [8250] = { threat = "LOW", reason = "Mage class quest dialogue step with no combat. The journey to Azshara is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [8250] = { threat = "LOW", reason = "This mage-class step is a conversation about passage to Archmage Xylem. It adds no combat objective; travel through Azshara carefully and avoid hostile camps.", confidence = "medium" },
 
     -- Magic Dust
-    [8251] = { threat = "MEDIUM", reason = "Glittering Dust drops from level 50-54 mobs in Azshara. The drop rate is moderate, so expect a long grind. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8251] = { threat = "MEDIUM", reason = "Ten Glittering Dust require repeated fights with hostile Azshara creatures. Clear isolated targets and keep an open retreat route rather than pushing into a dense camp.", confidence = "medium" },
 
     -- The Siren's Coral
-    [8252] = { threat = "MEDIUM", reason = "Enchanted Coral is found underwater off the coast of Azshara, guarded by level 50-54 naga. The naga pull in groups and fighting underwater risks drowning. Clear methodically and surface for breath. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8252] = { threat = "MEDIUM", reason = "The coral is gathered underwater off Azshara near hostile naga, where combat can consume breath and narrow escape options. Clear a safe approach, watch your breath, and surface before continuing.", confidence = "medium" },
 
     -- Destroy Morphaz
     [8253] = { threat = "EXTREME", reason = "Elite quest. Requires killing Morphaz, a level 55 elite dragon in the Sunken Temple, for the Arcane Shard. The Sunken Temple is a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Cenarion Aid
-    [8254] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Azshara is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8254] = { threat = "LOW", reason = "This is a dialogue step with Ogtinc in Azshara. It adds no combat; travel to the cliff-top safely and avoid hostile camps along the route.", confidence = "medium" },
 
     -- Of Coursers We Know
-    [8255] = { threat = "MEDIUM", reason = "Healthy Courser Glands drop from Mosshoof Coursers in Azshara, levels 48-52. The coursers are aggressive and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8255] = { threat = "MEDIUM", reason = "Four Healthy Courser Glands require repeated hunts in Azshara. Pull one Courser at a time and stay clear of nearby hostile mobs while gathering.", confidence = "medium" },
 
     -- The Ichor of Undeath
-    [8256] = { threat = "MEDIUM", reason = "Ichor of Undeath drops from undead mobs in Azshara and Felwood, levels 48-52. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8256] = { threat = "MEDIUM", reason = "Ichor of Undeath requires hunting undead in Azshara or Felwood. Keep pulls isolated and leave if nearby enemies or respawns close off your route.", confidence = "medium" },
 
     -- Blood of Morphaz
     [8257] = { threat = "EXTREME", reason = "Elite quest. Requires killing Morphaz, a level 55 elite dragon in the Sunken Temple, for his blood. The dungeon is filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
     -- The Darkreaver Menace
     [8258] = { threat = "EXTREME", reason = "Elite quest. Requires using the Divination Scryer in Scholomance to summon waves of elite spirits and Death Knight Darkreaver. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ with a coordinated strategy is required. Do not attempt solo.", confidence = "high" },
+
+    [8260] = { threat = "LOW", reason = "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+    [8261] = { threat = "LOW", reason = "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+    [8262] = { threat = "LOW", reason = "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+    [8263] = { threat = "LOW", reason = "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+    [8264] = { threat = "LOW", reason = "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+    [8265] = { threat = "LOW", reason = "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.", confidence = "medium" },
+    [8266] = { threat = "EXTREME", reason = "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8267] = { threat = "EXTREME", reason = "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8268] = { threat = "EXTREME", reason = "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8269] = { threat = "EXTREME", reason = "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8271] = { threat = "EXTREME", reason = "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8272] = { threat = "EXTREME", reason = "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- Taking Back Silithus (8275)
     [8275] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Silithus is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },

@@ -82147,6 +82147,1268 @@
       "checkedAt": "2026-10-24T21:57:10+03:00",
       "skipReason": "raid",
       "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8191,
+      "questName": "Prophetic Aura",
+      "url": "https://www.wowhead.com/classic/quest=8191",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8192,
+      "questName": "Animist's Caress",
+      "url": "https://www.wowhead.com/classic/quest=8192",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8193,
+      "questName": "Master Angler",
+      "url": "https://www.wowhead.com/classic/quest=8193",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Master Angler - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8193/master-angler",
+          "evidence": "Quest text describes the Booty Bay fishing contest: first to bring 40 Tastyfish wins; other contestants can still turn in fish.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text verifies the contest and its 40-fish objective. Confidence is medium because the event is clearly noncombat, while coastal crowding and exact fishing conditions vary.",
+      "reason": "This is the Booty Bay fishing contest: catch 40 Tastyfish and turn them in first to win. Fish offshore from a safe route and avoid hostile shore areas while the event is active.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8194,
+      "questName": "Apprentice Angler",
+      "url": "https://www.wowhead.com/classic/quest=8194",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Apprentice Angler - WoW Classic Quest in Fishing",
+          "url": "https://database.stonetavern.app/quest/8194-apprentice-angler",
+          "evidence": "Vanilla 1.12.1 quest objective is to turn in five Speckled Tastyfish.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Vanilla 1.12 quest record confirms a hand-in of five Speckled Tastyfish. Confidence is medium because the hand-in itself is safe and the fishing occurs separately.",
+      "reason": "This is a five-fish hand-in to the Booty Bay fishing contest assistant. The turn-in adds no combat; use the normal route to the dock.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8195,
+      "questName": "Zulian, Razzashi, and Hakkari Coins",
+      "url": "https://www.wowhead.com/classic/quest=8195",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Classic quest requires the three Zul’Gurub tribe coins, whose source is raid mobs; skipped as a raid quest before reading comments."
+    },
+    {
+      "questId": 8196,
+      "questName": "Essence Mangoes",
+      "url": "https://www.wowhead.com/classic/quest=8196",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Essence Mangoes - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8196/essence-mangoes",
+          "evidence": "The quest exchanges one Zandalar Honor Token for ten Essence Mangoes at Rin’wosho on Yojamba Isle.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms this is a token exchange at Yojamba Isle. Confidence is medium because the exchange is safe and token acquisition is outside this quest step.",
+      "reason": "Exchange one Zandalar Honor Token for Essence Mangoes at the Yojamba Isle trader. The stationary trade adds no combat; use the normal route to the island.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8201,
+      "questName": "A Collection of Heads",
+      "url": "https://www.wowhead.com/classic/quest=8201",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8221,
+      "questName": "Rare Fish - Keefer's Angelfish",
+      "url": "https://www.wowhead.com/classic/quest=8221",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Rare Fish - Keefer’s Angelfish - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8221/rare-fish-keefers-angelfish",
+          "evidence": "The objective is to turn in one Keefer’s Angelfish to the contest Fishbot for a fishing reward.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "Stranglethorn Vale Fishing Extravaganza Guide - WoW Classic",
+          "url": "https://www.warcrafttavern.com/wow-classic/guides/stranglethorn-vale-fishing-extravaganza/",
+          "evidence": "Rare fish are found in Tastyfish schools along the Stranglethorn coast and turned in at Booty Bay.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms a single-fish hand-in for a contest reward. Confidence is medium because the turn-in is safe while fishing location hazards vary.",
+      "reason": "This is a rare-fish hand-in for an Angelfish caught from the Stranglethorn contest pools. Fish offshore from a safe route and avoid landing near hostile shore areas.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8222,
+      "questName": "Glowing Scorpid Blood",
+      "url": "https://www.wowhead.com/classic/quest=8222",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Glowing Scorpid Blood - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8222/glowing-scorpid-blood",
+          "evidence": "Quest asks for ten Glowing Scorpid Blood; its text names scorpids in Silithus, Blasted Lands, or Burning Steppes.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "Glowing Scorpid Blood - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Glowing_Scorpid_Blood",
+          "evidence": "The item drops from high-level scorpids in Silithus, Blasted Lands, and Burning Steppes.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text names the collection and three open-world zones. Confidence is medium because ordinary combat risk is clear but mob density varies.",
+      "reason": "Collect ten Glowing Scorpid Blood from scorpids in the named open-world zones. Use clear ground and pull one at a time; leave if nearby creatures close around you.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8223,
+      "questName": "More Glowing Scorpid Blood",
+      "url": "https://www.wowhead.com/classic/quest=8223",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "More Glowing Scorpid Blood - Quest - ClassicDB",
+          "url": "https://classicdb.ch/?quest=8223",
+          "evidence": "Repeatable quest asks for ten Glowing Scorpid Blood and awards Darkmoon Faire tickets.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "Glowing Scorpid Blood - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Glowing_Scorpid_Blood",
+          "evidence": "The item drops from high-level scorpids in Silithus, Blasted Lands, and Burning Steppes.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "ClassicDB confirms this repeatable quest requests the same ten-item Scorpid Blood collection. Confidence is medium because ordinary combat risk is clear but mob density varies.",
+      "reason": "Collect ten Glowing Scorpid Blood from scorpids in the named open-world zones. Use clear ground and pull one at a time; leave if nearby creatures close around you.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8224,
+      "questName": "Rare Fish - Dezian Queenfish",
+      "url": "https://www.wowhead.com/classic/quest=8224",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Rare Fish - Dezian Queenfish - Quest - ClassicDB",
+          "url": "https://classicdb.ch/?quest=8224",
+          "evidence": "The quest is a hand-in for one Dezian Queenfish caught during the Stranglethorn fishing event.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "Stranglethorn Vale Fishing Extravaganza Guide - WoW Classic",
+          "url": "https://www.warcrafttavern.com/wow-classic/guides/stranglethorn-vale-fishing-extravaganza/",
+          "evidence": "Rare fish are found in Tastyfish schools along the Stranglethorn coast and turned in at Booty Bay.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "ClassicDB identifies the rare-fish hand-in; the contest guide confirms the fish come from coastal Tastyfish pools. Confidence is medium because the turn-in is safe while fishing location hazards vary.",
+      "reason": "This is a rare-fish hand-in for a Queenfish caught from the Stranglethorn contest pools. Fish offshore from a safe route and avoid landing near hostile shore areas.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8225,
+      "questName": "Rare Fish - Brownell's Blue Striped Racer",
+      "url": "https://www.wowhead.com/classic/quest=8225",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stranglethorn Vale Fishing Extravaganza Guide - WoW Classic",
+          "url": "https://www.warcrafttavern.com/wow-classic/guides/stranglethorn-vale-fishing-extravaganza/",
+          "evidence": "The three rare-fish hand-ins award the fishing hat, line, and boots from fish found in Tastyfish pools.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "Stranglethorn Vale Fishing Extravaganza Guide - WoW Classic",
+          "url": "https://www.warcrafttavern.com/wow-classic/guides/stranglethorn-vale-fishing-extravaganza/",
+          "evidence": "Rare fish are found in Tastyfish schools along the Stranglethorn coast and turned in at Booty Bay.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The contest guide confirms the rare fish are found in coastal Tastyfish pools and turned in at Booty Bay. Confidence is medium because the turn-in is safe while fishing location hazards vary.",
+      "reason": "This is a rare-fish hand-in for a Blue Striped Racer caught from the Stranglethorn contest pools. Fish offshore from a safe route and avoid landing near hostile shore areas.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8227,
+      "questName": "Nat's Measuring Tape",
+      "url": "https://www.wowhead.com/classic/quest=8227",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8228,
+      "questName": "Could I get a Fishing Flier?",
+      "url": "https://www.wowhead.com/classic/quest=8228",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Could I get a Fishing Flier? - Quest - ClassicDB",
+          "url": "https://classicdb.ch/?quest=8228",
+          "evidence": "Repeatable dialogue step gives the Booty Bay fishing contest flyer; no combat objective is listed.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The ClassicDB quest record shows a repeatable flyer hand-out with no combat objective. Confidence is medium because the quest is a stationary dialogue step.",
+      "reason": "This is a dialogue step to receive the Booty Bay fishing contest flyer. It adds no combat; use the normal route to the local representative.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8229,
+      "questName": "Could I get a Fishing Flier?",
+      "url": "https://www.wowhead.com/classic/quest=8229",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The local Alliance variant matches the documented Horde flyer hand-out. Confidence is medium because the quest is a stationary dialogue step.",
+      "reason": "This is a dialogue step to receive the Booty Bay fishing contest flyer. It adds no combat; use the normal route to the local representative.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8231,
+      "questName": "Wavethrashing",
+      "url": "https://www.wowhead.com/classic/quest=8231",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wavethrashing - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8231/wavethrashing",
+          "evidence": "Quest requires six Wavethrasher Scales from amphibious beasts along Azshara’s coast; completion text notes their difficulty in water.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text identifies six Wavethrasher Scales and warns that the beasts are powerful and harder to fight in water. Confidence is medium because the mechanic is direct but exact spawn spacing varies.",
+      "reason": "Wavethrashers are powerful amphibious beasts along Azshara’s coast, and fighting them in water can complicate recovery and escape. Pull them from clear ground and collect scales one at a time.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8232,
+      "questName": "The Green Drake",
+      "url": "https://www.wowhead.com/classic/quest=8232",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8233,
+      "questName": "A Simple Request",
+      "url": "https://www.wowhead.com/classic/quest=8233",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a conversation at Ravenholdt Manor with no combat objective. Confidence is medium from clear local context.",
+      "reason": "This is a dialogue step at Ravenholdt Manor. It adds no combat; travel to the manor by a familiar route and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8234,
+      "questName": "Sealed Azure Bag",
+      "url": "https://www.wowhead.com/classic/quest=8234",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Sealed Azure Bag - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8234/sealed-azure-bag",
+          "evidence": "Quest requires retrieving the bag from a Timbermaw shaman in Azshara; quest text recommends stealth or force.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text allows stealth or force to retrieve the bag; the page describes a shaman with nearby guards. Confidence is medium because the encounter layout and pickpocket opportunity vary.",
+      "reason": "The bag is held by a Timbermaw shaman in Azshara, near other hostile furbolgs. Use stealth to pickpocket it or clear the approach first, and leave if the guards stack into an unsafe pull.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8235,
+      "questName": "Encoded Fragments",
+      "url": "https://www.wowhead.com/classic/quest=8235",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Two unranked comments were read; their reported drop effort is anecdotal and variable.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Encoded Fragments - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8235/encoded-fragments",
+          "evidence": "Quest requires ten fragments from forest oozes in northeast Azshara; unranked comments describe variable drop effort.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text places the fragment hunt among forest oozes in northeast Azshara. Unranked comments report variable drop effort; confidence is medium because the accounts are anecdotal and drop experience varies.",
+      "reason": "Ten encoded fragments come from forest oozes in northeast Azshara, and the drop can require repeated kills. Pull from open ground and stop if respawns close around you.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8236,
+      "questName": "The Azure Key",
+      "url": "https://www.wowhead.com/classic/quest=8236",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8238,
+      "questName": "Gurubashi, Vilebranch, and Witherbark Coins",
+      "url": "https://www.wowhead.com/classic/quest=8238",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Classic Zandalar sources identify tribe coins as Zul’Gurub raid drops; this coin-set quest is therefore skipped as a raid quest before reading comments."
+    },
+    {
+      "questId": 8239,
+      "questName": "Sandfury, Skullsplitter, and Bloodscalp Coins",
+      "url": "https://www.wowhead.com/classic/quest=8239",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Classic Zandalar sources identify tribe coins as Zul’Gurub raid drops; this coin-set quest is therefore skipped as a raid quest before reading comments."
+    },
+    {
+      "questId": 8240,
+      "questName": "A Bijou for Zanza",
+      "url": "https://www.wowhead.com/classic/quest=8240",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Classic quest text requires a Hakkari Bijou found in Zul’Gurub; skipped as a raid quest before reading comments."
+    },
+    {
+      "questId": 8241,
+      "questName": "Restoring Fiery Flux Supplies via Iron",
+      "url": "https://www.wowhead.com/classic/quest=8241",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest name and local Searing Gorge context identify a material exchange. Confidence is medium because the hand-in is safe and material gathering is separate.",
+      "reason": "This is a repeatable material hand-in to Master Smith Burninate. The turn-in adds no combat; if collecting Incendosaur Scales, pull the nearby creatures singly.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8242,
+      "questName": "Restoring Fiery Flux Supplies via Heavy Leather",
+      "url": "https://www.wowhead.com/classic/quest=8242",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Restoring Fiery Flux Supplies via Heavy Leather - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8242/restoring-fiery-flux-supplies-via-heavy-leather",
+          "evidence": "The repeatable Searing Gorge turn-in requests Incendosaur Scales, Heavy Leather, and Coal.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms the material hand-in at Searing Gorge. Confidence is medium because the hand-in is safe and material gathering is separate.",
+      "reason": "This is a repeatable material hand-in to Master Smith Burninate. The turn-in adds no combat; if collecting Incendosaur Scales, pull the nearby creatures singly.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8243,
+      "questName": "Zanza's Potent Potables",
+      "url": "https://www.wowhead.com/classic/quest=8243",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Zandalar Honor Token - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Zandalar_Honor_Token",
+          "evidence": "A Zandalar Honor Token is exchanged for Zanza’s Potent Potables at the Yojamba Isle vendor.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Zandalar records identify the quest as a token-for-consumable exchange at the island hub. Confidence is medium because the exchange is safe and token acquisition is outside the quest step.",
+      "reason": "Exchange a Zandalar Honor Token for one of Zanza’s consumables at Yojamba Isle. This stationary trade adds no combat; use the normal route to the trader.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8246,
+      "questName": "Signets of the Zandalar",
+      "url": "https://www.wowhead.com/classic/quest=8246",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Signets of the Zandalar - Quest - WotLK Classic",
+          "url": "https://www.wowhead.com/wotlk/quest=8246/signets-of-the-zandalar",
+          "evidence": "The quest is a stationary exchange of 15 Zandalar Honor Tokens for one signet; the pinned Classic catalog identifies the same quest name and ID.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest is a token exchange; a later Classic quest page and the pinned catalog identify the trade and NPC context. Confidence is medium because the objective is stationary and the source page is from a later Classic client.",
+      "reason": "Exchange 15 Zandalar Honor Tokens for one signet at the Yojamba Isle trader. This stationary trade adds no combat; use the normal route to the island.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8249,
+      "questName": "Junkboxes Needed",
+      "url": "https://www.wowhead.com/classic/quest=8249",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Junkboxes Needed - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8249/junkboxes-needed",
+          "evidence": "Quest requires five Heavy Junkboxes at Fahrad; retrieving them can require pickpocketing humanoids in dangerous areas.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest requires five Heavy Junkboxes; retrieved guidance describes pickpocket routes through dense high-level humanoid areas. Confidence is medium because the quest hand-in is safe but acquisition routes differ.",
+      "reason": "Five Heavy Junkboxes are turned in at Ravenholdt, but acquiring them can involve pickpocketing hostile humanoids in crowded areas. Farm from isolated targets, keep an escape route, and use help or an alternate source if the route is unsafe.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8250,
+      "questName": "Magecraft",
+      "url": "https://www.wowhead.com/classic/quest=8250",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a dialogue and passage step with no fight. Confidence is medium from clear local context.",
+      "reason": "This mage-class step is a conversation about passage to Archmage Xylem. It adds no combat objective; travel through Azshara carefully and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8251,
+      "questName": "Magic Dust",
+      "url": "https://www.wowhead.com/classic/quest=8251",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies a ten-item collection for an Azshara quest chain; ordinary knowledge indicates repeated hostile pulls. Confidence is medium because the exact source and spacing are not independently verified.",
+      "reason": "Ten Glittering Dust require repeated fights with hostile Azshara creatures. Clear isolated targets and keep an open retreat route rather than pushing into a dense camp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8252,
+      "questName": "The Siren's Coral",
+      "url": "https://www.wowhead.com/classic/quest=8252",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest calls for underwater coral collection off Azshara. Confidence is medium because the location and breath hazard are established quest context, while nearby pulls vary.",
+      "reason": "The coral is gathered underwater off Azshara near hostile naga, where combat can consume breath and narrow escape options. Clear a safe approach, watch your breath, and surface before continuing.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8253,
+      "questName": "Destroy Morphaz",
+      "url": "https://www.wowhead.com/classic/quest=8253",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8254,
+      "questName": "Cenarion Aid",
+      "url": "https://www.wowhead.com/classic/quest=8254",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a conversation only. Confidence is medium from clear local context.",
+      "reason": "This is a dialogue step with Ogtinc in Azshara. It adds no combat; travel to the cliff-top safely and avoid hostile camps along the route.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8255,
+      "questName": "Of Coursers We Know",
+      "url": "https://www.wowhead.com/classic/quest=8255",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog specifies a four-item Courser collection in Azshara. Confidence is medium from the local objective and established area context; drop rates and pull spacing vary.",
+      "reason": "Four Healthy Courser Glands require repeated hunts in Azshara. Pull one Courser at a time and stay clear of nearby hostile mobs while gathering.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8256,
+      "questName": "The Ichor of Undeath",
+      "url": "https://www.wowhead.com/classic/quest=8256",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies an undead collection across two hostile zones. Confidence is medium because the objective is clear but the exact source and drop conditions vary.",
+      "reason": "Ichor of Undeath requires hunting undead in Azshara or Felwood. Keep pulls isolated and leave if nearby enemies or respawns close off your route.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8257,
+      "questName": "Blood of Morphaz",
+      "url": "https://www.wowhead.com/classic/quest=8257",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8258,
+      "questName": "The Darkreaver Menace",
+      "url": "https://www.wowhead.com/classic/quest=8258",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:03:30+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8260,
+      "questName": "Arathor Basic Care Package",
+      "url": "https://www.wowhead.com/classic/quest=8260",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Arathor Basic Care Package - Quest - ClassicDB",
+          "url": "https://www.classicdb.ch/?quest=8260",
+          "evidence": "The quest rewards a care package from Samuel Hawke after the required League of Arathor reputation; its claim adds no combat.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms this is a reward claim after reaching the faction reputation threshold. Confidence is medium because the quest itself has no combat objective.",
+      "reason": "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8261,
+      "questName": "Arathor Standard Care Package",
+      "url": "https://www.wowhead.com/classic/quest=8261",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies the standard care package variant; the Classic basic package record establishes that these are reward claims. Confidence is medium because the claim itself has no combat objective.",
+      "reason": "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8262,
+      "questName": "Arathor Advanced Care Package",
+      "url": "https://www.wowhead.com/classic/quest=8262",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies the advanced care package variant; the Classic basic package record establishes that these are reward claims. Confidence is medium because the claim itself has no combat objective.",
+      "reason": "Claim the Arathor care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8263,
+      "questName": "Defiler's Basic Care Package",
+      "url": "https://www.wowhead.com/classic/quest=8263",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog identifies the basic Defiler care package; Classic records for the advanced package establish the reward-claim pattern. Confidence is medium because the claim itself has no combat objective.",
+      "reason": "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8264,
+      "questName": "Defiler's Standard Care Package",
+      "url": "https://www.wowhead.com/classic/quest=8264",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms this is a care package reward claim after reaching the faction reputation threshold. Confidence is medium because the claim itself has no combat objective.",
+      "reason": "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8265,
+      "questName": "Defiler's Advanced Care Package",
+      "url": "https://www.wowhead.com/classic/quest=8265",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Defiler’s Advanced Care Package - Quest - ClassicDB",
+          "url": "https://classicdb.ch/?quest=8265",
+          "evidence": "The quest rewards the care package from Rutherford Twing after the required Defilers reputation; its claim adds no combat.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms this is a care package reward claim after reaching the faction reputation threshold. Confidence is medium because the claim itself has no combat objective.",
+      "reason": "Claim the Defiler care package from the faction supply officer after meeting its reputation requirement. The claim adds no combat; the package is for use inside Arathi Basin.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8266,
+      "questName": "Ribbons of Sacrifice",
+      "url": "https://www.wowhead.com/classic/quest=8266",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest requires a Warsong Gulch Ribbon; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are directly sourced.",
+      "reason": "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8267,
+      "questName": "Ribbons of Sacrifice",
+      "url": "https://www.wowhead.com/classic/quest=8267",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Ribbons of Sacrifice - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8267/ribbons-of-sacrifice",
+          "evidence": "Quest requires one Warsong Gulch Ribbon of Sacrifice; the ribbon is earned for participation in Warsong Gulch.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest requires a Warsong Gulch Ribbon; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are directly sourced.",
+      "reason": "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8268,
+      "questName": "Ribbons of Sacrifice",
+      "url": "https://www.wowhead.com/classic/quest=8268",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest requires a Warsong Gulch Ribbon; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are directly sourced.",
+      "reason": "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8269,
+      "questName": "Ribbons of Sacrifice",
+      "url": "https://www.wowhead.com/classic/quest=8269",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest requires a Warsong Gulch Ribbon; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective and applicable rule are directly sourced.",
+      "reason": "PvP quest. Requires a Warsong Gulch Ribbon from battleground participation, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8271,
+      "questName": "Hero of the Stormpike",
+      "url": "https://www.wowhead.com/classic/quest=8271",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hero of the Stormpike - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8271/hero-of-the-stormpike",
+          "evidence": "The reward quest follows a required Alterac Valley victory; comments and linked quest chain identify the battleground win prerequisite.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest chain requires an Alterac Valley victory before the Hero reward; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the prerequisite and applicable rule are directly sourced.",
+      "reason": "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8272,
+      "questName": "Hero of the Frostwolf",
+      "url": "https://www.wowhead.com/classic/quest=8272",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:03:30+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hero of the Stormpike - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8271/hero-of-the-stormpike",
+          "evidence": "The Horde Hero of the Frostwolf reward is the parallel follow-up to winning Alterac Valley; local catalog identifies the Horde variant.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:03:30+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Frostwolf reward is the Horde variant of the Alterac Valley victory chain; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the objective family and applicable rule are directly sourced.",
+      "reason": "PvP quest. This reward follows a required Alterac Valley victory, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
     }
   ]
 }
