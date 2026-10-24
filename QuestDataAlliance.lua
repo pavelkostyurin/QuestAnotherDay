@@ -3507,46 +3507,46 @@ local quests = {
     [6185] = { threat = "MEDIUM", reason = "Search the Eastern Plaguelands for SI:7 insignias and return them to Flint at Chillwind Camp. The search involves combat with Scourge and may take you through hostile camps; clear one area at a time and leave room to retreat.", confidence = "medium" },
 
     -- The Blightcaller Cometh
-    [6186] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6186] = { threat = "LOW", reason = "Return to Stormwind and tell Highlord Bolvar what happened to Nathanos Marris. This city delivery adds no combat.", confidence = "medium" },
 
     -- Order Must Be Restored
     [6187] = { threat = "EXTREME", reason = "Elite quest. Requires launching a full assault on Nathanos Blightcaller in the Eastern Plaguelands. Nathanos is a level 62 elite with two elite bodyguards and powerful abilities. The Horde will defend him. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Dungar Longdrink
-    [6261] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6261] = { threat = "LOW", reason = "Take Osric’s Crate to Dungar Longdrink at the gryphon roost. This is a city delivery and adds no combat.", confidence = "medium" },
 
     -- Continue to Stormwind
-    [6281] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6281] = { threat = "LOW", reason = "Ride to Stormwind and deliver Lewis’ Note to Osric in Old Town. This is travel and delivery; use the normal safe route.", confidence = "medium" },
 
     -- Return to Lewis
-    [6285] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6285] = { threat = "LOW", reason = "Ride to Sentinel Hill and deliver Osric’s Crate to Lewis. This delivery adds no combat.", confidence = "medium" },
 
     -- The Bounty of Teldrassil
-    [6341] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6341] = { threat = "LOW", reason = "Deliver Nessa’s Collection to Vesprystus at the hippogryph roost. This delivery adds no combat.", confidence = "medium" },
 
     -- Flight to Auberdine
-    [6342] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6342] = { threat = "LOW", reason = "Ride to Auberdine and deliver Nessa’s Collection to Laird. This travel and delivery adds no combat.", confidence = "medium" },
 
     -- Return to Nessa
-    [6343] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6343] = { threat = "LOW", reason = "Deliver Laird’s Response to Nessa Shadowsong. This is a settlement hand-in and adds no combat.", confidence = "medium" },
 
     -- Nessa Shadowsong
-    [6344] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6344] = { threat = "LOW", reason = "Speak with Nessa Shadowsong. This is dialogue and adds no combat.", confidence = "medium" },
 
     -- Honor Students
-    [6387] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6387] = { threat = "LOW", reason = "Deliver Brock’s List to Thorgrum in Thelsamar. This is a settlement hand-in and adds no combat.", confidence = "medium" },
 
     -- Gryth Thurden
-    [6388] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6388] = { threat = "LOW", reason = "Deliver the Honorary Picks to Gryth in Ironforge. This city hand-in adds no combat.", confidence = "medium" },
 
     -- A Plague Upon Thee
-    [6389] = { threat = "MEDIUM", reason = "Requires releasing the Plagueland Termites at the Northridge Lumber Mill in the Western Plaguelands. The mill is patrolled by level 50-54 Scarlet Crusade mobs. Clear the area before releasing and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6389] = { threat = "MEDIUM", reason = "Release the Plagueland Termites at Northridge Lumber Mill and return the barrel to Chillwind Camp. Hostile Scarlet Crusade occupy the mill; clear a route before the interaction and retreat if patrols converge.", confidence = "medium" },
 
     -- Ride to Ironforge
-    [6391] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6391] = { threat = "LOW", reason = "Ride to Ironforge and deliver Brock’s List to Golnir. This flight and city hand-in adds no combat.", confidence = "medium" },
 
     -- Return to Brock
-    [6392] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6392] = { threat = "LOW", reason = "Ride to Thelsamar and deliver the Honorary Picks to Brock. This flight and settlement hand-in adds no combat.", confidence = "medium" },
 
     -- Stormwind Rendezvous
     [6402] = { threat = "HIGH", reason = "Elite quest. Requires gathering a group to meet Marshal Windsor at Stormwind's gates for the Onyxia attunement chain. While the quest itself is a rendezvous, the follow-up (The Great Masquerade) is a raid-level escort. Do not attempt alone; the quest text explicitly warns to 'amass an army.'", confidence = "high" },

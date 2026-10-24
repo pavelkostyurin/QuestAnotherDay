@@ -7740,118 +7740,118 @@ addon.quests = {
     [6185] = { threat = "MEDIUM", reason = "Search the Eastern Plaguelands for SI:7 insignias and return them to Flint at Chillwind Camp. The search involves combat with Scourge and may take you through hostile camps; clear one area at a time and leave room to retreat.", confidence = "medium" },
 
     -- The Blightcaller Cometh
-    [6186] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6186] = { threat = "LOW", reason = "Return to Stormwind and tell Highlord Bolvar what happened to Nathanos Marris. This city delivery adds no combat.", confidence = "medium" },
 
     -- Order Must Be Restored
     [6187] = { threat = "EXTREME", reason = "Elite quest. Requires launching a full assault on Nathanos Blightcaller in the Eastern Plaguelands. Nathanos is a level 62 elite with two elite bodyguards and powerful abilities. The Horde will defend him. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Dungar Longdrink
-    [6261] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6261] = { threat = "LOW", reason = "Take Osric’s Crate to Dungar Longdrink at the gryphon roost. This is a city delivery and adds no combat.", confidence = "medium" },
 
     -- Continue to Stormwind
-    [6281] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6281] = { threat = "LOW", reason = "Ride to Stormwind and deliver Lewis’ Note to Osric in Old Town. This is travel and delivery; use the normal safe route.", confidence = "medium" },
 
     -- Harpies Threaten
-    [6282] = { threat = "MEDIUM", reason = "The harpies are levels 14-18 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for the named harpies that patrol the area. Do not attempt below level 15.", confidence = "medium" },
+    [6282] = { threat = "MEDIUM", reason = "Kill Bloodfury harpies in the Charred Vale and nearby Stonetalon camps. Several harpy types occupy the area and can join a fight; pull from the edge and avoid overlapping patrols.", confidence = "medium" },
 
     -- Bloodfury Bloodline
-    [6283] = { threat = "MEDIUM", reason = "The raptors are levels 15-18 and run in packs. They flee at low health and can chain-pull additional mobs. Kill the runners first and fight in open areas.", confidence = "medium" },
+    [6283] = { threat = "MEDIUM", reason = "Find Bloodfury Ripper in the Charred Vale and bring her remains to Maggran. Nearby harpies can add, and the named target may enrage; clear space before engaging and be ready for a stronger final phase.", confidence = "medium" },
 
     -- Arachnophobia
-    [6284] = { threat = "MEDIUM", reason = "The spiders are levels 15-18 and are found in the northern Barrens. They have a poison attack that can be dangerous at low health. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [6284] = { threat = "HIGH", reason = "Find and kill Besseleth in Sishir Canyon, then bring her fang to Maggran. The canyon is a hostile webbed lair with nearby spiders; scout a clear pull and avoid drawing several enemies together.", confidence = "medium" },
 
     -- Return to Lewis
-    [6285] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6285] = { threat = "LOW", reason = "Ride to Sentinel Hill and deliver Osric’s Crate to Lewis. This delivery adds no combat.", confidence = "medium" },
 
     -- Cycle of Rebirth
-    [6301] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [6301] = { threat = "LOW", reason = "Gather ten Gaea Seeds in Stonetalon Mountains and return them to Tammra. The seeds can be collected while avoiding nearby hostile camps; do not fight more than needed.", confidence = "medium" },
 
     -- Supplying the Sepulcher
-    [6321] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6321] = { threat = "LOW", reason = "Deliver Podrig’s Order to Karos Razok at the Sepulcher. This is a settlement hand-in and adds no combat.", confidence = "medium" },
 
     -- Michael Garrett
-    [6322] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6322] = { threat = "LOW", reason = "Take Gordon’s Crate to Michael Garrett in Undercity. This city delivery adds no combat.", confidence = "medium" },
 
     -- Ride to the Undercity
-    [6323] = { threat = "LOW", reason = "Travel step with no combat. Safe.", confidence = "high" },
+    [6323] = { threat = "LOW", reason = "Ride to Undercity and deliver Podrig’s Order to Gordon Wendham. This travel and delivery step adds no combat.", confidence = "medium" },
 
     -- Return to Podrig
-    [6324] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6324] = { threat = "LOW", reason = "Ride to the Sepulcher and return Gordon’s Crate to Deathguard Podrig. This delivery adds no combat.", confidence = "medium" },
 
     -- The Bounty of Teldrassil
-    [6341] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6341] = { threat = "LOW", reason = "Deliver Nessa’s Collection to Vesprystus at the hippogryph roost. This delivery adds no combat.", confidence = "medium" },
 
     -- Flight to Auberdine
-    [6342] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6342] = { threat = "LOW", reason = "Ride to Auberdine and deliver Nessa’s Collection to Laird. This travel and delivery adds no combat.", confidence = "medium" },
 
     -- Return to Nessa
-    [6343] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6343] = { threat = "LOW", reason = "Deliver Laird’s Response to Nessa Shadowsong. This is a settlement hand-in and adds no combat.", confidence = "medium" },
 
     -- Nessa Shadowsong
-    [6344] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6344] = { threat = "LOW", reason = "Speak with Nessa Shadowsong. This is dialogue and adds no combat.", confidence = "medium" },
 
     -- A Bundle of Hides
-    [6361] = { threat = "LOW", reason = "Profession/gathering quest with no required combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [6361] = { threat = "LOW", reason = "Deliver the Bundle of Hides to Devrak at the Crossroads wind rider post. This is a hand-in and adds no combat if you already have the hides.", confidence = "medium" },
 
     -- Ride to Thunder Bluff
-    [6362] = { threat = "LOW", reason = "Travel step with no combat. Safe.", confidence = "high" },
+    [6362] = { threat = "LOW", reason = "Ride to Thunder Bluff and deliver the hides to Ahanu. This flight and city hand-in adds no combat.", confidence = "medium" },
 
     -- Tal the Wind Rider Master
-    [6363] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6363] = { threat = "LOW", reason = "Deliver Ahanu’s Leather Goods to Tal in Thunder Bluff. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Return to Jahan
-    [6364] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6364] = { threat = "LOW", reason = "Ride back to the Crossroads and deliver the leather goods to Jahan. This flight and hand-in adds no combat.", confidence = "medium" },
 
     -- Meats to Orgrimmar
-    [6365] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6365] = { threat = "LOW", reason = "Deliver Zargh’s Meats to Devrak at the Crossroads. This hand-in adds no combat.", confidence = "medium" },
 
     -- New Life
-    [6381] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [6381] = { threat = "LOW", reason = "Plant ten Gaea Seeds in the marked mounds and return the remaining seeds to Tammra. The placements are outdoors; avoid nearby hostile creatures while moving between them.", confidence = "medium" },
 
     -- The Ashenvale Hunt
-    [6382] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6382] = { threat = "LOW", reason = "Speak with Senani Thunderheart at Splintertree Post. This dialogue step adds no combat.", confidence = "medium" },
 
     -- The Ashenvale Hunt (Ursangous, Shadumbra, Sharptalon)
-    [6383] = { threat = "MEDIUM", reason = "None are elite, but Sharptalon is the toughest and patrols near Splintertree Post, where you can kite it to the guards. Shadumbra is immune to shadow damage, which makes her dangerous for warlocks and shadow priests. Pull each one to a cleared area and watch for wandering mobs.", confidence = "high" },
+    [6383] = { threat = "MEDIUM", reason = "Learn about the three Ashenvale Hunt beasts, then bring back proof from Ursangous, Shadumbra and Sharptalon. They are named roaming creatures in hostile parts of Ashenvale; scout each route and watch for nearby patrols or stealthed enemies.", confidence = "medium" },
 
     -- Ride to Orgrimmar
-    [6384] = { threat = "LOW", reason = "Travel step with no combat. Safe.", confidence = "high" },
+    [6384] = { threat = "LOW", reason = "Ride to Orgrimmar and deliver Zargh’s Meats to Gryshka. This city delivery adds no combat.", confidence = "medium" },
 
     -- Doras the Wind Rider Master
-    [6385] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6385] = { threat = "LOW", reason = "Deliver Gryshka’s Letter to Doras in Orgrimmar. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Return to the Crossroads
-    [6386] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6386] = { threat = "LOW", reason = "Ride to the Crossroads and deliver Gryshka’s Letter to Zargh. This travel and hand-in step adds no combat.", confidence = "medium" },
 
     -- Honor Students
-    [6387] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6387] = { threat = "LOW", reason = "Deliver Brock’s List to Thorgrum in Thelsamar. This is a settlement hand-in and adds no combat.", confidence = "medium" },
 
     -- Gryth Thurden
-    [6388] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6388] = { threat = "LOW", reason = "Deliver the Honorary Picks to Gryth in Ironforge. This city hand-in adds no combat.", confidence = "medium" },
 
     -- A Plague Upon Thee (Release Termites)
-    [6389] = { threat = "MEDIUM", reason = "Requires releasing the Plagueland Termites at the Northridge Lumber Mill in the Western Plaguelands. The mill is patrolled by level 50-54 Scarlet Crusade mobs. Clear the area before releasing and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [6389] = { threat = "MEDIUM", reason = "Release the Plagueland Termites at Northridge Lumber Mill and return the barrel to Chillwind Camp. Hostile Scarlet Crusade occupy the mill; clear a route before the interaction and retreat if patrols converge.", confidence = "medium" },
 
     -- A Plague Upon Thee
-    [6390] = { threat = "MEDIUM", reason = "The Plaguewood is patrolled by level 55-58 Scourge mobs, and the lumber mill is guarded by Scarlet Crusade. Clear the area before releasing the termites and be ready to flee. Do not attempt below level 53 solo.", confidence = "medium" },
+    [6390] = { threat = "MEDIUM", reason = "Release the Plagueland Termites at Northridge Lumber Mill and return the barrel to Mickey at the Bulwark. Hostile Scarlet Crusade occupy the mill; clear a route before the interaction and retreat if patrols converge.", confidence = "medium" },
 
     -- Ride to Ironforge
-    [6391] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6391] = { threat = "LOW", reason = "Ride to Ironforge and deliver Brock’s List to Golnir. This flight and city hand-in adds no combat.", confidence = "medium" },
 
     -- Return to Brock
-    [6392] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6392] = { threat = "LOW", reason = "Ride to Thelsamar and deliver the Honorary Picks to Brock. This flight and settlement hand-in adds no combat.", confidence = "medium" },
 
     -- Elemental War
-    [6393] = { threat = "MEDIUM", reason = "The elementals are levels 15-18 and are found in the northern Barrens. They have knockbacks and can pull in groups. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
+    [6393] = { threat = "MEDIUM", reason = "Collect ten Incendrites from hostile elementals in Stonetalon and return them to Tsunaman. The elementals may use knockbacks and nearby enemies can join; pull one at a time.", confidence = "medium" },
 
     -- Thazz'ril's Pick
-    [6394] = { threat = "MEDIUM", reason = "The pick is guarded by level 15-18 mobs. Clear the area before looting and watch for patrolling mobs.", confidence = "medium" },
+    [6394] = { threat = "MEDIUM", reason = "Enter the Burning Blade Coven in Durotar and retrieve Thazz’ril’s Pick from the chamber by the waterfall. The narrow cave is occupied by hostile demons; clear the route in stages and keep an exit behind you.", confidence = "medium" },
 
     -- Marla's Last Wish
-    [6395] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before engaging.", confidence = "medium" },
+    [6395] = { threat = "MEDIUM", reason = "Defeat Samuel Fipps near the road northeast of Deathknell, take his remains to Marla’s Grave, and return to Novice Elreth. The hostile undead can be joined by nearby enemies; clear the camp before engaging.", confidence = "medium" },
 
     -- Kaya's Alive
-    [6401] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6401] = { threat = "LOW", reason = "Return to Tammra Windfield at Sun Rock Retreat with the news about Kaya. This dialogue step adds no combat.", confidence = "medium" },
 
     -- Stormwind Rendezvous
     [6402] = { threat = "HIGH", reason = "Elite quest. Requires gathering a group to meet Marshal Windsor at Stormwind's gates for the Onyxia attunement chain. While the quest itself is a rendezvous, the follow-up (The Great Masquerade) is a raid-level escort. Do not attempt alone; the quest text explicitly warns to 'amass an army.'", confidence = "high" },
@@ -7860,25 +7860,25 @@ addon.quests = {
     [6403] = { threat = "EXTREME", reason = "Elite escort quest. You must follow Reginald Windsor through Stormwind while he is ambushed by disguised elites. The event is notoriously buggy and can fail if Windsor despawns or Bolvar dies. While a solo player can stand back and let Bolvar kill the dragonkin, the risk of quest failure is high. Bring a group or be prepared to reset and retry.", confidence = "high" },
 
     -- Boulderslide Ravine
-    [6421] = { threat = "MEDIUM", reason = "The ravine is filled with level 20-24 kobolds and troggs. Clear the area before exploring and watch for patrolling mobs. Do not attempt below level 20.", confidence = "medium" },
+    [6421] = { threat = "MEDIUM", reason = "Explore Boulderslide Ravine and collect ten Resonite Crystals. The cave has hostile kobolds and troggs; clear one section at a time and keep an exit route.", confidence = "medium" },
 
     -- Satyr Horns
-    [6441] = { threat = "MEDIUM", reason = "The satyrs are levels 25-28 and cast shadow magic. They are concentrated in camps and can pull in groups. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
+    [6441] = { threat = "MEDIUM", reason = "Collect sixteen Satyr Horns from hostile satyrs in Ashenvale. Satyr camps include casters and can pull together; fight from the edge and watch for patrols.", confidence = "medium" },
 
     -- Naga at the Zoram Strand
-    [6442] = { threat = "MEDIUM", reason = "The naga are levels 25-28 and are packed along the coast. They pull in groups and have ranged casters. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
+    [6442] = { threat = "MEDIUM", reason = "Collect twenty Wrathtail Heads along the Zoram Strand. Naga occupy the coast and include ranged enemies; pull into clear ground and avoid fighting near several patrols.", confidence = "medium" },
 
     -- Blood Feeders
-    [6461] = { threat = "MEDIUM", reason = "The harpies are levels 22-26 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for the named harpies that patrol the area.", confidence = "medium" },
+    [6461] = { threat = "MEDIUM", reason = "Kill Deepmoss Creepers and Venomspitters in Stonetalon and collect the requested quest drops. The spiders inhabit hostile terrain and nearby enemies can add; pull carefully and avoid fighting in a crowded nest.", confidence = "medium" },
 
     -- Troll Charm
-    [6462] = { threat = "MEDIUM", reason = "The trolls are levels 40-44 and are packed in villages. They pull in groups and have ranged casters. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
+    [6462] = { threat = "MEDIUM", reason = "Search Thistlefur Hold for eight Troll Charms in chests. The cave is occupied by hostile furbolgs with quick respawns and wide assist range; clear a small section and leave before enemies accumulate.", confidence = "medium" },
 
     -- Earthen Arise
-    [6481] = { threat = "MEDIUM", reason = "The elementals are levels 25-28 and are aggressive. They have knockbacks and can pull in groups. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
+    [6481] = { threat = "MEDIUM", reason = "Open the Resonite cask with the enchanted crystal and defeat Goggeroc, then report back to Mor’rogal. The crystal interaction summons a hostile elemental; clear nearby creatures and be ready for a stronger single-target fight.", confidence = "medium" },
 
     -- Freedom to Ruul
-    [6482] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies. The NPC cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes.", confidence = "medium" },
+    [6482] = { threat = "MEDIUM", reason = "Escort Ruul out of Thistlefur Hold and report to Yama at Splintertree Post. Hostile furbolgs occupy the cave and can attack during the escort; clear ahead and stay close to the escort.", confidence = "medium" },
 
     -- The Dragon's Eye
     [6501] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. The fragment is obtained from a previous quest; this is the start of the Onyxia attunement chain. Safe if you stay in the area.", confidence = "high" },
@@ -7887,7 +7887,7 @@ addon.quests = {
     [6502] = { threat = "EXTREME", reason = "Elite quest. Requires killing General Drakkisath, the final boss of Upper Blackrock Spire, and retrieving the Blood of the Black Dragon Champion. Drakkisath is a level 63 elite with powerful abilities and adds. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Ashenvale Outrunners
-    [6503] = { threat = "MEDIUM", reason = "The outrunners are stealthed night elves that patrol the roads. They are levels 25-28 and can ambush you while you are fighting other mobs. Fight in open areas and check for prowling cats between pulls.", confidence = "medium" },
+    [6503] = { threat = "MEDIUM", reason = "Kill nine Ashenvale Outrunners and return to Kuray’bin. The night elf scouts can be stealthed and patrol the roads; fight in open ground and watch for additional enemies.", confidence = "medium" },
 
     -- The Lost Pages
     [6504] = { threat = "MEDIUM", reason = "The satyrs are levels 25-28 and cast shadow magic. They are concentrated in camps and can pull in groups. Clear methodically and watch for patrolling mobs.", confidence = "medium" },
