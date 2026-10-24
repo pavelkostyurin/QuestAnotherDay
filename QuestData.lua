@@ -8155,24 +8155,26 @@ addon.quests = {
     [7002] = { threat = "HIGH", reason = "PvP quest. Kill Alterac Rams for hides in the opposing side of Alterac Valley. The collection route is exposed to enemy players; stay with your team and avoid isolated fights.", confidence = "medium" },
 
     -- Zapped Giants
-    [7003] = { threat = "EXTREME", reason = "The zapper turns elite giants into non-elites, but the giants are elite until zapped. Without the zapper, elite giants require a group or level 55+. With the zapper, soloable at 45+. Do not attempt the giants without the zapper below level 55.", confidence = "high" },
+    [7003] = { threat = "MEDIUM", reason = "Use Zorbin’s Ultra-Shrinker on Feralas giants and kill the reduced giants for their residue. They can still threaten a character around the quest’s level; shrink one before engaging and avoid overlapping pulls.", confidence = "medium" },
 
     -- Great-father Winter is Here!
-    [7021] = { threat = "LOW", reason = "Speak with Great-father Winter in Orgrimmar. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7021] = { threat = "LOW", reason = "Speak with Greatfather Winter in Orgrimmar. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Greatfather Winter is Here! (7022)
-    [7022] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7022] = { threat = "LOW", reason = "Speak with Greatfather Winter in Ironforge. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Greatfather Winter is Here! (7023)
-    [7023] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7023] = { threat = "LOW", reason = "Speak with Greatfather Winter in Ironforge. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Great-father Winter is Here!
-    [7024] = { threat = "LOW", reason = "Continue the Great-father Winter chain. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7024] = { threat = "LOW", reason = "Speak with Greatfather Winter in Orgrimmar. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Treats for Greatfather Winter
-    [7025] = { threat = "LOW", reason = "Winter Veil holiday delivery step with no combat. The items are purchased or crafted. Safe if you stay in the city.", confidence = "high" },
+    [7025] = { threat = "LOW", reason = "Bring the cookies and milk to Greatfather Winter in Ironforge. The items are purchased or crafted in the city; this step adds no combat.", confidence = "medium" },
 
     -- Twisted Evils
+    [7026] = { threat = "HIGH", reason = "PvP quest. Collect Alterac Ram Hides for the Stormpike cavalry during the battleground. The ram route is exposed to enemy players; stay with your team and avoid isolated fights.", confidence = "medium" },
+    [7027] = { threat = "MEDIUM", reason = "Use the supplied collar to tame an Alterac Ram and lead it back to the Stormpike stable master. The route is exposed during the battleground; stay near your team and retreat if threatened.", confidence = "medium" },
     [7028] = { threat = "EXTREME", reason = "Elite quest. Requires entering Maraudon to collect 25 Theradric Crystal Carvings from elite mobs. A full group of level 45+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Vyletongue Corruption
@@ -8182,28 +8184,28 @@ addon.quests = {
     [7041] = { threat = "EXTREME", reason = "Elite quest. Requires entering Maraudon to kill Noxxious Scions that spawn from corrupted plants. Maraudon is a level 45-55 dungeon filled with elites. A full group of level 45+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Stolen Winter Veil Treats
-    [7042] = { threat = "EXTREME", reason = "The Greench is a level 40 elite yeti who wanders the Alterac Mountains. He hits hard and has a knockback. Do not attempt solo below level 40. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [7042] = { threat = "MEDIUM", reason = "Find the missing Smokywood Pastures investigator in the snowy Alterac Mountains. The search leads into a hostile yeti area; follow a clear route and avoid occupied camps.", confidence = "medium" },
 
     -- You're a Mean One...
-    [7043] = { threat = "EXTREME", reason = "The Greench is a level 40 elite yeti who wanders the Alterac Mountains. He hits hard and has a knockback. Do not attempt solo below level 40. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [7043] = { threat = "HIGH", reason = "Group quest. The Abominable Greench is a level 36 elite, and the quest giver warns that you will need help. Solo success is class-dependent around level 40; bring a group or return overleveled.", confidence = "medium" },
 
     -- Legends of Maraudon
     [7044] = { threat = "EXTREME", reason = "Elite quest. Requires recovering two parts of the Scepter of Celebras from bosses inside Maraudon. A full group of level 45+ is required. Do not attempt solo.", confidence = "high" },
 
     -- A Smokywood Pastures' Thank You!
-    [7045] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7045] = { threat = "LOW", reason = "Speak with Greatfather Winter in Ironforge for the Smokywood Pastures reward. This city hand-in adds no combat.", confidence = "medium" },
 
     -- The Scepter of Celebras
     [7046] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Celebras performs the ritual; you just need to speak with him. Safe if you stay in the area. Note: the quest ID is active in Classic Era, unlike the obsolete non-Classic version.", confidence = "high" },
 
     -- The Feast of Winter Veil
-    [7061] = { threat = "LOW", reason = "Speak with the NPC to learn about the feast. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7061] = { threat = "LOW", reason = "Read the Winter Veil book and deliver it to Cairne in Thunder Bluff. This is a city reading and hand-in step with no combat.", confidence = "medium" },
 
     -- The Reason for the Season
-    [7062] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7062] = { threat = "LOW", reason = "Speak with Historian Karnik in Ironforge about Winter Veil. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- The Feast of Winter Veil
-    [7063] = { threat = "LOW", reason = "Winter Veil holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7063] = { threat = "LOW", reason = "Read the Winter Veil book and deliver it to King Magni in Ironforge. This is a city reading and hand-in step with no combat.", confidence = "medium" },
 
     -- Corruption of Earth and Seed
     [7064] = { threat = "HIGH", reason = "Maraudon is a level 46-55 dungeon filled with elites. Noxxion is a powerful boss with adds. This requires a full group of level 48+. Do not attempt solo.", confidence = "high" },
@@ -8224,39 +8226,50 @@ addon.quests = {
     [7070] = { threat = "EXTREME", reason = "Elite quest (Alliance). Requires entering Maraudon to kill shadowshard elementals for their fragments. Maraudon is a level 45-55 dungeon filled with elites. A full group of level 45+ is required. Do not attempt solo. Note: the Horde version (7068) is a separate quest.", confidence = "high" },
 
     -- The Graveyards of Alterac
-    [7082] = { threat = "MEDIUM", reason = "Capture the graveyards in the battleground. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players. Do not attempt solo in a live AV match.", confidence = "high" },
+    [7081] = { threat = "HIGH", reason = "PvP quest. Assault and capture a graveyard in Alterac Valley, then report back. The objective puts you in contested ground; push with your battleground team and avoid capturing alone.", confidence = "medium" },
+    [7082] = { threat = "HIGH", reason = "PvP quest. Assault and capture a graveyard in Alterac Valley, then report back. The objective puts you in contested ground; push with your battleground team and avoid capturing alone.", confidence = "medium" },
 
     -- Towers and Bunkers
-    [7101] = { threat = "MEDIUM", reason = "Capture the towers and bunkers in the battleground. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "high" },
+    [7101] = { threat = "HIGH", reason = "PvP quest. Capture an enemy tower in Alterac Valley and report back. The tower objective is exposed to defenders and opposing players; attack with your battleground team.", confidence = "medium" },
 
     -- Speak with our Quartermaster
-    [7123] = { threat = "LOW", reason = "Speak with the Frostwolf Quartermaster in the starting cave. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7102] = { threat = "HIGH", reason = "PvP quest. Reach an enemy tower or bunker and destroy its banner. The objective is exposed to defenders and opposing players; attack with your battleground team.", confidence = "medium" },
+    [7121] = { threat = "LOW", reason = "Speak with the Stormpike Quartermaster. This hand-in area is inside the Alliance base and adds no combat.", confidence = "medium" },
+    [7122] = { threat = "HIGH", reason = "PvP quest. Capture a mine in Alterac Valley and report back. The mine is a contested objective with hostile workers and opposing players; enter with your team and leave if cut off.", confidence = "medium" },
+    [7123] = { threat = "LOW", reason = "Speak with the Frostwolf Quartermaster in the Horde base. This dialogue step adds no combat.", confidence = "medium" },
 
     -- Capture a Mine
-    [7124] = { threat = "MEDIUM", reason = "Capture a mine in the battleground. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "high" },
+    [7124] = { threat = "HIGH", reason = "PvP quest. Capture a mine in Alterac Valley and report back. The mine is a contested objective with hostile workers and opposing players; enter with your team and leave if cut off.", confidence = "medium" },
 
     -- The Battle for Alterac
-    [7142] = { threat = "MEDIUM", reason = "Win the battle for Alterac Valley. This is battleground content that requires coordination with your team. Do not attempt solo.", confidence = "high" },
+    [7141] = { threat = "EXTREME", reason = "PvP quest. Defeat Drek’Thar inside the guarded Frostwolf base. This requires a coordinated battleground push through enemy players and defenders; skip it on Hardcore unless you have a strong team.", confidence = "medium" },
+    [7142] = { threat = "EXTREME", reason = "PvP quest. Defeat Vanndar Stormpike inside the guarded Dun Baldar base. This requires a coordinated battleground push through enemy players and defenders; skip it on Hardcore unless you have a strong team.", confidence = "medium" },
 
     -- Proving Grounds
-    [7161] = { threat = "MEDIUM", reason = "Prove yourself in the battleground by killing enemy players. This is PvP content that requires coordination with your team. Do not attempt solo.", confidence = "high" },
+    [7161] = { threat = "HIGH", reason = "PvP quest. Recover the Frostwolf Banner from the Wildpaw gnoll cave in Alterac Valley. Hostile cave occupants and enemy players can block the route; go with allies and pull carefully.", confidence = "medium" },
 
     -- Rise and Be Recognized
-    [7163] = { threat = "LOW", reason = "Speak with the NPC to receive your rank recognition. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7162] = { threat = "HIGH", reason = "PvP quest. Recover the Stormpike Banner from Icewing Cavern in Alterac Valley. Level 54 harpies guard the route; enter with allies, pull carefully and leave if the cave is contested.", confidence = "medium" },
+    [7163] = { threat = "LOW", reason = "Speak with the Frostwolf quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
 
     -- Honored Amongst the Clan
-    [7164] = { threat = "LOW", reason = "Continue the rank recognition chain. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7164] = { threat = "LOW", reason = "Speak with the Frostwolf quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
 
     -- Earned Reverence
-    [7165] = { threat = "LOW", reason = "Continue the rank recognition chain. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7165] = { threat = "LOW", reason = "Speak with the Frostwolf quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
 
     -- Legendary Heroes
-    [7166] = { threat = "LOW", reason = "Continue the rank recognition chain. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7166] = { threat = "LOW", reason = "Speak with the Frostwolf quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
 
     -- The Eye of Command
-    [7167] = { threat = "LOW", reason = "Receive the Eye of Command. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7167] = { threat = "LOW", reason = "Speak with the Frostwolf quartermaster to receive the Eye of Command. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
 
     -- The Legend of Korrak
+    [7168] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
+    [7169] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
+    [7170] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
+    [7171] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
+    [7172] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the Eye of Command. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
     [7181] = { threat = "HIGH", reason = "Kill Korrak the Bloodrager, a level 60 elite boss in the battleground. Korrak is a powerful named mob that requires a full raid group to defeat. This is battleground content that requires coordination. Do not attempt solo.", confidence = "high" },
 
     -- The Last Element

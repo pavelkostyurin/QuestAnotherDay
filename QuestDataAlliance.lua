@@ -3621,37 +3621,73 @@ local quests = {
     [6982] = { threat = "HIGH", reason = "PvP quest. Recover ten Coldtooth Supplies from the mine deep in Horde territory in Alterac Valley. Hostile players and mine defenders can trap you inside; enter with your team and retreat if cut off.", confidence = "medium" },
 
     -- Greatfather Winter is Here!
-    [7022] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7022] = { threat = "LOW", reason = "Speak with Greatfather Winter in Ironforge. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Greatfather Winter is Here!
-    [7023] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7023] = { threat = "LOW", reason = "Speak with Greatfather Winter in Ironforge. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Treats for Greatfather Winter
-    [7025] = { threat = "LOW", reason = "Winter Veil holiday delivery step with no combat. The items are purchased or crafted. Safe if you stay in the city.", confidence = "high" },
+    [7025] = { threat = "LOW", reason = "Bring the cookies and milk to Greatfather Winter in Ironforge. The items are purchased or crafted in the city; this step adds no combat.", confidence = "medium" },
+
+    -- Ram Riding Harnesses
+    [7026] = { threat = "HIGH", reason = "PvP quest. Collect Alterac Ram Hides for the Stormpike cavalry during the battleground. The ram route is exposed to enemy players; stay with your team and avoid isolated fights.", confidence = "medium" },
+
+    -- Empty Stables
+    [7027] = { threat = "MEDIUM", reason = "Use the supplied collar to tame an Alterac Ram and lead it back to the Stormpike stable master. The route is exposed during the battleground; stay near your team and retreat if threatened.", confidence = "medium" },
 
     -- Vyletongue Corruption
     [7041] = { threat = "EXTREME", reason = "Elite quest. Requires entering Maraudon to kill Noxxious Scions that spawn from corrupted plants. Maraudon is a level 45-55 dungeon filled with elites. A full group of level 45+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Stolen Winter Veil Treats
-    [7042] = { threat = "EXTREME", reason = "The Greench is a level 40 elite yeti who wanders the Alterac Mountains. He hits hard and has a knockback. Do not attempt solo below level 40. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [7042] = { threat = "MEDIUM", reason = "Find the missing Smokywood Pastures investigator in the snowy Alterac Mountains. The search leads into a hostile yeti area; follow a clear route and avoid occupied camps.", confidence = "medium" },
 
     -- You're a Mean One...
-    [7043] = { threat = "EXTREME", reason = "The Greench is a level 40 elite yeti who wanders the Alterac Mountains. He hits hard and has a knockback. Do not attempt solo below level 40. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [7043] = { threat = "HIGH", reason = "Group quest. The Abominable Greench is a level 36 elite, and the quest giver warns that you will need help. Solo success is class-dependent around level 40; bring a group or return overleveled.", confidence = "medium" },
 
     -- A Smokywood Pastures' Thank You!
-    [7045] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7045] = { threat = "LOW", reason = "Speak with Greatfather Winter in Ironforge for the Smokywood Pastures reward. This city hand-in adds no combat.", confidence = "medium" },
 
     -- The Reason for the Season
-    [7062] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7062] = { threat = "LOW", reason = "Speak with Historian Karnik in Ironforge about Winter Veil. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- The Feast of Winter Veil
-    [7063] = { threat = "LOW", reason = "Winter Veil holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7063] = { threat = "LOW", reason = "Read the Winter Veil book and deliver it to King Magni in Ironforge. This is a city reading and hand-in step with no combat.", confidence = "medium" },
 
     -- Corruption of Earth and Seed
     [7065] = { threat = "EXTREME", reason = "Elite quest. Requires entering Maraudon to kill Princess Theradras, a level 51 elite elemental boss. Maraudon is a level 45-55 dungeon filled with elites. A full group of level 45+ is required. Do not attempt solo. Note: the non-Classic version of this quest ID is marked obsolete, but the Classic Era version is active.", confidence = "high" },
 
     -- Shadowshard Fragments
     [7070] = { threat = "EXTREME", reason = "Elite quest (Alliance). Requires entering Maraudon to kill shadowshard elementals for their fragments. Maraudon is a level 45-55 dungeon filled with elites. A full group of level 45+ is required. Do not attempt solo. Note: the Horde version (7068) is a separate quest.", confidence = "high" },
+
+    -- Alterac Valley Graveyards
+    [7081] = { threat = "HIGH", reason = "PvP quest. Assault and capture a graveyard in Alterac Valley, then report back. The objective puts you in contested ground; push with your battleground team and avoid capturing alone.", confidence = "medium" },
+
+    -- Towers and Bunkers
+    [7102] = { threat = "HIGH", reason = "PvP quest. Reach an enemy tower or bunker and destroy its banner. The objective is exposed to defenders and opposing players; attack with your battleground team.", confidence = "medium" },
+
+    -- The Quartermaster
+    [7121] = { threat = "LOW", reason = "Speak with the Stormpike Quartermaster. This hand-in area is inside the Alliance base and adds no combat.", confidence = "medium" },
+
+    -- Capture a Mine
+    [7122] = { threat = "HIGH", reason = "PvP quest. Capture a mine in Alterac Valley and report back. The mine is a contested objective with hostile workers and opposing players; enter with your team and leave if cut off.", confidence = "medium" },
+
+    -- The Battle of Alterac
+    [7141] = { threat = "EXTREME", reason = "PvP quest. Defeat Drek’Thar inside the guarded Frostwolf base. This requires a coordinated battleground push through enemy players and defenders; skip it on Hardcore unless you have a strong team.", confidence = "medium" },
+
+    -- Rise and Be Recognized
+    [7168] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
+
+    -- Honored Amongst the Guard
+    [7169] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
+
+    -- Earned Reverence
+    [7170] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
+
+    -- Legendary Heroes
+    [7171] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the next insignia rank. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
+
+    -- The Eye of Command
+    [7172] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the Eye of Command. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
 
     -- Crown of the Earth
     [7383] = { threat = "LOW", reason = "Druid class quest collection step with no combat. The phial is filled at a moonwell in Teldrassil. Safe if you avoid the mob camps. Do not attempt below level 5 solo.", confidence = "medium" },

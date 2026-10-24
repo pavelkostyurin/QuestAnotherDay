@@ -1881,7 +1881,7 @@ addon.quests = {
     [6981] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Ratchet is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
 
     -- Zapped Giants
-    [7003] = { threat = "EXTREME", reason = "The zapper turns elite giants into non-elites, but the giants are elite until zapped. Without the zapper, elite giants require a group or level 55+. With the zapper, soloable at 45+. Do not attempt the giants without the zapper below level 55.", confidence = "high" },
+    [7003] = { threat = "MEDIUM", reason = "Use Zorbin’s Ultra-Shrinker on Feralas giants and kill the reduced giants for their residue. They can still threaten a character around the quest’s level; shrink one before engaging and avoid overlapping pulls.", confidence = "medium" },
 
     -- Twisted Evils
     [7028] = { threat = "EXTREME", reason = "Elite quest. Requires entering Maraudon to collect 25 Theradric Crystal Carvings from elite mobs. A full group of level 45+ is required. Do not attempt solo.", confidence = "high" },
@@ -1897,6 +1897,9 @@ addon.quests = {
 
     -- The Pariah's Instructions
     [7067] = { threat = "EXTREME", reason = "Elite quest. Requires entering Maraudon to collect the Amulet of Union and five gems from the Khans. A full group of level 45+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Proving Grounds
+    [7162] = { threat = "HIGH", reason = "PvP quest. Recover the Stormpike Banner from Icewing Cavern in Alterac Valley. Level 54 harpies guard the route; enter with allies, pull carefully and leave if the cave is contested.", confidence = "medium" },
 
     -- Pusillin and the Elder Azj'Tordin
     [7441] = { threat = "EXTREME", reason = "Elite quest. Requires entering Dire Maul's Warpwood Quarter to chase and kill Pusillin, an imp who runs through the wing and aggros multiple packs of elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
