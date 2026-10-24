@@ -3920,8 +3920,14 @@ local quests = {
     -- Talismans of Merit
     [7887] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
 
+    -- Talismans of Merit
+    [7888] = { threat = "LOW", reason = "This is a token reward hand-in at the Darkmoon Faire. Turning in the already-earned token adds no combat; use the normal route to the representative.", confidence = "medium" },
+
     -- The Darkmoon Faire
-    [7905] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [7905] = { threat = "LOW", reason = "Deliver the free ticket voucher to Gelvas Grimgate at the Darkmoon Faire. This stationary hand-in adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- Talismans of Merit
+    [7921] = { threat = "LOW", reason = "This is a token reward hand-in at the Darkmoon Faire. Turning in the already-earned token adds no combat; use the normal route to the representative.", confidence = "medium" },
 
     -- Honoring a Hero
     [8149] = { threat = "LOW", reason = "Harvest Festival holiday quest. Travel to Uther's Tomb and use Uther's Tribute at his statue, then return to Wagner Hammerstrike before the festival ends. No combat required. The journey to the Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },

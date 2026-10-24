@@ -3314,8 +3314,20 @@ local quests = {
     -- Quell the Silverwing Usurpers
     [7876] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
+    -- Mark of Honor
+    [7922] = { threat = "LOW", reason = "This is a token reward hand-in at the Darkmoon Faire. Turning in the already-earned token adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- Mark of Honor
+    [7923] = { threat = "LOW", reason = "This is a token reward hand-in at the Darkmoon Faire. Turning in the already-earned token adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- Mark of Honor
+    [7924] = { threat = "LOW", reason = "This is a token reward hand-in at the Darkmoon Faire. Turning in the already-earned token adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- Mark of Honor
+    [7925] = { threat = "LOW", reason = "This is a token reward hand-in at the Darkmoon Faire. Turning in the already-earned token adds no combat; use the normal route to the representative.", confidence = "medium" },
+
     -- The Darkmoon Faire
-    [7926] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [7926] = { threat = "LOW", reason = "Deliver the free ticket voucher to Gelvas Grimgate at the Darkmoon Faire. This stationary hand-in adds no combat; use the normal route to the representative.", confidence = "medium" },
 
     -- Honoring a Hero
     [8150] = { threat = "LOW", reason = "Harvest Festival holiday quest. Travel to Grom's Monument in Demon Fall Canyon and use Grom's Tribute at the base of the monument. No combat required. The journey to Ashenvale is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },

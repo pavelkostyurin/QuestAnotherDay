@@ -2150,29 +2150,110 @@ addon.quests = {
     -- Armor Kits
     [7885] = { threat = "LOW", reason = "Turn in the required crafted item or merit token to the Darkmoon Faire representative. This is a reward hand-in with no combat beyond obtaining the item.", confidence = "medium" },
 
+    -- Coarse Weightstone
+    [7889] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Heavy Grinding Stone
+    [7890] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Green Iron Bracers
+    [7891] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Big Black Mace
+    [7892] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Rituals of Strength
+    [7893] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Copper Modulator
+    [7894] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Whirring Bronze Gizmo
+    [7895] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Green Fireworks
+    [7896] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Mechanical Repair Kits
+    [7897] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Thorium Widget
+    [7898] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Small Furry Paws
+    [7899] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Torn Bear Pelts
+    [7900] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Soft Bushy Tails
+    [7901] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Vibrant Plumes
+    [7902] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- Evil Bat Eyes
+    [7903] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
     -- Darkmoon Beast Deck
-    [7907] = { threat = "LOW", reason = "Turn-in step with no combat. The deck is assembled from cards found worldwide. Safe if you stay in the area.", confidence = "high" },
+    [7907] = { threat = "LOW", reason = "This quest turns in an assembled Darkmoon card deck. The turn-in adds no combat; use the normal route to the Faire representative.", confidence = "medium" },
 
     -- Darkmoon Portals Deck
-    [7927] = { threat = "LOW", reason = "Turn-in step with no combat. The deck is assembled from cards found worldwide. Safe if you stay in the area.", confidence = "high" },
+    [7927] = { threat = "LOW", reason = "This quest turns in an assembled Darkmoon card deck. The turn-in adds no combat; use the normal route to the Faire representative.", confidence = "medium" },
 
     -- Darkmoon Warlords Deck
-    [7928] = { threat = "LOW", reason = "Turn-in step with no combat. The deck is assembled from cards found worldwide. Safe if you stay in the area.", confidence = "high" },
+    [7928] = { threat = "LOW", reason = "This quest turns in an assembled Darkmoon card deck. The turn-in adds no combat; use the normal route to the Faire representative.", confidence = "medium" },
 
     -- Darkmoon Elementals Deck
-    [7929] = { threat = "LOW", reason = "Turn-in step with no combat. The deck is assembled from cards found worldwide. Safe if you stay in the area.", confidence = "high" },
+    [7929] = { threat = "LOW", reason = "This quest turns in an assembled Darkmoon card deck. The turn-in adds no combat; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- 5 Tickets - Darkmoon Flower
+    [7930] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- 5 Tickets - Minor Darkmoon Prize
+    [7931] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- 12 Tickets - Lesser Darkmoon Prize
+    [7932] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- 40 Tickets - Greater Darkmoon Prize
+    [7933] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- 50 Tickets - Darkmoon Storage Box
+    [7934] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- 10 Tickets - Last Month's Mutton
+    [7935] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- 50 Tickets - Last Year's Mutton
+    [7936] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
 
     -- Your Fortune Awaits You...
-    [7937] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps. Do not attempt below level 10 solo.", confidence = "medium" },
+    [7937] = { threat = "LOW", reason = "The fortune is in a haystack beside a stable at Eastvale Logging Camp, outside any instance. Search the camp without entering nearby hostile areas.", confidence = "medium" },
+
+    -- More Dense Grinding Stones
+    [7939] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- 1200 Tickets - Orb of the Darkmoon
+    [7940] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
+
+    -- More Armor Kits
+    [7941] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- More Thorium Widgets
+    [7942] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
+
+    -- More Bat Eyes
+    [7943] = { threat = "LOW", reason = "This is a Darkmoon Faire material or crafted-item hand-in. The quest adds no combat beyond obtaining the requested items; use the normal route to the Faire representative.", confidence = "medium" },
 
     -- Your Fortune Awaits You...
-    [7938] = { threat = "LOW", reason = "Travel and exploration step with no combat. The Deadmines is a dungeon, but the fortune object is outside. Safe if you avoid the mob camps. Do not attempt below level 15 solo.", confidence = "medium" },
+    [7945] = { threat = "LOW", reason = "The fortune is in a tree stump outside Palemane Rock, so entering the gnoll cave is unnecessary. Search from the approach and avoid nearby hostile gnolls.", confidence = "medium" },
 
-    -- Your Fortune Awaits You...
-    [7944] = { threat = "LOW", reason = "Travel and exploration step with no combat. The Wailing Caverns is a dungeon, but the fortune object is outside. Safe if you avoid the mob camps. Do not attempt below level 15 solo.", confidence = "medium" },
+    -- Spawn of Jubjub
+    [7946] = { threat = "LOW", reason = "This Faire step is completed by bringing Dark Iron Ale Mugs to Morja and luring Jubjub. The interaction adds no combat; avoid unrelated hostile areas while collecting the mugs.", confidence = "medium" },
 
-    -- Your Fortune Awaits You...
-    [7945] = { threat = "LOW", reason = "Travel and exploration step with no combat. Palemane Rock is in Mulgore, safe for low-level players. Safe if you avoid the mob camps.", confidence = "high" },
+    -- 1200 Tickets - Amulet of the Darkmoon
+    [7981] = { threat = "LOW", reason = "This is a ticket reward exchange at the Darkmoon Faire. The purchase adds no combat; use the normal route to the representative.", confidence = "medium" },
 
     -- Paragons of Power: The Freethinker's Armguards
     [8053] = { threat = "EXTREME", reason = "Raid quest. Requires a Primal Hakkari Bindings from Zul'Gurub, a level 60 raid dungeon. A full raid group of 20 players is required. Do not attempt solo. Requires Friendly reputation with Zandalar Tribe.", confidence = "high" },
