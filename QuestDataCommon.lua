@@ -1901,6 +1901,9 @@ addon.quests = {
     -- Proving Grounds
     [7162] = { threat = "HIGH", reason = "PvP quest. Recover the Stormpike Banner from Icewing Cavern in Alterac Valley. Level 54 harpies guard the route; enter with allies, pull carefully and leave if the cave is contested.", confidence = "medium" },
 
+    -- Wanted: ORCS!
+    [7402] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Orc player in Alterac Valley and return the Orc Tooth. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
+
     -- Pusillin and the Elder Azj'Tordin
     [7441] = { threat = "EXTREME", reason = "Elite quest. Requires entering Dire Maul's Warpwood Quarter to chase and kill Pusillin, an imp who runs through the wing and aggros multiple packs of elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
@@ -1920,7 +1923,7 @@ addon.quests = {
     [7485] = { threat = "LOW", reason = "Dungeon turn-in with no combat beyond gathering materials. The libram drops in Dire Maul; the other reagents are purchased or farmed. Safe if you stay in the area.", confidence = "high" },
 
     -- A Hero's Reward
-    [7486] = { threat = "LOW", reason = "Interaction step with no combat. The coffer is underwater at the southern base of the island in Azshara. The quest is available in Classic Era despite some database inconsistencies. Safe if you stay in the area.", confidence = "high" },
+    [7486] = { threat = "LOW", reason = "Claim your reward from the Hydraxis coffer after completing the elemental quest chain. This is an interaction step and adds no combat.", confidence = "medium" },
 
     -- Garona: A Study on Stealth and Treachery
     [7498] = { threat = "LOW", reason = "Delivery step with no combat. The book is obtained from a dungeon; this is a turn-in. Safe if you stay in the area.", confidence = "high" },

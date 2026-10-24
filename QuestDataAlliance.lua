@@ -3689,8 +3689,53 @@ local quests = {
     -- The Eye of Command
     [7172] = { threat = "LOW", reason = "Speak with the Stormpike quartermaster to receive the Eye of Command. This is a reputation-gated dialogue step and adds no combat.", confidence = "medium" },
 
+    -- Speak with Prospector Stonehewer
+    [7221] = { threat = "LOW", reason = "Speak with Prospector Stonehewer in the Dun Baldar base. This dialogue step adds no combat; stay inside the garrison.", confidence = "medium" },
+
+    -- Armor Scraps
+    [7223] = { threat = "HIGH", reason = "PvP quest. Turn in Armor Scraps to support the Alliance in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs.", confidence = "medium" },
+
+    -- The Sovereign Imperative
+    [7261] = { threat = "LOW", reason = "Speak with Lieutenant Haggerdin outside the Alterac Valley entrance to enlist with Stormpike. This is a travel and dialogue step before entering the battleground.", confidence = "medium" },
+
+    -- Brotherly Love
+    [7282] = { threat = "EXTREME", reason = "Group quest. Commander Louis Philips is deep in Frostwolf territory, and the objective crosses the Field of Strife into a defended area. Defeating the commander amid enemy defenders and players is not a realistic solo attempt at the intended level; bring a strong team or skip on Hardcore.", confidence = "medium" },
+
+    -- Fallen Sky Lords
+    [7301] = { threat = "MEDIUM", reason = "Find the three fallen Stormpike wing commanders by searching Tower Point West and Frostwolf Keep, then report their locations. The route crosses hostile Alterac Valley territory; travel with your team and avoid occupied objectives.", confidence = "medium" },
+
+    -- Arrows Are For Sissies
+    [7342] = { threat = "LOW", reason = "Trade 200 Thorium Shells for Thorium Headed Arrows in Ironforge. This is a city item exchange with no combat.", confidence = "medium" },
+
+    -- Gnomeregan Bounty
+    [7364] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Tauren player in Alterac Valley and return the Tauren Hoof. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
+
+    -- Staghelm's Requiem
+    [7365] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Troll player in Alterac Valley and return the Darkspear Troll Mojo. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
+
+    -- The Archbishop's Mercy
+    [7366] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Forsaken player in Alterac Valley and return the Forsaken Heart. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
+
+    -- Defusing the Threat
+    [7367] = { threat = "HIGH", reason = "PvP quest. Find and kill the Frostwolf Explosives Expert in Alterac Valley, then return to the Stormpike expert. The target is in enemy territory during a live battleground; enter with your team and avoid fighting alone.", confidence = "medium" },
+
     -- Crown of the Earth
-    [7383] = { threat = "LOW", reason = "Druid class quest collection step with no combat. The phial is filled at a moonwell in Teldrassil. Safe if you avoid the mob camps. Do not attempt below level 5 solo.", confidence = "medium" },
+    [7383] = { threat = "LOW", reason = "Fill the Amethyst Phial at a moonwell in Teldrassil and return it to Corithras Moonrage. This Druid class-quest step adds no combat; avoid nearby hostile camps.", confidence = "medium" },
+
+    -- Crystal Cluster
+    [7386] = { threat = "HIGH", reason = "PvP quest. Turn in five Storm Crystals in Alterac Valley to help summon Ivus. Crystals come from enemy battlefield casualties; stay with your team and avoid isolated corpse runs.", confidence = "medium" },
+
+    -- What the Hoof?
+    [7424] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Tauren player in Alterac Valley and return the Tauren Hoof. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
+
+    -- Staghelm's Mojo Jamboree
+    [7425] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Troll player in Alterac Valley and return the Darkspear Troll Mojo. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
+
+    -- One Man's Love
+    [7426] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Forsaken player in Alterac Valley and return the Forsaken Heart. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
+
+    -- Wanted: MORE ORCS!
+    [7428] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Orc player in Alterac Valley and return the Orc Tooth. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
 
     -- The Treasure of the Shen'dralar
     [7462] = { threat = "LOW", reason = "Dungeon interaction step with no combat. The treasure is in the Athenaeum after completing The Madness Within. Safe if you stay in the area.", confidence = "high" },

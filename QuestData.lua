@@ -8276,63 +8276,79 @@ addon.quests = {
     [7201] = { threat = "MEDIUM", reason = "Collect the last element in the battleground. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "high" },
 
     -- Speak with Voggah Deathgrip
-    [7222] = { threat = "LOW", reason = "Speak with Voggah Deathgrip in the starting cave. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7221] = { threat = "LOW", reason = "Speak with Prospector Stonehewer in the Dun Baldar base. This dialogue step adds no combat; stay inside the garrison.", confidence = "medium" },
+    [7222] = { threat = "LOW", reason = "Speak with Voggah Deathgrip in Frostwolf Keep. This dialogue step adds no combat; stay inside the keep.", confidence = "medium" },
 
     -- Enemy Booty
-    [7224] = { threat = "MEDIUM", reason = "Collect enemy booty in the battleground. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "high" },
+    [7223] = { threat = "HIGH", reason = "PvP quest. Turn in Armor Scraps to support the Alliance in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs.", confidence = "medium" },
+    [7224] = { threat = "HIGH", reason = "PvP quest. Turn in Armor Scraps to support the Horde in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs.", confidence = "medium" },
 
     -- In Defense of Frostwolf
-    [7241] = { threat = "MEDIUM", reason = "Defend Frostwolf Keep in the battleground. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "high" },
+    [7241] = { threat = "LOW", reason = "Speak with Warmaster Laggrond outside the Alterac Valley entrance to enlist with Frostwolf. This is a travel and dialogue step before entering the battleground.", confidence = "medium" },
 
     -- Brotherly Love
-    [7281] = { threat = "LOW", reason = "Speak with the NPC in the battleground. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7261] = { threat = "LOW", reason = "Speak with Lieutenant Haggerdin outside the Alterac Valley entrance to enlist with Stormpike. This is a travel and dialogue step before entering the battleground.", confidence = "medium" },
+    [7281] = { threat = "EXTREME", reason = "Group quest. Commander Karl Philips is deep in Stormpike territory, and the quest giver warns you not to go alone. Defeating the commander amid enemy defenders and players is not a realistic solo attempt at the intended level; bring a strong team or skip on Hardcore.", confidence = "medium" },
 
     -- Fallen Sky Lords
-    [7302] = { threat = "HIGH", reason = "Kill the enemy Sky Lords in the battleground. The Sky Lords are powerful elite NPCs that require a group to defeat. Move with a group and watch for enemy players. Do not attempt solo.", confidence = "high" },
+    [7282] = { threat = "EXTREME", reason = "Group quest. Commander Louis Philips is deep in Frostwolf territory, and the objective crosses the Field of Strife into a defended area. Defeating the commander amid enemy defenders and players is not a realistic solo attempt at the intended level; bring a strong team or skip on Hardcore.", confidence = "medium" },
+    [7301] = { threat = "MEDIUM", reason = "Find the three fallen Stormpike wing commanders by searching Tower Point West and Frostwolf Keep, then report their locations. The route crosses hostile Alterac Valley territory; travel with your team and avoid occupied objectives.", confidence = "medium" },
+    [7302] = { threat = "MEDIUM", reason = "Search the reported crash sites in enemy territory for the three fallen Frostwolf wing commanders, then report what you find. The route crosses hostile Alterac Valley territory; travel with your team and avoid occupied objectives.", confidence = "medium" },
 
     -- Soothing Turtle Bisque (Horde - Tarren Mill)
-    [7321] = { threat = "LOW", reason = "The turtles are levels 30-31 and are neutral. The drop rate is notoriously low (around 20%), so expect to kill 40-50 turtles. The turtles do not aggro, but the area around Lake Lordamere is patrolled by Syndicate mobs and Son of Arugal. Stay on the shore and watch for patrolling mobs.", confidence = "high" },
+    [7321] = { threat = "MEDIUM", reason = "Gather turtle meat along Lake Lordamere and bring it to Tarren Mill. The turtles are usually manageable, but hostile patrols can cross the shore; pull away from them and leave if a dangerous patrol approaches.", confidence = "medium" },
 
     -- A Fair Trade (Horde - Feralas)
-    [7341] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [7341] = { threat = "LOW", reason = "Trade 200 Thorium Shells for Thorium Headed Arrows in Orgrimmar. This is a city item exchange with no combat.", confidence = "medium" },
 
     -- Favor Amongst the Darkspear (Alterac Valley)
-    [7361] = { threat = "MEDIUM", reason = "Collect items to earn favor with the Darkspear tribe. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "medium" },
+    [7342] = { threat = "LOW", reason = "Trade 200 Thorium Shells for Thorium Headed Arrows in Ironforge. This is a city item exchange with no combat.", confidence = "medium" },
+    [7361] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Night Elf player in Alterac Valley and return the Severed Night Elf Head. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
 
     -- Ally of the Tauren (Alterac Valley)
-    [7362] = { threat = "MEDIUM", reason = "Earn favor with the Tauren. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "medium" },
+    [7362] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Gnome player in Alterac Valley and return the Tuft of Gnome Hair. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
 
     -- The Human Condition (Alterac Valley)
-    [7363] = { threat = "MEDIUM", reason = "Collect human bone chips and bring them to the NPC. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "medium" },
+    [7363] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Human player in Alterac Valley and return the Human Bone Chip. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
 
     -- Defusing the Threat (Horde - Alterac Mountains)
-    [7368] = { threat = "MEDIUM", reason = "The ogres are levels 35-40 and are packed in camps. They pull in groups and have ranged casters. Clear methodically and watch for patrolling mobs. Do not attempt below level 35 solo.", confidence = "medium" },
+    [7364] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Tauren player in Alterac Valley and return the Tauren Hoof. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
+    [7365] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Troll player in Alterac Valley and return the Darkspear Troll Mojo. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
+    [7366] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Forsaken player in Alterac Valley and return the Forsaken Heart. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
+    [7367] = { threat = "HIGH", reason = "PvP quest. Find and kill the Frostwolf Explosives Expert in Alterac Valley, then return to the Stormpike expert. The target is in enemy territory during a live battleground; enter with your team and avoid fighting alone.", confidence = "medium" },
+    [7368] = { threat = "HIGH", reason = "PvP quest. Find and kill the Stormpike Explosives Expert in Alterac Valley, then return to the Frostwolf expert. The target is in enemy territory during a live battleground; enter with your team and avoid fighting alone.", confidence = "medium" },
 
     -- The Return of Korrak (Alterac Valley)
     [7381] = { threat = "HIGH", reason = "Return to Korrak the Bloodrager, a level 60 elite boss in the battleground. Korrak is a powerful named mob that requires a full raid group to defeat. This is battleground content that requires coordination. Do not attempt solo.", confidence = "high" },
 
     -- Crown of the Earth (7383)
-    [7383] = { threat = "LOW", reason = "Druid class quest collection step with no combat. The phial is filled at a moonwell in Teldrassil. Safe if you avoid the mob camps. Do not attempt below level 5 solo.", confidence = "medium" },
+    [7383] = { threat = "LOW", reason = "Fill the Amethyst Phial at a moonwell in Teldrassil and return it to Corithras Moonrage. This Druid class-quest step adds no combat; avoid nearby hostile camps.", confidence = "medium" },
 
     -- A Gallon of Blood (Alterac Valley)
-    [7385] = { threat = "MEDIUM", reason = "Collect a gallon of blood from enemy players. This is PvP content that requires coordination with your team. Do not attempt solo.", confidence = "medium" },
+    [7385] = { threat = "HIGH", reason = "PvP quest. Turn in five Stormpike Soldier’s Blood in Alterac Valley to help summon Lokholar. The blood comes from battlefield kills; stay with your team and avoid isolated corpse runs.", confidence = "medium" },
 
     -- Wanted: DWARVES! (Alterac Valley)
-    [7401] = { threat = "MEDIUM", reason = "Kill dwarf players in the battleground. This is PvP content that requires coordination with your team. Do not attempt solo.", confidence = "medium" },
+    [7386] = { threat = "HIGH", reason = "PvP quest. Turn in five Storm Crystals in Alterac Valley to help summon Ivus. Crystals come from enemy battlefield casualties; stay with your team and avoid isolated corpse runs.", confidence = "medium" },
+    [7401] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Dwarf player in Alterac Valley and return the Dwarf Spine. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
 
     -- Darkspear Defense (Alterac Valley)
-    [7421] = { threat = "MEDIUM", reason = "Defend the Darkspear base in the battleground. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "medium" },
+    [7402] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Orc player in Alterac Valley and return the Orc Tooth. Player combat can cause unpredictable lethal damage; fight with your battleground team and skip on Hardcore if you cannot accept that risk.", confidence = "medium" },
+    [7421] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Night Elf player in Alterac Valley and return the Severed Night Elf Head. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
 
     -- Tuft it Out (Alterac Valley)
-    [7422] = { threat = "MEDIUM", reason = "Collect tufts from enemy players. This is PvP content that requires coordination with your team.", confidence = "medium" },
+    [7422] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Gnome player in Alterac Valley and return the Tuft of Gnome Hair. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
 
     -- I've Got A Fever For More Bone Chips (Alterac Valley)
-    [7423] = { threat = "MEDIUM", reason = "Collect bone chips from enemy players. This is PvP content that requires coordination with your team.", confidence = "medium" },
+    [7423] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Human player in Alterac Valley and return the Human Bone Chips. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
 
     -- Wanted: MORE DWARVES! (Alterac Valley)
-    [7427] = { threat = "MEDIUM", reason = "Kill more dwarf players in the battleground. This is PvP content that requires coordination with your team.", confidence = "medium" },
+    [7424] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Tauren player in Alterac Valley and return the Tauren Hoof. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
+    [7425] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Troll player in Alterac Valley and return the Darkspear Troll Mojo. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
+    [7426] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Forsaken player in Alterac Valley and return the Forsaken Heart. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
+    [7427] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Dwarf player in Alterac Valley and return the Dwarf Spine. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
 
     -- Pusillin and the Elder Azj'Tordin
+    [7428] = { threat = "HIGH", reason = "PvP quest. Kill an opposing Orc player in Alterac Valley and return the Orc Tooth. Player combat can cause unpredictable lethal damage; fight with your battleground team and avoid isolated pushes.", confidence = "medium" },
     [7441] = { threat = "EXTREME", reason = "Elite quest. Requires entering Dire Maul's Warpwood Quarter to chase and kill Pusillin, an imp who runs through the wing and aggros multiple packs of elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- The Madness Within
@@ -8360,7 +8376,7 @@ addon.quests = {
     [7485] = { threat = "LOW", reason = "Dungeon turn-in with no combat beyond gathering materials. The libram drops in Dire Maul; the other reagents are purchased or farmed. Safe if you stay in the area.", confidence = "high" },
 
     -- A Hero's Reward (7486)
-    [7486] = { threat = "LOW", reason = "Interaction step with no combat. The coffer is underwater at the southern base of the island in Azshara. The quest is available in Classic Era despite some database inconsistencies. Safe if you stay in the area.", confidence = "high" },
+    [7486] = { threat = "LOW", reason = "Claim your reward from the Hydraxis coffer after completing the elemental quest chain. This is an interaction step and adds no combat.", confidence = "medium" },
 
     -- Lethtendris's Web
     [7488] = { threat = "EXTREME", reason = "Elite quest (Alliance only). Requires entering Dire Maul's Warpwood Quarter to kill Lethtendris, a level 57 elite blood elf mage. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -8369,7 +8385,7 @@ addon.quests = {
     [7489] = { threat = "HIGH", reason = "Lethtendris is a powerful elite boss surrounded by guards. Dire Maul is a level 55-60 dungeon. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
 
     -- Victory for the Horde (Alterac Valley)
-    [7490] = { threat = "LOW", reason = "Speak with the NPC to receive your victory reward. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
+    [7490] = { threat = "LOW", reason = "Take Onyxia’s Head to Thrall in Orgrimmar to report the Horde’s victory. This is a city hand-in with no combat.", confidence = "medium" },
 
     -- For All To See (Alterac Valley)
     [7491] = { threat = "LOW", reason = "Speak with the NPC to receive your reward. Dialogue step with no combat. Safe if you stay in the cave.", confidence = "high" },
