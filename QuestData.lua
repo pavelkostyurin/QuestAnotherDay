@@ -3692,139 +3692,139 @@ addon.quests = {
     [1499] = { threat = "LOW", reason = "This is a conversation with Zureetha Fargaze in the orc starting area and adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Creature of the Void (Orgrimmar)
-    [1501] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1501] = { threat = "HIGH", reason = "The Skull Rock cave contains hostile Burning Blade and demon guards, and a dangerous rare or elite may guard the objective. Clear carefully and avoid fighting multiple enemies at once.", confidence = "medium" },
 
     -- Thun'grim Firegaze (Durotar)
-    [1502] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1502] = { threat = "LOW", reason = "This is a conversation step in the Barrens with no required combat. Use the road between settlements and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Forged Steel (Durotar)
-    [1503] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1503] = { threat = "MEDIUM", reason = "The forged bars are inside a hostile quilboar camp. Pull guards away from the chest and leave if the camp compounds your pull.", confidence = "medium" },
 
     -- The Binding (Orgrimmar)
-    [1504] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1504] = { threat = "MEDIUM", reason = "The quest requires defeating a summoned voidwalker. Heal and recover mana before using the summoning glyphs, then fight it without nearby distractions.", confidence = "medium" },
 
     -- Veteran Uzzek (Durotar)
-    [1505] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1505] = { threat = "LOW", reason = "This is a travel and conversation step with no required combat. Stay on the road to Far Watch Post and avoid hostile camps.", confidence = "medium" },
 
     -- Gan'rul's Summons (Orgrimmar)
-    [1506] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
+    [1506] = { threat = "LOW", reason = "This is a city conversation with no required combat.", confidence = "medium" },
 
     -- Devourer of Souls (Orgrimmar)
-    [1507] = { threat = "MEDIUM", reason = "The quest leads to a summoning ritual with combat. Clear the area before starting and be ready for a tough fight.", confidence = "medium" },
+    [1507] = { threat = "LOW", reason = "This is a conversation within Orgrimmar with no required combat.", confidence = "medium" },
 
     -- Blind Cazul (Orgrimmar)
-    [1508] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
+    [1508] = { threat = "LOW", reason = "This is a city conversation with no required combat.", confidence = "medium" },
 
     -- News of Dogran (Durotar)
-    [1509] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
+    [1509] = { threat = "LOW", reason = "This is a travel and conversation step with no required combat. Follow the road to the Crossroads and avoid hostile camps.", confidence = "medium" },
 
     -- News of Dogran (Durotar)
-    [1510] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
+    [1510] = { threat = "LOW", reason = "This is a travel and conversation step with no required combat. Stay on the road to Malaka’jin and avoid hostile camps.", confidence = "medium" },
 
     -- Ken'zigla's Draught (Durotar)
-    [1511] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the Burning Blade camps.", confidence = "medium" },
+    [1511] = { threat = "LOW", reason = "Delivering the draught to Camp Taurajo has no required combat. Use the road and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Love's Gift (Durotar)
-    [1512] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1512] = { threat = "LOW", reason = "This is a return to Orgrimmar with no required combat.", confidence = "medium" },
 
     -- The Binding (Durotar)
-    [1513] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1513] = { threat = "MEDIUM", reason = "The quest requires defeating a summoned succubus. Heal and recover mana before using the pendant, and keep your voidwalker ready to help.", confidence = "medium" },
 
     -- Corrupted Windblossom (Various)
-    [1514] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "medium" },
+    [1514] = { threat = "MEDIUM", reason = "The corrupted plant is in Felwood near Irontree Woods, where hostile high-level creatures make the approach hazardous. Clear a safe route before applying the salves.", confidence = "medium" },
 
     -- Dogran's Captivity (Durotar)
-    [1515] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1515] = { threat = "MEDIUM", reason = "Dogran is inside a hostile quilboar camp, with several guards and a possible rare elite nearby. Clear a route or use your voidwalker to distract enemies, then interact and retreat.", confidence = "medium" },
 
     -- Call of Earth (Durotar)
-    [1516] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1516] = { threat = "LOW", reason = "The Felstalkers are in the Valley of Trials starting area. Fight them one at a time and avoid drawing nearby enemies.", confidence = "medium" },
 
     -- Call of Earth (Durotar)
-    [1517] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1517] = { threat = "LOW", reason = "This is a short trip to Spirit Rock in the starting zone, with no combat objective. Avoid nearby hostile creatures while using the sapta.", confidence = "medium" },
 
     -- Call of Earth (Durotar)
-    [1518] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1518] = { threat = "LOW", reason = "Return the quartz to the Valley of Trials with no required combat. Stay on the road and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Call of Earth (Durotar)
-    [1519] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1519] = { threat = "LOW", reason = "This is a short delivery of salve to Camp Narache with no required combat. Avoid nearby hostile creatures on the approach.", confidence = "medium" },
 
     -- Call of Earth (Durotar)
-    [1520] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1520] = { threat = "LOW", reason = "This is a short trip to Kodo Rock in the starting area. Use the sapta and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Call of Earth (Durotar)
-    [1521] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1521] = { threat = "LOW", reason = "Return the quartz to Camp Narache with no required combat. Stay on the road and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Call of Fire (Durotar)
-    [1522] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1522] = { threat = "LOW", reason = "This is a travel and conversation step in the Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Fire (Durotar)
-    [1523] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1523] = { threat = "LOW", reason = "This is a travel and conversation step in the Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Fire (Durotar)
-    [1524] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1524] = { threat = "LOW", reason = "Carry the torch to Telf Joolam on the Durotar summit path. Watch your footing on the narrow trail and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Call of Fire (Durotar)
-    [1525] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1525] = { threat = "MEDIUM", reason = "The reagent pouch is inside Dustwind Cave, and the fire tar comes from hostile Razormane casters. Pull carefully and leave the cave if enemies converge.", confidence = "low" },
 
     -- Call of Fire (Durotar)
-    [1526] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1526] = { threat = "MEDIUM", reason = "The level-12 manifestation only engages when attacked, but the quest requires defeating it for its ember. Heal first and avoid fire damage, which it resists.", confidence = "medium" },
 
     -- Call of Fire (Durotar)
-    [1527] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1527] = { threat = "LOW", reason = "Return the torch to Kranal Fiss in the Barrens with no required combat. Use the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Water (Durotar)
-    [1528] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1528] = { threat = "LOW", reason = "This is a travel and conversation step to Islen Waterseer in the Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Water (Durotar)
-    [1529] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1529] = { threat = "LOW", reason = "This is a travel and conversation step to Islen Waterseer in the Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Water (Durotar)
-    [1530] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1530] = { threat = "LOW", reason = "This is a travel and conversation step in the southern Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Air (Durotar)
-    [1531] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1531] = { threat = "LOW", reason = "This is a travel and conversation step to Prate Cloudseer in Thousand Needles with no required combat. Follow the roads and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Call of Air (Durotar)
-    [1532] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1532] = { threat = "LOW", reason = "This is a travel and conversation step to Prate Cloudseer in Thousand Needles with no required combat. Follow the roads and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Call of Water (Durotar)
-    [1534] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1534] = { threat = "MEDIUM", reason = "The fountain in Ashenvale is surrounded by hostile elementals above the level-20 start of this shaman chain, and a powerful wandering guardian may pass nearby. Pull enemies one at a time and leave if the guardian approaches.", confidence = "medium" },
 
     -- Call of Water (Durotar)
-    [1535] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1535] = { threat = "MEDIUM", reason = "The watering hole below Brine’s hut is protected by quilboar. Pull nearby guards away before filling the waterskin, then retreat if more join.", confidence = "medium" },
 
     -- Call of Water (Durotar)
-    [1536] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1536] = { threat = "MEDIUM", reason = "The well is in Horde-held Tarren Mill, but the route crosses Hillsbrad where hostile creatures and opposing players can create danger. Stay on a safe route and leave if the approach is watched.", confidence = "medium" },
 
     -- The Stonewrought Dam (Alliance - Children's Week)
-    [1558] = { threat = "LOW", reason = "The quest is a simple travel objective with no combat. The only risk is the journey through Loch Modan, which is safe for Alliance players at the intended level.", confidence = "high" },
+    [1558] = { threat = "LOW", reason = "The Children’s Week outing is an exploration walk to the Stonewrought Dam. Stay on the dam’s walkway and keep the orphan away from the edge.", confidence = "medium" },
 
     -- Flash Bomb Recipe (Both - Engineering)
-    [1559] = { threat = "LOW", reason = "No combat; just a follow-up turn-in. Safe if you already survived the Pearl Diving quest.", confidence = "high" },
+    [1559] = { threat = "LOW", reason = "This is a recipe hand-in after Pearl Diving, with no required combat. Watch for hostile ogres while traveling near Angor Fortress.", confidence = "medium" },
 
     -- Tooga's Quest (Both - Escort)
-    [1560] = { threat = "HIGH", reason = "This is a 30-minute timed escort through one of the most dangerous zones in Classic. The route passes through scorpion, hyena, and silithid territory, and Tooga walks slowly along a fixed path. Ambushes spawn along the way, and the timer means you cannot wait for cooldowns. If Tooga dies, the quest fails. Do not attempt solo; bring a group and clear the path ahead.", confidence = "high" },
+    [1560] = { threat = "MEDIUM", reason = "Timed escort quest (30 min). Tooga crosses Tanaris near hostile higher-level creatures, but can follow a route that avoids combat; do not let him enter a fight or reset. Scout the route and stay close.", confidence = "medium" },
 
     -- Supplying the Front (Alliance - Blacksmithing)
-    [1578] = { threat = "LOW", reason = "Profession quest with no combat objective beyond the travel. Safe if you avoid the trogg camps along the road.", confidence = "high" },
+    [1578] = { threat = "LOW", reason = "This profession delivery has no required combat. Use the road to the guard tower and avoid nearby trogg camps.", confidence = "medium" },
 
     -- Gaffer Jacks (Alliance - Fishing)
-    [1579] = { threat = "LOW", reason = "No combat; just fishing. The drop rate is roughly 11%, so you will need patience. The only danger is the occasional wandering mob near the shore, but the fishing spots are generally safe.", confidence = "high" },
+    [1579] = { threat = "LOW", reason = "This is a fishing objective off Auberdine, with no required combat. Fish from the docks or nearby shore and watch for coastal hostiles.", confidence = "medium" },
 
     -- Electropellers (Alliance - Fishing)
-    [1580] = { threat = "LOW", reason = "No combat; just fishing. The best spot is the Cliffspring River or Wildbend River. The drop rate varies but is generally manageable. Safe if you stay away from the coastline where murlocs patrol.", confidence = "high" },
+    [1580] = { threat = "LOW", reason = "This is a fishing objective near Auberdine, with no required combat. Choose a safe riverbank and watch for nearby hostile creatures.", confidence = "medium" },
 
     -- Elixirs for the Bladeleafs (Alliance - Alchemy)
-    [1581] = { threat = "LOW", reason = "Profession quest with no combat. Safe if you stay in the Teldrassil starting zone.", confidence = "high" },
+    [1581] = { threat = "LOW", reason = "This is a profession-item delivery to Dolanaar with no required combat.", confidence = "medium" },
 
     -- Moonglow Vest (Alliance - Leatherworking)
-    [1582] = { threat = "LOW", reason = "Profession quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1582] = { threat = "LOW", reason = "This is a crafted-armor delivery in Darnassus with no required combat.", confidence = "medium" },
 
     -- The Stolen Tome (Alliance - Warlock)
-    [1598] = { threat = "MEDIUM", reason = "The tent is guarded by three level 3-4 Defias Thugs. For a level 1-4 warlock, pulling all three at once is death. Use the tent itself to break line-of-sight, pull one at a time, and run if you get more than one. The book is on the floor near the tent flap. A level 2 warlock can solo this with careful pulls, but rushing in will get you killed.", confidence = "high" },
+    [1598] = { threat = "MEDIUM", reason = "Three Defias thugs guard the stolen tome near their tent. Pull them one at a time from range and retreat if you draw more than one.", confidence = "medium" },
 
     -- Beginnings
-    [1599] = { threat = "LOW", reason = "The charms drop from low-level mobs in Coldridge Valley. The mobs are levels 1-5 and are scattered across the starting zone. Manageable solo for any level 1+ character.", confidence = "high" },
+    [1599] = { threat = "LOW", reason = "The feather charms come from nearby starting-zone creatures. Fight one at a time and avoid pulling into other mobs.", confidence = "medium" },
 
     -- Gearing Redridge (Alliance - Blacksmithing)
     [1618] = { threat = "LOW", reason = "Profession quest with no combat objective beyond the journey. The road from Ironforge to Redridge passes through dangerous territory for low-level players, but the quest itself is safe if you travel with care.", confidence = "medium" },

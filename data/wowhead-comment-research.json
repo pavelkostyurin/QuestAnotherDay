@@ -33228,6 +33228,1228 @@
       "confidence": "medium",
       "addonAppliedAt": "2026-10-24T16:04:49.000Z",
       "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 1501,
+      "questName": "Creature of the Void",
+      "url": "https://www.wowhead.com/classic/quest=1501",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 10,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Creature of the Void - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1501/creature-of-the-void",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Classic quest text places the stolen tablet in Skull Rock; retrieved legacy reports describe hostile cave mobs and elite guards; encounter density varies."
+        },
+        {
+          "title": "Creature of the Void - Quest - TBC Classic",
+          "url": "https://www.wowhead.com/tbc/quest=1501/creature-of-the-void",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Historical comments describe a hostile Skull Rock cave, a level-14 guard and a rare elite; reports vary and are not all Era-current."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page identifies the Skull Rock retrieval objective; the retrieved Classic-era reports describe the guarded cave and elite encounters. The rating is high because a level-10 solo warlock faces clustered enemies and a possible elite. Confidence is medium: the objective and encounter reports are traceable, but the reports are historical and variable.",
+      "reason": "The Skull Rock cave contains hostile Burning Blade and demon guards, and a dangerous rare or elite may guard the objective. Clear carefully and avoid fighting multiple enemies at once.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1502,
+      "questName": "Thun'grim Firegaze",
+      "url": "https://www.wowhead.com/classic/quest=1502",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only speaking with an NPC; no unusual danger is indicated. Confidence is medium because the direct objective is clear, though the route is inferred from the catalog.",
+      "reason": "This is a conversation step in the Barrens with no required combat. Use the road between settlements and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1503,
+      "questName": "Forged Steel",
+      "url": "https://www.wowhead.com/classic/quest=1503",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Forged Steel - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1503/forged-steel",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest text places the iron box in quilboar camps northwest of Thun’grim’s camp."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text confirms the bars are in a Razormane camp; camp combat risk is inferred from the described hostile camp and standard quest context. Confidence is medium because the objective is traceable but the precise guard layout was not checked.",
+      "reason": "The forged bars are inside a hostile quilboar camp. Pull guards away from the chest and leave if the camp compounds your pull.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1504,
+      "questName": "The Binding",
+      "url": "https://www.wowhead.com/classic/quest=1504",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Binding - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1504/the-binding",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest text says to summon and defeat the voidwalker at the circle in Neeru Fireblade’s tent."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text confirms a summoned voidwalker must be defeated at a nearby circle. Confidence is medium because the encounter is clear but no independent difficulty source was needed.",
+      "reason": "The quest requires defeating a summoned voidwalker. Heal and recover mana before using the summoning glyphs, then fight it without nearby distractions.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1505,
+      "questName": "Veteran Uzzek",
+      "url": "https://www.wowhead.com/classic/quest=1505",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only speaking with an NPC; the danger is ordinary travel risk. Confidence is medium from the clear objective and familiar route context.",
+      "reason": "This is a travel and conversation step with no required combat. Stay on the road to Far Watch Post and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1506,
+      "questName": "Gan'rul's Summons",
+      "url": "https://www.wowhead.com/classic/quest=1506",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a conversation in Orgrimmar, with no combat objective or unusual hazard. Confidence is medium based on clear local metadata.",
+      "reason": "This is a city conversation with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1507,
+      "questName": "Devourer of Souls",
+      "url": "https://www.wowhead.com/classic/quest=1507",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking to an NPC in the Cleft of Shadow; no unusual danger is present. Confidence is medium based on clear local metadata.",
+      "reason": "This is a conversation within Orgrimmar with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1508,
+      "questName": "Blind Cazul",
+      "url": "https://www.wowhead.com/classic/quest=1508",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes speaking with an NPC in Orgrimmar; no unusual danger is present. Confidence is medium based on clear local metadata.",
+      "reason": "This is a city conversation with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1509,
+      "questName": "News of Dogran",
+      "url": "https://www.wowhead.com/classic/quest=1509",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only a conversation at the Crossroads. Confidence is medium; route danger is ordinary travel risk.",
+      "reason": "This is a travel and conversation step with no required combat. Follow the road to the Crossroads and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1510,
+      "questName": "News of Dogran",
+      "url": "https://www.wowhead.com/classic/quest=1510",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only a conversation at Malaka’jin. Confidence is medium; route danger is ordinary travel risk.",
+      "reason": "This is a travel and conversation step with no required combat. Stay on the road to Malaka’jin and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1511,
+      "questName": "Ken'zigla's Draught",
+      "url": "https://www.wowhead.com/classic/quest=1511",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes delivery of a quest item to a Horde settlement; no combat objective is indicated. Confidence is medium based on clear objective context.",
+      "reason": "Delivering the draught to Camp Taurajo has no required combat. Use the road and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1512,
+      "questName": "Love's Gift",
+      "url": "https://www.wowhead.com/classic/quest=1512",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Love’s Gift - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1512/loves-gift",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest objective is to bring the provided pendant to Gan’rul in Orgrimmar."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms the pendant is delivered to Gan’rul in Orgrimmar. Confidence is medium because the objective is clear and local; no unusual hazard is indicated.",
+      "reason": "This is a return to Orgrimmar with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1513,
+      "questName": "The Binding",
+      "url": "https://www.wowhead.com/classic/quest=1513",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Binding - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1513/the-binding",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest text confirms using Dogran’s Pendant to summon and defeat a succubus at the Orgrimmar circle."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text confirms a summoned succubus must be subdued. Confidence is medium: the encounter objective is verified, while the recommended preparation reflects ordinary warlock combat.",
+      "reason": "The quest requires defeating a summoned succubus. Heal and recover mana before using the pendant, and keep your voidwalker ready to help.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1514,
+      "questName": "Corrupted Windblossom",
+      "url": "https://www.wowhead.com/classic/quest=1514",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Windblossom (1514) - Quest - WoW Forever | 60.tools",
+          "url": "https://www.60.tools/quests/1514",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Page attributes the repeatable plant-salve objective to the Classic Era database and locates it at Irontree Woods; this page describes a Forever client that omits it."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "A retrieved Classic-era database page identifies the plant objective in Irontree Woods and its level range; danger comes from the zone’s hostile high-level surroundings. Confidence is medium because the objective is verified but local patrol details were not researched.",
+      "reason": "The corrupted plant is in Felwood near Irontree Woods, where hostile high-level creatures make the approach hazardous. Clear a safe route before applying the salves.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1515,
+      "questName": "Dogran's Captivity",
+      "url": "https://www.wowhead.com/classic/quest=1515",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 15,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Dogran’s Captivity - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1515/dograns-captivity",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest text says Dogran is heavily guarded; sampled comments describe several quilboar and a rare elite that is not always present."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text confirms Dogran is heavily guarded in a quilboar camp; retrieved Classic comments describe multiple guards and a sometimes-present rare elite. Confidence is medium because elite presence varies and comments are historical.",
+      "reason": "Dogran is inside a hostile quilboar camp, with several guards and a possible rare elite nearby. Clear a route or use your voidwalker to distract enemies, then interact and retreat.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1516,
+      "questName": "Call of Earth",
+      "url": "https://www.wowhead.com/classic/quest=1516",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The objective is a small collection in the starting zone. Confidence is medium based on the catalog and ordinary low-level mob risk.",
+      "reason": "The Felstalkers are in the Valley of Trials starting area. Fight them one at a time and avoid drawing nearby enemies.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1517,
+      "questName": "Call of Earth",
+      "url": "https://www.wowhead.com/classic/quest=1517",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes finding a landmark and using an item in a starting zone. Confidence is medium because no unusual encounter is indicated.",
+      "reason": "This is a short trip to Spirit Rock in the starting zone, with no combat objective. Avoid nearby hostile creatures while using the sapta.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1518,
+      "questName": "Call of Earth",
+      "url": "https://www.wowhead.com/classic/quest=1518",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a delivery to the starting area. Confidence is medium based on clear objective context.",
+      "reason": "Return the quartz to the Valley of Trials with no required combat. Stay on the road and avoid nearby hostile creatures.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1519,
+      "questName": "Call of Earth",
+      "url": "https://www.wowhead.com/classic/quest=1519",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes delivering a small number of items to the starting settlement. Confidence is medium based on clear objective context.",
+      "reason": "This is a short delivery of salve to Camp Narache with no required combat. Avoid nearby hostile creatures on the approach.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1520,
+      "questName": "Call of Earth",
+      "url": "https://www.wowhead.com/classic/quest=1520",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a landmark and item-use objective in Mulgore. Confidence is medium because no unusual encounter is indicated.",
+      "reason": "This is a short trip to Kodo Rock in the starting area. Use the sapta and avoid nearby hostile creatures.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1521,
+      "questName": "Call of Earth",
+      "url": "https://www.wowhead.com/classic/quest=1521",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a delivery to the starting area. Confidence is medium based on clear objective context.",
+      "reason": "Return the quartz to Camp Narache with no required combat. Stay on the road and avoid nearby hostile creatures.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1522,
+      "questName": "Call of Fire",
+      "url": "https://www.wowhead.com/classic/quest=1522",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only finding an NPC in the Barrens. Confidence is medium; the route has ordinary zone travel risk.",
+      "reason": "This is a travel and conversation step in the Barrens with no required combat. Stay on the road and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1523,
+      "questName": "Call of Fire",
+      "url": "https://www.wowhead.com/classic/quest=1523",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only finding an NPC in the Barrens. Confidence is medium; the route has ordinary zone travel risk.",
+      "reason": "This is a travel and conversation step in the Barrens with no required combat. Stay on the road and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1524,
+      "questName": "Call of Fire",
+      "url": "https://www.wowhead.com/classic/quest=1524",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a delivery to the summit in Durotar; the narrow approach is a known terrain hazard, but no combat is required. Confidence is medium based on local objective and route knowledge.",
+      "reason": "Carry the torch to Telf Joolam on the Durotar summit path. Watch your footing on the narrow trail and avoid nearby hostile creatures.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1525,
+      "questName": "Call of Fire",
+      "url": "https://www.wowhead.com/classic/quest=1525",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog requires two reagents from hostile areas; remembered chain context places the pouch in Dustwind Cave and tar on Razormane casters. Confidence is low because the detailed locations and their danger were not independently retrieved.",
+      "reason": "The reagent pouch is inside Dustwind Cave, and the fire tar comes from hostile Razormane casters. Pull carefully and leave the cave if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "low"
+    },
+    {
+      "questId": 1526,
+      "questName": "Call of Fire",
+      "url": "https://www.wowhead.com/classic/quest=1526",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Minor Manifestation of Fire - NPC - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/npc=5893/minor-manifestation-of-fire",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "NPC page gives level 12; retrieved ClassicDB quest notes say sapta reveals the target, it does not attack until engaged, and it is immune to fire."
+        },
+        {
+          "title": "Call of Fire - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=1526",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Historical Classic quest notes describe using the sapta to reveal the elemental and say it engages only when attacked; its immunity to fire is also reported."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest objective and NPC page confirm the required target and level; retrieved ClassicDB comments describe the sapta reveal, non-hostile start, and fire immunity. Confidence is medium because mechanics are supported by a limited historical source sample.",
+      "reason": "The level-12 manifestation only engages when attacked, but the quest requires defeating it for its ember. Heal first and avoid fire damage, which it resists.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1527,
+      "questName": "Call of Fire",
+      "url": "https://www.wowhead.com/classic/quest=1527",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a delivery to a Horde quest giver. Confidence is medium based on clear objective context.",
+      "reason": "Return the torch to Kranal Fiss in the Barrens with no required combat. Use the road and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1528,
+      "questName": "Call of Water",
+      "url": "https://www.wowhead.com/classic/quest=1528",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only finding an NPC in the Barrens. Confidence is medium based on clear objective context.",
+      "reason": "This is a travel and conversation step to Islen Waterseer in the Barrens with no required combat. Stay on the road and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1529,
+      "questName": "Call of Water",
+      "url": "https://www.wowhead.com/classic/quest=1529",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only finding an NPC in the Barrens. Confidence is medium based on clear objective context.",
+      "reason": "This is a travel and conversation step to Islen Waterseer in the Barrens with no required combat. Stay on the road and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1530,
+      "questName": "Call of Water",
+      "url": "https://www.wowhead.com/classic/quest=1530",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only finding Brine in the Barrens. Confidence is medium based on clear objective context.",
+      "reason": "This is a travel and conversation step in the southern Barrens with no required combat. Stay on the road and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1531,
+      "questName": "Call of Air",
+      "url": "https://www.wowhead.com/classic/quest=1531",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only finding an NPC in Thousand Needles. Confidence is medium; ordinary travel is the main risk.",
+      "reason": "This is a travel and conversation step to Prate Cloudseer in Thousand Needles with no required combat. Follow the roads and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1532,
+      "questName": "Call of Air",
+      "url": "https://www.wowhead.com/classic/quest=1532",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes only finding an NPC in Thousand Needles. Confidence is medium; ordinary travel is the main risk.",
+      "reason": "This is a travel and conversation step to Prate Cloudseer in Thousand Needles with no required combat. Follow the roads and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1534,
+      "questName": "Call of Water",
+      "url": "https://www.wowhead.com/classic/quest=1534",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 20,
+      "commentsUsed": 5,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Water - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1534/call-of-water",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest page places the fountain at the Ruins of Stardust; sampled comments report surrounding level-22–26 elementals and a wandering elite guardian, with levels and density varying."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page places the objective in hostile ruins; retrieved Classic comments report level-22+ elementals and a wandering elite guardian. Confidence is medium because the dangerous pulls are supported by specific but partly historical reports, while solo shaman completion remains plausible with careful pulls.",
+      "reason": "The fountain in Ashenvale is surrounded by hostile elementals above the level-20 start of this shaman chain, and a powerful wandering guardian may pass nearby. Pull enemies one at a time and leave if the guardian approaches.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1535,
+      "questName": "Call of Water",
+      "url": "https://www.wowhead.com/classic/quest=1535",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Water - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1535/call-of-water",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest text explicitly warns that quilboar protect the watering hole below Brine’s hut."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text and completion dialogue confirm the quilboar protect the nearby water source. Confidence is medium because the danger is described directly, though exact guard density was not verified.",
+      "reason": "The watering hole below Brine’s hut is protected by quilboar. Pull nearby guards away before filling the waterskin, then retreat if more join.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1536,
+      "questName": "Call of Water",
+      "url": "https://www.wowhead.com/classic/quest=1536",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Water - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1536/call-of-water",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest text locates the water well in Tarren Mill, Hillsbrad Foothills; surrounding faction danger depends on route and realm."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms the well is inside Tarren Mill and describes the Horde occupation in hostile Hillsbrad. Confidence is medium because the location is verified while current player activity is inherently variable.",
+      "reason": "The well is in Horde-held Tarren Mill, but the route crosses Hillsbrad where hostile creatures and opposing players can create danger. Stay on a safe route and leave if the approach is watched.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1558,
+      "questName": "The Stonewrought Dam",
+      "url": "https://www.wowhead.com/classic/quest=1558",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Stonewrought Dam - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1558/the-stonewrought-dam",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest objective is to take the orphan to the top/middle of the dam to view the waterfall."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms an exploration objective to the dam and top walkway; the edge advice is a cautious inference from the described waterfall overlook. Confidence is medium because the route itself has no combat objective.",
+      "reason": "The Children’s Week outing is an exploration walk to the Stonewrought Dam. Stay on the dam’s walkway and keep the orphan away from the edge.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1559,
+      "questName": "Flash Bomb Recipe",
+      "url": "https://www.wowhead.com/classic/quest=1559",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Flash Bomb Recipe - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1559/flash-bomb-recipe",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest awards the Flash Bomb schematic after Pearl Diving; a retrieved comment warns of ogre patrols near the quest giver."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms the recipe is awarded after Pearl Diving; comments mention ogre patrols near the giver. Confidence is medium because combat is not part of this step, while route risk is limited.",
+      "reason": "This is a recipe hand-in after Pearl Diving, with no required combat. Watch for hostile ogres while traveling near Angor Fortress.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1560,
+      "questName": "Tooga's Quest",
+      "url": "https://www.wowhead.com/classic/quest=1560",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 15,
+      "commentsUsed": 5,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Tooga’s Quest - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1560/toogas-quest",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Sampled comments confirm the timer and long escort; several report safe solo routes avoiding combat, while others warn of nearby high-level mobs and reset behavior."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page and sampled comments confirm a 30-minute timer, a long route, and solo completion by avoiding mobs; other comments report nearby level-45+ creatures and reset failures if Tooga enters combat. Confidence is medium because the comments are player reports with variable routes.",
+      "reason": "Timed escort quest (30 min). Tooga crosses Tanaris near hostile higher-level creatures, but can follow a route that avoids combat; do not let him enter a fight or reset. Scout the route and stay close.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1578,
+      "questName": "Supplying the Front",
+      "url": "https://www.wowhead.com/classic/quest=1578",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes delivering crafted items to an Alliance guard tower. Confidence is medium based on clear objective context and ordinary travel risk.",
+      "reason": "This profession delivery has no required combat. Use the road to the guard tower and avoid nearby trogg camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1579,
+      "questName": "Gaffer Jacks",
+      "url": "https://www.wowhead.com/classic/quest=1579",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Gaffer Jacks - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1579/gaffer-jacks",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest text says to fish in the ocean near Auberdine; comments describe fishing safely from the pier/shore."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text confirms fishing for the lost gaffer jacks off Auberdine; sampled comments describe safe fishing spots near the docks. Confidence is medium because the objective is clear and the reports are consistent but not independently corroborated.",
+      "reason": "This is a fishing objective off Auberdine, with no required combat. Fish from the docks or nearby shore and watch for coastal hostiles.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1580,
+      "questName": "Electropellers",
+      "url": "https://www.wowhead.com/classic/quest=1580",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes fishing for items to return to Auberdine. Confidence is medium because the objective has no required combat and no unusual hazard is indicated.",
+      "reason": "This is a fishing objective near Auberdine, with no required combat. Choose a safe riverbank and watch for nearby hostile creatures.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1581,
+      "questName": "Elixirs for the Bladeleafs",
+      "url": "https://www.wowhead.com/classic/quest=1581",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes delivering crafted consumables to a settlement. Confidence is medium based on clear objective context.",
+      "reason": "This is a profession-item delivery to Dolanaar with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1582,
+      "questName": "Moonglow Vest",
+      "url": "https://www.wowhead.com/classic/quest=1582",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a city hand-in of crafted items. Confidence is medium based on clear objective context.",
+      "reason": "This is a crafted-armor delivery in Darnassus with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1598,
+      "questName": "The Stolen Tome",
+      "url": "https://www.wowhead.com/classic/quest=1598",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval; comments were reviewed where counted. Comment ordering is not verified unless otherwise stated.",
+      "commentsReviewed": 20,
+      "commentsUsed": 5,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Stolen Tome - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=1598/the-stolen-tome",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T12:00:00+03:00",
+          "evidence": "Quest text places the tome at a Defias tent; sampled comments report three level-3/4 thugs around it and describe one-at-a-time pulls."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms retrieving the book from a Defias tent; sampled Classic comments consistently describe three low-level guards and solo pulls. Confidence is medium because danger is modest and the comments provide limited corroboration.",
+      "reason": "Three Defias thugs guard the stolen tome near their tent. Pull them one at a time from range and retreat if you draw more than one.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1599,
+      "questName": "Beginnings",
+      "url": "https://www.wowhead.com/classic/quest=1599",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T12:00:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog objective and existing Classic Era knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes a small collection from low-level starting-area creatures. Confidence is medium based on the objective and ordinary starter-zone risk.",
+      "reason": "The feather charms come from nearby starting-zone creatures. Fight one at a time and avoid pulling into other mobs.",
+      "threat": "LOW",
+      "confidence": "medium"
     }
   ]
 }

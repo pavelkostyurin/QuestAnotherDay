@@ -1956,28 +1956,28 @@ local quests = {
     [1479] = { threat = "LOW", reason = "This Children’s Week step takes the orphan to a bank in Darnassus, within the guarded city. It adds no combat.", confidence = "medium" },
 
     -- The Stonewrought Dam
-    [1558] = { threat = "LOW", reason = "The quest is a simple travel objective with no combat. The only risk is the journey through Loch Modan, which is safe for Alliance players at the intended level.", confidence = "high" },
+    [1558] = { threat = "LOW", reason = "The Children’s Week outing is an exploration walk to the Stonewrought Dam. Stay on the dam’s walkway and keep the orphan away from the edge.", confidence = "medium" },
 
     -- Supplying the Front
-    [1578] = { threat = "LOW", reason = "Profession quest with no combat objective beyond the travel. Safe if you avoid the trogg camps along the road.", confidence = "high" },
+    [1578] = { threat = "LOW", reason = "This profession delivery has no required combat. Use the road to the guard tower and avoid nearby trogg camps.", confidence = "medium" },
 
     -- Gaffer Jacks
-    [1579] = { threat = "LOW", reason = "No combat; just fishing. The drop rate is roughly 11%, so you will need patience. The only danger is the occasional wandering mob near the shore, but the fishing spots are generally safe.", confidence = "high" },
+    [1579] = { threat = "LOW", reason = "This is a fishing objective off Auberdine, with no required combat. Fish from the docks or nearby shore and watch for coastal hostiles.", confidence = "medium" },
 
     -- Electropellers
-    [1580] = { threat = "LOW", reason = "No combat; just fishing. The best spot is the Cliffspring River or Wildbend River. The drop rate varies but is generally manageable. Safe if you stay away from the coastline where murlocs patrol.", confidence = "high" },
+    [1580] = { threat = "LOW", reason = "This is a fishing objective near Auberdine, with no required combat. Choose a safe riverbank and watch for nearby hostile creatures.", confidence = "medium" },
 
     -- Elixirs for the Bladeleafs
-    [1581] = { threat = "LOW", reason = "Profession quest with no combat. Safe if you stay in the Teldrassil starting zone.", confidence = "high" },
+    [1581] = { threat = "LOW", reason = "This is a profession-item delivery to Dolanaar with no required combat.", confidence = "medium" },
 
     -- Moonglow Vest
-    [1582] = { threat = "LOW", reason = "Profession quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1582] = { threat = "LOW", reason = "This is a crafted-armor delivery in Darnassus with no required combat.", confidence = "medium" },
 
     -- The Stolen Tome
-    [1598] = { threat = "MEDIUM", reason = "The tent is guarded by three level 3-4 Defias Thugs. For a level 1-4 warlock, pulling all three at once is death. Use the tent itself to break line-of-sight, pull one at a time, and run if you get more than one. The book is on the floor near the tent flap. A level 2 warlock can solo this with careful pulls, but rushing in will get you killed.", confidence = "high" },
+    [1598] = { threat = "MEDIUM", reason = "Three Defias thugs guard the stolen tome near their tent. Pull them one at a time from range and retreat if you draw more than one.", confidence = "medium" },
 
     -- Beginnings
-    [1599] = { threat = "LOW", reason = "The charms drop from low-level mobs in Coldridge Valley. The mobs are levels 1-5 and are scattered across the starting zone. Manageable solo for any level 1+ character.", confidence = "high" },
+    [1599] = { threat = "LOW", reason = "The feather charms come from nearby starting-zone creatures. Fight one at a time and avoid pulling into other mobs.", confidence = "medium" },
 
     -- Gearing Redridge
     [1618] = { threat = "LOW", reason = "Profession quest with no combat objective beyond the journey. The road from Ironforge to Redridge passes through dangerous territory for low-level players, but the quest itself is safe if you travel with care.", confidence = "medium" },

@@ -582,13 +582,13 @@ addon.quests = {
     [1491] = { threat = "MEDIUM", reason = "Wailing Essence also drops from non-elite Devouring Ectoplasms outside the instance. These can create a second ectoplasm, so fight with room to handle the extra enemy and avoid entering the dungeon alone.", confidence = "high" },
 
     -- Corrupted Windblossom
-    [1514] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "medium" },
+    [1514] = { threat = "MEDIUM", reason = "The corrupted plant is in Felwood near Irontree Woods, where hostile high-level creatures make the approach hazardous. Clear a safe route before applying the salves.", confidence = "medium" },
 
     -- Flash Bomb Recipe
-    [1559] = { threat = "LOW", reason = "No combat; just a follow-up turn-in. Safe if you already survived the Pearl Diving quest.", confidence = "high" },
+    [1559] = { threat = "LOW", reason = "This is a recipe hand-in after Pearl Diving, with no required combat. Watch for hostile ogres while traveling near Angor Fortress.", confidence = "medium" },
 
     -- Tooga's Quest
-    [1560] = { threat = "HIGH", reason = "This is a 30-minute timed escort through one of the most dangerous zones in Classic. The route passes through scorpion, hyena, and silithid territory, and Tooga walks slowly along a fixed path. Ambushes spawn along the way, and the timer means you cannot wait for cooldowns. If Tooga dies, the quest fails. Do not attempt solo; bring a group and clear the path ahead.", confidence = "high" },
+    [1560] = { threat = "MEDIUM", reason = "Timed escort quest (30 min). Tooga crosses Tanaris near hostile higher-level creatures, but can follow a route that avoids combat; do not let him enter a fight or reset. Scout the route and stay close.", confidence = "medium" },
 
     -- Wastewander Justice
     [1690] = { threat = "MEDIUM", reason = "The bandits are levels 40-44 and are packed in camps in the Tanaris desert. They pull in groups and have ranged attackers. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },

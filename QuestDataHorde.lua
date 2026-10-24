@@ -1365,106 +1365,106 @@ local quests = {
     [1499] = { threat = "LOW", reason = "This is a conversation with Zureetha Fargaze in the orc starting area and adds no combat. Stay within the settlement.", confidence = "medium" },
 
     -- Creature of the Void
-    [1501] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1501] = { threat = "HIGH", reason = "The Skull Rock cave contains hostile Burning Blade and demon guards, and a dangerous rare or elite may guard the objective. Clear carefully and avoid fighting multiple enemies at once.", confidence = "medium" },
 
     -- Thun'grim Firegaze
-    [1502] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1502] = { threat = "LOW", reason = "This is a conversation step in the Barrens with no required combat. Use the road between settlements and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Forged Steel
-    [1503] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1503] = { threat = "MEDIUM", reason = "The forged bars are inside a hostile quilboar camp. Pull guards away from the chest and leave if the camp compounds your pull.", confidence = "medium" },
 
     -- The Binding
-    [1504] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1504] = { threat = "MEDIUM", reason = "The quest requires defeating a summoned voidwalker. Heal and recover mana before using the summoning glyphs, then fight it without nearby distractions.", confidence = "medium" },
 
     -- Veteran Uzzek
-    [1505] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1505] = { threat = "LOW", reason = "This is a travel and conversation step with no required combat. Stay on the road to Far Watch Post and avoid hostile camps.", confidence = "medium" },
 
     -- Gan'rul's Summons
-    [1506] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
+    [1506] = { threat = "LOW", reason = "This is a city conversation with no required combat.", confidence = "medium" },
 
     -- Devourer of Souls
-    [1507] = { threat = "MEDIUM", reason = "The quest leads to a summoning ritual with combat. Clear the area before starting and be ready for a tough fight.", confidence = "medium" },
+    [1507] = { threat = "LOW", reason = "This is a conversation within Orgrimmar with no required combat.", confidence = "medium" },
 
     -- Blind Cazul
-    [1508] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
+    [1508] = { threat = "LOW", reason = "This is a city conversation with no required combat.", confidence = "medium" },
 
     -- News of Dogran
-    [1509] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
+    [1509] = { threat = "LOW", reason = "This is a travel and conversation step with no required combat. Follow the road to the Crossroads and avoid hostile camps.", confidence = "medium" },
 
     -- News of Dogran
-    [1510] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "medium" },
+    [1510] = { threat = "LOW", reason = "This is a travel and conversation step with no required combat. Stay on the road to Malaka’jin and avoid hostile camps.", confidence = "medium" },
 
     -- Ken'zigla's Draught
-    [1511] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the Burning Blade camps.", confidence = "medium" },
+    [1511] = { threat = "LOW", reason = "Delivering the draught to Camp Taurajo has no required combat. Use the road and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Love's Gift
-    [1512] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1512] = { threat = "LOW", reason = "This is a return to Orgrimmar with no required combat.", confidence = "medium" },
 
     -- The Binding
-    [1513] = { threat = "MEDIUM", reason = "The ritual summons a voidwalker that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "medium" },
+    [1513] = { threat = "MEDIUM", reason = "The quest requires defeating a summoned succubus. Heal and recover mana before using the pendant, and keep your voidwalker ready to help.", confidence = "medium" },
 
     -- Dogran's Captivity
-    [1515] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1515] = { threat = "MEDIUM", reason = "Dogran is inside a hostile quilboar camp, with several guards and a possible rare elite nearby. Clear a route or use your voidwalker to distract enemies, then interact and retreat.", confidence = "medium" },
 
     -- Call of Earth
-    [1516] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1516] = { threat = "LOW", reason = "The Felstalkers are in the Valley of Trials starting area. Fight them one at a time and avoid drawing nearby enemies.", confidence = "medium" },
 
     -- Call of Earth
-    [1517] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1517] = { threat = "LOW", reason = "This is a short trip to Spirit Rock in the starting zone, with no combat objective. Avoid nearby hostile creatures while using the sapta.", confidence = "medium" },
 
     -- Call of Earth
-    [1518] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1518] = { threat = "LOW", reason = "Return the quartz to the Valley of Trials with no required combat. Stay on the road and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Call of Earth
-    [1519] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1519] = { threat = "LOW", reason = "This is a short delivery of salve to Camp Narache with no required combat. Avoid nearby hostile creatures on the approach.", confidence = "medium" },
 
     -- Call of Earth
-    [1520] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1520] = { threat = "LOW", reason = "This is a short trip to Kodo Rock in the starting area. Use the sapta and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Call of Earth
-    [1521] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the starting zone.", confidence = "medium" },
+    [1521] = { threat = "LOW", reason = "Return the quartz to Camp Narache with no required combat. Stay on the road and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Call of Fire
-    [1522] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1522] = { threat = "LOW", reason = "This is a travel and conversation step in the Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Fire
-    [1523] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1523] = { threat = "LOW", reason = "This is a travel and conversation step in the Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Fire
-    [1524] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1524] = { threat = "LOW", reason = "Carry the torch to Telf Joolam on the Durotar summit path. Watch your footing on the narrow trail and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Call of Fire
-    [1525] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1525] = { threat = "MEDIUM", reason = "The reagent pouch is inside Dustwind Cave, and the fire tar comes from hostile Razormane casters. Pull carefully and leave the cave if enemies converge.", confidence = "low" },
 
     -- Call of Fire
-    [1526] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1526] = { threat = "MEDIUM", reason = "The level-12 manifestation only engages when attacked, but the quest requires defeating it for its ember. Heal first and avoid fire damage, which it resists.", confidence = "medium" },
 
     -- Call of Fire
-    [1527] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1527] = { threat = "LOW", reason = "Return the torch to Kranal Fiss in the Barrens with no required combat. Use the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Water
-    [1528] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1528] = { threat = "LOW", reason = "This is a travel and conversation step to Islen Waterseer in the Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Water
-    [1529] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1529] = { threat = "LOW", reason = "This is a travel and conversation step to Islen Waterseer in the Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Water
-    [1530] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1530] = { threat = "LOW", reason = "This is a travel and conversation step in the southern Barrens with no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Call of Air
-    [1531] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. The cave is tight and respawns quickly. Clear methodically.", confidence = "medium" },
+    [1531] = { threat = "LOW", reason = "This is a travel and conversation step to Prate Cloudseer in Thousand Needles with no required combat. Follow the roads and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Call of Air
-    [1532] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1532] = { threat = "LOW", reason = "This is a travel and conversation step to Prate Cloudseer in Thousand Needles with no required combat. Follow the roads and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Call of Water
-    [1534] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1534] = { threat = "MEDIUM", reason = "The fountain in Ashenvale is surrounded by hostile elementals above the level-20 start of this shaman chain, and a powerful wandering guardian may pass nearby. Pull enemies one at a time and leave if the guardian approaches.", confidence = "medium" },
 
     -- Call of Water
-    [1535] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists. Clear the area before engaging.", confidence = "medium" },
+    [1535] = { threat = "MEDIUM", reason = "The watering hole below Brine’s hut is protected by quilboar. Pull nearby guards away before filling the waterskin, then retreat if more join.", confidence = "medium" },
 
     -- Call of Water
-    [1536] = { threat = "MEDIUM", reason = "The quest leads into a cave with Burning Blade cultists and summoned demons. Clear methodically.", confidence = "medium" },
+    [1536] = { threat = "MEDIUM", reason = "The well is in Horde-held Tarren Mill, but the route crosses Hillsbrad where hostile creatures and opposing players can create danger. Stay on a safe route and leave if the approach is watched.", confidence = "medium" },
 
     -- A Task Unfinished
     [1656] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road in Mulgore.", confidence = "high" },
