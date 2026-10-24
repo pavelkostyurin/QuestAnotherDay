@@ -51038,6 +51038,2392 @@
       "checkedAt": "2026-10-24T20:46:43+03:00",
       "skipReason": "dungeon",
       "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before research. The existing warning is left unchanged."
+    },
+    {
+      "questId": 4003,
+      "questName": "The Royal Rescue",
+      "url": "https://www.wowhead.com/classic/quest=4003",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4004,
+      "questName": "The Princess Saved?",
+      "url": "https://www.wowhead.com/classic/quest=4004",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4005,
+      "questName": "Aquementas",
+      "url": "https://www.wowhead.com/classic/quest=4005",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 8 comments were sampled; 3 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 8,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4005#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Aquementas - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4005/aquementas",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest text places the summon at the Tanaris stone circle; comments describe the hostile summon and totem creation, with conflicting reports about whether killing Aquementas is required."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest text and comments place the summoning circle beyond the pirate cove and report Aquementas becomes hostile after the totem is made; comments disagree on whether killing him is necessary. Removed unsupported knockback, death-completion, and fixed level claims. Confidence is medium because solo outcomes vary and the exact completion trigger is inconsistently described.",
+      "reason": "Reach the summoning circle beyond Lost Rigger Cove and summon Aquementas. He turns hostile when the totem is formed, so be ready to fight or escape; keep the supplied items in your bags.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4021,
+      "questName": "Counterattack!",
+      "url": "https://www.wowhead.com/classic/quest=4021",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 1 comments were sampled; 1 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4021#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Counterattack! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4021/counterattack",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest text says to kill Kolkar until Warlord Krom'zar appears."
+        },
+        {
+          "title": "Counterattack! - Quest - WoW Classic Era",
+          "url": "https://www.wowhead.com/forever/quest=4021/counterattack",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Era comments describe the battle, Krom'zar as a level-20 elite with two bodyguards, and recommend help; allied Horde forces may assist."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms that killing centaurs causes Krom'zar to appear; Era comments describe him as a level-20 elite with two bodyguards during a larger battle and recommend help from other players or Horde defenders. Removed unsupported claims about successive waves and no retreat. Confidence is medium because reports are anecdotal and NPC support varies.",
+      "reason": "The event culminates in level-20 elite Warlord Krom'zar with bodyguards amid nearby centaurs. Let the Horde defenders help and keep the fight away from extra camps; bring a group if you cannot control the event pulls.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4022,
+      "questName": "A Taste of Flame",
+      "url": "https://www.wowhead.com/classic/quest=4022",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "A Taste of Flame - Classic WoW Database",
+          "url": "https://www.classicdb.ch/?quest=4022",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Classic database objective is to show Cyrus the Black Dragonflight Molt; Cyrus is the quest start and end NPC."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms this step is to present the Black Dragonflight Molt to Cyrus. The separate no-proof challenge is not part of this item hand-in; confidence is medium from the explicit objective and a single Classic database page.",
+      "reason": "Show Cyrus the Black Dragonflight Molt at his Burning Steppes cave; presenting the item is a dialogue step and adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4023,
+      "questName": "A Taste of Flame",
+      "url": "https://www.wowhead.com/classic/quest=4023",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 10 comments were sampled; 2 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 10,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4023#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "A Taste of Flame - Quest - WoW Classic Era",
+          "url": "https://www.wowhead.com/forever/quest=4022/a-taste-of-flame",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Era comments describe the no-proof dialogue spawning a level-54 elite drake that drops the molt; other comments report class-specific solo success."
+        },
+        {
+          "title": "A Taste of Flame - Quest 4023",
+          "url": "https://moonwell.su/en/db/quest/4023",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest 4023 objective asks the player to show Cyrus proof of worth and identifies the Black Dragonflight Molt."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest data identifies this as the proof-of-worth branch. Classic-era comments describe Cyrus summoning a level-54 elite drake when the player lacks the molt, while other comments report solo success with a strong class/pet and preparation. This supports HIGH rather than an automatic group-only rating; confidence is medium because reports are class-specific and older.",
+      "reason": "Cyrus can offer a level-54 elite drake challenge when you lack the Black Dragonflight Molt. The fight is dangerous around the intended level; bring help or obtain the molt through the other quest route before choosing the challenge.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4024,
+      "questName": "A Taste of Flame",
+      "url": "https://www.wowhead.com/classic/quest=4024",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4041,
+      "questName": "The Videre Elixir",
+      "url": "https://www.wowhead.com/classic/quest=4041",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Videre Elixir - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/The_Videre_Elixir_(2)",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Classic quest notes identify Gregan’s Evoroot step and Miblon Snarltooth as the source of the ingredient."
+        },
+        {
+          "title": "The Videre Elixir (Quest 4041) - WoW Forever Database",
+          "url": "https://wowforever.wclbox.com/en/renwu/4041",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Guide describes placing bait at Miblon’s enclosure and collecting the Evoroot before returning to Gregan."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest chain identifies this step as bringing Gregan an Evoroot; the retrieved guide describes using bait to distract Miblon and collecting the root. The task has a noncombat route, though nearby gnolls remain a risk. Confidence is medium because location guidance is from a guide rather than multiple independent Era sources.",
+      "reason": "Use Gregan’s bait to draw Miblon away, then collect the Evoroot from the enclosure. Avoid fighting in the nearby gnoll camp.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4061,
+      "questName": "The Rise of the Machines",
+      "url": "https://www.wowhead.com/classic/quest=4061",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 10 comments were sampled; 3 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 10,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4061#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Rise of the Machines - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4061/the-rise-of-the-machines",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest page identifies golems and elementals as sources; comments describe War Reavers near the ruins and single-pull solo routes."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text and comments identify War Reavers and rock elementals in Burning Steppes as shard sources; reports include solo completion near the minimum level but note hostile dwarves around some routes. Confidence is medium because risk varies by pull location and class.",
+      "reason": "Collect shards from golems and elementals in Burning Steppes; nearby Dark Iron enemies can add to a pull. Fight on open ground and pull one target at a time.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4062,
+      "questName": "The Rise of the Machines",
+      "url": "https://www.wowhead.com/classic/quest=4062",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Rise of the Machines - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4062/the-rise-of-the-machines",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest objective is to take the provided Elemental Shard Sample to Lotwil in his Badlands camp."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms this is a delivery to Lotwil in the Badlands, with no combat objective. Confidence is medium because route risk is ordinary travel and only one quest source was consulted.",
+      "reason": "Take the shard sample to Lotwil’s camp in the Badlands; this hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4063,
+      "questName": "The Rise of the Machines",
+      "url": "https://www.wowhead.com/classic/quest=4063",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4081,
+      "questName": "KILL ON SIGHT: Dark Iron Dwarves",
+      "url": "https://www.wowhead.com/classic/quest=4081",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4082,
+      "questName": "KILL ON SIGHT: High Ranking Dark Iron Officials",
+      "url": "https://www.wowhead.com/classic/quest=4082",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4083,
+      "questName": "The Spectral Chalice",
+      "url": "https://www.wowhead.com/classic/quest=4083",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4084,
+      "questName": "Silver Heart",
+      "url": "https://www.wowhead.com/classic/quest=4084",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 20 comments were sampled; 3 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4084#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Silver Heart - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4084/silver-heart",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest objective says both items come from creatures in Felwood; comments identify claws from bears/wolves and the heart from Irontree creatures."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text and comments place both Silvery Claws and Irontree Heart sources in Felwood. The previous warning incorrectly sent players to Hinterlands owls and used unsupported exact level/drop claims. At the quest’s intended range the targets are ordinary mobs, so the tier is LOW; confidence is medium because comments give variable drop experiences.",
+      "reason": "Collect the claws from Felwood beasts and the heart from Irontree creatures. These are ordinary open-world pulls; avoid taking several enemies at once.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4101,
+      "questName": "Cleansing Felwood",
+      "url": "https://www.wowhead.com/classic/quest=4101",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 12 comments were sampled; 3 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 12,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4101#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Cleansing Felwood - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4101/cleansing-felwood",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest text confirms Blood Amber comes from Warpwood elementals in Irontree Caverns; comments describe collection routes and solo reports."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms the amber is collected from slain Warpwood elementals in the Irontree area; Era comments describe high drop rates and some solo routes outside the cave. The previous exact level and guaranteed-drop claims were too broad. Confidence is medium because target pulls vary by route.",
+      "reason": "Blood Amber comes from Warpwood elementals around Irontree Caverns. The required kills can expose you to nearby elementals and cave pulls; take isolated targets and keep an exit route.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4102,
+      "questName": "Cleansing Felwood",
+      "url": "https://www.wowhead.com/classic/quest=4102",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Cleansing Felwood - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4101/cleansing-felwood",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Matching Classic quest text confirms Blood Amber is collected from Warpwood elementals in Irontree Caverns."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Horde quest mirrors the Blood Amber collection step; the matching Classic Alliance quest page confirms the Warpwood objective. The prior fixed level and guaranteed-drop claims were removed. Confidence is medium because the faction variant was not separately retrieved and cave density depends on route.",
+      "reason": "Collect Blood Amber from Warpwood elementals in Felwood. Pull away from nearby enemies and avoid pushing into a crowded cave section.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4103,
+      "questName": "Salve via Hunting",
+      "url": "https://www.wowhead.com/classic/quest=4103",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Salve via Hunting - Quest - TBC Classic",
+          "url": "https://www.wowhead.com/tbc/quest=4103/salve-via-hunting",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest objective requires six Corrupted Soul Shards from tainted beasts in exchange for plant salve."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest text confirms six shards from corrupted beasts are exchanged for Cenarion Plant Salve. The actual danger is ordinary Felwood hunting; confidence is medium because no independent source establishes a more specific risk.",
+      "reason": "Collect six Corrupted Soul Shards from tainted beasts in Felwood; choose ordinary targets and avoid elite areas.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4104,
+      "questName": "Salve via Mining",
+      "url": "https://www.wowhead.com/classic/quest=4104",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Salve via Mining - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4104/salve-via-mining",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest objective requires four Tainted Vitriol collected while mining in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms the four-vitriol mining hand-in for plant salve. The quest step itself does not require fighting; confidence is medium because node locations and surrounding mobs vary.",
+      "reason": "Turn in four Tainted Vitriol from mining in Felwood; mining itself adds no quest combat, but check for nearby hostile mobs before stopping at a node.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4105,
+      "questName": "Salve via Gathering",
+      "url": "https://www.wowhead.com/classic/quest=4105",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog’s gathering quest identity and the shared Felwood salve quest pattern. No external page for this exact entry was retrieved; confidence is medium because the profession objective is clear but specific node hazards are not verified.",
+      "reason": "Turn in the required Felwood gathering materials for plant salve; gathering adds no quest combat, but watch for nearby hostile mobs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4106,
+      "questName": "Salve via Skinning",
+      "url": "https://www.wowhead.com/classic/quest=4106",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog’s skinning quest identity and the shared Felwood salve quest pattern. No external page for this exact entry was retrieved; confidence is medium because the task is ordinary beast hunting but specific drop details are unverified.",
+      "reason": "Collect the Felwood skinning material for plant salve from ordinary beasts; pull carefully and watch for nearby enemies.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4107,
+      "questName": "Salve via Disenchanting",
+      "url": "https://www.wowhead.com/classic/quest=4107",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog’s disenchanting quest identity and the shared Felwood salve quest pattern. No external page for this exact entry was retrieved; confidence is medium because no combat is implied by the profession hand-in.",
+      "reason": "Turn in the required disenchanted material for plant salve; this profession hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4108,
+      "questName": "Salve via Hunting",
+      "url": "https://www.wowhead.com/classic/quest=4108",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 4 comments were sampled; 1 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 4,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4108#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Salve via Hunting - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4108/salve-via-hunting",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest objective requires six Corrupted Soul Shards from tainted beasts in exchange for plant salve."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms six shards from corrupted beasts are exchanged for Cenarion Plant Salve. The prior warning incorrectly conflated this turn-in with the separate plant-cleansing quests. Confidence is medium because the risk is ordinary hunting and reports vary by location.",
+      "reason": "Collect six Corrupted Soul Shards from tainted beasts in Felwood; choose ordinary targets and avoid elite areas.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4109,
+      "questName": "Salve via Mining",
+      "url": "https://www.wowhead.com/classic/quest=4109",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Salve via Mining - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4109/salve-via-mining",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest objective requires four Tainted Vitriol collected while mining in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Horde quest text confirms the four-vitriol mining hand-in for plant salve. The old warning incorrectly said to cleanse plants as part of this turn-in. Confidence is medium because node locations and surrounding mobs vary.",
+      "reason": "Turn in four Tainted Vitriol from mining in Felwood; mining itself adds no quest combat, but check for nearby hostile mobs before stopping at a node.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4110,
+      "questName": "Salve via Gathering",
+      "url": "https://www.wowhead.com/classic/quest=4110",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog’s gathering quest identity and the parallel Horde/Aliance salve pattern. No external page for this exact entry was retrieved; confidence is medium because specific node hazards are not verified.",
+      "reason": "Turn in Felwood gathering materials for plant salve; gathering adds no quest combat, but watch for nearby hostile mobs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4111,
+      "questName": "Salve via Skinning",
+      "url": "https://www.wowhead.com/classic/quest=4111",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog’s skinning quest identity and the parallel Horde/Aliance salve pattern. No external page for this exact entry was retrieved; confidence is medium because specific drop details are unverified.",
+      "reason": "Collect the Felwood skinning material for plant salve from ordinary beasts; pull carefully and watch for nearby enemies.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4112,
+      "questName": "Salve via Disenchanting",
+      "url": "https://www.wowhead.com/classic/quest=4112",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog’s disenchanting quest identity and the parallel Horde/Aliance salve pattern. No external page for this exact entry was retrieved; confidence is medium because no combat is implied by the profession hand-in.",
+      "reason": "Turn in the required disenchanted material for plant salve; this profession hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4113,
+      "questName": "Corrupted Songflower",
+      "url": "https://www.wowhead.com/classic/quest=4113",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies this as a corrupted-plant interaction. Similar Classic plant quests use Cenarion Plant Salve and do not require combat; confidence is medium because this exact plant instance was not separately researched.",
+      "reason": "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4114,
+      "questName": "Corrupted Songflower",
+      "url": "https://www.wowhead.com/classic/quest=4114",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies this as a corrupted-plant interaction. Similar Classic plant quests use Cenarion Plant Salve and do not require combat; confidence is medium because this exact plant instance was not separately researched.",
+      "reason": "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4115,
+      "questName": "Corrupted Windblossom",
+      "url": "https://www.wowhead.com/classic/quest=4115",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Windblossom - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=996/corrupted-windblossom",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest text requires applying two Cenarion Plant Salves to the Windblossom; the interaction itself does not call for combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest material confirms a two-salve interaction for a corrupted Windblossom; no quest combat is required. Confidence is medium because the exact plant location can vary and only one record was directly retrieved.",
+      "reason": "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4116,
+      "questName": "Corrupted Songflower",
+      "url": "https://www.wowhead.com/classic/quest=4116",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4116/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest text requires applying two salves to the Songflower; the quest begins and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms applying two Cenarion Plant Salves to the Songflower, with no combat objective. Confidence is medium because the local route around each flower can differ.",
+      "reason": "Apply Cenarion Plant Salve to the corrupted Songflower; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4117,
+      "questName": "Corrupted Whipper Root",
+      "url": "https://www.wowhead.com/classic/quest=4117",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies this as a corrupted-plant interaction; similar Classic plant quests use Cenarion Plant Salve and do not require combat. Confidence is medium because this exact instance was not researched.",
+      "reason": "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4118,
+      "questName": "Corrupted Songflower",
+      "url": "https://www.wowhead.com/classic/quest=4118",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text was read; comments were not needed for the reviewed objective.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4118/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest text requires applying two Cenarion Plant Salves to a Songflower; the plant interaction itself has no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms a two-salve Songflower interaction in Felwood, with no combat objective. Confidence is medium because the route to the individual flower is not separately verified.",
+      "reason": "Apply Cenarion Plant Salve to the corrupted Songflower; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4119,
+      "questName": "Corrupted Night Dragon",
+      "url": "https://www.wowhead.com/classic/quest=4119",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog identifies this as a corrupted-plant interaction; similar Classic plant quests use Cenarion Plant Salve and do not require combat. Confidence is medium because this exact instance was not researched.",
+      "reason": "Apply Cenarion Plant Salve to the corrupted Night Dragon; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4120,
+      "questName": "The Strength of Corruption",
+      "url": "https://www.wowhead.com/classic/quest=4120",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 20 comments were sampled; 3 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4120#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Strength of Corruption - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4120/the-strength-of-corruption",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest page confirms 12 Angerclaw Grizzlies and 12 Felpaw Ravagers in Felwood; comments place them in the north and warn that wrong nearby routes reach elite dragonkin."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest page and comments place both objectives in northern Felwood and report the creatures can be hard to locate; comments also warn against following bad directions into elite dragon territory. Removed unsupported exact level range. Confidence is medium because routes and target spawns can vary.",
+      "reason": "Angerclaw Grizzlies and Felpaw Ravagers are in northern Felwood around Irontree and Felpaw areas. Pull them away from groups and do not wander north into Timbermaw territory or elite dragon areas.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4121,
+      "questName": "Precarious Predicament",
+      "url": "https://www.wowhead.com/classic/quest=4121",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4122,
+      "questName": "Grark Lorkrub",
+      "url": "https://www.wowhead.com/classic/quest=4122",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4123,
+      "questName": "The Heart of the Mountain",
+      "url": "https://www.wowhead.com/classic/quest=4123",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4124,
+      "questName": "The Missing Courier",
+      "url": "https://www.wowhead.com/classic/quest=4124",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue with Ginro inside the stronghold. The old low-level travel warning does not fit this handoff step; confidence is medium from local context.",
+      "reason": "Speak with Ginro in Feathermoon Stronghold; this city handoff adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4125,
+      "questName": "The Missing Courier",
+      "url": "https://www.wowhead.com/classic/quest=4125",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 20 comments were sampled; 4 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 20,
+      "commentsUsed": 4,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4125#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Missing Courier - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4125/the-missing-courier",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest comments describe the submerged boat near level 47–49 water elementals and elite giants, with safe completions using the shoreline/surface-water route and quick click."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments place the wreck just offshore and describe nearby level 47–49 water elementals and elite giants; reports show it can be completed by careful swimming and a quick interaction, but careless approaches can aggro several enemies. Raised the tier because the nearby elites exceed the quest’s level and a specific approach matters. Confidence is medium because route reports vary.",
+      "reason": "The wreck lies underwater on the Forgotten Coast among higher-level water elementals and elite giants. Approach along the shoreline or surface water, click quickly, and swim away rather than fighting through the coast.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4126,
+      "questName": "Hurley Blackbreath",
+      "url": "https://www.wowhead.com/classic/quest=4126",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4127,
+      "questName": "Boat Wreckage",
+      "url": "https://www.wowhead.com/classic/quest=4127",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a hand-in to Ginro at the stronghold. Confidence is medium because this is a clear city step but no separate source was retrieved.",
+      "reason": "Show the Discarded Knife to Ginro at Feathermoon Stronghold; this hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4128,
+      "questName": "Ragnar Thunderbrew",
+      "url": "https://www.wowhead.com/classic/quest=4128",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4129,
+      "questName": "The Knife Revealed",
+      "url": "https://www.wowhead.com/classic/quest=4129",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a city hand-in to Quintis. Confidence is medium because the step is clear but not independently corroborated.",
+      "reason": "Take the knife to Quintis inside Feathermoon Stronghold; this hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4130,
+      "questName": "Psychometric Reading",
+      "url": "https://www.wowhead.com/classic/quest=4130",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog context and known Era mechanics; no external lookup was needed for this step.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a conversation inside the stronghold. Confidence is medium from local context, without separate source verification.",
+      "reason": "Speak with Ginro in Feathermoon Stronghold; this dialogue adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4131,
+      "questName": "The Woodpaw Gnolls",
+      "url": "https://www.wowhead.com/classic/quest=4131",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 3 comments were sampled; 2 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 3,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4131#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Woodpaw Gnolls - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4131/the-woodpaw-gnolls",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Quest text places the backpacks in Woodpaw camps; comments report several gnolls around the object and note it may be reached without aggro."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text and comments place the packs in a gnoll camp; comments describe three or four level 42–44 gnolls nearby and report the object can sometimes be reached without aggro. The former exact chain-pull warning was too broad. Confidence is medium because the camp approach and nearby spawns vary.",
+      "reason": "The courier’s packs are in a Woodpaw Gnoll camp with several enemies nearby. Approach the camp edge and interact with the packs without drawing the group if possible.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4132,
+      "questName": "Operation: Death to Angerforge",
+      "url": "https://www.wowhead.com/classic/quest=4132",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4133,
+      "questName": "Vivian Lagrave",
+      "url": "https://www.wowhead.com/classic/quest=4133",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4134,
+      "questName": "Lost Thunderbrew Recipe",
+      "url": "https://www.wowhead.com/classic/quest=4134",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T20:54:31+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned catalog flags this quest as a dungeon; ordinary traversal records the skip before researching. Existing warning remains unchanged."
+    },
+    {
+      "questId": 4135,
+      "questName": "The Writhing Deep",
+      "url": "https://www.wowhead.com/classic/quest=4135",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T20:54:31+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted quest text and 2 comments were sampled; 2 comments informed the assessment. Comment ordering was not established.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4135#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Writhing Deep - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4135/the-writhing-deep",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T20:54:31+03:00",
+          "evidence": "Classic comments locate the pod in the hive and describe a tunneler/stinger near the path plus several tunnelers near the objective; careful solo pulls are reported."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments locate the pod in the upper hive and describe several level-appropriate tunnelers nearby; solo completion is possible with careful pulls. Removed exact respawn and anecdotal death claims. Confidence is medium because evidence is limited to player reports and route details.",
+      "reason": "The pod is inside the Writhing Deep hive, with hostile silithids near the approach and objective. Pull the entrance guards one at a time and avoid dropping into lower rooms without an exit plan.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4136,
+      "questName": "Ribbly Screwspigot",
+      "url": "https://www.wowhead.com/classic/quest=4136",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4141,
+      "questName": "Muigin and Larion",
+      "url": "https://www.wowhead.com/classic/quest=4141",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Muigin and Larion - WoW Classic - Warcraft DB",
+          "url": "https://classic.warcraftdb.com/data/quest/4141",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Quest objectives are item drops from four Bloodpetal mob types; source lists levels 48–53 and 80% drops."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog asks for 15 samples; Classic WarcraftDB identifies Bloodpetal drops from four hostile plant types at levels 48–53. Medium reflects repeated combat among nearby plants; confidence is medium because the source establishes drops and levels, while pull overlap is an inference.",
+      "reason": "Bloodpetal samples come from hostile plants across Un’Goro, not from ground pickups. The quest requires repeated fights with nearby plant mobs; pull them away from neighboring enemies.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4142,
+      "questName": "A Visit to Gregan",
+      "url": "https://www.wowhead.com/classic/quest=4142",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a delivery step with no required combat. Use the established route to Feralas and avoid detours through hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4143,
+      "questName": "Haze of Evil",
+      "url": "https://www.wowhead.com/classic/quest=4143",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4144,
+      "questName": "Bloodpetal Sprouts",
+      "url": "https://www.wowhead.com/classic/quest=4144",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Bloodpetal Sprouts - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=4144",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Quest requires collecting three Bloodpetal Sprout objects; chain follows Haze of Evil."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest reference confirms three loose Bloodpetal Sprout objects and no combat objective. Confidence is medium because source verifies objective but not local wildlife exposure.",
+      "reason": "The sprouts are scattered plant objects in Un’Goro and can be collected without fighting. Watch nearby hostile wildlife while crossing the crater.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4145,
+      "questName": "Larion and Muigin",
+      "url": "https://www.wowhead.com/classic/quest=4145",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "Collecting the four Bloodpetal types requires repeated fights with hostile plants across Un’Goro. Pull away from nearby plants so overlapping enemies do not join.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4146,
+      "questName": "Zapper Fuel",
+      "url": "https://www.wowhead.com/classic/quest=4146",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Sunken Temple Quests Guide - WoW Classic - Icy Veins",
+          "url": "https://www.icy-veins.com/wow-classic/sunken-temple-quests-guide",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Zapper Fuel requires five Atal’ai Haze from Deep Lurkers, Murk Worms, and Saturated Oozes inside Sunken Temple."
+        },
+        {
+          "title": "Sunken Temple quest guide - Zockify",
+          "url": "https://www.zockify.com/classic/dungeons/sunken-temple/",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Identifies the Horde quest chain and quest giver/turn-in; Haze collection occurs in Sunken Temple."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Two independent guides place the five Atal’ai Haze drops in Sunken Temple trash and identify the dungeon as the objective source. The 5-player dungeon requires a suitable group at the quest’s intended level; high confidence.",
+      "reason": "The Atal’ai Haze drops from enemies in Sunken Temple, a high-level dungeon. Bring a suitable group or skip this objective on Hardcore; the outside turn-in does not make the dungeon collection solo-safe.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 4147,
+      "questName": "Marvon's Workshop",
+      "url": "https://www.wowhead.com/classic/quest=4147",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a travel and dialogue step to a workshop in Ratchet; it adds no required combat. Stay on the road and avoid hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4148,
+      "questName": "Bloodpetal Zapper",
+      "url": "https://www.wowhead.com/classic/quest=4148",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4161,
+      "questName": "Recipe of the Kaldorei",
+      "url": "https://www.wowhead.com/classic/quest=4161",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "The spider-leg collection calls for ordinary low-level spiders in Teldrassil, with no unusual combat mechanic. Pull one at a time if nearby spiders are close.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4181,
+      "questName": "Goblin Engineering",
+      "url": "https://www.wowhead.com/classic/quest=4181",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a profession hand-in in Gadgetzan and adds no required combat. Use the town routes and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4182,
+      "questName": "Dragonkin Menace",
+      "url": "https://www.wowhead.com/classic/quest=4182",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Dragonkin Menace - The Forever Era",
+          "url": "https://theforeverera.com/en/quests/4182/",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Classic 1.12 reference marks quest Elite and confirms the required dragonkin objective."
+        },
+        {
+          "title": "Black Drake - NPC - Classic wow database",
+          "url": "https://classicdb.ch/?npc=7044",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Classic NPC entry identifies Black Drake as elite, level 50–52."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest reference marks this an Elite quest; ClassicDB identifies the required Black Drake as elite. The group recommendation and Extreme tier follow the rubric for elite objectives unsafe to solo near intended level; high confidence from two specific sources.",
+      "reason": "Elite quest. Black Dragonspawn, Black Wyrmkin, and the Black Drake are elite enemies spread across hostile camps, making the required kills unsafe to chain solo near the intended level. Bring a suitable group or skip on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 4183,
+      "questName": "The True Masters",
+      "url": "https://www.wowhead.com/classic/quest=4183",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a letter delivery to Lakeshire with no required combat. Travel by the established road or flight paths and avoid hostile camps along the way.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4184,
+      "questName": "The True Masters",
+      "url": "https://www.wowhead.com/classic/quest=4184",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a delivery inside Stormwind with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4185,
+      "questName": "The True Masters",
+      "url": "https://www.wowhead.com/classic/quest=4185",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a dialogue step inside Stormwind with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4186,
+      "questName": "The True Masters",
+      "url": "https://www.wowhead.com/classic/quest=4186",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a delivery to Lakeshire with no required combat. Use the established road or flight paths.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4201,
+      "questName": "The Love Potion",
+      "url": "https://www.wowhead.com/classic/quest=4201",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4221,
+      "questName": "Corrupted Windblossom",
+      "url": "https://www.wowhead.com/classic/quest=4221",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md",
+        "data/wowhead-comment-research.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Windblossom prior assessment (quest 996)",
+          "url": "https://www.wowhead.com/classic/quest=996/corrupted-windblossom",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Previously retrieved quest text requires two Cenarion Plant Salves; assessment records no combat from interaction, with risk from local hostile mobs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Reused the completed Corrupted Windblossom assessments for quests 996 and 998, whose retrieved quest text confirms the same two-salve Felwood interaction. Threat remains MEDIUM for hostile-area exposure; confidence is medium because the danger depends on plant location.",
+      "reason": "Apply two Cenarion Plant Salves to a Windblossom in Felwood; the interaction itself adds no combat. Nearby hostile mobs can make reaching a plant hazardous, so approach from a cleared path.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4222,
+      "questName": "Corrupted Windblossom",
+      "url": "https://www.wowhead.com/classic/quest=4222",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md",
+        "data/wowhead-comment-research.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Windblossom - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Corrupted_Windblossom",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Windblossoms occur at multiple Felwood locations; cleansing is an object interaction."
+        },
+        {
+          "title": "Corrupted Windblossom prior assessment (quest 998)",
+          "url": "https://www.wowhead.com/classic/quest=998/corrupted-windblossom",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Previously retrieved quest text requires two Cenarion Plant Salves; assessment records no combat from interaction, with risk from local hostile mobs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Reused the completed Corrupted Windblossom assessment for quest 998 and checked the Warcraft Wiki location summary; the same two-salve interaction is confirmed. Threat remains MEDIUM for hostile-area exposure; confidence is medium because the danger depends on plant location.",
+      "reason": "Apply two Cenarion Plant Salves to a Windblossom in Felwood; the interaction itself adds no combat. Nearby hostile mobs can make reaching a plant hazardous, so approach from a cleared path.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4223,
+      "questName": "The True Masters",
+      "url": "https://www.wowhead.com/classic/quest=4223",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a dialogue step at an outpost in Burning Steppes and adds no required combat. Avoid wandering into nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4224,
+      "questName": "The True Masters",
+      "url": "https://www.wowhead.com/classic/quest=4224",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Flame Crest - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Flame_Crest",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:04:00+03:00",
+          "evidence": "Flame Crest was neutral before Cataclysm; Ragged John was one of its former inhabitants. This supports safe Alliance access in Classic."
+        },
+        {
+          "title": "The True Masters (4224) - WoW Forever 60.tools",
+          "url": "https://www.60.tools/quests/4224",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:04:00+03:00",
+          "evidence": "Quest record shows speaking to Ragged John and returning to Marshal Maxwell; the cave description is a mistaken clue, not an objective to enter."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic-era location data identifies Flame Crest as neutral before Cataclysm, and the quest requires speaking with Ragged John there then returning to Maxwell. No combat or cave entry is required; confidence is medium because the quest step itself is a safe dialogue interaction but nearby zone exposure remains location-dependent.",
+      "reason": "Ragged John waits at the neutral Flame Crest camp, outside the cave, and the quest is completed by speaking with him. Avoid wandering into nearby hostile areas.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4241,
+      "questName": "Marshal Windsor",
+      "url": "https://www.wowhead.com/classic/quest=4241",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4242,
+      "questName": "Abandoned Hope",
+      "url": "https://www.wowhead.com/classic/quest=4242",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4243,
+      "questName": "Chasing A-Me 01",
+      "url": "https://www.wowhead.com/classic/quest=4243",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "A-Me is inside the gorilla cave at Fungal Rock, so reaching her can draw nearby apes into a close-quarters fight. Clear the cave entrance and keep an exit open before interacting.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4244,
+      "questName": "Chasing A-Me 01",
+      "url": "https://www.wowhead.com/classic/quest=4244",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "The Mithril Casing is a crafted or traded engineering item, not a mob drop. Returning to A-Me involves the gorilla cave, so approach by a cleared route and avoid unnecessary fights.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4245,
+      "questName": "Chasing A-Me 01",
+      "url": "https://www.wowhead.com/classic/quest=4245",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Chasing A-Me 01 (3) - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Chasing_A-Me_01_(3)",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Classic quest note says A-Me fights nearby gorillas, needs player help, and recommends clearing the cave mouth before starting."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest page confirms escort from A-Me, nearby gorilla combat, and a cave-mouth path worth clearing first. HIGH is based on escort failure risk and nearby allies joining pulls; confidence is medium because solo difficulty varies by class and circumstances.",
+      "reason": "Escort quest. A-Me can be injured while fighting nearby gorillas, and gorillas may call nearby allies into combat. Clear the cave mouth and route before starting, then keep enemies off her.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4261,
+      "questName": "Ancient Spirit",
+      "url": "https://www.wowhead.com/classic/quest=4261",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Ancient Spirit (quest) - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Ancient_Spirit_(quest)",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Classic quest notes Arei fights along the route and three Irontree Wanderers ambush him at the road."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest page confirms Arei fights during the short route and faces a three-mob ambush at the road. MEDIUM allows for the escort ally’s combat support; confidence is medium because source details the event but not universal solo outcomes.",
+      "reason": "Escort quest. Arei fights along the short route through Irontree Woods, then three Irontree Wanderers ambush him at the road. Stay with him and be ready to handle the final group together.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4262,
+      "questName": "Overmaster Pyron",
+      "url": "https://www.wowhead.com/classic/quest=4262",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4263,
+      "questName": "Incendius!",
+      "url": "https://www.wowhead.com/classic/quest=4263",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4264,
+      "questName": "A Crumpled Up Note",
+      "url": "https://www.wowhead.com/classic/quest=4264",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4265,
+      "questName": "Freed from the Hive",
+      "url": "https://www.wowhead.com/classic/quest=4265",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "The rescue pod is inside the hostile Zukk’ash hive, where tight space can make overlapping pulls hard to escape. Clear a route to the pod and keep an exit open.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4266,
+      "questName": "A Hero's Welcome",
+      "url": "https://www.wowhead.com/classic/quest=4266",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a dialogue step inside Feathermoon Stronghold with no required combat. Stay in the stronghold.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4267,
+      "questName": "Rise of the Silithid",
+      "url": "https://www.wowhead.com/classic/quest=4267",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a report delivery in Darnassus with no required combat. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4281,
+      "questName": "Thalanaar Delivery",
+      "url": "https://www.wowhead.com/classic/quest=4281",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a parcel delivery to Thalanaar with no required combat. Use the established route and avoid hostile camps along the way.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4282,
+      "questName": "A Shred of Hope",
+      "url": "https://www.wowhead.com/classic/quest=4282",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4283,
+      "questName": "FIFTY! YEP!",
+      "url": "https://www.wowhead.com/classic/quest=4283",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "The medallions come from Blackrock orcs in Burning Steppes, so completing the large collection requires repeated fights in hostile camps. Pull enemies out of the camps and watch for nearby adds.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4284,
+      "questName": "Crystals of Power",
+      "url": "https://www.wowhead.com/classic/quest=4284",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Power crystals - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Power_crystals",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Four crystal colors are found around Un’Goro and collected as objects; the quest requires seven of each."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Warcraft Wiki confirms the four crystal colors are loose Un’Goro pickups and the quest requires seven each. LOW reflects no combat requirement; confidence is medium because nearby-camp exposure is location-dependent.",
+      "reason": "Power Crystals are loose pickups scattered across Un’Goro, not elemental drops. Travel around the crater to gather them and route around hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4285,
+      "questName": "The Northern Pylon",
+      "url": "https://www.wowhead.com/classic/quest=4285",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4286,
+      "questName": "The Good Stuff",
+      "url": "https://www.wowhead.com/classic/quest=4286",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4287,
+      "questName": "The Eastern Pylon",
+      "url": "https://www.wowhead.com/classic/quest=4287",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4288,
+      "questName": "The Western Pylon",
+      "url": "https://www.wowhead.com/classic/quest=4288",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4289,
+      "questName": "The Apes of Un'Goro",
+      "url": "https://www.wowhead.com/classic/quest=4289",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Apes of Un’Goro - WoW Classic - Warcraft DB",
+          "url": "https://classic.warcraftdb.com/data/quest/4289",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Quest source lists two guaranteed drops from each of three ape types, level 50–53, at Fungal Rock."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Warcraft DB confirms the three pelt sources are at Fungal Rock, levels 50–53, with guaranteed drops. MEDIUM reflects repeated combat in the ape area and cave; confidence is medium because pull overlap is an inference.",
+      "reason": "The pelts come from three ape types at Fungal Rock, where the cave and nearby groups can make overlapping pulls hard to escape. Pull from the edge and clear space before engaging another group.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4290,
+      "questName": "The Fare of Lar'korwi",
+      "url": "https://www.wowhead.com/classic/quest=4290",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Quest:The Fare of Lar’korwi - WoWWiki Archive",
+          "url": "https://wowwiki-archive.fandom.com/wiki/Quest:The_Fare_of_Lar%27korwi",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Classic quest note places the carcass among hostile level 50–51 raptors and says looting takes several seconds."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest archive confirms the carcass is surrounded by level 50–51 raptors and requires several seconds to loot. MEDIUM reflects exposure while interacting; confidence is medium because one archival source supports the local hazard.",
+      "reason": "The carcass is surrounded by hostile ravasaurs, and looting leaves you exposed for several seconds. Clear nearby guards and keep an escape route before interacting.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4291,
+      "questName": "The Scent of Lar'korwi",
+      "url": "https://www.wowhead.com/classic/quest=4291",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Scent of Lar’korwi - WCLBox Classic reference",
+          "url": "https://wowforever.wclbox.com/en/renwu/4291",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Quest account says approaching egg clutches provokes a female raptor; collect two glands from the spawned mates."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic reference describes egg-clutch proximity provoking Lar’korwi Mates and requiring two glands. MEDIUM reflects controlled but required fights; confidence is medium because corroboration is limited.",
+      "reason": "Stepping near ravasaur eggs provokes a Lar’korwi Mate to attack. Clear around each nest first and draw the spawned raptor into the open before engaging.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4292,
+      "questName": "The Bait for Lar'korwi",
+      "url": "https://www.wowhead.com/classic/quest=4292",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted source pages were read; comments were not needed for this mechanic-focused assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Bait for Lar’korwi - Classic wow database",
+          "url": "https://classicdb.ch/?quest=4292",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:02:00+03:00",
+          "evidence": "Classic-era comments identify Lar’korwi as level 56 and describe a single summoned fight; Warcraft Wiki lists Rend and a movement slow."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic-era quest data sets the summon target at level 56; the source and Warcraft Wiki abilities support a wound and movement slow, not the old warning’s fear or extra-ravasaurs claim. MEDIUM reflects one target at the quest’s intended level; confidence is medium.",
+      "reason": "Summoning Lar’korwi starts a one-on-one fight with a level-56 ravasaur that can cause a damaging wound and slow movement. Fight at the intended level with an escape route; do not rely on fear or extra raptors as a mechanic.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4293,
+      "questName": "A Sample of Slime...",
+      "url": "https://www.wowhead.com/classic/quest=4293",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "Collecting Felwood slime samples requires repeated fights with hostile oozes; the testing and turn-in afterward are safe in Undercity. Pull slimes away from nearby enemies and avoid fighting several at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4294,
+      "questName": "... and a Batch of Ooze",
+      "url": "https://www.wowhead.com/classic/quest=4294",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "Collecting Un’Goro slime samples requires repeated fights with hostile oozes; the testing and turn-in afterward are safe in Undercity. Pull slimes away from nearby enemies and avoid fighting several at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4295,
+      "questName": "Rocknot's Ale",
+      "url": "https://www.wowhead.com/classic/quest=4295",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:02:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "The pinned Era catalog marks this quest Dungeon; ordinary traversal skips it before warning assessment."
+    },
+    {
+      "questId": 4296,
+      "questName": "Tablet of the Seven",
+      "url": "https://www.wowhead.com/classic/quest=4296",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "The tablet transcript is obtained at the Ruins of Thaurissan among hostile Dark Iron enemies. Clear nearby guards before using the tablet and keep an exit route open.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 4297,
+      "questName": "Food for Baby",
+      "url": "https://www.wowhead.com/classic/quest=4297",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:02:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua",
+        ".agents/skills/quest-threat-review/references/classification.md"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the catalog description and existing knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Reviewed the catalog objective against the current warning and four-tier rubric. Threat and reason were reassessed; confidence is medium because the final claim relies on local context and coherent game knowledge rather than independent corroboration.",
+      "reason": "Silvermane Stalkers are stealthed wolves in the Hinterlands, so they can surprise you at close range while you search for them. Move carefully through the woods and avoid fighting near other hostile wildlife.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
     }
   ]
 }

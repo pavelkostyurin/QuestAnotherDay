@@ -2112,13 +2112,13 @@ local quests = {
     [4004] = { threat = "HIGH", reason = "The combat is over once you complete The Royal Rescue, but reaching the Emperor and completing the fight requires a full BRD run. Do not attempt without a coordinated group.", confidence = "high" },
 
     -- Counterattack!
-    [4021] = { threat = "HIGH", reason = "Killing centaurs triggers waves of spawns, culminating in Warlord Krom'zar, a powerful named centaur who hits hard and summons reinforcements. The fight escalates quickly and there is no safe retreat once the waves begin. Group required for the intended level range.", confidence = "medium" },
+    [4021] = { threat = "HIGH", reason = "The event culminates in level-20 elite Warlord Krom'zar with bodyguards amid nearby centaurs. Let the Horde defenders help and keep the fight away from extra camps; bring a group if you cannot control the event pulls.", confidence = "medium" },
 
     -- The Rise of the Machines
-    [4061] = { threat = "MEDIUM", reason = "Fighting golems and elementals in Burning Steppes exposes you to nearby hostile enemies. Pull one at a time and leave room to retreat.", confidence = "medium" },
+    [4061] = { threat = "MEDIUM", reason = "Collect shards from golems and elementals in Burning Steppes; nearby Dark Iron enemies can add to a pull. Fight on open ground and pull one target at a time.", confidence = "medium" },
 
     -- The Rise of the Machines
-    [4062] = { threat = "LOW", reason = "This is a delivery to Lotwil's camp in the Badlands with no required combat. Stay clear of hostile enemies along the route.", confidence = "high" },
+    [4062] = { threat = "LOW", reason = "Take the shard sample to Lotwil’s camp in the Badlands; this hand-in adds no combat.", confidence = "medium" },
 
     -- The Rise of the Machines
     [4063] = { threat = "EXTREME", reason = "Dungeon quest. Argelmach and the constructs needed for the cores are inside Blackrock Depths among elite enemies. Bring a suitable dungeon group or skip on Hardcore.", confidence = "high" },
@@ -2130,25 +2130,25 @@ local quests = {
     [4082] = { threat = "HIGH", reason = "This is the follow-up to KILL ON SIGHT: Dark Iron Dwarves and requires deeper penetration into the dungeon. Full group of level 52+ required.", confidence = "high" },
 
     -- Cleansing Felwood
-    [4102] = { threat = "MEDIUM", reason = "The elementals are levels 48-52 and the drop rate is 100% while the quest is active. The cavern is dark, packed with mobs, and the elementals can pull in groups. Clear methodically and watch for respawns. Do not attempt below level 48.", confidence = "high" },
+    [4102] = { threat = "MEDIUM", reason = "Collect Blood Amber from Warpwood elementals in Felwood. Pull away from nearby enemies and avoid pushing into a crowded cave section.", confidence = "medium" },
 
     -- Salve via Hunting
-    [4108] = { threat = "LOW", reason = "Kill creatures in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The mobs are levels 48-52. This is a grind quest with moderate risk. Safe if you pull singles and avoid elite areas.", confidence = "medium" },
+    [4108] = { threat = "LOW", reason = "Collect six Corrupted Soul Shards from tainted beasts in Felwood; choose ordinary targets and avoid elite areas.", confidence = "medium" },
 
     -- Salve via Mining
-    [4109] = { threat = "LOW", reason = "Mine nodes in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The nodes are in contested areas with hostile mobs. Safe if you clear the area before mining.", confidence = "medium" },
+    [4109] = { threat = "LOW", reason = "Turn in four Tainted Vitriol from mining in Felwood; mining itself adds no quest combat, but check for nearby hostile mobs before stopping at a node.", confidence = "medium" },
 
     -- Salve via Gathering
-    [4110] = { threat = "LOW", reason = "Gather herbs in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The herbs are in contested areas with hostile mobs. Safe if you clear the area before gathering.", confidence = "medium" },
+    [4110] = { threat = "LOW", reason = "Turn in Felwood gathering materials for plant salve; gathering adds no quest combat, but watch for nearby hostile mobs.", confidence = "medium" },
 
     -- Salve via Skinning
-    [4111] = { threat = "LOW", reason = "Skin creatures in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The mobs are levels 48-52. Safe if you pull singles.", confidence = "medium" },
+    [4111] = { threat = "LOW", reason = "Collect the Felwood skinning material for plant salve from ordinary beasts; pull carefully and watch for nearby enemies.", confidence = "medium" },
 
     -- Salve via Disenchanting
-    [4112] = { threat = "LOW", reason = "Disenchant items and use the Cenarion Plant Salve to cleanse corrupted plants. No combat required beyond the disenchanting. Safe if you stay in a safe area.", confidence = "medium" },
+    [4112] = { threat = "LOW", reason = "Turn in the required disenchanted material for plant salve; this profession hand-in adds no combat.", confidence = "medium" },
 
     -- The Strength of Corruption
-    [4120] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with corrupted mobs. Clear the area before looting and watch for patrolling mobs.", confidence = "medium" },
+    [4120] = { threat = "MEDIUM", reason = "Angerclaw Grizzlies and Felpaw Ravagers are in northern Felwood around Irontree and Felpaw areas. Pull them away from groups and do not wander north into Timbermaw territory or elite dragon areas.", confidence = "medium" },
 
     -- Precarious Predicament
     [4121] = { threat = "MEDIUM", reason = "The quest involves combat against Blackrock orcs. The orcs are levels 50-54 and are packed in camps. Clear the area before engaging and watch for patrolling elites.", confidence = "medium" },
@@ -2166,22 +2166,22 @@ local quests = {
     [4134] = { threat = "HIGH", reason = "The recipe is deep inside the dungeon, guarded by elites. This requires a full group of level 52+.", confidence = "high" },
 
     -- Larion and Muigin
-    [4145] = { threat = "MEDIUM", reason = "The sprouts are guarded by level 48-52 mobs. The crater is dangerous for lower-level players. Clear the area before looting.", confidence = "medium" },
+    [4145] = { threat = "MEDIUM", reason = "Collecting the four Bloodpetal types requires repeated fights with hostile plants across Un’Goro. Pull away from nearby plants so overlapping enemies do not join.", confidence = "medium" },
 
     -- Zapper Fuel
-    [4146] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before looting.", confidence = "medium" },
+    [4146] = { threat = "EXTREME", reason = "The Atal’ai Haze drops from enemies in Sunken Temple, a high-level dungeon. Bring a suitable group or skip this objective on Hardcore; the outside turn-in does not make the dungeon collection solo-safe.", confidence = "high" },
 
     -- Marvon's Workshop
-    [4147] = { threat = "LOW", reason = "Travel and exploration step with light combat. Safe if you avoid the mob camps.", confidence = "medium" },
+    [4147] = { threat = "LOW", reason = "This is a travel and dialogue step to a workshop in Ratchet; it adds no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Bloodpetal Zapper
     [4148] = { threat = "MEDIUM", reason = "The quest involves combat against level 48-52 mobs. Clear the area before using the zapper.", confidence = "medium" },
 
     -- A Sample of Slime...
-    [4293] = { threat = "MEDIUM", reason = "The slimes are levels 48-52 and can pull in groups. Clear the area before looting.", confidence = "medium" },
+    [4293] = { threat = "MEDIUM", reason = "Collecting Felwood slime samples requires repeated fights with hostile oozes; the testing and turn-in afterward are safe in Undercity. Pull slimes away from nearby enemies and avoid fighting several at once.", confidence = "medium" },
 
     -- ... and a Batch of Ooze
-    [4294] = { threat = "MEDIUM", reason = "The mobs are levels 48-52 and can pull in groups. Clear the area before looting.", confidence = "medium" },
+    [4294] = { threat = "MEDIUM", reason = "Collecting Un’Goro slime samples requires repeated fights with hostile oozes; the testing and turn-in afterward are safe in Undercity. Pull slimes away from nearby enemies and avoid fighting several at once.", confidence = "medium" },
 
     -- Bone-Bladed Weapons
     [4300] = { threat = "MEDIUM", reason = "The mobs are levels 48-52 and can pull in groups. Clear the area before looting.", confidence = "medium" },

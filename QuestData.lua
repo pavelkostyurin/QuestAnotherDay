@@ -5794,25 +5794,28 @@ addon.quests = {
     [4004] = { threat = "HIGH", reason = "The combat is over once you complete The Royal Rescue, but reaching the Emperor and completing the fight requires a full BRD run. Do not attempt without a coordinated group.", confidence = "high" },
 
     -- Aquementas
-    [4005] = { threat = "MEDIUM", reason = "Aquementas is a level 54 non-elite water elemental, but he hits hard and can punt you into the air [citation:4]. A level 51 druid was killed by him [citation:4]. A level 54 mage soloed this easily, and a level 49 warrior lost the fight but still got the totem because the quest completes when the battle ends or you die [citation:4]. The totem is created once Aquementas becomes hostile, so you can technically flee or die and still complete the quest. Do not attempt below level 50 solo without a plan to survive or escape.", confidence = "high" },
+    [4005] = { threat = "MEDIUM", reason = "Reach the summoning circle beyond Lost Rigger Cove and summon Aquementas. He turns hostile when the totem is formed, so be ready to fight or escape; keep the supplied items in your bags.", confidence = "medium" },
 
     -- Counterattack! (Barrens -> Kolkar bunkers)
-    [4021] = { threat = "HIGH", reason = "Killing centaurs triggers waves of spawns, culminating in Warlord Krom'zar, a powerful named centaur who hits hard and summons reinforcements. The fight escalates quickly and there is no safe retreat once the waves begin. Group required for the intended level range.", confidence = "medium" },
+    [4021] = { threat = "HIGH", reason = "The event culminates in level-20 elite Warlord Krom'zar with bodyguards amid nearby centaurs. Let the Horde defenders help and keep the fight away from extra camps; bring a group if you cannot control the event pulls.", confidence = "medium" },
 
     -- A Taste of Flame (Show Molt)
-    [4022] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4022] = { threat = "LOW", reason = "Show Cyrus the Black Dragonflight Molt at his Burning Steppes cave; presenting the item is a dialogue step and adds no combat.", confidence = "medium" },
 
     -- A Taste of Flame (Prove Worth)
-    [4023] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4023] = { threat = "HIGH", reason = "Cyrus can offer a level-54 elite drake challenge when you lack the Black Dragonflight Molt. The fight is dangerous around the intended level; bring help or obtain the molt through the other quest route before choosing the challenge.", confidence = "medium" },
 
     -- A Taste of Flame (Kill Bael'Gar)
     [4024] = { threat = "HIGH", reason = "Use the Altered Black Dragonflight Molt on his remains to capture the Fiery Essence. Bael'Gar is a level 54 elite fire giant inside Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo [citation:13].", confidence = "high" },
 
+    -- The Videre Elixir (Evoroot to Gregan)
+    [4041] = { threat = "LOW", reason = "Use Gregan’s bait to draw Miblon away, then collect the Evoroot from the enclosure. Avoid fighting in the nearby gnoll camp.", confidence = "medium" },
+
     -- The Rise of the Machines (Horde - Burning Steppes, shard collection)
-    [4061] = { threat = "MEDIUM", reason = "Fighting golems and elementals in Burning Steppes exposes you to nearby hostile enemies. Pull one at a time and leave room to retreat.", confidence = "medium" },
+    [4061] = { threat = "MEDIUM", reason = "Collect shards from golems and elementals in Burning Steppes; nearby Dark Iron enemies can add to a pull. Fight on open ground and pull one target at a time.", confidence = "medium" },
 
     -- The Rise of the Machines (Horde - Badlands, sample delivery)
-    [4062] = { threat = "LOW", reason = "This is a delivery to Lotwil's camp in the Badlands with no required combat. Stay clear of hostile enemies along the route.", confidence = "high" },
+    [4062] = { threat = "LOW", reason = "Take the shard sample to Lotwil’s camp in the Badlands; this hand-in adds no combat.", confidence = "medium" },
 
     -- The Rise of the Machines (Horde - Blackrock Depths, Argelmach and cores)
     [4063] = { threat = "EXTREME", reason = "Dungeon quest. Argelmach and the constructs needed for the cores are inside Blackrock Depths among elite enemies. Bring a suitable dungeon group or skip on Hardcore.", confidence = "high" },
@@ -5824,31 +5827,67 @@ addon.quests = {
     [4082] = { threat = "HIGH", reason = "This is the follow-up to KILL ON SIGHT: Dark Iron Dwarves and requires deeper penetration into the dungeon. Full group of level 52+ required.", confidence = "high" },
 
     -- Silver Heart
-    [4084] = { threat = "MEDIUM", reason = "The claws drop from Ironbeak Owls in the Hinterlands, and the heart drops from Irontree Wanderers in Felwood. Both are level 48-52 mobs. The drop rates are moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4084] = { threat = "LOW", reason = "Collect the claws from Felwood beasts and the heart from Irontree creatures. These are ordinary open-world pulls; avoid taking several enemies at once.", confidence = "medium" },
 
     -- Cleansing Felwood
-    [4101] = { threat = "MEDIUM", reason = "The Blood Amber drops from Warpwood elementals in the Irontree Caverns. The elementals are levels 48-52 and are packed in the caverns. The drop rate is 100% while the quest is active. Clear methodically and watch for respawns. Do not attempt below level 48 solo.", confidence = "high" },
+    [4101] = { threat = "MEDIUM", reason = "Blood Amber comes from Warpwood elementals around Irontree Caverns. The required kills can expose you to nearby elementals and cave pulls; take isolated targets and keep an exit route.", confidence = "medium" },
 
     -- Cleansing Felwood (Horde - Felwood)
-    [4102] = { threat = "MEDIUM", reason = "The elementals are levels 48-52 and the drop rate is 100% while the quest is active. The cavern is dark, packed with mobs, and the elementals can pull in groups. Clear methodically and watch for respawns. Do not attempt below level 48.", confidence = "high" },
+    [4102] = { threat = "MEDIUM", reason = "Collect Blood Amber from Warpwood elementals in Felwood. Pull away from nearby enemies and avoid pushing into a crowded cave section.", confidence = "medium" },
+
+    -- Salve via Hunting (Alliance - Felwood)
+    [4103] = { threat = "LOW", reason = "Collect six Corrupted Soul Shards from tainted beasts in Felwood; choose ordinary targets and avoid elite areas.", confidence = "medium" },
+
+    -- Salve via Mining (Alliance - Felwood)
+    [4104] = { threat = "LOW", reason = "Turn in four Tainted Vitriol from mining in Felwood; mining itself adds no quest combat, but check for nearby hostile mobs before stopping at a node.", confidence = "medium" },
+
+    -- Salve via Gathering (Alliance - Felwood)
+    [4105] = { threat = "LOW", reason = "Turn in the required Felwood gathering materials for plant salve; gathering adds no quest combat, but watch for nearby hostile mobs.", confidence = "medium" },
+
+    -- Salve via Skinning (Alliance - Felwood)
+    [4106] = { threat = "LOW", reason = "Collect the Felwood skinning material for plant salve from ordinary beasts; pull carefully and watch for nearby enemies.", confidence = "medium" },
+
+    -- Salve via Disenchanting (Alliance - Felwood)
+    [4107] = { threat = "LOW", reason = "Turn in the required disenchanted material for plant salve; this profession hand-in adds no combat.", confidence = "medium" },
 
     -- Salve via Hunting (Horde - Felwood)
-    [4108] = { threat = "LOW", reason = "Kill creatures in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The mobs are levels 48-52. This is a grind quest with moderate risk. Safe if you pull singles and avoid elite areas.", confidence = "medium" },
+    [4108] = { threat = "LOW", reason = "Collect six Corrupted Soul Shards from tainted beasts in Felwood; choose ordinary targets and avoid elite areas.", confidence = "medium" },
 
     -- Salve via Mining (Horde - Felwood)
-    [4109] = { threat = "LOW", reason = "Mine nodes in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The nodes are in contested areas with hostile mobs. Safe if you clear the area before mining.", confidence = "medium" },
+    [4109] = { threat = "LOW", reason = "Turn in four Tainted Vitriol from mining in Felwood; mining itself adds no quest combat, but check for nearby hostile mobs before stopping at a node.", confidence = "medium" },
 
     -- Salve via Gathering (Horde - Felwood)
-    [4110] = { threat = "LOW", reason = "Gather herbs in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The herbs are in contested areas with hostile mobs. Safe if you clear the area before gathering.", confidence = "medium" },
+    [4110] = { threat = "LOW", reason = "Turn in Felwood gathering materials for plant salve; gathering adds no quest combat, but watch for nearby hostile mobs.", confidence = "medium" },
 
     -- Salve via Skinning (Horde - Felwood)
-    [4111] = { threat = "LOW", reason = "Skin creatures in Felwood and use the Cenarion Plant Salve to cleanse corrupted plants. The mobs are levels 48-52. Safe if you pull singles.", confidence = "medium" },
+    [4111] = { threat = "LOW", reason = "Collect the Felwood skinning material for plant salve from ordinary beasts; pull carefully and watch for nearby enemies.", confidence = "medium" },
 
     -- Salve via Disenchanting (Horde - Felwood)
-    [4112] = { threat = "LOW", reason = "Disenchant items and use the Cenarion Plant Salve to cleanse corrupted plants. No combat required beyond the disenchanting. Safe if you stay in a safe area.", confidence = "medium" },
+    [4112] = { threat = "LOW", reason = "Turn in the required disenchanted material for plant salve; this profession hand-in adds no combat.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4113] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4114] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [4115] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4116] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted Songflower; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Whipper Root
+    [4117] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4118] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted Songflower; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Night Dragon
+    [4119] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted Night Dragon; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
 
     -- The Strength of Corruption (Horde - Felwood)
-    [4120] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with corrupted mobs. Clear the area before looting and watch for patrolling mobs.", confidence = "medium" },
+    [4120] = { threat = "MEDIUM", reason = "Angerclaw Grizzlies and Felpaw Ravagers are in northern Felwood around Irontree and Felpaw areas. Pull them away from groups and do not wander north into Timbermaw territory or elite dragon areas.", confidence = "medium" },
 
     -- Precarious Predicament (Horde - Burning Steppes)
     [4121] = { threat = "MEDIUM", reason = "The quest involves combat against Blackrock orcs. The orcs are levels 50-54 and are packed in camps. Clear the area before engaging and watch for patrolling elites.", confidence = "medium" },
@@ -5860,28 +5899,28 @@ addon.quests = {
     [4123] = { threat = "MEDIUM", reason = "The Heart drops from a named elemental in the Searing Gorge. The elemental is level 50-54 and is surrounded by guards. Clear the area before engaging and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- The Missing Courier (Speak with Ginro)
-    [4124] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [4124] = { threat = "LOW", reason = "Speak with Ginro in Feathermoon Stronghold; this city handoff adds no combat.", confidence = "medium" },
 
     -- The Missing Courier (Find Boat)
-    [4125] = { threat = "MEDIUM", reason = "The boat is on the coast, guarded by level 42-46 naga and murlocs. Clear the area before looting and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
+    [4125] = { threat = "HIGH", reason = "The wreck lies underwater on the Forgotten Coast among higher-level water elementals and elite giants. Approach along the shoreline or surface water, click quickly, and swim away rather than fighting through the coast.", confidence = "medium" },
 
     -- Hurley Blackbreath
     [4126] = { threat = "HIGH", reason = "The recipe is in Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
     -- Boat Wreckage
-    [4127] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4127] = { threat = "LOW", reason = "Show the Discarded Knife to Ginro at Feathermoon Stronghold; this hand-in adds no combat.", confidence = "medium" },
 
     -- Ragnar Thunderbrew
     [4128] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
 
     -- The Knife Revealed
-    [4129] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4129] = { threat = "LOW", reason = "Take the knife to Quintis inside Feathermoon Stronghold; this hand-in adds no combat.", confidence = "medium" },
 
     -- Psychometric Reading
-    [4130] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the stronghold.", confidence = "high" },
+    [4130] = { threat = "LOW", reason = "Speak with Ginro in Feathermoon Stronghold; this dialogue adds no combat.", confidence = "medium" },
 
     -- The Woodpaw Gnolls
-    [4131] = { threat = "MEDIUM", reason = "The gnolls are levels 41-44 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 41 solo.", confidence = "medium" },
+    [4131] = { threat = "MEDIUM", reason = "The courier’s packs are in a Woodpaw Gnoll camp with several enemies nearby. Approach the camp edge and interact with the packs without drawing the group if possible.", confidence = "medium" },
 
     -- Operation: Death to Angerforge (Horde - Blackrock Depths)
     [4132] = { threat = "HIGH", reason = "Angerforge is a dungeon boss surrounded by elite guards. This requires a full group of level 52+. The fight is mechanically demanding and can wipe unprepared groups.", confidence = "high" },
@@ -5893,61 +5932,70 @@ addon.quests = {
     [4134] = { threat = "HIGH", reason = "The recipe is deep inside the dungeon, guarded by elites. This requires a full group of level 52+.", confidence = "high" },
 
     -- The Writhing Deep
-    [4135] = { threat = "MEDIUM", reason = "The Writhing Deep is a cave filled with level 44-48 silithid and bugs. The cave is tight and respawns quickly. A level 46 druid died on the first attempt after jumping down the hole and getting attacked by insects [citation:6]. The pod is at the bottom of the cave, past multiple mobs. Clear methodically and keep an escape route. Do not attempt below level 44 solo without a plan to handle the insects.", confidence = "high" },
+    [4135] = { threat = "MEDIUM", reason = "The pod is inside the Writhing Deep hive, with hostile silithids near the approach and objective. Pull the entrance guards one at a time and avoid dropping into lower rooms without an exit plan.", confidence = "medium" },
 
     -- Ribbly Screwspigot
     [4136] = { threat = "HIGH", reason = "Ribbly is inside Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo [citation:7][citation:15].", confidence = "high" },
 
     -- Muigin and Larion
-    [4141] = { threat = "LOW", reason = "The Bloodpetals are found on the ground in Un'Goro Crater. No combat required, but the crater is patrolled by level 48-55 mobs. Safe if you avoid the mob camps while gathering. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4141] = { threat = "MEDIUM", reason = "Bloodpetal samples come from hostile plants across Un’Goro, not from ground pickups. The quest requires repeated fights with nearby plant mobs; pull them away from neighboring enemies.", confidence = "medium" },
 
     -- A Visit to Gregan
-    [4142] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4142] = { threat = "LOW", reason = "This is a delivery step with no required combat. Use the established route to Feralas and avoid detours through hostile camps.", confidence = "medium" },
 
     -- Haze of Evil
     [4143] = { threat = "HIGH", reason = "The haze drops from Deep Lurkers and Murk Worms inside the Sunken Temple, a level 50-55 dungeon filled with elites [citation:8]. This requires a full group of level 50+. The Deep Lurkers are linked and can pull two at once, and nearby Slime Maggots will join the fight [citation:8]. Do not attempt solo [citation:8][citation:16].", confidence = "high" },
+    -- Bloodpetal Sprouts
+    [4144] = { threat = "LOW", reason = "The sprouts are scattered plant objects in Un’Goro and can be collected without fighting. Watch nearby hostile wildlife while crossing the crater.", confidence = "medium" },
+
 
     -- Larion and Muigin (Horde - Un'Goro Crater)
-    [4145] = { threat = "MEDIUM", reason = "The sprouts are guarded by level 48-52 mobs. The crater is dangerous for lower-level players. Clear the area before looting.", confidence = "medium" },
+    [4145] = { threat = "MEDIUM", reason = "Collecting the four Bloodpetal types requires repeated fights with hostile plants across Un’Goro. Pull away from nearby plants so overlapping enemies do not join.", confidence = "medium" },
 
     -- Zapper Fuel (Horde - Un'Goro Crater)
-    [4146] = { threat = "MEDIUM", reason = "The quest leads into hostile territory with patrolling mobs. Clear the area before looting.", confidence = "medium" },
+    [4146] = { threat = "EXTREME", reason = "The Atal’ai Haze drops from enemies in Sunken Temple, a high-level dungeon. Bring a suitable group or skip this objective on Hardcore; the outside turn-in does not make the dungeon collection solo-safe.", confidence = "high" },
 
     -- Marvon's Workshop (Horde - Un'Goro Crater)
-    [4147] = { threat = "LOW", reason = "Travel and exploration step with light combat. Safe if you avoid the mob camps.", confidence = "medium" },
+    [4147] = { threat = "LOW", reason = "This is a travel and dialogue step to a workshop in Ratchet; it adds no required combat. Stay on the road and avoid hostile camps.", confidence = "medium" },
 
     -- Bloodpetal Zapper (Horde - Un'Goro Crater)
     [4148] = { threat = "MEDIUM", reason = "The quest involves combat against level 48-52 mobs. Clear the area before using the zapper.", confidence = "medium" },
 
     -- Recipe of the Kaldorei
-    [4161] = { threat = "LOW", reason = "The legs drop from small spiders in Teldrassil. The spiders are levels 3-6 and are scattered across the zone. The drop rate is moderate. Manageable solo for a level 4+ character.", confidence = "high" },
+    [4161] = { threat = "LOW", reason = "The spider-leg collection calls for ordinary low-level spiders in Teldrassil, with no unusual combat mechanic. Pull one at a time if nearby spiders are close.", confidence = "medium" },
 
     -- Goblin Engineering
-    [4181] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay on the road. This is Alliance-only.", confidence = "high" },
+    [4181] = { threat = "LOW", reason = "This is a profession hand-in in Gadgetzan and adds no required combat. Use the town routes and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Dragonkin Menace
-    [4182] = { threat = "HIGH", reason = "The dragonkin are levels 54-57 and are packed in the Burning Steppes. The Black Drake is a level 57 elite that hits hard and has a fire breath. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 54+ or skip on Hardcore.", confidence = "high" },
+    [4182] = { threat = "EXTREME", reason = "Elite quest. Black Dragonspawn, Black Wyrmkin, and the Black Drake are elite enemies spread across hostile camps, making the required kills unsafe to chain solo near the intended level. Bring a suitable group or skip on Hardcore.", confidence = "high" },
 
     -- The True Masters (Deliver to Solomon)
-    [4183] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Redridge is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4183] = { threat = "LOW", reason = "This is a letter delivery to Lakeshire with no required combat. Travel by the established road or flight paths and avoid hostile camps along the way.", confidence = "medium" },
 
     -- The True Masters (Deliver to Bolvar)
-    [4184] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4184] = { threat = "LOW", reason = "This is a delivery inside Stormwind with no required combat. Stay within the city.", confidence = "medium" },
 
     -- The True Masters (Speak with Bolvar)
-    [4185] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4185] = { threat = "LOW", reason = "This is a dialogue step inside Stormwind with no required combat. Stay within the city.", confidence = "medium" },
 
     -- The True Masters (Deliver Decree)
-    [4186] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4186] = { threat = "LOW", reason = "This is a delivery to Lakeshire with no required combat. Use the established road or flight paths.", confidence = "medium" },
 
     -- The Love Potion
     [4201] = { threat = "MEDIUM", reason = "The Gromsblood is gathered in Felwood, and the Silver Veins drop from golems in Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
+    -- Corrupted Windblossom
+    [4221] = { threat = "MEDIUM", reason = "Apply two Cenarion Plant Salves to a Windblossom in Felwood; the interaction itself adds no combat. Nearby hostile mobs can make reaching a plant hazardous, so approach from a cleared path.", confidence = "medium" },
+    -- Corrupted Windblossom
+    [4222] = { threat = "MEDIUM", reason = "Apply two Cenarion Plant Salves to a Windblossom in Felwood; the interaction itself adds no combat. Nearby hostile mobs can make reaching a plant hazardous, so approach from a cleared path.", confidence = "medium" },
+
+
 
     -- The True Masters (Speak with Maxwell)
-    [4223] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4223] = { threat = "LOW", reason = "This is a dialogue step at an outpost in Burning Steppes and adds no required combat. Avoid wandering into nearby hostile camps.", confidence = "medium" },
 
     -- The True Masters (Find Windsor)
-    [4224] = { threat = "MEDIUM", reason = "Ragged John is in a cave in the Burning Steppes, guarded by level 50-54 mobs. The cave is patrolled by ogres and elementals. Clear the area before entering and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4224] = { threat = "LOW", reason = "Ragged John waits at the neutral Flame Crest camp, outside the cave, and the quest is completed by speaking with him. Avoid wandering into nearby hostile areas.", confidence = "medium" },
 
     -- Marshal Windsor
     [4241] = { threat = "HIGH", reason = "Windsor is being held in the prison section of BRD, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
@@ -5956,16 +6004,16 @@ addon.quests = {
     [4242] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
 
     -- Chasing A-Me 01 (Find)
-    [4243] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Un'Goro is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4243] = { threat = "MEDIUM", reason = "A-Me is inside the gorilla cave at Fungal Rock, so reaching her can draw nearby apes into a close-quarters fight. Clear the cave entrance and keep an exit open before interacting.", confidence = "medium" },
 
     -- Chasing A-Me 01 (Mithril Casing)
-    [4244] = { threat = "MEDIUM", reason = "The casing drops from level 48-52 mobs in Un'Goro. The crater is patrolled by dinosaurs and elementals. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4244] = { threat = "LOW", reason = "The Mithril Casing is a crafted or traded engineering item, not a mob drop. Returning to A-Me involves the gorilla cave, so approach by a cleared route and avoid unnecessary fights.", confidence = "medium" },
 
     -- Chasing A-Me 01 (Escort)
-    [4245] = { threat = "HIGH", reason = "This is an escort quest through the crater, which is patrolled by level 48-55 dinosaurs and elementals. A-Me 01 is a level 48 robot that walks slowly and stops to fight mobs. The route passes through Gorishi silithid territory and Fire Plume Ridge. Clear the path ahead and be ready for ambushes. Do not attempt below level 48 solo without a plan to keep A-Me 01 alive.", confidence = "high" },
+    [4245] = { threat = "HIGH", reason = "Escort quest. A-Me can be injured while fighting nearby gorillas, and gorillas may call nearby allies into combat. Clear the cave mouth and route before starting, then keep enemies off her.", confidence = "medium" },
 
     -- Ancient Spirit
-    [4261] = { threat = "HIGH", reason = "This is an escort quest through Ashenvale. Arei is a level 45 NPC who must be protected from level 45-50 mobs. The route passes through satyr and furbolg territory. The escort spawns ambushes along the way. Do not attempt below level 45 solo without a plan to keep Arei alive.", confidence = "high" },
+    [4261] = { threat = "MEDIUM", reason = "Escort quest. Arei fights along the short route through Irontree Woods, then three Irontree Wanderers ambush him at the road. Stay with him and be ready to handle the final group together.", confidence = "medium" },
 
     -- Overmaster Pyron
     [4262] = { threat = "HIGH", reason = "Pyron is a level 52 elite fire elemental in the Searing Gorge, guarding the quarry. He hits hard and has a fire shield that damages melee attackers. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 50+ or skip on Hardcore.", confidence = "high" },
@@ -5977,61 +6025,61 @@ addon.quests = {
     [4264] = { threat = "LOW", reason = "This is a dialogue and delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
 
     -- Freed from the Hive
-    [4265] = { threat = "MEDIUM", reason = "The Zukk'ash hive is in southern Feralas, filled with level 44-48 silithid. The cave is tight and respawns quickly. A level 46 druid died here on the first attempt. Clear methodically and keep an escape route. Do not attempt below level 44 solo without a plan to handle the insects.", confidence = "high" },
+    [4265] = { threat = "MEDIUM", reason = "The rescue pod is inside the hostile Zukk’ash hive, where tight space can make overlapping pulls hard to escape. Clear a route to the pod and keep an exit open.", confidence = "medium" },
 
     -- A Hero's Welcome
-    [4266] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the stronghold.", confidence = "high" },
+    [4266] = { threat = "LOW", reason = "This is a dialogue step inside Feathermoon Stronghold with no required combat. Stay in the stronghold.", confidence = "medium" },
 
     -- Rise of the Silithid (Deliver Report)
-    [4267] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4267] = { threat = "LOW", reason = "This is a report delivery in Darnassus with no required combat. Stay within the city.", confidence = "medium" },
 
     -- Thalanaar Delivery
-    [4281] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Thalanaar is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [4281] = { threat = "LOW", reason = "This is a parcel delivery to Thalanaar with no required combat. Use the established route and avoid hostile camps along the way.", confidence = "medium" },
 
     -- A Shred of Hope
     [4282] = { threat = "HIGH", reason = "Windsor believes the information is being held by Golem Lord Argelmach and General Angerforge in Blackrock Depths. Both are bosses in BRD, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
     -- FIFTY! YEP!
-    [4283] = { threat = "MEDIUM", reason = "The medallions drop from Blackrock orcs in the Burning Steppes. The orcs are levels 50-54 and are packed in camps. They pull in groups and have ranged attackers. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4283] = { threat = "MEDIUM", reason = "The medallions come from Blackrock orcs in Burning Steppes, so completing the large collection requires repeated fights in hostile camps. Pull enemies out of the camps and watch for nearby adds.", confidence = "medium" },
 
     -- Crystals of Power
-    [4284] = { threat = "MEDIUM", reason = "The crystals drop from level 48-54 elementals in Un'Goro Crater. The crater is patrolled by dinosaurs and elementals. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4284] = { threat = "LOW", reason = "Power Crystals are loose pickups scattered across Un’Goro, not elemental drops. Travel around the crater to gather them and route around hostile camps.", confidence = "medium" },
 
     -- The Northern Pylon
-    [4285] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4285] = { threat = "LOW", reason = "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Good Stuff
     [4286] = { threat = "HIGH", reason = "The packs drop from Dark Iron dwarves inside BRD, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
     -- The Eastern Pylon
-    [4287] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4287] = { threat = "LOW", reason = "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Western Pylon
-    [4288] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4288] = { threat = "LOW", reason = "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Apes of Un'Goro
-    [4289] = { threat = "MEDIUM", reason = "The apes are levels 48-52 and are packed in the crater. The Thunderers are larger and hit harder. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4289] = { threat = "MEDIUM", reason = "The pelts come from three ape types at Fungal Rock, where the cave and nearby groups can make overlapping pulls hard to escape. Pull from the edge and clear space before engaging another group.", confidence = "medium" },
 
     -- The Fare of Lar'korwi
-    [4290] = { threat = "MEDIUM", reason = "The carcass is in the Ravasaur crater, patrolled by level 48-52 ravasaurs that pull in groups. Clear the area before looting. Do not attempt below level 48 solo.", confidence = "high" },
+    [4290] = { threat = "MEDIUM", reason = "The carcass is surrounded by hostile ravasaurs, and looting leaves you exposed for several seconds. Clear nearby guards and keep an escape route before interacting.", confidence = "medium" },
 
     -- The Scent of Lar'korwi
-    [4291] = { threat = "MEDIUM", reason = "Ravasaur pheromone glands drop from the same mobs as the previous step; the crater is dense and mobs pull in pairs. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+    [4291] = { threat = "MEDIUM", reason = "Stepping near ravasaur eggs provokes a Lar’korwi Mate to attack. Clear around each nest first and draw the spawned raptor into the open before engaging.", confidence = "medium" },
 
     -- The Bait for Lar'korwi
-    [4292] = { threat = "HIGH", reason = "Lar'korwi is a level 50-52 named devilsaur with a fear effect and heavy melee damage. Summoning him at the carcass spawns him with two ravasaurs nearby. A level 49 hunter soloed him by kiting with a pet, but a level 52 warrior died. Fight in an open area and keep an escape route. Do not attempt solo below level 50 without a plan.", confidence = "high" },
+    [4292] = { threat = "MEDIUM", reason = "Summoning Lar’korwi starts a one-on-one fight with a level-56 ravasaur that can cause a damaging wound and slow movement. Fight at the intended level with an escape route; do not rely on fear or extra raptors as a mechanic.", confidence = "medium" },
 
     -- A Sample of Slime... (Horde - Un'Goro Crater)
-    [4293] = { threat = "MEDIUM", reason = "The slimes are levels 48-52 and can pull in groups. Clear the area before looting.", confidence = "medium" },
+    [4293] = { threat = "MEDIUM", reason = "Collecting Felwood slime samples requires repeated fights with hostile oozes; the testing and turn-in afterward are safe in Undercity. Pull slimes away from nearby enemies and avoid fighting several at once.", confidence = "medium" },
 
     -- ... and a Batch of Ooze (Horde - Un'Goro Crater)
-    [4294] = { threat = "MEDIUM", reason = "The mobs are levels 48-52 and can pull in groups. Clear the area before looting.", confidence = "medium" },
+    [4294] = { threat = "MEDIUM", reason = "Collecting Un’Goro slime samples requires repeated fights with hostile oozes; the testing and turn-in afterward are safe in Undercity. Pull slimes away from nearby enemies and avoid fighting several at once.", confidence = "medium" },
 
     -- Tablet of the Seven
-    [4296] = { threat = "MEDIUM", reason = "The tablet is in the Ruins of Thaurissan, among hostile golems. Clear nearby enemies before transcribing it and keep a retreat route.", confidence = "medium" },
+    [4296] = { threat = "MEDIUM", reason = "The tablet transcript is obtained at the Ruins of Thaurissan among hostile Dark Iron enemies. Clear nearby guards before using the tablet and keep an exit route open.", confidence = "medium" },
 
     -- Food for Baby
-    [4297] = { threat = "MEDIUM", reason = "Silvermane Stalkers are stealthed wolves in the Hinterlands that ambush from camouflage. They pull in pairs and have a bleed effect. Fight in open areas and check for prowling cats between pulls. Do not attempt below level 45 solo.", confidence = "high" },
+    [4297] = { threat = "MEDIUM", reason = "Silvermane Stalkers are stealthed wolves in the Hinterlands, so they can surprise you at close range while you search for them. Move carefully through the woods and avoid fighting near other hostile wildlife.", confidence = "medium" },
 
     -- Becoming a Parent
     [4298] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },

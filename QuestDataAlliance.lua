@@ -2832,70 +2832,88 @@ local quests = {
     [3905] = { threat = "LOW", reason = "Deliver the Grape Manifest to Brother Neals at Northshire Abbey; no quest combat is required.", confidence = "medium" },
 
     -- Cleansing Felwood
-    [4101] = { threat = "MEDIUM", reason = "The Blood Amber drops from Warpwood elementals in the Irontree Caverns. The elementals are levels 48-52 and are packed in the caverns. The drop rate is 100% while the quest is active. Clear methodically and watch for respawns. Do not attempt below level 48 solo.", confidence = "high" },
+    [4101] = { threat = "MEDIUM", reason = "Blood Amber comes from Warpwood elementals around Irontree Caverns. The required kills can expose you to nearby elementals and cave pulls; take isolated targets and keep an exit route.", confidence = "medium" },
+
+    -- Salve via Hunting
+    [4103] = { threat = "LOW", reason = "Collect six Corrupted Soul Shards from tainted beasts in Felwood; choose ordinary targets and avoid elite areas.", confidence = "medium" },
+
+    -- Salve via Mining
+    [4104] = { threat = "LOW", reason = "Turn in four Tainted Vitriol from mining in Felwood; mining itself adds no quest combat, but check for nearby hostile mobs before stopping at a node.", confidence = "medium" },
+
+    -- Salve via Gathering
+    [4105] = { threat = "LOW", reason = "Turn in the required Felwood gathering materials for plant salve; gathering adds no quest combat, but watch for nearby hostile mobs.", confidence = "medium" },
+
+    -- Salve via Skinning
+    [4106] = { threat = "LOW", reason = "Collect the Felwood skinning material for plant salve from ordinary beasts; pull carefully and watch for nearby enemies.", confidence = "medium" },
+
+    -- Salve via Disenchanting
+    [4107] = { threat = "LOW", reason = "Turn in the required disenchanted material for plant salve; this profession hand-in adds no combat.", confidence = "medium" },
 
     -- The Missing Courier
-    [4124] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [4124] = { threat = "LOW", reason = "Speak with Ginro in Feathermoon Stronghold; this city handoff adds no combat.", confidence = "medium" },
 
     -- The Missing Courier
-    [4125] = { threat = "MEDIUM", reason = "The boat is on the coast, guarded by level 42-46 naga and murlocs. Clear the area before looting and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
+    [4125] = { threat = "HIGH", reason = "The wreck lies underwater on the Forgotten Coast among higher-level water elementals and elite giants. Approach along the shoreline or surface water, click quickly, and swim away rather than fighting through the coast.", confidence = "medium" },
 
     -- Hurley Blackbreath
     [4126] = { threat = "HIGH", reason = "The recipe is in Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
     -- Boat Wreckage
-    [4127] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4127] = { threat = "LOW", reason = "Show the Discarded Knife to Ginro at Feathermoon Stronghold; this hand-in adds no combat.", confidence = "medium" },
 
     -- Ragnar Thunderbrew
     [4128] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
 
     -- The Knife Revealed
-    [4129] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4129] = { threat = "LOW", reason = "Take the knife to Quintis inside Feathermoon Stronghold; this hand-in adds no combat.", confidence = "medium" },
 
     -- Psychometric Reading
-    [4130] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the stronghold.", confidence = "high" },
+    [4130] = { threat = "LOW", reason = "Speak with Ginro in Feathermoon Stronghold; this dialogue adds no combat.", confidence = "medium" },
 
     -- The Woodpaw Gnolls
-    [4131] = { threat = "MEDIUM", reason = "The gnolls are levels 41-44 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 41 solo.", confidence = "medium" },
+    [4131] = { threat = "MEDIUM", reason = "The courier’s packs are in a Woodpaw Gnoll camp with several enemies nearby. Approach the camp edge and interact with the packs without drawing the group if possible.", confidence = "medium" },
 
     -- The Writhing Deep
-    [4135] = { threat = "MEDIUM", reason = "The Writhing Deep is a cave filled with level 44-48 silithid and bugs. The cave is tight and respawns quickly. A level 46 druid died on the first attempt after jumping down the hole and getting attacked by insects [citation:6]. The pod is at the bottom of the cave, past multiple mobs. Clear methodically and keep an escape route. Do not attempt below level 44 solo without a plan to handle the insects.", confidence = "high" },
+    [4135] = { threat = "MEDIUM", reason = "The pod is inside the Writhing Deep hive, with hostile silithids near the approach and objective. Pull the entrance guards one at a time and avoid dropping into lower rooms without an exit plan.", confidence = "medium" },
 
     -- Muigin and Larion
-    [4141] = { threat = "LOW", reason = "The Bloodpetals are found on the ground in Un'Goro Crater. No combat required, but the crater is patrolled by level 48-55 mobs. Safe if you avoid the mob camps while gathering. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4141] = { threat = "MEDIUM", reason = "Bloodpetal samples come from hostile plants across Un’Goro, not from ground pickups. The quest requires repeated fights with nearby plant mobs; pull them away from neighboring enemies.", confidence = "medium" },
 
     -- A Visit to Gregan
-    [4142] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Feralas is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4142] = { threat = "LOW", reason = "This is a delivery step with no required combat. Use the established route to Feralas and avoid detours through hostile camps.", confidence = "medium" },
 
     -- Haze of Evil
     [4143] = { threat = "HIGH", reason = "The haze drops from Deep Lurkers and Murk Worms inside the Sunken Temple, a level 50-55 dungeon filled with elites [citation:8]. This requires a full group of level 50+. The Deep Lurkers are linked and can pull two at once, and nearby Slime Maggots will join the fight [citation:8]. Do not attempt solo [citation:8][citation:16].", confidence = "high" },
 
+    -- Bloodpetal Sprouts
+    [4144] = { threat = "LOW", reason = "The sprouts are scattered plant objects in Un’Goro and can be collected without fighting. Watch nearby hostile wildlife while crossing the crater.", confidence = "medium" },
+
     -- Recipe of the Kaldorei
-    [4161] = { threat = "LOW", reason = "The legs drop from small spiders in Teldrassil. The spiders are levels 3-6 and are scattered across the zone. The drop rate is moderate. Manageable solo for a level 4+ character.", confidence = "high" },
+    [4161] = { threat = "LOW", reason = "The spider-leg collection calls for ordinary low-level spiders in Teldrassil, with no unusual combat mechanic. Pull one at a time if nearby spiders are close.", confidence = "medium" },
 
     -- Goblin Engineering
-    [4181] = { threat = "LOW", reason = "This is a profession quest with no combat. Safe if you stay on the road. This is Alliance-only.", confidence = "high" },
+    [4181] = { threat = "LOW", reason = "This is a profession hand-in in Gadgetzan and adds no required combat. Use the town routes and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Dragonkin Menace
-    [4182] = { threat = "HIGH", reason = "The dragonkin are levels 54-57 and are packed in the Burning Steppes. The Black Drake is a level 57 elite that hits hard and has a fire breath. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 54+ or skip on Hardcore.", confidence = "high" },
+    [4182] = { threat = "EXTREME", reason = "Elite quest. Black Dragonspawn, Black Wyrmkin, and the Black Drake are elite enemies spread across hostile camps, making the required kills unsafe to chain solo near the intended level. Bring a suitable group or skip on Hardcore.", confidence = "high" },
 
     -- The True Masters
-    [4183] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Redridge is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4183] = { threat = "LOW", reason = "This is a letter delivery to Lakeshire with no required combat. Travel by the established road or flight paths and avoid hostile camps along the way.", confidence = "medium" },
 
     -- The True Masters
-    [4184] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4184] = { threat = "LOW", reason = "This is a delivery inside Stormwind with no required combat. Stay within the city.", confidence = "medium" },
 
     -- The True Masters
-    [4185] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4185] = { threat = "LOW", reason = "This is a dialogue step inside Stormwind with no required combat. Stay within the city.", confidence = "medium" },
 
     -- The True Masters
-    [4186] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4186] = { threat = "LOW", reason = "This is a delivery to Lakeshire with no required combat. Use the established road or flight paths.", confidence = "medium" },
 
     -- The True Masters
-    [4223] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4223] = { threat = "LOW", reason = "This is a dialogue step at an outpost in Burning Steppes and adds no required combat. Avoid wandering into nearby hostile camps.", confidence = "medium" },
 
     -- The True Masters
-    [4224] = { threat = "MEDIUM", reason = "Ragged John is in a cave in the Burning Steppes, guarded by level 50-54 mobs. The cave is patrolled by ogres and elementals. Clear the area before entering and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4224] = { threat = "LOW", reason = "Ragged John waits at the neutral Flame Crest camp, outside the cave, and the quest is completed by speaking with him. Avoid wandering into nearby hostile areas.", confidence = "medium" },
 
     -- Marshal Windsor
     [4241] = { threat = "HIGH", reason = "Windsor is being held in the prison section of BRD, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
@@ -2904,7 +2922,7 @@ local quests = {
     [4242] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
 
     -- Ancient Spirit
-    [4261] = { threat = "HIGH", reason = "This is an escort quest through Ashenvale. Arei is a level 45 NPC who must be protected from level 45-50 mobs. The route passes through satyr and furbolg territory. The escort spawns ambushes along the way. Do not attempt below level 45 solo without a plan to keep Arei alive.", confidence = "high" },
+    [4261] = { threat = "MEDIUM", reason = "Escort quest. Arei fights along the short route through Irontree Woods, then three Irontree Wanderers ambush him at the road. Stay with him and be ready to handle the final group together.", confidence = "medium" },
 
     -- Overmaster Pyron
     [4262] = { threat = "HIGH", reason = "Pyron is a level 52 elite fire elemental in the Searing Gorge, guarding the quarry. He hits hard and has a fire shield that damages melee attackers. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 50+ or skip on Hardcore.", confidence = "high" },
@@ -2916,28 +2934,28 @@ local quests = {
     [4264] = { threat = "LOW", reason = "This is a dialogue and delivery step with no combat. Safe if you stay in the area.", confidence = "high" },
 
     -- Freed from the Hive
-    [4265] = { threat = "MEDIUM", reason = "The Zukk'ash hive is in southern Feralas, filled with level 44-48 silithid. The cave is tight and respawns quickly. A level 46 druid died here on the first attempt. Clear methodically and keep an escape route. Do not attempt below level 44 solo without a plan to handle the insects.", confidence = "high" },
+    [4265] = { threat = "MEDIUM", reason = "The rescue pod is inside the hostile Zukk’ash hive, where tight space can make overlapping pulls hard to escape. Clear a route to the pod and keep an exit open.", confidence = "medium" },
 
     -- A Hero's Welcome
-    [4266] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the stronghold.", confidence = "high" },
+    [4266] = { threat = "LOW", reason = "This is a dialogue step inside Feathermoon Stronghold with no required combat. Stay in the stronghold.", confidence = "medium" },
 
     -- Rise of the Silithid
-    [4267] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4267] = { threat = "LOW", reason = "This is a report delivery in Darnassus with no required combat. Stay within the city.", confidence = "medium" },
 
     -- Thalanaar Delivery
-    [4281] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Thalanaar is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [4281] = { threat = "LOW", reason = "This is a parcel delivery to Thalanaar with no required combat. Use the established route and avoid hostile camps along the way.", confidence = "medium" },
 
     -- A Shred of Hope
     [4282] = { threat = "HIGH", reason = "Windsor believes the information is being held by Golem Lord Argelmach and General Angerforge in Blackrock Depths. Both are bosses in BRD, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
     -- FIFTY! YEP!
-    [4283] = { threat = "MEDIUM", reason = "The medallions drop from Blackrock orcs in the Burning Steppes. The orcs are levels 50-54 and are packed in camps. They pull in groups and have ranged attackers. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4283] = { threat = "MEDIUM", reason = "The medallions come from Blackrock orcs in Burning Steppes, so completing the large collection requires repeated fights in hostile camps. Pull enemies out of the camps and watch for nearby adds.", confidence = "medium" },
 
     -- The Good Stuff
     [4286] = { threat = "HIGH", reason = "The packs drop from Dark Iron dwarves inside BRD, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
     -- Food for Baby
-    [4297] = { threat = "MEDIUM", reason = "Silvermane Stalkers are stealthed wolves in the Hinterlands that ambush from camouflage. They pull in pairs and have a bleed effect. Fight in open areas and check for prowling cats between pulls. Do not attempt below level 45 solo.", confidence = "high" },
+    [4297] = { threat = "MEDIUM", reason = "Silvermane Stalkers are stealthed wolves in the Hinterlands, so they can surprise you at close range while you search for them. Move carefully through the woods and avoid fighting near other hostile wildlife.", confidence = "medium" },
 
     -- Becoming a Parent
     [4298] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },

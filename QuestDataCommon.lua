@@ -1071,19 +1071,43 @@ addon.quests = {
     [3962] = { threat = "EXTREME", reason = "Elite quest. Blazerunner is a level 56 elite, and the quest itself advises bringing others; removing his aura and looting the cave does not make the solo fight reasonable at the intended level. Bring a suitable group or skip on Hardcore.", confidence = "medium" },
 
     -- Aquementas
-    [4005] = { threat = "MEDIUM", reason = "Aquementas is a level 54 non-elite water elemental, but he hits hard and can punt you into the air [citation:4]. A level 51 druid was killed by him [citation:4]. A level 54 mage soloed this easily, and a level 49 warrior lost the fight but still got the totem because the quest completes when the battle ends or you die [citation:4]. The totem is created once Aquementas becomes hostile, so you can technically flee or die and still complete the quest. Do not attempt below level 50 solo without a plan to survive or escape.", confidence = "high" },
+    [4005] = { threat = "MEDIUM", reason = "Reach the summoning circle beyond Lost Rigger Cove and summon Aquementas. He turns hostile when the totem is formed, so be ready to fight or escape; keep the supplied items in your bags.", confidence = "medium" },
 
     -- A Taste of Flame
-    [4022] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4022] = { threat = "LOW", reason = "Show Cyrus the Black Dragonflight Molt at his Burning Steppes cave; presenting the item is a dialogue step and adds no combat.", confidence = "medium" },
 
     -- A Taste of Flame
-    [4023] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4023] = { threat = "HIGH", reason = "Cyrus can offer a level-54 elite drake challenge when you lack the Black Dragonflight Molt. The fight is dangerous around the intended level; bring help or obtain the molt through the other quest route before choosing the challenge.", confidence = "medium" },
 
     -- A Taste of Flame
     [4024] = { threat = "HIGH", reason = "Use the Altered Black Dragonflight Molt on his remains to capture the Fiery Essence. Bael'Gar is a level 54 elite fire giant inside Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo [citation:13].", confidence = "high" },
 
+    -- The Videre Elixir
+    [4041] = { threat = "LOW", reason = "Use Gregan’s bait to draw Miblon away, then collect the Evoroot from the enclosure. Avoid fighting in the nearby gnoll camp.", confidence = "medium" },
+
     -- Silver Heart
-    [4084] = { threat = "MEDIUM", reason = "The claws drop from Ironbeak Owls in the Hinterlands, and the heart drops from Irontree Wanderers in Felwood. Both are level 48-52 mobs. The drop rates are moderate. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4084] = { threat = "LOW", reason = "Collect the claws from Felwood beasts and the heart from Irontree creatures. These are ordinary open-world pulls; avoid taking several enemies at once.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4113] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4114] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [4115] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4116] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted Songflower; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Whipper Root
+    [4117] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted plant; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4118] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted Songflower; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
+
+    -- Corrupted Night Dragon
+    [4119] = { threat = "LOW", reason = "Apply Cenarion Plant Salve to the corrupted Night Dragon; the interaction adds no combat. Check the area for hostile Felwood wildlife before stopping.", confidence = "medium" },
 
     -- The Heart of the Mountain
     [4123] = { threat = "MEDIUM", reason = "The Heart drops from a named elemental in the Searing Gorge. The elemental is level 50-54 and is surrounded by guards. Clear the area before engaging and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
@@ -1094,41 +1118,47 @@ addon.quests = {
     -- The Love Potion
     [4201] = { threat = "MEDIUM", reason = "The Gromsblood is gathered in Felwood, and the Silver Veins drop from golems in Blackrock Depths, a level 52-60 dungeon filled with elites. This requires a full group of level 52+. Do not attempt solo.", confidence = "high" },
 
-    -- Chasing A-Me 01
-    [4243] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Un'Goro is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    -- Corrupted Windblossom
+    [4221] = { threat = "MEDIUM", reason = "Apply two Cenarion Plant Salves to a Windblossom in Felwood; the interaction itself adds no combat. Nearby hostile mobs can make reaching a plant hazardous, so approach from a cleared path.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [4222] = { threat = "MEDIUM", reason = "Apply two Cenarion Plant Salves to a Windblossom in Felwood; the interaction itself adds no combat. Nearby hostile mobs can make reaching a plant hazardous, so approach from a cleared path.", confidence = "medium" },
 
     -- Chasing A-Me 01
-    [4244] = { threat = "MEDIUM", reason = "The casing drops from level 48-52 mobs in Un'Goro. The crater is patrolled by dinosaurs and elementals. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4243] = { threat = "MEDIUM", reason = "A-Me is inside the gorilla cave at Fungal Rock, so reaching her can draw nearby apes into a close-quarters fight. Clear the cave entrance and keep an exit open before interacting.", confidence = "medium" },
 
     -- Chasing A-Me 01
-    [4245] = { threat = "HIGH", reason = "This is an escort quest through the crater, which is patrolled by level 48-55 dinosaurs and elementals. A-Me 01 is a level 48 robot that walks slowly and stops to fight mobs. The route passes through Gorishi silithid territory and Fire Plume Ridge. Clear the path ahead and be ready for ambushes. Do not attempt below level 48 solo without a plan to keep A-Me 01 alive.", confidence = "high" },
+    [4244] = { threat = "LOW", reason = "The Mithril Casing is a crafted or traded engineering item, not a mob drop. Returning to A-Me involves the gorilla cave, so approach by a cleared route and avoid unnecessary fights.", confidence = "medium" },
+
+    -- Chasing A-Me 01
+    [4245] = { threat = "HIGH", reason = "Escort quest. A-Me can be injured while fighting nearby gorillas, and gorillas may call nearby allies into combat. Clear the cave mouth and route before starting, then keep enemies off her.", confidence = "medium" },
 
     -- Crystals of Power
-    [4284] = { threat = "MEDIUM", reason = "The crystals drop from level 48-54 elementals in Un'Goro Crater. The crater is patrolled by dinosaurs and elementals. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4284] = { threat = "LOW", reason = "Power Crystals are loose pickups scattered across Un’Goro, not elemental drops. Travel around the crater to gather them and route around hostile camps.", confidence = "medium" },
 
     -- The Northern Pylon
-    [4285] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4285] = { threat = "LOW", reason = "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Eastern Pylon
-    [4287] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4287] = { threat = "LOW", reason = "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Western Pylon
-    [4288] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4288] = { threat = "LOW", reason = "This is a pylon discovery in Un’Goro with no required combat. Approach from a clear route and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Apes of Un'Goro
-    [4289] = { threat = "MEDIUM", reason = "The apes are levels 48-52 and are packed in the crater. The Thunderers are larger and hit harder. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4289] = { threat = "MEDIUM", reason = "The pelts come from three ape types at Fungal Rock, where the cave and nearby groups can make overlapping pulls hard to escape. Pull from the edge and clear space before engaging another group.", confidence = "medium" },
 
     -- The Fare of Lar'korwi
-    [4290] = { threat = "MEDIUM", reason = "The carcass is in the Ravasaur crater, patrolled by level 48-52 ravasaurs that pull in groups. Clear the area before looting. Do not attempt below level 48 solo.", confidence = "high" },
+    [4290] = { threat = "MEDIUM", reason = "The carcass is surrounded by hostile ravasaurs, and looting leaves you exposed for several seconds. Clear nearby guards and keep an escape route before interacting.", confidence = "medium" },
 
     -- The Scent of Lar'korwi
-    [4291] = { threat = "MEDIUM", reason = "Ravasaur pheromone glands drop from the same mobs as the previous step; the crater is dense and mobs pull in pairs. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "high" },
+    [4291] = { threat = "MEDIUM", reason = "Stepping near ravasaur eggs provokes a Lar’korwi Mate to attack. Clear around each nest first and draw the spawned raptor into the open before engaging.", confidence = "medium" },
 
     -- The Bait for Lar'korwi
-    [4292] = { threat = "HIGH", reason = "Lar'korwi is a level 50-52 named devilsaur with a fear effect and heavy melee damage. Summoning him at the carcass spawns him with two ravasaurs nearby. A level 49 hunter soloed him by kiting with a pet, but a level 52 warrior died. Fight in an open area and keep an escape route. Do not attempt solo below level 50 without a plan.", confidence = "high" },
+    [4292] = { threat = "MEDIUM", reason = "Summoning Lar’korwi starts a one-on-one fight with a level-56 ravasaur that can cause a damaging wound and slow movement. Fight at the intended level with an escape route; do not rely on fear or extra raptors as a mechanic.", confidence = "medium" },
 
     -- Tablet of the Seven
-    [4296] = { threat = "MEDIUM", reason = "The tablet is in the Ruins of Thaurissan, among hostile golems. Clear nearby enemies before transcribing it and keep a retreat route.", confidence = "medium" },
+    [4296] = { threat = "MEDIUM", reason = "The tablet transcript is obtained at the Ruins of Thaurissan among hostile Dark Iron enemies. Clear nearby guards before using the tablet and keep an exit route open.", confidence = "medium" },
 
     -- The Mighty U'cha
     [4301] = { threat = "HIGH", reason = "U'cha is a level 50-52 elite gorilla inside the Gorishi hive cave in Un'Goro. He hits hard and is surrounded by level 50-54 gorillas that pull in groups. The cave has no escape route once you are deep inside. Clear methodically and keep an exit path. Do not attempt solo below level 52 without a group.", confidence = "high" },
