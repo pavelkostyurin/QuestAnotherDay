@@ -262,11 +262,15 @@ local function HandleSlashCommand(message)
     if command == "status" then
         local state = QuestAnotherDayDB.enabled and "enabled" or "disabled"
         local instanceState = QuestAnotherDayDB.displayRaidDungeonQuests and "shown" or "hidden"
-        local iconState = "inactive"
-        if addon.questieIntegrationActive then
+        local iconState
+        if addon.questieIntegrationActive and addon.standardQuestLogIntegrationActive then
+            iconState = "active in Questie and the standard quest log"
+        elseif addon.questieIntegrationActive then
             iconState = "active in Questie"
         elseif addon.standardQuestLogIntegrationActive then
             iconState = "active in the standard quest log"
+        else
+            iconState = "inactive"
         end
         Print("Quest acceptance warnings are " .. state .. "; quest icons are " .. iconState
             .. "; raid / dungeon quests are " .. instanceState .. ".")

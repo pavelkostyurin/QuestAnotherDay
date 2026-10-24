@@ -1,12 +1,12 @@
 # Quest Another Day
 
-![Version](https://img.shields.io/badge/version-0.45.1-7c3aed?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.45.2-7c3aed?style=flat-square)
 ![WoW Classic Era](https://img.shields.io/badge/WoW-Classic%20Era-c79c6e?style=flat-square)
 ![Questie](https://img.shields.io/badge/Questie-optional-2563eb?style=flat-square)
 
 Quest danger ratings and short warnings for **World of Warcraft Classic Era Hardcore**, aimed at solo players. Currently available in English.
 
-Threat icons appear beside quest names in the **Questie tracker**, or in **Blizzard's standard quest log** when Questie is not loaded. Hover an icon to read the warning; clicking it works like clicking the quest title. Questie is optional.
+Threat icons appear beside quest names in both the **Questie tracker** and **Blizzard's standard quest log** when their integrations are available. Hover an icon to read the warning; clicking it works like clicking the quest title. Questie is optional.
 
 Guidance also appears in chat when you accept a reviewed quest. Acceptance warnings are enabled by default.
 

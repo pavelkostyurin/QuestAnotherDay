@@ -1,20 +1,10 @@
 local _, addon = ...
 
 -- Classic Era still uses the named QuestLogTitle rows in the standard quest
--- log. When Questie is absent, add a small hoverable texture beside the text
--- without changing Blizzard's quest title or click behavior.
+-- log. Add a small hoverable texture beside the text without changing
+-- Blizzard's quest title or click behavior, whether or not Questie is loaded.
 local iconButtons = {}
 local updateHookInstalled = false
-
-local function IsQuestieLoaded()
-    if C_AddOns and C_AddOns.IsAddOnLoaded then
-        return C_AddOns.IsAddOnLoaded("Questie")
-    end
-    if IsAddOnLoaded then
-        return IsAddOnLoaded("Questie")
-    end
-    return addon.questieIntegrationActive == true
-end
 
 local function HideAllIcons()
     for _, iconButton in pairs(iconButtons) do
@@ -135,10 +125,6 @@ end
 
 local function UpdateStandardQuestLogIcons()
     HideAllIcons()
-    if IsQuestieLoaded() then
-        addon.standardQuestLogIntegrationActive = false
-        return
-    end
 
     for _, row in ipairs(GetVisibleQuestRows()) do
         if row:IsShown() then
@@ -164,12 +150,6 @@ local function ScheduleUpdate()
 end
 
 local function EnableStandardQuestLogIntegration()
-    if IsQuestieLoaded() then
-        HideAllIcons()
-        addon.standardQuestLogIntegrationActive = false
-        return false
-    end
-
     if not updateHookInstalled and hooksecurefunc and type(QuestLog_Update) == "function" then
         hooksecurefunc("QuestLog_Update", UpdateStandardQuestLogIcons)
         updateHookInstalled = true
@@ -184,13 +164,7 @@ local eventFrame = CreateFrame("Frame")
 eventFrame:RegisterEvent("ADDON_LOADED")
 eventFrame:RegisterEvent("PLAYER_LOGIN")
 eventFrame:RegisterEvent("QUEST_LOG_UPDATE")
-eventFrame:SetScript("OnEvent", function(_, event, loadedAddon)
-    if event == "ADDON_LOADED" and loadedAddon == "Questie" then
-        HideAllIcons()
-        addon.standardQuestLogIntegrationActive = false
-        return
-    end
-
+eventFrame:SetScript("OnEvent", function()
     EnableStandardQuestLogIntegration()
 end)
 

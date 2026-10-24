@@ -134,10 +134,11 @@ The distributed addon has no runtime dependencies and does not access the networ
 
 ## Releases
 
-The CurseForge project description is maintained in
+The CurseForge project description is maintained as plain text in
 [`CURSEFORGE_DESCRIPTION.md`](CURSEFORGE_DESCRIPTION.md). Keep it aligned with
 player-facing features and copy its contents into the CurseForge description
-editor when updating the project page.
+editor when updating the project page. Avoid Markdown and HTML markup in the
+overview description because it may appear as literal text on the project page.
 
 ### One-time CurseForge setup
 
