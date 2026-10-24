@@ -2373,25 +2373,25 @@ local quests = {
     [5145] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in the Badlands. It adds no combat if you already have the crafted armor and scales; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Elemental Leatherworking
-    [5146] = { threat = "LOW", reason = "Requires level 40 and 225+ leatherworking skill. The quest involves travel to Camp Mojache and delivering materials. No combat objective beyond gathering the materials. Safe if you stay in the camp.", confidence = "high" },
+    [5146] = { threat = "LOW", reason = "This is a materials hand-in to Brumn Winterhoof in the Arathi Mountains. It adds no combat if you already have the materials; the travel can cross hostile territory, so use the usual safe route.", confidence = "medium" },
 
     -- Wanted - Arnak Grimtotem
-    [5147] = { threat = "HIGH", reason = "Arnak is level 29 and is surrounded by other Grimtotem guards. He is on a narrow cliff edge with no room to kite and a fatal fall if you are knocked back. Clear the guards before engaging and be careful of the edge. Do not attempt below level 28 solo.", confidence = "high" },
+    [5147] = { threat = "HIGH", reason = "Arnak Grimtotem is in the hostile Grimtotem area near Freewind Post, where nearby guards can join the fight. Clear a route and pull him away from the camp; avoid fighting near the mesa edge and bring help if you cannot control adds.", confidence = "medium" },
 
     -- Tribal Leatherworking
-    [5148] = { threat = "LOW", reason = "Requires level 40 and 225+ leatherworking skill. The quest involves travel to Camp Mojache and delivering materials. No combat objective beyond gathering the materials. Safe if you stay in the camp.", confidence = "high" },
+    [5148] = { threat = "LOW", reason = "This is a materials hand-in to Se’Jib in northern Stranglethorn. It adds no combat if you already have the materials; use the normal route to the camp and avoid nearby hostile creatures.", confidence = "medium" },
 
     -- Hypercapacitor Gizmo
-    [5151] = { threat = "MEDIUM", reason = "The gizmo is guarded by level 43-45 ogres. The ruins are dense with mobs that pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 42 solo.", confidence = "medium" },
+    [5151] = { threat = "HIGH", reason = "Use the provided Panther Cage Key on the Enraged Panther near the wrecked caravan in Thousand Needles, defeat it, and recover the gizmo. The panther is a dangerous elite and nearby wildlife may add; clear space before engaging and bring help if you cannot safely manage the fight.", confidence = "medium" },
 
     -- The Scourge Cauldrons
-    [5228] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay at the Bulwark.", confidence = "high" },
+    [5228] = { threat = "LOW", reason = "This is a conversation at the Bulwark. It adds no combat at the camp; avoid unnecessary pulls on the route through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Felstone Field
-    [5229] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 52 elite undead who is surrounded by other Scourge mobs. Clear the area before engaging and be ready for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5229] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord near the Felstone cauldron and recover its key; nearby Scourge can join the fight. Pull the target away from other enemies and use the bottle only after clearing the area.", confidence = "medium" },
 
     -- Return to the Bulwark
-    [5230] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5230] = { threat = "LOW", reason = "Return the filled bottle to Shadow Priestess Vandis at the Bulwark. The delivery adds no combat at the camp; avoid unnecessary pulls on the route back.", confidence = "medium" },
 
     -- Target: Dalson's Tears
     [5231] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 53 elite undead surrounded by Scourge mobs. Clear the area before engaging. Do not attempt below level 50 solo.", confidence = "medium" },

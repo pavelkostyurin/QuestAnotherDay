@@ -1482,79 +1482,82 @@ addon.quests = {
     [5142] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Pamela is a ghost child in the Western Plaguelands. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Pamela's Doll
-    [5149] = { threat = "MEDIUM", reason = "The doll is in the ruins of Darrowshire in the Eastern Plaguelands, patrolled by level 55-58 Scourge mobs. The ruins are dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5149] = { threat = "MEDIUM", reason = "Pamela’s Doll is in the ruined settlement of Darrowshire in the Eastern Plaguelands. Hostile Scourge occupy the area and can add while you search the buildings; clear a small route and keep an exit open.", confidence = "medium" },
+
+    -- Dadanga is Hungry!
+    [5150] = { threat = "LOW", reason = "Feed Dadanga 15 Bloodpetal Sprouts in Un’Goro Crater. This is an interaction with a neutral creature and adds no combat after you have the sprouts; avoid nearby hostile wildlife while travelling.", confidence = "medium" },
 
     -- Auntie Marlene
-    [5152] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Marlene is south of the Ruins of Andorhal, which is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5152] = { threat = "LOW", reason = "This is a dialogue step with Auntie Marlene near Andorhal in the Western Plaguelands. The conversation adds no combat, though the approach passes through a hostile zone; travel on a cleared route.", confidence = "medium" },
 
     -- A Strange Historian
-    [5153] = { threat = "LOW", reason = "Delivery step with no combat. The ring is obtained from a previous quest; this is a turn-in to Chromie in Andorhal. The journey to the Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5153] = { threat = "LOW", reason = "Take Joseph’s wedding ring to Chromie in Andorhal. This delivery adds no combat if you already have the ring; the town is within a hostile zone, so approach carefully and use a clear route.", confidence = "medium" },
 
     -- The Annals of Darrowshire
-    [5154] = { threat = "MEDIUM", reason = "The annals are in a chest inside the ruined house in Darrowshire, patrolled by level 55-58 Scourge mobs. The house is surrounded by undead that pull in groups. Clear the area before looting and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5154] = { threat = "MEDIUM", reason = "The Annals are in a chest in a ruined house at Darrowshire, surrounded by hostile Scourge. Clear the doorway and nearby enemies before looting, and leave if more mobs approach.", confidence = "medium" },
 
     -- Forces of Jaedenar
-    [5155] = { threat = "MEDIUM", reason = "Jaedenar is a demon-infested cave system in Felwood, levels 50-54. The guardsmen and adepts pull in groups, and the cultists cast shadow magic. The cave is tight with no escape route deep inside. Clear methodically and keep an exit path. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5155] = { threat = "MEDIUM", reason = "This kill objective takes place in the Jaedenar demon complex in Felwood. Demons and cultists occupy the area and can pull together in the confined passages; clear in small groups and preserve an exit route.", confidence = "medium" },
 
     -- Verifying the Corruption
-    [5156] = { threat = "MEDIUM", reason = "Entropic Beasts and Horrors are levels 50-54 in Shatter Scar Vale, and they pull in pairs. The craters are filled with corrupt fel water that damages you on contact. Clear methodically and avoid standing in the water. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5156] = { threat = "MEDIUM", reason = "Verify the corrupted water among hostile creatures in Shatter Scar Vale. The exposed crater has nearby enemies; avoid standing in hazardous water and make sure the approach is clear before using the quest item.", confidence = "medium" },
 
     -- Collection of the Corrupt Water
-    [5157] = { threat = "HIGH", reason = "The Moon Well is in the center of Jaedenar, surrounded by level 50-54 demons and cultists. Filling the canteen requires standing still for several seconds while mobs patrol nearby. A level 50 druid soloed this by stealthing in, but non-stealth classes will fight through multiple packs. Do not attempt below level 50 solo without a plan to clear or avoid the guards.", confidence = "high" },
+    [5157] = { threat = "HIGH", reason = "The Moon Well is deep inside hostile Jaedenar, and filling the canteen requires stopping at the well while demons and cultists are nearby. Clear the approach or use a reliable avoidance plan, and keep an exit route.", confidence = "medium" },
 
     -- Seeking Spiritual Aid
-    [5158] = { threat = "LOW", reason = "Delivery step with no combat. The journey to the Barrens is long but safe via flight paths. Do not attempt below level 45 solo.", confidence = "medium" },
+    [5158] = { threat = "LOW", reason = "This is a delivery to a spiritualist in the Barrens. It adds no combat if you have the quest item; use flight paths or a familiar safe route and avoid hostile areas on the journey.", confidence = "medium" },
 
     -- Cleansed Water Returns to Felwood
-    [5159] = { threat = "LOW", reason = "Delivery step with no combat. The journey back to Felwood is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5159] = { threat = "LOW", reason = "Return the cleansed water to Felwood. The delivery adds no combat if you have the item; avoid unnecessary pulls on the route through the zone.", confidence = "medium" },
 
     -- The Matron Protectorate
     [5160] = { threat = "MEDIUM", reason = "Haleh is in Winterspring, protected by level 55-58 mobs along the way. The journey through Winterspring is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
 
     -- Wrath of the Blue Flight
-    [5161] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5161] = { threat = "LOW", reason = "This step is a conversation with Haleh in Winterspring. It adds no combat at the interaction; avoid hostile dragonkin on the route if approaching from outside the safe area.", confidence = "medium" },
 
     -- Wrath of the Blue Flight
-    [5162] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Andorhal is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
+    [5162] = { threat = "LOW", reason = "This step is a conversation in Andorhal. It adds no combat at the interaction, though the town is occupied by hostile Scourge; approach on a clear route and leave if enemies close in.", confidence = "medium" },
 
     -- Are We There, Yeti?
-    [5163] = { threat = "LOW", reason = "Delivery and interaction step with no combat. You must travel to Everlook, Gadgetzan, and Marshal's Refuge to scare Umi's friends. The journey is long but safe via flight paths. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5163] = { threat = "LOW", reason = "This step asks you to travel among settlements and scare Umi’s friends with the yeti fur. It adds no required combat; use flight paths and avoid unnecessary pulls at each stop.", confidence = "medium" },
 
     -- Catalogue of the Wayward
-    [5164] = { threat = "LOW", reason = "Dialogue and interaction step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5164] = { threat = "LOW", reason = "Read the Catalogue of the Wayward at its location. The interaction adds no combat; avoid nearby hostile creatures while approaching.", confidence = "medium" },
 
     -- Dousing the Flames of Protection
-    [5165] = { threat = "HIGH", reason = "Deep cave pulls and respawns in Shadow Hold can overwhelm a solo character and make retreat difficult. Clear toward each brazier with an exit route, recover between pulls, and bring help if you cannot control multiple enemies.", confidence = "medium" },
+    [5165] = { threat = "HIGH", reason = "Douse four braziers inside Shadow Hold. The confined cave contains hostile demons and cultists, and enemies can respawn behind you; clear toward each brazier in stages and preserve a retreat route.", confidence = "medium" },
 
     -- Breastplate of the Chromatic Flight
-    [5166] = { threat = "HIGH", reason = "Requires a Chromatic Carapace and 10 Brilliant Chromatic Scales from Upper Blackrock Spire, plus 10 Blood of Heroes and 10 Frayed Abomination Stitchings from high-level dungeons. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
+    [5166] = { threat = "MEDIUM", reason = "This blacksmithing hand-in requires materials that include drops from Upper Blackrock Spire and other high-level content. The hand-in itself is safe; obtain dungeon materials with a group or through trade rather than entering alone.", confidence = "medium" },
 
     -- Legplates of the Chromatic Defier
-    [5167] = { threat = "HIGH", reason = "Requires a Chromatic Carapace and 10 Brilliant Chromatic Scales from Upper Blackrock Spire, plus 10 Blood of Heroes and 5 Skin of Shadow from high-level dungeons. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
+    [5167] = { threat = "MEDIUM", reason = "This blacksmithing hand-in requires materials that include drops from Upper Blackrock Spire and other high-level content. The hand-in itself is safe; obtain dungeon materials with a group or through trade rather than entering alone.", confidence = "medium" },
 
     -- Heroes of Darrowshire
-    [5168] = { threat = "MEDIUM", reason = "Davil's Libram and Redpath's Shield are in the Eastern Plaguelands, guarded by level 55-58 Scourge mobs. The items are in different locations, both patrolled by undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5168] = { threat = "MEDIUM", reason = "Davil’s Libram and Redpath’s Shield are found at separate locations in the Eastern Plaguelands, among hostile Scourge. Search each area carefully, pull enemies away from groups, and keep a route back to safety.", confidence = "medium" },
 
     -- Villains of Darrowshire
-    [5181] = { threat = "HIGH", reason = "The Skull of Horgus and Shattered Sword of Marduk drop from elite mobs in the Eastern Plaguelands and Stratholme. Horgus is a level 58 elite who patrols with adds. A full group is required for the Stratholme portion. Do not attempt solo.", confidence = "high" },
+    [5181] = { threat = "HIGH", reason = "The quest requires the Skull of Horgus and the Shattered Sword of Marduk. Horgus is a dangerous named undead in the Eastern Plaguelands; the sword is obtained in Stratholme, a dungeon. Group for dungeon acquisition or use trade, and avoid soloing Horgus unless you can handle the encounter.", confidence = "medium" },
 
     -- A Strange Red Key
-    [5202] = { threat = "MEDIUM", reason = "The key is in Jaedenar, a demon-infested cave in Felwood, levels 50-54. The cave is a maze with patrolling elites and no escape route deep inside. Clear methodically and keep an exit path. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5202] = { threat = "MEDIUM", reason = "The Blood Red Key is used to release Arko’narin inside Shadow Hold in Jaedenar. Reaching the cage requires crossing a hostile demon complex; clear the approach in stages and keep an exit route.", confidence = "medium" },
 
     -- Rescue From Jaedenar
-    [5203] = { threat = "HIGH", reason = "Escort quest. Scripted demon attacks and a final elite can overlap with respawns, while Arko'narin may engage enemies before you recover. Clear ahead, save crowd control for the demon packs, and bring a group on Hardcore.", confidence = "medium" },
+    [5203] = { threat = "HIGH", reason = "This is an escort through hostile Jaedenar. Demon attacks occur during the escort and enemies may respawn along the route; clear ahead, stay close enough to protect Arko’narin, and bring help if you cannot control adds.", confidence = "medium" },
 
     -- Retribution of the Light
-    [5204] = { threat = "HIGH", reason = "Rakaiah is a level 54 elite succubus in Jaedenar, surrounded by demons. The cave is a maze with patrolling elites. Clear the area before engaging and be ready for adds. Do not attempt below level 52 solo without a group.", confidence = "high" },
+    [5204] = { threat = "HIGH", reason = "Rakaiah is a dangerous named demon in Jaedenar, surrounded by hostile enemies in a confined area. Clear the approach and pull her away from nearby demons; bring help if you cannot safely manage the encounter.", confidence = "medium" },
 
     -- Marauders of Darrowshire
-    [5206] = { threat = "MEDIUM", reason = "Resonating Skulls drop from level 55-58 Scourge mobs in the Eastern Plaguelands. The Mystic Crystal is in a chest in the ruins. The area is dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5206] = { threat = "MEDIUM", reason = "Collect Resonating Skulls from Scourge in the Eastern Plaguelands and find the Mystic Crystal in a chest among the ruins. Hostile enemies can add while searching or fighting; work from a cleared edge and keep a retreat route.", confidence = "medium" },
 
     -- Brother Carlin
-    [5210] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Light's Hope Chapel is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5210] = { threat = "LOW", reason = "This is a delivery to Brother Carlin at Light’s Hope Chapel. It adds no combat if you already have the item; travel by a safe route through the Eastern Plaguelands.", confidence = "medium" },
 
     -- Defenders of Darrowshire
-    [5211] = { threat = "MEDIUM", reason = "Darrowshire Spirits are freed by using the Extended Annals on the ghosts in the Eastern Plaguelands. The area is patrolled by level 55-58 Scourge mobs. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [5211] = { threat = "MEDIUM", reason = "Use the Extended Annals on the Darrowshire spirits in the Eastern Plaguelands. The exposed interactions are near hostile Scourge; clear nearby enemies first and leave if patrols approach.", confidence = "medium" },
 
     -- The Flesh Does Not Lie
     [5212] = { threat = "HIGH", reason = "Plagued Flesh Samples drop from mobs inside Stratholme, a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
@@ -1564,6 +1567,18 @@ addon.quests = {
 
     -- The Great Ezra Grimm
     [5214] = { threat = "HIGH", reason = "Requires entering Stratholme to find Ezra Grimm's smoke shop and recover the tobacco. Stratholme is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+
+    -- Felstone Field Cauldron
+    [5218] = { threat = "MEDIUM", reason = "Use the repeatable reagent hand-in at the Felstone cauldron in Scourge territory. Clear the approach and nearby enemies before interacting, and leave if the area becomes crowded.", confidence = "medium" },
+
+    -- Dalson's Tears Cauldron
+    [5221] = { threat = "MEDIUM", reason = "Use the repeatable reagent hand-in at the Dalson’s Tears cauldron in Scourge territory. Clear the approach and nearby enemies before interacting, and leave if the area becomes crowded.", confidence = "medium" },
+
+    -- Writhing Haunt Cauldron
+    [5224] = { threat = "MEDIUM", reason = "Use the repeatable reagent hand-in at the Writhing Haunt cauldron in Scourge territory. Clear the approach and nearby enemies before interacting, and leave if the area becomes crowded.", confidence = "medium" },
+
+    -- Gahrron's Withering Cauldron
+    [5227] = { threat = "MEDIUM", reason = "Use the repeatable reagent hand-in at the Gahrron’s Withering cauldron in Scourge territory. Clear the approach and nearby enemies before interacting, and leave if the area becomes crowded.", confidence = "medium" },
 
     -- Uncle Carlin
     [5241] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Eastern Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },

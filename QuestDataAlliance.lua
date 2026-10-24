@@ -3171,34 +3171,34 @@ local quests = {
     [5144] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in Searing Gorge. It adds no combat if you already have the elemental materials; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Winterfall Intrusion
-    [5201] = { threat = "MEDIUM", reason = "Winterfall Shaman and Ursa are levels 53-57 in Winterspring and pull in groups. The shaman cast nature spells and the ursa hit hard. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [5201] = { threat = "MEDIUM", reason = "Kill Winterfall shamans and ursa in the hostile Winterspring furbolg camp. Several enemies can be close together, so pull from the edge and avoid letting patrols join.", confidence = "medium" },
 
     -- The Scourge Cauldrons
-    [5215] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5215] = { threat = "LOW", reason = "This is a breadcrumb dialogue step at Chillwind Camp. It adds no combat at the camp; follow a safe route through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Felstone Field
-    [5216] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 53 elite undead who spawns when you approach the cauldron. He is surrounded by Scourge mobs. Clear the area before engaging and be ready for adds. Do not attempt below level 52 solo without a group.", confidence = "medium" },
+    [5216] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord and loot its key near the Felstone cauldron; other Scourge can join the fight. Pull the lord away from nearby enemies and clear enough space to use the bottle at the cauldron.", confidence = "medium" },
 
     -- Return to Chillwind Camp
-    [5217] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5217] = { threat = "LOW", reason = "Return to Chillwind Camp with the cauldron sample. The delivery adds no combat; use a clear route back through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Dalson's Tears
-    [5219] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 53 elite undead who spawns when you approach the cauldron, surrounded by Scourge mobs. Clear the area before engaging and watch for adds. Do not attempt below level 52 solo without a group.", confidence = "medium" },
+    [5219] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at Dalson’s Tears and recover its key; Scourge in the farm can join the fight. Clear a small area and pull the target away from nearby enemies before using the bottle.", confidence = "medium" },
 
     -- Return to Chillwind Camp
-    [5220] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5220] = { threat = "LOW", reason = "Return to Chillwind Camp with the cauldron sample. The delivery adds no combat; use a clear route back through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Writhing Haunt
-    [5222] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 54 elite undead who spawns when you approach the cauldron, surrounded by Scourge mobs. Clear the area before engaging and watch for adds. Do not attempt below level 53 solo without a group.", confidence = "medium" },
+    [5222] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at the Writhing Haunt and recover its key; nearby Scourge can join the fight. Pull the target into cleared ground and use the bottle only when the approach is clear.", confidence = "medium" },
 
     -- Return to Chillwind Camp
-    [5223] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5223] = { threat = "LOW", reason = "Return to Chillwind Camp with the cauldron sample. The delivery adds no combat; use a clear route back through the Western Plaguelands.", confidence = "medium" },
 
     -- Target: Gahrron's Withering
-    [5225] = { threat = "MEDIUM", reason = "The Cauldron Lord is a level 55 elite undead who spawns when you approach the cauldron, surrounded by Scourge mobs. Clear the area before engaging and watch for adds. Do not attempt below level 54 solo without a group.", confidence = "medium" },
+    [5225] = { threat = "MEDIUM", reason = "Kill the Cauldron Lord at Gahrron’s Withering and recover its key; nearby Scourge can join the fight. Pull the target into cleared ground and use the bottle only when the approach is clear.", confidence = "medium" },
 
     -- Return to Chillwind Camp
-    [5226] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5226] = { threat = "LOW", reason = "Return to Chillwind Camp with the cauldron sample. The delivery adds no combat; use a clear route back through the Western Plaguelands.", confidence = "medium" },
 
     -- The Ruins of Kel'Theril
     [5244] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
