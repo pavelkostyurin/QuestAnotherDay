@@ -6489,85 +6489,85 @@ addon.quests = {
     [4867] = { threat = "HIGH", reason = "Elite quest. Summoning Urok triggers waves of elite ogres in Lower Blackrock Spire. Without crowd control, the ogres stack bleed effects that can tick for 200-300 health per second. A full group of level 55+ with CC is required. Do not attempt solo.", confidence = "high" },
 
     -- Assassination Plot (Thousand Needles)
-    [4881] = { threat = "MEDIUM", reason = "The centaurs are levels 27-28, with a level 31 patrolling centaur named Achellios the Banished who may wander through the camp during the fight. You must keep Kanati alive while killing the attackers. Use the tent behind the NPC to break line-of-sight and pull one centaur at a time. Solo is possible at level 27-28 with consumables, but bringing a friend is safer.", confidence = "high" },
+    [4881] = { threat = "LOW", reason = "Warning Kanati is a conversation step with no combat in the objective. Stay in the friendly post and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Assassination Plot (Thousand Needles - step 2)
-    [4882] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before approaching.", confidence = "medium" },
+    [4882] = { threat = "LOW", reason = "This is a necklace delivery to Trull at Bloodvenom Post. It adds no combat after you reach the outpost; avoid hostile patrols on the way.", confidence = "medium" },
 
     -- Assassination Plot (Thousand Needles - step 3)
-    [4883] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [4883] = { threat = "LOW", reason = "This is a necklace delivery to Nara Wildmane. It adds no combat after you reach her; avoid hostile patrols on the way.", confidence = "medium" },
 
     -- Guardians of the Altar
-    [4901] = { threat = "MEDIUM", reason = "Escort quest. Ranshalla is tanky and can handle the wildkin herself; let her pull aggro before attacking. The quest is long (14-17 minutes) and can bug if torches are lit before she starts channeling. Do not attack before she has 5-6 hits of threat. Soloable at level 54+ with patience.", confidence = "high" },
+    [4901] = { threat = "MEDIUM", reason = "Escort quest. Ranshalla moves through hostile wildkin territory and stops at several torches. Let her take the first enemy’s attention, stay close, and avoid pulling extra owlbeasts while she channels.", confidence = "medium" },
 
     -- Wildkin of Elune
-    [4902] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4902] = { threat = "LOW", reason = "This is a dialogue step with Arch Druid Fandral in Darnassus. It adds no combat; stay in the city.", confidence = "medium" },
 
     -- Warlord's Command (Horde - Blackrock Spire)
     [4903] = { threat = "HIGH", reason = "LBRS is a level 55-60 dungeon filled with elite orcs, trolls, and ogres. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
 
     -- Free at Last (Horde - Blackrock Spire)
-    [4904] = { threat = "HIGH", reason = "The escort spawns waves of elite Dark Iron dwarves and requires a full group of level 52+. The escort NPC can die, failing the quest. Do not attempt solo.", confidence = "high" },
+    [4904] = { threat = "MEDIUM", reason = "Escort quest. Lakota’s route out of Darkcloud Pinnacle triggers three pairs of hostile Grim Bandits. Clear nearby enemies first, then stay close and be ready for each ambush.", confidence = "medium" },
 
     -- Further Corruption
-    [4906] = { threat = "MEDIUM", reason = "Jadefire Tricksters can mind-control you, briefly flagging you as hostile to other players. Hellcallers cast a fear-like insanity effect that can run you into additional mobs. Pull singles and clear the area around Xavaric before engaging. Do not attempt below level 52 solo without a plan to handle the mind-control.", confidence = "high" },
+    [4906] = { threat = "MEDIUM", reason = "Jadefire satyrs occupy a dense camp, and Xavaric can be approached with nearby guards. Tricksters may disrupt your control with insanity; pull carefully from the camp edge and avoid taking several enemies together.", confidence = "medium" },
 
     -- Tinkee Steamboil
     [4907] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Lost in Battle (Mankrik's Wife)
-    [4921] = { threat = "MEDIUM", reason = "The corpse is inside a tent guarded by a few level 16-17 raptors and plainstriders. The real danger is the group of level 23-24 Alliance outrunners that patrol the area. Stick to the road, clear the immediate mobs, interact with the corpse, and leave quickly.", confidence = "high" },
+    [4921] = { threat = "LOW", reason = "Finding the corpse in the Barrens is an exploration step with nearby wildlife. Avoid pulling nearby animals while interacting and return to the Crossroads.", confidence = "medium" },
 
     -- Eitrigg's Wisdom (Horde - Orgrimmar)
-    [4941] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4941] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Cleansing of the Orb of Orahil
-    [4961] = { threat = "MEDIUM", reason = "Warlock class quest. Tabetha summons a level 40 elite demon in her garden with a 3-minute timer. A level 37 warlock soloed it with a Voidwalker and consumables, but adds (spiders, raptors) can join and ruin the attempt. Clear the area before starting. Do not attempt below level 37 solo without a plan and consumables.", confidence = "high" },
+    [4961] = { threat = "MEDIUM", reason = "Warlock class quest. Tabetha summons an elite demon for you to defeat before the quest timer expires. Use your pet and control tools, clear nearby wildlife first, and return to Tabetha promptly after the kill.", confidence = "medium" },
 
     -- Shard of a Felhound
-    [4962] = { threat = "MEDIUM", reason = "Warlock class quest. Requires capturing a Mana Eater's soul in Desolace by using the Felhas Ruby just before it dies. The Mana Eaters are level 37-40 and are found in Mannoroc Coven, patrolled by demons. Do not turn in this quest before also completing Shard of an Infernal, or you lose the reward. Do not attempt below level 36 solo.", confidence = "high" },
+    [4962] = { threat = "MEDIUM", reason = "Warlock class quest. Use the ruby on a Desolace felhound and defeat it to capture its spirit. Pull it away from nearby demons and recover before starting the fight.", confidence = "medium" },
 
     -- Shard of an Infernal
-    [4963] = { threat = "MEDIUM", reason = "Warlock class quest. Requires capturing a Lesser Infernal's soul in Desolace's Mannoroc Coven using the Infus Emerald. The infernals are level 37-40 and are patrolled by additional demons. Do not turn in this quest before also completing Shard of a Felhound. Do not attempt below level 36 solo.", confidence = "high" },
+    [4963] = { threat = "MEDIUM", reason = "Warlock class quest. Use the emerald on a Desolace infernal and defeat it to capture its spirit. Pull it away from other demons and prepare for a tougher target than nearby satyrs.", confidence = "medium" },
 
     -- The Completed Orb of Dar'Orahil
-    [4964] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4964] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Knowledge of the Orb of Orahil (4965)
-    [4965] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4965] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Protect Kanati Greycloud (Horde - Thousand Needles)
-    [4966] = { threat = "MEDIUM", reason = "The centaurs are levels 27-28, with a level 31 patrolling centaur named Achellios the Banished who may wander through the camp during the fight. You must keep Kanati alive while killing the attackers. Use the tent behind the NPC to break line-of-sight and pull one centaur at a time. Solo is possible at level 27-28 with consumables, but bringing a friend is safer.", confidence = "high" },
+    [4966] = { threat = "MEDIUM", reason = "The centaurs are levels 27-28, with a level 31 patrolling centaur named Achellios the Banished who may wander through the camp during the fight. You must keep Kanati alive while killing the attackers. Use the tent behind the NPC to break line-of-sight and pull one centaur at a time. Solo is possible at level 27-28 with consumables, but bringing a friend is safer.", confidence = "medium" },
 
     -- Knowledge of the Orb of Orahil (Horde - Warlock)
-    [4967] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4967] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Knowledge of the Orb of Orahil (4968)
-    [4968] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4968] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Knowledge of the Orb of Orahil (Horde - Warlock)
-    [4969] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4969] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Frostsaber Provisions
-    [4970] = { threat = "MEDIUM", reason = "Shardtooth and Chillwind meats drop from bears and chimaeras in Winterspring, levels 53-57. The mobs are aggressive and pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4970] = { threat = "MEDIUM", reason = "Shardtooth bears and Chillwind chimaeras in Winterspring are hostile and can join nearby fights. Pull from open ground and watch for other wildlife while collecting the meats.", confidence = "medium" },
 
     -- A Matter of Time
-    [4971] = { threat = "HIGH", reason = "Temporal Parasites spawn in unpredictable numbers (2 to 10) and multiply when killed near the silo. They cast a 60% slow that makes escape difficult. Run away from the silo when overwhelmed; they do not follow into the river. A level 56 mage had 10 spawn; a level 55 hunter had 4. Do not attempt below level 54 solo without a plan to kite away from the silo.", confidence = "high" },
+    [4971] = { threat = "HIGH", reason = "Using the Temporal Displacer at an Andorhal silo can bring several hostile parasites into the fight, while nearby Scourge can add to the pull. Use it in open ground and retreat before the enemies surround you.", confidence = "medium" },
 
     -- Counting Out Time (4972)
-    [4972] = { threat = "MEDIUM", reason = "Andorhal Watches are in lockboxes scattered among the ruins of Andorhal, patrolled by level 55-58 Scourge mobs. The ruins are dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [4972] = { threat = "MEDIUM", reason = "Searching rubble and lockboxes in Andorhal takes you through dense Scourge territory. Clear nearby enemies before looting and keep an open route back to the inn.", confidence = "medium" },
 
     -- Counting Out Time (4973)
-    [4973] = { threat = "MEDIUM", reason = "Duplicate turn-in for the same watches. Andorhal is patrolled by level 55-58 Scourge mobs. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [4973] = { threat = "MEDIUM", reason = "Searching rubble in Andorhal takes you through dense Scourge territory. Clear nearby enemies before looting and keep an open route back to the inn.", confidence = "medium" },
 
     -- For The Horde! (Horde - Orgrimmar)
     [4974] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- The Completed Orb of Noh'Orahil
-    [4975] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4975] = { threat = "LOW", reason = "This is a dialogue and wait step with Menara in the Barrens. It adds no combat; stay near the friendly quest giver.", confidence = "medium" },
 
     -- Returning the Cleansed Orb
-    [4976] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4976] = { threat = "LOW", reason = "This is a delivery to Menara in the Barrens. It adds no combat; use the normal travel route and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Operative Bijou (Horde - Blackrock Spire)
     [4981] = { threat = "HIGH", reason = "LBRS is a level 55-60 dungeon filled with elites. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
@@ -6579,16 +6579,16 @@ addon.quests = {
     [4983] = { threat = "HIGH", reason = "The turn-in is inside the dungeon. Full group of level 55+ required.", confidence = "high" },
 
     -- The Wildlife Suffers Too (Wolves)
-    [4984] = { threat = "MEDIUM", reason = "Diseased Wolves are levels 53-56 in the Western Plaguelands. They are aggressive and can pull in pairs. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4984] = { threat = "MEDIUM", reason = "Diseased wolves in the Western Plaguelands are hostile and may be near other Scourge. Pull away from nearby enemies and keep a route back to the settlement.", confidence = "medium" },
 
     -- The Wildlife Suffers Too (Grizzlies)
-    [4985] = { threat = "MEDIUM", reason = "Diseased Grizzlies are levels 53-56 in the Western Plaguelands. They hit harder than wolves and can pull in pairs. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4985] = { threat = "MEDIUM", reason = "Diseased grizzlies in the Western Plaguelands are hostile and may be near other Scourge. Pull away from nearby enemies and keep a route back to the settlement.", confidence = "medium" },
 
     -- Glyphed Oaken Branch
-    [4986] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Darnassus is safe via flight path. Safe if you stay in the city.", confidence = "high" },
+    [4986] = { threat = "LOW", reason = "This is a delivery to the Cenarion Circle in Darnassus. The hand-in adds no combat; stay within the city.", confidence = "medium" },
 
     -- Glyphed Oaken Branch (Horde - Feralas)
-    [4987] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4987] = { threat = "LOW", reason = "This is a delivery to the Cenarion Circle in Thunder Bluff. The hand-in adds no combat; stay within the city.", confidence = "medium" },
 
     -- Bijou's Belongings (5001)
     [5001] = { threat = "HIGH", reason = "Elite quest. Bijou's belongings are inside Lower Blackrock Spire, a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -6597,43 +6597,43 @@ addon.quests = {
     [5002] = { threat = "LOW", reason = "Delivery step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Better Late Than Never (5021)
-    [5021] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [5021] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Better Late Than Never (5022)
-    [5022] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5022] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Better Late Than Never (Horde - Undercity)
-    [5023] = { threat = "LOW", reason = "This quest is marked obsolete and cannot be completed in Classic Era. If you somehow have it, it's a pure delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5023] = { threat = "LOW", reason = "This is a census-office conversation in Undercity with no required combat. Stay in the city and avoid unnecessary detours.", confidence = "medium" },
 
     -- Supplies for the Crossroads (Horde - Barrens)
-    [5041] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the centaur camps along the way.", confidence = "high" },
+    [5041] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the centaur camps along the way.", confidence = "medium" },
 
     -- Agamaggan's Strength (Horde - Barrens)
-    [5042] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo (44, 59) for a +10 Strength buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in itself. Safe if you stay in the camp.", confidence = "high" },
+    [5042] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Agamaggan's Agility (Horde - Barrens)
-    [5043] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo for a +10 Agility buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in. Safe if you stay in the camp.", confidence = "high" },
+    [5043] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Wisdom of Agamaggan (Horde - Barrens)
-    [5044] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo for a +10 Intellect buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in. Safe if you stay in the camp.", confidence = "high" },
+    [5044] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Rising Spirit (Horde - Barrens)
-    [5045] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo for a +10 Spirit buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in. Safe if you stay in the camp.", confidence = "high" },
+    [5045] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Razorhide (Horde - Barrens)
-    [5046] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo for a +10 Stamina buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in. Safe if you stay in the camp.", confidence = "high" },
+    [5046] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Pip Quickwit, At Your Service!
     [5047] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Everlook is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Good Natured Emma
-    [5048] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5048] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Jeremiah Blues (Horde - Undercity)
-    [5049] = { threat = "LOW", reason = "He is located under the stairs near the bank, selling cockroaches. This is a dialogue and delivery step with no combat. Safe if you stay in the city. Requires completion of Better Late Than Never [5023], which is marked obsolete.", confidence = "high" },
+    [5049] = { threat = "LOW", reason = "He is located under the stairs near the bank, selling cockroaches. This is a dialogue and delivery step with no combat. Safe if you stay in the city. Requires completion of Better Late Than Never [5023], which is marked obsolete.", confidence = "medium" },
 
     -- Good Luck Charm
-    [5050] = { threat = "LOW", reason = "Delivery step with no combat. The Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5050] = { threat = "LOW", reason = "This is a delivery to Janice at the Writhing Haunt. Stay near the settlement and avoid unnecessary fights with nearby Scourge.", confidence = "medium" },
 
     -- Two Halves Become One
     [5051] = { threat = "MEDIUM", reason = "The other half of the charm is on the Felstone Farm in the Western Plaguelands, patrolled by level 53-56 Scourge mobs. Clear the area before looting and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },

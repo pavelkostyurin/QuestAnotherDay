@@ -3102,25 +3102,25 @@ local quests = {
     [4864] = { threat = "MEDIUM", reason = "Jaron’s supplies and the amulet are in hostile wildkin territory in southern Winterspring. Clear nearby enemies before collecting them and keep a retreat route.", confidence = "medium" },
 
     -- Guardians of the Altar
-    [4901] = { threat = "MEDIUM", reason = "Escort quest. Ranshalla is tanky and can handle the wildkin herself; let her pull aggro before attacking. The quest is long (14-17 minutes) and can bug if torches are lit before she starts channeling. Do not attack before she has 5-6 hits of threat. Soloable at level 54+ with patience.", confidence = "high" },
+    [4901] = { threat = "MEDIUM", reason = "Escort quest. Ranshalla moves through hostile wildkin territory and stops at several torches. Let her take the first enemy’s attention, stay close, and avoid pulling extra owlbeasts while she channels.", confidence = "medium" },
 
     -- Wildkin of Elune
-    [4902] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4902] = { threat = "LOW", reason = "This is a dialogue step with Arch Druid Fandral in Darnassus. It adds no combat; stay in the city.", confidence = "medium" },
 
     -- Further Corruption
-    [4906] = { threat = "MEDIUM", reason = "Jadefire Tricksters can mind-control you, briefly flagging you as hostile to other players. Hellcallers cast a fear-like insanity effect that can run you into additional mobs. Pull singles and clear the area around Xavaric before engaging. Do not attempt below level 52 solo without a plan to handle the mind-control.", confidence = "high" },
+    [4906] = { threat = "MEDIUM", reason = "Jadefire satyrs occupy a dense camp, and Xavaric can be approached with nearby guards. Tricksters may disrupt your control with insanity; pull carefully from the camp edge and avoid taking several enemies together.", confidence = "medium" },
 
     -- Knowledge of the Orb of Orahil
-    [4965] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4965] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Knowledge of the Orb of Orahil
-    [4968] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4968] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Frostsaber Provisions
-    [4970] = { threat = "MEDIUM", reason = "Shardtooth and Chillwind meats drop from bears and chimaeras in Winterspring, levels 53-57. The mobs are aggressive and pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4970] = { threat = "MEDIUM", reason = "Shardtooth bears and Chillwind chimaeras in Winterspring are hostile and can join nearby fights. Pull from open ground and watch for other wildlife while collecting the meats.", confidence = "medium" },
 
     -- Glyphed Oaken Branch
-    [4986] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Darnassus is safe via flight path. Safe if you stay in the city.", confidence = "high" },
+    [4986] = { threat = "LOW", reason = "This is a delivery to the Cenarion Circle in Darnassus. The hand-in adds no combat; stay within the city.", confidence = "medium" },
 
     -- Bijou's Belongings
     [5001] = { threat = "HIGH", reason = "Elite quest. Bijou's belongings are inside Lower Blackrock Spire, a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -3129,10 +3129,10 @@ local quests = {
     [5002] = { threat = "LOW", reason = "Delivery step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Better Late Than Never
-    [5022] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5022] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Good Natured Emma
-    [5048] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5048] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Aquatic Form
     [5061] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },

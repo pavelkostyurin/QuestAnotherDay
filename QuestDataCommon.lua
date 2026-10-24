@@ -1383,46 +1383,46 @@ addon.quests = {
     [4907] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Cleansing of the Orb of Orahil
-    [4961] = { threat = "MEDIUM", reason = "Warlock class quest. Tabetha summons a level 40 elite demon in her garden with a 3-minute timer. A level 37 warlock soloed it with a Voidwalker and consumables, but adds (spiders, raptors) can join and ruin the attempt. Clear the area before starting. Do not attempt below level 37 solo without a plan and consumables.", confidence = "high" },
+    [4961] = { threat = "MEDIUM", reason = "Warlock class quest. Tabetha summons an elite demon for you to defeat before the quest timer expires. Use your pet and control tools, clear nearby wildlife first, and return to Tabetha promptly after the kill.", confidence = "medium" },
 
     -- Shard of a Felhound
-    [4962] = { threat = "MEDIUM", reason = "Warlock class quest. Requires capturing a Mana Eater's soul in Desolace by using the Felhas Ruby just before it dies. The Mana Eaters are level 37-40 and are found in Mannoroc Coven, patrolled by demons. Do not turn in this quest before also completing Shard of an Infernal, or you lose the reward. Do not attempt below level 36 solo.", confidence = "high" },
+    [4962] = { threat = "MEDIUM", reason = "Warlock class quest. Use the ruby on a Desolace felhound and defeat it to capture its spirit. Pull it away from nearby demons and recover before starting the fight.", confidence = "medium" },
 
     -- Shard of an Infernal
-    [4963] = { threat = "MEDIUM", reason = "Warlock class quest. Requires capturing a Lesser Infernal's soul in Desolace's Mannoroc Coven using the Infus Emerald. The infernals are level 37-40 and are patrolled by additional demons. Do not turn in this quest before also completing Shard of a Felhound. Do not attempt below level 36 solo.", confidence = "high" },
+    [4963] = { threat = "MEDIUM", reason = "Warlock class quest. Use the emerald on a Desolace infernal and defeat it to capture its spirit. Pull it away from other demons and prepare for a tougher target than nearby satyrs.", confidence = "medium" },
 
     -- The Completed Orb of Dar'Orahil
-    [4964] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4964] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- A Matter of Time
-    [4971] = { threat = "HIGH", reason = "Temporal Parasites spawn in unpredictable numbers (2 to 10) and multiply when killed near the silo. They cast a 60% slow that makes escape difficult. Run away from the silo when overwhelmed; they do not follow into the river. A level 56 mage had 10 spawn; a level 55 hunter had 4. Do not attempt below level 54 solo without a plan to kite away from the silo.", confidence = "high" },
+    [4971] = { threat = "HIGH", reason = "Using the Temporal Displacer at an Andorhal silo can bring several hostile parasites into the fight, while nearby Scourge can add to the pull. Use it in open ground and retreat before the enemies surround you.", confidence = "medium" },
 
     -- Counting Out Time
-    [4972] = { threat = "MEDIUM", reason = "Andorhal Watches are in lockboxes scattered among the ruins of Andorhal, patrolled by level 55-58 Scourge mobs. The ruins are dense with undead that pull in groups. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [4972] = { threat = "MEDIUM", reason = "Searching rubble and lockboxes in Andorhal takes you through dense Scourge territory. Clear nearby enemies before looting and keep an open route back to the inn.", confidence = "medium" },
 
     -- Counting Out Time
-    [4973] = { threat = "MEDIUM", reason = "Duplicate turn-in for the same watches. Andorhal is patrolled by level 55-58 Scourge mobs. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
+    [4973] = { threat = "MEDIUM", reason = "Searching rubble in Andorhal takes you through dense Scourge territory. Clear nearby enemies before looting and keep an open route back to the inn.", confidence = "medium" },
 
     -- The Completed Orb of Noh'Orahil
-    [4975] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4975] = { threat = "LOW", reason = "This is a dialogue and wait step with Menara in the Barrens. It adds no combat; stay near the friendly quest giver.", confidence = "medium" },
 
     -- Returning the Cleansed Orb
-    [4976] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4976] = { threat = "LOW", reason = "This is a delivery to Menara in the Barrens. It adds no combat; use the normal travel route and avoid unnecessary pulls.", confidence = "medium" },
 
     -- The Wildlife Suffers Too
-    [4984] = { threat = "MEDIUM", reason = "Diseased Wolves are levels 53-56 in the Western Plaguelands. They are aggressive and can pull in pairs. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4984] = { threat = "MEDIUM", reason = "Diseased wolves in the Western Plaguelands are hostile and may be near other Scourge. Pull away from nearby enemies and keep a route back to the settlement.", confidence = "medium" },
 
     -- The Wildlife Suffers Too
-    [4985] = { threat = "MEDIUM", reason = "Diseased Grizzlies are levels 53-56 in the Western Plaguelands. They hit harder than wolves and can pull in pairs. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4985] = { threat = "MEDIUM", reason = "Diseased grizzlies in the Western Plaguelands are hostile and may be near other Scourge. Pull away from nearby enemies and keep a route back to the settlement.", confidence = "medium" },
 
     -- Better Late Than Never
-    [5021] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [5021] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Pip Quickwit, At Your Service!
     [5047] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to Everlook is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Good Luck Charm
-    [5050] = { threat = "LOW", reason = "Delivery step with no combat. The Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5050] = { threat = "LOW", reason = "This is a delivery to Janice at the Writhing Haunt. Stay near the settlement and avoid unnecessary fights with nearby Scourge.", confidence = "medium" },
 
     -- Two Halves Become One
     [5051] = { threat = "MEDIUM", reason = "The other half of the charm is on the Felstone Farm in the Western Plaguelands, patrolled by level 53-56 Scourge mobs. Clear the area before looting and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },

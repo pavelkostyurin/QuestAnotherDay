@@ -2262,34 +2262,34 @@ local quests = {
     [4865] = { threat = "LOW", reason = "This is a report back to Motega Firemane. It adds no new combat if the findings are already in hand; avoid unnecessary fights during travel.", confidence = "medium" },
 
     -- Assassination Plot
-    [4881] = { threat = "MEDIUM", reason = "The centaurs are levels 27-28, with a level 31 patrolling centaur named Achellios the Banished who may wander through the camp during the fight. You must keep Kanati alive while killing the attackers. Use the tent behind the NPC to break line-of-sight and pull one centaur at a time. Solo is possible at level 27-28 with consumables, but bringing a friend is safer.", confidence = "high" },
+    [4881] = { threat = "LOW", reason = "Warning Kanati is a conversation step with no combat in the objective. Stay in the friendly post and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Guarding Secrets
-    [4882] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before approaching.", confidence = "medium" },
+    [4882] = { threat = "LOW", reason = "This is a necklace delivery to Trull at Bloodvenom Post. It adds no combat after you reach the outpost; avoid hostile patrols on the way.", confidence = "medium" },
 
     -- Guarding Secrets
-    [4883] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the area before engaging.", confidence = "medium" },
+    [4883] = { threat = "LOW", reason = "This is a necklace delivery to Nara Wildmane. It adds no combat after you reach her; avoid hostile patrols on the way.", confidence = "medium" },
 
     -- Warlord's Command
     [4903] = { threat = "HIGH", reason = "LBRS is a level 55-60 dungeon filled with elite orcs, trolls, and ogres. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
 
     -- Free at Last
-    [4904] = { threat = "HIGH", reason = "The escort spawns waves of elite Dark Iron dwarves and requires a full group of level 52+. The escort NPC can die, failing the quest. Do not attempt solo.", confidence = "high" },
+    [4904] = { threat = "MEDIUM", reason = "Escort quest. Lakota’s route out of Darkcloud Pinnacle triggers three pairs of hostile Grim Bandits. Clear nearby enemies first, then stay close and be ready for each ambush.", confidence = "medium" },
 
     -- Lost in Battle
-    [4921] = { threat = "MEDIUM", reason = "The corpse is inside a tent guarded by a few level 16-17 raptors and plainstriders. The real danger is the group of level 23-24 Alliance outrunners that patrol the area. Stick to the road, clear the immediate mobs, interact with the corpse, and leave quickly.", confidence = "high" },
+    [4921] = { threat = "LOW", reason = "Finding the corpse in the Barrens is an exploration step with nearby wildlife. Avoid pulling nearby animals while interacting and return to the Crossroads.", confidence = "medium" },
 
     -- Eitrigg's Wisdom
-    [4941] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4941] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Protect Kanati Greycloud
-    [4966] = { threat = "MEDIUM", reason = "The centaurs are levels 27-28, with a level 31 patrolling centaur named Achellios the Banished who may wander through the camp during the fight. You must keep Kanati alive while killing the attackers. Use the tent behind the NPC to break line-of-sight and pull one centaur at a time. Solo is possible at level 27-28 with consumables, but bringing a friend is safer.", confidence = "high" },
+    [4966] = { threat = "MEDIUM", reason = "The centaurs are levels 27-28, with a level 31 patrolling centaur named Achellios the Banished who may wander through the camp during the fight. You must keep Kanati alive while killing the attackers. Use the tent behind the NPC to break line-of-sight and pull one centaur at a time. Solo is possible at level 27-28 with consumables, but bringing a friend is safer.", confidence = "medium" },
 
     -- Knowledge of the Orb of Orahil
-    [4967] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4967] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Knowledge of the Orb of Orahil
-    [4969] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4969] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- For The Horde!
     [4974] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
@@ -2304,31 +2304,31 @@ local quests = {
     [4983] = { threat = "HIGH", reason = "The turn-in is inside the dungeon. Full group of level 55+ required.", confidence = "high" },
 
     -- Glyphed Oaken Branch
-    [4987] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4987] = { threat = "LOW", reason = "This is a delivery to the Cenarion Circle in Thunder Bluff. The hand-in adds no combat; stay within the city.", confidence = "medium" },
 
     -- Better Late Than Never
-    [5023] = { threat = "LOW", reason = "This quest is marked obsolete and cannot be completed in Classic Era. If you somehow have it, it's a pure delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5023] = { threat = "LOW", reason = "This is a census-office conversation in Undercity with no required combat. Stay in the city and avoid unnecessary detours.", confidence = "medium" },
 
     -- Supplies for the Crossroads
-    [5041] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the centaur camps along the way.", confidence = "high" },
+    [5041] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road and avoid the centaur camps along the way.", confidence = "medium" },
 
     -- Agamaggan's Strength
-    [5042] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo (44, 59) for a +10 Strength buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in itself. Safe if you stay in the camp.", confidence = "high" },
+    [5042] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Agamaggan's Agility
-    [5043] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo for a +10 Agility buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in. Safe if you stay in the camp.", confidence = "high" },
+    [5043] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Wisdom of Agamaggan
-    [5044] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo for a +10 Intellect buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in. Safe if you stay in the camp.", confidence = "high" },
+    [5044] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Rising Spirit
-    [5045] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo for a +10 Spirit buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in. Safe if you stay in the camp.", confidence = "high" },
+    [5045] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- Razorhide
-    [5046] = { threat = "LOW", reason = "Turn in 4 Blood Shards to Mangletooth at Camp Taurajo for a +10 Stamina buff lasting 30 minutes. Blood Shards drop from quilboars in the Barrens or can be mined. No combat objective for the turn-in. Safe if you stay in the camp.", confidence = "high" },
+    [5046] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shards; stay within the friendly camp.", confidence = "medium" },
 
     -- The Jeremiah Blues
-    [5049] = { threat = "LOW", reason = "He is located under the stairs near the bank, selling cockroaches. This is a dialogue and delivery step with no combat. Safe if you stay in the city. Requires completion of Better Late Than Never [5023], which is marked obsolete.", confidence = "high" },
+    [5049] = { threat = "LOW", reason = "He is located under the stairs near the bank, selling cockroaches. This is a dialogue and delivery step with no combat. Safe if you stay in the city. Requires completion of Better Late Than Never [5023], which is marked obsolete.", confidence = "medium" },
 
     -- Blood Shards of Agamaggan
     [5052] = { threat = "MEDIUM", reason = "The quilboars are levels 10-14 and are packed in bramble camps. They pull in groups and flee at low health. Clear from the outside in and watch for runners. Do not attempt below level 12.", confidence = "medium" },
