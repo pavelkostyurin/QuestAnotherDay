@@ -4578,7 +4578,7 @@ local quests = {
     [65602] = { threat = "MEDIUM", reason = "Warlock class quest. Distract the two archaeologists outside the Ashenvale house with a lit torch, then take the figurine upstairs before they return. If discovered, nearby enemies can make a level 20 character’s escape dangerous.", confidence = "medium" },
 
     -- The Binding
-    [65603] = { threat = "EXTREME", reason = "Warlock class quest. Requires summoning and subduing an incubus, a level 60 elite demon. The fight takes place in the Slaughtered Lamb in Stormwind. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [65603] = { threat = "MEDIUM", reason = "Level 20 Warlock class quest. Summon the Incubus in the Slaughtered Lamb crypt and defeat it; its stated beguilement is the main danger. Keep your pet ready and enter at full health.", confidence = "medium" },
 }
 
 for questID, record in pairs(quests) do

@@ -103805,6 +103805,118 @@
       "reason": "Warlock class quest. Distract the two archaeologists outside the Ashenvale house with a lit torch, then take the figurine upstairs before they return. If discovered, nearby enemies can make a level 20 character’s escape dangerous.",
       "threat": "MEDIUM",
       "confidence": "medium"
+    },
+    {
+      "questId": 65603,
+      "questName": "The Binding",
+      "url": "https://www.wowhead.com/classic/quest=65603",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:49+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted Classic quest-page text retrieved; no comment sample was needed, except one unranked comment for the guard-patrol note.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Binding — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=65603/the-binding",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:49+03:00",
+          "evidence": "Classic page confirms level 20, Warlock class, summoned Incubus objective, and warns about beguilement."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest metadata confirms a level 20 Warlock duel against a summoned Incubus. The quest text warns of beguilement; no evidence supports the old claim of a level 60 elite or group requirement. Medium confidence: the opponent is level-appropriate, but encounter statistics were not exposed.",
+      "reason": "Level 20 Warlock class quest. Summon the Incubus in the Slaughtered Lamb crypt and defeat it; its stated beguilement is the main danger. Keep your pet ready and enter at full health.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 65604,
+      "questName": "The Binding",
+      "url": "https://www.wowhead.com/classic/quest=65604",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:49+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted Classic quest-page text retrieved; no comment sample was needed, except one unranked comment for the guard-patrol note.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=65604/the-binding#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Binding — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=65604/the-binding",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:49+03:00",
+          "evidence": "Classic page confirms level 20, Warlock class, summoned Incubus objective, and quest text warning of beguilement; one comment advises checking for a guard patrol."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest metadata confirms a level 20 Warlock duel against a summoned Incubus. One Classic comment advises setting the pet passive and checking for a guard patrol; encounter statistics were not exposed, so the tier remains medium confidence.",
+      "reason": "Level 20 Warlock class quest. Summon the Incubus at the Cleft of Shadow ritual circle and defeat it; its stated beguilement and any nearby guard patrol can complicate the duel. Keep your pet ready and enter at full health.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 65610,
+      "questName": "Wish You Were Here",
+      "url": "https://www.wowhead.com/classic/quest=65610",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:49+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Classic Era comments were read from the corresponding Wowhead TBC Classic page and tagged as Era; no ranked sample was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wish You Were Here — Classic quest page",
+          "url": "https://www.wowhead.com/classic/quest=65610/wish-you-were-here",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:49+03:00",
+          "evidence": "Quest objective and description identify the Withered Scarf and aggressive bog beasts at Fallen Sky Lake."
+        },
+        {
+          "title": "Wish You Were Here — Wowhead TBC Classic page with Classic Era comments",
+          "url": "https://www.wowhead.com/tbc/quest=65610/wish-you-were-here",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:49+03:00",
+          "evidence": "Comments explicitly tagged Classic Era report level 25–27 Shadethicket mobs, difficult solo attempts at level 20, and recommend delaying or pulling carefully."
+        },
+        {
+          "title": "Wish You Were Here — Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Wish_You_Were_Here",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:49+03:00",
+          "evidence": "Classic-only Warlock quest, level 20 requirement, Withered Scarf objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Era quest requires the Withered Scarf from aggressive bog beasts at Fallen Sky Lake. Classic Era comments report level 25–27 targets and warn that a level 20 character can be overwhelmed; a second source identifies the mobs and recommends single pulls. HIGH reflects the substantial level gap at the minimum level; medium confidence because mob-level reports are player comments and the page’s quick quest level may vary.",
+      "reason": "Warlock class quest. The Withered Scarf drops from level 25–27 Shadethicket around Fallen Sky Lake, above the level 20 requirement; these bog beasts can overwhelm an underleveled character. Return closer to level 25 and pull one at a time.",
+      "threat": "HIGH",
+      "confidence": "medium"
     }
   ]
 }

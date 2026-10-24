@@ -11554,11 +11554,11 @@ addon.quests = {
     [65602] = { threat = "MEDIUM", reason = "Warlock class quest. Distract the two archaeologists outside the Ashenvale house with a lit torch, then take the figurine upstairs before they return. If discovered, nearby enemies can make a level 20 character’s escape dangerous.", confidence = "medium" },
 
     -- The Binding (Wooden Figurine)
-    [65603] = { threat = "EXTREME", reason = "Warlock class quest. Requires summoning and subduing an incubus, a level 60 elite demon. The fight takes place in the Slaughtered Lamb in Stormwind. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [65603] = { threat = "MEDIUM", reason = "Level 20 Warlock class quest. Summon the Incubus in the Slaughtered Lamb crypt and defeat it; its stated beguilement is the main danger. Keep your pet ready and enter at full health.", confidence = "medium" },
 
     -- The Binding (Withered Scarf)
-    [65604] = { threat = "EXTREME", reason = "Warlock class quest. Requires summoning and subduing an incubus, a level 60 elite demon. The fight takes place in Orgrimmar. A group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [65604] = { threat = "MEDIUM", reason = "Level 20 Warlock class quest. Summon the Incubus at the Cleft of Shadow ritual circle and defeat it; its stated beguilement and any nearby guard patrol can complicate the duel. Keep your pet ready and enter at full health.", confidence = "medium" },
 
     -- Wish You Were Here
-    [65610] = { threat = "LOW", reason = "Love is in the Air holiday exploration step with no combat. Investigate Fallen Sky Lake in Ashenvale. Safe if you avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
+    [65610] = { threat = "HIGH", reason = "Warlock class quest. The Withered Scarf drops from level 25–27 Shadethicket around Fallen Sky Lake, above the level 20 requirement; these bog beasts can overwhelm an underleveled character. Return closer to level 25 and pull one at a time.", confidence = "medium" },
 }
