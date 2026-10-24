@@ -12,34 +12,34 @@ addon.quests = {
     [103] = { threat = "MEDIUM", reason = "The flasks drop from Defias mobs at the lighthouse. The Defias are levels 15-18 and are packed around the lighthouse. The drop rate is not 100%. Clear methodically and watch for patrolling mobs. Do not attempt below level 15 solo.", confidence = "medium" },
 
     -- The Coastal Menace
-    [104] = { threat = "MEDIUM", reason = "Old Murk-Eye is a level 20 named murloc who patrols the coast with a group of murlocs. He is not elite but hits hard for the level. Clear his guards before engaging and be ready to retreat. Do not attempt below level 18 solo.", confidence = "high" },
+    [104] = { threat = "MEDIUM", reason = "Old Murk-Eye is a level 20 named murloc who patrols the coast with a group of murlocs. He is not elite but hits hard for the level. Clear his guards before engaging and be ready to retreat. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Insect Part Analysis
-    [110] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [110] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Insect Part Analysis
-    [113] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [113] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Captain Sander's Hidden Treasure
-    [136] = { threat = "LOW", reason = "Travel and exploration step with no combat. The footlocker is on the coast of Westfall. Safe if you avoid the murlocs along the shore.", confidence = "high" },
+    [136] = { threat = "LOW", reason = "Travel and exploration step with no combat. The footlocker is on the coast of Westfall. Safe if you avoid the murlocs along the shore.", confidence = "medium" },
 
     -- Captain Sander's Hidden Treasure
-    [138] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [138] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Captain Sander's Hidden Treasure
-    [139] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [139] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "medium" },
 
     -- Captain Sander's Hidden Treasure
     [140] = { threat = "MEDIUM", reason = "The chest is guarded by a group of Defias mobs, including a named mob. Clear the area before looting and be ready for a fight. Do not attempt below level 15 solo.", confidence = "medium" },
 
     -- The Coast Isn't Clear
-    [152] = { threat = "MEDIUM", reason = "The murlocs are level 15-19 and are packed in camps along the shore. The Oracles cast healing spells, so kill them first. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "high" },
+    [152] = { threat = "MEDIUM", reason = "The murlocs are level 15-19 and are packed in camps along the shore. The Oracles cast healing spells, so kill them first. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Tiger Mastery
-    [185] = { threat = "LOW", reason = "The tigers are levels 30-32 and are found in northern Stranglethorn. They are stealthed and can ambush you. Fight in open areas and check for prowling cats between pulls. Manageable solo for a level 30+ character.", confidence = "high" },
+    [185] = { threat = "LOW", reason = "The tigers are levels 30-32 and are found in northern Stranglethorn. They are stealthed and can ambush you. Fight in open areas and check for prowling cats between pulls. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Tiger Mastery
-    [186] = { threat = "LOW", reason = "The tigers are levels 32-34 and are found throughout Stranglethorn. They are stealthed and can ambush you. Fight in open areas and watch for adds. Manageable solo for a level 32+ character.", confidence = "high" },
+    [186] = { threat = "LOW", reason = "The tigers are levels 32-34 and are found throughout Stranglethorn. They are stealthed and can ambush you. Fight in open areas and watch for adds. Manageable solo for a level 32+ character.", confidence = "medium" },
 
     -- Tiger Mastery
     [187] = { threat = "MEDIUM", reason = "The elder tigers are levels 35-37 and are found in the southern parts of Stranglethorn. They hit harder than the younger tigers and are still stealthed. Clear methodically and watch for adds. Do not attempt below level 34 solo.", confidence = "medium" },
@@ -51,10 +51,10 @@ addon.quests = {
     [189] = { threat = "MEDIUM", reason = "The ears drop from Bloodscalp trolls in northern Stranglethorn. The trolls are levels 34-38 and are packed in camps. They pull in groups and have ranged casters. Clear methodically and watch for patrolling mobs. Do not attempt below level 34 solo.", confidence = "medium" },
 
     -- Panther Mastery
-    [190] = { threat = "LOW", reason = "The panthers are levels 30-32 and are found in northern Stranglethorn. They are stealthed and can ambush you. Fight in open areas and check for prowling cats between pulls. Manageable solo for a level 30+ character.", confidence = "high" },
+    [190] = { threat = "LOW", reason = "The panthers are levels 30-32 and are found in northern Stranglethorn. They are stealthed and can ambush you. Fight in open areas and check for prowling cats between pulls. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Panther Mastery
-    [191] = { threat = "LOW", reason = "The panthers are levels 32-34 and are found throughout Stranglethorn. They are stealthed and can ambush you. Fight in open areas and watch for adds. Manageable solo for a level 32+ character.", confidence = "high" },
+    [191] = { threat = "LOW", reason = "The panthers are levels 32-34 and are found throughout Stranglethorn. They are stealthed and can ambush you. Fight in open areas and watch for adds. Manageable solo for a level 32+ character.", confidence = "medium" },
 
     -- Panther Mastery
     [192] = { threat = "MEDIUM", reason = "The shadowmaw panthers are levels 35-37 and are found in the southern parts of Stranglethorn. They hit harder than the younger panthers and are still stealthed. Clear methodically and watch for adds. Do not attempt below level 34 solo.", confidence = "medium" },
@@ -63,10 +63,10 @@ addon.quests = {
     [193] = { threat = "MEDIUM", reason = "Bhag'thera is a level 37 named panther who spawns at a specific location in Stranglethorn. He hits hard and has a bleed effect. Clear the area before engaging and be ready for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Raptor Mastery
-    [194] = { threat = "LOW", reason = "The raptors are levels 30-32 and are found in northern Stranglethorn. They run in packs and flee at low health. Kill the runners first and fight in open areas. Manageable solo for a level 30+ character.", confidence = "high" },
+    [194] = { threat = "LOW", reason = "The raptors are levels 30-32 and are found in northern Stranglethorn. They run in packs and flee at low health. Kill the runners first and fight in open areas. Manageable solo for a level 30+ character.", confidence = "medium" },
 
     -- Raptor Mastery
-    [195] = { threat = "LOW", reason = "The raptors are levels 32-34 and are found throughout Stranglethorn. They run in packs and flee at low health. Kill the runners first and fight in open areas. Manageable solo for a level 32+ character.", confidence = "high" },
+    [195] = { threat = "LOW", reason = "The raptors are levels 32-34 and are found throughout Stranglethorn. They run in packs and flee at low health. Kill the runners first and fight in open areas. Manageable solo for a level 32+ character.", confidence = "medium" },
 
     -- Raptor Mastery
     [196] = { threat = "MEDIUM", reason = "The stalkers are levels 35-37 and are found in the southern parts of Stranglethorn. They hit harder than the younger raptors and run in packs. Kill the runners first and fight in open areas. Do not attempt below level 34 solo.", confidence = "medium" },
@@ -75,37 +75,40 @@ addon.quests = {
     [197] = { threat = "MEDIUM", reason = "Tethis is a level 37 named raptor who spawns at a specific location. He hits hard and has a bleed effect. Clear the area before engaging and be ready for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Investigate the Camp
-    [201] = { threat = "LOW", reason = "Travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [201] = { threat = "LOW", reason = "Travel and exploration step with no required combat. Follow the road to the hunters' camp and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Big Game Hunter
-    [208] = { threat = "EXTREME", reason = "He summons two level 29 Jungle Panthers when attacked and calls for aid from any nearby tigers. A level 46 priest failed solo. Skip on Hardcore unless heavily overleveled or in a group with the surrounding tigers cleared.", confidence = "high" },
+    [208] = { threat = "EXTREME", reason = "Group quest. King Bangalash is a level 43 Elite, and nearby panthers can join the fight. Clear the area and bring a group; skip a solo attempt near the quest level.", confidence = "medium" },
 
     -- Skullsplitter Tusks
-    [209] = { threat = "MEDIUM", reason = "The tusks drop from Skullsplitter trolls in the Ruins of Zul'Mamwe and Zul'Kunda in northern Stranglethorn. The trolls are levels 35-40 and are packed in ruins. They pull in groups and have ranged casters. Clear methodically and watch for patrolling mobs. Do not attempt below level 35 solo.", confidence = "medium" },
+    [209] = { threat = "MEDIUM", reason = "Skullsplitter camps are dense and include ranged trolls, so repeated kills can create overlapping pulls. Work the outside of each camp and watch for adds.", confidence = "medium" },
 
     -- Hostile Takeover
-    [213] = { threat = "MEDIUM", reason = "The crystals drop from the Venture Co. goblins at the Venture Co. Mine in northern Stranglethorn. The goblins are levels 35-40 and are packed in the mine. They pull in groups and have ranged attackers. Clear methodically and watch for patrolling mobs. Do not attempt below level 35 solo.", confidence = "medium" },
+    [213] = { threat = "MEDIUM", reason = "Venture Co. miners work in a crowded mine, where ranged attacks and nearby goblins can add to a pull. Clear from the outside inward and avoid fighting several enemies at once.", confidence = "medium" },
 
     -- The Green Hills of Stranglethorn
-    [338] = { threat = "LOW", reason = "The pages drop from mobs across Stranglethorn Vale. This is a long collection quest with no specific combat objective. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "high" },
+    [338] = { threat = "LOW", reason = "The pages drop from mobs across Stranglethorn Vale. This is a long collection quest with no specific combat objective. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "medium" },
 
     -- Chapter I
-    [339] = { threat = "LOW", reason = "These pages drop from mobs in Stranglethorn Vale. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "high" },
+    [339] = { threat = "LOW", reason = "These pages drop from mobs in Stranglethorn Vale. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "medium" },
 
     -- Chapter II
-    [340] = { threat = "LOW", reason = "These pages drop from mobs in Stranglethorn Vale. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "high" },
+    [340] = { threat = "LOW", reason = "These pages drop from mobs in Stranglethorn Vale. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "medium" },
 
     -- Chapter III
-    [341] = { threat = "LOW", reason = "These pages drop from mobs in Stranglethorn Vale. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "high" },
+    [341] = { threat = "LOW", reason = "These pages drop from mobs in Stranglethorn Vale. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "medium" },
 
     -- Chapter IV
-    [342] = { threat = "LOW", reason = "These pages drop from mobs in Stranglethorn Vale. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "high" },
+    [342] = { threat = "LOW", reason = "These pages drop from mobs in Stranglethorn Vale. The drop rate is low and the pages are random. Safe if you avoid the mob camps while collecting.", confidence = "medium" },
 
     -- Stranglethorn Fever
-    [348] = { threat = "EXTREME", reason = "The quest triggers three waves of Enraged Silverback Gorillas (levels 37-43) in a small cave with no escape route, followed by Mokk himself, a level 43 elite. The escort NPC can die, and the confined space makes survival nearly impossible solo at the intended level. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [348] = { threat = "HIGH", reason = "Group quest. The summoning brings repeated gorilla waves, including Mokk, while Witch Doctor Unbagwa can die. Bring a suitable group; solo attempts need strong class tools, consumables, and careful focus on Mokk.", confidence = "medium" },
+
+    -- Stranglethorn Fever
+    [349] = { threat = "HIGH", reason = "Group quest. Giving the fangs to Witch Doctor Unbagwa starts repeated gorilla waves, including Mokk, while Unbagwa can die. Bring a suitable group; solo attempts need strong class tools, consumables, and careful focus on Mokk.", confidence = "medium" },
 
     -- Find OOX-17/TN!
-    [351] = { threat = "MEDIUM", reason = "The beacon is found in a cave in the Tanaris desert, guarded by level 40-44 mobs. The journey to Tanaris is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
+    [351] = { threat = "LOW", reason = "The distress beacon is near the Gaping Chasm in Tanaris; this step is to take it to the homing robot. Travel through the high-level zone cautiously and avoid hostile camps.", confidence = "medium" },
 
     -- Find OOX-09/HL!
     [485] = { threat = "HIGH", reason = "This starts a long escort quest where the robot moves fast, does not help you fight, and despawns if it gets too far ahead. You must let it aggro enemies first or it will run off and leave you to die. The escort spawns scripted ambushes including 3 level 47 Owlbeasts and 3 level 47 Vilebranch trolls. A level 47 paladin soloed it, but a level 44 player reported it was not easy without a pet class. The robot is wimpy and cannot be healed. Do not attempt below level 45 solo without a plan to manage the escort.", confidence = "high" },

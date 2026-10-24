@@ -57,49 +57,49 @@ local quests = {
     [100] = { threat = "LOW", reason = "Speaking to the friendly manifestation adds no new fight after the earlier ritual. Finish the conversation in the cleared area and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Alas, Andorhal
-    [105] = { threat = "HIGH", reason = "The mobs are levels 50-55 and hit extremely hard. Do not attempt below level 50 without a group.", confidence = "high" },
+    [105] = { threat = "LOW", reason = "This step only delivers Araj's Phylactery Shard at the Bulwark. Complete the hand-in from the outpost and avoid nearby hostile patrols.", confidence = "medium" },
 
     -- Children's Week
-    [172] = { threat = "LOW", reason = "You receive an orphan whistle and are asked to escort a child around Azeroth. No combat is required, but you will be traveling through contested zones. Stay on the roads and avoid mob camps.", confidence = "high" },
+    [172] = { threat = "LOW", reason = "You receive an orphan whistle and are asked to escort a child around Azeroth. No combat is required, but you will be traveling through contested zones. Stay on the roads and avoid mob camps.", confidence = "medium" },
 
     -- Between a Rock and a Thistlefur
-    [216] = { threat = "MEDIUM", reason = "The Thistlefur camps are dense with mobs and patrolling guards. Clear from the outside in and avoid pulling multiple groups. The area is contested.", confidence = "medium" },
+    [216] = { threat = "MEDIUM", reason = "Thistlefur camps are dense, and shamans can attack from range while nearby trolls join the fight. Clear from the edge and avoid pulling multiple groups.", confidence = "medium" },
 
     -- Call of Water
-    [220] = { threat = "MEDIUM", reason = "Requires combat against corrupted elementals. The elementals are levels 25-28 and pull in small groups. Fight in open areas and avoid the water where mobs have a range advantage.", confidence = "medium" },
+    [220] = { threat = "LOW", reason = "Delivery step with no required combat. Travel to Islen Waterseer and stay away from hostile camps along the Barrens route.", confidence = "medium" },
 
     -- Errand for Apothecary Zinge
-    [232] = { threat = "LOW", reason = "Mostly travel with minor combat against low-level mobs. Safe if you stay on the road between Undercity and the destination.", confidence = "medium" },
+    [232] = { threat = "LOW", reason = "Delivery step with no required combat. Stay within Undercity and avoid hostile areas while finding the recipient.", confidence = "medium" },
 
     -- The Ashenvale Hunt
-    [235] = { threat = "MEDIUM", reason = "The targets are not elites, but the zone is contested and the beasts patrol wide areas. Sharptalon is the toughest at level 31. Pull each to a clear area.", confidence = "medium" },
+    [235] = { threat = "LOW", reason = "Dialogue step at Splintertree Post; this quest starts the Ashenvale hunt but adds no required combat. Travel to the outpost by the road and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Errand for Apothecary Zinge
-    [238] = { threat = "LOW", reason = "No required combat. Safe if you avoid the mob camps along the route.", confidence = "medium" },
+    [238] = { threat = "LOW", reason = "Delivery step with no required combat. Travel to Apothecary Zinge in Undercity and avoid hostile areas on the route.", confidence = "medium" },
 
     -- Into the Field
-    [243] = { threat = "LOW", reason = "The mobs are manageable solo. Watch for wandering centaurs and plainstriders.", confidence = "high" },
+    [243] = { threat = "LOW", reason = "Travel and dialogue step with no required combat. Follow the route to Gadgetzan and avoid hostile camps along the way.", confidence = "medium" },
 
     -- The Hunt Completed
-    [247] = { threat = "LOW", reason = "Standard combat risk. Return to the quest giver and avoid the contested zones.", confidence = "medium" },
+    [247] = { threat = "LOW", reason = "Turn-in step after the three Ashenvale trophies; it adds no combat objective. Return to Senani at Splintertree Post.", confidence = "medium" },
 
     -- Until Death Do Us Part
-    [264] = { threat = "MEDIUM", reason = "No required combat, but the journey passes through Son of Arugal's patrol route.", confidence = "high" },
+    [264] = { threat = "MEDIUM", reason = "No combat is required, but the tomb lies off the road in Silverpine near hostile patrols. Use a wide route and leave if a dangerous elite is nearby.", confidence = "medium" },
 
     -- Deaths in the Family
-    [354] = { threat = "LOW", reason = "Standard undead starting zone risk. The mobs are low-level and manageable solo.", confidence = "high" },
+    [354] = { threat = "LOW", reason = "Standard undead starting zone risk. The mobs are low-level and manageable solo.", confidence = "medium" },
 
     -- Speak with Sevren
     [355] = { threat = "LOW", reason = "Safe if you stay on the path.", confidence = "medium" },
 
     -- Rear Guard Patrol
-    [356] = { threat = "LOW", reason = "Manageable solo. Watch for the occasional wandering mob.", confidence = "high" },
+    [356] = { threat = "LOW", reason = "Manageable solo. Watch for the occasional wandering mob.", confidence = "medium" },
 
     -- The Lich's Identity
-    [357] = { threat = "MEDIUM", reason = "Prep advised. The elites hit hard for the level. Bring consumables and clear carefully.", confidence = "medium" },
+    [357] = { threat = "MEDIUM", reason = "The spellbook is on a table in Gunther’s camp on the island, where hostile undead guard the approach. Take it while avoiding the guards and watch nearby undead on the way out.", confidence = "medium" },
 
     -- Graverobbers
-    [358] = { threat = "LOW", reason = "Manageable solo. The mobs are easy to kill.", confidence = "high" },
+    [358] = { threat = "LOW", reason = "Manageable solo. The mobs are easy to kill.", confidence = "medium" },
 
     -- Forsaken Duties
     [359] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road.", confidence = "medium" },
@@ -114,16 +114,16 @@ local quests = {
     [362] = { threat = "MEDIUM", reason = "The target is a low-level undead mob, but the mills are packed with Rattlecage Soldiers and Darkeye Bonecasters that can add if you are not careful. Clear the road leading to the mills and pull mobs one at a time.", confidence = "medium" },
 
     -- Rude Awakening
-    [363] = { threat = "LOW", reason = "Standard risk. The mobs are low-level and manageable solo.", confidence = "high" },
+    [363] = { threat = "LOW", reason = "Standard risk. The mobs are low-level and manageable solo.", confidence = "medium" },
 
     -- The Mindless Ones
-    [364] = { threat = "MEDIUM", reason = "The mobs have a mind-control mechanic that can turn you against your own faction. Fight them one at a time and be ready to break the mind-control.", confidence = "medium" },
+    [364] = { threat = "LOW", reason = "The required zombies are near Deathknell and are low-level. Pull them singly and avoid nearby hostile groups.", confidence = "medium" },
 
     -- Fields of Grief
-    [365] = { threat = "MEDIUM", reason = "The mobs are low-level but can pull in groups. Fight in open areas where you can see them coming and retreat if needed.", confidence = "low" },
+    [365] = { threat = "LOW", reason = "The pumpkins can be collected without fighting. Avoid the hostile farm creatures and leave if they begin to converge.", confidence = "low" },
 
     -- Return the Book
-    [366] = { threat = "LOW", reason = "The journey is short and the mobs along the way are low-level. The quest giver on the island is friendly. Standard early-game travel risk only.", confidence = "high" },
+    [366] = { threat = "LOW", reason = "The journey is short and the mobs along the way are low-level. The quest giver on the island is friendly. Standard early-game travel risk only.", confidence = "medium" },
 
     -- A New Plague
     [367] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road.", confidence = "medium" },
@@ -144,28 +144,28 @@ local quests = {
     [372] = { threat = "MEDIUM", reason = "The final camp is densely packed with mobs and has a named mob. Clear the camp before engaging the named target.", confidence = "medium" },
 
     -- Proof of Demise
-    [374] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road.", confidence = "medium" },
+    [374] = { threat = "MEDIUM", reason = "The rings drop from Scarlet Crusaders in hostile camps around Tirisfal Glades. Pull enemies away from groups and avoid fighting near patrols.", confidence = "medium" },
 
     -- The Chill of Death
-    [375] = { threat = "MEDIUM", reason = "The mobs are levels 10-14 and can pull in groups. Fight in open areas and retreat if you pull too many.", confidence = "low" },
+    [375] = { threat = "LOW", reason = "The pelts come from low-level duskbat kills and the thread can be bought. Farm away from dense clusters and retreat if bats add.", confidence = "low" },
 
     -- The Damned
-    [376] = { threat = "MEDIUM", reason = "The mobs are levels 11-15 and stand in groups. Pull singles and watch for patrolling mobs.", confidence = "low" },
+    [376] = { threat = "LOW", reason = "The paws and wings come from ordinary low-level creatures near Deathknell. Pull singly and avoid nearby groups.", confidence = "low" },
 
     -- Slake That Thirst
-    [379] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road.", confidence = "medium" },
+    [379] = { threat = "MEDIUM", reason = "The water pouches drop from Wastewander enemies in Tanaris. Farm at the edges of their camps, pull singly, and watch for patrols.", confidence = "medium" },
 
     -- Night Web's Hollow
     [380] = { threat = "MEDIUM", reason = "The cave is narrow, mobs respawn quickly behind you, and the deeper sections have multiple spiders packed together. Enter with full health, clear methodically, and leave yourself an exit path.", confidence = "medium" },
 
     -- The Scarlet Crusade
-    [381] = { threat = "LOW", reason = "No required combat. Safe if you stay in the camp.", confidence = "medium" },
+    [381] = { threat = "LOW", reason = "The armbands come from low-level Scarlet Converts and Initiates near Tirisfal. Pull singly and avoid nearby groups.", confidence = "medium" },
 
     -- The Red Messenger
     [382] = { threat = "MEDIUM", reason = "The courier is level 14 and has guards. Clear the area before engaging and be ready for adds.", confidence = "low" },
 
     -- Vital Intelligence
-    [383] = { threat = "MEDIUM", reason = "The mobs are levels 10-14 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [383] = { threat = "LOW", reason = "This is a document delivery from Deathknell to Brill with no required combat. Use the road and avoid hostile creatures along the route.", confidence = "low" },
 
     -- Wanted: Maggot Eye
     [398] = { threat = "MEDIUM", reason = "The target is level 12 and is surrounded by guards. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },

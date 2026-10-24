@@ -35,9 +35,13 @@ writing a warning. Research and addon records use the same four threat values:
 ## Assess from knowledge and local data first
 
 1. Read only the selected catalog record and current addon warning. Reuse the
-   catalog's identity, description, faction, and category flags. Skip catalog
-   Dungeon/Raid quests before researching. Catalog absence alone does not prove
-   unavailability, and an Elite flag alone does not imply Dungeon/Raid type.
+   catalog's identity, description, faction, and category flags. For ordinary
+   traversal, skip catalog Dungeon/Raid quests before researching. If the user
+   explicitly asks to review Dungeon/Raid quests, that request overrides the
+   skip: assess them normally and verify whether their objectives require the
+   instance or have a viable outside-instance route. Catalog absence alone does
+   not prove unavailability, and an Elite flag alone does not imply Dungeon/Raid
+   type.
 2. Form an initial tier and compact warning using the description, known Classic
    Era mechanics, and the classification rubric. Distinguish catalog facts,
    remembered mechanics, and inference. An existing addon warning is a claim to
@@ -71,8 +75,10 @@ access controls.
   independent sources when necessary to resolve conflict or justify confidence.
   There is no mandatory Wowhead-plus-two-pages sequence.
 - Check returned identity, version, and metadata. Skip a newly established
-  Dungeon/Raid quest before comments. A Cataclysm removal notice does not prove
-  Classic Era unavailability.
+  Dungeon/Raid quest before comments during ordinary traversal, unless the user
+  explicitly requested Dungeon/Raid reviews. For an explicit review, assess the
+  documented instance and outside-instance completion risks. A Cataclysm removal
+  notice does not prove Classic Era unavailability.
 - If comments are useful, read a relevant sample of up to 20. Prefer
   highest-rated only when scores or sort metadata establish that order. Record
   `ranking: "unverified"` when the order is unknown, `unavailable` if retrieval

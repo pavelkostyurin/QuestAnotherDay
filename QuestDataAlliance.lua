@@ -36,7 +36,7 @@ local quests = {
     [15] = { threat = "LOW", reason = "The early kobold area calls for ordinary single pulls. Recover between fights and avoid collecting several enemies at once.", confidence = "medium" },
 
     -- Uldaman Reagent Run
-    [17] = { threat = "HIGH", reason = "The caps are found in clusters inside and outside the instance, guarded by level 35-40 elite troggs and stone mobs. The clusters can spew poison spores when jostled. This requires a full group of level 38+ or careful soloing of the exterior. Do not attempt below level 38 without a group.", confidence = "high" },
+    [17] = { threat = "MEDIUM", reason = "The caps also spawn in Uldaman’s outside tunnels, where hostile mobs and poison spores can punish careless harvesting. Clear nearby enemies before picking caps, and leave if the pulls become unsafe.", confidence = "medium" },
 
     -- Brotherhood of Thieves
     [18] = { threat = "LOW", reason = "Bandits in the vineyard can add to a fight if you move between groups carelessly. Pull isolated enemies and recover before approaching another group.", confidence = "medium" },
@@ -228,82 +228,82 @@ local quests = {
     [98] = { threat = "MEDIUM", reason = "The named enemy can hit hard inside a confined cottage. Clear nearby threats, start at full resources, and keep the doorway available for retreat.", confidence = "medium" },
 
     -- The Totem of Infliction
-    [101] = { threat = "LOW", reason = "The items drop from undead and spiders in Duskwood. The mobs are levels 20-25. The drop rates are moderate. Manageable solo for a level 22+ character.", confidence = "high" },
+    [101] = { threat = "LOW", reason = "The items drop from undead and spiders in Duskwood. The mobs are levels 20-25. The drop rates are moderate. Manageable solo for a level 22+ character.", confidence = "medium" },
 
     -- Patrolling Westfall
-    [102] = { threat = "LOW", reason = "The paws drop from Riverpaw gnolls in Westfall. The gnolls are levels 10-14 and are scattered in camps. The drop rate is moderate. Manageable solo for a level 12+ character.", confidence = "high" },
+    [102] = { threat = "LOW", reason = "The paws drop from Riverpaw gnolls in Westfall. The gnolls are levels 10-14 and are scattered in camps. The drop rate is moderate. Manageable solo for a level 12+ character.", confidence = "medium" },
 
     -- Young Lovers
-    [106] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [106] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Note to William
-    [107] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [107] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Report to Gryan Stoutmantle
-    [109] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [109] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Speak with Gramma
-    [111] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [111] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Collecting Kelp
-    [112] = { threat = "LOW", reason = "The kelp is found underwater along the Westfall coast. The area has murlocs but the kelp can be gathered by swimming. Watch your breath meter. Manageable solo for a level 12+ character.", confidence = "high" },
+    [112] = { threat = "LOW", reason = "The kelp is found underwater along the Westfall coast. The area has murlocs but the kelp can be gathered by swimming. Watch your breath meter. Manageable solo for a level 12+ character.", confidence = "medium" },
 
     -- The Escape
-    [114] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [114] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Shadow Magic
     [115] = { threat = "MEDIUM", reason = "The orbs drop from Shadowhide gnolls in Redridge. The gnolls are levels 21-26 and are packed in Galardell Valley. The drop rate is moderate. Clear methodically and watch for the level 25+ gnolls. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Dry Times
-    [116] = { threat = "LOW", reason = "The items are purchased from vendors across Elwynn and Redridge. Travel and collection step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [116] = { threat = "LOW", reason = "The items are purchased from vendors across Elwynn and Redridge. Travel and collection step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Thunderbrew
     [117] = { threat = "MEDIUM", reason = "The hops drop from a specific type of mob in the zone. The drop rate is moderate, so expect to kill several. Clear the area before looting and watch for patrolling mobs.", confidence = "medium" },
 
     -- The Price of Shoes
-    [118] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [118] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Return to Verner
-    [119] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [119] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Messenger to Stormwind
-    [120] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [120] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Messenger to Stormwind
-    [121] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [121] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Underbelly Scales
-    [122] = { threat = "HIGH", reason = "The whelps are levels 24-26 and are in the Burning Steppes/Redridge border area. They are aggressive and can pull in groups. A level 22 warrior died here trying to solo the whelps. Do not attempt below level 24 without a group.", confidence = "high" },
+    [122] = { threat = "HIGH", reason = "The whelps are levels 24-26 and are in the Burning Steppes/Redridge border area. They are aggressive and can pull in groups. A level 22 warrior died here trying to solo the whelps. Do not attempt below level 24 without a group.", confidence = "medium" },
 
     -- The Collector
-    [123] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [123] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- A Baying of Gnolls
-    [124] = { threat = "MEDIUM", reason = "The gnolls are levels 18-22 and are packed in camps in Redridge. They pull in groups and the Mystics cast shadow bolts. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "high" },
+    [124] = { threat = "MEDIUM", reason = "The gnolls are levels 18-22 and are packed in camps in Redridge. They pull in groups and the Mystics cast shadow bolts. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- The Lost Tools
-    [125] = { threat = "MEDIUM", reason = "The toolbox is underwater and guarded by level 18-22 murlocs. You must dive to the bottom of the lake. Watch your breath meter and clear the murlocs before looting. Do not attempt below level 18 solo.", confidence = "high" },
+    [125] = { threat = "MEDIUM", reason = "The toolbox is underwater and guarded by level 18-22 murlocs. You must dive to the bottom of the lake. Watch your breath meter and clear the murlocs before looting. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Howling in the Hills
     [126] = { threat = "MEDIUM", reason = "Yowler is a level 22 named mob surrounded by guards in a cave. Clear the cave before engaging and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Selling Fish
-    [127] = { threat = "LOW", reason = "The fish are caught from Lake Everstill. No combat required beyond fishing. Safe if you avoid the murlocs along the shore.", confidence = "high" },
+    [127] = { threat = "LOW", reason = "The fish are caught from Lake Everstill. No combat required beyond fishing. Safe if you avoid the murlocs along the shore.", confidence = "medium" },
 
     -- Blackrock Bounty
     [128] = { threat = "MEDIUM", reason = "The Champions are levels 20-24 and are packed in the Blackrock camps in Redridge. They pull in groups and have ranged attackers. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- A Free Lunch
-    [129] = { threat = "LOW", reason = "He patrols the road leading to Darkshire. Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [129] = { threat = "LOW", reason = "He patrols the road leading to Darkshire. Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Visit the Herbalist
-    [130] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [130] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Delivering Daffodils
-    [131] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [131] = { threat = "LOW", reason = "Pure delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Defias Brotherhood
-    [132] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [132] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Ghoulish Effigy
     [133] = { threat = "MEDIUM", reason = "The ribs drop from ghouls in the Raven Hill cemetery. The ghouls are levels 22-26 and are packed in the cemetery. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Do not attempt below level 22 solo.", confidence = "medium" },
@@ -312,391 +312,394 @@ local quests = {
     [134] = { threat = "MEDIUM", reason = "The crate is stolen by ogres at the ogre mound in Duskwood. The ogres are levels 24-28 and are packed in the mound. They pull in groups and hit hard. Clear methodically and watch for patrolling mobs. Do not attempt below level 24 solo.", confidence = "medium" },
 
     -- The Defias Brotherhood
-    [135] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [135] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Defias Brotherhood
-    [141] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [141] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Defias Brotherhood
     [142] = { threat = "MEDIUM", reason = "The Messenger is a level 18-20 mob who patrols the roads of Westfall. He is accompanied by guards and will flee when attacked. Clear the area before engaging and be ready to chase him down. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Messenger to Westfall
-    [143] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [143] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Messenger to Westfall
-    [144] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [144] = { threat = "LOW", reason = "Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Messenger to Darkshire
-    [145] = { threat = "MEDIUM", reason = "The journey to Darkshire passes through the dangerous Duskwood, which is patrolled by level 20-30 mobs. Stay on the road and avoid the cemeteries and ogre mounds. Do not attempt below level 20 solo.", confidence = "high" },
+    [145] = { threat = "MEDIUM", reason = "The journey to Darkshire passes through the dangerous Duskwood, which is patrolled by level 20-30 mobs. Stay on the road and avoid the cemeteries and ogre mounds. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Messenger to Darkshire
-    [146] = { threat = "MEDIUM", reason = "The journey back passes through Duskwood. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "high" },
+    [146] = { threat = "MEDIUM", reason = "The journey back passes through Duskwood. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Manhunt
-    [147] = { threat = "EXTREME", reason = "He is accompanied by a level 22-23 bodyguard in a house in Moonbrook. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [147] = { threat = "HIGH", reason = "Morgan is inside a house with several Defias guards, including a ranged attacker. Clear nearby patrols and pull the guards away if needed; return with backup if you cannot control the full pull.", confidence = "medium" },
 
     -- Supplies from Darkshire
-    [148] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [148] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Ghost Hair Thread
-    [149] = { threat = "MEDIUM", reason = "The path to her house is patrolled by level 20-25 mobs, and the quest text warns that 'dark things now lurk near that house.' Blind Mary herself is a friendly ghost and does not attack. A level 24 hunter soloed this, but died twice in the chain and warns of Stitches on the path. Do not attempt below level 22 solo.", confidence = "high" },
+    [149] = { threat = "MEDIUM", reason = "The path to her house is patrolled by level 20-25 mobs, and the quest text warns that 'dark things now lurk near that house.' Blind Mary herself is a friendly ghost and does not attack. A level 24 hunter soloed this, but died twice in the chain and warns of Stitches on the path. Do not attempt below level 22 solo.", confidence = "medium" },
 
     -- Murloc Poachers
-    [150] = { threat = "MEDIUM", reason = "The murlocs are level 17-20 and are packed along the shores of Lake Everstill. The drop rate is roughly 1 in 10, so expect to kill many. The best spot is a large group at coordinates 41, 46. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "high" },
+    [150] = { threat = "MEDIUM", reason = "The murlocs are level 17-20 and are packed along the shores of Lake Everstill. The drop rate is roughly 1 in 10, so expect to kill many. The best spot is a large group at coordinates 41, 46. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Poor Old Blanchy
-    [151] = { threat = "LOW", reason = "The oats are found on the ground around the farms, not from mobs. No combat required, but the fields are patrolled by Harvest Watchers. Stay away from the machines and gather carefully.", confidence = "high" },
+    [151] = { threat = "LOW", reason = "The oats are found on the ground around the farms, not from mobs. No combat required, but the fields are patrolled by Harvest Watchers. Stay away from the machines and gather carefully.", confidence = "medium" },
 
     -- Red Leather Bandanas
-    [153] = { threat = "LOW", reason = "The bandanas drop from Defias mobs in Westfall. The mobs are levels 13-17 and are scattered in camps. The drop rate is moderate. Manageable solo for a level 15+ character.", confidence = "high" },
+    [153] = { threat = "LOW", reason = "The bandanas drop from Defias mobs in Westfall. The mobs are levels 13-17 and are scattered in camps. The drop rate is moderate. Manageable solo for a level 15+ character.", confidence = "medium" },
 
     -- Return the Comb
-    [154] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road and avoid the mobs near Blind Mary's house.", confidence = "high" },
+    [154] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road and avoid the mobs near Blind Mary's house.", confidence = "medium" },
 
     -- The Defias Brotherhood
-    [155] = { threat = "HIGH", reason = "The traitor walks a fixed path through Westfall, and you must protect him from Defias mobs that ambush along the way. The mobs are levels 15-18 and pull in groups. If the traitor dies, the quest fails. Do not attempt below level 18 solo without a group.", confidence = "high" },
+    [155] = { threat = "HIGH", reason = "Group quest. The escort continues into Moonbrook while Defias attackers target the traitor, and the quest text recommends bringing friends. Bring a partner or overlevel before attempting solo.", confidence = "medium" },
 
     -- Gather Rot Blossoms
     [156] = { threat = "MEDIUM", reason = "The blossoms are found in the Raven Hill cemetery, which is patrolled by level 20-26 undead. The cemetery is dense with mobs and has elite patrols. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Deliver the Thread
-    [157] = { threat = "MEDIUM", reason = "The path to his shack is patrolled by level 20-25 undead, including spiders and ghouls. The shack itself is safe. A level 24 hunter soloed this, but warns of Stitches on the path. Do not attempt below level 22 solo.", confidence = "high" },
+    [157] = { threat = "MEDIUM", reason = "The path to his shack is patrolled by level 20-25 undead, including spiders and ghouls. The shack itself is safe. A level 24 hunter soloed this, but warns of Stitches on the path. Do not attempt below level 22 solo.", confidence = "medium" },
 
     -- Zombie Juice
-    [158] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [158] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Juice Delivery
-    [159] = { threat = "MEDIUM", reason = "The path to his shack is patrolled by level 20-25 undead. The shack itself is safe. Do not attempt below level 22 solo.", confidence = "high" },
+    [159] = { threat = "MEDIUM", reason = "The path to his shack is patrolled by level 20-25 undead. The shack itself is safe. Do not attempt below level 22 solo.", confidence = "medium" },
 
     -- Note to the Mayor
-    [160] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [160] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- A Dark Threat Looms
     [161] = { threat = "MEDIUM", reason = "The journey to Dun Modr passes through the Wetlands, which is patrolled by level 20-25 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Rise of the Silithid
-    [162] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [162] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Raven Hill
     [163] = { threat = "MEDIUM", reason = "The quest leads into the Raven Hill cemetery, which is filled with level 20-26 undead. The cemetery is dense with mobs and has elite patrols. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Deliveries to Sven
-    [164] = { threat = "LOW", reason = "The fastest route is to fly to Sentinel Hill in Westfall and swim across the river. The camp is safe, but the journey avoids the dangerous Raven Hill cemetery entirely. A level 17 character can complete this without fighting.", confidence = "high" },
+    [164] = { threat = "LOW", reason = "The fastest route is to fly to Sentinel Hill in Westfall and swim across the river. The camp is safe, but the journey avoids the dangerous Raven Hill cemetery entirely. A level 17 character can complete this without fighting.", confidence = "medium" },
 
     -- The Hermit
-    [165] = { threat = "LOW", reason = "The shack is northeast of the cemetery, and there are no monsters close to it. You can complete this quest without fighting anything if you move carefully and avoid the cemetery itself. A level 17 character can do this.", confidence = "high" },
+    [165] = { threat = "LOW", reason = "The shack is northeast of the cemetery, and there are no monsters close to it. You can complete this quest without fighting anything if you move carefully and avoid the cemetery itself. A level 17 character can do this.", confidence = "medium" },
 
     -- The Defias Brotherhood
-    [166] = { threat = "EXTREME", reason = "VanCleef is the final boss of The Deadmines, a level 17-20 dungeon. He is a level 21 elite surrounded by elite Defias mobs, including two bodyguards. This requires a full group of level 18-22. Do not attempt solo.", confidence = "high" },
+    [166] = { threat = "EXTREME", reason = "Group quest. VanCleef is a level 21 Elite with two stealthed guards, then summons more adds during the fight. Bring a coordinated Deadmines group around level 20 or above; skip the encounter if you cannot form a party.", confidence = "high" },
 
     -- Oh Brother. . .
-    [167] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [167] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Collecting Memories
-    [168] = { threat = "MEDIUM", reason = "The cards drop from the Deadmines dungeon, which is a level 17-20 instance filled with elite Defias mobs. This requires a full group of level 18-22. Do not attempt solo.", confidence = "high" },
+    [168] = { threat = "HIGH", reason = "The four cards drop from elite undead in the mine outside the Deadmines instance. Expect dangerous pulls at the quest's level; bring a group or return overleveled.", confidence = "medium" },
 
     -- Wanted: Gath'Ilzogg
-    [169] = { threat = "EXTREME", reason = "Gath'Ilzogg is in Stonewatch Keep, surrounded by elite orcs with no safe retreat. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [169] = { threat = "EXTREME", reason = "Gath'Ilzogg is in Stonewatch Keep, surrounded by elite orcs with no safe retreat. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "medium" },
 
     -- A New Threat
-    [170] = { threat = "LOW", reason = "The troggs are levels 10-12 and are found in the snow fields of Dun Morogh. Manageable solo for a level 10+ character.", confidence = "high" },
+    [170] = { threat = "MEDIUM", reason = "The Rockjaw troggs are higher-level enemies concentrated around their camps. Pull them one at a time and return overleveled if the Burly troggs overwhelm you.", confidence = "medium" },
 
     -- A Warden of the Alliance
-    [171] = { threat = "LOW", reason = "This is a Children's Week holiday quest. Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [171] = { threat = "LOW", reason = "This is a Children's Week holiday quest. Travel step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Worgen in the Woods
     [173] = { threat = "MEDIUM", reason = "The worgen are levels 24-28 and are found in the woods of Duskwood. They are stealthed and can ambush you. Fight in open areas and check for prowling worgen between pulls. Do not attempt below level 24 solo.", confidence = "medium" },
 
     -- Look To The Stars
-    [174] = { threat = "LOW", reason = "This is a collection step with no combat. The tube can be purchased from an engineering supplier or the auction house. Safe if you stay in the city.", confidence = "high" },
+    [174] = { threat = "LOW", reason = "This is a collection step with no combat. The tube can be purchased from an engineering supplier or the auction house. Safe if you stay in the city.", confidence = "medium" },
 
     -- Look To The Stars
-    [175] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [175] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Wanted:  "Hogger"
-    [176] = { threat = "EXTREME", reason = "Hogger is accompanied by Riverpaw gnolls and hits extremely hard for his level. A level 11 warrior in full whites died solo. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [176] = { threat = "EXTREME", reason = "Elite quest. Hogger is a level 11 elite in gnoll territory, making a solo fight at the quest level exceptionally dangerous. Bring a group or skip until significantly overleveled.", confidence = "medium" },
 
     -- Look To The Stars
-    [177] = { threat = "MEDIUM", reason = "The Insane Ghoul is a level 26 mob in the Tranquil Gardens Cemetery. The cemetery is filled with level 22-26 undead. Clear the area before engaging the ghoul and watch for patrolling mobs. Do not attempt below level 24 solo.", confidence = "high" },
+    [177] = { threat = "MEDIUM", reason = "The Insane Ghoul is a level 26 mob in the Tranquil Gardens Cemetery. The cemetery is filled with level 22-26 undead. Clear the area before engaging the ghoul and watch for patrolling mobs. Do not attempt below level 24 solo.", confidence = "medium" },
 
     -- Theocritus' Retrieval
-    [178] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [178] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Dwarven Outfitters
-    [179] = { threat = "LOW", reason = "The meat drops from wolves in Dun Morogh. The wolves are levels 1-6 and are scattered across the zone. Manageable solo for a level 5+ character.", confidence = "high" },
+    [179] = { threat = "LOW", reason = "The meat drops from wolves in Dun Morogh. The wolves are levels 1-6 and are scattered across the zone. Manageable solo for a level 5+ character.", confidence = "medium" },
 
     -- Wanted: Lieutenant Fangore
-    [180] = { threat = "HIGH", reason = "Fangore is a level 26 named gnoll in the far southeast of Redridge (79, 39), guarded by 2-3 bodyguards. He is immune to shadow magic, which makes him dangerous for warlocks and shadow priests. He has a huge aggro range and can pull additional gnolls, including stealthed Assassins. A level 27 hunter died 3 times trying to solo him. A level 26 warlock killed him but died immediately after to the 4-5 gnolls that swarmed. Do not attempt below level 26 solo without a plan to escape. Bring a group or overlevel significantly.", confidence = "high" },
+    [180] = { threat = "HIGH", reason = "Lieutenant Fangore is level 26 and calls several gnoll guards when engaged. Clear the nearby camp and approach with a group; solo attempts at quest level are high risk.", confidence = "medium" },
 
     -- Look To The Stars
     [181] = { threat = "MEDIUM", reason = "Zzarc'Vul is a level 26 ogre mage in a cave filled with level 24-28 ogres. The cave is dark and mobs are packed together. Clear methodically and watch for patrolling mobs. Do not attempt below level 24 solo.", confidence = "medium" },
 
     -- The Troll Cave
-    [182] = { threat = "LOW", reason = "The whelps are levels 3-5 and are found in the troll cave in Dun Morogh. The cave is dark but the mobs are low-level. Manageable solo for a level 4+ character. Watch for the named troll Grik'nir if he is present.", confidence = "high" },
+    [182] = { threat = "LOW", reason = "The whelps are levels 3-5 and are found in the troll cave in Dun Morogh. The cave is dark but the mobs are low-level. Manageable solo for a level 4+ character. Watch for the named troll Grik'nir if he is present.", confidence = "medium" },
 
     -- The Boar Hunter
-    [183] = { threat = "LOW", reason = "The boars are levels 4-6 and are found in the snowfields of Dun Morogh. They are neutral and do not aggro. Manageable solo for a level 5+ character.", confidence = "high" },
+    [183] = { threat = "LOW", reason = "The boars are levels 4-6 and are found in the snowfields of Dun Morogh. They are neutral and do not aggro. Manageable solo for a level 5+ character.", confidence = "medium" },
 
     -- Furlbrow's Deed
-    [184] = { threat = "LOW", reason = "The deed is in the farmhouse at the pumpkin farm, which is guarded by level 10-12 Defias mobs. Clear the outside before entering. Do not attempt below level 10 solo.", confidence = "medium" },
+    [184] = { threat = "MEDIUM", reason = "The deed is inside a farmhouse guarded by Defias. Clear the nearby enemies before entering, and leave if they begin to chain-pull.", confidence = "medium" },
 
     -- Supplies to Private Thorsen
-    [198] = { threat = "LOW", reason = "He is at the Rebel Camp in northern Stranglethorn. Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [198] = { threat = "LOW", reason = "He is at the Rebel Camp in northern Stranglethorn. Travel and delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- A Dark Threat Looms
-    [199] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [199] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Bookie Herod
     [200] = { threat = "MEDIUM", reason = "The records are in a house in the Kurzen Compound, which is filled with level 35-40 Kurzen mobs. The compound is dense with enemies and has patrolling elites. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- Colonel Kurzen
-    [202] = { threat = "EXTREME", reason = "Kurzen is a level 40 elite boss inside the Stockpile cave, which is filled with level 38-42 elite Kurzen mobs. This is an Elite quest by design. The cave is a maze with no safe retreat. A level 40 paladin died here. Bring a full group of level 38-42 with a healer. Do not attempt solo.", confidence = "high" },
+    [202] = { threat = "EXTREME", reason = "Group quest. Kurzen and his officers are deep inside the Stockpile cave, with hostile guards along the approach. Bring a group and clear the route; skip a solo attempt near the quest level.", confidence = "medium" },
 
     -- The Second Rebellion
-    [203] = { threat = "MEDIUM", reason = "The fighters are levels 34-38 and are packed in the Kurzen Compound. They pull in groups and have ranged attackers. Clear methodically and watch for patrolling elites. Do not attempt below level 34 solo.", confidence = "medium" },
+    [203] = { threat = "MEDIUM", reason = "Kurzen fighters occupy a dense camp, where nearby enemies can join each pull. Work the perimeter and retreat before pulls chain together.", confidence = "medium" },
 
     -- Bad Medicine
-    [204] = { threat = "MEDIUM", reason = "The remedies drop from Kurzen mobs, and the extract is from a plant in the compound. The compound is filled with level 34-40 mobs. Clear methodically and watch for patrolling elites. Do not attempt below level 34 solo.", confidence = "medium" },
+    [204] = { threat = "MEDIUM", reason = "The remedies and extract are found among hostile Kurzen camps. Clear nearby enemies before gathering, and leave if the pulls become unsafe.", confidence = "medium" },
 
     -- Troll Witchery
-    [205] = { threat = "MEDIUM", reason = "The fetishes drop from Skullsplitter trolls in the Ruins of Zul'Mamwe. The trolls are levels 35-40 and are packed in ruins. They pull in groups and have ranged casters. Clear methodically and watch for patrolling mobs. Do not attempt below level 35 solo.", confidence = "medium" },
+    [205] = { threat = "MEDIUM", reason = "Skullsplitter trolls gather in the Zul'Mamwe ruins, where casters and nearby patrols can join a pull. Fight at the edge of the camp and keep an escape route.", confidence = "medium" },
 
     -- Mai'Zoth
-    [206] = { threat = "EXTREME", reason = "Mai'Zoth is a level 46 elite ogre mage deep inside the cave, guarded by two level 45 elite bodyguards. He casts Frostbolt Volley for 550-750 damage and hits hard in melee. The cave is filled with level 43-45 elite ogres and has no safe retreat once you are inside. Solo attempts at the intended level end in death. Skip this quest on Hardcore unless you are heavily overleveled or have a full group.", confidence = "high" },
+    [206] = { threat = "EXTREME", reason = "Elite quest. Mai'Zoth is a level 47 Elite deep in an ogre cave, flanked by elite guards. Bring a group and skip the fight near the quest level if you cannot.", confidence = "high" },
 
     -- Kurzen's Mystery
-    [207] = { threat = "MEDIUM", reason = "The tablets are scattered across the Kurzen Compound and the surrounding area. The compound is filled with level 34-40 Kurzen mobs. Clear methodically and watch for patrolling elites. Do not attempt below level 34 solo.", confidence = "medium" },
+    [207] = { threat = "MEDIUM", reason = "The tablets are scattered across Kurzen's hostile compound and may require crossing occupied camps. Clear each route and avoid pulling into nearby groups.", confidence = "medium" },
 
     -- Krazek's Cookery
-    [210] = { threat = "LOW", reason = "The crock pot is in the Kurzen Compound, which is filled with level 34-40 mobs. The pot is on a table in one of the buildings. The safest approach is to sneak in, grab the pot, and leave. Do not attempt below level 34 without stealth or a plan.", confidence = "medium" },
+    [210] = { threat = "MEDIUM", reason = "The crock pot is inside Kurzen's hostile compound, with guards near the objective. Clear or avoid the immediate camp before interacting, then leave by your route.", confidence = "medium" },
 
     -- Alas, Andorhal
-    [211] = { threat = "LOW", reason = "This is a delivery step with no combat. The shard is obtained by killing Araj the Summoner, a level 61 elite lich. The journey to Chillwind Camp passes through the Plaguelands, which is dangerous for low-level players. Do not attempt below level 50.", confidence = "medium" },
+    [211] = { threat = "LOW", reason = "Delivery step. Return the shard to Chillwind Camp along the road and avoid hostile patrols.", confidence = "medium" },
 
     -- A Meal Served Cold
-    [212] = { threat = "MEDIUM", reason = "The basilisk is a level 51-53 mob in Winterspring. The journey to Winterspring is dangerous for low-level players, and the basilisk hits hard. Do not attempt below level 50 solo.", confidence = "medium" },
+    [212] = { threat = "LOW", reason = "The Cold Eye Basilisk roams the Stranglethorn coast. Use the Booty Bay flight path for the approach, defeat only the needed target, and keep a clear route back.", confidence = "medium" },
 
     -- Red Silk Bandanas
-    [214] = { threat = "LOW", reason = "The bandanas drop from Defias mobs in Westfall and the Deadmines. The mobs are levels 14-18 and are scattered in camps. The drop rate is moderate. Manageable solo for a level 15+ character.", confidence = "high" },
+    [214] = { threat = "EXTREME", reason = "Elite quest. Red Silk Bandanas drop from elite Defias inside Deadmines and in the outside mine area. Bring a group for the repeated kills; the outside route avoids the instance but not the elite fights.", confidence = "high" },
 
     -- Jungle Secrets
-    [215] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [215] = { threat = "LOW", reason = "Dialogue step at the Rebel Camp with no required combat. Stay on the road and avoid hostile camps on the way there.", confidence = "medium" },
 
     -- In Defense of the King's Lands
-    [217] = { threat = "MEDIUM", reason = "Grawmug is a level 12 named trogg with two guards. The cave is filled with level 10-13 troggs. Clear the cave before engaging the named mobs. Do not attempt below level 11 solo.", confidence = "medium" },
+    [217] = { threat = "MEDIUM", reason = "Grawmug's cave contains several troggs around the named target and his guards. Clear the nearby cave before engaging and leave if enemies begin to chain-pull.", confidence = "medium" },
 
     -- The Stolen Journal
-    [218] = { threat = "MEDIUM", reason = "Grik'nir is a level 11 named troll surrounded by guards in a cave. Clear the cave before engaging. Do not attempt below level 10 solo.", confidence = "medium" },
+    [218] = { threat = "MEDIUM", reason = "Grik'nir is inside a trogg cave with nearby guards. Pull the named troll away from other enemies and keep the entrance clear for retreat.", confidence = "medium" },
 
     -- Missing In Action
-    [219] = { threat = "HIGH", reason = "This is an escort quest through the Burning Steppes and Redridge Mountains. The route is patrolled by level 20-24 Blackrock orcs and other hostile mobs. The escort spawns ambushes along the way. Keeshan can die, failing the quest. Do not attempt below level 20 solo without a group.", confidence = "high" },
+    [219] = { threat = "HIGH", reason = "Escort quest. Keeshan fights his way out of Render's Rock and through the Blackrock camp, and his pulls can snowball. Clear ahead, stay close for credit, and bring a partner if you cannot manage multiple orcs.", confidence = "medium" },
 
     -- Worgen in the Woods
-    [221] = { threat = "MEDIUM", reason = "The worgen are levels 24-28 and are found in the woods of Duskwood. They are stealthed and can ambush you. Fight in open areas and check for prowling worgen between pulls. Do not attempt below level 24 solo.", confidence = "medium" },
+    [221] = { threat = "MEDIUM", reason = "Nightbane Dark Runners can emerge from stealth and ambush you in Duskwood. Fight in open ground and check for nearby worgen before recovering between pulls.", confidence = "medium" },
 
     -- Worgen in the Woods
-    [222] = { threat = "MEDIUM", reason = "The worgen are levels 26-30 and are found deeper in Duskwood. They are stealthed and hit harder than the Dark Runners. Fight in open areas and watch for adds. Do not attempt below level 26 solo.", confidence = "medium" },
+    [222] = { threat = "MEDIUM", reason = "The deeper Nightbane camps can bring several hostile worgen into a fight. Pull away from the camp and watch for stealth ambushes.", confidence = "medium" },
 
     -- Worgen in the Woods
-    [223] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [223] = { threat = "LOW", reason = "Delivery step with no required combat. Follow the road between the settlements and avoid hostile camps.", confidence = "medium" },
 
     -- In Defense of the King's Lands
-    [224] = { threat = "MEDIUM", reason = "The troggs are levels 9-12 and are packed in the caves and hills of Loch Modan. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Do not attempt below level 10 solo.", confidence = "medium" },
+    [224] = { threat = "MEDIUM", reason = "Stonesplinter troggs are concentrated in caves and hills, where scouts can bring nearby enemies into a fight. Pull from the edge and avoid fighting in a crowded passage.", confidence = "medium" },
 
     -- The Weathered Grave
-    [225] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [225] = { threat = "LOW", reason = "Dialogue step in Darkshire with no required combat. Stay within the settlement.", confidence = "medium" },
 
     -- Wolves at Our Heels
-    [226] = { threat = "MEDIUM", reason = "The wolves are levels 20-24 and are found in the western part of Duskwood. They run in packs and can chain-pull. Kill the runners first and fight in open areas. Do not attempt below level 20 solo.", confidence = "medium" },
+    [226] = { threat = "MEDIUM", reason = "The wolves roam in packs across western Duskwood and can add to a fight. Pull one group into open ground and watch for runners.", confidence = "medium" },
 
     -- Morgan Ladimore
-    [227] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [227] = { threat = "LOW", reason = "Dialogue step in Darkshire with no required combat. Stay within the settlement.", confidence = "medium" },
 
     -- Mor'Ladim
-    [228] = { threat = "EXTREME", reason = "Mor'Ladim is a level 35 elite skeleton who roams the Raven Hill cemetery. He hits extremely hard and has a fear effect. He is one of the most notorious solo killers in Duskwood. Do not attempt solo at the intended level. Bring a full group of level 35+ or skip entirely on Hardcore.", confidence = "high" },
+    [228] = { threat = "EXTREME", reason = "Elite quest. Mor'Ladim is a powerful elite that patrols Raven Hill among hostile undead. Bring a group or skip the cemetery near the quest level.", confidence = "medium" },
 
     -- The Daughter Who Lived
-    [229] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [229] = { threat = "LOW", reason = "Dialogue step in Darkshire with no required combat. Stay within the settlement.", confidence = "medium" },
 
     -- Sven's Camp
-    [230] = { threat = "LOW", reason = "This is a delivery step with no combat. The book is in the farmhouse, which is guarded by Defias mobs. The safest approach is to fly to Sentinel Hill in Westfall and swim across the river to Sven's Camp. A level 17 character can do this without fighting.", confidence = "high" },
+    [230] = { threat = "MEDIUM", reason = "The book is inside the abandoned farm, where nearby Defias can join a pull. Approach from clear ground and leave if enemies begin to chain-pull.", confidence = "medium" },
 
     -- A Daughter's Love
-    [231] = { threat = "LOW", reason = "This is a delivery step with no combat. The cemetery is patrolled by level 20-26 undead. Stay on the path and avoid the mobs. Do not attempt below level 20 without caution.", confidence = "medium" },
+    [231] = { threat = "MEDIUM", reason = "The grave lies in Raven Hill among hostile undead, with Mor'Ladim also roaming the cemetery. Use a clear route and leave if the elite is nearby.", confidence = "medium" },
 
     -- Coldridge Valley Mail Delivery
-    [233] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [233] = { threat = "LOW", reason = "Delivery step with no required combat. Follow the road through the starting area.", confidence = "medium" },
 
     -- Coldridge Valley Mail Delivery
-    [234] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [234] = { threat = "LOW", reason = "Delivery step with no required combat. Follow the road through the starting area.", confidence = "medium" },
 
     -- In Defense of the King's Lands
-    [237] = { threat = "LOW", reason = "Safe if you stick to the roads and avoid the contested zones.", confidence = "medium" },
+    [237] = { threat = "MEDIUM", reason = "The Stonesplinter camps contain tightly grouped troggs and ranged shamans. Pull from the edge and avoid fighting in a cave passage where extra enemies can join.", confidence = "medium" },
 
     -- Westbrook Garrison Needs Help!
-    [239] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [239] = { threat = "LOW", reason = "Dialogue step at Westbrook Garrison with no required combat. Follow the road and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Return to Jitters
-    [240] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [240] = { threat = "LOW", reason = "Delivery step with no required combat. Return the food to Jitters and avoid hostile camps on the way.", confidence = "medium" },
 
     -- Encroaching Gnolls
-    [244] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [244] = { threat = "LOW", reason = "Report to Deputy Feldon with no required combat. Stay on the road to Lakeshire.", confidence = "medium" },
 
     -- Eight-Legged Menaces
-    [245] = { threat = "MEDIUM", reason = "The spiders are levels 18-22 and are found in the southern parts of Duskwood. They have a poison attack and can pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
+    [245] = { threat = "MEDIUM", reason = "The spiders are spread through Duskwood and can poison you or add from nearby webs. Pull into clear ground and let poison wear off before taking another fight.", confidence = "medium" },
 
     -- Assessing the Threat
-    [246] = { threat = "LOW", reason = "The gnolls are levels 16-19 and are found in the hills around Lakeshire. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Manageable solo for a level 18+ character.", confidence = "high" },
+    [246] = { threat = "MEDIUM", reason = "Gnolls and poachers occupy the hills around Lakeshire, where nearby enemies can join a pull. Work the edges of their camps and watch for patrols.", confidence = "medium" },
 
     -- Looking Further
-    [248] = { threat = "MEDIUM", reason = "The tower is guarded by level 20-24 Blackrock orcs, including a named orc at the top. The path up is narrow and patrolled. Clear the tower methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [248] = { threat = "EXTREME", reason = "Elite quest. Blackrock Elite guards and a patrolling orc defend the tower stairs and jar. Bring a group or skip this climb near the quest level.", confidence = "high" },
 
     -- Morganth
-    [249] = { threat = "EXTREME", reason = "Morganth is in the Tower of Ilgalar in Redridge, surrounded by elite Shadowhide gnolls, and casts powerful spells. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [249] = { threat = "EXTREME", reason = "Elite quest. Morganth waits in the Tower of Ilgalar among hostile Shadowhide guards. Bring a group and clear the approach; skip the fight near the quest level if you cannot.", confidence = "medium" },
 
     -- A Dark Threat Looms
-    [250] = { threat = "MEDIUM", reason = "The area is patrolled by level 18-22 Dark Iron dwarves and their digging machines. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
+    [250] = { threat = "MEDIUM", reason = "Dark Iron dwarves patrol the dam's eastern side near the clue. Clear the immediate area before investigating and watch for patrols joining the pull.", confidence = "medium" },
 
     -- Translate Abercrombie's Note
-    [251] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [251] = { threat = "LOW", reason = "Delivery step through Darkshire with no required combat. Stay within the town.", confidence = "medium" },
 
     -- Translation to Ello
-    [252] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [252] = { threat = "LOW", reason = "Delivery step through Darkshire with no required combat. Stay within the town.", confidence = "medium" },
 
     -- Bride of the Embalmer
-    [253] = { threat = "EXTREME", reason = "Eliza is a level 28 elite undead who spawns when you dig at her grave. She hits hard and has powerful shadow spells. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [253] = { threat = "EXTREME", reason = "Elite quest. Eliza is a level 31 Elite who casts frost spells and summons three guardians during the fight. Bring a group and loot the heart immediately; skip a solo attempt near the quest level.", confidence = "high" },
+
+    -- Digging Through the Dirt
+    [254] = { threat = "LOW", reason = "The grave-dirt item quest adds no further hostile objective after the item is obtained. Return it without re-entering the cemetery's dangerous pulls.", confidence = "medium" },
 
     -- Mercenaries
-    [255] = { threat = "MEDIUM", reason = "The ogres are levels 15-18 and are packed in the Mo'grosh Stronghold in Loch Modan. They pull in groups and hit hard for their level. Clear methodically and watch for patrolling mobs. Do not attempt below level 15 solo.", confidence = "medium" },
+    [255] = { threat = "EXTREME", reason = "Group quest. The Mo'grosh Stronghold is defended by elite ogres, and the objective requires repeated kills across the camp. Bring a group and avoid entering the caves alone.", confidence = "medium" },
 
     -- WANTED: Chok'sul
-    [256] = { threat = "EXTREME", reason = "Chok'sul is inside the Mo'grosh Stronghold, surrounded by elite ogres with no safe retreat. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [256] = { threat = "HIGH", reason = "Elite quest. Chok'sul is a level 22 Elite with two guards in the Mo'grosh caves. Bring a partner or a class with reliable crowd control; avoid taking all three near the quest level.", confidence = "medium" },
 
     -- A Hunter's Boast
-    [257] = { threat = "MEDIUM", reason = "The buzzards are levels 10-13 and are found in Loch Modan. They have a knockback and can pull in pairs. The quest is timed, so you cannot afford to die or take long detours. Do not attempt below level 10 solo without a plan.", confidence = "medium" },
+    [257] = { threat = "LOW", reason = "Timed quest (15 min). The buzzards are scattered around Loch Modan; choose nearby targets and avoid needless detours.", confidence = "medium" },
 
     -- A Hunter's Challenge
-    [258] = { threat = "MEDIUM", reason = "The boars are levels 14-16 and are found in the hills of Loch Modan. They hit hard for their level and can pull in pairs. The quest is timed, so you cannot afford to die or take long detours. Do not attempt below level 14 solo without a plan.", confidence = "medium" },
+    [258] = { threat = "LOW", reason = "Timed quest (12 min). The boars roam the Loch Modan hills; choose nearby targets and avoid needless detours.", confidence = "medium" },
 
     -- Down the Scarlet Path
-    [261] = { threat = "HIGH", reason = "The Ravagers are levels 30-34 and are found in the ruins of Desolace. They are packed in groups and hit hard. The name is misleading; this is not a Scarlet Crusade quest. A level 30 warrior soloed this but reported it was tough. Do not attempt below level 30 solo without a group.", confidence = "medium" },
+    [261] = { threat = "MEDIUM", reason = "Thirty undead Ravagers must be defeated in the Valley of Bones, where nearby Scourge can join a fight. Pull from the edge of a group and retreat if the camp closes in.", confidence = "medium" },
 
     -- The Shadowy Figure
-    [262] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [262] = { threat = "LOW", reason = "Dialogue step around Darkshire with no required combat. Stay within the town.", confidence = "medium" },
 
     -- In Defense of the King's Lands
-    [263] = { threat = "MEDIUM", reason = "The troggs are levels 11-14 and are packed in the caves and hills of Loch Modan. They pull in groups and the Shaman cast lightning bolts. Clear methodically and watch for patrolling mobs. Do not attempt below level 11 solo.", confidence = "medium" },
+    [263] = { threat = "MEDIUM", reason = "The Stonesplinter caves contain shamans and tightly packed troggs. Interrupt or break line of sight on casters and pull toward the cave entrance.", confidence = "medium" },
 
     -- The Shadowy Search Continues
-    [265] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [265] = { threat = "LOW", reason = "Dialogue step around Darkshire with no required combat. Stay within the town.", confidence = "medium" },
 
     -- Inquire at the Inn
-    [266] = { threat = "LOW", reason = "This is an exploration step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [266] = { threat = "LOW", reason = "Exploration inside the Darkshire inn adds no combat. Search indoors and avoid detouring into nearby hostile areas.", confidence = "medium" },
 
     -- The Trogg Threat
-    [267] = { threat = "LOW", reason = "The teeth drop from Stonesplinter troggs in Loch Modan. The troggs are levels 10-14 and are scattered in the hills and caves. The drop rate is moderate. Manageable solo for a level 11+ character.", confidence = "high" },
+    [267] = { threat = "MEDIUM", reason = "The stone teeth drop from troggs around Loch Modan, including caves with closely grouped enemies. Pull isolated targets and leave before the route fills with adds.", confidence = "medium" },
 
     -- Return to Sven
-    [268] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [268] = { threat = "LOW", reason = "Delivery step with no required combat. Return to Sven along the road and avoid hostile camps.", confidence = "medium" },
 
     -- Seeking Wisdom
-    [269] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [269] = { threat = "LOW", reason = "Delivery step with no required combat. Stay on the road through Stormwind.", confidence = "medium" },
 
     -- The Doomed Fleet
-    [270] = { threat = "MEDIUM", reason = "The journey to Menethil Harbor passes through the Wetlands, which is patrolled by level 20-25 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 20 solo.", confidence = "medium" },
+    [270] = { threat = "MEDIUM", reason = "The trip to Menethil crosses the Wetlands, where hostile camps and higher-level patrols sit near the road. Keep to the road and avoid detours into those camps.", confidence = "medium" },
 
     -- Vyrin's Revenge
-    [271] = { threat = "MEDIUM", reason = "Ol' Sooty is a level 20 named bear in Loch Modan. He hits hard for his level and has a knockback. Clear the area before engaging and be ready to kite. Do not attempt below level 18 solo.", confidence = "medium" },
+    [271] = { threat = "MEDIUM", reason = "Ol' Sooty is a named bear in Loch Modan, with other wildlife nearby. Clear the immediate area and pull him into open ground.", confidence = "medium" },
 
     -- Trial of the Sea Lion
-    [272] = { threat = "MEDIUM", reason = "The pendant halves are held by residents of Moonglade and require you to complete tasks for them. The tasks involve combat against level 20-25 mobs in contested zones. Do not attempt below level 20 without a plan.", confidence = "medium" },
+    [272] = { threat = "HIGH", reason = "The pendant halves require deep dives in Darkshore and Westfall, where hostile threshers and an elite reef shark can attack underwater. Refill breath at the fissure, avoid fighting below the surface, and turn back before fatigue.", confidence = "medium" },
 
     -- Resupplying the Excavation
-    [273] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [273] = { threat = "LOW", reason = "Dialogue step at the excavation site with no required combat. Stay within the camp.", confidence = "medium" },
 
     -- A Dark Threat Looms
-    [274] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [274] = { threat = "LOW", reason = "Delivery step to Chief Engineer Hinderweir with no required combat. Follow the road back to the dam.", confidence = "medium" },
 
     -- Blisters on The Land
-    [275] = { threat = "LOW", reason = "The creepers are levels 20-24 and are found in the marshes of the Wetlands. They are plants and do not move, but they have a ranged attack. Clear methodically and watch for patrolling mobs. Manageable solo for a level 20+ character.", confidence = "high" },
+    [275] = { threat = "LOW", reason = "The Fen Creepers are scattered through the Wetlands marshes. Fight on clear ground and watch for nearby gnolls or patrols.", confidence = "medium" },
 
     -- Tramping Paws
-    [276] = { threat = "LOW", reason = "The gnolls are levels 20-24 and are packed in the Wetlands. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Manageable solo for a level 20+ character.", confidence = "high" },
+    [276] = { threat = "MEDIUM", reason = "Mosshide camps are dense, and nearby gnolls can join a fight. Pull away from the camp and avoid fighting several at once.", confidence = "medium" },
 
     -- Fire Taboo
-    [277] = { threat = "LOW", reason = "The flints drop from Mosshide gnolls and Fen Creepers in the Wetlands. The mobs are levels 20-24. The drop rate is moderate. Manageable solo for a level 20+ character.", confidence = "high" },
+    [277] = { threat = "MEDIUM", reason = "Crude flints come from hostile Wetlands creatures around the marshes. Gather them from cleared ground and stop if nearby enemies begin to chain-pull.", confidence = "medium" },
 
     -- A Dark Threat Looms
-    [278] = { threat = "MEDIUM", reason = "The reagents drop from level 18-22 mobs in Loch Modan and the Wetlands. The Mo'grosh Crystal is in the Mo'grosh Stronghold, which is packed with ogres. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
+    [278] = { threat = "EXTREME", reason = "Group quest. The Mo'grosh crystal comes from elite ogres in the stronghold, and may take repeated kills to obtain. Bring a group and do not farm the cave alone near the quest level.", confidence = "medium" },
 
     -- Claws from the Deep
-    [279] = { threat = "MEDIUM", reason = "The murlocs are levels 20-24 and are packed along the coast of the Wetlands. Gobbler is a level 24 named murloc who hits hard and has guards. Clear the area before engaging Gobbler. Do not attempt below level 20 solo.", confidence = "medium" },
+    [279] = { threat = "MEDIUM", reason = "Bluegill murloc camps are crowded, and Gobbler is a named target among them. Clear a route and pull Gobbler away from other murlocs.", confidence = "medium" },
 
     -- A Dark Threat Looms
-    [280] = { threat = "HIGH", reason = "The swim itself is safe, but the area is patrolled by level 20-24 murlocs and deep sea creatures. If you are attacked underwater, you can drown. Bring water breathing if possible and clear the area before diving. Do not attempt below level 20 solo.", confidence = "high" },
+    [280] = { threat = "MEDIUM", reason = "The charge is underwater at the base of the dam, so combat or a long interaction can leave you short of breath. Clear nearby enemies and refill your breath before using the mixture.", confidence = "medium" },
 
     -- Reclaiming Goods
-    [281] = { threat = "MEDIUM", reason = "The camps are filled with level 20-24 murlocs that pull in groups. The goods are in crates scattered around the camps. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [281] = { threat = "MEDIUM", reason = "The crates sit among Wetlands murloc camps, where nearby enemies can join while you search. Clear a small area before interacting and keep an escape route.", confidence = "medium" },
 
     -- Senir's Observations
-    [282] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [282] = { threat = "LOW", reason = "Dialogue step with Mountaineer Thalos and no required combat. Stay within the settlement.", confidence = "medium" },
 
     -- A Dark Threat Looms
-    [283] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [283] = { threat = "LOW", reason = "Delivery step back to Hinderweir with no required combat. Follow the road to the dam.", confidence = "medium" },
 
     -- The Search Continues
-    [284] = { threat = "MEDIUM", reason = "The hovels are guarded by level 20-24 murlocs that pull in groups. The statuette is in a random hut and may take several searches. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [284] = { threat = "MEDIUM", reason = "Murloc hovels are clustered along the Wetlands coast, and searching them can draw nearby guards. Clear a route and stop before pulls chain together.", confidence = "medium" },
 
     -- Search More Hovels
-    [285] = { threat = "MEDIUM", reason = "Same area and same risk as [284]. The hovels are guarded by level 20-24 murlocs. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [285] = { threat = "MEDIUM", reason = "Searching the remaining murloc hovels can draw guards from nearby camps. Clear one area at a time and keep the route to safety open.", confidence = "medium" },
 
     -- Return the Statuette
-    [286] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [286] = { threat = "LOW", reason = "Delivery step to Karl Boran with no required combat. Return to Menethil Harbor by the road.", confidence = "medium" },
 
     -- Frostmane Hold
-    [287] = { threat = "MEDIUM", reason = "The Hold is a cave in Dun Morogh filled with level 8-12 Frostmane trolls. The Headhunters are deeper in the cave, which is tight and respawns quickly. Clear methodically and keep an escape route. Do not attempt below level 9 solo.", confidence = "medium" },
+    [287] = { threat = "MEDIUM", reason = "Frostmane Hold is a narrow cave with hostile trolls close to the route and objective. Pull enemies toward the entrance and preserve an exit.", confidence = "medium" },
 
     -- The Third Fleet
-    [288] = { threat = "LOW", reason = "The mead is purchased from a vendor in the harbor. No combat required. Safe if you stay in the town.", confidence = "high" },
+    [288] = { threat = "LOW", reason = "The mead is bought in Menethil Harbor; no combat is required. Stay within the settlement.", confidence = "medium" },
 
     -- The Cursed Crew
-    [289] = { threat = "HIGH", reason = "The undead are levels 25-28 and are packed on the ship. The ship is cramped with no escape route, and Snellig is a named mob who hits hard. Clear methodically from the deck down and watch for respawns. Do not attempt below level 26 solo without a group.", confidence = "high" },
+    [289] = { threat = "MEDIUM", reason = "The shipwreck holds clustered ghosts, and underwater fighting can turn pulls into several enemies while breath is limited. Pull from the hull opening and surface between trips.", confidence = "medium" },
 
     -- Lifting the Curse
-    [290] = { threat = "EXTREME", reason = "Halyndor patrols the lower deck of the shipwrecked Intrepid, which is cramped with no escape route and filled with undead. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a full group.", confidence = "high" },
+    [290] = { threat = "HIGH", reason = "Captain Halyndor is on the Intrepid, while the strongbox lies underwater in the ship's crowded lower hull. Clear or distract nearby ghosts, manage breath, and open the box only with a safe exit planned.", confidence = "medium" },
 
     -- The Reports
-    [291] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [291] = { threat = "LOW", reason = "Delivery step to Ironforge with no required combat. Stay on the road and use the city route.", confidence = "medium" },
 
     -- The Eye of Paleth
-    [292] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [292] = { threat = "LOW", reason = "Delivery step to Menethil Harbor with no required combat. Stay within the settlement.", confidence = "medium" },
 
     -- Cleansing the Eye
-    [293] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [293] = { threat = "LOW", reason = "Delivery step in Stormwind with no required combat. Stay within the city.", confidence = "medium" },
 
     -- Ormer's Revenge
-    [294] = { threat = "MEDIUM", reason = "The mobs are levels 22-26 and are found in the Wetlands. The raptors run in packs and flee at low health. Kill the runners first and fight in open areas. Do not attempt below level 22 solo.", confidence = "medium" },
+    [294] = { threat = "MEDIUM", reason = "Raptors and screechers gather around the Wetlands excavation site, and raptors can flee into nearby enemies. Fight in open ground and stop runners before they reach another group.", confidence = "medium" },
 
     -- Ormer's Revenge
-    [295] = { threat = "MEDIUM", reason = "The raptors are levels 24-27 and are packed in the Wetlands. They run in packs and flee at low health. Kill the runners first and fight in open areas. Do not attempt below level 24 solo.", confidence = "medium" },
+    [295] = { threat = "MEDIUM", reason = "The raptors are clustered around the Wetlands excavation site and may flee into other enemies. Pull into open ground and stop runners before they reach another group.", confidence = "medium" },
 
     -- Ormer's Revenge
-    [296] = { threat = "MEDIUM", reason = "Sarltooth is a level 27 named raptor who patrols the Wetlands. He hits hard and has a bleed effect. Clear the area before engaging and be ready for adds. Do not attempt below level 25 solo.", confidence = "medium" },
+    [296] = { threat = "MEDIUM", reason = "Sarltooth is a named raptor in the Wetlands with other hostile creatures nearby. Clear the immediate area and pull him away from the camp.", confidence = "medium" },
 
     -- Gathering Idols
-    [297] = { threat = "LOW", reason = "The idols drop from troggs in the Whelgar Excavation Site and surrounding caves in the Wetlands. The troggs are levels 20-24. The drop rate is moderate. Manageable solo for a level 20+ character.", confidence = "high" },
+    [297] = { threat = "MEDIUM", reason = "The idols drop from troggs around the Wetlands excavation, where nearby enemies can join repeated pulls. Work the edges of the camp and retreat before enemies surround you.", confidence = "medium" },
 
     -- Excavation Progress Report
-    [298] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [298] = { threat = "LOW", reason = "Delivery step with no required combat. Follow the road from the excavation site to Thelsamar.", confidence = "medium" },
 
     -- Uncovering the Past
-    [299] = { threat = "MEDIUM", reason = "The fragments are found in the excavation site, which is filled with level 20-24 troggs and Dark Iron dwarves. The fragments are in random locations and may take several searches. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [299] = { threat = "MEDIUM", reason = "The tablet fragments are scattered through the excavation, among troggs and Dark Iron enemies. Clear each section before searching and watch for patrols.", confidence = "medium" },
 
     -- Report to Ironforge
-    [301] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [301] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Powder to Ironband
-    [302] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [302] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- The Dark Iron War
     [303] = { threat = "MEDIUM", reason = "The dwarves are levels 25-29 and are packed in the ruins around Dun Modr. They pull in groups and have ranged attackers. Clear methodically and watch for patrolling mobs. Do not attempt below level 25 solo.", confidence = "medium" },
@@ -705,166 +708,169 @@ local quests = {
     [304] = { threat = "MEDIUM", reason = "Balgaras is a level 30 named Dark Iron dwarf who is surrounded by guards in the ruins. Clear the area before engaging and be ready for adds. Do not attempt below level 28 solo.", confidence = "medium" },
 
     -- In Search of The Excavation Team
-    [305] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps along the way.", confidence = "high" },
+    [305] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps along the way.", confidence = "medium" },
 
     -- In Search of The Excavation Team
-    [306] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [306] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Filthy Paws
     [307] = { threat = "MEDIUM", reason = "The mine is filled with level 8-12 kobolds that pull in groups. The gear is in mine carts scattered through the tunnels. Clear methodically and watch for respawns. Do not attempt below level 9 solo.", confidence = "medium" },
+
+    -- Distracting Jarven
+    [308] = { threat = "LOW", reason = "This step is completed by giving Jarven Thunder Ale in the inn; it requires no combat.", confidence = "medium" },
 
     -- Protecting the Shipment
     [309] = { threat = "MEDIUM", reason = "This is an escort quest through the Wetlands. The route is patrolled by level 20-24 mobs, and Miran can be attacked. Clear the path ahead and be ready for ambushes. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Bitter Rivals
-    [310] = { threat = "LOW", reason = "This is a stealth/exploration step with no combat if you avoid the distillery guards. Safe if you stay out of sight.", confidence = "high" },
+    [310] = { threat = "LOW", reason = "This is a stealth/exploration step with no combat if you avoid the distillery guards. Safe if you stay out of sight.", confidence = "medium" },
 
     -- Return to Marleth
-    [311] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [311] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Tundra MacGrann's Stolen Stash
-    [312] = { threat = "EXTREME", reason = "Old Icebeard is a level 11 elite yeti, and the cave is filled with other yetis with no escape route. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [312] = { threat = "MEDIUM", reason = "Old Icebeard is an elite patrolling near the stash cave, but the stash can be looted without killing him. Wait until he leaves, take the meat, and leave promptly; be ready to escape if he returns.", confidence = "medium" },
 
     -- The Grizzled Den
     [313] = { threat = "MEDIUM", reason = "The Wendigos are levels 7-10 and are packed in the Grizzled Den cave. The cave is tight and respawns quickly. Clear methodically and keep an escape route. Do not attempt below level 8 solo.", confidence = "medium" },
 
     -- Protecting the Herd
-    [314] = { threat = "EXTREME", reason = "Vagash guards a cave filled with other yetis with no escape route once inside. Solo attempts at the intended level end in death. Skip on Hardcore unless heavily overleveled or in a group.", confidence = "high" },
+    [314] = { threat = "EXTREME", reason = "Elite quest. Vagash guards a cave with other hostile yetis, making the objective dangerous for a solo character near its intended level. Bring a suitable group or return substantially overleveled.", confidence = "medium" },
 
     -- The Perfect Stout
-    [315] = { threat = "LOW", reason = "The Shimmerweeds are found on the ground near the frozen lake in Dun Morogh. No combat required, but the area is patrolled by level 6-9 mobs. Safe if you avoid the mobs while gathering.", confidence = "high" },
+    [315] = { threat = "LOW", reason = "The Shimmerweeds are found on the ground near the frozen lake in Dun Morogh. No combat required, but the area is patrolled by level 6-9 mobs. Safe if you avoid the mobs while gathering.", confidence = "medium" },
 
     -- Stocking Jetsteam
-    [317] = { threat = "LOW", reason = "The meat drops from boars and bears in Dun Morogh. The mobs are levels 5-9 and are scattered across the zone. Manageable solo for a level 6+ character.", confidence = "high" },
+    [317] = { threat = "LOW", reason = "The meat drops from boars and bears in Dun Morogh. The mobs are levels 5-9 and are scattered across the zone. Manageable solo for a level 6+ character.", confidence = "medium" },
 
     -- Evershine
-    [318] = { threat = "LOW", reason = "This is a dialogue and pickup step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [318] = { threat = "LOW", reason = "This is a dialogue and pickup step with no combat. Safe if you stay in the village.", confidence = "medium" },
 
     -- A Favor for Evershine
     [319] = { threat = "MEDIUM", reason = "The mobs are levels 8-11 and are found in the snowfields of Dun Morogh. They pull in pairs and the cats are stealthed. Clear methodically and watch for adds. Do not attempt below level 8 solo.", confidence = "medium" },
 
     -- Return to Bellowfiz
-    [320] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [320] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Lightforge Iron
     [321] = { threat = "MEDIUM", reason = "The wreckage is guarded by level 20-24 murlocs and other coastal mobs. The iron is in crates scattered around the wreck. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Blessed Arm
-    [322] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [322] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Proving Your Worth
-    [323] = { threat = "HIGH", reason = "The skeletons are levels 25-28 and are packed in the Raven Hill cemetery in Duskwood. They pull in groups and the Healers heal other skeletons. Kill the Healers first and clear methodically. Do not attempt below level 25 solo without a group.", confidence = "high" },
+    [323] = { threat = "MEDIUM", reason = "The required skeletons are concentrated in Raven Hill, and Skeletal Healers can prolong a crowded fight. Pull from the cemetery edge and focus healers first.", confidence = "medium" },
 
     -- The Lost Ingots
     [324] = { threat = "MEDIUM", reason = "The ingots are in the shipwreck of The Flying Osprey, which is guarded by level 20-24 murlocs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Armed and Ready
-    [325] = { threat = "LOW", reason = "This is a delivery step with no combat. The item is crafted from materials gathered in previous quests. Safe if you stay on the road.", confidence = "high" },
+    [325] = { threat = "LOW", reason = "This is a delivery step with no combat. The item is crafted from materials gathered in previous quests. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Hidden Key
     [328] = { threat = "MEDIUM", reason = "The compound is filled with level 34-40 Kurzen mobs. The strongbox is in a building guarded by mobs. Clear methodically and watch for patrolling elites. Do not attempt below level 34 solo.", confidence = "medium" },
 
     -- The Spy Revealed!
-    [329] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [329] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Patrol Schedules
-    [330] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [330] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "medium" },
 
     -- Report to Doren
-    [331] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [331] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "medium" },
 
     -- Wine Shop Advert
-    [332] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [332] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Harlan Needs a Resupply
-    [333] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [333] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Package for Thurman
-    [334] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [334] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- A Noble Brew
     [335] = { threat = "MEDIUM", reason = "The Tear of Tilloa is purchased from a vendor in Darkshire. The Musquash Root is found in the Wetlands, guarded by level 20-24 mobs. The journey between zones is dangerous. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- A Noble Brew
-    [336] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [336] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- An Old History Book
-    [337] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [337] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Speaking of Fortitude
-    [343] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [343] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Brother Paxton
-    [344] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "high" },
+    [344] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the abbey.", confidence = "medium" },
 
     -- Ink Supplies
-    [345] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [345] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Return to Kristoff
-    [346] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [346] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Rethban Ore
     [347] = { threat = "MEDIUM", reason = "The ore is found in the Rethban Caverns in Redridge Mountains, which are filled with level 20-24 Shadowhide gnolls. The caverns are dark and mobs pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
 
     -- Look to an Old Friend
-    [350] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [350] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Stormpike's Delivery
-    [353] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [353] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- The Unsent Letter
-    [373] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [373] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Crime and Punishment
-    [377] = { threat = "HIGH", reason = "Dextren Ward is a level 28 elite in The Stockade dungeon. He is surrounded by elite Defias mobs and hits hard. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a full group of level 25+ or skip on Hardcore.", confidence = "high" },
+    [377] = { threat = "HIGH", reason = "Elite dungeon quest. Dextren Ward is an elite boss inside the Stockade; one rogue report describes a solo kill at level 30 using stealth. Soloing near the quest level is dangerous; bring a group or use a capable class strategy well above the quest level.", confidence = "medium" },
 
     -- The Fury Runs Deep
-    [378] = { threat = "HIGH", reason = "Kam Deepfury is a level 30 elite in The Stockade dungeon. He is surrounded by elite Defias mobs and hits hard. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a full group of level 28+ or skip on Hardcore.", confidence = "high" },
+    [378] = { threat = "EXTREME", reason = "Elite dungeon quest. Kam Deepfury is inside the Stockade among hostile elite prisoners. Bring a suitable group or skip it on Hardcore.", confidence = "medium" },
 
     -- Beer Basted Boar Ribs
-    [384] = { threat = "LOW", reason = "The ribs drop from Crag Boars in Dun Morogh. The boars are levels 4-6 and are scattered across the zone. Manageable solo for a level 5+ character.", confidence = "high" },
+    [384] = { threat = "LOW", reason = "The ribs drop from Crag Boars in Dun Morogh. The boars are levels 4-6 and are scattered across the zone. Manageable solo for a level 5+ character.", confidence = "medium" },
 
     -- Crocolisk Hunting
     [385] = { threat = "MEDIUM", reason = "The crocolisks are levels 30-34 and are found along the lakes of Loch Modan. They hit hard and have a bleed effect. Clear methodically and watch for adds. Do not attempt below level 30 solo.", confidence = "medium" },
 
     -- What Comes Around...
-    [386] = { threat = "HIGH", reason = "Targorr is a level 26 elite in The Stockade dungeon. He is surrounded by elite Defias mobs and hits hard. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a full group of level 24+ or skip on Hardcore.", confidence = "high" },
+    [386] = { threat = "EXTREME", reason = "Elite dungeon quest. Targorr the Dread is inside the Stockade among hostile elite prisoners. Bring a suitable group or skip it on Hardcore.", confidence = "medium" },
 
     -- Quell The Uprising
-    [387] = { threat = "HIGH", reason = "The Stockade is a level 22-30 dungeon filled with elite Defias mobs. This requires a full group of level 24+. Do not attempt solo.", confidence = "high" },
+    [387] = { threat = "EXTREME", reason = "Group dungeon quest. The required Defias prisoners are inside the Stockade, a dungeon filled with elite enemies. Bring a suitable group or skip it on Hardcore.", confidence = "medium" },
 
     -- The Color of Blood
-    [388] = { threat = "MEDIUM", reason = "The bandanas drop from Defias mobs in The Stockade dungeon. The Stockade is a level 22-30 dungeon filled with elites. This requires a full group of level 24+. Do not attempt solo.", confidence = "high" },
+    [388] = { threat = "EXTREME", reason = "Group dungeon quest. The Red Wool Bandanas come from Defias prisoners inside the Stockade. Bring a suitable group or skip it on Hardcore.", confidence = "medium" },
 
     -- Bazil Thredd
-    [389] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [389] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Stockade Riots
-    [391] = { threat = "EXTREME", reason = "Bazil Thredd is the final boss of The Stockade, a level 22-30 dungeon. He is a level 29 elite surrounded by elite Defias mobs. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a full group of level 26+ or skip on Hardcore.", confidence = "high" },
+    [391] = { threat = "EXTREME", reason = "Elite dungeon quest. Bazil Thredd is a boss inside the Stockade among hostile elite prisoners. Bring a suitable group or skip it on Hardcore.", confidence = "medium" },
 
     -- The Curious Visitor
-    [392] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [392] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Shadow of the Past
-    [393] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [393] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Head of the Beast
-    [394] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [394] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Brotherhood's End
-    [395] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [395] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- An Audience with the King
-    [396] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [396] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- You Have Served Us Well
-    [397] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [397] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Humble Beginnings
     [399] = { threat = "MEDIUM", reason = "The farm is overrun by Defias thieves, including level 14-16 mobs that patrol in groups. The compass is inside the ruined house, which has multiple entrances and tight quarters. Clear the outside mobs first, then fight your way in. Do not attempt below level 12.", confidence = "medium" },
 
     -- Tools for Steelgrill
-    [400] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [400] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Wait for Sirra to Finish
     [401] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
