@@ -14,7 +14,7 @@ LUA = os.environ.get("QAD_LUA_BIN") or shutil.which("lua5.1") or shutil.which("l
 
 @unittest.skipUnless(LUA, "Lua interpreter unavailable; install Lua 5.1 or set QAD_LUA_BIN")
 class TooltipTests(unittest.TestCase):
-    def test_confidence_content_and_fonts_when_switching_between_quests(self):
+    def test_tooltip_contents_and_fonts_when_switching_between_quests(self):
         source = r'''
 CreateFrame = function()
     return { RegisterEvent = function() end, SetScript = function() end }
@@ -61,7 +61,7 @@ local function checkNeutralSmall(line)
     assert(line.wrap == true, "Secondary text must wrap")
 end
 
-local function checkQuest(id, confidence, hasNote)
+local function checkQuest(id)
     addon.ShowThreatTooltip(owner, id)
     assert(addon.feedbackQuestID == id)
     assert(lines[1].text == addon.quests[id].reason)
@@ -70,25 +70,17 @@ local function checkQuest(id, confidence, hasNote)
     assert(lines[3].text == "Threat: High")
     assert(lines[3].fontString.font == GameTooltipText)
     assert(lines[3].rgb[1] ~= lines[3].rgb[2], "Threat retains its color")
-    assert(lines[4].text == "Confidence: " .. confidence)
-    checkNeutralSmall(lines[4])
-    local footerIndex = 6
-    if hasNote then
-        assert(lines[5].text == "Limited evidence; mechanics may vary.")
-        checkNeutralSmall(lines[5])
-        footerIndex = 7
-    end
-    assert(lines[footerIndex - 1].text == " ")
-    assert(lines[footerIndex].text == "Quest Another Day. Feedback: /qad options")
-    checkNeutralSmall(lines[footerIndex])
-    assert(#lines == footerIndex, "Unexpected or stale tooltip lines")
+    assert(lines[4].text == " ")
+    assert(lines[5].text == "Quest Another Day. Feedback: /qad options")
+    checkNeutralSmall(lines[5])
+    assert(#lines == 5, "Unexpected or stale tooltip lines")
 end
 
-checkQuest(1, "Low", true)
-checkQuest(2, "High", false)
-checkQuest(3, "Medium", false)
-checkQuest(1, "Low", true)
-checkQuest(4, "Unknown", false)
+checkQuest(1)
+checkQuest(2)
+checkQuest(3)
+checkQuest(1)
+checkQuest(4)
 '''
         with TemporaryDirectory() as temporary:
             script = Path(temporary) / "tooltip-test.lua"
