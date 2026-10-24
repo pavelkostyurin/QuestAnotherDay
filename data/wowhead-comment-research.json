@@ -90780,6 +90780,1081 @@
       "checkedAt": "2026-10-24T22:32:00+03:00",
       "skipReason": "raid",
       "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8633,
+      "questName": "Enigma Robes",
+      "url": "https://www.wowhead.com/classic/quest=8633",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8634,
+      "questName": "Enigma Boots",
+      "url": "https://www.wowhead.com/classic/quest=8634",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8635,
+      "questName": "Splitrock the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8635",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before reading quest comments: the Classic Lunar Festival guide places Elder Splitrock inside Maraudon, an instanced dungeon (https://www.wowhead.com/classic/guide/lunar-festival-wow-classic)."
+    },
+    {
+      "questId": 8636,
+      "questName": "Rumblerock the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8636",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic guide locates Elder Rumblerock at Dreadmaul Rock in Burning Steppes."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places the elder at Dreadmaul Rock; the hostile camp makes the interaction hazardous for an underleveled solo character.",
+      "reason": "The elder is at Dreadmaul Rock in Burning Steppes, among hostile high-level ogres and dragonkin. Approach by a cleared route and do not enter the camp at low level.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8637,
+      "questName": "Deathdealer's Boots",
+      "url": "https://www.wowhead.com/classic/quest=8637",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8638,
+      "questName": "Deathdealer's Vest",
+      "url": "https://www.wowhead.com/classic/quest=8638",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8639,
+      "questName": "Deathdealer's Helm",
+      "url": "https://www.wowhead.com/classic/quest=8639",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8640,
+      "questName": "Deathdealer's Leggings",
+      "url": "https://www.wowhead.com/classic/quest=8640",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8641,
+      "questName": "Deathdealer's Spaulders",
+      "url": "https://www.wowhead.com/classic/quest=8641",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8642,
+      "questName": "Silvervein the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8642",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8643,
+      "questName": "Highpeak the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8643",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide locates this elder in the Hinterlands, Blasted Lands, Searing Gorge, Silithus, Tanaris, Feralas, or Un’Goro rather than in a guarded city."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a remote hostile zone; the danger assessment reflects known surrounding mobs and travel rather than a combat objective.",
+      "reason": "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8644,
+      "questName": "Stonefort the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8644",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before reading quest comments: the Classic Lunar Festival guide places Elder Stonefort inside Blackrock Spire, an instanced dungeon (https://www.wowhead.com/classic/guide/lunar-festival-wow-classic)."
+    },
+    {
+      "questId": 8645,
+      "questName": "Obsidian the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8645",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide places Elder Obsidian at The Sepulcher in Silverpine Forest."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places Elder Obsidian at The Sepulcher, a settlement; the approach through Silverpine still warrants ordinary route caution.",
+      "reason": "The elder is in The Sepulcher settlement and the quest adds no combat. Follow the road through Silverpine Forest and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8646,
+      "questName": "Hammershout the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8646",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8647,
+      "questName": "Bellowrage the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8647",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide locates this elder in the Hinterlands, Blasted Lands, Searing Gorge, Silithus, Tanaris, Feralas, or Un’Goro rather than in a guarded city."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a remote hostile zone; the danger assessment reflects known surrounding mobs and travel rather than a combat objective.",
+      "reason": "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8648,
+      "questName": "Darkcore the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8648",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8649,
+      "questName": "Stormbrow the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8649",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8650,
+      "questName": "Snowcrown the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8650",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8651,
+      "questName": "Ironband the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8651",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide locates this elder in the Hinterlands, Blasted Lands, Searing Gorge, Silithus, Tanaris, Feralas, or Un’Goro rather than in a guarded city."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a remote hostile zone; the danger assessment reflects known surrounding mobs and travel rather than a combat objective.",
+      "reason": "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8652,
+      "questName": "Graveborn the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8652",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8653,
+      "questName": "Goldwell the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8653",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8654,
+      "questName": "Primestone the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8654",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide locates this elder in the Hinterlands, Blasted Lands, Searing Gorge, Silithus, Tanaris, Feralas, or Un’Goro rather than in a guarded city."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a remote hostile zone; the danger assessment reflects known surrounding mobs and travel rather than a combat objective.",
+      "reason": "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8655,
+      "questName": "Avenger's Greaves",
+      "url": "https://www.wowhead.com/classic/quest=8655",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8656,
+      "questName": "Striker's Hauberk",
+      "url": "https://www.wowhead.com/classic/quest=8656",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8657,
+      "questName": "Striker's Diadem",
+      "url": "https://www.wowhead.com/classic/quest=8657",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8658,
+      "questName": "Striker's Leggings",
+      "url": "https://www.wowhead.com/classic/quest=8658",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8659,
+      "questName": "Striker's Pauldrons",
+      "url": "https://www.wowhead.com/classic/quest=8659",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8660,
+      "questName": "Doomcaller's Footwraps",
+      "url": "https://www.wowhead.com/classic/quest=8660",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8661,
+      "questName": "Doomcaller's Robes",
+      "url": "https://www.wowhead.com/classic/quest=8661",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8662,
+      "questName": "Doomcaller's Circlet",
+      "url": "https://www.wowhead.com/classic/quest=8662",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8663,
+      "questName": "Doomcaller's Trousers",
+      "url": "https://www.wowhead.com/classic/quest=8663",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8664,
+      "questName": "Doomcaller's Mantle",
+      "url": "https://www.wowhead.com/classic/quest=8664",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8665,
+      "questName": "Genesis Boots",
+      "url": "https://www.wowhead.com/classic/quest=8665",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8666,
+      "questName": "Genesis Vest",
+      "url": "https://www.wowhead.com/classic/quest=8666",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8667,
+      "questName": "Genesis Helm",
+      "url": "https://www.wowhead.com/classic/quest=8667",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8668,
+      "questName": "Genesis Trousers",
+      "url": "https://www.wowhead.com/classic/quest=8668",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8669,
+      "questName": "Genesis Shoulderpads",
+      "url": "https://www.wowhead.com/classic/quest=8669",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8670,
+      "questName": "Runetotem the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8670",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8671,
+      "questName": "Ragetotem the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8671",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide locates this elder in the Hinterlands, Blasted Lands, Searing Gorge, Silithus, Tanaris, Feralas, or Un’Goro rather than in a guarded city."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a remote hostile zone; the danger assessment reflects known surrounding mobs and travel rather than a combat objective.",
+      "reason": "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8672,
+      "questName": "Stonespire the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8672",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8673,
+      "questName": "Bloodhoof the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8673",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8674,
+      "questName": "Winterhoof the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8674",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8675,
+      "questName": "Skychaser the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8675",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8676,
+      "questName": "Wildmane the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8676",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:41:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before reading quest comments: the Classic Lunar Festival guide places Elder Wildmane inside Zul'Farrak, an instanced dungeon (https://www.wowhead.com/classic/guide/lunar-festival-wow-classic)."
+    },
+    {
+      "questId": 8677,
+      "questName": "Darkhorn the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8677",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8678,
+      "questName": "Proudhorn the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8678",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8679,
+      "questName": "Grimtotem the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8679",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide locates this elder in the Hinterlands, Blasted Lands, Searing Gorge, Silithus, Tanaris, Feralas, or Un’Goro rather than in a guarded city."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a remote hostile zone; the danger assessment reflects known surrounding mobs and travel rather than a combat objective.",
+      "reason": "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8680,
+      "questName": "Windtotem the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8680",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8681,
+      "questName": "Thunderhorn the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8681",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide locates this elder in the Hinterlands, Blasted Lands, Searing Gorge, Silithus, Tanaris, Feralas, or Un’Goro rather than in a guarded city."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a remote hostile zone; the danger assessment reflects known surrounding mobs and travel rather than a combat objective.",
+      "reason": "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8682,
+      "questName": "Skyseer the Elder",
+      "url": "https://www.wowhead.com/classic/quest=8682",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:41:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The location was verified from a Classic Lunar Festival guide; ordinary route danger was assessed separately. No comment ranking was used.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lunar Festival Holiday - WoW Classic",
+          "url": "https://www.wowhead.com/classic/guide/lunar-festival-wow-classic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:41:00+03:00",
+          "evidence": "Classic Lunar Festival guide lists the Elder at a city, settlement, or flight-point hub."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic Lunar Festival guide places this elder in a city or settled hub; the quest itself is a conversation and coin hand-in.",
+      "reason": "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T22:41:00+03:00",
+      "addonSource": "QuestData.lua"
     }
   ]
 }

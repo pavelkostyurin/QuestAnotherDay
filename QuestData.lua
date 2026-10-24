@@ -9951,6 +9951,7 @@ addon.quests = {
     [8634] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Deathdealer's Boots
+    [8636] = { threat = "HIGH", reason = "The elder is at Dreadmaul Rock in Burning Steppes, among hostile high-level ogres and dragonkin. Approach by a cleared route and do not enter the camp at low level.", confidence = "medium" },
     [8637] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Command from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Deathdealer's Vest
@@ -9966,6 +9967,18 @@ addon.quests = {
     [8641] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Command from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Avenger's Greaves
+    [8642] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8643] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+    [8645] = { threat = "LOW", reason = "The elder is in The Sepulcher settlement and the quest adds no combat. Follow the road through Silverpine Forest and avoid nearby hostile camps.", confidence = "medium" },
+    [8646] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8647] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+    [8648] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8649] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8650] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8651] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+    [8652] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8653] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8654] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
     [8655] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Striker's Hauberk
@@ -10011,6 +10024,18 @@ addon.quests = {
     [8669] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
     -- Target: Hive'Zora Tunnelers
+    [8670] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8671] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+    [8672] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8673] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8674] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8675] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8677] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8678] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8679] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+    [8680] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+    [8681] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+    [8682] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
     [8687] = { threat = "HIGH", reason = "Hive'Zora Tunnelers are non-elite silithid inside the hive, levels 58-60. They are surrounded by elite guards. Stealth or careful pulling required. Do not attempt below level 58 solo without a plan.", confidence = "high" },
 
     -- Shroud of Infinite Wisdom

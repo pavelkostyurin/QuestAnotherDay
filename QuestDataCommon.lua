@@ -2798,6 +2798,9 @@ addon.quests = {
     -- Enigma Boots
     [8634] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
+    -- Rumblerock the Elder
+    [8636] = { threat = "HIGH", reason = "The elder is at Dreadmaul Rock in Burning Steppes, among hostile high-level ogres and dragonkin. Approach by a cleared route and do not enter the camp at low level.", confidence = "medium" },
+
     -- Deathdealer's Boots
     [8637] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Command from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
 
@@ -2812,6 +2815,42 @@ addon.quests = {
 
     -- Deathdealer's Spaulders
     [8641] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Command from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
+
+    -- Silvervein the Elder
+    [8642] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Highpeak the Elder
+    [8643] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Obsidian the Elder
+    [8645] = { threat = "LOW", reason = "The elder is in The Sepulcher settlement and the quest adds no combat. Follow the road through Silverpine Forest and avoid nearby hostile camps.", confidence = "medium" },
+
+    -- Hammershout the Elder
+    [8646] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Bellowrage the Elder
+    [8647] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Darkcore the Elder
+    [8648] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Stormbrow the Elder
+    [8649] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Snowcrown the Elder
+    [8650] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Ironband the Elder
+    [8651] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Graveborn the Elder
+    [8652] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Goldwell the Elder
+    [8653] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Primestone the Elder
+    [8654] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
 
     -- Striker's Hauberk
     [8656] = { threat = "EXTREME", reason = "Raid quest. Requires the Carapace of the Old God from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Honored reputation with Brood of Nozdormu.", confidence = "high" },
@@ -2854,6 +2893,42 @@ addon.quests = {
 
     -- Genesis Shoulderpads
     [8669] = { threat = "EXTREME", reason = "Raid quest. Requires Qiraji Bindings of Dominance from Ahn'Qiraj. A full raid group is required. Do not attempt solo. Requires Neutral reputation with Brood of Nozdormu.", confidence = "high" },
+
+    -- Runetotem the Elder
+    [8670] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Ragetotem the Elder
+    [8671] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Stonespire the Elder
+    [8672] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Bloodhoof the Elder
+    [8673] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Winterhoof the Elder
+    [8674] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Skychaser the Elder
+    [8675] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Darkhorn the Elder
+    [8677] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Proudhorn the Elder
+    [8678] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Grimtotem the Elder
+    [8679] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Windtotem the Elder
+    [8680] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
+
+    -- Thunderhorn the Elder
+    [8681] = { threat = "MEDIUM", reason = "The elder is in a hostile outdoor ruin, cave, or remote zone where nearby enemies can join an approach. Stay on a cleared path, avoid nearby camps, and leave if enemies converge.", confidence = "medium" },
+
+    -- Skyseer the Elder
+    [8682] = { threat = "LOW", reason = "The elder is in a city, settlement, or established flight-point area, and the quest adds no combat. Use the normal route and avoid hostile terrain on the way.", confidence = "medium" },
 
     -- Target: Hive'Zora Tunnelers
     [8687] = { threat = "HIGH", reason = "Hive'Zora Tunnelers are non-elite silithid inside the hive, levels 58-60. They are surrounded by elite guards. Stealth or careful pulling required. Do not attempt below level 58 solo without a plan.", confidence = "high" },
