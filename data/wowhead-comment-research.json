@@ -53424,6 +53424,1383 @@
       "reason": "Silvermane Stalkers are stealthed wolves in the Hinterlands, so they can surprise you at close range while you search for them. Move carefully through the woods and avoid fighting near other hostile wildlife.",
       "threat": "MEDIUM",
       "confidence": "medium"
+    },
+    {
+      "questId": 4298,
+      "questName": "Becoming a Parent",
+      "url": "https://www.wowhead.com/classic/quest=4298",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Dialogue step with no combat. Safe if you stay in the area.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4300,
+      "questName": "Bone-Bladed Weapons",
+      "url": "https://www.wowhead.com/classic/quest=4300",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM; the catalog objective requires collecting claws from hostile Un’Goro wildlife. Replaces unsupported exact level range with actionable pull advice.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "White ravasaur packs in Un’Goro can add to fights, especially when pulled near other beasts. Pull from the edge of a group and keep room to retreat.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4301,
+      "questName": "The Mighty U'cha",
+      "url": "https://www.wowhead.com/classic/quest=4301",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Classic quest page and the retrieved comments support both solo outcomes and call-for-help caveats; comment sort order was not verified.",
+      "commentsReviewed": 10,
+      "commentsUsed": 4,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4301/the-mighty-ucha#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Mighty U’cha - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4301/the-mighty-ucha",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text identifies U’cha; comments describe him as a non-elite level 55 gorilla and report solo kills at levels 52–54, while warning that nearby gorillas call for help and respawn quickly."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Lowers HIGH to MEDIUM and removes the incorrect elite claim: retrieved Classic comments identify U’cha as a normal level 55 mob and report solo kills near levels 52–54, while also warning that nearby gorillas call for help and respawn quickly. This makes the cave hazardous but manageable with careful pulls.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "U’cha is a powerful level 55 gorilla at the back of a cave where other apes may call for help. Clear a path, pull him away from nearby enemies, and avoid fighting near ledges where calls can bring extra apes.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4321,
+      "questName": "Making Sense of It",
+      "url": "https://www.wowhead.com/classic/quest=4321",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Dialogue step with no combat. Safe if you stay in the area.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4322,
+      "questName": "Jail Break!",
+      "url": "https://www.wowhead.com/classic/quest=4322",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:14:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Blackrock Depths instance quest; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 4324,
+      "questName": "Yuka Screwspigot",
+      "url": "https://www.wowhead.com/classic/quest=4324",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:14:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this as a Dungeon quest; skipped before researching under ordinary traversal rules."
+    },
+    {
+      "questId": 4341,
+      "questName": "Kharan Mighthammer",
+      "url": "https://www.wowhead.com/classic/quest=4341",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:14:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Blackrock Depths instance quest; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 4342,
+      "questName": "Kharan's Tale",
+      "url": "https://www.wowhead.com/classic/quest=4342",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:14:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Blackrock Depths instance quest; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 4343,
+      "questName": "Corrupted Windblossom",
+      "url": "https://www.wowhead.com/classic/quest=4343",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest name and retrieved Classic plant quest text identify a salve-based plant interaction. Felwood travel is the only danger indicated; no encounter is required by the interaction.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted Windblossom; the plant interaction itself requires no combat. Watch for hostile Felwood creatures while approaching it.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4361,
+      "questName": "The Bearer of Bad News",
+      "url": "https://www.wowhead.com/classic/quest=4361",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:14:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this as a Dungeon quest; skipped before researching under ordinary traversal rules."
+    },
+    {
+      "questId": 4362,
+      "questName": "The Fate of the Kingdom",
+      "url": "https://www.wowhead.com/classic/quest=4362",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:14:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Blackrock Depths instance quest; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 4363,
+      "questName": "The Princess's Surprise",
+      "url": "https://www.wowhead.com/classic/quest=4363",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:14:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this as a Dungeon quest; skipped before researching under ordinary traversal rules."
+    },
+    {
+      "questId": 4381,
+      "questName": "Crystal Restore",
+      "url": "https://www.wowhead.com/classic/quest=4381",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4381 was directly checked; the other pylon variants are inferred to share its crystal collection mechanic from their catalog titles and linked quest chain.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Crystal Restore - Capy DB",
+          "url": "https://db.capycraft.org/quest/4381",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic database lists ten Yellow and ten Green Power Crystals from Un’Goro creatures for this repeatable pylon turn-in."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The retrieved quest objective requires ten each of two power crystals from Un’Goro creatures; this is ordinary solo combat in a hostile zone.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4382,
+      "questName": "Crystal Force",
+      "url": "https://www.wowhead.com/classic/quest=4382",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4381 was directly checked; the other pylon variants are inferred to share its crystal collection mechanic from their catalog titles and linked quest chain.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Crystal Restore - Capy DB",
+          "url": "https://db.capycraft.org/quest/4381",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic database lists ten Yellow and ten Green Power Crystals from Un’Goro creatures for this repeatable pylon turn-in."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This is one of the same Northern, Eastern, or Western Pylon crystal recipes. The exact variant is inferred from the catalog title and the verified Crystal Restore objective; danger comes from collecting crystals among hostile Un’Goro wildlife.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4383,
+      "questName": "Crystal Ward",
+      "url": "https://www.wowhead.com/classic/quest=4383",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4381 was directly checked; the other pylon variants are inferred to share its crystal collection mechanic from their catalog titles and linked quest chain.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Crystal Restore - Capy DB",
+          "url": "https://db.capycraft.org/quest/4381",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic database lists ten Yellow and ten Green Power Crystals from Un’Goro creatures for this repeatable pylon turn-in."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This is one of the same Northern, Eastern, or Western Pylon crystal recipes. The exact variant is inferred from the catalog title and the verified Crystal Restore objective; danger comes from collecting crystals among hostile Un’Goro wildlife.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4384,
+      "questName": "Crystal Yield",
+      "url": "https://www.wowhead.com/classic/quest=4384",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4381 was directly checked; the other pylon variants are inferred to share its crystal collection mechanic from their catalog titles and linked quest chain.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Crystal Restore - Capy DB",
+          "url": "https://db.capycraft.org/quest/4381",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic database lists ten Yellow and ten Green Power Crystals from Un’Goro creatures for this repeatable pylon turn-in."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This is one of the same Northern, Eastern, or Western Pylon crystal recipes. The exact variant is inferred from the catalog title and the verified Crystal Restore objective; danger comes from collecting crystals among hostile Un’Goro wildlife.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4385,
+      "questName": "Crystal Charge",
+      "url": "https://www.wowhead.com/classic/quest=4385",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4381 was directly checked; the other pylon variants are inferred to share its crystal collection mechanic from their catalog titles and linked quest chain.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Crystal Restore - Capy DB",
+          "url": "https://db.capycraft.org/quest/4381",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic database lists ten Yellow and ten Green Power Crystals from Un’Goro creatures for this repeatable pylon turn-in."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This is one of the same Northern, Eastern, or Western Pylon crystal recipes. The exact variant is inferred from the catalog title and the verified Crystal Restore objective; danger comes from collecting crystals among hostile Un’Goro wildlife.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4386,
+      "questName": "Crystal Spire",
+      "url": "https://www.wowhead.com/classic/quest=4386",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4381 was directly checked; the other pylon variants are inferred to share its crystal collection mechanic from their catalog titles and linked quest chain.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Crystal Restore - Capy DB",
+          "url": "https://db.capycraft.org/quest/4381",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic database lists ten Yellow and ten Green Power Crystals from Un’Goro creatures for this repeatable pylon turn-in."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This is one of the same Northern, Eastern, or Western Pylon crystal recipes. The exact variant is inferred from the catalog title and the verified Crystal Restore objective; danger comes from collecting crystals among hostile Un’Goro wildlife.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4401,
+      "questName": "Corrupted Songflower",
+      "url": "https://www.wowhead.com/classic/quest=4401",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The retrieved Classic quest text confirms this is a salve-based plant interaction in Felwood. Other quests in this batch share the corrupted plant names and are consistent with the local quest-ID mapping; the interaction itself requires no combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4402,
+      "questName": "Galgar's Cactus Apple Surprise",
+      "url": "https://www.wowhead.com/classic/quest=4402",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "The apples are found on cacti in the starting zone. No combat required. Safe for any level.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4403,
+      "questName": "Corrupted Windblossom",
+      "url": "https://www.wowhead.com/classic/quest=4403",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4421,
+      "questName": "The Corruption of the Jadefire",
+      "url": "https://www.wowhead.com/classic/quest=4421",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Classic quest page and a sample of comments support the camp layout, adds, and solo range; comment sort order was not verified.",
+      "commentsReviewed": 8,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=4421/the-corruption-of-the-jadefire#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Corruption of the Jadefire - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4421/the-corruption-of-the-jadefire",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text confirms the Jadefire camp and Xavathras objective; comments report solo completion in the low-to-mid 50s and describe a nearby add and hidden Shadowstalkers."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM. The Classic quest page confirms Xavathras and the multi-camp objectives; comments describe a nearby add, hidden Shadowstalkers, and solo completion around level 53, supporting caution without the previous unsupported level ranges.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "Jadefire satyrs occupy a dense camp, and Xavathras can be approached with a nearby guard. Clear from the edges, watch for hidden Shadowstalkers, and bring help if you cannot handle the boss and an add together.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4441,
+      "questName": "Felbound Ancients",
+      "url": "https://www.wowhead.com/classic/quest=4441",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Delivery step with no combat beyond travel. The journey to Darnassus is safe via flight path. Safe if you stay in the city.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4442,
+      "questName": "Purified!",
+      "url": "https://www.wowhead.com/classic/quest=4442",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Dialogue step with no combat. Safe if you stay in the area.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4443,
+      "questName": "Corrupted Whipper Root",
+      "url": "https://www.wowhead.com/classic/quest=4443",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4444,
+      "questName": "Corrupted Whipper Root",
+      "url": "https://www.wowhead.com/classic/quest=4444",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4445,
+      "questName": "Corrupted Whipper Root",
+      "url": "https://www.wowhead.com/classic/quest=4445",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4446,
+      "questName": "Corrupted Whipper Root",
+      "url": "https://www.wowhead.com/classic/quest=4446",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4447,
+      "questName": "Corrupted Night Dragon",
+      "url": "https://www.wowhead.com/classic/quest=4447",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4448,
+      "questName": "Corrupted Night Dragon",
+      "url": "https://www.wowhead.com/classic/quest=4448",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4449,
+      "questName": "Caught!",
+      "url": "https://www.wowhead.com/classic/quest=4449",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM; removes unverified exact levels and patrol specifics while preserving the documented local camp risk from the catalog objective and existing assessment.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "Dark Iron camps in Searing Gorge can produce overlapping pulls around the outhouse. Clear a route to the target and stop if patrols or respawns close your exit.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4450,
+      "questName": "Ledger from Tanaris",
+      "url": "https://www.wowhead.com/classic/quest=4450",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM; replaces unsupported level-specific claims with the concrete cross-zone travel hazard. The catalog describes a multi-item collection in Tanaris, and the existing warning identifies additional Searing Gorge objectives.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "This collection route crosses hostile areas in Tanaris and Searing Gorge. Gather items in short trips and avoid pushing through camps when the retreat route is unsafe.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4451,
+      "questName": "The Key to Freedom",
+      "url": "https://www.wowhead.com/classic/quest=4451",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; treats this as an exploration step, and removes the unsupported minimum-level claim. Confidence is medium because the catalog objective and location are clear but the route hazard is ordinary knowledge.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Finding and using the key adds no required combat beyond travel through Searing Gorge. Stay on a clear route and avoid nearby hostile camps.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4461,
+      "questName": "Corrupted Whipper Root",
+      "url": "https://www.wowhead.com/classic/quest=4461",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4462,
+      "questName": "Corrupted Night Dragon",
+      "url": "https://www.wowhead.com/classic/quest=4462",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4463,
+      "questName": "Libram of Rumination",
+      "url": "https://www.wowhead.com/classic/quest=4463",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "The retrieved page verifies the material list and Burning Steppes turn-in; the referenced BRD component source is a page comment, not independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Libram of Rumination - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4463/libram-of-rumination",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest page lists the Burning Steppes hand-in and Black Blood of the Tormented among required materials; a retrieved linked item comment associates that component with Blackrock Depths."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The retrieved Classic quest page places the turn-in in Burning Steppes and lists Black Blood of the Tormented among the materials; Wowhead item comments identify that component with Blackrock Depths. The danger is in obtaining materials, not the hand-in.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4464,
+      "questName": "Corrupted Songflower",
+      "url": "https://www.wowhead.com/classic/quest=4464",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4465,
+      "questName": "Corrupted Songflower",
+      "url": "https://www.wowhead.com/classic/quest=4465",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4466,
+      "questName": "Corrupted Windblossom",
+      "url": "https://www.wowhead.com/classic/quest=4466",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4467,
+      "questName": "Corrupted Windblossom",
+      "url": "https://www.wowhead.com/classic/quest=4467",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest 4401 was directly checked; other listed Corrupted Plant quests use the same salve interaction, inferred from their shared catalog quest names and Classic quest ID mapping.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=4401/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:14:00+03:00",
+          "evidence": "Classic quest text requires two Cenarion Plant Salves and says the interaction starts and ends in Felwood."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "This quest is one of the same corrupted Felwood plant turn-ins. Its danger is limited to travel near hostile zone creatures; the plant interaction does not require combat.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4481,
+      "questName": "Libram of Constitution",
+      "url": "https://www.wowhead.com/classic/quest=4481",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "These names identify libram hand-ins; danger from optional material acquisition is assessed from existing game knowledge. The exact material list was not retrieved.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "This is a Burning Steppes libram turn-in. The assessment follows the same material pattern as Libram of Rumination, whose retrieved Classic entry requires a Blackrock Depths component; the exact variant components were not independently checked.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4482,
+      "questName": "Libram of Tenacity",
+      "url": "https://www.wowhead.com/classic/quest=4482",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "These names identify libram hand-ins; danger from optional material acquisition is assessed from existing game knowledge. The exact material list was not retrieved.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "This is a Burning Steppes libram turn-in. The assessment follows the same material pattern as Libram of Rumination, whose retrieved Classic entry requires a Blackrock Depths component; the exact variant components were not independently checked.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4483,
+      "questName": "Libram of Resilience",
+      "url": "https://www.wowhead.com/classic/quest=4483",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "These names identify libram hand-ins; danger from optional material acquisition is assessed from existing game knowledge. The exact material list was not retrieved.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "This is a Burning Steppes libram turn-in. The assessment follows the same material pattern as Libram of Rumination, whose retrieved Classic entry requires a Blackrock Depths component; the exact variant components were not independently checked.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4484,
+      "questName": "Libram of Voracity",
+      "url": "https://www.wowhead.com/classic/quest=4484",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "These names identify libram hand-ins; danger from optional material acquisition is assessed from existing game knowledge. The exact material list was not retrieved.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "This is a Burning Steppes libram turn-in. The assessment follows the same material pattern as Libram of Rumination, whose retrieved Classic entry requires a Blackrock Depths component; the exact variant components were not independently checked.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4485,
+      "questName": "The Tome of Nobility",
+      "url": "https://www.wowhead.com/classic/quest=4485",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Paladin class quest dialogue step with no combat. Safe if you stay in the city.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4486,
+      "questName": "The Tome of Nobility",
+      "url": "https://www.wowhead.com/classic/quest=4486",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Dialogue step with no combat. Safe if you stay in the city.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4487,
+      "questName": "Summon Felsteed",
+      "url": "https://www.wowhead.com/classic/quest=4487",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Warlock class quest dialogue step with no combat. Safe if you stay in the area.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4488,
+      "questName": "Summon Felsteed",
+      "url": "https://www.wowhead.com/classic/quest=4488",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and existing warning were reassessed. Confidence is reduced from high to medium because no retrieved corroborating sources were needed or recorded.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "Warlock class quest dialogue step with no combat. Safe if you stay in the area.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4489,
+      "questName": "Summon Felsteed",
+      "url": "https://www.wowhead.com/classic/quest=4489",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM and removes the unsupported level requirement; the existing warning describes a combat ritual, while catalog context establishes the Ratchet location.",
+      "confidence": "medium",
+      "threat": "MEDIUM",
+      "reason": "The warlock mount ritual involves combat after the Ratchet dialogue. Recover before starting it and do not begin while already under pressure from nearby enemies.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 4490,
+      "questName": "Summon Felsteed",
+      "url": "https://www.wowhead.com/classic/quest=4490",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:14:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog and current warning reviewed. External retrieval was used only for material uncertainties; no comment sample was used as independent corroboration.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; catalog description is dialogue only. Confidence is medium because this is a clear local objective with no hidden hazard indicated.",
+      "confidence": "medium",
+      "threat": "LOW",
+      "reason": "This step only teaches the warlock ability through dialogue. It adds no combat; use the normal route to Ratchet and avoid unnecessary pulls.",
+      "addonAppliedAt": "2026-10-24T21:14:00+03:00",
+      "addonSource": "QuestData.lua"
     }
   ]
 }

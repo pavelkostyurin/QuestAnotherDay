@@ -2184,13 +2184,13 @@ local quests = {
     [4294] = { threat = "MEDIUM", reason = "Collecting Un’Goro slime samples requires repeated fights with hostile oozes; the testing and turn-in afterward are safe in Undercity. Pull slimes away from nearby enemies and avoid fighting several at once.", confidence = "medium" },
 
     -- Bone-Bladed Weapons
-    [4300] = { threat = "MEDIUM", reason = "The mobs are levels 48-52 and can pull in groups. Clear the area before looting.", confidence = "medium" },
+    [4300] = { threat = "MEDIUM", reason = "White ravasaur packs in Un’Goro can add to fights, especially when pulled near other beasts. Pull from the edge of a group and keep room to retreat.", confidence = "medium" },
 
     -- Galgar's Cactus Apple Surprise
-    [4402] = { threat = "LOW", reason = "The apples are found on cacti in the starting zone. No combat required. Safe for any level.", confidence = "high" },
+    [4402] = { threat = "LOW", reason = "The apples are found on cacti in the starting zone. No combat required. Safe for any level.", confidence = "medium" },
 
     -- Summon Felsteed
-    [4489] = { threat = "MEDIUM", reason = "The ritual summons a felsteed that you must defeat. The tower is in Ratchet, which is safe, but the summoning itself involves combat. Requires level 40. Do not attempt below level 40.", confidence = "high" },
+    [4489] = { threat = "MEDIUM", reason = "The warlock mount ritual involves combat after the Ratchet dialogue. Recover before starting it and do not begin while already under pressure from nearby enemies.", confidence = "medium" },
 
     -- March of the Silithid
     [4494] = { threat = "MEDIUM", reason = "The quest leads into silithid territory with hostile mobs. Clear the area before engaging and watch for patrolling silithids.", confidence = "medium" },

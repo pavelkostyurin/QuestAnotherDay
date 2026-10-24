@@ -2958,7 +2958,7 @@ local quests = {
     [4297] = { threat = "MEDIUM", reason = "Silvermane Stalkers are stealthed wolves in the Hinterlands, so they can surprise you at close range while you search for them. Move carefully through the woods and avoid fighting near other hostile wildlife.", confidence = "medium" },
 
     -- Becoming a Parent
-    [4298] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4298] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Jail Break!
     [4322] = { threat = "HIGH", reason = "Elite quest. Requires entering Blackrock Depths and escorting Marshal Windsor through the prison block. Waves of elite Dark Iron dwarves spawn during the escape, and Windsor can die. A full group of level 52+ is required. Do not attempt solo.", confidence = "high" },
@@ -2979,25 +2979,25 @@ local quests = {
     [4363] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- The Corruption of the Jadefire
-    [4421] = { threat = "MEDIUM", reason = "Jadefire satyrs are levels 48-52 and cast shadow magic; they pull in groups around the Jaedenar area. Xavathras is a named mob with guards. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [4421] = { threat = "MEDIUM", reason = "Jadefire satyrs occupy a dense camp, and Xavathras can be approached with a nearby guard. Clear from the edges, watch for hidden Shadowstalkers, and bring help if you cannot handle the boss and an add together.", confidence = "medium" },
 
     -- Felbound Ancients
-    [4441] = { threat = "LOW", reason = "Delivery step with no combat beyond travel. The journey to Darnassus is safe via flight path. Safe if you stay in the city.", confidence = "high" },
+    [4441] = { threat = "LOW", reason = "Delivery step with no combat beyond travel. The journey to Darnassus is safe via flight path. Safe if you stay in the city.", confidence = "medium" },
 
     -- Purified!
-    [4442] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4442] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- The Tome of Nobility
-    [4485] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4485] = { threat = "LOW", reason = "Paladin class quest dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- The Tome of Nobility
-    [4486] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [4486] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Summon Felsteed
-    [4487] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4487] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Summon Felsteed
-    [4488] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4488] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- March of the Silithid
     [4493] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },

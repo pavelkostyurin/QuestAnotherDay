@@ -1161,25 +1161,103 @@ addon.quests = {
     [4296] = { threat = "MEDIUM", reason = "The tablet transcript is obtained at the Ruins of Thaurissan among hostile Dark Iron enemies. Clear nearby guards before using the tablet and keep an exit route open.", confidence = "medium" },
 
     -- The Mighty U'cha
-    [4301] = { threat = "HIGH", reason = "U'cha is a level 50-52 elite gorilla inside the Gorishi hive cave in Un'Goro. He hits hard and is surrounded by level 50-54 gorillas that pull in groups. The cave has no escape route once you are deep inside. Clear methodically and keep an exit path. Do not attempt solo below level 52 without a group.", confidence = "high" },
+    [4301] = { threat = "MEDIUM", reason = "U’cha is a powerful level 55 gorilla at the back of a cave where other apes may call for help. Clear a path, pull him away from nearby enemies, and avoid fighting near ledges where calls can bring extra apes.", confidence = "medium" },
 
     -- Making Sense of It
-    [4321] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4321] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- Yuka Screwspigot
     [4324] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
+    -- Corrupted Windblossom
+    [4343] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted Windblossom; the plant interaction itself requires no combat. Watch for hostile Felwood creatures while approaching it.", confidence = "medium" },
+
+    -- Crystal Restore
+    [4381] = { threat = "MEDIUM", reason = "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.", confidence = "medium" },
+
+    -- Crystal Force
+    [4382] = { threat = "MEDIUM", reason = "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.", confidence = "medium" },
+
+    -- Crystal Ward
+    [4383] = { threat = "MEDIUM", reason = "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.", confidence = "medium" },
+
+    -- Crystal Yield
+    [4384] = { threat = "MEDIUM", reason = "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.", confidence = "medium" },
+
+    -- Crystal Charge
+    [4385] = { threat = "MEDIUM", reason = "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.", confidence = "medium" },
+
+    -- Crystal Spire
+    [4386] = { threat = "MEDIUM", reason = "Collecting power crystals requires fighting hostile wildlife across Un’Goro Crater. Pull carefully in the open and leave if nearby beasts turn one fight into several.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4401] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [4403] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Whipper Root
+    [4443] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Whipper Root
+    [4444] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Whipper Root
+    [4445] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Whipper Root
+    [4446] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Night Dragon
+    [4447] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Night Dragon
+    [4448] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
     -- Caught!
-    [4449] = { threat = "MEDIUM", reason = "Dark Iron Geologists are levels 46-48 and pull in groups in the Searing Gorge. The outhouse is in a camp patrolled by additional dwarves. Clear methodically and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
+    [4449] = { threat = "MEDIUM", reason = "Dark Iron camps in Searing Gorge can produce overlapping pulls around the outhouse. Clear a route to the target and stop if patrols or respawns close your exit.", confidence = "medium" },
 
     -- Ledger from Tanaris
-    [4450] = { threat = "MEDIUM", reason = "Long cross-zone collection quest. Items are in Tanaris and the Searing Gorge, both patrolled by level 45-50 mobs. Travel between zones is the main risk. Do not attempt below level 45 solo.", confidence = "medium" },
+    [4450] = { threat = "MEDIUM", reason = "This collection route crosses hostile areas in Tanaris and Searing Gorge. Gather items in short trips and avoid pushing through camps when the retreat route is unsafe.", confidence = "medium" },
 
     -- The Key to Freedom
-    [4451] = { threat = "LOW", reason = "Exploration step with no combat. The key is used in the Searing Gorge, which is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [4451] = { threat = "LOW", reason = "Finding and using the key adds no required combat beyond travel through Searing Gorge. Stay on a clear route and avoid nearby hostile camps.", confidence = "medium" },
+
+    -- Corrupted Whipper Root
+    [4461] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Night Dragon
+    [4462] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Libram of Rumination
+    [4463] = { threat = "MEDIUM", reason = "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4464] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Songflower
+    [4465] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [4466] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Corrupted Windblossom
+    [4467] = { threat = "LOW", reason = "Use Cenarion Plant Salve on the corrupted plant; cleansing it requires no combat. Watch for hostile Felwood creatures while approaching the plant.", confidence = "medium" },
+
+    -- Libram of Constitution
+    [4481] = { threat = "MEDIUM", reason = "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.", confidence = "medium" },
+
+    -- Libram of Tenacity
+    [4482] = { threat = "MEDIUM", reason = "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.", confidence = "medium" },
+
+    -- Libram of Resilience
+    [4483] = { threat = "MEDIUM", reason = "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.", confidence = "medium" },
+
+    -- Libram of Voracity
+    [4484] = { threat = "MEDIUM", reason = "The Burning Steppes hand-in is safe, but acquiring some libram materials can involve Blackrock Depths. Obtain the materials through a group or trade rather than entering the instance alone.", confidence = "medium" },
 
     -- Summon Felsteed
-    [4490] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4490] = { threat = "LOW", reason = "This step only teaches the warlock ability through dialogue. It adds no combat; use the normal route to Ratchet and avoid unnecessary pulls.", confidence = "medium" },
 
     -- A Little Help From My Friends
     [4491] = { threat = "HIGH", reason = "Escort quest. Ringo faints periodically and must be revived with Spraggle's Canteen; if he dies, the quest fails. The route passes through Fire Plume Ridge and silithid territory in Un'Goro. Clear the path ahead and keep the canteen ready. Do not attempt below level 50 solo without a plan.", confidence = "high" },
