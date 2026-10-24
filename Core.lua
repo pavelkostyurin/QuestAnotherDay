@@ -27,6 +27,11 @@ local threatStyles = {
         texture = "Interface\\AddOns\\QuestAnotherDay\\Textures\\Threat-Extreme.tga",
     },
 }
+local confidenceLabels = {
+    low = "Low",
+    medium = "Medium",
+    high = "High",
+}
 
 local function Print(message)
     if DEFAULT_CHAT_FRAME then
@@ -102,7 +107,7 @@ local function ShowThreatTooltip(owner, questID)
     GameTooltip:AddLine(" ")
     GameTooltip:AddLine("Threat: " .. style.label, style.rgb[1], style.rgb[2], style.rgb[3])
     local function AddFooter(text)
-        GameTooltip:AddLine(text, 0.65, 0.65, 0.65)
+        GameTooltip:AddLine(text, 0.65, 0.65, 0.65, true)
         local tooltipName = GameTooltip:GetName()
         local line = tooltipName and _G[tooltipName .. "TextLeft" .. GameTooltip:NumLines()]
         if line and GameTooltipTextSmall then
@@ -118,6 +123,10 @@ local function ShowThreatTooltip(owner, questID)
     end
     if threatLine and GameTooltipText then
         threatLine:SetFontObject(GameTooltipText)
+    end
+    AddFooter("Confidence: " .. (confidenceLabels[record.confidence] or "Unknown"))
+    if record.confidence == "low" then
+        AddFooter("Limited evidence; mechanics may vary.")
     end
     GameTooltip:AddLine(" ")
     AddFooter("Quest Another Day. Feedback: /qad options")

@@ -321,7 +321,7 @@ addon.quests = {
     [892] = { threat = "LOW", reason = "Travel step with no combat objective. The road from Ratchet is safe if you avoid the pirate camps along the coast.", confidence = "high" },
 
     -- Samophlange
-    [894] = { threat = "MEDIUM", reason = "The console is guarded by level 14-18 Venture Co. mobs that pull in groups. Clear the area before accessing the console and watch for patrolling mobs. Do not attempt below level 14 solo.", confidence = "medium" },
+    [894] = { threat = "MEDIUM", reason = "Venture Company guards make the console approach vulnerable to extra pulls. Clear nearby enemies and preserve a retreat route before interacting.", confidence = "medium" },
 
     -- WANTED: Baron Longshore
     [895] = { threat = "MEDIUM", reason = "Baron Longshore is a level 16 pirate who spawns randomly at one of the Southsea Freebooter camps along the Barrens coast. He has around 356 HP and is accompanied by two other pirates. He is not elite, but the camps are patrolled by other pirates. A level 25 player killed him repeatedly for deviate recipe farming. Do not attempt below level 15 solo without a plan to handle his guards.", confidence = "high" },
@@ -330,13 +330,13 @@ addon.quests = {
     [896] = { threat = "MEDIUM", reason = "The emerald drops from level 18-20 Venture Co. mobs at the Sludge Fen. The drop rate is moderate. The area is packed with mobs that pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 18 solo.", confidence = "medium" },
 
     -- Samophlange
-    [900] = { threat = "MEDIUM", reason = "The valves are scattered around the Venture Co. research site, which is patrolled by level 14-18 mobs. Clear the area around each valve before interacting and watch for patrolling mobs. Do not attempt below level 14 solo.", confidence = "medium" },
+    [900] = { threat = "HIGH", reason = "Operating the valves summons additional Venture Company enemies even after the area has been cleared. Nearby enemies can turn the ambush into a dangerous multi-pull. Recover before each valve and bring help if you cannot control several enemies.", confidence = "high" },
 
     -- Samophlange
-    [901] = { threat = "MEDIUM", reason = "Tinkerer Sniggles is a level 18-20 goblin in the Sludge Fen, surrounded by Venture Co. mobs. Clear the area before engaging and watch for patrolling mobs. Do not attempt below level 16 solo.", confidence = "medium" },
+    [901] = { threat = "MEDIUM", reason = "The hut approach and return to the console can expose you to additional guards. Isolate Sniggles, clear your retreat route, and recheck the console area before returning.", confidence = "medium" },
 
     -- Samophlange
-    [902] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [902] = { threat = "LOW", reason = "The return delivery adds no new combat encounter. Leave the site by a cleared route and avoid unnecessary fights on the way to Ratchet.", confidence = "medium" },
 
     -- Trouble at the Docks
     [959] = { threat = "HIGH", reason = "Mad Magglish is located in the tunnels *outside* the instance proper, but the path to him is filled with non-elite and elite mobs. He is stealthed and can be hard to spot. The caves respawn quickly. Bring a group or be prepared to fight through respawning mobs on the way out.", confidence = "high" },

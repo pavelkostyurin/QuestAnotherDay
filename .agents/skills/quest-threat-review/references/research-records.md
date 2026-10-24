@@ -79,6 +79,10 @@ or checksum to the summary when relevant. A quest ID, description, or existing
 warning alone does not verify hidden mechanics. Do not invent source URLs for
 remembered facts. Knowledge-only completion is valid at low or medium confidence.
 A request for sourced research requires evidence beyond a knowledge-only record.
+Every completed review records the reassessed confidence, even when it matches
+the existing addon value. Include a short confidence rationale in `summary`.
+Applying a completed review synchronizes its threat, reason, and confidence with
+`QuestData.lua`; a confidence-only change is a valid review outcome.
 
 Record visible stable comment IDs or fragment URLs in `commentRefs`.
 `ranking` is `highest-rated` only when scores or explicit sort metadata verify

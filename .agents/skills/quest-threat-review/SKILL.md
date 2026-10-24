@@ -50,9 +50,12 @@ writing a warning. Research and addon records use the same four threat values:
    research, current information, or source verification. Apply any broader
    requirement to verify uncertain or changeable claims.
 4. Otherwise finish the assessment without external retrieval. Routine quests
-   do not require a Wowhead visit or a fixed comment quota. Assign confidence
-   according to the actual basis; knowledge-based assessments are at most
-   `medium`. Do not fabricate citations or call an inference source-verified.
+   do not require a Wowhead visit or a fixed comment quota. Reassess confidence
+   on every review using the actual support for the final warning, even when
+   the tier and wording stay unchanged. Retain, raise, or lower the existing
+   value as warranted; do not copy it automatically. Knowledge-based
+   assessments are at most `medium`. Do not fabricate citations or call an
+   inference source-verified.
 
 ## Verify material uncertainties with text retrieval
 
@@ -104,8 +107,10 @@ if a refresh fails and report that failed refresh separately.
 
 For addon changes:
 
-- Edit `QuestData.lua`, the canonical warning source. Each ID appears once;
-  resolve duplicates explicitly rather than relying on last-write-wins.
+- Edit `QuestData.lua`, the canonical warning source. Apply the reviewed
+  `threat`, `reason`, and `confidence` together for each authorized record,
+  including confidence-only changes. Each ID appears once; resolve duplicates
+  explicitly rather than relying on last-write-wins.
 - Do not add addon fields or manually edit generated faction files. Verify Era
   unavailability before removing a requested record; a page failure or a later
   expansion's removal notice is not sufficient evidence.
@@ -115,5 +120,7 @@ For addon changes:
 
 Return quest name/ID, proposed or applied Lua entry, tier, confidence, assessment
 basis, any evidence counts and links, material uncertainty, changed files, and
-validation results as relevant. For skips, return name/ID and reason. For exhausted traversal, report
+validation results as relevant. In review tables and diffs, show confidence as
+before → proposed/applied alongside threat changes, and briefly explain its
+basis. For skips, return name/ID and reason. For exhausted traversal, report
 completion without changes.

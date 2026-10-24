@@ -27,6 +27,10 @@ Guidance also appears in chat when you accept a reviewed quest. Acceptance warni
 
 Ratings assume a solo character near the quest's intended level with ordinary gear. They are guidance, never a guarantee of safety. A missing icon or `UNKNOWN` result does not mean a quest is safe.
 
+Tooltips also show **Confidence: High, Medium, or Low** beneath the threat rating.
+Confidence describes how well the assessment is supported. Low-confidence
+warnings include a short note that evidence is limited and mechanics may vary.
+
 ## Settings and commands
 
 Open **Options → AddOns → Quest Another Day**, or enter `/qad options`.

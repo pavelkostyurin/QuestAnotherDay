@@ -2569,6 +2569,175 @@
       ],
       "addonAppliedAt": "2026-10-24T10:35:59.185Z",
       "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 894,
+      "questName": "Samophlange",
+      "url": "https://www.wowhead.com/classic/quest=894/samophlange",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T13:40:16+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Zero comment cards were reviewed: only successfully opened guide passages and local catalog records were used. Search snippets were discovery aids. No exact wave count or respawn interval is asserted.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "RestedXP Classic Horde route",
+          "url": "https://github.com/RestedXP/RXPGuides/blob/main/Guides/Classic-Horde-Mage-12-21.lua",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T13:40:16+03:00",
+          "evidence": "The route distinguishes the initial console turn-in from the subsequent valve and key stages."
+        },
+        {
+          "title": "Hosho — Guide to The Barrens (2006 archive)",
+          "url": "https://alex10tigr.github.io/Guide%20to%20The%20Barrens%20(12-20)%20_%20World%20of%20Warcraft%20Pro.html",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T13:40:16+03:00",
+          "evidence": "The opening console requires fighting through Venture Co. guards."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retain MEDIUM for reaching the console; the valve-triggered encounter belongs to the next stage.",
+      "reason": "Venture Company guards make the console approach vulnerable to extra pulls. Clear nearby enemies and preserve a retreat route before interacting.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T10:54:45.492Z",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 900,
+      "questName": "Samophlange",
+      "url": "https://www.wowhead.com/classic/quest=900/samophlange",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T13:40:16+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Zero comment cards were reviewed: only successfully opened guide passages and local catalog records were used. Search snippets were discovery aids. No exact wave count or respawn interval is asserted.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "RestedXP Classic Horde route",
+          "url": "https://github.com/RestedXP/RXPGuides/blob/main/Guides/Classic-Horde-Mage-12-21.lua",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T13:40:16+03:00",
+          "evidence": "Its regulator/main valve steps explicitly warn of spawned enemies."
+        },
+        {
+          "title": "Hosho — Guide to The Barrens (2006 archive)",
+          "url": "https://alex10tigr.github.io/Guide%20to%20The%20Barrens%20(12-20)%20_%20World%20of%20Warcraft%20Pro.html",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T13:40:16+03:00",
+          "evidence": "The vanilla-era guide independently describes peons appearing during valve operation, while judging them manageable."
+        }
+      ],
+      "excludedEvidence": [
+        "Search-indexed comment snippets disagree about exact spawn timing and count; they were not treated as reviewed comments or corroborating evidence."
+      ],
+      "summary": "Both guides establish valve-triggered spawns. HIGH is a solo-Hardcore judgement near the intended level, not a source-provided rating; the older guide describes the encounter as manageable. Exact spawn counts, valve ordering, and respawn seconds are not established here.",
+      "reason": "Operating the valves summons additional Venture Company enemies even after the area has been cleared. Nearby enemies can turn the ambush into a dangerous multi-pull. Recover before each valve and bring help if you cannot control several enemies.",
+      "threat": "HIGH",
+      "confidence": "high",
+      "retrievalIssues": [
+        {
+          "url": "https://www.wowhead.com/classic/quest=900/samophlange",
+          "failure": "access-blocked",
+          "note": "Robot verification; no further direct requests to Wowhead during this invocation."
+        },
+        {
+          "url": "https://classicdb.ch/?quest=900",
+          "failure": "page-unavailable"
+        }
+      ],
+      "addonAppliedAt": "2026-10-24T10:54:45.492Z",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 901,
+      "questName": "Samophlange",
+      "url": "https://www.wowhead.com/classic/quest=901/samophlange",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T13:40:16+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Zero comment cards were reviewed: only successfully opened guide passages and local catalog records were used. Search snippets were discovery aids. No exact wave count or respawn interval is asserted.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "RestedXP Classic Horde route",
+          "url": "https://github.com/RestedXP/RXPGuides/blob/main/Guides/Classic-Horde-Mage-12-21.lua",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T13:40:16+03:00",
+          "evidence": "Identifies Sniggles inside the nearby building followed by a return to the console."
+        },
+        {
+          "title": "Hosho — Guide to The Barrens (2006 archive)",
+          "url": "https://alex10tigr.github.io/Guide%20to%20The%20Barrens%20(12-20)%20_%20World%20of%20Warcraft%20Pro.html",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T13:40:16+03:00",
+          "evidence": "Describes Sniggles as level 16, manageable one-on-one, and notes clearing the console approach again."
+        },
+        {
+          "title": "Samophlange quest 901 — ClassicDB",
+          "url": "https://classicdb.ch/?quest=901",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T13:40:16+03:00",
+          "evidence": "Quest metadata and objective distinguish the console-key stage; no comments were available in the returned excerpt."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Keep MEDIUM for the camp and hut route. The vanilla guide describes a level-16 Sniggles who can be fought singly, contradicting the current 18–20 range; no exact level is needed in the tooltip.",
+      "reason": "The hut approach and return to the console can expose you to additional guards. Isolate Sniggles, clear your retreat route, and recheck the console area before returning.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T10:54:45.492Z",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 902,
+      "questName": "Samophlange",
+      "url": "https://www.wowhead.com/classic/quest=902/samophlange",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T13:40:16+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Zero comment cards were reviewed: only successfully opened guide passages and local catalog records were used. Search snippets were discovery aids. No exact wave count or respawn interval is asserted.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retain LOW for the actual return stage while replacing the blanket road-safety claim.",
+      "reason": "The return delivery adds no new combat encounter. Leave the site by a cleared route and avoid unnecessary fights on the way to Ratchet.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T10:54:45.492Z",
+      "addonSource": "QuestData.lua"
     }
   ]
 }

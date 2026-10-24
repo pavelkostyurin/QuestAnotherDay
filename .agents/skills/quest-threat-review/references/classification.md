@@ -50,6 +50,12 @@ or safety claims. A routine quest can receive a completed knowledge-based
 assessment without retrieval. Resolve uncertainty that could change the tier
 or advice before finalizing; prefer insufficient evidence over guessing.
 
+For an existing record, evaluate confidence afresh against this rubric. A review
+may change only confidence while leaving the threat and reason intact. Reuse
+traceable evidence from earlier reviews when still applicable. Previously
+verified evidence can continue to support confidence without a fresh lookup.
+Explain the chosen confidence briefly, including when its value is retained.
+
 ## Reason structure
 
 Use these elements in order, combining danger and mechanics when a flag is
