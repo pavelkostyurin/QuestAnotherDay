@@ -1314,28 +1314,52 @@ addon.quests = {
     [4771] = { threat = "EXTREME", reason = "Elite quest. Requires placing Dawn's Gambit in the Scholomance Viewing Room, which summons Vectus, a level 60 elite. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Components for the Enchanted Gold Bloodrobe
-    [4781] = { threat = "LOW", reason = "Warlock class quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4781] = { threat = "LOW", reason = "This is a gold-bar hand-in to Xizk Goodstitch in Booty Bay. It adds no combat after you reach town; avoid unnecessary fights during the trip.", confidence = "medium" },
 
     -- Components for the Enchanted Gold Bloodrobe
-    [4782] = { threat = "LOW", reason = "Warlock class quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4782] = { threat = "LOW", reason = "This is a letter delivery to Menara in the Barrens. The hand-in adds no combat; avoid unnecessary fights while travelling.", confidence = "medium" },
 
     -- Components for the Enchanted Gold Bloodrobe
-    [4783] = { threat = "MEDIUM", reason = "Hatefury Blood drops from level 30-34 demons in Desolace, and the Lesser Infernal Stone drops from a level 35 elite infernal. The demons pull in groups and cast shadow magic. Clear methodically and watch for adds. Do not attempt below level 32 solo.", confidence = "medium" },
+    [4783] = { threat = "MEDIUM", reason = "Collecting Hatefury Blood requires fighting demons in Desolace, and the Lesser Infernal Stone comes from a stronger infernal. Pull away from the camp and be ready to retreat if the infernal or nearby demons add.", confidence = "medium" },
 
     -- Components for the Enchanted Gold Bloodrobe
-    [4784] = { threat = "LOW", reason = "Warlock class quest collection step with no combat beyond gathering the materials. Safe if you stay on the road.", confidence = "high" },
+    [4784] = { threat = "LOW", reason = "This is a material hand-in to Menara. It adds no combat if you already have the thread, coal, and Soul Shard; use the normal route back to Ratchet.", confidence = "medium" },
+
+    -- Fine Gold Thread
+    [4785] = { threat = "MEDIUM", reason = "This warlock quest requires a trip to Xizk Goodstitch in Booty Bay to collect the finished thread. Travel by the Ratchet boat and avoid risky fights along the contested coast.", confidence = "medium" },
 
     -- The Completed Robe
-    [4786] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4786] = { threat = "LOW", reason = "This is a dialogue and wait step with Menara in the Barrens. It adds no combat; stay near the friendly quest giver.", confidence = "medium" },
 
     -- The Ancient Egg
-    [4787] = { threat = "HIGH", reason = "The egg is obtained from the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. The journey to Tanaris is dangerous for low-level players. Do not attempt solo.", confidence = "high" },
+    [4787] = { threat = "HIGH", reason = "The Ancient Egg is found in Sunken Temple, a dungeon with hostile elites. If the egg is not already in your bags, obtain it with a group; the later delivery to Tanaris is safe.", confidence = "medium" },
 
     -- The Final Tablets
     [4788] = { threat = "HIGH", reason = "The tablets are obtained from the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
+    -- Frostsaber E'ko
+    [4801] = { threat = "MEDIUM", reason = "Collecting Frostsaber E’ko requires fighting hostile frostsabers in Winterspring. Pull isolated cats and watch for other predators nearby.", confidence = "medium" },
+
+    -- Winterfall E'ko
+    [4802] = { threat = "MEDIUM", reason = "Collecting Winterfall E’ko requires fighting furbolgs in Winterspring camps. Pull from the edges and avoid drawing several camp members at once.", confidence = "medium" },
+
+    -- Shardtooth E'ko
+    [4803] = { threat = "MEDIUM", reason = "Collecting Shardtooth E’ko requires fighting bears in Winterspring. Pull away from nearby wildlife and keep room to retreat.", confidence = "medium" },
+
+    -- Chillwind E'ko
+    [4804] = { threat = "MEDIUM", reason = "Collecting Chillwind E’ko requires fighting chimaeras in Winterspring. Pull one at a time and watch for other hostile creatures nearby.", confidence = "medium" },
+
+    -- Ice Thistle E'ko
+    [4805] = { threat = "MEDIUM", reason = "Collecting Ice Thistle E’ko requires fighting yetis in Winterspring. Avoid entering a crowded cave or camp before clearing an escape route.", confidence = "medium" },
+
+    -- Frostmaul E'ko
+    [4806] = { threat = "HIGH", reason = "Elite quest. Frostmaul E’ko drops from level 59–60 elite frostmaul giants in Winterspring, far above the quest’s minimum level. Bring a group or wait until substantially overleveled.", confidence = "medium" },
+
+    -- Wildkin E'ko
+    [4807] = { threat = "MEDIUM", reason = "Collecting Wildkin E’ko requires fighting hostile owlbeasts in Winterspring. Pull away from other creatures and keep an open retreat route.", confidence = "medium" },
+
     -- Felnok Steelspring
-    [4808] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4808] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Chillwind Horns
     [4809] = { threat = "MEDIUM", reason = "Uncracked Chillwind Horns drop from Chillwind chimaeras in Winterspring, levels 53-57. The chimaeras are aggressive and can pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
@@ -1344,7 +1368,7 @@ addon.quests = {
     [4810] = { threat = "LOW", reason = "Delivery step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Strange Sources
-    [4842] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4842] = { threat = "LOW", reason = "Following Donova’s instructions and reporting back adds no required combat. The travel to Winterspring is the main risk; use a suitable route for your level.", confidence = "medium" },
 
     -- En-Ay-Es-Tee-Why
     [4862] = { threat = "HIGH", reason = "Elite quest. Requires entering Lower Blackrock Spire to collect Spire Spider Eggs from the Spire Spider cave. The cave is packed with level 55-60 elite spiders. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },

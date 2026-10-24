@@ -2232,16 +2232,16 @@ local quests = {
     [4724] = { threat = "HIGH", reason = "The target is a powerful named mob surrounded by her pack. The wolves are levels 46-48 and are aggressive. Clear the pack before engaging the Mistress and watch for patrolling mobs. Do not attempt below level 46 solo.", confidence = "medium" },
 
     -- In Search of Menara Voidrender
-    [4737] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4737] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
 
     -- In Search of Menara Voidrender
-    [4739] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4739] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Wild Guardians
-    [4741] = { threat = "MEDIUM", reason = "Kill the named screecher in Feralas. The target is a powerful bird surrounded by other screechers. Clear the area before engaging.", confidence = "medium" },
+    [4741] = { threat = "MEDIUM", reason = "Hunting Moontouched Owlbeasts takes you through hostile parts of Felwood. Pull from open ground and watch for nearby creatures while recovering.", confidence = "medium" },
 
     -- Wind Rider
-    [4767] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the post.", confidence = "high" },
+    [4767] = { threat = "MEDIUM", reason = "Highperch wyvern eggs are scattered through a hostile nesting area, and reaching them requires climbing a steep ramp. Pull wyverns one at a time and watch your footing near the cliffs.", confidence = "medium" },
 
     -- The Darkstone Tablet
     [4768] = { threat = "MEDIUM", reason = "The tablet is guarded by level 40-44 mobs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 40.", confidence = "medium" },
@@ -2250,16 +2250,16 @@ local quests = {
     [4769] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Homeward Bound
-    [4770] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies. The NPC cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes. Do not attempt below level 44.", confidence = "medium" },
+    [4770] = { threat = "MEDIUM", reason = "Escort quest. Pao’ka must be led out of Highperch, where hostile wyverns and nearby respawns can threaten the route. Clear the path ahead and stay near him so he does not fall behind.", confidence = "medium" },
 
     -- Alien Egg
-    [4821] = { threat = "MEDIUM", reason = "The egg is deep inside the cave at approximately 36, 69, guarded by level 41-44 mobs with fire spells. The cave has high mob density and no safe retreat. Clear methodically and pull singles. Do not attempt below level 40 without a group.", confidence = "high" },
+    [4821] = { threat = "MEDIUM", reason = "The Alien Egg is in a hostile Thousand Needles cave. Clear a path before entering deeper and avoid fighting near the cave’s blind corners.", confidence = "medium" },
 
     -- Pacify the Centaur
-    [4841] = { threat = "MEDIUM", reason = "The centaurs are levels 24-27 and are packed in camps. They pull in groups and have ranged casters. Clear methodically and watch for patrolling mobs. Do not attempt below level 24.", confidence = "medium" },
+    [4841] = { threat = "MEDIUM", reason = "Galak centaurs occupy camps in Thousand Needles, where ranged enemies can join a fight. Work from camp edges and pull into cleared ground.", confidence = "medium" },
 
     -- Serpent Wild
-    [4865] = { threat = "MEDIUM", reason = "The serpents are levels 25-28 and patrol the canyons. They have a lightning attack that can chain. Fight in open areas where you can see them coming. Do not attempt below level 25.", confidence = "medium" },
+    [4865] = { threat = "LOW", reason = "This is a report back to Motega Firemane. It adds no new combat if the findings are already in hand; avoid unnecessary fights during travel.", confidence = "medium" },
 
     -- Assassination Plot
     [4881] = { threat = "MEDIUM", reason = "The centaurs are levels 27-28, with a level 31 patrolling centaur named Achellios the Banished who may wander through the camp during the fight. You must keep Kanati alive while killing the attackers. Use the tent behind the NPC to break line-of-sight and pull one centaur at a time. Solo is possible at level 27-28 with consumables, but bringing a friend is safer.", confidence = "high" },

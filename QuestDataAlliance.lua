@@ -3054,52 +3054,52 @@ local quests = {
     [4733] = { threat = "LOW", reason = "Delivery step with no combat. The bones are on the beach and unguarded. Safe if you avoid the murlocs along the coast.", confidence = "medium" },
 
     -- In Search of Menara Voidrender
-    [4736] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to the Barrens is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [4736] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
 
     -- In Search of Menara Voidrender
-    [4738] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to the Barrens is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [4738] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
 
     -- WANTED: Murkdeep!
-    [4740] = { threat = "MEDIUM", reason = "Group quest. Triggering the event spawns three waves of murlocs (3 Coastrunners, then 2 Warriors, then Murkdeep with a Hunter add) in quick succession. A level 19 player died 4 times trying to solo this. Rest between waves and back away from the huts to avoid the next spawn. Do not attempt below level 17 solo without a plan.", confidence = "high" },
+    [4740] = { threat = "HIGH", reason = "Multi-wave encounter. Clearing the murloc camp triggers successive reinforcements and Murkdeep with a guard, which can overwhelm an unprepared solo character. Clear the camp, retreat to recover between waves, and bring help if you cannot manage the adds.", confidence = "medium" },
 
     -- Thundris Windweaver
-    [4761] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4761] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- The Cliffspring River
-    [4762] = { threat = "LOW", reason = "Travel and collection step with no combat. The river is patrolled by low-level mobs. Safe if you avoid the camps. Do not attempt below level 15 solo.", confidence = "medium" },
+    [4762] = { threat = "LOW", reason = "Collecting the river sample requires entering the pool below a waterfall. Watch your breath and leave the water before fighting or becoming low on air.", confidence = "medium" },
 
     -- The Blackwood Corrupted
-    [4763] = { threat = "HIGH", reason = "Requires gathering items from Blackwood furbolg camps, then summoning a satyr corruptor at a bonfire. The corruptor is a level 20-22 elite with adds. The camps are dense with furbolgs that pull in groups. Clear the area before summoning and bring a group. Do not attempt below level 20 solo without a plan.", confidence = "high" },
+    [4763] = { threat = "HIGH", reason = "The Blackwood camps are dense, and placing the bowl summons a hostile satyr. Clear the approach and camp before triggering the event; bring help if you cannot manage the satyr and nearby adds.", confidence = "medium" },
 
     -- Doomrigger's Clasp
     [4764] = { threat = "LOW", reason = "Delivery step with no combat. The clasp is obtained from a dungeon; if you already have it, this is safe. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Delivery to Ridgewell
-    [4765] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4765] = { threat = "LOW", reason = "This is a delivery to Remington Ridgewell in Stormwind. The hand-in adds no combat; use the normal route through the city.", confidence = "medium" },
 
     -- Mayara Brightwing
     [4766] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- The Red Crystal
-    [4811] = { threat = "LOW", reason = "Exploration step with no combat. The crystal is along the mountain wall, patrolled by low-level mobs. Safe if you avoid the camps. Do not attempt below level 15 solo.", confidence = "medium" },
+    [4811] = { threat = "LOW", reason = "This exploration step leads to a red crystal along Darkshore’s mountain wall. Watch for nearby wildlife and return by the route you came.", confidence = "medium" },
 
     -- As Water Cascades
-    [4812] = { threat = "LOW", reason = "Collection and exploration step with no combat. The moonwell is in Auberdine, and the crystal is along the mountain wall. Safe if you avoid the mob camps. Do not attempt below level 15 solo.", confidence = "medium" },
+    [4812] = { threat = "LOW", reason = "Filling the tube in Auberdine adds no combat; the crystal is an exploration objective along Darkshore’s mountain wall. Watch for nearby wildlife and return by the route you came.", confidence = "medium" },
 
     -- The Fragments Within
-    [4813] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4813] = { threat = "LOW", reason = "This is a report back to Sentinel Glynda in Auberdine. It adds no combat; stay within the settlement.", confidence = "medium" },
 
     -- You Scream, I Scream...
-    [4822] = { threat = "LOW", reason = "Children's Week holiday quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4822] = { threat = "LOW", reason = "Getting Tigule’s ice cream for your ward is a holiday delivery step with no required combat. Follow the normal travel route and avoid hostile camps.", confidence = "medium" },
 
     -- Enraged Wildkin
-    [4861] = { threat = "MEDIUM", reason = "The camp is in southern Winterspring, patrolled by level 53-57 wildkin and frostsabers. The wildkin are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4861] = { threat = "MEDIUM", reason = "The wrecked camp is in hostile southern Winterspring, with wildkin and frostsabers nearby. Search from an open approach and avoid fighting multiple creatures at once.", confidence = "medium" },
 
     -- Enraged Wildkin
-    [4863] = { threat = "MEDIUM", reason = "The wagon is in southern Winterspring, patrolled by level 53-57 wildkin. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4863] = { threat = "MEDIUM", reason = "Jaron’s wagon is in hostile southern Winterspring with wildkin nearby. Approach from an open route and leave if enemies gather around the supplies.", confidence = "medium" },
 
     -- Enraged Wildkin
-    [4864] = { threat = "MEDIUM", reason = "The supplies and amulet are in wildkin territory in southern Winterspring, patrolled by level 53-57 mobs. The wildkin that stole the amulet is a named mob with adds. Clear the area before engaging and watch for adds. Do not attempt below level 53 solo without a plan.", confidence = "medium" },
+    [4864] = { threat = "MEDIUM", reason = "Jaron’s supplies and the amulet are in hostile wildkin territory in southern Winterspring. Clear nearby enemies before collecting them and keep a retreat route.", confidence = "medium" },
 
     -- Guardians of the Altar
     [4901] = { threat = "MEDIUM", reason = "Escort quest. Ranshalla is tanky and can handle the wildkin herself; let her pull aggro before attacking. The quest is long (14-17 minutes) and can bug if torches are lit before she starts channeling. Do not attack before she has 5-6 hits of threat. Soloable at level 54+ with patience.", confidence = "high" },

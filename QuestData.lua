@@ -6344,22 +6344,22 @@ addon.quests = {
     [4735] = { threat = "HIGH", reason = "Elite quest. Requires collecting 8 dragon eggs from the Rookery in Upper Blackrock Spire. The eggs are guarded by elite dragonkin, and the room is a deathtrap for solo players. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- In Search of Menara Voidrender (4736)
-    [4736] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to the Barrens is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [4736] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
 
     -- In Search of Menara Voidrender (Horde - Warlock)
-    [4737] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4737] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
 
     -- In Search of Menara Voidrender (4738)
-    [4738] = { threat = "LOW", reason = "Warlock class quest dialogue step with no combat. The journey to the Barrens is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [4738] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
 
     -- In Search of Menara Voidrender (Horde - Warlock)
-    [4739] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4739] = { threat = "LOW", reason = "This is a warlock class-quest conversation with Menara in the Barrens. It adds no combat; use the normal route to the meeting point and avoid unnecessary pulls.", confidence = "medium" },
 
     -- WANTED: Murkdeep!
-    [4740] = { threat = "MEDIUM", reason = "Group quest. Triggering the event spawns three waves of murlocs (3 Coastrunners, then 2 Warriors, then Murkdeep with a Hunter add) in quick succession. A level 19 player died 4 times trying to solo this. Rest between waves and back away from the huts to avoid the next spawn. Do not attempt below level 17 solo without a plan.", confidence = "high" },
+    [4740] = { threat = "HIGH", reason = "Multi-wave encounter. Clearing the murloc camp triggers successive reinforcements and Murkdeep with a guard, which can overwhelm an unprepared solo character. Clear the camp, retreat to recover between waves, and bring help if you cannot manage the adds.", confidence = "medium" },
 
     -- Wild Guardians (Horde - Feralas)
-    [4741] = { threat = "MEDIUM", reason = "Kill the named screecher in Feralas. The target is a powerful bird surrounded by other screechers. Clear the area before engaging.", confidence = "medium" },
+    [4741] = { threat = "MEDIUM", reason = "Hunting Moontouched Owlbeasts takes you through hostile parts of Felwood. Pull from open ground and watch for nearby creatures while recovering.", confidence = "medium" },
 
     -- Seal of Ascension (Gems)
     [4742] = { threat = "HIGH", reason = "Elite quest. Requires killing three dungeon bosses in Lower Blackrock Spire (War Master Voone, Highlord Omokk, Overlord Wyrmthalak). LBRS is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -6368,25 +6368,25 @@ addon.quests = {
     [4743] = { threat = "HIGH", reason = "Requires beating Emberstrife, a level 60 elite dragon in Dustwallow Marsh, to 10% health, then mind-controlling him with the Orb of Draconic Energy. The mind-control can resist, and a fatal resist means death. Bring a group or significant overleveling. Do not attempt solo below level 58.", confidence = "high" },
 
     -- Thundris Windweaver
-    [4761] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4761] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- The Cliffspring River
-    [4762] = { threat = "LOW", reason = "Travel and collection step with no combat. The river is patrolled by low-level mobs. Safe if you avoid the camps. Do not attempt below level 15 solo.", confidence = "medium" },
+    [4762] = { threat = "LOW", reason = "Collecting the river sample requires entering the pool below a waterfall. Watch your breath and leave the water before fighting or becoming low on air.", confidence = "medium" },
 
     -- The Blackwood Corrupted
-    [4763] = { threat = "HIGH", reason = "Requires gathering items from Blackwood furbolg camps, then summoning a satyr corruptor at a bonfire. The corruptor is a level 20-22 elite with adds. The camps are dense with furbolgs that pull in groups. Clear the area before summoning and bring a group. Do not attempt below level 20 solo without a plan.", confidence = "high" },
+    [4763] = { threat = "HIGH", reason = "The Blackwood camps are dense, and placing the bowl summons a hostile satyr. Clear the approach and camp before triggering the event; bring help if you cannot manage the satyr and nearby adds.", confidence = "medium" },
 
     -- Doomrigger's Clasp
     [4764] = { threat = "LOW", reason = "Delivery step with no combat. The clasp is obtained from a dungeon; if you already have it, this is safe. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Delivery to Ridgewell
-    [4765] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4765] = { threat = "LOW", reason = "This is a delivery to Remington Ridgewell in Stormwind. The hand-in adds no combat; use the normal route through the city.", confidence = "medium" },
 
     -- Mayara Brightwing
     [4766] = { threat = "LOW", reason = "Dialogue step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Wind Rider (Horde - Thousand Needles)
-    [4767] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the post.", confidence = "high" },
+    [4767] = { threat = "MEDIUM", reason = "Highperch wyvern eggs are scattered through a hostile nesting area, and reaching them requires climbing a steep ramp. Pull wyverns one at a time and watch your footing near the cliffs.", confidence = "medium" },
 
     -- The Darkstone Tablet (Horde - Badlands)
     [4768] = { threat = "MEDIUM", reason = "The tablet is guarded by level 40-44 mobs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 40.", confidence = "medium" },
@@ -6395,34 +6395,50 @@ addon.quests = {
     [4769] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Homeward Bound (Horde - Feralas)
-    [4770] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies. The NPC cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes. Do not attempt below level 44.", confidence = "medium" },
+    [4770] = { threat = "MEDIUM", reason = "Escort quest. Pao’ka must be led out of Highperch, where hostile wyverns and nearby respawns can threaten the route. Clear the path ahead and stay near him so he does not fall behind.", confidence = "medium" },
 
     -- Dawn's Gambit
     [4771] = { threat = "EXTREME", reason = "Elite quest. Requires placing Dawn's Gambit in the Scholomance Viewing Room, which summons Vectus, a level 60 elite. Scholomance is a level 58-60 dungeon filled with elites. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Components for the Enchanted Gold Bloodrobe (Gold Bar)
-    [4781] = { threat = "LOW", reason = "Warlock class quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4781] = { threat = "LOW", reason = "This is a gold-bar hand-in to Xizk Goodstitch in Booty Bay. It adds no combat after you reach town; avoid unnecessary fights during the trip.", confidence = "medium" },
 
     -- Components for the Enchanted Gold Bloodrobe (Return)
-    [4782] = { threat = "LOW", reason = "Warlock class quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4782] = { threat = "LOW", reason = "This is a letter delivery to Menara in the Barrens. The hand-in adds no combat; avoid unnecessary fights while travelling.", confidence = "medium" },
 
     -- Components for the Enchanted Gold Bloodrobe (Blood/Infernal)
-    [4783] = { threat = "MEDIUM", reason = "Hatefury Blood drops from level 30-34 demons in Desolace, and the Lesser Infernal Stone drops from a level 35 elite infernal. The demons pull in groups and cast shadow magic. Clear methodically and watch for adds. Do not attempt below level 32 solo.", confidence = "medium" },
+    [4783] = { threat = "MEDIUM", reason = "Collecting Hatefury Blood requires fighting demons in Desolace, and the Lesser Infernal Stone comes from a stronger infernal. Pull away from the camp and be ready to retreat if the infernal or nearby demons add.", confidence = "medium" },
 
     -- Components for the Enchanted Gold Bloodrobe (Thread/Coals/Shard)
-    [4784] = { threat = "LOW", reason = "Warlock class quest collection step with no combat beyond gathering the materials. Safe if you stay on the road.", confidence = "high" },
+    [4784] = { threat = "LOW", reason = "This is a material hand-in to Menara. It adds no combat if you already have the thread, coal, and Soul Shard; use the normal route back to Ratchet.", confidence = "medium" },
 
+    -- Fine Gold Thread
+    [4785] = { threat = "MEDIUM", reason = "This warlock quest requires a trip to Xizk Goodstitch in Booty Bay to collect the finished thread. Travel by the Ratchet boat and avoid risky fights along the contested coast.", confidence = "medium" },
     -- The Completed Robe
-    [4786] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [4786] = { threat = "LOW", reason = "This is a dialogue and wait step with Menara in the Barrens. It adds no combat; stay near the friendly quest giver.", confidence = "medium" },
 
     -- The Ancient Egg
-    [4787] = { threat = "HIGH", reason = "The egg is obtained from the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. The journey to Tanaris is dangerous for low-level players. Do not attempt solo.", confidence = "high" },
+    [4787] = { threat = "HIGH", reason = "The Ancient Egg is found in Sunken Temple, a dungeon with hostile elites. If the egg is not already in your bags, obtain it with a group; the later delivery to Tanaris is safe.", confidence = "medium" },
 
     -- The Final Tablets
     [4788] = { threat = "HIGH", reason = "The tablets are obtained from the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
+    -- Frostsaber E'ko
+    [4801] = { threat = "MEDIUM", reason = "Collecting Frostsaber E’ko requires fighting hostile frostsabers in Winterspring. Pull isolated cats and watch for other predators nearby.", confidence = "medium" },
+    -- Winterfall E'ko
+    [4802] = { threat = "MEDIUM", reason = "Collecting Winterfall E’ko requires fighting furbolgs in Winterspring camps. Pull from the edges and avoid drawing several camp members at once.", confidence = "medium" },
+    -- Shardtooth E'ko
+    [4803] = { threat = "MEDIUM", reason = "Collecting Shardtooth E’ko requires fighting bears in Winterspring. Pull away from nearby wildlife and keep room to retreat.", confidence = "medium" },
+    -- Chillwind E'ko
+    [4804] = { threat = "MEDIUM", reason = "Collecting Chillwind E’ko requires fighting chimaeras in Winterspring. Pull one at a time and watch for other hostile creatures nearby.", confidence = "medium" },
+    -- Ice Thistle E'ko
+    [4805] = { threat = "MEDIUM", reason = "Collecting Ice Thistle E’ko requires fighting yetis in Winterspring. Avoid entering a crowded cave or camp before clearing an escape route.", confidence = "medium" },
+    -- Frostmaul E'ko
+    [4806] = { threat = "HIGH", reason = "Elite quest. Frostmaul E’ko drops from level 59–60 elite frostmaul giants in Winterspring, far above the quest’s minimum level. Bring a group or wait until substantially overleveled.", confidence = "medium" },
+    -- Wildkin E'ko
+    [4807] = { threat = "MEDIUM", reason = "Collecting Wildkin E’ko requires fighting hostile owlbeasts in Winterspring. Pull away from other creatures and keep an open retreat route.", confidence = "medium" },
     -- Felnok Steelspring
-    [4808] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4808] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Chillwind Horns
     [4809] = { threat = "MEDIUM", reason = "Uncracked Chillwind Horns drop from Chillwind chimaeras in Winterspring, levels 53-57. The chimaeras are aggressive and can pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
@@ -6431,40 +6447,40 @@ addon.quests = {
     [4810] = { threat = "LOW", reason = "Delivery step with no combat. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- The Red Crystal
-    [4811] = { threat = "LOW", reason = "Exploration step with no combat. The crystal is along the mountain wall, patrolled by low-level mobs. Safe if you avoid the camps. Do not attempt below level 15 solo.", confidence = "medium" },
+    [4811] = { threat = "LOW", reason = "This exploration step leads to a red crystal along Darkshore’s mountain wall. Watch for nearby wildlife and return by the route you came.", confidence = "medium" },
 
     -- As Water Cascades
-    [4812] = { threat = "LOW", reason = "Collection and exploration step with no combat. The moonwell is in Auberdine, and the crystal is along the mountain wall. Safe if you avoid the mob camps. Do not attempt below level 15 solo.", confidence = "medium" },
+    [4812] = { threat = "LOW", reason = "Filling the tube in Auberdine adds no combat; the crystal is an exploration objective along Darkshore’s mountain wall. Watch for nearby wildlife and return by the route you came.", confidence = "medium" },
 
     -- The Fragments Within
-    [4813] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4813] = { threat = "LOW", reason = "This is a report back to Sentinel Glynda in Auberdine. It adds no combat; stay within the settlement.", confidence = "medium" },
 
     -- Alien Egg (Horde - Dustwallow Marsh)
-    [4821] = { threat = "MEDIUM", reason = "The egg is deep inside the cave at approximately 36, 69, guarded by level 41-44 mobs with fire spells. The cave has high mob density and no safe retreat. Clear methodically and pull singles. Do not attempt below level 40 without a group.", confidence = "high" },
+    [4821] = { threat = "MEDIUM", reason = "The Alien Egg is in a hostile Thousand Needles cave. Clear a path before entering deeper and avoid fighting near the cave’s blind corners.", confidence = "medium" },
 
     -- You Scream, I Scream...
-    [4822] = { threat = "LOW", reason = "Children's Week holiday quest delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [4822] = { threat = "LOW", reason = "Getting Tigule’s ice cream for your ward is a holiday delivery step with no required combat. Follow the normal travel route and avoid hostile camps.", confidence = "medium" },
 
     -- Pacify the Centaur (Horde - Thousand Needles)
-    [4841] = { threat = "MEDIUM", reason = "The centaurs are levels 24-27 and are packed in camps. They pull in groups and have ranged casters. Clear methodically and watch for patrolling mobs. Do not attempt below level 24.", confidence = "medium" },
+    [4841] = { threat = "MEDIUM", reason = "Galak centaurs occupy camps in Thousand Needles, where ranged enemies can join a fight. Work from camp edges and pull into cleared ground.", confidence = "medium" },
 
     -- Strange Sources
-    [4842] = { threat = "LOW", reason = "Exploration step with no combat. The journey to Winterspring is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [4842] = { threat = "LOW", reason = "Following Donova’s instructions and reporting back adds no required combat. The travel to Winterspring is the main risk; use a suitable route for your level.", confidence = "medium" },
 
     -- Enraged Wildkin (Locate Camp)
-    [4861] = { threat = "MEDIUM", reason = "The camp is in southern Winterspring, patrolled by level 53-57 wildkin and frostsabers. The wildkin are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4861] = { threat = "MEDIUM", reason = "The wrecked camp is in hostile southern Winterspring, with wildkin and frostsabers nearby. Search from an open approach and avoid fighting multiple creatures at once.", confidence = "medium" },
 
     -- En-Ay-Es-Tee-Why
     [4862] = { threat = "HIGH", reason = "Elite quest. Requires entering Lower Blackrock Spire to collect Spire Spider Eggs from the Spire Spider cave. The cave is packed with level 55-60 elite spiders. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Enraged Wildkin (Find Wagon)
-    [4863] = { threat = "MEDIUM", reason = "The wagon is in southern Winterspring, patrolled by level 53-57 wildkin. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [4863] = { threat = "MEDIUM", reason = "Jaron’s wagon is in hostile southern Winterspring with wildkin nearby. Approach from an open route and leave if enemies gather around the supplies.", confidence = "medium" },
 
     -- Enraged Wildkin (Supplies/Amulet)
-    [4864] = { threat = "MEDIUM", reason = "The supplies and amulet are in wildkin territory in southern Winterspring, patrolled by level 53-57 mobs. The wildkin that stole the amulet is a named mob with adds. Clear the area before engaging and watch for adds. Do not attempt below level 53 solo without a plan.", confidence = "medium" },
+    [4864] = { threat = "MEDIUM", reason = "Jaron’s supplies and the amulet are in hostile wildkin territory in southern Winterspring. Clear nearby enemies before collecting them and keep a retreat route.", confidence = "medium" },
 
     -- Serpent Wild (Horde - Thousand Needles)
-    [4865] = { threat = "MEDIUM", reason = "The serpents are levels 25-28 and patrol the canyons. They have a lightning attack that can chain. Fight in open areas where you can see them coming. Do not attempt below level 25.", confidence = "medium" },
+    [4865] = { threat = "LOW", reason = "This is a report back to Motega Firemane. It adds no new combat if the findings are already in hand; avoid unnecessary fights during travel.", confidence = "medium" },
 
     -- Mother's Milk
     [4866] = { threat = "EXTREME", reason = "Elite quest. Requires entering Lower Blackrock Spire to engage Mother Smolderweb, a level 60 elite spider, and get poisoned by her. You may have to kill her, which aggroes nearby elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
