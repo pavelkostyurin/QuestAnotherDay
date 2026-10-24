@@ -822,25 +822,25 @@ addon.quests = {
     [2865] = { threat = "MEDIUM", reason = "The shells drop from scorpids and scarabs in the Tanaris desert. The mobs are levels 40-44 and are scattered across the dunes. They hit hard and can pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- Stoley's Debt
-    [2872] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Steamwheedle Port passes through Tanaris, which is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2872] = { threat = "LOW", reason = "Speak with Stoley at Steamwheedle Port. This is a dialogue step; the surrounding Tanaris travel can be hazardous at low levels.", confidence = "medium" },
 
     -- Stoley's Shipment
-    [2873] = { threat = "HIGH", reason = "The shipment is in a pirate town south of Steamwheedle Port, guarded by level 43-47 Southsea pirates. The building is packed with mobs on multiple floors, and the shipment is on the top floor. A level 45 hunter soloed it by killing everything, but a level 42 warlock had to sacrifice their Voidwalker and use a soulstone to escape. Do not attempt below level 44 solo without a plan to handle the multiple mobs on each floor.", confidence = "high" },
+    [2873] = { threat = "HIGH", reason = "Recover Stoley’s Shipment from the upper floor of the pirate compound at Lost Rigger Cove. Pirates guard the building and can aggro in groups; plan an escape or clear a route before looting.", confidence = "medium" },
 
     -- Deliver to MacKinley
-    [2874] = { threat = "MEDIUM", reason = "The journey to Booty Bay passes through Stranglethorn Vale, which is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2874] = { threat = "LOW", reason = "Deliver Stoley’s Bottle to “Sea Wolf” MacKinley in Booty Bay. No combat objective is required.", confidence = "medium" },
 
     -- WANTED: Andre Firebeard
-    [2875] = { threat = "MEDIUM", reason = "Andre Firebeard is a level 45 named pirate in the Southsea pirate camp south of Steamwheedle Port. He is surrounded by other pirates that pull in groups. Clear the area before engaging and be ready for adds. Do not attempt below level 44 solo.", confidence = "medium" },
+    [2875] = { threat = "MEDIUM", reason = "Defeat Andre Firebeard in the center of Lost Rigger Cove and loot his head. He is accompanied by nearby pirates; pull carefully or bring help if you cannot handle several enemies.", confidence = "medium" },
 
     -- Ship Schedules
-    [2876] = { threat = "MEDIUM", reason = "The schedules drop from Southsea pirates in the camp south of Steamwheedle Port. The pirates are levels 43-47 and are packed in the camp. Clear methodically and watch for adds. Do not attempt below level 44 solo.", confidence = "medium" },
+    [2876] = { threat = "MEDIUM", reason = "Ship Schedules comes from a Pirate’s Footlocker dropped by Southsea pirates in Tanaris. Expect combat in pirate territory; the footlocker drop is not guaranteed.", confidence = "medium" },
 
     -- Corrupted Songflower
-    [2878] = { threat = "LOW", reason = "REMOVE THIS ENTRY.", confidence = "high" },
+    [2878] = { threat = "MEDIUM", reason = "Use Cenarion Plant Salve on a Corrupted Songflower in Felwood. The interaction itself requires no fight, but hostile Felwood creatures can catch you while you stop to cleanse the plant.", confidence = "medium" },
 
     -- Cuergo's Gold
-    [2882] = { threat = "EXTREME", reason = "When you open the chest, approximately 5-8 pirates spawn and attack at once. At level 49, a priest was 'owned fast.' The corpse run back is one of the longest in the game. A level 48 Arms Warrior soloed it by evading the first group, coming back, and pulling the goblin alone. Do not attempt below level 48 solo without a plan to split the mobs or escape.", confidence = "high" },
+    [2882] = { threat = "HIGH", reason = "Opening Cuergo’s hidden treasure triggers five level 44–45 pirates nearby, and you need a key from one of them to open the chest. Prepare to handle the group or have a reliable escape before activating it.", confidence = "medium" },
 
     -- A Fine Mess
     [2904] = { threat = "HIGH", reason = "This is an escort quest inside Gnomeregan, a level 24-34 dungeon filled with elites. Kernobee is an out-of-combat NPC, so mobs will not aggro to him, but they will aggro to you. You must protect him through multiple packs of troggs and gnomes. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },

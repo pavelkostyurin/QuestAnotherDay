@@ -2418,58 +2418,58 @@ local quests = {
     [2821] = { threat = "MEDIUM", reason = "Ten hides require repeated fights with yetis in Feral Scar Vale, where fast respawns or nearby creatures can add to a pull. Work from the edges, use skinning to shorten the hunt if available, and keep a retreat route.", confidence = "medium" },
 
     -- The Giant Guardian
-    [2844] = { threat = "MEDIUM", reason = "Shay is a level 45 NPC on a mountain ledge, surrounded by level 44-48 harpies and wildlife. You must find her and escort her to Rockbiter's camp. The route is patrolled by harpies and gorillas. Clear the path ahead and watch for adds. Do not attempt below level 45 solo without a plan to avoid the harpies.", confidence = "medium" },
+    [2844] = { threat = "MEDIUM", reason = "Finding Shay requires crossing the Ruins of Ravenwind in Feralas, where hostile creatures can be nearby. This step ends when you speak with her; it does not include the escort.", confidence = "medium" },
 
     -- Wandering Shay
-    [2845] = { threat = "HIGH", reason = "This is a timed escort quest with a 15-minute limit. Shay wanders off frequently and must be re-engaged using the bell. The route passes through harpy and gorilla territory, and Shay can be attacked. If she dies or you run out of time, the quest fails. A level 47 hunter soloed this using Aspect of the Cheetah. Do not attempt below level 45 solo without a plan to manage Shay's wandering and the mobs along the route.", confidence = "high" },
+    [2845] = { threat = "MEDIUM", reason = "This is a 15-minute escort. Shay can wander away, so use the bell to call her back; nearby creatures can add danger, but the route can be completed without fighting every camp.", confidence = "medium" },
 
     -- Wild Leather Armor
-    [2847] = { threat = "LOW", reason = "Bring 10 Thick Leather to Pratt McGrubben in Feathermoon Stronghold. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2847] = { threat = "LOW", reason = "Deliver 10 Thick Leather to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Shoulders
-    [2848] = { threat = "LOW", reason = "Bring 6 Thick Armor Kits and a Wildvine to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2848] = { threat = "LOW", reason = "Deliver 6 Thick Armor Kits and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Vest
-    [2849] = { threat = "LOW", reason = "Bring 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2849] = { threat = "LOW", reason = "Deliver 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Helmet
-    [2850] = { threat = "LOW", reason = "Bring 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2850] = { threat = "LOW", reason = "Deliver 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Boots
-    [2851] = { threat = "LOW", reason = "Bring 2 Nightscape Pants, 2 Nightscape Boots, and 2 Wildvines to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2851] = { threat = "LOW", reason = "Deliver 2 Nightscape Pants, 2 Nightscape Boots, and 2 Wildvines to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Leggings
-    [2852] = { threat = "LOW", reason = "Bring 2 Turtle Scale Helms, 2 Turtle Scale Bracers, and 2 Wildvines to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2852] = { threat = "LOW", reason = "Deliver 2 Turtle Scale Helms, 2 Turtle Scale Bracers, and 2 Wildvines to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Master of the Wild Leather
-    [2853] = { threat = "LOW", reason = "This is a profession quest for leatherworkers. It is a delivery step with no combat. Safe if you stay in the city. This quest is Alliance-only.", confidence = "high" },
+    [2853] = { threat = "LOW", reason = "Deliver Pratt’s Letter to Telonis in Darnassus. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- The Ruins of Solarsal
-    [2866] = { threat = "MEDIUM", reason = "The ruins are in Feralas and are occupied by Hatecrest naga, who are levels 42-46. The naga are packed in the ruins and pull in groups. The ruins also have patrolling elementals. Clear methodically and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
+    [2866] = { threat = "MEDIUM", reason = "Explore the naga-occupied Ruins of Solarsal and interact with the gazebo. Hostile naga nearby can engage while you search; avoid drawing groups.", confidence = "medium" },
 
     -- Return to Feathermoon Stronghold
-    [2867] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2867] = { threat = "LOW", reason = "Return to Shandris Feathermoon at Feathermoon Stronghold and report your findings. No combat objective is required.", confidence = "medium" },
 
     -- Against the Hatecrest
-    [2869] = { threat = "MEDIUM", reason = "The scales drop from Hatecrest naga on Sardor Isle in Feralas. The naga are levels 42-46 and are packed on the island. They pull in groups and have ranged casters. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
+    [2869] = { threat = "MEDIUM", reason = "Collect 10 Hatecrest Naga Scales around Sardor Isle and return to Feathermoon Stronghold. The naga occupy the nearby ruins; pull carefully to avoid groups.", confidence = "medium" },
 
     -- Against Lord Shalzaru
-    [2870] = { threat = "HIGH", reason = "Lord Shalzaru is a level 45 named naga in a cave on the Isle of Dread in Feralas, surrounded by elite naga guards. He hits hard and the cave is tight. Clear the cave before engaging and be ready for adds. Do not attempt below level 44 solo without a group.", confidence = "high" },
+    [2870] = { threat = "MEDIUM", reason = "Defeat Lord Shalzaru in the cave on the Isle of Dread and loot the relic. Hostile naga guard the area; clear a safe approach and avoid fighting multiple enemies together.", confidence = "medium" },
 
     -- Delivering the Relic
-    [2871] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2871] = { threat = "LOW", reason = "Deliver the Mysterious Relic to Vestia Moonspear at Feathermoon Stronghold. No combat objective is required.", confidence = "medium" },
 
     -- Skulk Rock Clean-up
-    [2877] = { threat = "LOW", reason = "REMOVE THIS ENTRY.", confidence = "high" },
+    [2877] = { threat = "MEDIUM", reason = "Kill 10 Green Sludges and 10 Jade Oozes around Skulk Rock in the Hinterlands. Hostile creatures occupy the area; avoid pulling several together.", confidence = "medium" },
 
     -- The Stave of Equinex
-    [2879] = { threat = "HIGH", reason = "The quest takes you to the Ruins of Ravenwind in Feralas, which are patrolled by level 45-48 harpies and wildlife. The four flames are scattered around the ruins, and the monolith is at the center. The ruins are dense with mobs and have patrolling elites. Clear methodically and watch for adds. Do not attempt below level 45 solo without a group.", confidence = "high" },
+    [2879] = { threat = "MEDIUM", reason = "Collect the four flame essences in the Ruins of Ravenwind, combine them with Troyas’ Stave at the monolith, then activate it. Hostile creatures occupy the ruins; watch for nearby pulls while reaching the scattered objects.", confidence = "medium" },
 
     -- Troll Necklace Bounty
-    [2880] = { threat = "LOW", reason = "REMOVE THIS ENTRY.", confidence = "high" },
+    [2880] = { threat = "MEDIUM", reason = "Collect 5 Troll Tribal Necklaces from Hinterlands trolls and return to Fraggar Thundermantle. The necklace drop requires fighting trolls; avoid pulling a group of them together.", confidence = "medium" },
 
     -- Troll Necklace Bounty
-    [2881] = { threat = "LOW", reason = "REMOVE THIS ENTRY.", confidence = "high" },
+    [2881] = { threat = "MEDIUM", reason = "This repeatable follow-up also requires 5 Troll Tribal Necklaces from Hinterlands trolls. The objective requires fighting trolls; avoid pulling several together.", confidence = "medium" },
 
     -- Save Techbot's Brain!
     [2922] = { threat = "MEDIUM", reason = "Techbot is in Gnomeregan, a level 24-34 dungeon filled with elites. He is in the Loading Room, in the first room to the left after the Train Depot. A level 20 dwarf paladin soloed Techbot and the enemies on the way, but noted that 3-4 leper gnomes at once was hard. The room has multiple mobs that patrol. Do not attempt below level 28 solo without a plan to handle the leper gnomes.", confidence = "high" },

@@ -4747,64 +4747,64 @@ addon.quests = {
     [2843] = { threat = "HIGH", reason = "Gnomeregan is a level 24-34 dungeon filled with elite leper gnomes, troggs, and mechanical mobs. The teleporter drops you in the middle of the instance, and you must fight your way out. This requires a full group of level 30+ players. Do not attempt solo. The teleporter itself is also notoriously buggy and may take multiple attempts to activate .", confidence = "high" },
 
     -- The Giant Guardian
-    [2844] = { threat = "MEDIUM", reason = "Shay is a level 45 NPC on a mountain ledge, surrounded by level 44-48 harpies and wildlife. You must find her and escort her to Rockbiter's camp. The route is patrolled by harpies and gorillas. Clear the path ahead and watch for adds. Do not attempt below level 45 solo without a plan to avoid the harpies.", confidence = "medium" },
+    [2844] = { threat = "MEDIUM", reason = "Finding Shay requires crossing the Ruins of Ravenwind in Feralas, where hostile creatures can be nearby. This step ends when you speak with her; it does not include the escort.", confidence = "medium" },
 
     -- Wandering Shay
-    [2845] = { threat = "HIGH", reason = "This is a timed escort quest with a 15-minute limit. Shay wanders off frequently and must be re-engaged using the bell. The route passes through harpy and gorilla territory, and Shay can be attacked. If she dies or you run out of time, the quest fails. A level 47 hunter soloed this using Aspect of the Cheetah. Do not attempt below level 45 solo without a plan to manage Shay's wandering and the mobs along the route.", confidence = "high" },
+    [2845] = { threat = "MEDIUM", reason = "This is a 15-minute escort. Shay can wander away, so use the bell to call her back; nearby creatures can add danger, but the route can be completed without fighting every camp.", confidence = "medium" },
 
     -- Tiara of the Deep
     [2846] = { threat = "HIGH", reason = "The tiara is in the Sunken Temple, a level 50-55 dungeon filled with elites. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
 
     -- Wild Leather Armor
-    [2847] = { threat = "LOW", reason = "Bring 10 Thick Leather to Pratt McGrubben in Feathermoon Stronghold. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2847] = { threat = "LOW", reason = "Deliver 10 Thick Leather to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Shoulders
-    [2848] = { threat = "LOW", reason = "Bring 6 Thick Armor Kits and a Wildvine to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2848] = { threat = "LOW", reason = "Deliver 6 Thick Armor Kits and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Vest
-    [2849] = { threat = "LOW", reason = "Bring 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2849] = { threat = "LOW", reason = "Deliver 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Helmet
-    [2850] = { threat = "LOW", reason = "Bring 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2850] = { threat = "LOW", reason = "Deliver 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Boots
-    [2851] = { threat = "LOW", reason = "Bring 2 Nightscape Pants, 2 Nightscape Boots, and 2 Wildvines to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2851] = { threat = "LOW", reason = "Deliver 2 Nightscape Pants, 2 Nightscape Boots, and 2 Wildvines to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Leggings
-    [2852] = { threat = "LOW", reason = "Bring 2 Turtle Scale Helms, 2 Turtle Scale Bracers, and 2 Wildvines to Pratt McGrubben. This is a crafting and delivery step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [2852] = { threat = "LOW", reason = "Deliver 2 Turtle Scale Helms, 2 Turtle Scale Bracers, and 2 Wildvines to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Master of the Wild Leather (Classic Era: available)
-    [2853] = { threat = "LOW", reason = "This is a profession quest for leatherworkers. It is a delivery step with no combat. Safe if you stay in the city. This quest is Alliance-only.", confidence = "high" },
+    [2853] = { threat = "LOW", reason = "Deliver Pratt’s Letter to Telonis in Darnassus. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Wild Leather Armor (Horde - Feralas)
-    [2854] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2854] = { threat = "LOW", reason = "Deliver 10 Thick Leather to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Shoulders (Horde - Feralas)
-    [2855] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2855] = { threat = "LOW", reason = "Deliver 6 Thick Armor Kits and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Vest (Horde - Feralas)
-    [2856] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2856] = { threat = "LOW", reason = "Deliver 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Helmet (Horde - Feralas)
-    [2857] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2857] = { threat = "LOW", reason = "Deliver 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Boots (Horde - Feralas)
-    [2858] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2858] = { threat = "LOW", reason = "Deliver 2 Nightscape Pants, 2 Nightscape Boots, and 2 Wildvines to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Leggings (Horde - Feralas)
-    [2859] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2859] = { threat = "LOW", reason = "Deliver 2 Turtle Scale Helms, 2 Turtle Scale Bracers, and 2 Wildvines to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Master of the Wild Leather (Horde - Feralas)
-    [2860] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2860] = { threat = "LOW", reason = "Deliver Jangdor’s Letter to Una in Thunder Bluff. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Tabetha's Task (Classic Era: available)
     [2861] = { threat = "LOW", reason = "This is a breadcrumb quest for mages, pointing them toward the Zul'Farrak quest chain. It is a travel and dialogue step with no combat. Tabetha's cottage is west of Theramore, just north of the Stonemaul Ruin. The journey through Dustwallow Marsh is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- War on the Woodpaw (Horde - Feralas)
-    [2862] = { threat = "MEDIUM", reason = "The gnolls are levels 41-42 and can be pulled one at a time. The drop rate is moderate (roughly 40-60%), so you will kill 15-25 gnolls. The main danger is the long grind and the chance of pulling multiple gnolls if you are not careful. A level 41 hunter completed this in 15 minutes .", confidence = "high" },
+    [2862] = { threat = "MEDIUM", reason = "Collect 10 Woodpaw Gnoll Manes from the gnoll camps around Camp Mojache. These camps contain hostile gnolls; avoid pulling several at once.", confidence = "medium" },
 
     -- Alpha Strike (Horde - Feralas)
-    [2863] = { threat = "MEDIUM", reason = "The target is surrounded by guards and is deeper in the hills. Clear the camp before engaging and watch for patrolling gnolls .", confidence = "medium" },
+    [2863] = { threat = "MEDIUM", reason = "Kill 5 Woodpaw Alphas and return within the one-hour timer. The timer is generous for the objective, but the targets are in hostile gnoll territory; avoid overlapping pulls.", confidence = "medium" },
 
     -- Tran'rek (Classic Era: available)
     [2864] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
@@ -4813,58 +4813,58 @@ addon.quests = {
     [2865] = { threat = "MEDIUM", reason = "The shells drop from scorpids and scarabs in the Tanaris desert. The mobs are levels 40-44 and are scattered across the dunes. They hit hard and can pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
 
     -- The Ruins of Solarsal (Classic Era: available)
-    [2866] = { threat = "MEDIUM", reason = "The ruins are in Feralas and are occupied by Hatecrest naga, who are levels 42-46. The naga are packed in the ruins and pull in groups. The ruins also have patrolling elementals. Clear methodically and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
+    [2866] = { threat = "MEDIUM", reason = "Explore the naga-occupied Ruins of Solarsal and interact with the gazebo. Hostile naga nearby can engage while you search; avoid drawing groups.", confidence = "medium" },
 
     -- Return to Feathermoon Stronghold (Classic Era: available)
-    [2867] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2867] = { threat = "LOW", reason = "Return to Shandris Feathermoon at Feathermoon Stronghold and report your findings. No combat objective is required.", confidence = "medium" },
 
     -- Against the Hatecrest (Classic Era: available)
-    [2869] = { threat = "MEDIUM", reason = "The scales drop from Hatecrest naga on Sardor Isle in Feralas. The naga are levels 42-46 and are packed on the island. They pull in groups and have ranged casters. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
+    [2869] = { threat = "MEDIUM", reason = "Collect 10 Hatecrest Naga Scales around Sardor Isle and return to Feathermoon Stronghold. The naga occupy the nearby ruins; pull carefully to avoid groups.", confidence = "medium" },
 
     -- Against Lord Shalzaru (Classic Era: available)
-    [2870] = { threat = "HIGH", reason = "Lord Shalzaru is a level 45 named naga in a cave on the Isle of Dread in Feralas, surrounded by elite naga guards. He hits hard and the cave is tight. Clear the cave before engaging and be ready for adds. Do not attempt below level 44 solo without a group.", confidence = "high" },
+    [2870] = { threat = "MEDIUM", reason = "Defeat Lord Shalzaru in the cave on the Isle of Dread and loot the relic. Hostile naga guard the area; clear a safe approach and avoid fighting multiple enemies together.", confidence = "medium" },
 
     -- Delivering the Relic (Classic Era: available)
-    [2871] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2871] = { threat = "LOW", reason = "Deliver the Mysterious Relic to Vestia Moonspear at Feathermoon Stronghold. No combat objective is required.", confidence = "medium" },
 
     -- Stoley's Debt (Classic Era: available)
-    [2872] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Steamwheedle Port passes through Tanaris, which is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2872] = { threat = "LOW", reason = "Speak with Stoley at Steamwheedle Port. This is a dialogue step; the surrounding Tanaris travel can be hazardous at low levels.", confidence = "medium" },
 
     -- Stoley's Shipment (Classic Era: available)
-    [2873] = { threat = "HIGH", reason = "The shipment is in a pirate town south of Steamwheedle Port, guarded by level 43-47 Southsea pirates. The building is packed with mobs on multiple floors, and the shipment is on the top floor. A level 45 hunter soloed it by killing everything, but a level 42 warlock had to sacrifice their Voidwalker and use a soulstone to escape. Do not attempt below level 44 solo without a plan to handle the multiple mobs on each floor.", confidence = "high" },
+    [2873] = { threat = "HIGH", reason = "Recover Stoley’s Shipment from the upper floor of the pirate compound at Lost Rigger Cove. Pirates guard the building and can aggro in groups; plan an escape or clear a route before looting.", confidence = "medium" },
 
     -- Deliver to MacKinley (Classic Era: available)
-    [2874] = { threat = "MEDIUM", reason = "The journey to Booty Bay passes through Stranglethorn Vale, which is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2874] = { threat = "LOW", reason = "Deliver Stoley’s Bottle to “Sea Wolf” MacKinley in Booty Bay. No combat objective is required.", confidence = "medium" },
 
     -- WANTED: Andre Firebeard (Classic Era: available)
-    [2875] = { threat = "MEDIUM", reason = "Andre Firebeard is a level 45 named pirate in the Southsea pirate camp south of Steamwheedle Port. He is surrounded by other pirates that pull in groups. Clear the area before engaging and be ready for adds. Do not attempt below level 44 solo.", confidence = "medium" },
+    [2875] = { threat = "MEDIUM", reason = "Defeat Andre Firebeard in the center of Lost Rigger Cove and loot his head. He is accompanied by nearby pirates; pull carefully or bring help if you cannot handle several enemies.", confidence = "medium" },
 
     -- Ship Schedules (Classic Era: available)
-    [2876] = { threat = "MEDIUM", reason = "The schedules drop from Southsea pirates in the camp south of Steamwheedle Port. The pirates are levels 43-47 and are packed in the camp. Clear methodically and watch for adds. Do not attempt below level 44 solo.", confidence = "medium" },
+    [2876] = { threat = "MEDIUM", reason = "Ship Schedules comes from a Pirate’s Footlocker dropped by Southsea pirates in Tanaris. Expect combat in pirate territory; the footlocker drop is not guaranteed.", confidence = "medium" },
 
     -- Skulk Rock Clean-up (Classic Era: NOT AVAILABLE - marked obsolete)
-    [2877] = { threat = "LOW", reason = "REMOVE THIS ENTRY.", confidence = "high" },
+    [2877] = { threat = "MEDIUM", reason = "Kill 10 Green Sludges and 10 Jade Oozes around Skulk Rock in the Hinterlands. Hostile creatures occupy the area; avoid pulling several together.", confidence = "medium" },
 
     -- Corrupted Songflower (Classic Era: NOT AVAILABLE - marked obsolete)
-    [2878] = { threat = "LOW", reason = "REMOVE THIS ENTRY.", confidence = "high" },
+    [2878] = { threat = "MEDIUM", reason = "Use Cenarion Plant Salve on a Corrupted Songflower in Felwood. The interaction itself requires no fight, but hostile Felwood creatures can catch you while you stop to cleanse the plant.", confidence = "medium" },
 
     -- The Stave of Equinex (Classic Era: available)
-    [2879] = { threat = "HIGH", reason = "The quest takes you to the Ruins of Ravenwind in Feralas, which are patrolled by level 45-48 harpies and wildlife. The four flames are scattered around the ruins, and the monolith is at the center. The ruins are dense with mobs and have patrolling elites. Clear methodically and watch for adds. Do not attempt below level 45 solo without a group.", confidence = "high" },
+    [2879] = { threat = "MEDIUM", reason = "Collect the four flame essences in the Ruins of Ravenwind, combine them with Troyas’ Stave at the monolith, then activate it. Hostile creatures occupy the ruins; watch for nearby pulls while reaching the scattered objects.", confidence = "medium" },
 
     -- Troll Necklace Bounty (Classic Era: NOT AVAILABLE - marked obsolete)
-    [2880] = { threat = "LOW", reason = "REMOVE THIS ENTRY.", confidence = "high" },
+    [2880] = { threat = "MEDIUM", reason = "Collect 5 Troll Tribal Necklaces from Hinterlands trolls and return to Fraggar Thundermantle. The necklace drop requires fighting trolls; avoid pulling a group of them together.", confidence = "medium" },
 
     -- Troll Necklace Bounty (Classic Era: NOT AVAILABLE - marked obsolete)
-    [2881] = { threat = "LOW", reason = "REMOVE THIS ENTRY.", confidence = "high" },
+    [2881] = { threat = "MEDIUM", reason = "This repeatable follow-up also requires 5 Troll Tribal Necklaces from Hinterlands trolls. The objective requires fighting trolls; avoid pulling several together.", confidence = "medium" },
 
     -- Cuergo's Gold (Classic Era: available)
-    [2882] = { threat = "EXTREME", reason = "When you open the chest, approximately 5-8 pirates spawn and attack at once. At level 49, a priest was 'owned fast.' The corpse run back is one of the longest in the game. A level 48 Arms Warrior soloed it by evading the first group, coming back, and pulling the goblin alone. Do not attempt below level 48 solo without a plan to split the mobs or escape.", confidence = "high" },
+    [2882] = { threat = "HIGH", reason = "Opening Cuergo’s hidden treasure triggers five level 44–45 pirates nearby, and you need a key from one of them to open the chest. Prepare to handle the group or have a reliable escape before activating it.", confidence = "medium" },
 
     -- Woodpaw Investigation (Horde - Feralas)
-    [2902] = { threat = "MEDIUM", reason = "The quest leads into gnoll territory with patrolling mobs. Clear the area before looting and watch for adds .", confidence = "medium" },
+    [2902] = { threat = "MEDIUM", reason = "Find and open the Woodpaw Battle Map in one of the gnoll camps south of Camp Mojache. The map can be surrounded by several gnolls, so clear a path before interacting.", confidence = "medium" },
 
     -- The Battle Plans (Horde - Feralas)
-    [2903] = { threat = "MEDIUM", reason = "The plans are in a guarded location. Clear the camp before looting .", confidence = "medium" },
+    [2903] = { threat = "LOW", reason = "Return the Woodpaw Battle Plans to Hadoken Swiftstrider at Camp Mojache. The quest provides the plans; this report step has no combat objective.", confidence = "medium" },
 
     -- A Fine Mess (Classic Era: available)
     [2904] = { threat = "HIGH", reason = "This is an escort quest inside Gnomeregan, a level 24-34 dungeon filled with elites. Kernobee is an out-of-combat NPC, so mobs will not aggro to him, but they will aggro to you. You must protect him through multiple packs of troggs and gnomes. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },

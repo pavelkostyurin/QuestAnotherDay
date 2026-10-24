@@ -1737,37 +1737,37 @@ local quests = {
     [2843] = { threat = "HIGH", reason = "Gnomeregan is a level 24-34 dungeon filled with elite leper gnomes, troggs, and mechanical mobs. The teleporter drops you in the middle of the instance, and you must fight your way out. This requires a full group of level 30+ players. Do not attempt solo. The teleporter itself is also notoriously buggy and may take multiple attempts to activate .", confidence = "high" },
 
     -- Wild Leather Armor
-    [2854] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2854] = { threat = "LOW", reason = "Deliver 10 Thick Leather to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Shoulders
-    [2855] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2855] = { threat = "LOW", reason = "Deliver 6 Thick Armor Kits and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Vest
-    [2856] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2856] = { threat = "LOW", reason = "Deliver 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Helmet
-    [2857] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2857] = { threat = "LOW", reason = "Deliver 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Boots
-    [2858] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2858] = { threat = "LOW", reason = "Deliver 2 Nightscape Pants, 2 Nightscape Boots, and 2 Wildvines to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Wild Leather Leggings
-    [2859] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2859] = { threat = "LOW", reason = "Deliver 2 Turtle Scale Helms, 2 Turtle Scale Bracers, and 2 Wildvines to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.", confidence = "medium" },
 
     -- Master of the Wild Leather
-    [2860] = { threat = "LOW", reason = "Bring the required materials to the NPC in Camp Mojache. No combat objective beyond gathering the materials. Safe if you stay in the camp .", confidence = "high" },
+    [2860] = { threat = "LOW", reason = "Deliver Jangdor’s Letter to Una in Thunder Bluff. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- War on the Woodpaw
-    [2862] = { threat = "MEDIUM", reason = "The gnolls are levels 41-42 and can be pulled one at a time. The drop rate is moderate (roughly 40-60%), so you will kill 15-25 gnolls. The main danger is the long grind and the chance of pulling multiple gnolls if you are not careful. A level 41 hunter completed this in 15 minutes .", confidence = "high" },
+    [2862] = { threat = "MEDIUM", reason = "Collect 10 Woodpaw Gnoll Manes from the gnoll camps around Camp Mojache. These camps contain hostile gnolls; avoid pulling several at once.", confidence = "medium" },
 
     -- Alpha Strike
-    [2863] = { threat = "MEDIUM", reason = "The target is surrounded by guards and is deeper in the hills. Clear the camp before engaging and watch for patrolling gnolls .", confidence = "medium" },
+    [2863] = { threat = "MEDIUM", reason = "Kill 5 Woodpaw Alphas and return within the one-hour timer. The timer is generous for the objective, but the targets are in hostile gnoll territory; avoid overlapping pulls.", confidence = "medium" },
 
     -- Woodpaw Investigation
-    [2902] = { threat = "MEDIUM", reason = "The quest leads into gnoll territory with patrolling mobs. Clear the area before looting and watch for adds .", confidence = "medium" },
+    [2902] = { threat = "MEDIUM", reason = "Find and open the Woodpaw Battle Map in one of the gnoll camps south of Camp Mojache. The map can be surrounded by several gnolls, so clear a path before interacting.", confidence = "medium" },
 
     -- The Battle Plans
-    [2903] = { threat = "MEDIUM", reason = "The plans are in a guarded location. Clear the camp before looting .", confidence = "medium" },
+    [2903] = { threat = "LOW", reason = "Return the Woodpaw Battle Plans to Hadoken Swiftstrider at Camp Mojache. The quest provides the plans; this report step has no combat objective.", confidence = "medium" },
 
     -- Grim Message
     [2932] = { threat = "MEDIUM", reason = "The trolls are levels 40-44 and drop skulls at a 100% rate. However, they are packed tightly in villages and are difficult to pull one at a time. A level 41 rogue reported dying multiple times because he could not get single pulls. Once you have 20 skulls, you must plant the pike in the middle of the village, which will aggro multiple trolls. Use a pet or voidwalker to distract them while you plant and run. Do not attempt solo below level 44 without a group .", confidence = "high" },

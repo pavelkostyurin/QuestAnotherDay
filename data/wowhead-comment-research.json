@@ -42277,6 +42277,1146 @@
       "checkedAt": "2026-10-24T19:48:00+03:00",
       "skipReason": "dungeon",
       "sourceNote": "Pinned catalog marks Gnomer-gooooone! as a dungeon quest; ordinary traversal skips dungeon quests before researching."
+    },
+    {
+      "questId": 2844,
+      "questName": "The Giant Guardian",
+      "url": "https://www.wowhead.com/classic/quest=2844",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Giant Guardian - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2844",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest text and objectives confirm locating and speaking to Shay; no escort objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog objective and retrieved quest text confirm this is a locate-and-speak step. Nearby hostile-area risk is inferred from the ruins location; medium confidence reflects the limited area-specific evidence.",
+      "reason": "Finding Shay requires crossing the Ruins of Ravenwind in Feralas, where hostile creatures can be nearby. This step ends when you speak with her; it does not include the escort.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2845,
+      "questName": "Wandering Shay",
+      "url": "https://www.wowhead.com/classic/quest=2845",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 8 comments (order unverified), used 3. Only the listed relevant passages were used.",
+      "commentsReviewed": 8,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wandering Shay - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2845",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest objective and quick facts list the escort and 15-minute timer."
+        },
+        {
+          "title": "Wandering Shay - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2845/wandering-shay",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Comments describe the bell, wandering behavior, nearby route hazards, and a route that avoids much of the harpy area."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic database lists a 15-minute timer; retrieved Classic comments describe the bell mechanic and route options. Solo success reports are class-specific, so the warning stays at medium.",
+      "reason": "This is a 15-minute escort. Shay can wander away, so use the bell to call her back; nearby creatures can add danger, but the route can be completed without fighting every camp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2846,
+      "questName": "Tiara of the Deep",
+      "url": "https://www.wowhead.com/classic/quest=2846",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2847,
+      "questName": "Wild Leather Armor",
+      "url": "https://www.wowhead.com/classic/quest=2847",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 10 Thick Leather to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2848,
+      "questName": "Wild Leather Shoulders",
+      "url": "https://www.wowhead.com/classic/quest=2848",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 6 Thick Armor Kits and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2849,
+      "questName": "Wild Leather Vest",
+      "url": "https://www.wowhead.com/classic/quest=2849",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2850,
+      "questName": "Wild Leather Helmet",
+      "url": "https://www.wowhead.com/classic/quest=2850",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2851,
+      "questName": "Wild Leather Boots",
+      "url": "https://www.wowhead.com/classic/quest=2851",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 2 Nightscape Pants, 2 Nightscape Boots, and 2 Wildvines to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2852,
+      "questName": "Wild Leather Leggings",
+      "url": "https://www.wowhead.com/classic/quest=2852",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 2 Turtle Scale Helms, 2 Turtle Scale Bracers, and 2 Wildvines to Pratt McGrubben at Feathermoon Stronghold. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2853,
+      "questName": "Master of the Wild Leather",
+      "url": "https://www.wowhead.com/classic/quest=2853",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a letter delivery between known Alliance settlements. No combat objective is listed; medium confidence is based on catalog metadata and game knowledge.",
+      "reason": "Deliver Pratt’s Letter to Telonis in Darnassus. This is a travel and dialogue step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2854,
+      "questName": "Wild Leather Armor",
+      "url": "https://www.wowhead.com/classic/quest=2854",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 10 Thick Leather to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2855,
+      "questName": "Wild Leather Shoulders",
+      "url": "https://www.wowhead.com/classic/quest=2855",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 6 Thick Armor Kits and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2856,
+      "questName": "Wild Leather Vest",
+      "url": "https://www.wowhead.com/classic/quest=2856",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 2 Turtle Scale Breastplates, 2 Turtle Scale Gloves, and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2857,
+      "questName": "Wild Leather Helmet",
+      "url": "https://www.wowhead.com/classic/quest=2857",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 2 Nightscape Tunics, 2 Nightscape Headbands, and a Wildvine to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2858,
+      "questName": "Wild Leather Boots",
+      "url": "https://www.wowhead.com/classic/quest=2858",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 2 Nightscape Pants, 2 Nightscape Boots, and 2 Wildvines to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2859,
+      "questName": "Wild Leather Leggings",
+      "url": "https://www.wowhead.com/classic/quest=2859",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a material delivery; no combat is required once the materials are available. Confidence is medium because the assessment is based on the local objective and game knowledge.",
+      "reason": "Deliver 2 Turtle Scale Helms, 2 Turtle Scale Bracers, and 2 Wildvines to Jangdor Swiftstrider at Camp Mojache. No combat is required for this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2860,
+      "questName": "Master of the Wild Leather",
+      "url": "https://www.wowhead.com/classic/quest=2860",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a letter delivery to Thunder Bluff; the old warning incorrectly described a Camp Mojache material turn-in. Confidence is medium from local metadata and game knowledge.",
+      "reason": "Deliver Jangdor’s Letter to Una in Thunder Bluff. This is a travel and dialogue step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2861,
+      "questName": "Tabetha's Task",
+      "url": "https://www.wowhead.com/classic/quest=2861",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2862,
+      "questName": "War on the Woodpaw",
+      "url": "https://www.wowhead.com/classic/quest=2862",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog requires killing gnolls for ten manes. The earlier exact level range, drop rate, and expected kill count were unsupported and have been removed. Combat risk is a local-data assessment.",
+      "reason": "Collect 10 Woodpaw Gnoll Manes from the gnoll camps around Camp Mojache. These camps contain hostile gnolls; avoid pulling several at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2863,
+      "questName": "Alpha Strike",
+      "url": "https://www.wowhead.com/classic/quest=2863",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Alpha Strike - WoW Classic - Warcraft DB",
+          "url": "https://classic.warcraftdb.com/data/quest/2863",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest details confirm five Woodpaw Alphas and a one-hour time limit."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved Classic quest data confirms five Alpha kills and a one-hour limit. Danger from the gnoll camp is inferred; no source reviewed here supports the old claim that each target has guards.",
+      "reason": "Kill 5 Woodpaw Alphas and return within the one-hour timer. The timer is generous for the objective, but the targets are in hostile gnoll territory; avoid overlapping pulls.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2864,
+      "questName": "Tran'rek",
+      "url": "https://www.wowhead.com/classic/quest=2864",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2865,
+      "questName": "Scarab Shells",
+      "url": "https://www.wowhead.com/classic/quest=2865",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2866,
+      "questName": "The Ruins of Solarsal",
+      "url": "https://www.wowhead.com/classic/quest=2866",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Ruins of Solarsal - Quest - TBC Classic",
+          "url": "https://www.wowhead.com/tbc/quest=2866/the-ruins-of-solarsal",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest description confirms naga occupy the ruins; objective resolves by examining the gazebo."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest text confirms the ruins are occupied by Hatecrest naga, and the objective is to examine the gazebo. The local warning omits unsupported claims about elemental patrols and elites.",
+      "reason": "Explore the naga-occupied Ruins of Solarsal and interact with the gazebo. Hostile naga nearby can engage while you search; avoid drawing groups.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2867,
+      "questName": "Return to Feathermoon Stronghold",
+      "url": "https://www.wowhead.com/classic/quest=2867",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a return/report step with no combat requirement. Confidence is medium based on the local description and game knowledge.",
+      "reason": "Return to Shandris Feathermoon at Feathermoon Stronghold and report your findings. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2869,
+      "questName": "Against the Hatecrest",
+      "url": "https://www.wowhead.com/classic/quest=2869",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "WoW Forever Feralas Map & Leveling Guide",
+          "url": "https://wowhandbook.com/zones/kalimdor/feralas/",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Describes taking the ten scales from Hatecrest naga near the Solarsal ruins."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog objective requires ten scales, and retrieved questing references place the naga near Solarsal. Exact drop rate and level ranges are not retained because the reviewed sources did not establish them.",
+      "reason": "Collect 10 Hatecrest Naga Scales around Sardor Isle and return to Feathermoon Stronghold. The naga occupy the nearby ruins; pull carefully to avoid groups.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2870,
+      "questName": "Against Lord Shalzaru",
+      "url": "https://www.wowhead.com/classic/quest=2870",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "WoW Forever Feralas Map & Leveling Guide",
+          "url": "https://wowhandbook.com/zones/kalimdor/feralas/",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Places Lord Shalzaru in a cave at the south end of the Isle of Dread and notes nearby Hatecrest guards."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest objective requires a named naga kill in the Isle of Dread cave. The existing claim that he is surrounded by elite guards is not supported by the sources reviewed, so the rating is reduced and the advice generalized.",
+      "reason": "Defeat Lord Shalzaru in the cave on the Isle of Dread and loot the relic. Hostile naga guard the area; clear a safe approach and avoid fighting multiple enemies together.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2871,
+      "questName": "Delivering the Relic",
+      "url": "https://www.wowhead.com/classic/quest=2871",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a delivery step; no combat is required for the turn-in. Confidence is medium based on local metadata and game knowledge.",
+      "reason": "Deliver the Mysterious Relic to Vestia Moonspear at Feathermoon Stronghold. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2872,
+      "questName": "Stoley's Debt",
+      "url": "https://www.wowhead.com/classic/quest=2872",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue only. Retain a short travel caution but remove the unsupported minimum-level instruction.",
+      "reason": "Speak with Stoley at Steamwheedle Port. This is a dialogue step; the surrounding Tanaris travel can be hazardous at low levels.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2873,
+      "questName": "Stoley's Shipment",
+      "url": "https://www.wowhead.com/classic/quest=2873",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 10 comments (order unverified), used 2. Only the listed relevant passages were used.",
+      "commentsReviewed": 10,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stoley’s Shipment - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2873/stoleys-shipment",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest text and comments locate the shipment upstairs in Lost Rigger Cove; reports describe several pirates inside and differing solo outcomes."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest page and Classic comments place the shipment in the pirate compound’s upper floor and describe multiple defenders and group pulls. Solo reports vary by class, so confidence is medium rather than high.",
+      "reason": "Recover Stoley’s Shipment from the upper floor of the pirate compound at Lost Rigger Cove. Pirates guard the building and can aggro in groups; plan an escape or clear a route before looting.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2874,
+      "questName": "Deliver to MacKinley",
+      "url": "https://www.wowhead.com/classic/quest=2874",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No external comments needed; assessed from the catalog objective and game knowledge.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a delivery between settlements. The old low-level Stranglethorn warning and level cutoff are not useful for this quest’s intended progression.",
+      "reason": "Deliver Stoley’s Bottle to “Sea Wolf” MacKinley in Booty Bay. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2875,
+      "questName": "WANTED: Andre Firebeard",
+      "url": "https://www.wowhead.com/classic/quest=2875",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed a sample capped at 20 visible comments (order unverified), used 3. The returned page excerpt was lengthy and may omit further comments.",
+      "commentsReviewed": 20,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "WANTED: Andre Firebeard - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2875/wanted-andre-firebeard",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest comments place Andre in the pirate camp and describe two or three nearby adds; multiple solo outcomes vary by class."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments report that Andre is in the central pirate camp with two nearby adds; reports also show varied class-specific solo outcomes. The warning avoids implying the camp must be fully cleared.",
+      "reason": "Defeat Andre Firebeard in the center of Lost Rigger Cove and loot his head. He is accompanied by nearby pirates; pull carefully or bring help if you cannot handle several enemies.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2876,
+      "questName": "Ship Schedules",
+      "url": "https://www.wowhead.com/classic/quest=2876",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Ship Schedules - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2876",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Comments identify Pirate’s Footlocker from Southsea pirates as the source of the quest schedule and report variable drops."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments identify the footlocker as the source of the schedule and describe variable acquisition while killing pirates. Exact drop rate and kill count were not established.",
+      "reason": "Ship Schedules comes from a Pirate’s Footlocker dropped by Southsea pirates in Tanaris. Expect combat in pirate territory; the footlocker drop is not guaranteed.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2877,
+      "questName": "Skulk Rock Clean-up",
+      "url": "https://www.wowhead.com/classic/quest=2877",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Skulk Rock Clean-up - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2877/skulk-rock-clean-up",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest objective and description confirm ten Green Sludges and ten Jade Oozes in the Skulk Rock area."
+        },
+        {
+          "title": "WoW Forever: Skulk Rock Clean-up",
+          "url": "https://senseos.gg/wiki/wow-forever/quests/2877/skulk-rock-clean-up/",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Lists the target creatures and approximate Hinterlands locations/levels."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms the required kills and identifies the overrun Skulk Rock area. A current zone reference lists the sludges and oozes around levels 46–48; exact pull behavior is not established.",
+      "reason": "Kill 10 Green Sludges and 10 Jade Oozes around Skulk Rock in the Hinterlands. Hostile creatures occupy the area; avoid pulling several together.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2878,
+      "questName": "Corrupted Songflower",
+      "url": "https://www.wowhead.com/classic/quest=2878",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Corrupted Songflower - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2523/corrupted-songflower",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest progress shows two Cenarion Plant Salves and completion by applying salve to the flower."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog has no description for this repeatable flower interaction. The corresponding Classic Corrupted Songflower record confirms that two plant salves cleanse it; the danger warning is inferred from Felwood surroundings and matches the reviewed related record.",
+      "reason": "Use Cenarion Plant Salve on a Corrupted Songflower in Felwood. The interaction itself requires no fight, but hostile Felwood creatures can catch you while you stop to cleanse the plant.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2879,
+      "questName": "The Stave of Equinex",
+      "url": "https://www.wowhead.com/classic/quest=2879",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 6 comments (order unverified), used 2. Only the listed relevant passages were used.",
+      "commentsReviewed": 6,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Stave of Equinex - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2879/the-stave-of-equinex",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest text confirms four flames and use of the stave at the monolith; comments warn that multiple nearby mobs can overwhelm an unprepared player."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms four flame essences and the monolith interaction. Danger from nearby mobs is supported by Classic comments, but the former precise elite levels and high-risk cutoff were not verified.",
+      "reason": "Collect the four flame essences in the Ruins of Ravenwind, combine them with Troyas’ Stave at the monolith, then activate it. Hostile creatures occupy the ruins; watch for nearby pulls while reaching the scattered objects.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2880,
+      "questName": "Troll Necklace Bounty",
+      "url": "https://www.wowhead.com/classic/quest=2880",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 6 comments (order unverified), used 1. Only the listed relevant passages were used.",
+      "commentsReviewed": 6,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Troll Necklace Bounty - Quest - Mists of Pandaria Classic",
+          "url": "https://www.wowhead.com/mop-classic/quest=2880/troll-necklace-bounty",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest comments state Witherbark trolls can drop the necklaces and describe the objective as a modest kill grind."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest data confirms five necklaces; comments report they drop from Witherbark trolls. The former placeholder was replaced; no precise drop rate is asserted.",
+      "reason": "Collect 5 Troll Tribal Necklaces from Hinterlands trolls and return to Fraggar Thundermantle. The necklace drop requires fighting trolls; avoid pulling a group of them together.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2881,
+      "questName": "Troll Necklace Bounty",
+      "url": "https://www.wowhead.com/classic/quest=2881",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Troll Necklace Bounty quest guide (ID 2881)",
+          "url": "https://wowforever.wclbox.com/en/renwu/2881",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Identifies this as the repeatable second quest and lists five Troll Tribal Necklaces as the objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved Classic-reference quest record identifies ID 2881 as the repeatable second Troll Necklace Bounty and confirms the same five-necklace objective. Confidence is medium because live project-specific behavior was not independently checked.",
+      "reason": "This repeatable follow-up also requires 5 Troll Tribal Necklaces from Hinterlands trolls. The objective requires fighting trolls; avoid pulling several together.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2882,
+      "questName": "Cuergo's Gold",
+      "url": "https://www.wowhead.com/classic/quest=2882",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 4 comments (order unverified), used 2. Only the listed relevant passages were used.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Cuergo’s Gold - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2882/cuergos-gold",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest comments report five level 44–45 pirates spawning when the hidden site is activated; one must yield the key. Other comments note despawn behavior."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Wowhead Classic comments confirm a five-pirate spawn and a key requirement; reports describe the chest area and pirates despawning. The old 5–8 count, graveyard claim, and exact solo-level cutoff were not supported.",
+      "reason": "Opening Cuergo’s hidden treasure triggers five level 44–45 pirates nearby, and you need a key from one of them to open the chest. Prepare to handle the group or have a reliable escape before activating it.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2902,
+      "questName": "Woodpaw Investigation",
+      "url": "https://www.wowhead.com/classic/quest=2902",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 10 comments (order unverified), used 2. Only the listed relevant passages were used.",
+      "commentsReviewed": 10,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Woodpaw Investigation - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2902/woodpaw-investigation",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Comments locate the map on a crate in the gnoll camp and describe several guards, with reports of smaller pulls."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments place the map on a crate in a Woodpaw camp and report several nearby gnolls; some reports say they can be pulled in smaller groups. This verifies the guarded interaction and supports medium danger.",
+      "reason": "Find and open the Woodpaw Battle Map in one of the gnoll camps south of Camp Mojache. The map can be surrounded by several gnolls, so clear a path before interacting.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2903,
+      "questName": "The Battle Plans",
+      "url": "https://www.wowhead.com/classic/quest=2903",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:53:12+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the listed passages/comments were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Battle Plans - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2903",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:53:12+03:00",
+          "evidence": "Quest text confirms a provided battle plan is returned to Hadoken."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog objective and retrieved Classic quest text confirm this is a turn-in of the supplied plans, not a guarded-object retrieval. Confidence is medium.",
+      "reason": "Return the Woodpaw Battle Plans to Hadoken Swiftstrider at Camp Mojache. The quest provides the plans; this report step has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2904,
+      "questName": "A Fine Mess",
+      "url": "https://www.wowhead.com/classic/quest=2904",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2922,
+      "questName": "Save Techbot's Brain!",
+      "url": "https://www.wowhead.com/classic/quest=2922",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2923,
+      "questName": "Tinkmaster Overspark",
+      "url": "https://www.wowhead.com/classic/quest=2923",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2924,
+      "questName": "Essential Artificials",
+      "url": "https://www.wowhead.com/classic/quest=2924",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2925,
+      "questName": "Klockmort's Essentials",
+      "url": "https://www.wowhead.com/classic/quest=2925",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2926,
+      "questName": "Gnogaine",
+      "url": "https://www.wowhead.com/classic/quest=2926",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2927,
+      "questName": "The Day After",
+      "url": "https://www.wowhead.com/classic/quest=2927",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2928,
+      "questName": "Gyrodrillmatic Excavationators",
+      "url": "https://www.wowhead.com/classic/quest=2928",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2929,
+      "questName": "The Grand Betrayal",
+      "url": "https://www.wowhead.com/classic/quest=2929",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2930,
+      "questName": "Data Rescue",
+      "url": "https://www.wowhead.com/classic/quest=2930",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:53:12+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
     }
   ]
 }
