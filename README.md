@@ -1,6 +1,6 @@
 # Quest Another Day
 
-![Version](https://img.shields.io/badge/version-0.43.3-7c3aed?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.44.400-7c3aed?style=flat-square)
 ![WoW Classic Era](https://img.shields.io/badge/WoW-Classic%20Era-c79c6e?style=flat-square)
 ![Questie](https://img.shields.io/badge/Questie-optional-2563eb?style=flat-square)
 

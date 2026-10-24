@@ -171,157 +171,157 @@ local quests = {
     [398] = { threat = "MEDIUM", reason = "The target is level 12 and is surrounded by guards. Clear the camp before engaging and watch for patrolling mobs.", confidence = "medium" },
 
     -- A Putrid Task
-    [404] = { threat = "MEDIUM", reason = "The mobs have disease effects that reduce your stats. Fight them one at a time and use consumables if needed.", confidence = "low" },
+    [404] = { threat = "MEDIUM", reason = "The claws come from hostile undead around Brill. Fight one enemy at a time and watch for disease effects.", confidence = "low" },
 
     -- The Prodigal Lich
-    [405] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road.", confidence = "medium" },
+    [405] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Fields of Grief
-    [407] = { threat = "MEDIUM", reason = "The mobs are low-level but can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [407] = { threat = "LOW", reason = "This step is a handoff to a captive in the Brill tavern cellar; it has no required combat.", confidence = "medium" },
 
     -- The Family Crypt
-    [408] = { threat = "MEDIUM", reason = "The crypt is tight quarters with undead mobs that respawn quickly. Clear methodically and keep an escape route behind you.", confidence = "medium" },
+    [408] = { threat = "MEDIUM", reason = "The crypt is a confined area with several undead and a named target. Clear a retreat path and avoid pulling multiple groups.", confidence = "medium" },
 
     -- Proving Allegiance
-    [409] = { threat = "MEDIUM", reason = "The mobs are levels 11-15 and can pull in groups. Clear the path ahead and be ready for ambushes.", confidence = "low" },
+    [409] = { threat = "MEDIUM", reason = "The candle is used to summon Lillith Nefara, so expect a fight at the ritual site. Clear nearby enemies before starting.", confidence = "medium" },
 
     -- The Dormant Shade
-    [410] = { threat = "MEDIUM", reason = "The summoned mob has adds. Clear the area before starting the ritual and be ready for a fight.", confidence = "medium" },
+    [410] = { threat = "MEDIUM", reason = "The ritual summons a hostile shade. Clear nearby enemies before lighting the table and be ready to fight.", confidence = "medium" },
 
     -- The Prodigal Lich Returns
-    [411] = { threat = "LOW", reason = "Travel to the quest giver with no required combat. Safe if you stay on the road.", confidence = "medium" },
+    [411] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Prove Your Worth
-    [421] = { threat = "MEDIUM", reason = "The mobs are levels 11-15 and can pull in groups. Fight in open areas and retreat if you pull too many.", confidence = "low" },
+    [421] = { threat = "MEDIUM", reason = "Moonrage worgen occupy hostile camps and can bring nearby enemies into a fight. Pull singles from the edge of a camp.", confidence = "medium" },
 
     -- Arugal's Folly
-    [422] = { threat = "HIGH", reason = "The named worgen is a level 25 elite that one-shots players in the level 10-20 range. Watch your minimap constantly and have an escape route ready.", confidence = "high" },
+    [422] = { threat = "MEDIUM", reason = "Retrieving the remedy triggers a Moonrage Darkrunner at the farm. Clear nearby enemies and be ready for the ambush.", confidence = "medium" },
 
     -- Arugal's Folly
-    [423] = { threat = "HIGH", reason = "Still in Son of Arugal territory. The elite worgen patrols the same area. Check your minimap constantly and avoid the roads where he walks.", confidence = "medium" },
+    [423] = { threat = "MEDIUM", reason = "The shackles come from worgen around camps and a cave, with Son of Arugal roaming the area. Watch for his patrol and pull enemies away from groups.", confidence = "medium" },
 
     -- Arugal's Folly
-    [424] = { threat = "HIGH", reason = "Elite encounters in Silverpine. The final step involves a named mob with guards. Clear the area before engaging and be ready for a tough fight.", confidence = "medium" },
+    [424] = { threat = "MEDIUM", reason = "Grimson is inside the hostile Deep Elem Mine. Clear nearby worgen and keep an open route back to the entrance.", confidence = "medium" },
 
     -- Ivar the Foul
-    [425] = { threat = "MEDIUM", reason = "The target is level 15 and is surrounded by other mobs. Clear the area before engaging and watch for patrolling worgen.", confidence = "low" },
+    [425] = { threat = "MEDIUM", reason = "Ivar is near hostile worgen and other enemies. Pull him away from the camp and keep a retreat route open.", confidence = "medium" },
 
     -- The Mills Overrun
-    [426] = { threat = "MEDIUM", reason = "The mobs are levels 8-10 and stand in groups. Clear the road leading to the mills and pull mobs one at a time.", confidence = "low" },
+    [426] = { threat = "MEDIUM", reason = "The required drops come from enemies around the Agamand mills. The camps can produce extra attackers, so pull from the edges.", confidence = "medium" },
 
     -- At War With The Scarlet Crusade
-    [427] = { threat = "MEDIUM", reason = "The mobs are levels 12-16 and are packed in camps. Clear methodically and watch for patrolling guards.", confidence = "medium" },
+    [427] = { threat = "MEDIUM", reason = "Scarlet Warriors occupy guarded camps. Pull from the edge and watch for nearby patrols.", confidence = "medium" },
 
     -- Lost Deathstalkers
-    [428] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [428] = { threat = "MEDIUM", reason = "The search leads through hostile territory around the Sepulcher and Pyrewood. Watch for worgen and Son of Arugal while approaching the Deathstalkers.", confidence = "medium" },
 
     -- Wild Hearts
-    [429] = { threat = "MEDIUM", reason = "The worgen are levels 16-19 and can pull in groups. Son of Arugal patrols nearby. Check your minimap and avoid the roads.", confidence = "medium" },
+    [429] = { threat = "MEDIUM", reason = "Worgs occupy hostile camps, and Son of Arugal patrols nearby. Pull away from groups and watch the roads for his patrol.", confidence = "medium" },
 
     -- Return to Quinn
-    [430] = { threat = "LOW", reason = "Travel to the quest giver with no required combat. Safe if you stay on the road.", confidence = "medium" },
+    [430] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Candles of Beckoning
-    [431] = { threat = "MEDIUM", reason = "The ritual summons a mob that must be defeated. Clear the area before starting and be ready for a fight.", confidence = "low" },
+    [431] = { threat = "LOW", reason = "This is a candle pickup near Gunther's island. It does not summon the shade; the ritual is a later quest step.", confidence = "medium" },
 
     -- Escorting Erland
-    [435] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies. The NPC cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes.", confidence = "low" },
+    [435] = { threat = "MEDIUM", reason = "Escort quest. Erland can draw nearby wolves and is vulnerable if several attack. Clear the route in short sections and stay close.", confidence = "medium" },
 
     -- The Dead Fields
-    [437] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Fight in open areas and retreat if you pull too many.", confidence = "low" },
+    [437] = { threat = "MEDIUM", reason = "The Dead Fields contain groups of hostile gnolls, and Nightlash appears during the objective. Clear nearby enemies before engaging her.", confidence = "low" },
 
     -- The Decrepit Ferry
-    [438] = { threat = "MEDIUM", reason = "The mobs are levels 16-19 and can pull in groups. Clear the area before engaging.", confidence = "low" },
+    [438] = { threat = "MEDIUM", reason = "Hostile Scourge occupy the ferry area. Approach carefully and avoid pulling more than one group.", confidence = "medium" },
 
     -- Rot Hide Clues
-    [439] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Clear methodically and watch for patrolling mobs.", confidence = "low" },
+    [439] = { threat = "LOW", reason = "This step delivers Deliah's ring and has no required combat. Stay on the road.", confidence = "medium" },
 
     -- The Engraved Ring
-    [440] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [440] = { threat = "LOW", reason = "This is a ring handoff with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Raleigh and the Undercity
-    [441] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road.", confidence = "medium" },
+    [441] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Assault on Fenris Isle
-    [442] = { threat = "MEDIUM", reason = "The mobs are levels 16-19 and can pull in groups. Clear the area before engaging and watch for patrolling mobs.", confidence = "low" },
+    [442] = { threat = "LOW", reason = "This step delivers Thule's head and has no required combat. Stay on the road.", confidence = "medium" },
 
     -- Rot Hide Ichor
-    [443] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [443] = { threat = "MEDIUM", reason = "Rot Hide enemies around the Dead Fields and Fenris area drop the ichor. Pull away from the gnoll groups and watch for patrols.", confidence = "medium" },
 
     -- Rot Hide Origins
-    [444] = { threat = "MEDIUM", reason = "The mobs are levels 16-19 and can pull in groups. Clear the area before engaging.", confidence = "low" },
+    [444] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Delivery to Silverpine Forest
-    [445] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road and avoid the mob camps.", confidence = "medium" },
+    [445] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Thule Ravenclaw
-    [446] = { threat = "MEDIUM", reason = "The target is level 18 and is surrounded by guards. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [446] = { threat = "LOW", reason = "This is a scroll delivery to the Sepulcher with no required combat. Stay on the road.", confidence = "medium" },
 
     -- A Recipe For Death
-    [447] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [447] = { threat = "MEDIUM", reason = "The bear and spider drops come from hostile areas around Silverpine. Pull enemies away from groups and leave room to retreat.", confidence = "medium" },
 
     -- Report to Hadrec
-    [448] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road.", confidence = "medium" },
+    [448] = { threat = "LOW", reason = "This is a report step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- The Deathstalkers' Report
-    [449] = { threat = "LOW", reason = "Travel to the quest giver with no required combat. Safe if you stay on the road.", confidence = "medium" },
+    [449] = { threat = "LOW", reason = "This is a report step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- A Recipe For Death
-    [450] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [450] = { threat = "MEDIUM", reason = "The journal is inside hostile Pyrewood Village. Clear a route through the buildings and watch for nearby residents joining the fight.", confidence = "medium" },
 
     -- A Recipe For Death
-    [451] = { threat = "MEDIUM", reason = "The mobs are levels 16-19 and can pull in groups. Clear the area before engaging.", confidence = "low" },
+    [451] = { threat = "MEDIUM", reason = "The moss and tumor come from hostile creatures around Silverpine and Hillsbrad. Pull carefully along the shore and avoid overlapping groups.", confidence = "medium" },
 
     -- Pyrewood Ambush
-    [452] = { threat = "EXTREME", reason = "The mobs are all Elites, and they come in groups of one, then two, then three, with levels increasing each wave. A level 19 rogue was wiped on the third wave, and a level 20 warrior died on the final wave. The waves come back-to-back with only seconds between them. Do not attempt solo. Bring a full group with a healer and crowd control.", confidence = "high" },
+    [452] = { threat = "HIGH", reason = "Group quest. Faerleia asks for help against the Pyrewood Council. Expect several hostiles at the encounter; bring a partner or attempt it only with a strong plan to manage multiple enemies.", confidence = "medium" },
 
     -- Resting in Pieces
-    [460] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [460] = { threat = "MEDIUM", reason = "The grave is inside Fenris Keep, an area occupied by hostile Rot Hides. Approach through the gnoll territory carefully and keep a route back out.", confidence = "medium" },
 
     -- The Hidden Niche
-    [461] = { threat = "MEDIUM", reason = "The mobs are levels 16-19 and can pull in groups. Clear the area before engaging.", confidence = "low" },
+    [461] = { threat = "MEDIUM", reason = "The alcove is inside Fenris Keep's guarded tower, where narrow stairs and nearby enemies can create dangerous pulls. Clear the route in sections and leave an escape path.", confidence = "medium" },
 
     -- Border Crossings
-    [477] = { threat = "MEDIUM", reason = "The roads are patrolled by Alliance players and hostile mobs. Stick to the Horde-controlled paths and avoid the main roads.", confidence = "medium" },
+    [477] = { threat = "MEDIUM", reason = "The crate is in a hostile Dalaran wizard camp near Pyrewood. Pull guards away from the crate and avoid crossing the camp with several enemies following.", confidence = "medium" },
 
     -- Maps and Runes
-    [478] = { threat = "MEDIUM", reason = "The mobs are levels 15-18 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [478] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Ambermill Investigations
-    [479] = { threat = "MEDIUM", reason = "The mobs are levels 16-19 and are packed in the town. Clear methodically and watch for patrolling guards.", confidence = "low" },
+    [479] = { threat = "MEDIUM", reason = "Dalaran wizards occupy Ambermill in guarded groups. Pull enemies away from the buildings and watch for patrols.", confidence = "medium" },
 
     -- The Weaver
-    [480] = { threat = "MEDIUM", reason = "The target is level 18 and is surrounded by guards. Clear the area before engaging.", confidence = "low" },
+    [480] = { threat = "MEDIUM", reason = "The archmage and nearby Dalaran guards are in a hostile camp. Pull surrounding enemies away before engaging the target.", confidence = "low" },
 
     -- Dalar's Analysis
-    [481] = { threat = "LOW", reason = "Travel to the quest giver with no required combat. Safe if you stay on the road.", confidence = "medium" },
+    [481] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Dalaran's Intentions
-    [482] = { threat = "LOW", reason = "No required combat. Safe if you stay in the camp.", confidence = "medium" },
+    [482] = { threat = "LOW", reason = "This is a dialogue step with no combat. Stay in the camp.", confidence = "medium" },
 
     -- Wand to Bethor
-    [491] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road and avoid the mob camps.", confidence = "medium" },
+    [491] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay in the city.", confidence = "medium" },
 
     -- A New Plague
-    [492] = { threat = "LOW", reason = "Travel to the quest giver with no required combat. Safe if you stay on the road.", confidence = "medium" },
+    [492] = { threat = "LOW", reason = "This is a handoff to the captive in the Brill tavern cellar with no required combat.", confidence = "medium" },
 
     -- Journey to Hillsbrad Foothills
-    [493] = { threat = "MEDIUM", reason = "The roads are patrolled by hostile mobs and Alliance players. Stick to the Horde-controlled paths.", confidence = "medium" },
+    [493] = { threat = "LOW", reason = "This is a delivery to Tarren Mill with no required combat. Follow the road and use normal care around hostile wildlife.", confidence = "medium" },
 
     -- Time To Strike
-    [494] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [494] = { threat = "LOW", reason = "This is a message delivery to Tarren Mill with no required combat. Follow the road and use normal care around hostile wildlife.", confidence = "medium" },
 
     -- The Crown of Will
-    [495] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
+    [495] = { threat = "LOW", reason = "This is a report step in Tarren Mill with no required combat.", confidence = "medium" },
 
     -- Elixir of Suffering
-    [496] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [496] = { threat = "MEDIUM", reason = "The bear tongues and Creeper Ichor come from hostile mobs around Tarren Mill. The rare ichor can mean longer exposure, so pull carefully and avoid overlapping groups.", confidence = "medium" },
 
     -- The Rescue
-    [498] = { threat = "MEDIUM", reason = "The escort spawns waves of enemies. The NPC cannot fight and cannot be healed. Clear the path ahead and be ready for ambushes.", confidence = "medium" },
+    [498] = { threat = "MEDIUM", reason = "The prisoners are inside guarded sections of Durnholde Keep, with casters and patrols able to add. Pull guards away from each cell and keep an exit route.", confidence = "medium" },
 
     -- Elixir of Suffering
-    [499] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
+    [499] = { threat = "LOW", reason = "This is a handoff to Umpi near the quest giver with no required combat.", confidence = "medium" },
 
     -- Elixir of Pain
     [501] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },

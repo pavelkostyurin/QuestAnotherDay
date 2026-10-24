@@ -873,130 +873,133 @@ local quests = {
     [400] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Wait for Sirra to Finish
-    [401] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [401] = { threat = "LOW", reason = "This is a brief wait and dialogue step with no combat. Stay in the town.", confidence = "medium" },
+
+    -- Guarded Thunderbrew Barrel
+    [403] = { threat = "LOW", reason = "This is a barrel interaction in a hostile area. Check whether the guard is nearby before using it, then leave the area.", confidence = "medium" },
 
     -- Operation Recombobulation
-    [412] = { threat = "MEDIUM", reason = "The cogs and gears drop from leper gnomes in Gnomeregan, a level 24-34 dungeon filled with elites. This requires a full group of level 28+. Do not attempt solo.", confidence = "medium" },
+    [412] = { threat = "MEDIUM", reason = "The leper gnomes are outside Gnomeregan and may flee or draw nearby enemies. Pull them away from the camp and watch for extra attackers.", confidence = "medium" },
 
     -- Shimmer Stout
-    [413] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [413] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Stout to Kadrell
-    [414] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [414] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Rejold's New Brew
-    [415] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [415] = { threat = "LOW", reason = "This is a dialogue step with no combat. Stay in the village.", confidence = "medium" },
 
     -- Rat Catching
-    [416] = { threat = "MEDIUM", reason = "The ears drop from Tunnel Rats in the Silver Stream Mine in Loch Modan. The rats are levels 8-12 and are packed in the mine. They pull in groups and can chain-pull. Clear methodically and watch for respawns. Do not attempt below level 9 solo.", confidence = "medium" },
+    [416] = { threat = "MEDIUM", reason = "Tunnel Rats are packed into the Silver Stream Mine and can bring nearby enemies into a fight. Pull carefully and watch for respawns.", confidence = "medium" },
 
     -- A Pilot's Revenge
-    [417] = { threat = "HIGH", reason = "Mangeclaw is a level 12 elite bear in a cave in Dun Morogh. He hits hard and is surrounded by other bears. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 10-12 or skip on Hardcore.", confidence = "high" },
+    [417] = { threat = "MEDIUM", reason = "Mangeclaw is a bear in a cave with nearby wildlife. Pull him out of the cave mouth and avoid fighting several bears at once.", confidence = "medium" },
 
     -- Thelsamar Blood Sausages
-    [418] = { threat = "LOW", reason = "The reagents drop from bears, boars, and spiders in Loch Modan. The mobs are levels 8-12 and are scattered across the zone. The drop rate is moderate. Manageable solo for a level 10+ character.", confidence = "high" },
+    [418] = { threat = "LOW", reason = "The required items drop from ordinary wildlife around Loch Modan. Take care near the scattered animal groups.", confidence = "medium" },
 
     -- The Lost Pilot
-    [419] = { threat = "LOW", reason = "This is a travel and exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [419] = { threat = "LOW", reason = "This is an exploration step with no required combat. Avoid nearby hostile camps.", confidence = "medium" },
 
     -- Senir's Observations
-    [420] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [420] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Those Blasted Troggs!
-    [432] = { threat = "LOW", reason = "The troggs are levels 10-13 and are packed in the quarry. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Manageable solo for a level 11+ character.", confidence = "high" },
+    [432] = { threat = "LOW", reason = "The quarry troggs are ordinary enemies. Pull from the edge of the excavation and avoid drawing several at once.", confidence = "medium" },
 
     -- The Public Servant
-    [433] = { threat = "LOW", reason = "The troggs are levels 11-14 and are packed in the quarry. They pull in groups and can chain-pull. Clear methodically and watch for patrolling mobs. Manageable solo for a level 12+ character.", confidence = "high" },
+    [433] = { threat = "LOW", reason = "The quarry troggs are ordinary enemies. Pull from the edge of the excavation and avoid drawing several at once.", confidence = "medium" },
 
     -- The Attack!
-    [434] = { threat = "HIGH", reason = "Lescovar is a level 30 elite, and Marzon is a level 30 elite rogue. Both are in the garden behind Stormwind Keep, surrounded by elite guards. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 28+ or skip on Hardcore.", confidence = "high" },
+    [434] = { threat = "HIGH", reason = "The conversation leads to Lescovar and Marzon attacking together, and the nearby guards limit the time to finish. Bring help or use a strong plan to control the two opponents.", confidence = "medium" },
 
     -- Ironband's Excavation
-    [436] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [436] = { threat = "LOW", reason = "This is a dialogue step with no combat. Stay in the camp.", confidence = "medium" },
 
     -- Finding the Shadowy Figure
-    [453] = { threat = "LOW", reason = "Your clues: he is not native to Darkshire, he is a nervous, jittery person, and he left Darkshire and headed west. This is a dialogue and exploration step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [453] = { threat = "LOW", reason = "This is an exploration and dialogue step with no required combat. Follow the clues and avoid nearby hostile camps.", confidence = "medium" },
 
     -- After the Ambush
-    [454] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [454] = { threat = "LOW", reason = "This is a dialogue step with no combat. Stay on the road.", confidence = "medium" },
 
     -- The Algaz Gauntlet
-    [455] = { threat = "MEDIUM", reason = "The orcs are levels 20-24 and are packed in the Dun Algaz tunnels. They pull in groups and have ranged attackers. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [455] = { threat = "MEDIUM", reason = "Dragonmaw orcs are packed into the Dun Algaz tunnels, where ranged attackers and narrow passages make extra pulls dangerous. Clear the route in short sections.", confidence = "medium" },
 
     -- The Balance of Nature
-    [456] = { threat = "LOW", reason = "The mobs are levels 3-5 and are found in Teldrassil. Manageable solo for a level 4+ character.", confidence = "high" },
+    [456] = { threat = "LOW", reason = "The required animals are standard low-level wildlife around Aldrassil. Use normal care around nearby mobs.", confidence = "medium" },
 
     -- The Balance of Nature
-    [457] = { threat = "LOW", reason = "The mobs are levels 5-7 and are found in Teldrassil. Manageable solo for a level 5+ character.", confidence = "high" },
+    [457] = { threat = "LOW", reason = "The required animals are standard wildlife around Teldrassil. Pull singles and watch for nearby mobs.", confidence = "medium" },
 
     -- The Woodland Protector
-    [458] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [458] = { threat = "LOW", reason = "This is a travel and dialogue step with no required combat. Avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Woodland Protector
-    [459] = { threat = "LOW", reason = "The moss is found on the ground in Teldrassil. No combat required, but the area is patrolled by level 5-8 mobs. Safe if you avoid the mobs while gathering.", confidence = "high" },
+    [459] = { threat = "LOW", reason = "The Fel Moss is gathered in an area with hostile wildlife. Avoid the mobs while gathering.", confidence = "medium" },
 
     -- The Greenwarden
-    [463] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [463] = { threat = "LOW", reason = "This is a travel and dialogue step with no required combat. Avoid nearby hostile camps.", confidence = "medium" },
 
     -- War Banners
-    [464] = { threat = "MEDIUM", reason = "The banners drop from Dragonmaw orcs in the Wetlands. The orcs are levels 20-24 and are packed in camps. They pull in groups and have ranged attackers. Clear methodically and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [464] = { threat = "MEDIUM", reason = "Dragonmaw orcs occupy guarded camps and use ranged attacks. Pull from the camp edges and watch for patrols.", confidence = "medium" },
 
     -- Nek'rosh's Gambit
-    [465] = { threat = "MEDIUM", reason = "The catapults are guarded by level 22-26 Dragonmaw orcs. The area is patrolled by additional orcs. Clear methodically and watch for adds. Do not attempt below level 22 solo.", confidence = "medium" },
+    [465] = { threat = "MEDIUM", reason = "The catapults are in a guarded Dragonmaw camp with patrols nearby. Clear the guards around each target before interacting.", confidence = "medium" },
 
     -- Search for Incendicite
-    [466] = { threat = "MEDIUM", reason = "The ore is found in the Incendicite Cavern in the Wetlands, which is filled with level 20-24 spiders. The cavern is dark and respawns quickly. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [466] = { threat = "MEDIUM", reason = "The Incendicite Cavern is occupied by hostile spiders and can be difficult to leave if enemies respawn behind you. Gather in short trips and keep an exit clear.", confidence = "medium" },
 
     -- Stonegear's Search
-    [467] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [467] = { threat = "LOW", reason = "This is a dialogue step with no combat. Stay in the camp.", confidence = "medium" },
 
     -- Report to Mountaineer Rockgar
-    [468] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [468] = { threat = "LOW", reason = "This is a dialogue step with no combat. Stay in the camp.", confidence = "medium" },
 
     -- Daily Delivery
-    [469] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [469] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- Digging Through the Ooze
-    [470] = { threat = "MEDIUM", reason = "The oozes are levels 20-24 and are packed in the tomb. They split when killed, creating additional oozes. Clear methodically and watch for adds. Do not attempt below level 20 solo.", confidence = "medium" },
+    [470] = { threat = "MEDIUM", reason = "Oozes in the tomb can split into smaller enemies when killed. Fight one at a time and avoid being surrounded in the confined area.", confidence = "medium" },
 
     -- Apprentice's Duties
-    [471] = { threat = "MEDIUM", reason = "The crocolisks are levels 22-26 and are found along the rivers of the Wetlands. They hit hard and have a bleed effect. Clear methodically and watch for adds. Do not attempt below level 22 solo.", confidence = "medium" },
+    [471] = { threat = "MEDIUM", reason = "The crocolisks along the Wetlands rivers can hit hard and apply a bleed. Pull them away from other enemies and keep an escape route to shore.", confidence = "medium" },
 
     -- Fall of Dun Modr
-    [472] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [472] = { threat = "MEDIUM", reason = "Dun Modr is an occupied hostile area. Search along the outskirts and avoid entering the town through a dense group.", confidence = "medium" },
 
     -- Report to Captain Stoutfist
-    [473] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [473] = { threat = "LOW", reason = "This is a report step with no required combat. Stay in the town.", confidence = "medium" },
 
     -- Defeat Nek'rosh
-    [474] = { threat = "HIGH", reason = "Nek'rosh is a level 26 elite orc in the Dun Modr area, surrounded by elite Dragonmaw orcs. He hits hard and is in a confined space. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 24+ or skip on Hardcore.", confidence = "high" },
+    [474] = { threat = "MEDIUM", reason = "Nek'rosh is in a crowded Dragonmaw camp, where nearby orcs can join the fight. Pull him away from the camp and avoid engaging several enemies together.", confidence = "medium" },
 
     -- A Troubling Breeze
-    [475] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [475] = { threat = "LOW", reason = "This is a travel and dialogue step with no required combat. Avoid nearby hostile camps.", confidence = "medium" },
 
     -- Gnarlpine Corruption
-    [476] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [476] = { threat = "LOW", reason = "This is a delivery step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- The Relics of Wakening
-    [483] = { threat = "MEDIUM", reason = "The relics are in the Gnarlpine furbolg camps in Teldrassil. The furbolgs are levels 8-12 and are packed in camps. They pull in groups and can chain-pull. Clear methodically and watch for adds. Do not attempt below level 9 solo.", confidence = "medium" },
+    [483] = { threat = "MEDIUM", reason = "The relics are in Gnarlpine furbolg camps, where close groups can chain into extra attackers. Pull from the edges and watch for respawns.", confidence = "medium" },
 
     -- Young Crocolisk Skins
-    [484] = { threat = "MEDIUM", reason = "The crocolisks are levels 18-22 and are found along the rivers of the Wetlands. They hit hard and have a bleed effect. Clear methodically and watch for adds. Do not attempt below level 18 solo.", confidence = "medium" },
+    [484] = { threat = "MEDIUM", reason = "Young crocolisks along the Wetlands rivers can hit hard and apply a bleed. Pull them away from other enemies and keep an escape route to shore.", confidence = "medium" },
 
     -- Ursal the Mauler
-    [486] = { threat = "MEDIUM", reason = "Ursal is a level 12 mob who patrols at approximately 39,80, surrounded by Gnarlpine furbolgs. He has a strong maul attack and high aggro range. Multiple players soloed him at level 9-11 with careful single pulls or by using terrain to avoid adds. A level 9 druid needed a potion, and a level 11 rogue stealthed in and out. Do not attempt below level 9 solo without consumables or a plan to avoid the adds.", confidence = "high" },
+    [486] = { threat = "MEDIUM", reason = "Ursal is near hostile Gnarlpine furbolgs, which can join a fight. Pull him away from the camp and keep an escape route open.", confidence = "medium" },
 
     -- The Road to Darnassus
-    [487] = { threat = "LOW", reason = "The furbolgs are level 8 mobs found in the Gnarlpine Hold area. They are standard mobs and manageable solo for a level 8+ character. Pull singles and watch for patrolling mobs.", confidence = "high" },
+    [487] = { threat = "LOW", reason = "The Gnarlpine ambushers are standard enemies around their hold. Pull singles and watch for nearby patrols.", confidence = "medium" },
 
     -- Zenn's Bidding
-    [488] = { threat = "LOW", reason = "The mobs are levels 5-8 in Teldrassil and drop the items at a moderate rate. Zenn is a level 7 quest giver east of Dolanaar who is friendly to Alliance. No combat with Zenn himself. Manageable solo for a level 6+ character. The drop rate can be frustrating but the quest is not dangerous.", confidence = "high" },
+    [488] = { threat = "LOW", reason = "The items come from ordinary wildlife around Dolanaar. The drop rate may take time, but the enemies pose standard local risk.", confidence = "medium" },
 
     -- Seek Redemption!
-    [489] = { threat = "LOW", reason = "The Fel Cones are found in the area around Dolanaar. No combat required, but the mobs nearby are levels 5-8. Safe if you avoid the mobs while gathering.", confidence = "high" },
+    [489] = { threat = "LOW", reason = "The Fel Cones are gathered around Dolanaar. Avoid nearby hostile wildlife while collecting them.", confidence = "medium" },
 
     -- Crushridge Bounty
-    [500] = { threat = "MEDIUM", reason = "The ogres are levels 34-37 and are packed in the Ruins of Alterac. They pull in groups and hit hard. The drop rate is moderate, so expect to kill 15-20 ogres. Clear methodically and watch for patrolling mobs. Do not attempt below level 34 solo.", confidence = "medium" },
+    [500] = { threat = "MEDIUM", reason = "Crushridge ogres occupy the Ruins of Alterac in groups. Pull from the edges, watch for roaming ogres, and keep room to retreat.", confidence = "medium" },
 
     -- Crushridge Warmongers
     [504] = { threat = "MEDIUM", reason = "The Warmongers are level 40 elite ogres in the Ruins of Alterac. This quest is flagged as Elite. The Ruins are packed with ogres that pull in groups. Do not attempt solo at the intended level. Bring a group of level 38+ or skip on Hardcore.", confidence = "high" },

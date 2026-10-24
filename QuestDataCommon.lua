@@ -111,7 +111,7 @@ addon.quests = {
     [351] = { threat = "LOW", reason = "The distress beacon is near the Gaping Chasm in Tanaris; this step is to take it to the homing robot. Travel through the high-level zone cautiously and avoid hostile camps.", confidence = "medium" },
 
     -- Find OOX-09/HL!
-    [485] = { threat = "HIGH", reason = "This starts a long escort quest where the robot moves fast, does not help you fight, and despawns if it gets too far ahead. You must let it aggro enemies first or it will run off and leave you to die. The escort spawns scripted ambushes including 3 level 47 Owlbeasts and 3 level 47 Vilebranch trolls. A level 47 paladin soloed it, but a level 44 player reported it was not easy without a pet class. The robot is wimpy and cannot be healed. Do not attempt below level 45 solo without a plan to manage the escort.", confidence = "high" },
+    [485] = { threat = "MEDIUM", reason = "The beacon handoff is near Skulk Rock in the Hinterlands, among hostile trolls and wildlife. Reach the robot cautiously; the escort is a separate follow-up.", confidence = "medium" },
 
     -- Supply and Demand
     [575] = { threat = "LOW", reason = "The skins drop from crocolisks along the river in northern Stranglethorn. The crocolisks are levels 30-34 and are neutral until attacked. They hit hard for their level and have a bleed effect. Manageable solo for a level 30+ character.", confidence = "high" },
