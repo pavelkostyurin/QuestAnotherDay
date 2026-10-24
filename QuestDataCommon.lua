@@ -636,37 +636,40 @@ addon.quests = {
     [1878] = { threat = "LOW", reason = "This is a repeatable turn-in for five Wastewander Water Pouches; collect them during other Wastewander activity rather than extending time in hostile camps solely to farm extras.", confidence = "medium" },
 
     -- Journey to the Marsh
-    [1947] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Dustwallow Marsh is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
+    [1947] = { threat = "MEDIUM", reason = "This is a travel and dialogue step with no required combat. Reaching Tabetha’s remote hut crosses dangerous territory for a low-level character; travel with care or wait until stronger.", confidence = "medium" },
 
     -- Items of Power
-    [1948] = { threat = "MEDIUM", reason = "The bramble is obtained by killing a level 30-34 elemental in Dustwallow Marsh. Clear the area before engaging and watch for adds. Do not attempt below level 30 solo.", confidence = "medium" },
+    [1948] = { threat = "MEDIUM", reason = "Mage class quest. Gathering Witherbark totem sticks and charging the bramble at the Circle of Outer Binding means fighting trolls and hostile elementals. Clear the circle carefully and avoid taking multiple enemies at once.", confidence = "medium" },
 
     -- Hidden Secrets
-    [1949] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1949] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay near the Shimmering Flats settlement.", confidence = "medium" },
 
     -- Get the Scoop
-    [1950] = { threat = "LOW", reason = "This is an exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [1950] = { threat = "LOW", reason = "This is an exploration step with no required combat. Avoid nearby hostile camps while searching.", confidence = "medium" },
 
     -- Rituals of Power
     [1951] = { threat = "MEDIUM", reason = "The book is in a chest in the Ruins of Isildien in Feralas, guarded by level 43-45 ogres. The ruins are dense with mobs. Clear methodically and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
 
     -- Mage's Wand
-    [1952] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1952] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay near Tabetha’s hut.", confidence = "medium" },
 
     -- Return to the Marsh
-    [1953] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Dustwallow Marsh is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
+    [1953] = { threat = "MEDIUM", reason = "This is a travel and dialogue step with no required combat. Reaching Tabetha’s remote hut crosses dangerous territory for a low-level character; travel with care or wait until stronger.", confidence = "medium" },
 
     -- The Infernal Orb
-    [1954] = { threat = "MEDIUM", reason = "The orb is obtained by killing a level 35 elite infernal in the Barrens. This is a warlock class quest. The infernal hits hard and has fire-based attacks. Do not attempt below level 35 solo without a group.", confidence = "medium" },
+    [1954] = { threat = "MEDIUM", reason = "Mage class quest. The orb drops from level 38–39 Burning Blade Summoners accompanied by imps in Mannoroc Coven. Separate the summoner from nearby demons and deal with its imp.", confidence = "medium" },
 
     -- The Exorcism
-    [1955] = { threat = "MEDIUM", reason = "The demon is a level 35 elite that spawns when Tabetha performs the exorcism. It hits hard and has shadow-based attacks. This is a warlock class quest. Do not attempt below level 35 solo without a plan to manage the demon's damage.", confidence = "medium" },
+    [1955] = { threat = "HIGH", reason = "Elite timed quest. The Demon of the Orb is a level 40 elite and must be defeated before the short event timer expires. Prepare health and mana recovery first, then kite with the mage’s control spells or bring help.", confidence = "high" },
 
     -- Power in Uldaman
     [1956] = { threat = "HIGH", reason = "The power source is in Uldaman, a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- Mana Surges
-    [1957] = { threat = "MEDIUM", reason = "The Mana Surges are level 35-38 elementals in the Arathi Highlands. They are not elite, but they hit hard and can pull in groups. The quest is timed, so you cannot afford to die or take long detours. Do not attempt below level 35 solo without a plan to manage the timer and the mobs.", confidence = "medium" },
+    [1957] = { threat = "MEDIUM", reason = "Timed quest (10 min). The level 40 Mana Surges are non-elites and can be pulled one at a time, but spell damage and the deadline punish careless pulls. Recover between enemies and keep the route to Tabetha clear.", confidence = "medium" },
+
+    -- Celestial Power
+    [1958] = { threat = "LOW", reason = "This is a reward turn-in after the Mana Surges event, with no required combat.", confidence = "medium" },
 
     -- The Platinum Discs
     [2278] = { threat = "HIGH", reason = "This takes place in the treasure chamber after the final boss of Uldaman, a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },

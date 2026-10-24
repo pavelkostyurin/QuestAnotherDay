@@ -2211,22 +2211,28 @@ local quests = {
     [1880] = { threat = "LOW", reason = "The gizmonitor is retrieved in Elwynn Forest without required combat. Watch for nearby hostile creatures while approaching the container.", confidence = "medium" },
 
     -- Report to Jennea
-    [1919] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1919] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay inside Stormwind.", confidence = "medium" },
 
     -- Investigate the Blue Recluse
-    [1920] = { threat = "MEDIUM", reason = "The coffers are filled by killing level 10-14 elementals in the Blue Recluse. This is a Mage class quest. The elementals are manageable solo for a level 12+ mage. Do not attempt below level 12 solo without a plan to handle the elementals.", confidence = "high" },
+    [1920] = { threat = "MEDIUM", reason = "Mage class quest. The invisible rift creatures can appear in groups when revealed and must be subdued one at a time to fill the coffers. Use the tavern’s space to separate them and recover between fights.", confidence = "medium" },
 
     -- Gathering Materials
-    [1921] = { threat = "LOW", reason = "The cloth is purchased or gathered from low-level mobs, and the gems are collected from elementals in the Blue Recluse. No combat required beyond the elemental kills. Safe if you stay in the city.", confidence = "high" },
+    [1921] = { threat = "MEDIUM", reason = "Mage class quest. The Charged Rift Gems are in crates inside Silver Stream Mine, among hostile kobolds. Clear a path through the mine and watch for respawns in the confined tunnels.", confidence = "medium" },
 
     -- Ur's Treatise on Shadow Magic
-    [1938] = { threat = "MEDIUM", reason = "The treatise is in a chest in the Blue Recluse, guarded by level 10-14 elementals. Clear the area before looting and watch for adds. Do not attempt below level 12 solo.", confidence = "medium" },
+    [1938] = { threat = "MEDIUM", reason = "Mage class quest. Ur’s Treatise is in the Tower of Ilgalar, guarded by hostile gnolls and demons near elite Morganth. Clear the upper-floor guards carefully; you can take the book without fighting Morganth.", confidence = "medium" },
 
     -- High Sorcerer Andromath
-    [1939] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1939] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay inside Stormwind.", confidence = "medium" },
 
     -- Pristine Spider Silk
-    [1940] = { threat = "LOW", reason = "The silk drops from spiders in Elwynn Forest and Westfall. The spiders are levels 6-12 and are scattered across the zones. The drop rate is moderate. Manageable solo for a level 8+ character.", confidence = "high" },
+    [1940] = { threat = "MEDIUM", reason = "Mage class quest. The silk comes from hostile spiders around Raven Hill in Duskwood, where the elite Mor’Ladim patrols nearby. Watch for the patrol and leave the cemetery if it approaches.", confidence = "medium" },
+
+    -- Manaweave Robe
+    [1941] = { threat = "LOW", reason = "This is a robe turn-in in Stormwind with no required combat.", confidence = "medium" },
+
+    -- Astral Knot Garment
+    [1942] = { threat = "LOW", reason = "This is a garment turn-in in Stormwind with no required combat.", confidence = "medium" },
 
     -- Bingles' Missing Supplies
     [2038] = { threat = "MEDIUM", reason = "The supplies are scattered around the Loch Modan area, guarded by level 10-14 troggs and kobolds. Clear the area around each item and watch for adds. Do not attempt below level 10 solo.", confidence = "medium" },

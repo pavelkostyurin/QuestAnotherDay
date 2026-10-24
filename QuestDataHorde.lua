@@ -1572,43 +1572,43 @@ local quests = {
     [1899] = { threat = "LOW", reason = "This is a turn-in step in the Undercity with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- The Befouled Element
-    [1918] = { threat = "MEDIUM", reason = "The globe only drops if you have the prerequisite quest 'Stonetalon Standstill' active. Tideress is a level 27 water elemental surrounded by other elementals in the lake. Clear the area before engaging and watch for drowning if you fight underwater.", confidence = "high" },
+    [1918] = { threat = "MEDIUM", reason = "Tideress is a named water elemental in Mystral Lake, where nearby elementals can join the fight. Pull it away from the island’s other hostiles and avoid fighting underwater.", confidence = "medium" },
 
     -- Speak with Deino
-    [1943] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1943] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay inside Orgrimmar.", confidence = "medium" },
 
     -- Waters of Xavian
-    [1944] = { threat = "LOW", reason = "The route involves swimming up the eastern fork of the Falfarren River and standing under the waterfall at approximately 76, 41. You can avoid combat entirely by swimming and stay on the banks. Watch for level 25+ mobs on the west river, but the east route is safe.", confidence = "high" },
+    [1944] = { threat = "LOW", reason = "The water sample can be collected at the waterfall without fighting. Stay clear of hostile satyrs and elementals around Xavian.", confidence = "medium" },
 
     -- Laughing Sisters
-    [1945] = { threat = "MEDIUM", reason = "The Laughing Sisters are level 25-28 dryads that have very high resistance to magic, making this slow and mana-intensive for mages. The drop rate for the phial varies wildly, from first kill to over 100 kills. The moonwell is guarded by spiders and ghostpaws. Do not attempt below level 24.", confidence = "high" },
+    [1945] = { threat = "MEDIUM", reason = "Mage class quest. Laughing Sisters gather near Raynewood Retreat, close to hostile guards and other Ashenvale enemies. Fight away from the tower and avoid drawing nearby hostiles.", confidence = "medium" },
 
     -- Nether-lace Garment
-    [1946] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1946] = { threat = "LOW", reason = "This is a garment turn-in at the Crossroads with no required combat.", confidence = "medium" },
 
     -- Report to Anastasia
-    [1959] = { threat = "LOW", reason = "This is a breadcrumb quest for the Mage quest chain. Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1959] = { threat = "LOW", reason = "This is a dialogue step in the Undercity with no required combat.", confidence = "medium" },
 
     -- Investigate the Alchemist Shop
-    [1960] = { threat = "LOW", reason = "This is a dialogue and exploration step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1960] = { threat = "MEDIUM", reason = "Mage class quest. Revealing the rift spawns several hostile elementals that can rush you together. Use the stairs or bridge to isolate one at a time, then capture each subdued elemental.", confidence = "medium" },
 
     -- Gathering Materials
-    [1961] = { threat = "LOW", reason = "Travel and collection step with no combat. Safe if you stay in the city or nearby areas.", confidence = "high" },
+    [1961] = { threat = "MEDIUM", reason = "Mage class quest. Dalaran Mana Gems drop from hostile Dalaran forces around Ambermill. Pull enemies singly and avoid drawing the nearby camp.", confidence = "medium" },
 
     -- Spellfire Robes
-    [1962] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1962] = { threat = "LOW", reason = "This is a robe turn-in in the Undercity with no required combat.", confidence = "medium" },
 
     -- The Shattered Hand
-    [1963] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1963] = { threat = "MEDIUM", reason = "Rogue class quest. Tazan patrols between pirate camps near Ratchet, with other hostile pirates nearby. Wait for him to move to the edge of the camp and avoid pulling the camp with him.", confidence = "medium" },
 
     -- The Deathstalkers
-    [1978] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1978] = { threat = "LOW", reason = "This is a dialogue step in the Undercity with no required combat.", confidence = "medium" },
 
     -- Fenwick Thatros
-    [1998] = { threat = "MEDIUM", reason = "Fenwick is a level 16 undead mob with guards. He is found near the abandoned dock at Lordamere Lake. Clear the area before engaging and watch for patrolling mobs. Do not attempt below level 16.", confidence = "medium" },
+    [1998] = { threat = "LOW", reason = "Fenwick is a lone level 16 target on a dock near the Sepulcher. The nearby shoreline is quiet; engage him away from the water’s edge.", confidence = "medium" },
 
     -- Tools of the Trade
-    [1999] = { threat = "LOW", reason = "This quest requires lockpicking skill to open the chest. The chest is in Ambermill, which is patrolled by level 16-18 mobs. Stealth past the mobs or clear them carefully. A level 16+ rogue with lockpicking skill can solo this.", confidence = "medium" },
+    [1999] = { threat = "MEDIUM", reason = "Rogue class quest. The report is locked in Ambermill, among hostile Kirin Tor forces. Use stealth to reach the chest or clear a safe path before lockpicking.", confidence = "medium" },
 
     -- A Peon's Burden
     [2161] = { threat = "LOW", reason = "This is a pure delivery quest with no combat. The journey from the Valley of Trials to Razor Hill is safe if you stay on the road.", confidence = "high" },

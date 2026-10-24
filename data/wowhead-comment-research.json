@@ -37635,6 +37635,894 @@
       "reason": "This is a turn-in step in the Undercity with no required combat. Stay inside the city.",
       "threat": "LOW",
       "confidence": "medium"
+    },
+    {
+      "questId": 1918,
+      "questName": "The Befouled Element",
+      "url": "https://www.wowhead.com/classic/quest=1918",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 1 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1918",
+          "url": "https://www.wowhead.com/classic/quest=1918/the-befouled-element",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Tideress is the named water elemental at Mystral Lake; reports identify it as the globe source."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 1 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Tideress is a named water elemental in Mystral Lake, where nearby elementals can join the fight. Pull it away from the island’s other hostiles and avoid fighting underwater.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1919,
+      "questName": "Report to Jennea",
+      "url": "https://www.wowhead.com/classic/quest=1919",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a dialogue step with no required combat. Stay inside Stormwind.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1920,
+      "questName": "Investigate the Blue Recluse",
+      "url": "https://www.wowhead.com/classic/quest=1920",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "A direct Wowhead Classic text lookup returned a CAPTCHA/access check. Completed from catalog context and local knowledge; creature count and difficulty remain unverified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The catalog describes the mage task and its capture objective. A direct Classic page lookup was blocked by a CAPTCHA; the tier is a knowledge-based estimate, so confidence is medium.",
+      "reason": "Mage class quest. The invisible rift creatures can appear in groups when revealed and must be subdued one at a time to fill the coffers. Use the tavern’s space to separate them and recover between fights.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1921,
+      "questName": "Gathering Materials",
+      "url": "https://www.wowhead.com/classic/quest=1921",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest description and two relevant Vanilla-era comments read; comment order is unverified.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1921",
+          "url": "https://www.wowhead.com/classic/quest=1921/gathering-materials",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Quest text places Charged Rift Gems in crates in Silver Stream Mine; Vanilla-era comments describe mine location and hostile mobs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms the crate objective in Silver Stream Mine; Vanilla-era reports describe the mine and nearby hostile mobs. Medium confidence reflects limited old comment evidence for the encounter risk.",
+      "reason": "Mage class quest. The Charged Rift Gems are in crates inside Silver Stream Mine, among hostile kobolds. Clear a path through the mine and watch for respawns in the confined tunnels.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1938,
+      "questName": "Ur's Treatise on Shadow Magic",
+      "url": "https://www.wowhead.com/classic/quest=1938",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest description and three relevant Classic-era comments read; order unverified, sample limited.",
+      "commentsReviewed": 3,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1938",
+          "url": "https://www.wowhead.com/classic/quest=1938/urs-treatise-on-shadow-magic",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Quest description places the book in the Tower of Ilgalar; comments describe the upper-floor guards and report that killing elite Morganth is unnecessary."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest description locates the book in the Tower of Ilgalar. Comments describe hostile upper-floor guards and confirm the elite Morganth can be bypassed; confidence is medium because reports are limited and old.",
+      "reason": "Mage class quest. Ur’s Treatise is in the Tower of Ilgalar, guarded by hostile gnolls and demons near elite Morganth. Clear the upper-floor guards carefully; you can take the book without fighting Morganth.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1939,
+      "questName": "High Sorcerer Andromath",
+      "url": "https://www.wowhead.com/classic/quest=1939",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a dialogue step with no required combat. Stay inside Stormwind.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1940,
+      "questName": "Pristine Spider Silk",
+      "url": "https://www.wowhead.com/classic/quest=1940",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 2 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead quest 1940 comments",
+          "url": "https://www.wowhead.com/tbc/quest=1940/pristine-spider-silk",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Comments place Carrion Recluse spiders in Raven Hill Cemetery and warn of Mor’Ladim’s nearby patrol; versions/comments are older than current Classic Era."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 2 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Mage class quest. The silk comes from hostile spiders around Raven Hill in Duskwood, where the elite Mor’Ladim patrols nearby. Watch for the patrol and leave the cemetery if it approaches.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1941,
+      "questName": "Manaweave Robe",
+      "url": "https://www.wowhead.com/classic/quest=1941",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a robe turn-in in Stormwind with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1942,
+      "questName": "Astral Knot Garment",
+      "url": "https://www.wowhead.com/classic/quest=1942",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a garment turn-in in Stormwind with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1943,
+      "questName": "Speak with Deino",
+      "url": "https://www.wowhead.com/classic/quest=1943",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a dialogue step with no required combat. Stay inside Orgrimmar.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1944,
+      "questName": "Waters of Xavian",
+      "url": "https://www.wowhead.com/classic/quest=1944",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "The water sample can be collected at the waterfall without fighting. Stay clear of hostile satyrs and elementals around Xavian.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1945,
+      "questName": "Laughing Sisters",
+      "url": "https://www.wowhead.com/classic/quest=1945",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 1 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "ClassicDB quest 1945",
+          "url": "https://classicdb.ch/?quest=1945",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Quest description places the dryads near Raynewood Retreat; a Vanilla-era comment warns about guards near the tower."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 1 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Mage class quest. Laughing Sisters gather near Raynewood Retreat, close to hostile guards and other Ashenvale enemies. Fight away from the tower and avoid drawing nearby hostiles.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1946,
+      "questName": "Nether-lace Garment",
+      "url": "https://www.wowhead.com/classic/quest=1946",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a garment turn-in at the Crossroads with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1947,
+      "questName": "Journey to the Marsh",
+      "url": "https://www.wowhead.com/classic/quest=1947",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a travel and dialogue step with no required combat. Reaching Tabetha’s remote hut crosses dangerous territory for a low-level character; travel with care or wait until stronger.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1948,
+      "questName": "Items of Power",
+      "url": "https://www.wowhead.com/classic/quest=1948",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 2 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1948",
+          "url": "https://www.wowhead.com/classic/fr/quest=1948/les-objets-de-puissance",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Vanilla comments describe Witherbark trolls supplying sticks and hostile elementals at the Circle of Outer Binding; comment reports vary in detail."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 2 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Mage class quest. Gathering Witherbark totem sticks and charging the bramble at the Circle of Outer Binding means fighting trolls and hostile elementals. Clear the circle carefully and avoid taking multiple enemies at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1949,
+      "questName": "Hidden Secrets",
+      "url": "https://www.wowhead.com/classic/quest=1949",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a dialogue step with no required combat. Stay near the Shimmering Flats settlement.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1950,
+      "questName": "Get the Scoop",
+      "url": "https://www.wowhead.com/classic/quest=1950",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is an exploration step with no required combat. Avoid nearby hostile camps while searching.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1951,
+      "questName": "Rituals of Power",
+      "url": "https://www.wowhead.com/classic/quest=1951",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned Classic catalog marks this as a dungeon quest; ordinary traversal skips instance quests."
+    },
+    {
+      "questId": 1952,
+      "questName": "Mage's Wand",
+      "url": "https://www.wowhead.com/classic/quest=1952",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a dialogue step with no required combat. Stay near Tabetha’s hut.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1953,
+      "questName": "Return to the Marsh",
+      "url": "https://www.wowhead.com/classic/quest=1953",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a travel and dialogue step with no required combat. Reaching Tabetha’s remote hut crosses dangerous territory for a low-level character; travel with care or wait until stronger.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1954,
+      "questName": "The Infernal Orb",
+      "url": "https://www.wowhead.com/classic/quest=1954",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 3 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 3,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "ClassicDB quest 1954",
+          "url": "https://classicdb.ch/?quest=1954",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Quest description locates the orb among Burning Blade Summoners at Mannoroc Coven; comments describe level 38–39 normal summoners and imp companions."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 3 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Mage class quest. The orb drops from level 38–39 Burning Blade Summoners accompanied by imps in Mannoroc Coven. Separate the summoner from nearby demons and deal with its imp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1955,
+      "questName": "The Exorcism",
+      "url": "https://www.wowhead.com/classic/quest=1955",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read 20 Wowhead comments plus ClassicDB quest text; comments were a limited sample, with ordering unverified and old-era reports mixed.",
+      "commentsReviewed": 20,
+      "commentsUsed": 20,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1955",
+          "url": "https://www.wowhead.com/classic/quest=1955/the-exorcism",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Classic comments identify a level 40 elite; multiple reports document solo kills around levels 35–40 using mage control and recovery."
+        },
+        {
+          "title": "ClassicDB quest 1955",
+          "url": "https://wowclassicdb.com/quest/1955",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Quest text says to prepare, use potions, and bring a friend; recommended quest level is 40. This corroborates the elite encounter risk reported in Classic-era Wowhead comments."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic-era Wowhead comments report a level 40 elite and both successful and failed solo attempts near the quest’s minimum level; ClassicDB independently recommends preparation and a friend. The mage’s control tools make a solo attempt possible but risky, supporting high confidence in HIGH.",
+      "reason": "Elite timed quest. The Demon of the Orb is a level 40 elite and must be defeated before the short event timer expires. Prepare health and mana recovery first, then kite with the mage’s control spells or bring help.",
+      "threat": "HIGH",
+      "confidence": "high"
+    },
+    {
+      "questId": 1956,
+      "questName": "Power in Uldaman",
+      "url": "https://www.wowhead.com/classic/quest=1956",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:32:00+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Pinned Classic catalog marks this as a dungeon quest; ordinary traversal skips instance quests."
+    },
+    {
+      "questId": 1957,
+      "questName": "Mana Surges",
+      "url": "https://www.wowhead.com/classic/quest=1957",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 3 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 3,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1957",
+          "url": "https://www.wowhead.com/classic/it/quest=1957/mana-surges",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Quest metadata/comments give a 10-minute timer; comments describe level 40 non-elite surges and pulling them individually."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 3 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Timed quest (10 min). The level 40 Mana Surges are non-elites and can be pulled one at a time, but spell damage and the deadline punish careless pulls. Recover between enemies and keep the route to Tabetha clear.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1958,
+      "questName": "Celestial Power",
+      "url": "https://www.wowhead.com/classic/quest=1958",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a reward turn-in after the Mana Surges event, with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1959,
+      "questName": "Report to Anastasia",
+      "url": "https://www.wowhead.com/classic/quest=1959",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a dialogue step in the Undercity with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1960,
+      "questName": "Investigate the Alchemist Shop",
+      "url": "https://www.wowhead.com/classic/quest=1960",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 20 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 20,
+      "commentsUsed": 20,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1960",
+          "url": "https://www.wowhead.com/classic/quest=1960/investigate-the-alchemist-shop",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Vanilla and Classic Era comments report several level 16–17 rift spawns; bridge/stairs tactics can isolate one at a time."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 20 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Mage class quest. Revealing the rift spawns several hostile elementals that can rush you together. Use the stairs or bridge to isolate one at a time, then capture each subdued elemental.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1961,
+      "questName": "Gathering Materials",
+      "url": "https://www.wowhead.com/classic/quest=1961",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read four relevant Classic-era comments/notes across two text sources; source order is unverified and mob-level detail is not generalized.",
+      "commentsReviewed": 4,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "ClassicDB quest 1961",
+          "url": "https://classicdb.ch/?quest=1961",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Quest text requires mana gems from Dalaran mages in Silverpine; comments locate camps near Ambermill and report hostile forces."
+        },
+        {
+          "title": "Wowhead WotLK Classic quest 1961 comments",
+          "url": "https://www.wowhead.com/wotlk/quest=1961/gathering-materials",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Comments describe gem drops from Dalaran forces around Ambermill and recommend targeting lower-level apprentices; older version comments."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved descriptions and reports confirm the hostile Dalaran forces near Ambermill; the exact camp mix can vary. Medium confidence reflects useful but limited and partly older evidence.",
+      "reason": "Mage class quest. Dalaran Mana Gems drop from hostile Dalaran forces around Ambermill. Pull enemies singly and avoid drawing the nearby camp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1962,
+      "questName": "Spellfire Robes",
+      "url": "https://www.wowhead.com/classic/quest=1962",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a robe turn-in in the Undercity with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1963,
+      "questName": "The Shattered Hand",
+      "url": "https://www.wowhead.com/classic/quest=1963",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 12 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 12,
+      "commentsUsed": 12,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1963",
+          "url": "https://www.wowhead.com/classic/quest=1963/the-shattered-hand",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Classic comments place level 13 Tazan patrolling between pirate camps near Ratchet and recommend engaging at the lower edge of the route."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 12 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Rogue class quest. Tazan patrols between pirate camps near Ratchet, with other hostile pirates nearby. Wait for him to move to the edge of the camp and avoid pulling the camp with him.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1978,
+      "questName": "The Deathstalkers",
+      "url": "https://www.wowhead.com/classic/quest=1978",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Knowledge-based assessment; no comments were needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog description and existing knowledge; no external lookup was needed. Confidence is medium because the routine objective is clear, but no independent source verifies the danger claims.",
+      "reason": "This is a dialogue step in the Undercity with no required combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1998,
+      "questName": "Fenwick Thatros",
+      "url": "https://www.wowhead.com/classic/quest=1998",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 8 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 8,
+      "commentsUsed": 8,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1998",
+          "url": "https://www.wowhead.com/classic/quest=1998/fenwick-thatros",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Classic comments describe Fenwick as a lone, non-elite level 16 mob at the dock; quest text confirms the Lordamere dock location."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 8 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Fenwick is a lone level 16 target on a dock near the Sepulcher. The nearby shoreline is quiet; engage him away from the water’s edge.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 1999,
+      "questName": "Tools of the Trade",
+      "url": "https://www.wowhead.com/classic/quest=1999",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:32:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited text sample; 0 comments/notes counted. Sample order is unverified; older comments may not reflect later tuning.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Wowhead Classic quest 1999",
+          "url": "https://www.wowhead.com/classic/quest=1999/tools-of-the-trade",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:32:00+03:00",
+          "evidence": "Quest text confirms the Dalaran Status Report is in Ambermill and requires lockpicking knowledge."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The catalog supplies quest identity/context; retrieved 0 relevant comment(s) or data note(s) support the described mechanic. Evidence is useful but limited or old; confidence remains medium.",
+      "reason": "Rogue class quest. The report is locked in Ambermill, among hostile Kirin Tor forces. Use stealth to reach the chest or clear a safe path before lockpicking.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
     }
   ]
 }

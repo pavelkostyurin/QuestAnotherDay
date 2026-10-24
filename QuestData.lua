@@ -4208,94 +4208,100 @@ addon.quests = {
     [1899] = { threat = "LOW", reason = "This is a turn-in step in the Undercity with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- The Befouled Element (Horde - Ashenvale)
-    [1918] = { threat = "MEDIUM", reason = "The globe only drops if you have the prerequisite quest 'Stonetalon Standstill' active. Tideress is a level 27 water elemental surrounded by other elementals in the lake. Clear the area before engaging and watch for drowning if you fight underwater.", confidence = "high" },
+    [1918] = { threat = "MEDIUM", reason = "Tideress is a named water elemental in Mystral Lake, where nearby elementals can join the fight. Pull it away from the island’s other hostiles and avoid fighting underwater.", confidence = "medium" },
 
     -- Report to Jennea
-    [1919] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1919] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay inside Stormwind.", confidence = "medium" },
 
     -- Investigate the Blue Recluse
-    [1920] = { threat = "MEDIUM", reason = "The coffers are filled by killing level 10-14 elementals in the Blue Recluse. This is a Mage class quest. The elementals are manageable solo for a level 12+ mage. Do not attempt below level 12 solo without a plan to handle the elementals.", confidence = "high" },
+    [1920] = { threat = "MEDIUM", reason = "Mage class quest. The invisible rift creatures can appear in groups when revealed and must be subdued one at a time to fill the coffers. Use the tavern’s space to separate them and recover between fights.", confidence = "medium" },
 
     -- Gathering Materials
-    [1921] = { threat = "LOW", reason = "The cloth is purchased or gathered from low-level mobs, and the gems are collected from elementals in the Blue Recluse. No combat required beyond the elemental kills. Safe if you stay in the city.", confidence = "high" },
+    [1921] = { threat = "MEDIUM", reason = "Mage class quest. The Charged Rift Gems are in crates inside Silver Stream Mine, among hostile kobolds. Clear a path through the mine and watch for respawns in the confined tunnels.", confidence = "medium" },
 
     -- Ur's Treatise on Shadow Magic
-    [1938] = { threat = "MEDIUM", reason = "The treatise is in a chest in the Blue Recluse, guarded by level 10-14 elementals. Clear the area before looting and watch for adds. Do not attempt below level 12 solo.", confidence = "medium" },
+    [1938] = { threat = "MEDIUM", reason = "Mage class quest. Ur’s Treatise is in the Tower of Ilgalar, guarded by hostile gnolls and demons near elite Morganth. Clear the upper-floor guards carefully; you can take the book without fighting Morganth.", confidence = "medium" },
 
     -- High Sorcerer Andromath
-    [1939] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1939] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay inside Stormwind.", confidence = "medium" },
 
     -- Pristine Spider Silk
-    [1940] = { threat = "LOW", reason = "The silk drops from spiders in Elwynn Forest and Westfall. The spiders are levels 6-12 and are scattered across the zones. The drop rate is moderate. Manageable solo for a level 8+ character.", confidence = "high" },
+    [1940] = { threat = "MEDIUM", reason = "Mage class quest. The silk comes from hostile spiders around Raven Hill in Duskwood, where the elite Mor’Ladim patrols nearby. Watch for the patrol and leave the cemetery if it approaches.", confidence = "medium" },
 
     -- Speak with Deino (Mage - Undercity)
-    [1943] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1941] = { threat = "LOW", reason = "This is a robe turn-in in Stormwind with no required combat.", confidence = "medium" },
+
+    [1942] = { threat = "LOW", reason = "This is a garment turn-in in Stormwind with no required combat.", confidence = "medium" },
+
+    [1943] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay inside Orgrimmar.", confidence = "medium" },
 
     -- Waters of Xavian (Mage - Ashenvale)
-    [1944] = { threat = "LOW", reason = "The route involves swimming up the eastern fork of the Falfarren River and standing under the waterfall at approximately 76, 41. You can avoid combat entirely by swimming and stay on the banks. Watch for level 25+ mobs on the west river, but the east route is safe.", confidence = "high" },
+    [1944] = { threat = "LOW", reason = "The water sample can be collected at the waterfall without fighting. Stay clear of hostile satyrs and elementals around Xavian.", confidence = "medium" },
 
     -- Laughing Sisters (Mage - Ashenvale)
-    [1945] = { threat = "MEDIUM", reason = "The Laughing Sisters are level 25-28 dryads that have very high resistance to magic, making this slow and mana-intensive for mages. The drop rate for the phial varies wildly, from first kill to over 100 kills. The moonwell is guarded by spiders and ghostpaws. Do not attempt below level 24.", confidence = "high" },
+    [1945] = { threat = "MEDIUM", reason = "Mage class quest. Laughing Sisters gather near Raynewood Retreat, close to hostile guards and other Ashenvale enemies. Fight away from the tower and avoid drawing nearby hostiles.", confidence = "medium" },
 
     -- Nether-lace Garment (Mage - Undercity)
-    [1946] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1946] = { threat = "LOW", reason = "This is a garment turn-in at the Crossroads with no required combat.", confidence = "medium" },
 
     -- Journey to the Marsh
-    [1947] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Dustwallow Marsh is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
+    [1947] = { threat = "MEDIUM", reason = "This is a travel and dialogue step with no required combat. Reaching Tabetha’s remote hut crosses dangerous territory for a low-level character; travel with care or wait until stronger.", confidence = "medium" },
 
     -- Items of Power
-    [1948] = { threat = "MEDIUM", reason = "The bramble is obtained by killing a level 30-34 elemental in Dustwallow Marsh. Clear the area before engaging and watch for adds. Do not attempt below level 30 solo.", confidence = "medium" },
+    [1948] = { threat = "MEDIUM", reason = "Mage class quest. Gathering Witherbark totem sticks and charging the bramble at the Circle of Outer Binding means fighting trolls and hostile elementals. Clear the circle carefully and avoid taking multiple enemies at once.", confidence = "medium" },
 
     -- Hidden Secrets
-    [1949] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1949] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay near the Shimmering Flats settlement.", confidence = "medium" },
 
     -- Get the Scoop
-    [1950] = { threat = "LOW", reason = "This is an exploration step with no combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [1950] = { threat = "LOW", reason = "This is an exploration step with no required combat. Avoid nearby hostile camps while searching.", confidence = "medium" },
 
     -- Rituals of Power
     [1951] = { threat = "MEDIUM", reason = "The book is in a chest in the Ruins of Isildien in Feralas, guarded by level 43-45 ogres. The ruins are dense with mobs. Clear methodically and watch for adds. Do not attempt below level 42 solo.", confidence = "medium" },
 
     -- Mage's Wand
-    [1952] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1952] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay near Tabetha’s hut.", confidence = "medium" },
 
     -- Return to the Marsh
-    [1953] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Dustwallow Marsh is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
+    [1953] = { threat = "MEDIUM", reason = "This is a travel and dialogue step with no required combat. Reaching Tabetha’s remote hut crosses dangerous territory for a low-level character; travel with care or wait until stronger.", confidence = "medium" },
 
     -- The Infernal Orb
-    [1954] = { threat = "MEDIUM", reason = "The orb is obtained by killing a level 35 elite infernal in the Barrens. This is a warlock class quest. The infernal hits hard and has fire-based attacks. Do not attempt below level 35 solo without a group.", confidence = "medium" },
+    [1954] = { threat = "MEDIUM", reason = "Mage class quest. The orb drops from level 38–39 Burning Blade Summoners accompanied by imps in Mannoroc Coven. Separate the summoner from nearby demons and deal with its imp.", confidence = "medium" },
 
     -- The Exorcism
-    [1955] = { threat = "MEDIUM", reason = "The demon is a level 35 elite that spawns when Tabetha performs the exorcism. It hits hard and has shadow-based attacks. This is a warlock class quest. Do not attempt below level 35 solo without a plan to manage the demon's damage.", confidence = "medium" },
+    [1955] = { threat = "HIGH", reason = "Elite timed quest. The Demon of the Orb is a level 40 elite and must be defeated before the short event timer expires. Prepare health and mana recovery first, then kite with the mage’s control spells or bring help.", confidence = "high" },
 
     -- Power in Uldaman
     [1956] = { threat = "HIGH", reason = "The power source is in Uldaman, a level 35-40 dungeon filled with elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
 
     -- Mana Surges
-    [1957] = { threat = "MEDIUM", reason = "The Mana Surges are level 35-38 elementals in the Arathi Highlands. They are not elite, but they hit hard and can pull in groups. The quest is timed, so you cannot afford to die or take long detours. Do not attempt below level 35 solo without a plan to manage the timer and the mobs.", confidence = "medium" },
+    [1957] = { threat = "MEDIUM", reason = "Timed quest (10 min). The level 40 Mana Surges are non-elites and can be pulled one at a time, but spell damage and the deadline punish careless pulls. Recover between enemies and keep the route to Tabetha clear.", confidence = "medium" },
 
     -- Report to Anastasia (Mage - Undercity)
-    [1959] = { threat = "LOW", reason = "This is a breadcrumb quest for the Mage quest chain. Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1958] = { threat = "LOW", reason = "This is a reward turn-in after the Mana Surges event, with no required combat.", confidence = "medium" },
+
+    [1959] = { threat = "LOW", reason = "This is a dialogue step in the Undercity with no required combat.", confidence = "medium" },
 
     -- Investigate the Alchemist Shop (Mage - Undercity)
-    [1960] = { threat = "LOW", reason = "This is a dialogue and exploration step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1960] = { threat = "MEDIUM", reason = "Mage class quest. Revealing the rift spawns several hostile elementals that can rush you together. Use the stairs or bridge to isolate one at a time, then capture each subdued elemental.", confidence = "medium" },
 
     -- Gathering Materials (Mage - Undercity)
-    [1961] = { threat = "LOW", reason = "Travel and collection step with no combat. Safe if you stay in the city or nearby areas.", confidence = "high" },
+    [1961] = { threat = "MEDIUM", reason = "Mage class quest. Dalaran Mana Gems drop from hostile Dalaran forces around Ambermill. Pull enemies singly and avoid drawing the nearby camp.", confidence = "medium" },
 
     -- Spellfire Robes (Mage - Undercity)
-    [1962] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1962] = { threat = "LOW", reason = "This is a robe turn-in in the Undercity with no required combat.", confidence = "medium" },
 
     -- The Shattered Hand (Rogue - Orgrimmar)
-    [1963] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1963] = { threat = "MEDIUM", reason = "Rogue class quest. Tazan patrols between pirate camps near Ratchet, with other hostile pirates nearby. Wait for him to move to the edge of the camp and avoid pulling the camp with him.", confidence = "medium" },
 
     -- The Deathstalkers (Rogue - Undercity)
-    [1978] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1978] = { threat = "LOW", reason = "This is a dialogue step in the Undercity with no required combat.", confidence = "medium" },
 
     -- Fenwick Thatros (Rogue - Silverpine)
-    [1998] = { threat = "MEDIUM", reason = "Fenwick is a level 16 undead mob with guards. He is found near the abandoned dock at Lordamere Lake. Clear the area before engaging and watch for patrolling mobs. Do not attempt below level 16.", confidence = "medium" },
+    [1998] = { threat = "LOW", reason = "Fenwick is a lone level 16 target on a dock near the Sepulcher. The nearby shoreline is quiet; engage him away from the water’s edge.", confidence = "medium" },
 
     -- Tools of the Trade (Rogue - Undercity)
-    [1999] = { threat = "LOW", reason = "This quest requires lockpicking skill to open the chest. The chest is in Ambermill, which is patrolled by level 16-18 mobs. Stealth past the mobs or clear them carefully. A level 16+ rogue with lockpicking skill can solo this.", confidence = "medium" },
+    [1999] = { threat = "MEDIUM", reason = "Rogue class quest. The report is locked in Ambermill, among hostile Kirin Tor forces. Use stealth to reach the chest or clear a safe path before lockpicking.", confidence = "medium" },
 
     -- Bingles' Missing Supplies
     [2038] = { threat = "MEDIUM", reason = "The supplies are scattered around the Loch Modan area, guarded by level 10-14 troggs and kobolds. Clear the area around each item and watch for adds. Do not attempt below level 10 solo.", confidence = "medium" },
