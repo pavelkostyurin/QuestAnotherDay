@@ -4506,19 +4506,19 @@ local quests = {
     [9006] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Aristan's Hunch
-    [9024] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9024] = { threat = "LOW", reason = "Holiday delivery of perfume and cologne to a Stormwind vendor with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Morgan's Discovery
-    [9025] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9025] = { threat = "LOW", reason = "Holiday conversation with Aristan Mottar in Stormwind with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Tracing the Source
-    [9026] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9026] = { threat = "LOW", reason = "Holiday conversation with Innkeeper Allison in Stormwind with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Tracing the Source
-    [9027] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9027] = { threat = "LOW", reason = "Holiday conversation with Evert Sorisam in Stormwind with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Source Revealed
-    [9028] = { threat = "MEDIUM", reason = "Requires finding Apothecary Staffron Lerent in the Hillsbrad Foothills behind Ravenholdt Manor. The area is patrolled by level 30-40 mobs. Do not attempt below level 30 solo.", confidence = "medium" },
+    [9028] = { threat = "MEDIUM", reason = "Staffron is hidden along the mountain path beyond Ravenholdt Manor. The route is remote and easy to miss, but this step adds no fight; follow the path carefully and avoid nearby hostiles.", confidence = "medium" },
 
     -- Investigate the Scourge of Stormwind
     [9260] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Stormwind and investigating runic circles. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },

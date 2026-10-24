@@ -3371,6 +3371,9 @@ addon.quests = {
     -- The Perfect Poison
     [9023] = { threat = "EXTREME", reason = "Requires Venoxis's Venom Sac from Zul'Gurub and Kurinnaxx's Venom Sac from Ahn'Qiraj. Both are level 60 raid dungeons. A full raid group is required. Do not attempt solo.", confidence = "high" },
 
+    -- A Bubbling Cauldron
+    [9029] = { threat = "LOW", reason = "This is a holiday reward hand-in at the Fragrant Cauldron with no combat objective. Follow the established route to the cauldron and avoid unrelated hostile pulls.", confidence = "medium" },
+
     -- Echoes of War
     [9033] = { threat = "HIGH", reason = "Requires killing 5 Living Monstrosities, 5 Stoneskin Gargoyles, 8 Deathknight Captains, and 3 Venom Stalkers in the Eastern Plaguelands. These are level 58-60 mobs, with Deathknight Captains being elite-adjacent. Clear methodically and watch for adds. Do not attempt below level 58 solo without a group.", confidence = "high" },
 
@@ -3423,10 +3426,10 @@ addon.quests = {
     [9050] = { threat = "EXTREME", reason = "Requires a Desecrated Wristguards from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },
 
     -- Toxic Test
-    [9051] = { threat = "HIGH", reason = "Requires stabbing a Devilsaur in Un'Goro Crater with the Devilsaur Barb. The Devilsaurs are level 50-54 elites. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [9051] = { threat = "HIGH", reason = "Druid quest. A Devilsaur can fear and outrun you after you apply the quest barb. Use Hibernate or roots to create an escape window, then run; do not stay to fight it.", confidence = "medium" },
 
     -- Bloodpetal Poison
-    [9052] = { threat = "MEDIUM", reason = "Requires collecting 8 Bloodcap and 8 Gorishi Stings. The Bloodcap is found in Un'Goro, and the stings drop from Gorishi silithid inside the hives. The silithid are levels 50-54 and pull in groups. Do not attempt below level 50 solo.", confidence = "medium" },
+    [9052] = { threat = "MEDIUM", reason = "Gorishi insects around the Slithering Scar can add during repeated pulls, while Bloodcaps come from Bloodpetal Sprouts. Gather the plants where practical, pull insects away from the Scar, and avoid the Hive Queen.", confidence = "medium" },
 
     -- A Better Ingredient
     [9053] = { threat = "EXTREME", reason = "Requires retrieving a Putrid Vine from the guardian at the bottom of the Sunken Temple. The guardian is a level 55 elite. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },

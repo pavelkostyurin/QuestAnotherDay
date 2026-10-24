@@ -3927,7 +3927,7 @@ local quests = {
     [9022] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Bodley's Unfortunate Fate
-    [9032] = { threat = "MEDIUM", reason = "Requires traveling to Blackrock Mountain and using the Ghost Revealer to find Bodley near Blackrock Spire. The area is patrolled by level 55-58 mobs. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [9032] = { threat = "MEDIUM", reason = "The Ghost Revealer leads to Bodley near the Blackrock Spire balcony, outside the instance. Hostile level 55–58 mobs patrol Blackrock Mountain; keep an escape route and avoid pulls while using the item.", confidence = "medium" },
 
     -- Investigate the Scourge of Orgrimmar
     [9263] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Orgrimmar. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },

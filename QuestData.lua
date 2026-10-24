@@ -10911,22 +10911,25 @@ addon.quests = {
     [9023] = { threat = "EXTREME", reason = "Requires Venoxis's Venom Sac from Zul'Gurub and Kurinnaxx's Venom Sac from Ahn'Qiraj. Both are level 60 raid dungeons. A full raid group is required. Do not attempt solo.", confidence = "high" },
 
     -- Aristan's Hunch
-    [9024] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9024] = { threat = "LOW", reason = "Holiday delivery of perfume and cologne to a Stormwind vendor with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Morgan's Discovery
-    [9025] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9025] = { threat = "LOW", reason = "Holiday conversation with Aristan Mottar in Stormwind with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Tracing the Source (Innkeeper Allison)
-    [9026] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9026] = { threat = "LOW", reason = "Holiday conversation with Innkeeper Allison in Stormwind with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Tracing the Source (Evert Sorisam)
-    [9027] = { threat = "LOW", reason = "Love is in the Air holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [9027] = { threat = "LOW", reason = "Holiday conversation with Evert Sorisam in Stormwind with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Source Revealed
-    [9028] = { threat = "MEDIUM", reason = "Requires finding Apothecary Staffron Lerent in the Hillsbrad Foothills behind Ravenholdt Manor. The area is patrolled by level 30-40 mobs. Do not attempt below level 30 solo.", confidence = "medium" },
+    [9028] = { threat = "MEDIUM", reason = "Staffron is hidden along the mountain path beyond Ravenholdt Manor. The route is remote and easy to miss, but this step adds no fight; follow the path carefully and avoid nearby hostiles.", confidence = "medium" },
 
     -- Bodley's Unfortunate Fate (9032)
-    [9032] = { threat = "MEDIUM", reason = "Requires traveling to Blackrock Mountain and using the Ghost Revealer to find Bodley near Blackrock Spire. The area is patrolled by level 55-58 mobs. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    -- A Bubbling Cauldron (9029)
+    [9029] = { threat = "LOW", reason = "This is a holiday reward hand-in at the Fragrant Cauldron with no combat objective. Follow the established route to the cauldron and avoid unrelated hostile pulls.", confidence = "medium" },
+
+    [9032] = { threat = "MEDIUM", reason = "The Ghost Revealer leads to Bodley near the Blackrock Spire balcony, outside the instance. Hostile level 55–58 mobs patrol Blackrock Mountain; keep an escape route and avoid pulls while using the item.", confidence = "medium" },
 
     -- Echoes of War
     [9033] = { threat = "HIGH", reason = "Requires killing 5 Living Monstrosities, 5 Stoneskin Gargoyles, 8 Deathknight Captains, and 3 Venom Stalkers in the Eastern Plaguelands. These are level 58-60 mobs, with Deathknight Captains being elite-adjacent. Clear methodically and watch for adds. Do not attempt below level 58 solo without a group.", confidence = "high" },
@@ -10980,10 +10983,10 @@ addon.quests = {
     [9050] = { threat = "EXTREME", reason = "Requires a Desecrated Wristguards from Naxxramas. A full raid group is required. Do not attempt solo.", confidence = "high" },
 
     -- Toxic Test
-    [9051] = { threat = "HIGH", reason = "Requires stabbing a Devilsaur in Un'Goro Crater with the Devilsaur Barb. The Devilsaurs are level 50-54 elites. A group of level 50+ is required. Do not attempt solo.", confidence = "high" },
+    [9051] = { threat = "HIGH", reason = "Druid quest. A Devilsaur can fear and outrun you after you apply the quest barb. Use Hibernate or roots to create an escape window, then run; do not stay to fight it.", confidence = "medium" },
 
     -- Bloodpetal Poison
-    [9052] = { threat = "MEDIUM", reason = "Requires collecting 8 Bloodcap and 8 Gorishi Stings. The Bloodcap is found in Un'Goro, and the stings drop from Gorishi silithid inside the hives. The silithid are levels 50-54 and pull in groups. Do not attempt below level 50 solo.", confidence = "medium" },
+    [9052] = { threat = "MEDIUM", reason = "Gorishi insects around the Slithering Scar can add during repeated pulls, while Bloodcaps come from Bloodpetal Sprouts. Gather the plants where practical, pull insects away from the Scar, and avoid the Hive Queen.", confidence = "medium" },
 
     -- A Better Ingredient
     [9053] = { threat = "EXTREME", reason = "Requires retrieving a Putrid Vine from the guardian at the bottom of the Sunken Temple. The guardian is a level 55 elite. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
