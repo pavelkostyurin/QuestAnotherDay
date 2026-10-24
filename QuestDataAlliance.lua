@@ -1002,94 +1002,97 @@ local quests = {
     [500] = { threat = "MEDIUM", reason = "Crushridge ogres occupy the Ruins of Alterac in groups. Pull from the edges, watch for roaming ogres, and keep room to retreat.", confidence = "medium" },
 
     -- Crushridge Warmongers
-    [504] = { threat = "MEDIUM", reason = "The Warmongers are level 40 elite ogres in the Ruins of Alterac. This quest is flagged as Elite. The Ruins are packed with ogres that pull in groups. Do not attempt solo at the intended level. Bring a group of level 38+ or skip on Hardcore.", confidence = "high" },
+    [504] = { threat = "HIGH", reason = "Crushridge Warmongers occupy the ruined city among other ogres, and their patrol paths can overlap. Pull them individually from the edges; bring help if you cannot safely manage the camp.", confidence = "medium" },
 
     -- Syndicate Assassins
-    [505] = { threat = "MEDIUM", reason = "The Syndicate mobs are levels 30-34 and are packed in the Alterac Mountains and Hillsbrad Foothills. They pull in groups and some are stealthed. Clear methodically and watch for patrolling mobs. Do not attempt below level 30 solo.", confidence = "medium" },
+    [505] = { threat = "MEDIUM", reason = "Syndicate footpads and thieves occupy hostile camps in the foothills. Pull away from the camp edges and watch for nearby enemies while completing both kill counts.", confidence = "medium" },
 
     -- Foreboding Plans
-    [510] = { threat = "LOW", reason = "The plans drop from Syndicate mobs in the Alterac Mountains. This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [510] = { threat = "LOW", reason = "Deliver the plans to Southshore; the handoff adds no required combat.", confidence = "medium" },
 
     -- Encrypted Letter
-    [511] = { threat = "LOW", reason = "The letter drops from Syndicate mobs. This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [511] = { threat = "LOW", reason = "Deliver the letter to Loremaster Dibbs in Southshore; the handoff adds no required combat.", confidence = "medium" },
 
     -- Noble Deaths
-    [512] = { threat = "MEDIUM", reason = "The rings drop from Syndicate mobs in the Alterac Mountains. The mobs are levels 30-34 and pull in groups. The drop rate is moderate. Clear methodically and watch for patrolling mobs. Do not attempt below level 30 solo.", confidence = "medium" },
+    [512] = { threat = "MEDIUM", reason = "Syndicate camps in Alterac Mountains and Hillsbrad Foothills can produce overlapping pulls while you collect the rings. Clear one edge at a time and avoid fighting into the camp.", confidence = "medium" },
 
     -- Letter to Stormpike
-    [514] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [514] = { threat = "LOW", reason = "Deliver the encrypted letter to Prospector Stormpike in Ironforge; this adds no required combat.", confidence = "medium" },
 
     -- Assassin's Contract
-    [522] = { threat = "LOW", reason = "The contract drops from Syndicate mobs. This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [522] = { threat = "LOW", reason = "Take the contract to Magistrate Maleb in Southshore; the delivery adds no required combat.", confidence = "medium" },
 
     -- Baron's Demise
-    [523] = { threat = "HIGH", reason = "Baron Vardus is a level 40 elite ogre in the Ruins of Alterac, surrounded by elite Crushridge ogres. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 38+ or skip on Hardcore.", confidence = "high" },
+    [523] = { threat = "HIGH", reason = "Baron Vardus is a Syndicate leader in the Alterac highlands. Find him in the hostile camps, clear nearby enemies, and bring help if you cannot manage the named target safely.", confidence = "medium" },
 
     -- Further Mysteries
-    [525] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [525] = { threat = "LOW", reason = "Deliver the decrypted letter to Magistrate Maleb in Southshore; this adds no required combat.", confidence = "medium" },
 
     -- Lightforge Ingots
-    [526] = { threat = "MEDIUM", reason = "The ingots are in the shipwreck of The Flying Osprey, which is guarded by level 20-24 murlocs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
+    [526] = { threat = "MEDIUM", reason = "Lightforge Ingots are gathered from hostile trogg territory in the Wetlands. Pull enemies away from the camp and keep a clear retreat path.", confidence = "low" },
 
     -- Vyrin's Revenge
-    [531] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [531] = { threat = "MEDIUM", reason = "Ol’ Sooty is a named crocolisk in the Wetlands. Pull it away from other wildlife and avoid fighting near the water’s edge.", confidence = "low" },
 
     -- Down the Coast
-    [536] = { threat = "MEDIUM", reason = "The murlocs are levels 30-34 and are packed along the Western Strand. They pull in groups and the Oracles cast healing spells. Kill the Oracles first and clear methodically. Do not attempt below level 30 solo.", confidence = "medium" },
+    [536] = { threat = "MEDIUM", reason = "Torn Fin tidehunters and oracles occupy the coast in groups. Pull the casters away from the shoreline and avoid fighting multiple murlocs at once.", confidence = "medium" },
 
     -- Dark Council
-    [537] = { threat = "HIGH", reason = "The Shadow Mages are level 35-38 and are packed in the Alterac Mountains. Nagaz is a named mob surrounded by guards. Clear the area before engaging and be ready for adds. Do not attempt below level 34 solo without a group.", confidence = "high" },
+    [537] = { threat = "MEDIUM", reason = "Argus’s shadow mages and Nagaz are fought in hostile territory. Pull casters one at a time and clear around the named target before engaging.", confidence = "low" },
 
     -- Southshore
-    [538] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [538] = { threat = "LOW", reason = "Speak with Loremaster Dibbs in Southshore; this adds no required combat.", confidence = "medium" },
 
     -- Preserving Knowledge
-    [540] = { threat = "MEDIUM", reason = "The tomes drop from Syndicate mobs and the book is found in the Ruins of Alterac. The mobs are levels 30-38 and pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 30 solo.", confidence = "medium" },
+    [540] = { threat = "MEDIUM", reason = "The recovered books are in hostile ogre territory. Clear around the items and avoid moving deeper into the ruins while enemies are active behind you.", confidence = "low" },
 
     -- Return to Milton
-    [542] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [542] = { threat = "LOW", reason = "Deliver the tomes to Milton in Stormwind; the city handoff adds no required combat.", confidence = "medium" },
 
     -- The Perenolde Tiara
-    [543] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [543] = { threat = "LOW", reason = "Deliver the tiara to Remington Ridgewell in Stormwind; this step adds no required combat.", confidence = "medium" },
 
     -- The Ensorcelled Parchment
-    [551] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [551] = { threat = "LOW", reason = "Deliver the parchment to Loremaster Dibbs in Southshore; this adds no required combat.", confidence = "medium" },
 
     -- Stormpike's Deciphering
-    [554] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [554] = { threat = "LOW", reason = "Take the parchment to Prospector Stormpike in Ironforge; the handoff adds no required combat.", confidence = "medium" },
 
     -- Soothing Turtle Bisque
-    [555] = { threat = "LOW", reason = "The turtle meat drops from turtles along the coast. The turtles are levels 30-34 and are neutral. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
+    [555] = { threat = "MEDIUM", reason = "Turtle meat is gathered along the coast, where hostile wildlife can add during combat. Pull crocolisks away from other enemies and avoid fighting in the water.", confidence = "medium" },
 
     -- Jaina's Autograph
-    [558] = { threat = "MEDIUM", reason = "The journey to Theramore passes through Dustwallow Marsh, which is patrolled by level 35-40 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 35 solo.", confidence = "medium" },
+    [558] = { threat = "LOW", reason = "Travel to Theramore and ask Jaina for the autograph; the conversation itself adds no required combat.", confidence = "medium" },
 
     -- Farren's Proof
-    [559] = { threat = "MEDIUM", reason = "The murlocs are levels 30-34 and are packed along the coast. They pull in groups and can chain-pull. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 30 solo.", confidence = "medium" },
+    [559] = { threat = "MEDIUM", reason = "The western strand murlocs can add from nearby groups while you collect heads. Pull them away from the water and keep a route to shore.", confidence = "medium" },
 
     -- Farren's Proof
-    [560] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [560] = { threat = "LOW", reason = "Deliver the sack of heads to Marshal Redpath in Southshore; this adds no required combat.", confidence = "medium" },
 
     -- Farren's Proof
-    [561] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [561] = { threat = "LOW", reason = "Speak with Lieutenant Farren in Southshore; this adds no required combat.", confidence = "medium" },
 
     -- Stormwind Ho!
-    [562] = { threat = "MEDIUM", reason = "The route passes near the Wild Shore, which is populated by level 42-44 pirates. Standard risk for the zone, but stay on the road.", confidence = "low" },
+    [562] = { threat = "MEDIUM", reason = "Daggerspine shorehunters and sirens occupy the coast in groups. Pull the casters away from nearby murlocs and avoid fighting in the water.", confidence = "medium" },
 
     -- Reassignment
-    [563] = { threat = "LOW", reason = "No combat objective; simply travel to the innkeeper. Safe if you avoid the pirate camps outside town.", confidence = "medium" },
+    [563] = { threat = "LOW", reason = "Deliver Farren’s report to Stormwind Keep; the handoff adds no required combat.", confidence = "medium" },
 
     -- Costly Menace
-    [564] = { threat = "MEDIUM", reason = "The gorillas are levels 35-40 and often stand in small family groups. Pull one at a time and avoid the Venture Co. camps nearby.", confidence = "low" },
+    [564] = { threat = "MEDIUM", reason = "Mountain lions roam Hillsbrad and can join fights from nearby terrain. Pull them into open ground and avoid combat near other wildlife.", confidence = "medium" },
 
     -- Bartolo's Yeti Fur Cloak
-    [565] = { threat = "MEDIUM", reason = "Yetis are level 38-41 and the caves have tight corridors with respawning mobs. Clear methodically and keep an escape route behind you.", confidence = "low" },
+    [565] = { threat = "MEDIUM", reason = "Yeti fur is collected in hostile mountain territory. Clear around each yeti before engaging and keep a route away from nearby groups.", confidence = "low" },
 
     -- Special Forces
-    [574] = { threat = "MEDIUM", reason = "The mobs are levels 34-35 at the cave entrance and tower, with a level 40 elite deeper in. The cave is tight and mobs pull in groups. Clear methodically from the entrance and watch for patrolling elites. Do not attempt below level 34 solo without a plan to avoid the deeper elites.", confidence = "high" },
+    [574] = { threat = "HIGH", reason = "Kurzen’s camp is a dense hostile compound with commandos and headshrinkers. Clear the outer area first, watch for patrols, and do not push into the camp if enemies are active behind you.", confidence = "medium" },
 
     -- The Stone of the Tides
-    [578] = { threat = "MEDIUM", reason = "The island is in the Vile Reef, which is populated by level 35-37 Elite murlocs. The island itself has level 40+ water elementals and a goblin named Gazban who patrols the area. The swim to the island is dangerous, and the mobs are packed. Do not attempt below level 40 solo without water breathing and a plan.", confidence = "medium" },
+    [578] = { threat = "MEDIUM", reason = "The island lies near hostile naga and water elementals. Explore from the edge, avoid the camps, and do not swim into an escape-blocking pull.", confidence = "medium" },
+
+    -- Stormwind Library
+    [579] = { threat = "LOW", reason = "Find the book in Stormwind Library; the city search adds no required combat.", confidence = "low" },
 
     -- Water Elementals
     [601] = { threat = "HIGH", reason = "The bracers drop from water elementals at the Vile Reef and on the haunted island. The elementals are levels 38-42 and are packed in the water. Fighting underwater is dangerous, and drowning is a real risk. Bring water breathing and clear methodically. Do not attempt below level 40 solo.", confidence = "high" },

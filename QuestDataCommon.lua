@@ -114,37 +114,37 @@ addon.quests = {
     [485] = { threat = "MEDIUM", reason = "The beacon handoff is near Skulk Rock in the Hinterlands, among hostile trolls and wildlife. Reach the robot cautiously; the escort is a separate follow-up.", confidence = "medium" },
 
     -- Supply and Demand
-    [575] = { threat = "LOW", reason = "The skins drop from crocolisks along the river in northern Stranglethorn. The crocolisks are levels 30-34 and are neutral until attacked. They hit hard for their level and have a bleed effect. Manageable solo for a level 30+ character.", confidence = "high" },
+    [575] = { threat = "MEDIUM", reason = "Large river crocolisks are hostile wildlife along the river. Pull them onto open ground and stay clear of other nearby creatures.", confidence = "medium" },
 
     -- Keep An Eye Out
-    [576] = { threat = "MEDIUM", reason = "The eye drops from Bloodsail pirates on the ships south of Booty Bay. The pirates are levels 40-44 and are packed densely on the ships. They pull in groups with no room to kite, and the ships have fast respawns. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
+    [576] = { threat = "MEDIUM", reason = "The eye is recovered from Bloodsail pirates in their coastal camps. Pull pirates away from groups and keep a clear route back to Booty Bay.", confidence = "medium" },
 
     -- Some Assembly Required
-    [577] = { threat = "LOW", reason = "The skins drop from Snapjaw crocolisks along the coast of northern Stranglethorn. The crocolisks are levels 32-36 and are neutral until attacked. They hit hard and have a bleed effect. Manageable solo for a level 32+ character.", confidence = "high" },
+    [577] = { threat = "MEDIUM", reason = "Snapjaw crocolisks are hostile wildlife along the coast. Pull them onto open ground and stay clear of other nearby creatures.", confidence = "medium" },
 
     -- Whiskey Slim's Lost Grog
-    [580] = { threat = "MEDIUM", reason = "The port is stolen by the Bloodsail Buccaneers on their ships south of Booty Bay. The pirates are levels 40-44 and are packed densely on the ships. They pull in groups with no room to kite. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
+    [580] = { threat = "MEDIUM", reason = "The lost bottles are scattered through Bloodsail territory along the coast. Watch for pirates while searching and avoid approaching the ships without a clear escape route.", confidence = "low" },
 
     -- Welcome to the Jungle
-    [583] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [583] = { threat = "LOW", reason = "Speak with Hemet Nesingwary at the camp; the conversation adds no required combat.", confidence = "medium" },
 
     -- Up to Snuff
-    [587] = { threat = "MEDIUM", reason = "The snuff drops from Bloodsail pirates on the ships south of Booty Bay. The pirates are levels 40-44 and are packed densely. They pull in groups with no room to kite, and the drop rate is moderate. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
+    [587] = { threat = "MEDIUM", reason = "Bloodsail snuff is collected from pirates in their coastal camps. Pull pirates away from groups and keep a clear route to safety.", confidence = "medium" },
 
     -- Message in a Bottle
-    [594] = { threat = "MEDIUM", reason = "The bottle is found on the coast of Stranglethorn, and the author is on one of the Bloodsail ships. The ships are filled with level 40-44 pirates that pull in groups. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
+    [594] = { threat = "MEDIUM", reason = "The message leads into Bloodsail territory along the coast. Search from the shoreline and avoid entering pirate camps without a cleared retreat.", confidence = "low" },
 
     -- The Bloodsail Buccaneers
-    [595] = { threat = "MEDIUM", reason = "The cove is patrolled by level 40-44 Bloodsail pirates. The area is densely packed and the mobs pull in groups. Do not attempt below level 40 solo without a plan to avoid the camps.", confidence = "medium" },
+    [595] = { threat = "MEDIUM", reason = "The cove is near Bloodsail territory. Scout its edge and avoid pulling pirates while completing the exploration objective.", confidence = "low" },
 
     -- The Bloodsail Buccaneers
-    [597] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [597] = { threat = "LOW", reason = "Report to First Mate Crazz in Booty Bay; the handoff adds no required combat.", confidence = "medium" },
 
     -- The Bloodsail Buccaneers
-    [599] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [599] = { threat = "LOW", reason = "Deliver the report to Fleet Master Seahorn in Booty Bay; this handoff adds no required combat.", confidence = "medium" },
 
     -- Venture Company Mining
-    [600] = { threat = "MEDIUM", reason = "The crystals drop from Venture Co. goblins at the Venture Co. Mine in northern Stranglethorn. The goblins are levels 35-40 and are packed in the mine. They pull in groups and have ranged attackers. Clear methodically and watch for patrolling mobs. Do not attempt below level 35 solo.", confidence = "medium" },
+    [600] = { threat = "MEDIUM", reason = "Venture Co. goblins occupy the mine in groups, including ranged attackers. Clear the entrance before moving deeper and keep an exit route behind you.", confidence = "medium" },
 
     -- The Bloodsail Buccaneers
     [604] = { threat = "EXTREME", reason = "The pirates are levels 40-44 and are packed densely on the ships south of Booty Bay. A well-geared level 45 warrior reported the ships are too densely packed with mobs, patrols everywhere, no room to fear, and hyper spawns occurring randomly. Do not attempt solo at the intended level. Bring a full group or skip on Hardcore.", confidence = "high" },

@@ -1416,298 +1416,203 @@ addon.quests = {
 
     -- Crushridge Bounty
     [500] = { threat = "MEDIUM", reason = "Crushridge ogres occupy the Ruins of Alterac in groups. Pull from the edges, watch for roaming ogres, and keep room to retreat.", confidence = "medium" },
-
     -- Elixir of Pain (step 1)
-    [501] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [501] = { threat = "MEDIUM", reason = "Mountain lions around Hillsbrad Fields can surround you while collecting blood. Pull them away from the farms and watch for nearby humanoids.", confidence = "medium" },
     -- Elixir of Pain (step 2)
-    [502] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [502] = { threat = "MEDIUM", reason = "Feeding the elixir turns Stanley hostile, and nearby farm mobs can join the fight. Clear space around the dog before using the item and be ready to leave if other enemies engage.", confidence = "medium" },
     -- Gol'dir
-    [503] = { threat = "MEDIUM", reason = "The target is level 22 and is surrounded by guards. Clear the area before engaging and watch for patrolling mobs.", confidence = "low" },
-
+    [503] = { threat = "MEDIUM", reason = "Gol'dir is held inside Durnholde Keep, where Syndicate enemies can add during the rescue. Clear a route through the keep and avoid pushing into multiple rooms at once.", confidence = "medium" },
     -- Crushridge Warmongers
-    [504] = { threat = "MEDIUM", reason = "The Warmongers are level 40 elite ogres in the Ruins of Alterac. This quest is flagged as Elite. The Ruins are packed with ogres that pull in groups. Do not attempt solo at the intended level. Bring a group of level 38+ or skip on Hardcore.", confidence = "high" },
-
+    [504] = { threat = "HIGH", reason = "Crushridge Warmongers occupy the ruined city among other ogres, and their patrol paths can overlap. Pull them individually from the edges; bring help if you cannot safely manage the camp.", confidence = "medium" },
     -- Syndicate Assassins
-    [505] = { threat = "MEDIUM", reason = "The Syndicate mobs are levels 30-34 and are packed in the Alterac Mountains and Hillsbrad Foothills. They pull in groups and some are stealthed. Clear methodically and watch for patrolling mobs. Do not attempt below level 30 solo.", confidence = "medium" },
-
+    [505] = { threat = "MEDIUM", reason = "Syndicate footpads and thieves occupy hostile camps in the foothills. Pull away from the camp edges and watch for nearby enemies while completing both kill counts.", confidence = "medium" },
     -- Blackmoore's Legacy
-    [506] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [506] = { threat = "LOW", reason = "This is a return to Krusk with information from the earlier rescue; it adds no required combat. Leave Durnholde by a cleared route.", confidence = "medium" },
     -- Lord Aliden Perenolde
-    [507] = { threat = "MEDIUM", reason = "The target is level 24 and is surrounded by guards. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
-
+    [507] = { threat = "HIGH", reason = "Lord Aliden Perenolde is inside Durnholde Keep among hostile Syndicate guards. Clear nearby rooms and keep an escape route before engaging him.", confidence = "medium" },
     -- Taretha's Gift
-    [508] = { threat = "LOW", reason = "No required combat. Safe if you stay on the road.", confidence = "medium" },
-
+    [508] = { threat = "LOW", reason = "This is a handoff in Tarren Mill with no required combat.", confidence = "medium" },
     -- Elixir of Agony (step 1)
-    [509] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [509] = { threat = "MEDIUM", reason = "Mudsnout Blossoms are gathered in Hillsbrad Fields among hostile wildlife and farm mobs. Stay alert while harvesting and retreat from joined pulls.", confidence = "medium" },
     -- Foreboding Plans
-    [510] = { threat = "LOW", reason = "The plans drop from Syndicate mobs in the Alterac Mountains. This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [510] = { threat = "LOW", reason = "Deliver the plans to Southshore; the handoff adds no required combat.", confidence = "medium" },
     -- Encrypted Letter
-    [511] = { threat = "LOW", reason = "The letter drops from Syndicate mobs. This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [511] = { threat = "LOW", reason = "Deliver the letter to Loremaster Dibbs in Southshore; the handoff adds no required combat.", confidence = "medium" },
     -- Noble Deaths
-    [512] = { threat = "MEDIUM", reason = "The rings drop from Syndicate mobs in the Alterac Mountains. The mobs are levels 30-34 and pull in groups. The drop rate is moderate. Clear methodically and watch for patrolling mobs. Do not attempt below level 30 solo.", confidence = "medium" },
-
+    [512] = { threat = "MEDIUM", reason = "Syndicate camps in Alterac Mountains and Hillsbrad Foothills can produce overlapping pulls while you collect the rings. Clear one edge at a time and avoid fighting into the camp.", confidence = "medium" },
     -- Elixir of Agony (step 2)
-    [513] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [513] = { threat = "LOW", reason = "This is a delivery to the Undercity with no required combat.", confidence = "medium" },
     -- Letter to Stormpike
-    [514] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [514] = { threat = "LOW", reason = "Deliver the encrypted letter to Prospector Stormpike in Ironforge; this adds no required combat.", confidence = "medium" },
     -- Elixir of Agony (step 3)
-    [515] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [515] = { threat = "MEDIUM", reason = "The scales and fins require fighting hostile murlocs along the coast. Their camps can add several attackers; pull from the edge and keep room to retreat.", confidence = "medium" },
     -- Beren's Peril
-    [516] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [516] = { threat = "MEDIUM", reason = "Ravenclaw enemies in Beren’s Peril can be close together, especially around the objective area. Pull from the perimeter and avoid entering the mine while enemies are behind you.", confidence = "low" },
     -- Elixir of Agony (finale)
-    [517] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [517] = { threat = "MEDIUM", reason = "The stout is found in yeti territory, where nearby creatures can join a fight. Clear around the keg before taking it and keep an exit route.", confidence = "low" },
     -- The Crown of Will (step 2)
-    [518] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [518] = { threat = "MEDIUM", reason = "Crushridge Maulers occupy the Ruins of Alterac in groups. Pull them away from the ruins and watch for roaming ogres.", confidence = "medium" },
     -- The Crown of Will (step 3)
-    [519] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [519] = { threat = "HIGH", reason = "Targ, Muckrake, and Glommus are elite ogres in the Ruins of Alterac, with patrols and surrounding ogres complicating access. Clear around each building and bring help if you cannot handle the elite fights safely.", confidence = "medium" },
     -- The Crown of Will (step 4)
-    [520] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [520] = { threat = "HIGH", reason = "Mug’Thol is the final target in the ogre ruins, surrounded by Crushridge enemies. Clear a path and bring help if the boss fight or nearby pulls exceed your limits.", confidence = "medium" },
     -- The Crown of Will (finale)
-    [521] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [521] = { threat = "LOW", reason = "Deliver the Crown of Will to the Undercity; this handoff adds no required combat.", confidence = "medium" },
     -- Assassin's Contract
-    [522] = { threat = "LOW", reason = "The contract drops from Syndicate mobs. This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [522] = { threat = "LOW", reason = "Take the contract to Magistrate Maleb in Southshore; the delivery adds no required combat.", confidence = "medium" },
     -- Baron's Demise
-    [523] = { threat = "HIGH", reason = "Baron Vardus is a level 40 elite ogre in the Ruins of Alterac, surrounded by elite Crushridge ogres. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 38+ or skip on Hardcore.", confidence = "high" },
-
+    [523] = { threat = "HIGH", reason = "Baron Vardus is a Syndicate leader in the Alterac highlands. Find him in the hostile camps, clear nearby enemies, and bring help if you cannot manage the named target safely.", confidence = "medium" },
     -- Elixir of Agony (final turn-in)
-    [524] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [524] = { threat = "LOW", reason = "Place the keg at the farm; the interaction itself adds no required combat. Clear nearby enemies before using it and leave by a safe route.", confidence = "medium" },
     -- Further Mysteries
-    [525] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [525] = { threat = "LOW", reason = "Deliver the decrypted letter to Magistrate Maleb in Southshore; this adds no required combat.", confidence = "medium" },
     -- Lightforge Ingots
-    [526] = { threat = "MEDIUM", reason = "The ingots are in the shipwreck of The Flying Osprey, which is guarded by level 20-24 murlocs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 20 solo.", confidence = "medium" },
-
+    [526] = { threat = "MEDIUM", reason = "Lightforge Ingots are gathered from hostile trogg territory in the Wetlands. Pull enemies away from the camp and keep a clear retreat path.", confidence = "low" },
     -- Battle of Hillsbrad (step 1)
-    [527] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "medium" },
-
+    [527] = { threat = "MEDIUM", reason = "The northern Hillsbrad farms contain hostile farmers and farmhands. Pull them away from buildings and avoid drawing several farm groups at once.", confidence = "medium" },
     -- Battle of Hillsbrad (step 2)
-    [528] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "medium" },
-
+    [528] = { threat = "MEDIUM", reason = "Hillsbrad Peasants are spread through hostile farms and can join nearby fights. Pull from the edge of each group and avoid fighting beside buildings.", confidence = "medium" },
     -- Battle of Hillsbrad (step 3)
-    [529] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "medium" },
-
+    [529] = { threat = "MEDIUM", reason = "The Hillsbrad blacksmith and apprentices are in a hostile worksite where nearby defenders can join. Clear around the targets and retreat if multiple enemies engage.", confidence = "medium" },
     -- A Husband's Revenge
-    [530] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [530] = { threat = "MEDIUM", reason = "Valdred Moray is a named target in the Undercity’s hostile environment. Pull him away from nearby guards and keep an escape route.", confidence = "low" },
     -- Vyrin's Revenge
-    [531] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [531] = { threat = "MEDIUM", reason = "Ol’ Sooty is a named crocolisk in the Wetlands. Pull it away from other wildlife and avoid fighting near the water’s edge.", confidence = "low" },
     -- Battle of Hillsbrad (step 4)
-    [532] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "medium" },
-
+    [532] = { threat = "HIGH", reason = "The targets and records are inside Hillsbrad Town, where hostile guards can converge on the fight. Do not fight in the town center; clear an exit and leave before reinforcements close in.", confidence = "medium" },
     -- Infiltration
-    [533] = { threat = "MEDIUM", reason = "The quest requires you to sneak into a guarded area. Stealth classes have an advantage. Any mistake means death.", confidence = "low" },
-
+    [533] = { threat = "MEDIUM", reason = "Recovering the information requires entering the Syndicate camp at Durnholde. Pull enemies away from the buildings and leave a clear route out.", confidence = "low" },
     -- Valik
-    [535] = { threat = "MEDIUM", reason = "The target is level 22 and is surrounded by guards. Clear the area before engaging.", confidence = "low" },
-
+    [535] = { threat = "MEDIUM", reason = "Valik is in a Syndicate camp. Approach from its edge and avoid drawing nearby guards when delivering the stout.", confidence = "low" },
     -- Down the Coast
-    [536] = { threat = "MEDIUM", reason = "The murlocs are levels 30-34 and are packed along the Western Strand. They pull in groups and the Oracles cast healing spells. Kill the Oracles first and clear methodically. Do not attempt below level 30 solo.", confidence = "medium" },
-
+    [536] = { threat = "MEDIUM", reason = "Torn Fin tidehunters and oracles occupy the coast in groups. Pull the casters away from the shoreline and avoid fighting multiple murlocs at once.", confidence = "medium" },
     -- Dark Council
-    [537] = { threat = "HIGH", reason = "The Shadow Mages are level 35-38 and are packed in the Alterac Mountains. Nagaz is a named mob surrounded by guards. Clear the area before engaging and be ready for adds. Do not attempt below level 34 solo without a group.", confidence = "high" },
-
+    [537] = { threat = "MEDIUM", reason = "Argus’s shadow mages and Nagaz are fought in hostile territory. Pull casters one at a time and clear around the named target before engaging.", confidence = "low" },
     -- Southshore
-    [538] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
-
+    [538] = { threat = "LOW", reason = "Speak with Loremaster Dibbs in Southshore; this adds no required combat.", confidence = "medium" },
     -- Battle of Hillsbrad (step 5)
-    [539] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "medium" },
-
+    [539] = { threat = "MEDIUM", reason = "Hillsbrad miners and Foreman Bonds occupy a hostile mine. Pull from the entrance and avoid pushing into the mine with enemies behind you.", confidence = "medium" },
     -- Preserving Knowledge
-    [540] = { threat = "MEDIUM", reason = "The tomes drop from Syndicate mobs and the book is found in the Ruins of Alterac. The mobs are levels 30-38 and pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 30 solo.", confidence = "medium" },
-
+    [540] = { threat = "MEDIUM", reason = "The recovered books are in hostile ogre territory. Clear around the items and avoid moving deeper into the ruins while enemies are active behind you.", confidence = "low" },
     -- Battle of Hillsbrad (finale)
-    [541] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "medium" },
-
+    [541] = { threat = "HIGH", reason = "Dun Garok is a defended dwarf stronghold with riflemen, priests, and a named captain. Clear the perimeter in small pulls, interrupt or break line of sight on ranged enemies, and leave before respawns cut off your exit.", confidence = "medium" },
     -- Return to Milton
-    [542] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [542] = { threat = "LOW", reason = "Deliver the tomes to Milton in Stormwind; the city handoff adds no required combat.", confidence = "medium" },
     -- The Perenolde Tiara
-    [543] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
-
+    [543] = { threat = "LOW", reason = "Deliver the tiara to Remington Ridgewell in Stormwind; this step adds no required combat.", confidence = "medium" },
     -- Prison Break In
-    [544] = { threat = "EXTREME", reason = "The camp is filled with elite guards, and the artifacts are on the third floor. A level 35 shaman walked in and was immediately overwhelmed. Stealth classes can sometimes slip through, but any mistake means death. Solo is not recommended. Bring a group or skip entirely.", confidence = "high" },
-
+    [544] = { threat = "HIGH", reason = "The defectors are spread through the internment camp and its buildings, with guards and casters able to join. Clear one section at a time, pause before advancing upstairs, and bring help if the upper floor is beyond your solo limits.", confidence = "medium" },
     -- Dalaran Patrols
-    [545] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [545] = { threat = "MEDIUM", reason = "Dalaran summoners and their elementals occupy hostile ruins. Pull summoners away from groups and keep an escape route in the open ground.", confidence = "medium" },
     -- Souvenirs of Death
-    [546] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [546] = { threat = "MEDIUM", reason = "Hillsbrad humans can surround you while you collect skulls. Farm the outskirts and pull enemies away from groups.", confidence = "medium" },
     -- Humbert's Sword
-    [547] = { threat = "MEDIUM", reason = "The target is level 22 and is surrounded by guards. Clear the area before engaging.", confidence = "medium" },
-
+    [547] = { threat = "MEDIUM", reason = "Dun Garok is guarded and the sword is inside its hostile stronghold. Clear the approach and leave before enemies close in behind you.", confidence = "medium" },
     -- WANTED: Syndicate Personnel
-    [549] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [549] = { threat = "MEDIUM", reason = "Syndicate rogues and watchmen occupy hostile foothill camps. Pull from the edges and watch for nearby defenders.", confidence = "medium" },
     -- Battle of Hillsbrad (step 6)
-    [550] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "medium" },
-
+    [550] = { threat = "LOW", reason = "Deliver the sealed commendation to Varimathras in the Undercity; this adds no required combat.", confidence = "medium" },
     -- The Ensorcelled Parchment
-    [551] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [551] = { threat = "LOW", reason = "Deliver the parchment to Loremaster Dibbs in Southshore; this adds no required combat.", confidence = "medium" },
     -- Helcular's Revenge (step 1 - retrieve rod)
-    [552] = { threat = "MEDIUM", reason = "Cave combat against level 30-32 yetis. The yetis hit hard and can pull in groups. Clear methodically and keep an escape route. The real danger is the follow-up step.", confidence = "high" },
-
+    [552] = { threat = "MEDIUM", reason = "The yeti holding Helcular’s Rod is in hostile mountain territory. Clear the nearby area before engaging and retreat if other creatures join.", confidence = "low" },
     -- Helcular's Revenge (step 2 - charge rod & plant at grave)
-    [553] = { threat = "EXTREME", reason = "The town is patrolled by level 40+ Alliance guards who aggro from extreme range and one-shot low-level players. Even stealthed rogues and level 60 characters die here. Invisibility potions are unreliable. Skip this quest entirely on Hardcore.", confidence = "high" },
-
+    [553] = { threat = "HIGH", reason = "The route crosses hostile mountain caves and ends at Helcular’s grave in heavily guarded Southshore. Approach the cemetery from a cleared route, use the rod, and leave immediately instead of fighting through town.", confidence = "medium" },
     -- Stormpike's Deciphering
-    [554] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [554] = { threat = "LOW", reason = "Take the parchment to Prospector Stormpike in Ironforge; the handoff adds no required combat.", confidence = "medium" },
     -- Soothing Turtle Bisque
-    [555] = { threat = "LOW", reason = "The turtle meat drops from turtles along the coast. The turtles are levels 30-34 and are neutral. The drop rate is moderate. Manageable solo for a level 30+ character.", confidence = "high" },
-
+    [555] = { threat = "MEDIUM", reason = "Turtle meat is gathered along the coast, where hostile wildlife can add during combat. Pull crocolisks away from other enemies and avoid fighting in the water.", confidence = "medium" },
     -- Stone Tokens
-    [556] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [556] = { threat = "MEDIUM", reason = "Dalaran enemies drop the worn tokens in hostile ruins. Pull one group at a time and watch for casters or nearby guards.", confidence = "low" },
     -- Bracers of Binding
-    [557] = { threat = "MEDIUM", reason = "The mobs are levels 20-24 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [557] = { threat = "MEDIUM", reason = "The bracers come from hostile elementals. Keep pulls separated and avoid fighting near additional elemental groups.", confidence = "low" },
     -- Jaina's Autograph
-    [558] = { threat = "MEDIUM", reason = "The journey to Theramore passes through Dustwallow Marsh, which is patrolled by level 35-40 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 35 solo.", confidence = "medium" },
-
+    [558] = { threat = "LOW", reason = "Travel to Theramore and ask Jaina for the autograph; the conversation itself adds no required combat.", confidence = "medium" },
     -- Farren's Proof (Collect)
-    [559] = { threat = "MEDIUM", reason = "The murlocs are levels 30-34 and are packed along the coast. They pull in groups and can chain-pull. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 30 solo.", confidence = "medium" },
-
+    [559] = { threat = "MEDIUM", reason = "The western strand murlocs can add from nearby groups while you collect heads. Pull them away from the water and keep a route to shore.", confidence = "medium" },
     -- Farren's Proof (Deliver)
-    [560] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
-
+    [560] = { threat = "LOW", reason = "Deliver the sack of heads to Marshal Redpath in Southshore; this adds no required combat.", confidence = "medium" },
     -- Farren's Proof (Return)
-    [561] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
-
+    [561] = { threat = "LOW", reason = "Speak with Lieutenant Farren in Southshore; this adds no required combat.", confidence = "medium" },
     -- Stormwind Ho! (Stranglethorn Vale)
-    [562] = { threat = "MEDIUM", reason = "The route passes near the Wild Shore, which is populated by level 42-44 pirates. Standard risk for the zone, but stay on the road.", confidence = "low" },
-
+    [562] = { threat = "MEDIUM", reason = "Daggerspine shorehunters and sirens occupy the coast in groups. Pull the casters away from nearby murlocs and avoid fighting in the water.", confidence = "medium" },
     -- Reassignment (Stranglethorn Vale)
-    [563] = { threat = "LOW", reason = "No combat objective; simply travel to the innkeeper. Safe if you avoid the pirate camps outside town.", confidence = "medium" },
-
+    [563] = { threat = "LOW", reason = "Deliver Farren’s report to Stormwind Keep; the handoff adds no required combat.", confidence = "medium" },
     -- Costly Menace (Stranglethorn Vale)
-    [564] = { threat = "MEDIUM", reason = "The gorillas are levels 35-40 and often stand in small family groups. Pull one at a time and avoid the Venture Co. camps nearby.", confidence = "low" },
-
+    [564] = { threat = "MEDIUM", reason = "Mountain lions roam Hillsbrad and can join fights from nearby terrain. Pull them into open ground and avoid combat near other wildlife.", confidence = "medium" },
     -- Bartolo's Yeti Fur Cloak (Stranglethorn Vale)
-    [565] = { threat = "MEDIUM", reason = "Yetis are level 38-41 and the caves have tight corridors with respawning mobs. Clear methodically and keep an escape route behind you.", confidence = "low" },
-
+    [565] = { threat = "MEDIUM", reason = "Yeti fur is collected in hostile mountain territory. Clear around each yeti before engaging and keep a route away from nearby groups.", confidence = "low" },
     -- WANTED: Baron Vardus
-    [566] = { threat = "MEDIUM", reason = "The target is level 24 and is surrounded by guards. Clear the area before engaging.", confidence = "low" },
-
+    [566] = { threat = "HIGH", reason = "Baron Vardus is in the Syndicate-held Uplands of Alterac, among hostile enemies. Clear the approach and bring help if you cannot manage the named target and nearby camp safely.", confidence = "medium" },
     -- Dangerous!
-    [567] = { threat = "MEDIUM", reason = "The targets are levels 22-24 and are surrounded by guards. Clear the area before engaging.", confidence = "low" },
-
+    [567] = { threat = "MEDIUM", reason = "The four bounty targets are spread through Hillsbrad and can be near hostile farms or camps. Approach each from the edge, pull the target away from nearby enemies, and avoid fighting in town.", confidence = "medium" },
     -- The Defense of Grom'gol (step 1)
-    [568] = { threat = "MEDIUM", reason = "The raptors are levels 32-36 and run in packs. They flee at low health and can chain-pull additional mobs. Kill the runners first and fight in open areas.", confidence = "high" },
-
+    [568] = { threat = "MEDIUM", reason = "Lashtail raptors roam the jungle in hostile groups. Pull them one at a time and watch for nearby beasts while completing the kill count.", confidence = "medium" },
     -- The Defense of Grom'gol (step 2)
-    [569] = { threat = "MEDIUM", reason = "The ogres are levels 34-38 and pull in groups. The Witch Doctors cast shadow spells and heal other ogres. Kill the casters first and clear methodically.", confidence = "high" },
-
+    [569] = { threat = "MEDIUM", reason = "Ogre brutes and witch doctors occupy a hostile camp, where overlapping pulls can escalate quickly. Clear the edges and prioritize ranged casters.", confidence = "medium" },
     -- Mok'thardin's Enchantment (step 1)
-    [570] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [570] = { threat = "MEDIUM", reason = "Shadowmaws and tigers roam hostile jungle areas. Pull from open ground and avoid fighting near other beasts.", confidence = "low" },
     -- Mok'thardin's Enchantment (step 2)
-    [571] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [571] = { threat = "MEDIUM", reason = "The aged gorilla sinew comes from hostile gorillas in the jungle. Pull away from nearby wildlife and keep an escape route.", confidence = "low" },
     -- Mok'thardin's Enchantment (step 3)
-    [572] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [572] = { threat = "MEDIUM", reason = "Jungle stalkers roam in hostile groups. Pull from the edge of their territory and avoid fighting when other beasts are nearby.", confidence = "low" },
     -- Mok'thardin's Enchantment (finale)
-    [573] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [573] = { threat = "MEDIUM", reason = "Naga explorers and other hostile creatures occupy the coast. Pull the naga away from groups and avoid fighting in the water.", confidence = "medium" },
     -- Special Forces
-    [574] = { threat = "MEDIUM", reason = "The mobs are levels 34-35 at the cave entrance and tower, with a level 40 elite deeper in. The cave is tight and mobs pull in groups. Clear methodically from the entrance and watch for patrolling elites. Do not attempt below level 34 solo without a plan to avoid the deeper elites.", confidence = "high" },
-
+    [574] = { threat = "HIGH", reason = "Kurzen’s camp is a dense hostile compound with commandos and headshrinkers. Clear the outer area first, watch for patrols, and do not push into the camp if enemies are active behind you.", confidence = "medium" },
     -- Supply and Demand
-    [575] = { threat = "LOW", reason = "The skins drop from crocolisks along the river in northern Stranglethorn. The crocolisks are levels 30-34 and are neutral until attacked. They hit hard for their level and have a bleed effect. Manageable solo for a level 30+ character.", confidence = "high" },
-
+    [575] = { threat = "MEDIUM", reason = "Large river crocolisks are hostile wildlife along the river. Pull them onto open ground and stay clear of other nearby creatures.", confidence = "medium" },
     -- Keep An Eye Out
-    [576] = { threat = "MEDIUM", reason = "The eye drops from Bloodsail pirates on the ships south of Booty Bay. The pirates are levels 40-44 and are packed densely on the ships. They pull in groups with no room to kite, and the ships have fast respawns. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
-
+    [576] = { threat = "MEDIUM", reason = "The eye is recovered from Bloodsail pirates in their coastal camps. Pull pirates away from groups and keep a clear route back to Booty Bay.", confidence = "medium" },
     -- Some Assembly Required
-    [577] = { threat = "LOW", reason = "The skins drop from Snapjaw crocolisks along the coast of northern Stranglethorn. The crocolisks are levels 32-36 and are neutral until attacked. They hit hard and have a bleed effect. Manageable solo for a level 32+ character.", confidence = "high" },
-
+    [577] = { threat = "MEDIUM", reason = "Snapjaw crocolisks are hostile wildlife along the coast. Pull them onto open ground and stay clear of other nearby creatures.", confidence = "medium" },
     -- The Stone of the Tides
-    [578] = { threat = "MEDIUM", reason = "The island is in the Vile Reef, which is populated by level 35-37 Elite murlocs. The island itself has level 40+ water elementals and a goblin named Gazban who patrols the area. The swim to the island is dangerous, and the mobs are packed. Do not attempt below level 40 solo without water breathing and a plan.", confidence = "medium" },
+    [578] = { threat = "MEDIUM", reason = "The island lies near hostile naga and water elementals. Explore from the edge, avoid the camps, and do not swim into an escape-blocking pull.", confidence = "medium" },
+    -- Stormwind Library
+    [579] = { threat = "LOW", reason = "Find the book in Stormwind Library; the city search adds no required combat.", confidence = "low" },
 
     -- Whiskey Slim's Lost Grog
-    [580] = { threat = "MEDIUM", reason = "The port is stolen by the Bloodsail Buccaneers on their ships south of Booty Bay. The pirates are levels 40-44 and are packed densely on the ships. They pull in groups with no room to kite. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
-
+    [580] = { threat = "MEDIUM", reason = "The lost bottles are scattered through Bloodsail territory along the coast. Watch for pirates while searching and avoid approaching the ships without a clear escape route.", confidence = "low" },
     -- Hunt for Yenniku
-    [581] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [581] = { threat = "MEDIUM", reason = "Bloodscalp trolls occupy hostile camps in the jungle. Pull them from the edges and avoid fighting several trolls at once.", confidence = "medium" },
     -- Headhunting
-    [582] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [582] = { threat = "MEDIUM", reason = "Shrunken heads are collected from hostile trolls in the jungle. Pull from the perimeter and retreat if nearby groups join.", confidence = "medium" },
     -- Welcome to the Jungle
-    [583] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the camp.", confidence = "high" },
-
+    [583] = { threat = "LOW", reason = "Speak with Hemet Nesingwary at the camp; the conversation adds no required combat.", confidence = "medium" },
     -- Bloodscalp Clan Heads
-    [584] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [584] = { threat = "MEDIUM", reason = "The heads are delivered at the cauldron near Grom’gol, but obtaining the named troll heads involves hostile territory. Clear the approach and leave after the interaction.", confidence = "low" },
     -- Speaking with Nezzliok
-    [585] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [585] = { threat = "MEDIUM", reason = "The trophies come from troll ruins in the jungle. Keep pulls separated while collecting them and return to the Grom’gol camp by a cleared route.", confidence = "low" },
     -- Speaking with Gan'zulah
-    [586] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [586] = { threat = "HIGH", reason = "Skullsplitter hunters, headhunters, berserkers, and Ana’thhek are inside hostile troll territory. Clear the perimeter carefully, watch for overlapping pulls, and leave a route out of the camp.", confidence = "medium" },
     -- Up to Snuff
-    [587] = { threat = "MEDIUM", reason = "The snuff drops from Bloodsail pirates on the ships south of Booty Bay. The pirates are levels 40-44 and are packed densely. They pull in groups with no room to kite, and the drop rate is moderate. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
-
+    [587] = { threat = "MEDIUM", reason = "Bloodsail snuff is collected from pirates in their coastal camps. Pull pirates away from groups and keep a clear route to safety.", confidence = "medium" },
     -- The Fate of Yenniku
-    [588] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [588] = { threat = "LOW", reason = "Speak with Kin’weelay at Grom’gol; this handoff adds no required combat.", confidence = "medium" },
     -- The Singing Crystals
-    [589] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [589] = { threat = "MEDIUM", reason = "The pulsing shards are found in hostile jungle territory. Search from the perimeter and avoid fighting into nearby troll or pirate groups.", confidence = "low" },
     -- A Rogue's Deal
-    [590] = { threat = "LOW", reason = "The objectives are straightforward and the mobs are low-level. Standard starting zone risk, manageable solo for any class.", confidence = "high" },
-
+    [590] = { threat = "LOW", reason = "Defeat Calvin Montague in Deathknell; this is an isolated low-level encounter with room to recover.", confidence = "medium" },
     -- The Mind's Eye
-    [591] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [591] = { threat = "MEDIUM", reason = "The Mind’s Eye is inside hostile troll territory. Clear nearby enemies before taking the item and leave by the route you cleared.", confidence = "low" },
     -- Saving Yenniku
-    [592] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [592] = { threat = "LOW", reason = "Bring the filled Soul Gem to Nimboya at Grom’gol; the turn-in adds no required combat.", confidence = "medium" },
     -- Filling the Soul Gem
-    [593] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [593] = { threat = "MEDIUM", reason = "Yenniku is inside the hostile troll camp; clear nearby enemies before using the gem and leave promptly afterward.", confidence = "low" },
     -- Message in a Bottle
-    [594] = { threat = "MEDIUM", reason = "The bottle is found on the coast of Stranglethorn, and the author is on one of the Bloodsail ships. The ships are filled with level 40-44 pirates that pull in groups. Do not attempt below level 42 solo without a plan to escape.", confidence = "medium" },
-
+    [594] = { threat = "MEDIUM", reason = "The message leads into Bloodsail territory along the coast. Search from the shoreline and avoid entering pirate camps without a cleared retreat.", confidence = "low" },
     -- The Bloodsail Buccaneers (Check the Cove)
-    [595] = { threat = "MEDIUM", reason = "The cove is patrolled by level 40-44 Bloodsail pirates. The area is densely packed and the mobs pull in groups. Do not attempt below level 40 solo without a plan to avoid the camps.", confidence = "medium" },
-
+    [595] = { threat = "MEDIUM", reason = "The cove is near Bloodsail territory. Scout its edge and avoid pulling pirates while completing the exploration objective.", confidence = "low" },
     -- Bloody Bone Necklaces
-    [596] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Fight in open areas and retreat if needed.", confidence = "low" },
-
+    [596] = { threat = "MEDIUM", reason = "Bloody Bone Necklaces come from hostile trolls in the jungle. Farm from the edge of their camps and retreat if multiple groups join.", confidence = "medium" },
     -- The Bloodsail Buccaneers (Report Findings)
-    [597] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
-
+    [597] = { threat = "LOW", reason = "Report to First Mate Crazz in Booty Bay; the handoff adds no required combat.", confidence = "medium" },
     -- Split Bone Necklace
-    [598] = { threat = "MEDIUM", reason = "The mobs are levels 35-40 and can pull in groups. Clear the area before engaging.", confidence = "low" },
-
+    [598] = { threat = "MEDIUM", reason = "Split Bone Necklaces come from hostile trolls in the jungle. Pull from the camp edges and avoid fighting several groups at once.", confidence = "medium" },
     -- The Bloodsail Buccaneers (Report Attack)
-    [599] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the town.", confidence = "high" },
-
+    [599] = { threat = "LOW", reason = "Deliver the report to Fleet Master Seahorn in Booty Bay; this handoff adds no required combat.", confidence = "medium" },
     -- Venture Company Mining
-    [600] = { threat = "MEDIUM", reason = "The crystals drop from Venture Co. goblins at the Venture Co. Mine in northern Stranglethorn. The goblins are levels 35-40 and are packed in the mine. They pull in groups and have ranged attackers. Clear methodically and watch for patrolling mobs. Do not attempt below level 35 solo.", confidence = "medium" },
-
+    [600] = { threat = "MEDIUM", reason = "Venture Co. goblins occupy the mine in groups, including ranged attackers. Clear the entrance before moving deeper and keep an exit route behind you.", confidence = "medium" },
     -- Water Elementals
     [601] = { threat = "HIGH", reason = "The bracers drop from water elementals at the Vile Reef and on the haunted island. The elementals are levels 38-42 and are packed in the water. Fighting underwater is dangerous, and drowning is a real risk. Bring water breathing and clear methodically. Do not attempt below level 40 solo.", confidence = "high" },
 
