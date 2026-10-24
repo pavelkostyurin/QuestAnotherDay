@@ -3429,16 +3429,40 @@ local quests = {
     [8322] = { threat = "EXTREME", reason = "PvP quest. The keg is inside Southshore, a hostile Alliance town with guards far above the quest's level. A low-level visitor can be overwhelmed before reaching or leaving the inn; skip this on Hardcore.", confidence = "medium" },
 
     -- Chicken Clucking for a Mint
-    [8354] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8354] = { threat = "LOW", reason = "This Hallow's End errand asks for a chicken emote at the Undercity innkeeper. It adds no combat; stay inside the city.", confidence = "medium" },
 
     -- Incoming Gumdrop
-    [8358] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8358] = { threat = "LOW", reason = "This Hallow's End errand asks for a train emote at the Sen'jin Village innkeeper. It adds no combat; stay in the village.", confidence = "medium" },
 
     -- Flexing for Nougat
-    [8359] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8359] = { threat = "LOW", reason = "This Hallow's End errand asks for a flex emote at the Orgrimmar innkeeper. It adds no combat; stay inside the city.", confidence = "medium" },
 
     -- Dancing for Marzipan
-    [8360] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8360] = { threat = "LOW", reason = "This Hallow's End errand asks for a dance emote at the Thunder Bluff innkeeper. It adds no combat; stay inside the city.", confidence = "medium" },
+
+    -- For Great Honor
+    [8367] = { threat = "LOW", reason = "This is a hand-in of Alterac Valley, Arathi Basin, and Warsong Gulch marks at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8368] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
+
+    -- Invaders of Alterac Valley
+    [8369] = { threat = "LOW", reason = "This is an Alterac Valley mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8370] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
+
+    -- Invaders of Alterac Valley
+    [8387] = { threat = "LOW", reason = "This is an Alterac Valley mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
+
+    -- For Great Honor
+    [8388] = { threat = "LOW", reason = "This is a hand-in of Alterac Valley, Arathi Basin, and Warsong Gulch marks at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
+
+    -- Battle of Warsong Gulch
+    [8389] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8390] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.", confidence = "medium" },
 
     -- Elemental Mastery
     [8410] = { threat = "EXTREME", reason = "Shaman class quest. Requires collecting samples of air, fire, earth, and water. The air sample requires killing a level 40 elite elemental in the Badlands. The other samples are guarded by level 35-40 mobs. The elite requires a group or significant overleveling. Do not attempt the air sample solo below level 45.", confidence = "high" },

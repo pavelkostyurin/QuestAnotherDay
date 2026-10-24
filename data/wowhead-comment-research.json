@@ -84748,6 +84748,1168 @@
       "reason": "Bringing ten Encrypted Twilight Texts requires collecting them from hostile cultists in Silithus. Farm isolated targets and watch for adds or respawns.",
       "threat": "MEDIUM",
       "confidence": "medium"
+    },
+    {
+      "questId": 8324,
+      "questName": "Still Believing",
+      "url": "https://www.wowhead.com/classic/quest=8324",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 8 comments; order and completeness were not established.",
+      "commentsReviewed": 8,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8324/still-believing#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Still Believing - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8324/still-believing",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The Classic page shows a repeatable ten-text hand-in at Hermit Ortell; comments identify the texts as drops from Twilight Hammer mobs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. Ten Encrypted Twilight Texts require repeated fights with Twilight cultists in Silithus. Pull isolated targets and avoid pushing into a crowded camp.",
+      "reason": "Ten Encrypted Twilight Texts require repeated fights with Twilight cultists in Silithus. Pull isolated targets and avoid pushing into a crowded camp.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8331,
+      "questName": "Aurel Goldleaf",
+      "url": "https://www.wowhead.com/classic/quest=8331",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 4 comments; order and completeness were not established.",
+      "commentsReviewed": 4,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8331/aurel-goldleaf#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Aurel Goldleaf - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8331/aurel-goldleaf",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The quest is a conversation at Cenarion Hold; comments mention Cenarion Circle reputation prerequisite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. This is a conversation at Cenarion Hold with no combat objective. Use the normal route through Silithus and avoid nearby hostile camps.",
+      "reason": "This is a conversation at Cenarion Hold with no combat objective. Use the normal route through Silithus and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8332,
+      "questName": "Dukes of the Council",
+      "url": "https://www.wowhead.com/classic/quest=8332",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 8 comments; order and completeness were not established.",
+      "commentsReviewed": 8,
+      "commentsUsed": 5,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8332/dukes-of-the-council#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Dukes of the Council - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8332/dukes-of-the-council",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The task requires three Abyssal Crests; comments describe cultist gear at lesser wind stones and level-60 elite Templar fights."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. Three Abyssal Crests require summoning and defeating Abyssal Templars at lesser wind stones. The fights can be soloed by experienced characters but are risky and consume cultist gear; bring help or prepare carefully.",
+      "reason": "Three Abyssal Crests require summoning and defeating Abyssal Templars at lesser wind stones. The fights can be soloed by experienced characters but are risky and consume cultist gear; bring help or prepare carefully.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8333,
+      "questName": "Medallion of Station",
+      "url": "https://www.wowhead.com/classic/quest=8333",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Medallion of Station - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8333/medallion-of-station",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The repeatable quest requires another Large Brilliant Shard and three Abyssal Crests."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. This repeatable medallion hand-in requires three Abyssal Crests from Templars and a Large Brilliant Shard. Each crest requires a dangerous summon fight; use help or a proven solo approach.",
+      "reason": "This repeatable medallion hand-in requires three Abyssal Crests from Templars and a Large Brilliant Shard. Each crest requires a dangerous summon fight; use help or a proven solo approach.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8341,
+      "questName": "Lords of the Council",
+      "url": "https://www.wowhead.com/classic/quest=8341",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Lords of the Council - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8341/lords-of-the-council",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The quest requires three Abyssal Signets; these are dropped by summoned Dukes."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. Three Abyssal Signets come from Abyssal Dukes summoned at wind stones. Era guides recommend a group of about five; do not attempt these elite fights solo.",
+      "reason": "Three Abyssal Signets come from Abyssal Dukes summoned at wind stones. Era guides recommend a group of about five; do not attempt these elite fights solo.",
+      "threat": "EXTREME",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8342,
+      "questName": "Twilight Ring of Lordship",
+      "url": "https://www.wowhead.com/classic/quest=8342",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Twilight Ring of Lordship - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8342/twilight-ring-of-lordship",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The repeatable ring hand-in requires three Abyssal Signets and five Large Brilliant Shards."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. This repeatable ring hand-in requires three Abyssal Signets from Dukes and five Large Brilliant Shards. Duke summons are group encounters; bring a suitable group.",
+      "reason": "This repeatable ring hand-in requires three Abyssal Signets from Dukes and five Large Brilliant Shards. Duke summons are group encounters; bring a suitable group.",
+      "threat": "EXTREME",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8343,
+      "questName": "Goldleaf's Discovery",
+      "url": "https://www.wowhead.com/classic/quest=8343",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a conversation at Cenarion Hold with no combat objective. Use the normal route through Silithus.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8348,
+      "questName": "Signet of the Dukes",
+      "url": "https://www.wowhead.com/classic/quest=8348",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a signet hand-in at Cenarion Hold with no added combat objective. Use the normal route to Bor Wildmane.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8349,
+      "questName": "Bor Wildmane",
+      "url": "https://www.wowhead.com/classic/quest=8349",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a conversation at Cenarion Hold with no combat objective. Use the normal route through Silithus.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8351,
+      "questName": "Bor Wishes to Speak",
+      "url": "https://www.wowhead.com/classic/quest=8351",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8352,
+      "questName": "Scepter of the Council",
+      "url": "https://www.wowhead.com/classic/quest=8352",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8353,
+      "questName": "Chicken Clucking for a Mint",
+      "url": "https://www.wowhead.com/classic/quest=8353",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This Hallow's End errand asks for a chicken emote at the Ironforge innkeeper. It adds no combat; stay inside the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8354,
+      "questName": "Chicken Clucking for a Mint",
+      "url": "https://www.wowhead.com/classic/quest=8354",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This Hallow's End errand asks for a chicken emote at the Undercity innkeeper. It adds no combat; stay inside the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8355,
+      "questName": "Incoming Gumdrop",
+      "url": "https://www.wowhead.com/classic/quest=8355",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This Hallow's End errand asks for a train emote at Talvash in Ironforge. It adds no combat; stay inside the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8356,
+      "questName": "Flexing for Nougat",
+      "url": "https://www.wowhead.com/classic/quest=8356",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This Hallow's End errand asks for a flex emote at the Stormwind innkeeper. It adds no combat; stay inside the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8357,
+      "questName": "Dancing for Marzipan",
+      "url": "https://www.wowhead.com/classic/quest=8357",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This Hallow's End errand asks for a dance emote at the Darnassus innkeeper. It adds no combat; stay inside the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8358,
+      "questName": "Incoming Gumdrop",
+      "url": "https://www.wowhead.com/classic/quest=8358",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This Hallow's End errand asks for a train emote at the Sen'jin Village innkeeper. It adds no combat; stay in the village.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8359,
+      "questName": "Flexing for Nougat",
+      "url": "https://www.wowhead.com/classic/quest=8359",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This Hallow's End errand asks for a flex emote at the Orgrimmar innkeeper. It adds no combat; stay inside the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8360,
+      "questName": "Dancing for Marzipan",
+      "url": "https://www.wowhead.com/classic/quest=8360",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This Hallow's End errand asks for a dance emote at the Thunder Bluff innkeeper. It adds no combat; stay inside the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8361,
+      "questName": "Abyssal Contacts",
+      "url": "https://www.wowhead.com/classic/quest=8361",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 12 comments; order and completeness were not established.",
+      "commentsReviewed": 12,
+      "commentsUsed": 5,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8361/abyssal-contacts#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Abyssal Contacts - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8361/abyssal-contacts",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "Comments describe lesser wind stone summons, elemental magic, loss of cultist gear, and solo kills by experienced characters; evidence includes conflicting solo/group recommendations."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. Abyssal Templars are elite elemental summons at lesser wind stones. Era reports say an experienced level-60 character can solo some types, but they use magic damage and the summon can strip cultist gear; bring help or prepare for the specific elemental.",
+      "reason": "Abyssal Templars are elite elemental summons at lesser wind stones. Era reports say an experienced level-60 character can solo some types, but they use magic damage and the summon can strip cultist gear; bring help or prepare for the specific elemental.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8362,
+      "questName": "Abyssal Crests",
+      "url": "https://www.wowhead.com/classic/quest=8362",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 5 comments; order and completeness were not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8362/abyssal-crests#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Abyssal Crests - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8362/abyssal-crests",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The repeatable quest requires three Abyssal Crests from Templars."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. This repeatable quest requires three Abyssal Templar kills. The elites can be soloed by experienced characters, but elemental spells, gear loss, and repeated summons make the grind dangerous; a partner is safer.",
+      "reason": "This repeatable quest requires three Abyssal Templar kills. The elites can be soloed by experienced characters, but elemental spells, gear loss, and repeated summons make the grind dangerous; a partner is safer.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8363,
+      "questName": "Abyssal Signets",
+      "url": "https://www.wowhead.com/classic/quest=8363",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 5 comments; order and completeness were not established.",
+      "commentsReviewed": 5,
+      "commentsUsed": 3,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8363/abyssal-signets#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Abyssal Signets - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8363/abyssal-signets",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The repeatable quest requires three signets from Dukes; comments describe the Wind Stone hierarchy."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. Three Abyssal Signets require defeating Dukes summoned at wind stones. Era guidance recommends a group of about five; do not attempt these elite encounters solo.",
+      "reason": "Three Abyssal Signets require defeating Dukes summoned at wind stones. Era guidance recommends a group of about five; do not attempt these elite encounters solo.",
+      "threat": "EXTREME",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8364,
+      "questName": "Abyssal Scepters",
+      "url": "https://www.wowhead.com/classic/quest=8364",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8365,
+      "questName": "Pirate Hats Ahoy!",
+      "url": "https://www.wowhead.com/classic/quest=8365",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Pirate Hats Ahoy! - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8365/pirate-hats-ahoy",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "Era guide describes Lost Rigger Cove, crowded pirate placement, ranged attacks, Disarm, and an approximately 40% hat drop rate."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. Collecting 20 pirate hats requires repeated fights at Lost Rigger Cove, where pirates are densely placed and some use ranged shots or Disarm. Pull from the outskirts and keep an escape route.",
+      "reason": "Collecting 20 pirate hats requires repeated fights at Lost Rigger Cove, where pirates are densely placed and some use ranged shots or Disarm. Pull from the outskirts and keep an escape route.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8366,
+      "questName": "Southsea Shakedown",
+      "url": "https://www.wowhead.com/classic/quest=8366",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 7 comments; order and completeness were not established.",
+      "commentsReviewed": 7,
+      "commentsUsed": 5,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8366/southsea-shakedown#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Southsea Shakedown - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8366/southsea-shakedown",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "Comments describe tightly packed enemies, fast respawns, chain pulls, and Disarm; other comments report solo completions around levels 42–47."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. Lost Rigger Cove has tightly packed pirates and fast respawns; Swashbucklers can Disarm and nearby enemies can chain into a pull. Clear from the edges and retreat before respawns close in.",
+      "reason": "Lost Rigger Cove has tightly packed pirates and fast respawns; Swashbucklers can Disarm and nearby enemies can chain into a pull. Clear from the edges and retreat before respawns close in.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8367,
+      "questName": "For Great Honor",
+      "url": "https://www.wowhead.com/classic/quest=8367",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a hand-in of Alterac Valley, Arathi Basin, and Warsong Gulch marks at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8368,
+      "questName": "Battle of Warsong Gulch",
+      "url": "https://www.wowhead.com/classic/quest=8368",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a Warsong Gulch mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8369,
+      "questName": "Invaders of Alterac Valley",
+      "url": "https://www.wowhead.com/classic/quest=8369",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Alterac Valley mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8370,
+      "questName": "Conquering Arathi Basin",
+      "url": "https://www.wowhead.com/classic/quest=8370",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Arathi Basin mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8371,
+      "questName": "Concerted Efforts",
+      "url": "https://www.wowhead.com/classic/quest=8371",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a hand-in of Alterac Valley, Arathi Basin, and Warsong Gulch marks at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8372,
+      "questName": "Fight for Warsong Gulch",
+      "url": "https://www.wowhead.com/classic/quest=8372",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a Warsong Gulch mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8373,
+      "questName": "The Power of Pine",
+      "url": "https://www.wowhead.com/classic/quest=8373",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a relevant sample of 7 comments; order and completeness were not established.",
+      "commentsReviewed": 7,
+      "commentsUsed": 4,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=8373/the-power-of-pine#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "The Power of Pine - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8373/the-power-of-pine",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T22:18:00+03:00",
+          "evidence": "The objective is to clean a Horde stink bomb from Southshore; comments describe limited bomb availability, Horde player participation, competition, and hostile PvP around attempts."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era sources confirm the objective and relevant danger; player comments or guides are anecdotal, so confidence is medium. PvP quest. Cleaning a bomb requires waiting for Horde participation in Southshore, where the event draws enemy players and competition for a single interaction. Stay near friendly guards, avoid engaging players, and wait until the area is clear.",
+      "reason": "PvP quest. Cleaning a bomb requires waiting for Horde participation in Southshore, where the event draws enemy players and competition for a single interaction. Stay near friendly guards, avoid engaging players, and wait until the area is clear.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8374,
+      "questName": "Claiming Arathi Basin",
+      "url": "https://www.wowhead.com/classic/quest=8374",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Arathi Basin mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8375,
+      "questName": "Remember Alterac Valley!",
+      "url": "https://www.wowhead.com/classic/quest=8375",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Alterac Valley mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8376,
+      "questName": "Armaments of War",
+      "url": "https://www.wowhead.com/classic/quest=8376",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8377,
+      "questName": "Armaments of War",
+      "url": "https://www.wowhead.com/classic/quest=8377",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8378,
+      "questName": "Armaments of War",
+      "url": "https://www.wowhead.com/classic/quest=8378",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8379,
+      "questName": "Armaments of War",
+      "url": "https://www.wowhead.com/classic/quest=8379",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8380,
+      "questName": "Armaments of War",
+      "url": "https://www.wowhead.com/classic/quest=8380",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8381,
+      "questName": "Armaments of War",
+      "url": "https://www.wowhead.com/classic/quest=8381",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8382,
+      "questName": "Armaments of War",
+      "url": "https://www.wowhead.com/classic/quest=8382",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T22:18:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8383,
+      "questName": "Remember Alterac Valley!",
+      "url": "https://www.wowhead.com/classic/quest=8383",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Alterac Valley mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8384,
+      "questName": "Claiming Arathi Basin",
+      "url": "https://www.wowhead.com/classic/quest=8384",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Arathi Basin mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8385,
+      "questName": "Concerted Efforts",
+      "url": "https://www.wowhead.com/classic/quest=8385",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a hand-in of Alterac Valley, Arathi Basin, and Warsong Gulch marks at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8386,
+      "questName": "Fight for Warsong Gulch",
+      "url": "https://www.wowhead.com/classic/quest=8386",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a Warsong Gulch mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8387,
+      "questName": "Invaders of Alterac Valley",
+      "url": "https://www.wowhead.com/classic/quest=8387",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Alterac Valley mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8388,
+      "questName": "For Great Honor",
+      "url": "https://www.wowhead.com/classic/quest=8388",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a hand-in of Alterac Valley, Arathi Basin, and Warsong Gulch marks at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8389,
+      "questName": "Battle of Warsong Gulch",
+      "url": "https://www.wowhead.com/classic/quest=8389",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is a Warsong Gulch mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8390,
+      "questName": "Conquering Arathi Basin",
+      "url": "https://www.wowhead.com/classic/quest=8390",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Arathi Basin mark hand-in at a Horde city NPC. It adds no combat; use the normal route to the Warbringer.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8391,
+      "questName": "Claiming Arathi Basin",
+      "url": "https://www.wowhead.com/classic/quest=8391",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T22:18:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "No comments were needed for this assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Assessed from the catalog objective and zone context. Confidence is medium; no unsupported exact level or drop claims are asserted.",
+      "reason": "This is an Arathi Basin mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.",
+      "threat": "LOW",
+      "confidence": "medium"
     }
   ]
 }

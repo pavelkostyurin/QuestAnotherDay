@@ -4020,16 +4020,46 @@ local quests = {
     [8311] = { threat = "LOW", reason = "This Hallow's End city circuit uses dialogue and requested emotes at Alliance innkeepers. It adds no combat objective; stay within the cities and use familiar routes.", confidence = "medium" },
 
     -- Chicken Clucking for a Mint
-    [8353] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8353] = { threat = "LOW", reason = "This Hallow's End errand asks for a chicken emote at the Ironforge innkeeper. It adds no combat; stay inside the city.", confidence = "medium" },
 
     -- Incoming Gumdrop
-    [8355] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8355] = { threat = "LOW", reason = "This Hallow's End errand asks for a train emote at Talvash in Ironforge. It adds no combat; stay inside the city.", confidence = "medium" },
 
     -- Flexing for Nougat
-    [8356] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8356] = { threat = "LOW", reason = "This Hallow's End errand asks for a flex emote at the Stormwind innkeeper. It adds no combat; stay inside the city.", confidence = "medium" },
 
     -- Dancing for Marzipan
-    [8357] = { threat = "LOW", reason = "Hallow's End holiday emote quest with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8357] = { threat = "LOW", reason = "This Hallow's End errand asks for a dance emote at the Darnassus innkeeper. It adds no combat; stay inside the city.", confidence = "medium" },
+
+    -- Concerted Efforts
+    [8371] = { threat = "LOW", reason = "This is a hand-in of Alterac Valley, Arathi Basin, and Warsong Gulch marks at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8372] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
+
+    -- The Power of Pine
+    [8373] = { threat = "MEDIUM", reason = "PvP quest. Cleaning a bomb requires waiting for Horde participation in Southshore, where the event draws enemy players and competition for a single interaction. Stay near friendly guards, avoid engaging players, and wait until the area is clear.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8374] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
+
+    -- Remember Alterac Valley!
+    [8375] = { threat = "LOW", reason = "This is an Alterac Valley mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
+
+    -- Remember Alterac Valley!
+    [8383] = { threat = "LOW", reason = "This is an Alterac Valley mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8384] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
+
+    -- Concerted Efforts
+    [8385] = { threat = "LOW", reason = "This is a hand-in of Alterac Valley, Arathi Basin, and Warsong Gulch marks at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
+
+    -- Fight for Warsong Gulch
+    [8386] = { threat = "LOW", reason = "This is a Warsong Gulch mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
+
+    -- Claiming Arathi Basin
+    [8391] = { threat = "LOW", reason = "This is an Arathi Basin mark hand-in at an Alliance city NPC. It adds no combat; use the normal route to the Brigadier General.", confidence = "medium" },
 
     -- Dispelling Evil
     [8414] = { threat = "MEDIUM", reason = "Minion's Scourgestones drop from Scourge mobs in the Western Plaguelands, levels 53-57. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },

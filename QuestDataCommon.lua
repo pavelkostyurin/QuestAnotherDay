@@ -2534,23 +2534,32 @@ addon.quests = {
     -- True Believers
     [8323] = { threat = "MEDIUM", reason = "Bringing ten Encrypted Twilight Texts requires collecting them from hostile cultists in Silithus. Farm isolated targets and watch for adds or respawns.", confidence = "medium" },
 
+    -- Still Believing
+    [8324] = { threat = "MEDIUM", reason = "Ten Encrypted Twilight Texts require repeated fights with Twilight cultists in Silithus. Pull isolated targets and avoid pushing into a crowded camp.", confidence = "medium" },
+
     -- Aurel Goldleaf
-    [8331] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [8331] = { threat = "LOW", reason = "This is a conversation at Cenarion Hold with no combat objective. Use the normal route through Silithus and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Dukes of the Council
-    [8332] = { threat = "LOW", reason = "Collection and delivery step with no combat beyond gathering the shard and crests. The crests drop from Abyssal Templars, which are elite summons. However, the turn-in itself is safe. Do not attempt the Templars solo without a group.", confidence = "high" },
+    [8332] = { threat = "HIGH", reason = "Three Abyssal Crests require summoning and defeating Abyssal Templars at lesser wind stones. The fights can be soloed by experienced characters but are risky and consume cultist gear; bring help or prepare carefully.", confidence = "medium" },
+
+    -- Medallion of Station
+    [8333] = { threat = "HIGH", reason = "This repeatable medallion hand-in requires three Abyssal Crests from Templars and a Large Brilliant Shard. Each crest requires a dangerous summon fight; use help or a proven solo approach.", confidence = "medium" },
 
     -- Lords of the Council
-    [8341] = { threat = "LOW", reason = "Collection and delivery step with no combat beyond gathering the shards and signets. The signets drop from Abyssal Lords, which are elite summons. The turn-in itself is safe. Do not attempt the Lords solo without a group.", confidence = "high" },
+    [8341] = { threat = "EXTREME", reason = "Three Abyssal Signets come from Abyssal Dukes summoned at wind stones. Era guides recommend a group of about five; do not attempt these elite fights solo.", confidence = "medium" },
+
+    -- Twilight Ring of Lordship
+    [8342] = { threat = "EXTREME", reason = "This repeatable ring hand-in requires three Abyssal Signets from Dukes and five Large Brilliant Shards. Duke summons are group encounters; bring a suitable group.", confidence = "medium" },
 
     -- Goldleaf's Discovery
-    [8343] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [8343] = { threat = "LOW", reason = "This is a conversation at Cenarion Hold with no combat objective. Use the normal route through Silithus.", confidence = "medium" },
 
     -- Signet of the Dukes
-    [8348] = { threat = "LOW", reason = "Delivery step with no combat. The signet is obtained from an Abyssal Duke summon. Safe if you stay in the area.", confidence = "high" },
+    [8348] = { threat = "LOW", reason = "This is a signet hand-in at Cenarion Hold with no added combat objective. Use the normal route to Bor Wildmane.", confidence = "medium" },
 
     -- Bor Wildmane
-    [8349] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [8349] = { threat = "LOW", reason = "This is a conversation at Cenarion Hold with no combat objective. Use the normal route through Silithus.", confidence = "medium" },
 
     -- Bor Wishes to Speak
     [8351] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
@@ -2559,13 +2568,19 @@ addon.quests = {
     [8352] = { threat = "LOW", reason = "Delivery step with no combat. The scepter is obtained from an Abyssal Scepter summon. Safe if you stay in the area.", confidence = "high" },
 
     -- Abyssal Contacts
-    [8361] = { threat = "HIGH", reason = "Requires destroying an Abyssal Templar and bringing its crest to Bor Wildmane. Abyssal Templars are elite summons that require a group to defeat. Do not attempt solo.", confidence = "high" },
+    [8361] = { threat = "HIGH", reason = "Abyssal Templars are elite elemental summons at lesser wind stones. Era reports say an experienced level-60 character can solo some types, but they use magic damage and the summon can strip cultist gear; bring help or prepare for the specific elemental.", confidence = "medium" },
+
+    -- Abyssal Crests
+    [8362] = { threat = "HIGH", reason = "This repeatable quest requires three Abyssal Templar kills. The elites can be soloed by experienced characters, but elemental spells, gear loss, and repeated summons make the grind dangerous; a partner is safer.", confidence = "medium" },
+
+    -- Abyssal Signets
+    [8363] = { threat = "EXTREME", reason = "Three Abyssal Signets require defeating Dukes summoned at wind stones. Era guidance recommends a group of about five; do not attempt these elite encounters solo.", confidence = "medium" },
 
     -- Pirate Hats Ahoy!
-    [8365] = { threat = "MEDIUM", reason = "Southsea Pirate Hats drop from pirates in Tanaris, levels 43-47. The pirates pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
+    [8365] = { threat = "MEDIUM", reason = "Collecting 20 pirate hats requires repeated fights at Lost Rigger Cove, where pirates are densely placed and some use ranged shots or Disarm. Pull from the outskirts and keep an escape route.", confidence = "medium" },
 
     -- Southsea Shakedown
-    [8366] = { threat = "MEDIUM", reason = "Southsea pirates are levels 43-47 in the pirate camp south of Steamwheedle Port. They pull in groups and the Swashbucklers hit harder. The drop rate for the required kills is 100%. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "high" },
+    [8366] = { threat = "MEDIUM", reason = "Lost Rigger Cove has tightly packed pirates and fast respawns; Swashbucklers can Disarm and nearby enemies can chain into a pull. Clear from the edges and retreat before respawns close in.", confidence = "medium" },
 
     -- A Troubled Spirit
     [8417] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
