@@ -4269,25 +4269,25 @@ local quests = {
     [8711] = { threat = "EXTREME", reason = "Requires a Qiraji Spiked Hilt from Ahn'Qiraj. A full raid group is required for the hilt. Do not attempt solo. Requires Exalted reputation with Cenarion Circle.", confidence = "high" },
 
     -- Metzen the Reindeer
-    [8762] = { threat = "MEDIUM", reason = "Winter Veil holiday quest. Requires finding Metzen in the Alterac Mountains and freeing him. The area is patrolled by level 30-40 mobs, and the kidnappers are level 40 elites. Do not attempt below level 40 solo without a group.", confidence = "high" },
+    [8762] = { threat = "MEDIUM", reason = "The reindeer is held in a hostile camp in Searing Gorge or Tanaris, with several kidnappers close enough to join a pull. Clear an approach or bring help before using the dust.", confidence = "medium" },
 
     -- The Hero of the Day
-    [8763] = { threat = "LOW", reason = "Winter Veil holiday turn-in with no combat. Requires 1 Deeprock Salt and 5 gold. Safe if you stay in the city.", confidence = "high" },
+    [8763] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
 
     -- The Ironforge Brigade Needs Explosives!
-    [8778] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 6 Oils of Immolation, 5 Goblin Rocket Fuel, and 10 Dense Blasting Powder. Safe if you stay in the area.", confidence = "high" },
+    [8778] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Scrying Materials
-    [8779] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 1 Large Brilliant Shard, 1 Large Radiant Shard, and 1 Huge Emerald. Safe if you stay in the city.", confidence = "high" },
+    [8779] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Armor Kits for the Field
-    [8780] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 8 Rugged Armor Kits and 8 Heavy Armor Kits. Safe if you stay in the area.", confidence = "high" },
+    [8780] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Arms for the Field
-    [8781] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 2 Moonsteel Broadswords. Safe if you stay in the area.", confidence = "high" },
+    [8781] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Uniform Supplies
-    [8782] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 1 Mooncloth, 2 Bolts of Runecloth, and 1 Ironweb Spider Silk. Safe if you stay in the city.", confidence = "high" },
+    [8782] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Extraordinary Materials
     [8783] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 2 Enchanted Thorium Bars and 2 Enchanted Leather. Safe if you stay in the city.", confidence = "high" },

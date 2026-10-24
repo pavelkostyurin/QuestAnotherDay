@@ -3666,7 +3666,7 @@ local quests = {
     [8732] = { threat = "LOW", reason = "This is a materials hand-in at Narain Soothfancy with no combat objective in this quest step. Use the normal route to the Tanaris recipient.", confidence = "medium" },
 
     -- Metzen the Reindeer
-    [8746] = { threat = "MEDIUM", reason = "Winter Veil holiday quest. Requires finding Metzen in the Alterac Mountains and freeing him. The area is patrolled by level 30-40 mobs, and the kidnappers are level 40 elites. Do not attempt below level 40 solo without a group.", confidence = "high" },
+    [8746] = { threat = "MEDIUM", reason = "The reindeer is held in a hostile camp in Searing Gorge or Tanaris, with several kidnappers close enough to join a pull. Clear an approach or bring help before using the dust.", confidence = "medium" },
 
     -- The Orgrimmar Legion Needs Mojo!
     [8785] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 6 Powerful Mojo, 6 Flasks of Big Mojo, and 8 Oils of Immolation. Safe if you stay in the area.", confidence = "high" },

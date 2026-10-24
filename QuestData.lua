@@ -10142,10 +10142,10 @@ addon.quests = {
 
     -- Eranikus, Tyrant of the Dream
     [8732] = { threat = "LOW", reason = "This is a materials hand-in at Narain Soothfancy with no combat objective in this quest step. Use the normal route to the Tanaris recipient.", confidence = "medium" },
-    [8733] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Malfurion's agent is outside Darnassus. Safe if you stay on the road.", confidence = "high" },
+    [8733] = { threat = "LOW", reason = "The agent is outside Darnassus and the step adds no combat. Follow the road and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Tyrande and Remulos
-    [8734] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in Moonglade.", confidence = "high" },
+    [8734] = { threat = "LOW", reason = "This is a conversation with Keeper Remulos in Moonglade and adds no combat. Use the normal route to Nighthaven.", confidence = "medium" },
 
     -- The Nightmare's Corruption
     [8735] = { threat = "HIGH", reason = "Requires traveling to the four Emerald Dream portals in Azeroth (Duskwood, Feralas, Ashenvale, Hinterlands) and collecting a Fragment of Corruption from each. The portals are guarded by level 55-60 mobs, including elites. A group or significant overleveling is required. Do not attempt solo below level 58.", confidence = "high" },
@@ -10154,67 +10154,92 @@ addon.quests = {
     [8736] = { threat = "EXTREME", reason = "Elite defense event. Requires defending Nighthaven from Eranikus while keeping Keeper Remulos alive and NOT slaying Eranikus. The event spawns waves of elite dragons and requires precise crowd control. A full raid group is required. Do not attempt solo.", confidence = "high" },
 
     -- Azure Templar
-    [8737] = { threat = "EXTREME", reason = "Requires summoning and slaying an Azure Templar, a level 62 elite Abyssal Templar. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8737] = { threat = "HIGH", reason = "Elite quest. The Azure Templar is a level-62 summoned elite, so the fight is dangerous at the level-60 quest tier. Bring a partner or use a well-geared class and a prepared solo strategy.", confidence = "medium" },
 
     -- Hive'Regal Scout Report
-    [8738] = { threat = "EXTREME", reason = "Requires entering Hive'Regal to contact Cenarion Scout Landion. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8738] = { threat = "HIGH", reason = "The scout is inside a hostile silithid hive, but reaching the NPC and returning the report does not require killing the hive. Use a stealth or planned run with an escape route; bring help if you cannot avoid packs.", confidence = "medium" },
 
     -- Hive'Ashi Scout Report
-    [8739] = { threat = "EXTREME", reason = "Requires entering Hive'Ashi to contact Cenarion Scout Jalia. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8739] = { threat = "HIGH", reason = "The scout is inside a hostile silithid hive, but reaching the NPC and returning the report does not require killing the hive. Use a stealth or planned run with an escape route; bring help if you cannot avoid packs.", confidence = "medium" },
 
     -- Twilight Marauders
-    [8740] = { threat = "EXTREME", reason = "Requires slaying Twilight Marauder Morna and 5 Twilight Marauders. These are level 60-62 elites in Silithus. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8740] = { threat = "HIGH", reason = "Elite quest. Morna and the Twilight Marauders attack as a group and can overwhelm the nearby patrol. Join the patrol when it engages them, or bring a group; class-specific control and burst can make solo attempts possible.", confidence = "medium" },
 
     -- The Champion Returns
-    [8741] = { threat = "LOW", reason = "Delivery step with no combat. The Green Scepter Shard is obtained from a raid boss. Safe if you stay in the area.", confidence = "high" },
+    [8741] = { threat = "LOW", reason = "This is a shard delivery or dialogue step with Anachronos and adds no combat after the shard prerequisites are complete. Use the normal route through Tanaris.", confidence = "medium" },
 
     -- Metzen the Reindeer (Horde)
-    [8746] = { threat = "MEDIUM", reason = "Winter Veil holiday quest. Requires finding Metzen in the Alterac Mountains and freeing him. The area is patrolled by level 30-40 mobs, and the kidnappers are level 40 elites. Do not attempt below level 40 solo without a group.", confidence = "high" },
+    [8742] = { threat = "LOW", reason = "This is a shard delivery or dialogue step with Anachronos and adds no combat after the shard prerequisites are complete. Use the normal route through Tanaris.", confidence = "medium" },
+    [8743] = { threat = "LOW", reason = "This is the gong interaction at the Ahn’Qiraj gates after the scepter chain; it adds no combat objective. Follow the event instructions and do not linger among unrelated hostile spawns.", confidence = "medium" },
+    [8744] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
+    [8745] = { threat = "LOW", reason = "This is a reward selection with Jonathan at the gong in Silithus and adds no combat. Use the normal route to the NPC.", confidence = "medium" },
+    [8746] = { threat = "MEDIUM", reason = "The reindeer is held in a hostile camp in Searing Gorge or Tanaris, with several kidnappers close enough to join a pull. Clear an approach or bring help before using the dust.", confidence = "medium" },
 
     -- Metzen the Reindeer (Alliance)
-    [8762] = { threat = "MEDIUM", reason = "Winter Veil holiday quest. Requires finding Metzen in the Alterac Mountains and freeing him. The area is patrolled by level 30-40 mobs, and the kidnappers are level 40 elites. Do not attempt below level 40 solo without a group.", confidence = "high" },
+    [8747] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8748] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8749] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8750] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8751] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8752] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8753] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8754] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8755] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8756] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8757] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8758] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8759] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8760] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8761] = { threat = "LOW", reason = "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.", confidence = "medium" },
+    [8762] = { threat = "MEDIUM", reason = "The reindeer is held in a hostile camp in Searing Gorge or Tanaris, with several kidnappers close enough to join a pull. Clear an approach or bring help before using the dust.", confidence = "medium" },
 
     -- The Hero of the Day
-    [8763] = { threat = "LOW", reason = "Winter Veil holiday turn-in with no combat. Requires 1 Deeprock Salt and 5 gold. Safe if you stay in the city.", confidence = "high" },
+    [8763] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
 
     -- Target: Hive'Ashi Defenders
-    [8770] = { threat = "EXTREME", reason = "Requires killing 30 Hive'Ashi Defenders inside the hive, which is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8764] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
+    [8765] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
+    [8766] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
+    [8767] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
+    [8768] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
+    [8769] = { threat = "LOW", reason = "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.", confidence = "medium" },
+    [8770] = { threat = "EXTREME", reason = "Elite quest. Hive’Ashi Defenders are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Ashi Sandstalkers
-    [8771] = { threat = "EXTREME", reason = "Requires killing 30 Hive'Ashi Sandstalkers inside the hive. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8771] = { threat = "EXTREME", reason = "Elite quest. Hive’Ashi Sandstalkers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Zora Waywatchers
-    [8772] = { threat = "EXTREME", reason = "Requires killing 30 Hive'Zora Waywatchers inside the hive. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8772] = { threat = "EXTREME", reason = "Elite quest. Hive’Zora Waywatchers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Zora Reavers
-    [8773] = { threat = "EXTREME", reason = "Requires killing 30 Hive'Zora Reavers inside the hive. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8773] = { threat = "EXTREME", reason = "Elite quest. Hive’Zora Reavers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Regal Ambushers
-    [8774] = { threat = "EXTREME", reason = "Requires killing 30 Hive'Regal Ambushers inside the hive. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8774] = { threat = "EXTREME", reason = "Elite quest. Hive’Regal Ambushers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Regal Spitfires
-    [8775] = { threat = "EXTREME", reason = "Requires killing 30 Hive'Regal Spitfires inside the hive. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8775] = { threat = "EXTREME", reason = "Elite quest. Hive’Regal Spitfires are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Regal Slavemakers
-    [8776] = { threat = "EXTREME", reason = "Requires killing 30 Hive'Regal Slavemakers inside the hive. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8776] = { threat = "EXTREME", reason = "Elite quest. Hive’Regal Slavemakers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Regal Burrowers
-    [8777] = { threat = "EXTREME", reason = "Requires killing 30 Hive'Regal Burrowers inside the hive. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8777] = { threat = "EXTREME", reason = "Elite quest. Hive’Regal Burrowers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.", confidence = "medium" },
 
     -- The Ironforge Brigade Needs Explosives!
-    [8778] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 6 Oils of Immolation, 5 Goblin Rocket Fuel, and 10 Dense Blasting Powder. Safe if you stay in the area.", confidence = "high" },
+    [8778] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Scrying Materials
-    [8779] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 1 Large Brilliant Shard, 1 Large Radiant Shard, and 1 Huge Emerald. Safe if you stay in the city.", confidence = "high" },
+    [8779] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Armor Kits for the Field (Alliance)
-    [8780] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 8 Rugged Armor Kits and 8 Heavy Armor Kits. Safe if you stay in the area.", confidence = "high" },
+    [8780] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Arms for the Field (Alliance)
-    [8781] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 2 Moonsteel Broadswords. Safe if you stay in the area.", confidence = "high" },
+    [8781] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Uniform Supplies
-    [8782] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 1 Mooncloth, 2 Bolts of Runecloth, and 1 Ironweb Spider Silk. Safe if you stay in the city.", confidence = "high" },
+    [8782] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Extraordinary Materials
     [8783] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 2 Enchanted Thorium Bars and 2 Enchanted Leather. Safe if you stay in the city.", confidence = "high" },

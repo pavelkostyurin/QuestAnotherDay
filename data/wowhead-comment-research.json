@@ -92853,6 +92853,1983 @@
       "confidence": "medium",
       "addonAppliedAt": "2026-10-24T22:52:00+03:00",
       "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8733,
+      "questName": "Eranikus, Tyrant of the Dream",
+      "url": "https://www.wowhead.com/classic/quest=8733",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "The agent is outside Darnassus and the step adds no combat. Follow the road and avoid nearby hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8734,
+      "questName": "Tyrande and Remulos",
+      "url": "https://www.wowhead.com/classic/quest=8734",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a conversation with Keeper Remulos in Moonglade and adds no combat. Use the normal route to Nighthaven.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8735,
+      "questName": "The Nightmare's Corruption",
+      "url": "https://www.wowhead.com/classic/quest=8735",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T23:05:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8736,
+      "questName": "The Nightmare Manifests",
+      "url": "https://www.wowhead.com/classic/quest=8736",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T23:05:00+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned Classic quest catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8737,
+      "questName": "Azure Templar",
+      "url": "https://www.wowhead.com/classic/quest=8737",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Classic knowledge of the templar encounters supports a difficult level-60 elite fight; some classes can solo these targets with strong gear or control, so the old full-group claim was too absolute.",
+      "reason": "Elite quest. The Azure Templar is a level-62 summoned elite, so the fight is dangerous at the level-60 quest tier. Bring a partner or use a well-geared class and a prepared solo strategy.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8738,
+      "questName": "Hive'Regal Scout Report",
+      "url": "https://www.wowhead.com/classic/quest=8738",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 17,
+      "commentsUsed": 17,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Regal Scout Report - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8738/hiveregal-scout-report",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Quest comments locate the scout inside Hive’Regal and describe a run through the cave past hostile silithids; stealth and careful route selection help."
+        },
+        {
+          "title": "Hive’Ashi Scout Report - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8739/hiveashi-scout-report",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic page and comments place Scout Jalia near the first room in the northern cave; one or two mobs may need to be bypassed or killed, and players report stealth or solo runs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest pages and comments place the scouts inside Hive’Regal and Hive’Ashi. Comments describe solo stealth or escape runs, so HIGH better fits the strategy-dependent traversal than a blanket full-group requirement.",
+      "reason": "The scout is inside a hostile silithid hive, but reaching the NPC and returning the report does not require killing the hive. Use a stealth or planned run with an escape route; bring help if you cannot avoid packs.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8739,
+      "questName": "Hive'Ashi Scout Report",
+      "url": "https://www.wowhead.com/classic/quest=8739",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 17,
+      "commentsUsed": 17,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Regal Scout Report - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8738/hiveregal-scout-report",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Quest comments locate the scout inside Hive’Regal and describe a run through the cave past hostile silithids; stealth and careful route selection help."
+        },
+        {
+          "title": "Hive’Ashi Scout Report - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8739/hiveashi-scout-report",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic page and comments place Scout Jalia near the first room in the northern cave; one or two mobs may need to be bypassed or killed, and players report stealth or solo runs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest pages and comments place the scouts inside Hive’Regal and Hive’Ashi. Comments describe solo stealth or escape runs, so HIGH better fits the strategy-dependent traversal than a blanket full-group requirement.",
+      "reason": "The scout is inside a hostile silithid hive, but reaching the NPC and returning the report does not require killing the hive. Use a stealth or planned run with an escape route; bring help if you cannot avoid packs.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8740,
+      "questName": "Twilight Marauders",
+      "url": "https://www.wowhead.com/classic/quest=8740",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 14,
+      "commentsUsed": 14,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Twilight Marauders - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8740/twilight-marauders",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest is marked Elite. Era comments describe Morna and a pack attacking patrols and include both failed ordinary solo attempts and successful class-specific solo strategies."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments describe Morna with multiple riders attacking Cenarion patrols; group strategies are recommended, though level-60 hunters, warlocks, mages, and other controlled builds report solo kills. This supports HIGH with a specific strategy, not a universal group requirement.",
+      "reason": "Elite quest. Morna and the Twilight Marauders attack as a group and can overwhelm the nearby patrol. Join the patrol when it engages them, or bring a group; class-specific control and burst can make solo attempts possible.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8741,
+      "questName": "The Champion Returns",
+      "url": "https://www.wowhead.com/classic/quest=8741",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Might of Kalimdor - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8742/the-might-of-kalimdor",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The chain lists prior shard quests as prerequisites; this step is completed with Anachronos in Tanaris and grants the scepter."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest chain has the player return shards to Anachronos and receive the scepter; required encounters are in earlier separate quests, not this turn-in.",
+      "reason": "This is a shard delivery or dialogue step with Anachronos and adds no combat after the shard prerequisites are complete. Use the normal route through Tanaris.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8742,
+      "questName": "The Might of Kalimdor",
+      "url": "https://www.wowhead.com/classic/quest=8742",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Might of Kalimdor - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8742/the-might-of-kalimdor",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The chain lists prior shard quests as prerequisites; this step is completed with Anachronos in Tanaris and grants the scepter."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest chain has the player return shards to Anachronos and receive the scepter; required encounters are in earlier separate quests, not this turn-in.",
+      "reason": "This is a shard delivery or dialogue step with Anachronos and adds no combat after the shard prerequisites are complete. Use the normal route through Tanaris.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8743,
+      "questName": "Bang a Gong!",
+      "url": "https://www.wowhead.com/classic/quest=8743",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Bang a Gong! - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8743/bang-a-gong",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The gong quest follows The Might of Kalimdor and the gates event; the objective is the gong interaction."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic chain places Bang a Gong after The Might of Kalimdor; the quest action is the event gong interaction rather than a raid encounter.",
+      "reason": "This is the gong interaction at the Ahn’Qiraj gates after the scepter chain; it adds no combat objective. Follow the event instructions and do not linger among unrelated hostile spawns.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8744,
+      "questName": "A Carefully Wrapped Present",
+      "url": "https://www.wowhead.com/classic/quest=8744",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8745,
+      "questName": "Treasure of the Timeless One",
+      "url": "https://www.wowhead.com/classic/quest=8745",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Treasure of the Timeless One - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8745/treasure-of-the-timeless-one",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Quest starts and ends with Jonathan the Revelator in Silithus and grants a choice of item."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page lists a reward selection from Jonathan the Revelator after The Might of Kalimdor; the exchange itself is in Silithus.",
+      "reason": "This is a reward selection with Jonathan at the gong in Silithus and adds no combat. Use the normal route to the NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8746,
+      "questName": "Metzen the Reindeer",
+      "url": "https://www.wowhead.com/classic/quest=8746",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 12,
+      "commentsUsed": 12,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Metzen the Reindeer - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8746/metzen-the-reindeer",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic comments describe the reindeer at hostile camps in Searing Gorge or Tanaris, multiple nearby kidnappers, and both solo attempts and group recommendations."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic reports place Metzen in either Searing Gorge or Tanaris and describe groups of nearby kidnappers; other level-42 to 49 players report solo completion, so ordinary careful pulls are viable but risky.",
+      "reason": "The reindeer is held in a hostile camp in Searing Gorge or Tanaris, with several kidnappers close enough to join a pull. Clear an approach or bring help before using the dust.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8747,
+      "questName": "The Path of the Protector",
+      "url": "https://www.wowhead.com/classic/quest=8747",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8748,
+      "questName": "The Path of the Protector",
+      "url": "https://www.wowhead.com/classic/quest=8748",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8749,
+      "questName": "The Path of the Protector",
+      "url": "https://www.wowhead.com/classic/quest=8749",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8750,
+      "questName": "The Path of the Protector",
+      "url": "https://www.wowhead.com/classic/quest=8750",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8751,
+      "questName": "The Protector of Kalimdor",
+      "url": "https://www.wowhead.com/classic/quest=8751",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8752,
+      "questName": "The Path of the Conqueror",
+      "url": "https://www.wowhead.com/classic/quest=8752",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8753,
+      "questName": "The Path of the Conqueror",
+      "url": "https://www.wowhead.com/classic/quest=8753",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8754,
+      "questName": "The Path of the Conqueror",
+      "url": "https://www.wowhead.com/classic/quest=8754",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8755,
+      "questName": "The Path of the Conqueror",
+      "url": "https://www.wowhead.com/classic/quest=8755",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8756,
+      "questName": "The Qiraji Conqueror",
+      "url": "https://www.wowhead.com/classic/quest=8756",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8757,
+      "questName": "The Path of the Invoker",
+      "url": "https://www.wowhead.com/classic/quest=8757",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8758,
+      "questName": "The Path of the Invoker",
+      "url": "https://www.wowhead.com/classic/quest=8758",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8759,
+      "questName": "The Path of the Invoker",
+      "url": "https://www.wowhead.com/classic/quest=8759",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8760,
+      "questName": "The Path of the Invoker",
+      "url": "https://www.wowhead.com/classic/quest=8760",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8761,
+      "questName": "The Grand Invoker",
+      "url": "https://www.wowhead.com/classic/quest=8761",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Path of the Protector - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8747/the-path-of-the-protector",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest takes place in Tanaris and grants the signet ring after choosing the Protector path."
+        },
+        {
+          "title": "The Path of the Invoker - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8760/the-path-of-the-invoker",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "The quest starts and ends in Tanaris and exchanges the signet ring for its strengthened version."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic pages for the Protector and Invoker paths show reward or ring exchanges at Anachronos in Tanaris; the current step itself is safe once its reputation and item prerequisites are met.",
+      "reason": "This is a signet-ring or reputation reward exchange with Anachronos in Tanaris and adds no combat. The dangerous raid and combat content belongs to earlier progression, not this turn-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8762,
+      "questName": "Metzen the Reindeer",
+      "url": "https://www.wowhead.com/classic/quest=8762",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 12,
+      "commentsUsed": 12,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Metzen the Reindeer - Quest - Classic",
+          "url": "https://www.wowhead.com/classic/quest=8746/metzen-the-reindeer",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic comments describe the reindeer at hostile camps in Searing Gorge or Tanaris, multiple nearby kidnappers, and both solo attempts and group recommendations."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic reports place Metzen in either Searing Gorge or Tanaris and describe groups of nearby kidnappers; other level-42 to 49 players report solo completion, so ordinary careful pulls are viable but risky.",
+      "reason": "The reindeer is held in a hostile camp in Searing Gorge or Tanaris, with several kidnappers close enough to join a pull. Clear an approach or bring help before using the dust.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8763,
+      "questName": "The Hero of the Day",
+      "url": "https://www.wowhead.com/classic/quest=8763",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8764,
+      "questName": "The Changing of Paths - Protector No More",
+      "url": "https://www.wowhead.com/classic/quest=8764",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8765,
+      "questName": "The Changing of Paths - Invoker No More",
+      "url": "https://www.wowhead.com/classic/quest=8765",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8766,
+      "questName": "The Changing of Paths - Conqueror No More",
+      "url": "https://www.wowhead.com/classic/quest=8766",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8767,
+      "questName": "A Gently Shaken Gift",
+      "url": "https://www.wowhead.com/classic/quest=8767",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8768,
+      "questName": "A Gaily Wrapped Present",
+      "url": "https://www.wowhead.com/classic/quest=8768",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8769,
+      "questName": "A Ticking Present",
+      "url": "https://www.wowhead.com/classic/quest=8769",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a seasonal gift, machine exchange, or reward hand-in with no combat objective. Use the normal route to the event vendor or turn-in NPC.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8770,
+      "questName": "Target: Hive'Ashi Defenders",
+      "url": "https://www.wowhead.com/classic/quest=8770",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Ashi Defender - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11722",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Defender as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Ashi Sandstalker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11723",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Sandstalker as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Zora Silithid Brain - Item - ClassicDB",
+          "url": "https://classicdb.ch/?item=20458",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest-item source table lists Waywatchers as level 58–59 elites and Reavers as level 59–60 elites."
+        },
+        {
+          "title": "Hive’Regal Ambusher - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11730",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Ambusher as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Burrower - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11731",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Burrower as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Spitfire - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11732",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Spitfire as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Slavemaker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11733",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Slavemaker as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies each target type as an elite near level 60. The large kill count makes repeated solo pulls unrealistic at the intended level; confidence is medium from limited direct Era records.",
+      "reason": "Elite quest. Hive’Ashi Defenders are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8771,
+      "questName": "Target: Hive'Ashi Sandstalkers",
+      "url": "https://www.wowhead.com/classic/quest=8771",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Ashi Defender - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11722",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Defender as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Ashi Sandstalker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11723",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Sandstalker as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Zora Silithid Brain - Item - ClassicDB",
+          "url": "https://classicdb.ch/?item=20458",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest-item source table lists Waywatchers as level 58–59 elites and Reavers as level 59–60 elites."
+        },
+        {
+          "title": "Hive’Regal Ambusher - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11730",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Ambusher as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Burrower - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11731",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Burrower as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Spitfire - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11732",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Spitfire as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Slavemaker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11733",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Slavemaker as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies each target type as an elite near level 60. The large kill count makes repeated solo pulls unrealistic at the intended level; confidence is medium from limited direct Era records.",
+      "reason": "Elite quest. Hive’Ashi Sandstalkers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8772,
+      "questName": "Target: Hive'Zora Waywatchers",
+      "url": "https://www.wowhead.com/classic/quest=8772",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Ashi Defender - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11722",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Defender as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Ashi Sandstalker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11723",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Sandstalker as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Zora Silithid Brain - Item - ClassicDB",
+          "url": "https://classicdb.ch/?item=20458",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest-item source table lists Waywatchers as level 58–59 elites and Reavers as level 59–60 elites."
+        },
+        {
+          "title": "Hive’Regal Ambusher - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11730",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Ambusher as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Burrower - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11731",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Burrower as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Spitfire - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11732",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Spitfire as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Slavemaker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11733",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Slavemaker as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies each target type as an elite near level 60. The large kill count makes repeated solo pulls unrealistic at the intended level; confidence is medium from limited direct Era records.",
+      "reason": "Elite quest. Hive’Zora Waywatchers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8773,
+      "questName": "Target: Hive'Zora Reavers",
+      "url": "https://www.wowhead.com/classic/quest=8773",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Ashi Defender - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11722",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Defender as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Ashi Sandstalker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11723",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Sandstalker as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Zora Silithid Brain - Item - ClassicDB",
+          "url": "https://classicdb.ch/?item=20458",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest-item source table lists Waywatchers as level 58–59 elites and Reavers as level 59–60 elites."
+        },
+        {
+          "title": "Hive’Regal Ambusher - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11730",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Ambusher as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Burrower - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11731",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Burrower as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Spitfire - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11732",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Spitfire as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Slavemaker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11733",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Slavemaker as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies each target type as an elite near level 60. The large kill count makes repeated solo pulls unrealistic at the intended level; confidence is medium from limited direct Era records.",
+      "reason": "Elite quest. Hive’Zora Reavers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8774,
+      "questName": "Target: Hive'Regal Ambushers",
+      "url": "https://www.wowhead.com/classic/quest=8774",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Ashi Defender - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11722",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Defender as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Ashi Sandstalker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11723",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Sandstalker as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Zora Silithid Brain - Item - ClassicDB",
+          "url": "https://classicdb.ch/?item=20458",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest-item source table lists Waywatchers as level 58–59 elites and Reavers as level 59–60 elites."
+        },
+        {
+          "title": "Hive’Regal Ambusher - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11730",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Ambusher as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Burrower - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11731",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Burrower as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Spitfire - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11732",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Spitfire as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Slavemaker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11733",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Slavemaker as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies each target type as an elite near level 60. The large kill count makes repeated solo pulls unrealistic at the intended level; confidence is medium from limited direct Era records.",
+      "reason": "Elite quest. Hive’Regal Ambushers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8775,
+      "questName": "Target: Hive'Regal Spitfires",
+      "url": "https://www.wowhead.com/classic/quest=8775",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Ashi Defender - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11722",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Defender as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Ashi Sandstalker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11723",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Sandstalker as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Zora Silithid Brain - Item - ClassicDB",
+          "url": "https://classicdb.ch/?item=20458",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest-item source table lists Waywatchers as level 58–59 elites and Reavers as level 59–60 elites."
+        },
+        {
+          "title": "Hive’Regal Ambusher - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11730",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Ambusher as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Burrower - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11731",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Burrower as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Spitfire - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11732",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Spitfire as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Slavemaker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11733",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Slavemaker as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies each target type as an elite near level 60. The large kill count makes repeated solo pulls unrealistic at the intended level; confidence is medium from limited direct Era records.",
+      "reason": "Elite quest. Hive’Regal Spitfires are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8776,
+      "questName": "Target: Hive'Regal Slavemakers",
+      "url": "https://www.wowhead.com/classic/quest=8776",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Ashi Defender - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11722",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Defender as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Ashi Sandstalker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11723",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Sandstalker as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Zora Silithid Brain - Item - ClassicDB",
+          "url": "https://classicdb.ch/?item=20458",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest-item source table lists Waywatchers as level 58–59 elites and Reavers as level 59–60 elites."
+        },
+        {
+          "title": "Hive’Regal Ambusher - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11730",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Ambusher as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Burrower - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11731",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Burrower as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Spitfire - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11732",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Spitfire as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Slavemaker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11733",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Slavemaker as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies each target type as an elite near level 60. The large kill count makes repeated solo pulls unrealistic at the intended level; confidence is medium from limited direct Era records.",
+      "reason": "Elite quest. Hive’Regal Slavemakers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8777,
+      "questName": "Target: Hive'Regal Burrowers",
+      "url": "https://www.wowhead.com/classic/quest=8777",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted text retrieval verified the material mechanics or quest step; source comments were an unranked sample and no comment ordering was assumed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hive’Ashi Defender - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11722",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Defender as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Ashi Sandstalker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11723",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Sandstalker as level 58–59 Elite."
+        },
+        {
+          "title": "Hive’Zora Silithid Brain - Item - ClassicDB",
+          "url": "https://classicdb.ch/?item=20458",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic quest-item source table lists Waywatchers as level 58–59 elites and Reavers as level 59–60 elites."
+        },
+        {
+          "title": "Hive’Regal Ambusher - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11730",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Ambusher as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Burrower - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11731",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Burrower as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Spitfire - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11732",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Spitfire as level 59–60 Elite."
+        },
+        {
+          "title": "Hive’Regal Slavemaker - NPC - ClassicDB",
+          "url": "https://classicdb.ch/?npc=11733",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T23:05:00+03:00",
+          "evidence": "Classic Era database lists the Slavemaker as level 59–60 Elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic Era NPC data identifies each target type as an elite near level 60. The large kill count makes repeated solo pulls unrealistic at the intended level; confidence is medium from limited direct Era records.",
+      "reason": "Elite quest. Hive’Regal Burrowers are level-appropriate elite silithids, and the assignment requires 30 kills in hostile Silithus territory. Bring a suitable group or skip the assignment on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8778,
+      "questName": "The Ironforge Brigade Needs Explosives!",
+      "url": "https://www.wowhead.com/classic/quest=8778",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8779,
+      "questName": "Scrying Materials",
+      "url": "https://www.wowhead.com/classic/quest=8779",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8780,
+      "questName": "Armor Kits for the Field",
+      "url": "https://www.wowhead.com/classic/quest=8780",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8781,
+      "questName": "Arms for the Field",
+      "url": "https://www.wowhead.com/classic/quest=8781",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 8782,
+      "questName": "Uniform Supplies",
+      "url": "https://www.wowhead.com/classic/quest=8782",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T23:05:00+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from the pinned catalog objective and existing Classic knowledge; no external lookup was needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "The quest objective is a safe conversation or item exchange; confidence is medium from the catalog and Classic quest flow.",
+      "reason": "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T23:05:00+03:00",
+      "addonSource": "QuestData.lua"
     }
   ]
 }
