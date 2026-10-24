@@ -3527,8 +3527,14 @@ local quests = {
     -- Conquering Arathi Basin
     [8441] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
 
+    -- Conquering Arathi Basin
+    [8442] = { threat = "LOW", reason = "This is a city turn-in for Arathi Basin marks and adds no combat. Use the normal route to the faction quartermaster.", confidence = "medium" },
+
+    -- Conquering Arathi Basin
+    [8443] = { threat = "LOW", reason = "This is a city turn-in for Arathi Basin marks and adds no combat. Use the normal route to the faction quartermaster.", confidence = "medium" },
+
     -- The Brokering of Peace
-    [8485] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8485] = { threat = "LOW", reason = "This is a city hand-in for the Timbermaw Offering of Peace and adds no combat. Use the normal route to the faction leader.", confidence = "medium" },
 
     -- The Horde Needs Copper Bars!
     [8532] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Copper Bars. Event-limited. Safe if you stay in the city.", confidence = "high" },

@@ -9532,136 +9532,142 @@ addon.quests = {
     [8441] = { threat = "LOW", reason = "This is a Arathi Basin mark hand-in at the Horde Warbringer in a Horde city. It adds no combat; use the normal route to the NPC.", confidence = "medium" },
 
     -- Shrouded in Nightmare
-    [8446] = { threat = "LOW", reason = "Dialogue and exploration step with no combat. The object is obtained from a raid boss in the Emerald Sanctum. Safe if you stay in the area.", confidence = "high" },
+    [8442] = { threat = "LOW", reason = "This is a city turn-in for Arathi Basin marks and adds no combat. Use the normal route to the faction quartermaster.", confidence = "medium" },
+    [8443] = { threat = "LOW", reason = "This is a city turn-in for Arathi Basin marks and adds no combat. Use the normal route to the faction quartermaster.", confidence = "medium" },
+    [8446] = { threat = "LOW", reason = "The deciphering step adds no combat after you have the Nightmare Engulfed Object. Travel to the druid in Moonglade by a familiar route.", confidence = "medium" },
 
     -- Waking Legends
-    [8447] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in Moonglade.", confidence = "high" },
+    [8447] = { threat = "LOW", reason = "This is a wait and interaction step in Moonglade with no combat objective. Use the normal route and avoid unrelated hostile areas.", confidence = "medium" },
 
     -- Timbermaw Ally
-    [8460] = { threat = "MEDIUM", reason = "Deadwood furbolgs are levels 48-52 in southern Felwood. They pull in groups and the gardeners cast nature spells. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8460] = { threat = "MEDIUM", reason = "The furbolg camps contain clustered enemies, and shamans add ranged nature attacks. Pull from the edge of a camp, watch for nearby groups, and keep an escape route.", confidence = "medium" },
 
     -- Deadwood of the North
-    [8461] = { threat = "MEDIUM", reason = "Deadwood furbolgs are levels 50-54 in northern Felwood. They pull in groups and the shamans cast nature spells. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8461] = { threat = "MEDIUM", reason = "The furbolg camps contain clustered enemies, and shamans add ranged nature attacks. Pull from the edge of a camp, watch for nearby groups, and keep an escape route.", confidence = "medium" },
 
     -- Speak to Nafien
-    [8462] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Felwood is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [8462] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat objective. Follow the Timbermaw route through Felwood or Timbermaw Hold and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Winterfall Activity
-    [8464] = { threat = "MEDIUM", reason = "Winterfall furbolgs are levels 53-57 in Winterspring. They pull in groups and the shamans cast nature spells. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [8464] = { threat = "MEDIUM", reason = "The furbolg camps contain clustered enemies, and shamans add ranged nature attacks. Pull from the edge of a camp, watch for nearby groups, and keep an escape route.", confidence = "medium" },
 
     -- Speak to Salfa
-    [8465] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8465] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat objective. Follow the Timbermaw route through Felwood or Timbermaw Hold and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Deadwood Ritual Totem
-    [8470] = { threat = "LOW", reason = "Delivery step with no combat. Requires Neutral reputation with Timbermaw. Safe if you stay in the area.", confidence = "high" },
+    [8466] = { threat = "MEDIUM", reason = "Collecting Deadwood Headdress Feathers requires repeated kills of hostile furbolgs in Felwood. Pull isolated enemies and avoid being surrounded in the camps.", confidence = "medium" },
+    [8467] = { threat = "MEDIUM", reason = "Collecting Deadwood Headdress Feathers requires repeated kills of hostile furbolgs in Felwood. Pull isolated enemies and avoid being surrounded in the camps.", confidence = "medium" },
+    [8469] = { threat = "MEDIUM", reason = "Winterfall Spirit Beads require repeated kills of hostile Winterfall furbolgs. Pull away from the camps and avoid drawing several enemies at once.", confidence = "medium" },
+    [8470] = { threat = "LOW", reason = "This is a ritual-totem hand-in with no combat objective once Timbermaw reputation is Neutral. Travel through the hold by a familiar route and avoid hostile furbolg areas.", confidence = "medium" },
 
     -- Winterfall Ritual Totem
-    [8471] = { threat = "LOW", reason = "Delivery step with no combat. Requires Neutral reputation with Timbermaw. Safe if you stay in the area.", confidence = "high" },
+    [8471] = { threat = "LOW", reason = "This is a ritual-totem hand-in with no combat objective once Timbermaw reputation is Neutral. Travel through the hold by a familiar route and avoid hostile furbolg areas.", confidence = "medium" },
 
     -- The Root of All Evil
-    [8481] = { threat = "EXTREME", reason = "Elite quest. Requires planting a torch in High Chief Winterfall's cave to summon and defeat a demon, then retrieving the Essence of Xandivious. The demon is elite and the cave is filled with level 56-58 furbolgs. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8481] = { threat = "EXTREME", reason = "Elite quest. The level-62 Xandivious is a dangerous demon summoned near a hostile Winterfall camp, where nearby furbolgs can join the fight. Bring a suitable group; isolated class-specific solo reports do not establish a safe baseline solo attempt.", confidence = "medium" },
 
     -- The Brokering of Peace (Alliance)
-    [8484] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8484] = { threat = "LOW", reason = "This is a city hand-in for the Timbermaw Offering of Peace and adds no combat. Use the normal route to the faction leader.", confidence = "medium" },
 
     -- The Brokering of Peace (Horde)
-    [8485] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8485] = { threat = "LOW", reason = "This is a city hand-in for the Timbermaw Offering of Peace and adds no combat. Use the normal route to the faction leader.", confidence = "medium" },
 
     -- The Alliance Needs Copper Bars!
-    [8492] = { threat = "LOW", reason = "Collection and delivery step with no combat beyond gathering the copper bars. Safe if you stay in the city.", confidence = "high" },
+    [8492] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Copper Bars! (8493)
-    [8493] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 copper bars. Event-limited: only available during the Ahn'Qiraj war effort. Safe if you stay in the city.", confidence = "high" },
+    [8493] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Iron Bars! (8494)
-    [8494] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 iron bars. Event-limited: only available during the Ahn'Qiraj war effort. Safe if you stay in the city.", confidence = "high" },
+    [8494] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Iron Bars! (8495)
-    [8495] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 iron bars. Event-limited: only available during the Ahn'Qiraj war effort. Safe if you stay in the city.", confidence = "high" },
+    [8495] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- Bandages for the Field
-    [8496] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 30 Heavy Runecloth, Heavy Silk, and Heavy Mageweave Bandages plus Logistics Task Briefing X. Event-limited. Safe if you stay in the area.", confidence = "high" },
+    [8496] = { threat = "LOW", reason = "This is a bandage and briefing hand-in at Cenarion Hold with no combat objective. Use the normal route through Silithus and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Desert Survival Kits
-    [8497] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 4 Globes of Water, 4 Powerful Anti-Venom, and 4 Smoked Desert Dumplings plus Logistics Task Briefing I. Event-limited. Safe if you stay in the area.", confidence = "high" },
+    [8497] = { threat = "LOW", reason = "This is a prepared-item hand-in at Cenarion Hold with no combat objective. Use the normal route through Silithus and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Twilight Battle Orders
-    [8498] = { threat = "MEDIUM", reason = "War Effort quest. Requires obtaining the Twilight Battle Orders from Twilight's Hammer cultists in Silithus, levels 55-58. The cultists pull in groups. The drop rate is moderate. Event-limited. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8498] = { threat = "MEDIUM", reason = "Obtaining Twilight Battle Orders requires fighting hostile Twilight cultists in Silithus. Their camps can produce close pulls; approach from open ground and take enemies one at a time.", confidence = "medium" },
 
     -- The Alliance Needs Thorium Bars! (8499)
-    [8499] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 thorium bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8499] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Thorium Bars! (8500)
-    [8500] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 thorium bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8500] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- Target: Hive'Ashi Stingers
-    [8501] = { threat = "EXTREME", reason = "War Effort quest. Requires killing 30 Hive'Ashi Stingers inside the hive, which is filled with level 58-60 elite silithid. Event-limited. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8501] = { threat = "EXTREME", reason = "Elite quest. The required Hive’Ashi insects are level-appropriate elite silithids, and killing 30 exposes a solo character to repeated dangerous fights. Bring a suitable group or skip this objective on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Ashi Workers
-    [8502] = { threat = "HIGH", reason = "War Effort quest. Hive'Ashi Workers are non-elite silithid inside the hive, levels 58-60. They are surrounded by elite guards. Event-limited. Stealth or careful pulling required. Do not attempt below level 58 solo without a plan.", confidence = "high" },
+    [8502] = { threat = "EXTREME", reason = "Elite quest. The required Hive’Ashi insects are level-appropriate elite silithids, and killing 30 exposes a solo character to repeated dangerous fights. Bring a suitable group or skip this objective on Hardcore.", confidence = "medium" },
 
     -- The Alliance Needs Stranglekelp! (8503)
-    [8503] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Stranglekelp. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8503] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Stranglekelp! (8504)
-    [8504] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Stranglekelp. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8504] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Purple Lotus! (8505)
-    [8505] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Purple Lotus. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8505] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Purple Lotus! (8506)
-    [8506] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Purple Lotus. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8506] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- Field Duty
-    [8507] = { threat = "HIGH", reason = "Requires reporting to the Ironforge Brigade post near Hive'Zora and obtaining Signed Field Duty Papers. The area is contested and patrolled by elite silithid. Note: healing or casting beneficial spells on a member of the Ironforge Brigade will flag you for PvP. Event-limited. Do not attempt solo below level 55.", confidence = "high" },
+    [8507] = { threat = "EXTREME", reason = "Elite quest. The field-duty defense can trigger a level-60 elite Hive’Zora Abomination while nearby guards must survive; the captain can die even when the player helps. Bring a suitable group and avoid beneficial spells on Brigade members unless you accept the PvP flag.", confidence = "medium" },
 
     -- The Alliance Needs Arthas' Tears! (8509)
-    [8509] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Arthas' Tears. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8508] = { threat = "LOW", reason = "This is a prepared-paper exchange for signed Field Duty Papers after the field event. The hand-in itself adds no combat; use the normal route to the Brigade captain.", confidence = "medium" },
+    [8509] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Arthas' Tears! (8510)
-    [8510] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Arthas' Tears. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8510] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Light Leather! (8511)
-    [8511] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Light Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8511] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Light Leather! (8512)
-    [8512] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Light Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8512] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Medium Leather! (8513)
-    [8513] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Medium Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8513] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Medium Leather! (8514)
-    [8514] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Medium Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8514] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Thick Leather! (8515)
-    [8515] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Thick Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8515] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Thick Leather! (8516)
-    [8516] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Thick Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8516] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Linen Bandages! (8517)
-    [8517] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Linen Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8517] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Linen Bandages! (8518)
-    [8518] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Linen Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8518] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- A Pawn on the Eternal Board
-    [8519] = { threat = "LOW", reason = "Dialogue and exploration step with no combat. The quest takes place in the Caverns of Time. Event-limited (part of the Ahn'Qiraj chain). Safe if you stay in the area.", confidence = "high" },
+    [8519] = { threat = "LOW", reason = "This is a dialogue and history step with no combat objective. Travel to Anachronos through the Caverns of Time by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Silk Bandages! (8520)
-    [8520] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Silk Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8520] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Silk Bandages! (8521)
-    [8521] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Silk Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8521] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Runecloth Bandages! (8522)
-    [8522] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Runecloth Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8522] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Runecloth Bandages! (8523)
-    [8523] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Runecloth Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8523] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Rainbow Fin Albacore! (8524)
-    [8524] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Rainbow Fin Albacore. Event-limited: only available during the Ahn'Qiraj war effort. Safe if you stay in the city.", confidence = "high" },
+    [8524] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Rainbow Fin Albacore! (8525)
     [8525] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Rainbow Fin Albacore. Event-limited. Safe if you stay in the city.", confidence = "high" },

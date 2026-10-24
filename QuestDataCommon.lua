@@ -2607,46 +2607,55 @@ addon.quests = {
     [8425] = { threat = "EXTREME", reason = "Elite quest. Requires collecting Voodoo Feathers from trolls in the Sunken Temple, a level 50-55 dungeon filled with elites. A full group of level 50+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Shrouded in Nightmare
-    [8446] = { threat = "LOW", reason = "Dialogue and exploration step with no combat. The object is obtained from a raid boss in the Emerald Sanctum. Safe if you stay in the area.", confidence = "high" },
+    [8446] = { threat = "LOW", reason = "The deciphering step adds no combat after you have the Nightmare Engulfed Object. Travel to the druid in Moonglade by a familiar route.", confidence = "medium" },
 
     -- Waking Legends
-    [8447] = { threat = "LOW", reason = "Dialogue and wait step with no combat. Safe if you stay in Moonglade.", confidence = "high" },
+    [8447] = { threat = "LOW", reason = "This is a wait and interaction step in Moonglade with no combat objective. Use the normal route and avoid unrelated hostile areas.", confidence = "medium" },
 
     -- Timbermaw Ally
-    [8460] = { threat = "MEDIUM", reason = "Deadwood furbolgs are levels 48-52 in southern Felwood. They pull in groups and the gardeners cast nature spells. Clear methodically and watch for adds. Do not attempt below level 48 solo.", confidence = "medium" },
+    [8460] = { threat = "MEDIUM", reason = "The furbolg camps contain clustered enemies, and shamans add ranged nature attacks. Pull from the edge of a camp, watch for nearby groups, and keep an escape route.", confidence = "medium" },
 
     -- Deadwood of the North
-    [8461] = { threat = "MEDIUM", reason = "Deadwood furbolgs are levels 50-54 in northern Felwood. They pull in groups and the shamans cast nature spells. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
+    [8461] = { threat = "MEDIUM", reason = "The furbolg camps contain clustered enemies, and shamans add ranged nature attacks. Pull from the edge of a camp, watch for nearby groups, and keep an escape route.", confidence = "medium" },
 
     -- Speak to Nafien
-    [8462] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Felwood is dangerous for low-level players. Do not attempt below level 45 solo.", confidence = "medium" },
+    [8462] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat objective. Follow the Timbermaw route through Felwood or Timbermaw Hold and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Winterfall Activity
-    [8464] = { threat = "MEDIUM", reason = "Winterfall furbolgs are levels 53-57 in Winterspring. They pull in groups and the shamans cast nature spells. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
+    [8464] = { threat = "MEDIUM", reason = "The furbolg camps contain clustered enemies, and shamans add ranged nature attacks. Pull from the edge of a camp, watch for nearby groups, and keep an escape route.", confidence = "medium" },
 
     -- Speak to Salfa
-    [8465] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [8465] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat objective. Follow the Timbermaw route through Felwood or Timbermaw Hold and avoid nearby hostile camps.", confidence = "medium" },
+
+    -- Feathers for Grazle
+    [8466] = { threat = "MEDIUM", reason = "Collecting Deadwood Headdress Feathers requires repeated kills of hostile furbolgs in Felwood. Pull isolated enemies and avoid being surrounded in the camps.", confidence = "medium" },
+
+    -- Feathers for Nafien
+    [8467] = { threat = "MEDIUM", reason = "Collecting Deadwood Headdress Feathers requires repeated kills of hostile furbolgs in Felwood. Pull isolated enemies and avoid being surrounded in the camps.", confidence = "medium" },
+
+    -- Beads for Salfa
+    [8469] = { threat = "MEDIUM", reason = "Winterfall Spirit Beads require repeated kills of hostile Winterfall furbolgs. Pull away from the camps and avoid drawing several enemies at once.", confidence = "medium" },
 
     -- Deadwood Ritual Totem
-    [8470] = { threat = "LOW", reason = "Delivery step with no combat. Requires Neutral reputation with Timbermaw. Safe if you stay in the area.", confidence = "high" },
+    [8470] = { threat = "LOW", reason = "This is a ritual-totem hand-in with no combat objective once Timbermaw reputation is Neutral. Travel through the hold by a familiar route and avoid hostile furbolg areas.", confidence = "medium" },
 
     -- Winterfall Ritual Totem
-    [8471] = { threat = "LOW", reason = "Delivery step with no combat. Requires Neutral reputation with Timbermaw. Safe if you stay in the area.", confidence = "high" },
+    [8471] = { threat = "LOW", reason = "This is a ritual-totem hand-in with no combat objective once Timbermaw reputation is Neutral. Travel through the hold by a familiar route and avoid hostile furbolg areas.", confidence = "medium" },
 
     -- The Root of All Evil
-    [8481] = { threat = "EXTREME", reason = "Elite quest. Requires planting a torch in High Chief Winterfall's cave to summon and defeat a demon, then retrieving the Essence of Xandivious. The demon is elite and the cave is filled with level 56-58 furbolgs. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8481] = { threat = "EXTREME", reason = "Elite quest. The level-62 Xandivious is a dangerous demon summoned near a hostile Winterfall camp, where nearby furbolgs can join the fight. Bring a suitable group; isolated class-specific solo reports do not establish a safe baseline solo attempt.", confidence = "medium" },
 
     -- Twilight Battle Orders
-    [8498] = { threat = "MEDIUM", reason = "War Effort quest. Requires obtaining the Twilight Battle Orders from Twilight's Hammer cultists in Silithus, levels 55-58. The cultists pull in groups. The drop rate is moderate. Event-limited. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8498] = { threat = "MEDIUM", reason = "Obtaining Twilight Battle Orders requires fighting hostile Twilight cultists in Silithus. Their camps can produce close pulls; approach from open ground and take enemies one at a time.", confidence = "medium" },
 
     -- Target: Hive'Ashi Stingers
-    [8501] = { threat = "EXTREME", reason = "War Effort quest. Requires killing 30 Hive'Ashi Stingers inside the hive, which is filled with level 58-60 elite silithid. Event-limited. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
+    [8501] = { threat = "EXTREME", reason = "Elite quest. The required Hive’Ashi insects are level-appropriate elite silithids, and killing 30 exposes a solo character to repeated dangerous fights. Bring a suitable group or skip this objective on Hardcore.", confidence = "medium" },
 
     -- Target: Hive'Ashi Workers
-    [8502] = { threat = "HIGH", reason = "War Effort quest. Hive'Ashi Workers are non-elite silithid inside the hive, levels 58-60. They are surrounded by elite guards. Event-limited. Stealth or careful pulling required. Do not attempt below level 58 solo without a plan.", confidence = "high" },
+    [8502] = { threat = "EXTREME", reason = "Elite quest. The required Hive’Ashi insects are level-appropriate elite silithids, and killing 30 exposes a solo character to repeated dangerous fights. Bring a suitable group or skip this objective on Hardcore.", confidence = "medium" },
 
     -- A Pawn on the Eternal Board
-    [8519] = { threat = "LOW", reason = "Dialogue and exploration step with no combat. The quest takes place in the Caverns of Time. Event-limited (part of the Ahn'Qiraj chain). Safe if you stay in the area.", confidence = "high" },
+    [8519] = { threat = "LOW", reason = "This is a dialogue and history step with no combat objective. Travel to Anachronos through the Caverns of Time by a familiar route.", confidence = "medium" },
 
     -- Hive'Zora Scout Report
     [8534] = { threat = "EXTREME", reason = "Requires entering Hive'Zora to contact Cenarion Scout Azenel. The hive is filled with level 58-60 elite silithid. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },

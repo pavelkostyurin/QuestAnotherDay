@@ -4125,91 +4125,94 @@ local quests = {
     [8418] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
 
     -- The Brokering of Peace
-    [8484] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8484] = { threat = "LOW", reason = "This is a city hand-in for the Timbermaw Offering of Peace and adds no combat. Use the normal route to the faction leader.", confidence = "medium" },
 
     -- The Alliance Needs Copper Bars!
-    [8492] = { threat = "LOW", reason = "Collection and delivery step with no combat beyond gathering the copper bars. Safe if you stay in the city.", confidence = "high" },
+    [8492] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Copper Bars!
-    [8493] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 copper bars. Event-limited: only available during the Ahn'Qiraj war effort. Safe if you stay in the city.", confidence = "high" },
+    [8493] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Iron Bars!
-    [8494] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 iron bars. Event-limited: only available during the Ahn'Qiraj war effort. Safe if you stay in the city.", confidence = "high" },
+    [8494] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Iron Bars!
-    [8495] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 iron bars. Event-limited: only available during the Ahn'Qiraj war effort. Safe if you stay in the city.", confidence = "high" },
+    [8495] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- Bandages for the Field
-    [8496] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 30 Heavy Runecloth, Heavy Silk, and Heavy Mageweave Bandages plus Logistics Task Briefing X. Event-limited. Safe if you stay in the area.", confidence = "high" },
+    [8496] = { threat = "LOW", reason = "This is a bandage and briefing hand-in at Cenarion Hold with no combat objective. Use the normal route through Silithus and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Desert Survival Kits
-    [8497] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 4 Globes of Water, 4 Powerful Anti-Venom, and 4 Smoked Desert Dumplings plus Logistics Task Briefing I. Event-limited. Safe if you stay in the area.", confidence = "high" },
+    [8497] = { threat = "LOW", reason = "This is a prepared-item hand-in at Cenarion Hold with no combat objective. Use the normal route through Silithus and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- The Alliance Needs Thorium Bars!
-    [8499] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 thorium bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8499] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Thorium Bars!
-    [8500] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 thorium bars. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8500] = { threat = "LOW", reason = "This is a War Effort item hand-in with no combat objective. Travel to the Ironforge recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Stranglekelp!
-    [8503] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Stranglekelp. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8503] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Stranglekelp!
-    [8504] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Stranglekelp. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8504] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Purple Lotus!
-    [8505] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Purple Lotus. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8505] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Purple Lotus!
-    [8506] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Purple Lotus. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8506] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- Field Duty
-    [8507] = { threat = "HIGH", reason = "Requires reporting to the Ironforge Brigade post near Hive'Zora and obtaining Signed Field Duty Papers. The area is contested and patrolled by elite silithid. Note: healing or casting beneficial spells on a member of the Ironforge Brigade will flag you for PvP. Event-limited. Do not attempt solo below level 55.", confidence = "high" },
+    [8507] = { threat = "EXTREME", reason = "Elite quest. The field-duty defense can trigger a level-60 elite Hive’Zora Abomination while nearby guards must survive; the captain can die even when the player helps. Bring a suitable group and avoid beneficial spells on Brigade members unless you accept the PvP flag.", confidence = "medium" },
+
+    -- Field Duty Papers
+    [8508] = { threat = "LOW", reason = "This is a prepared-paper exchange for signed Field Duty Papers after the field event. The hand-in itself adds no combat; use the normal route to the Brigade captain.", confidence = "medium" },
 
     -- The Alliance Needs Arthas' Tears!
-    [8509] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Arthas' Tears. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8509] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Arthas' Tears!
-    [8510] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Arthas' Tears. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8510] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Light Leather!
-    [8511] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Light Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8511] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Light Leather!
-    [8512] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Light Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8512] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Medium Leather!
-    [8513] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Medium Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8513] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Medium Leather!
-    [8514] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Medium Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8514] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Thick Leather!
-    [8515] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Thick Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8515] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Thick Leather!
-    [8516] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Thick Leather. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8516] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Linen Bandages!
-    [8517] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Linen Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8517] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Linen Bandages!
-    [8518] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Linen Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8518] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Silk Bandages!
-    [8520] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Silk Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8520] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Silk Bandages!
-    [8521] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Silk Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8521] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Runecloth Bandages!
-    [8522] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Runecloth Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8522] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Runecloth Bandages!
-    [8523] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Runecloth Bandages. Event-limited. Safe if you stay in the city.", confidence = "high" },
+    [8523] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs Rainbow Fin Albacore!
-    [8524] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Rainbow Fin Albacore. Event-limited: only available during the Ahn'Qiraj war effort. Safe if you stay in the city.", confidence = "high" },
+    [8524] = { threat = "LOW", reason = "This is a War Effort resource hand-in with no combat objective. Travel to the recipient by a familiar route.", confidence = "medium" },
 
     -- The Alliance Needs More Rainbow Fin Albacore!
     [8525] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 20 Rainbow Fin Albacore. Event-limited. Safe if you stay in the city.", confidence = "high" },
