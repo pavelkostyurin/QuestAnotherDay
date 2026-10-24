@@ -1,10 +1,10 @@
 ## Interface: 11509
-## Title: Quest Another Day
+## Title: Quest Another Day |cffd78bffby|r |cff55d2ffMarrowshade |T236270:16:16:0:0|t
 ## Notes: Know which quests to leave for another day in WoW Classic Hardcore.
 ## Category: Quests
-## IconTexture: Interface\Icons\spell_shadow_shadowworddominate
-## Author: Romp@Stitches
-## Version: 0.45.2
+## IconTexture: Interface\GossipFrame\ActiveQuestIcon
+## Author: Marrowshade |T236270:16:16:0:0|t
+## Version: 0.46.0
 ## OptionalDeps: Questie
 ## SavedVariables: QuestAnotherDayDB
 
