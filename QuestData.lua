@@ -8972,6 +8972,11 @@ addon.quests = {
     [8079] = { threat = "EXTREME", reason = "Raid quest. Requires a Primal Hakkari Kossack from Zul'Gurub. A full raid group of 20 players is required. Do not attempt solo. Requires Revered reputation with Zandalar Tribe.", confidence = "high" },
 
     -- Honoring a Hero (Alliance)
+    [8080] = { threat = "EXTREME", reason = "PvP quest. Win Arathi Basin and return with a resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8081] = { threat = "EXTREME", reason = "PvP quest. Win Arathi Basin and return with a resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8105] = { threat = "EXTREME", reason = "PvP quest. Assault four bases inside Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+    [8114] = { threat = "EXTREME", reason = "PvP quest. Capture and control four bases in Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
     [8149] = { threat = "LOW", reason = "Harvest Festival holiday quest. Travel to Uther's Tomb and use Uther's Tribute at his statue, then return to Wagner Hammerstrike before the festival ends. No combat required. The journey to the Western Plaguelands is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Honoring a Hero (Horde)

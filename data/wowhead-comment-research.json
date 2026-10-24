@@ -80504,6 +80504,572 @@
       "checkedAt": "2026-10-24T21:53:28+03:00",
       "skipReason": "raid",
       "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8046,
+      "questName": "The Heathen's Brand",
+      "url": "https://www.wowhead.com/classic/quest=8046",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8047,
+      "questName": "The Heathen's Brand",
+      "url": "https://www.wowhead.com/classic/quest=8047",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8048,
+      "questName": "The Hero's Brand",
+      "url": "https://www.wowhead.com/classic/quest=8048",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8049,
+      "questName": "The Eye of Zuldazar",
+      "url": "https://www.wowhead.com/classic/quest=8049",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8050,
+      "questName": "The Eye of Zuldazar",
+      "url": "https://www.wowhead.com/classic/quest=8050",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8051,
+      "questName": "The Eye of Zuldazar",
+      "url": "https://www.wowhead.com/classic/quest=8051",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8052,
+      "questName": "The All-Seeing Eye of Zuldazar",
+      "url": "https://www.wowhead.com/classic/quest=8052",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8053,
+      "questName": "Paragons of Power: The Freethinker's Armguards",
+      "url": "https://www.wowhead.com/classic/quest=8053",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8054,
+      "questName": "Paragons of Power: The Freethinker's Belt",
+      "url": "https://www.wowhead.com/classic/quest=8054",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8055,
+      "questName": "Paragons of Power: The Freethinker's Breastplate",
+      "url": "https://www.wowhead.com/classic/quest=8055",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8056,
+      "questName": "Paragons of Power: The Augur's Bracers",
+      "url": "https://www.wowhead.com/classic/quest=8056",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8057,
+      "questName": "Paragons of Power: The Haruspex's Bracers",
+      "url": "https://www.wowhead.com/classic/quest=8057",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8058,
+      "questName": "Paragons of Power: The Vindicator's Armguards",
+      "url": "https://www.wowhead.com/classic/quest=8058",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8059,
+      "questName": "Paragons of Power: The Demoniac's Wraps",
+      "url": "https://www.wowhead.com/classic/quest=8059",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8060,
+      "questName": "Paragons of Power: The Illusionist's Wraps",
+      "url": "https://www.wowhead.com/classic/quest=8060",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8061,
+      "questName": "Paragons of Power: The Confessor's Wraps",
+      "url": "https://www.wowhead.com/classic/quest=8061",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8062,
+      "questName": "Paragons of Power: The Predator's Bracers",
+      "url": "https://www.wowhead.com/classic/quest=8062",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8063,
+      "questName": "Paragons of Power: The Madcap's Bracers",
+      "url": "https://www.wowhead.com/classic/quest=8063",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8064,
+      "questName": "Paragons of Power: The Haruspex's Belt",
+      "url": "https://www.wowhead.com/classic/quest=8064",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8065,
+      "questName": "Paragons of Power: The Haruspex's Tunic",
+      "url": "https://www.wowhead.com/classic/quest=8065",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8066,
+      "questName": "Paragons of Power: The Predator's Belt",
+      "url": "https://www.wowhead.com/classic/quest=8066",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8067,
+      "questName": "Paragons of Power: The Predator's Mantle",
+      "url": "https://www.wowhead.com/classic/quest=8067",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8068,
+      "questName": "Paragons of Power: The Illusionist's Mantle",
+      "url": "https://www.wowhead.com/classic/quest=8068",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8069,
+      "questName": "Paragons of Power: The Illusionist's Robes",
+      "url": "https://www.wowhead.com/classic/quest=8069",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8070,
+      "questName": "Paragons of Power: The Confessor's Bindings",
+      "url": "https://www.wowhead.com/classic/quest=8070",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8071,
+      "questName": "Paragons of Power: The Confessor's Mantle",
+      "url": "https://www.wowhead.com/classic/quest=8071",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8072,
+      "questName": "Paragons of Power: The Madcap's Mantle",
+      "url": "https://www.wowhead.com/classic/quest=8072",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8073,
+      "questName": "Paragons of Power: The Madcap's Tunic",
+      "url": "https://www.wowhead.com/classic/quest=8073",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8074,
+      "questName": "Paragons of Power: The Augur's Belt",
+      "url": "https://www.wowhead.com/classic/quest=8074",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8075,
+      "questName": "Paragons of Power: The Augur's Hauberk",
+      "url": "https://www.wowhead.com/classic/quest=8075",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8076,
+      "questName": "Paragons of Power: The Demoniac's Mantle",
+      "url": "https://www.wowhead.com/classic/quest=8076",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8077,
+      "questName": "Paragons of Power: The Demoniac's Robes",
+      "url": "https://www.wowhead.com/classic/quest=8077",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8078,
+      "questName": "Paragons of Power: The Vindicator's Belt",
+      "url": "https://www.wowhead.com/classic/quest=8078",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8079,
+      "questName": "Paragons of Power: The Vindicator's Breastplate",
+      "url": "https://www.wowhead.com/classic/quest=8079",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8080,
+      "questName": "Arathi Basin Resources!",
+      "url": "https://www.wowhead.com/classic/quest=8080",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:55:14+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed; quest objectives and Hardcore battleground rules were verified from quest text and Blizzard update notes.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Arathi Basin Resources! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8080/arathi-basin-resources",
+          "evidence": "Classic quest description requires entering Arathi Basin, winning the battle, and returning with a resource crate.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:55:14+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic objective requires winning Arathi Basin and returning with its resource crate; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because both the objective and applicable rule are directly sourced.",
+      "reason": "PvP quest. Win Arathi Basin and return with a resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8081,
+      "questName": "More Resource Crates",
+      "url": "https://www.wowhead.com/classic/quest=8081",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:55:14+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed; quest objectives and Hardcore battleground rules were verified from quest text and Blizzard update notes.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Arathi Basin Resources! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8080/arathi-basin-resources",
+          "evidence": "Classic quest page documents the Arathi Basin win-and-resource-crate objective; local catalog entry for 8081, More Resource Crates, specifies the same objective.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:55:14+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The local catalog gives the same Arathi Basin win-and-resource-crate objective as the Classic Arathi Basin Resources quest; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because the variant objective is explicit locally and the Classic objective and rule are directly sourced.",
+      "reason": "PvP quest. Win Arathi Basin and return with a resource crate, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8101,
+      "questName": "The Pebble of Kajaro",
+      "url": "https://www.wowhead.com/classic/quest=8101",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8102,
+      "questName": "The Pebble of Kajaro",
+      "url": "https://www.wowhead.com/classic/quest=8102",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8103,
+      "questName": "The Pebble of Kajaro",
+      "url": "https://www.wowhead.com/classic/quest=8103",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8104,
+      "questName": "The Jewel of Kajaro",
+      "url": "https://www.wowhead.com/classic/quest=8104",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8105,
+      "questName": "The Battle for Arathi Basin!",
+      "url": "https://www.wowhead.com/classic/quest=8105",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:55:14+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed; quest objectives and Hardcore battleground rules were verified from quest text and Blizzard update notes.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Battle for Arathi Basin! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8105/the-battle-for-arathi-basin",
+          "evidence": "Classic objective requires assaulting the mine, lumber mill, blacksmith, and farm inside the Arathi Basin battle.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:55:14+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page confirms the four base assaults must be completed in Arathi Basin; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because objective and rule are directly sourced.",
+      "reason": "PvP quest. Assault four bases inside Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
+    },
+    {
+      "questId": 8106,
+      "questName": "Kezan's Taint",
+      "url": "https://www.wowhead.com/classic/quest=8106",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8107,
+      "questName": "Kezan's Taint",
+      "url": "https://www.wowhead.com/classic/quest=8107",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8108,
+      "questName": "Kezan's Taint",
+      "url": "https://www.wowhead.com/classic/quest=8108",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8109,
+      "questName": "Kezan's Unstoppable Taint",
+      "url": "https://www.wowhead.com/classic/quest=8109",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8110,
+      "questName": "Enchanted South Seas Kelp",
+      "url": "https://www.wowhead.com/classic/quest=8110",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8111,
+      "questName": "Enchanted South Seas Kelp",
+      "url": "https://www.wowhead.com/classic/quest=8111",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8112,
+      "questName": "Enchanted South Seas Kelp",
+      "url": "https://www.wowhead.com/classic/quest=8112",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8113,
+      "questName": "Pristine Enchanted South Seas Kelp",
+      "url": "https://www.wowhead.com/classic/quest=8113",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:55:14+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before research because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 8114,
+      "questName": "Control Four Bases",
+      "url": "https://www.wowhead.com/classic/quest=8114",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:55:14+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "No comments were needed; quest objectives and Hardcore battleground rules were verified from quest text and Blizzard update notes.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Control Four Bases - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=8114/control-four-bases",
+          "evidence": "Classic quest text requires entering Arathi Basin and controlling four bases simultaneously.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:55:14+03:00"
+        },
+        {
+          "title": "World of Warcraft Classic Era 1.14.4 Update Notes",
+          "url": "https://worldofwarcraft.blizzard.com/en-us/news/23987544",
+          "evidence": "Blizzard states PvP battlegrounds and Battlemasters are completely disabled on Hardcore realms.",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:48:19+03:00"
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Classic quest page requires capturing and holding four Arathi Basin bases; Blizzard states battlegrounds are disabled on Hardcore. Confidence is high because both the objective and applicable rule are directly sourced.",
+      "reason": "PvP quest. Capture and control four bases in Arathi Basin, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.",
+      "threat": "EXTREME",
+      "confidence": "high"
     }
   ]
 }
