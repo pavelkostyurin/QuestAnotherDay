@@ -4524,13 +4524,13 @@ local quests = {
     [9094] = { threat = "MEDIUM", reason = "Collecting 30 Necrotic Runes requires repeated fights with Scourge undead around invasion shards, where nearby mobs can add. Choose isolated targets and avoid pulling rare or elite undead with a pack.", confidence = "medium" },
 
     -- Investigate the Scourge of Stormwind
-    [9260] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Stormwind and investigating runic circles. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9260] = { threat = "LOW", reason = "Outside Stormwind, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of Ironforge
-    [9261] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Ironforge. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9261] = { threat = "LOW", reason = "Outside Ironforge, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of Darnassus
-    [9262] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Darnassus. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9262] = { threat = "LOW", reason = "Outside Darnassus, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Cracked Necrotic Crystal
     [9292] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },

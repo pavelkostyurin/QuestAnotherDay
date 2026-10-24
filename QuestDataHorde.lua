@@ -3930,13 +3930,13 @@ local quests = {
     [9032] = { threat = "MEDIUM", reason = "The Ghost Revealer leads to Bodley near the Blackrock Spire balcony, outside the instance. Hostile level 55–58 mobs patrol Blackrock Mountain; keep an escape route and avoid pulls while using the item.", confidence = "medium" },
 
     -- Investigate the Scourge of Orgrimmar
-    [9263] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Orgrimmar. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9263] = { threat = "LOW", reason = "Outside Orgrimmar, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of Thunder Bluff
-    [9264] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Thunder Bluff. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9264] = { threat = "LOW", reason = "Outside Thunder Bluff, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of the Undercity
-    [9265] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside the Undercity. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9265] = { threat = "LOW", reason = "Outside the Undercity, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Faint Necrotic Crystal
     [9310] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },

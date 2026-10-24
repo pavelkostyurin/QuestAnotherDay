@@ -11292,10 +11292,10 @@ addon.quests = {
     [9204] = { threat = "LOW", reason = "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.", confidence = "medium" },
 
     -- Craftsman's Writ - Plated Armorfish
-    [9205] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 30 Plated Armorfish. Safe if you stay in the area.", confidence = "high" },
+    [9205] = { threat = "LOW", reason = "Fishing writ for 30 Plated Armorfish. Fish from safer water or buy/trade for them; the delivery at Light’s Hope Chapel adds no combat.", confidence = "medium" },
 
     -- Craftsman's Writ - Lightning Eel
-    [9206] = { threat = "LOW", reason = "Profession turn-in with no combat. Requires 30 Lightning Eel. Safe if you stay in the area.", confidence = "high" },
+    [9206] = { threat = "LOW", reason = "Fishing writ for 30 Lightning Eels. Moonglade offers safer fishing, or buy/trade for the catch; the delivery at Light’s Hope Chapel adds no combat.", confidence = "medium" },
 
     -- The Savage Guard - Arcanum of Protection
     [9208] = { threat = "LOW", reason = "Zul'Gurub turn-in with no combat. Requires an Arcanum of Protection. Safe if you stay in the area.", confidence = "high" },
@@ -11307,34 +11307,34 @@ addon.quests = {
     [9210] = { threat = "LOW", reason = "Zul'Gurub turn-in with no combat. Requires an Arcanum of Focus. Safe if you stay in the area.", confidence = "high" },
 
     -- The Ice Guard
-    [9211] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 10 Insignia of the Crusade and 30 gold. Safe if you stay in the area.", confidence = "high" },
+    [9211] = { threat = "LOW", reason = "Turn in 10 Insignia of the Crusade and 30 gold at Light’s Hope Chapel for Ice Guard. This is a stationary currency hand-in with no combat objective.", confidence = "medium" },
 
     -- The Shadow Guard
-    [9213] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 10 Insignia of the Crusade and 30 gold. Safe if you stay in the area.", confidence = "high" },
+    [9213] = { threat = "LOW", reason = "Turn in 10 Insignia of the Crusade and 30 gold at Light’s Hope Chapel for Shadow Guard. This is a stationary currency hand-in with no combat objective.", confidence = "medium" },
 
     -- Superior Armaments of Battle - Friend of the Dawn
-    [9221] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 30 Insignia of the Dawn and 30 Insignia of the Crusade. Safe if you stay in the area.", confidence = "high" },
+    [9221] = { threat = "LOW", reason = "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.", confidence = "medium" },
 
     -- Epic Armaments of Battle - Friend of the Dawn
-    [9222] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 110 Insignia of the Dawn and 110 Insignia of the Crusade. Safe if you stay in the area.", confidence = "high" },
+    [9222] = { threat = "LOW", reason = "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.", confidence = "medium" },
 
     -- Superior Armaments of Battle - Honored Amongst the Dawn
-    [9223] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 20 Insignia of the Dawn and 20 Insignia of the Crusade. Safe if you stay in the area.", confidence = "high" },
+    [9223] = { threat = "LOW", reason = "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.", confidence = "medium" },
 
     -- Epic Armaments of Battle - Honored Amongst the Dawn
-    [9224] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 75 Insignia of the Dawn and 75 Insignia of the Crusade. Safe if you stay in the area.", confidence = "high" },
+    [9224] = { threat = "LOW", reason = "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.", confidence = "medium" },
 
     -- Epic Armaments of Battle - Revered Amongst the Dawn
-    [9225] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 45 Insignia of the Dawn and 45 Insignia of the Crusade. Safe if you stay in the area.", confidence = "high" },
+    [9225] = { threat = "LOW", reason = "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.", confidence = "medium" },
 
     -- Superior Armaments of Battle - Revered Amongst the Dawn
-    [9226] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 7 Insignia of the Dawn and 7 Insignia of the Crusade. Safe if you stay in the area.", confidence = "high" },
+    [9226] = { threat = "LOW", reason = "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.", confidence = "medium" },
 
     -- Superior Armaments of Battle - Exalted Amongst the Dawn
-    [9227] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 6 Insignia of the Dawn and 6 Insignia of the Crusade. Safe if you stay in the area.", confidence = "high" },
+    [9227] = { threat = "LOW", reason = "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.", confidence = "medium" },
 
     -- Epic Armaments of Battle - Exalted Amongst the Dawn
-    [9228] = { threat = "LOW", reason = "Argent Dawn reputation turn-in with no combat. Requires 27 Insignia of the Dawn and 27 Insignia of the Crusade. Safe if you stay in the area.", confidence = "high" },
+    [9228] = { threat = "LOW", reason = "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.", confidence = "medium" },
 
     -- The Fate of Ramaladni
     [9229] = { threat = "EXTREME", reason = "Requires entering Naxxramas, a level 60 raid dungeon, to uncover the Fate of Ramaladni. A full raid group of 40 players is required. Do not attempt solo.", confidence = "high" },
@@ -11388,10 +11388,10 @@ addon.quests = {
     [9246] = { threat = "EXTREME", reason = "Requires 8 Frozen Runes from Naxxramas. A full raid group is required for the runes. Do not attempt solo.", confidence = "high" },
 
     -- The Keeper's Call
-    [9247] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [9247] = { threat = "LOW", reason = "Deliver the provided letter to the Keeper of the Rolls at Light’s Hope Chapel. This is a travel and dialogue step with no combat objective; follow the road through Eastern Plaguelands and avoid unrelated packs.", confidence = "medium" },
 
     -- A Humble Offering
-    [9248] = { threat = "LOW", reason = "Cenarion Circle reputation turn-in with no combat. Requires an Abyssal Scepter. Safe if you stay in the area.", confidence = "high" },
+    [9248] = { threat = "EXTREME", reason = "Requires an Abyssal Scepter from a summoned Lord of the Abyssal Council in Silithus. Era reports recommend a 20–30 player group to defeat the boss; solo completion at level 60 is not realistic. Organize a large group before summoning.", confidence = "medium" },
 
     -- Frame of Atiesh
     [9250] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
@@ -11403,24 +11403,36 @@ addon.quests = {
     [9257] = { threat = "EXTREME", reason = "Requires entering Stratholme to use Atiesh on Consecrated Earth and defeat the entity that is exorcised. The entity is a level 62 elite. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Investigate the Scourge of Stormwind
-    [9260] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Stormwind and investigating runic circles. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    -- Traitor to the Bloodsail (9259)
+    [9259] = { threat = "LOW", reason = "Repeatable Booty Bay reputation hand-in for 40 Silk Cloth and 4 Red Dye. These materials can be purchased or traded, and the turn-in itself has no combat objective.", confidence = "medium" },
+
+    [9260] = { threat = "LOW", reason = "Outside Stormwind, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of Ironforge
-    [9261] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Ironforge. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9261] = { threat = "LOW", reason = "Outside Ironforge, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of Darnassus
-    [9262] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Darnassus. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9262] = { threat = "LOW", reason = "Outside Darnassus, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of Orgrimmar
-    [9263] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Orgrimmar. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9263] = { threat = "LOW", reason = "Outside Orgrimmar, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of Thunder Bluff
-    [9264] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside Thunder Bluff. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9264] = { threat = "LOW", reason = "Outside Thunder Bluff, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Investigate the Scourge of the Undercity
-    [9265] = { threat = "MEDIUM", reason = "Requires collecting Dim Necrotic Stones from Scourge outside the Undercity. The Scourge are level 55-58 and pull in groups. Do not attempt below level 55 solo.", confidence = "medium" },
+    [9265] = { threat = "LOW", reason = "Outside the Undercity, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.", confidence = "medium" },
 
     -- Atiesh, Greatstaff of the Guardian (9269)
+    -- Making Amends (9266)
+    [9266] = { threat = "LOW", reason = "Repeatable Everlook reputation hand-in for 40 Runecloth and 4 Coal. The trade goods can be purchased or traded, and the turn-in itself has no combat objective.", confidence = "medium" },
+
+    -- Mending Old Wounds (9267)
+    [9267] = { threat = "LOW", reason = "Repeatable Ratchet reputation hand-in for 40 Linen Cloth and 4 Empty Vials. The trade goods can be purchased or traded, and the turn-in itself has no combat objective.", confidence = "medium" },
+
+    -- War at Sea (9268)
+    [9268] = { threat = "LOW", reason = "Repeatable Gadgetzan reputation hand-in for 40 Mageweave Cloth and 4 Strong Flux. The trade goods can be purchased or traded, and the turn-in itself has no combat objective.", confidence = "medium" },
+
     [9269] = { threat = "EXTREME", reason = "Requires entering Stratholme to use Atiesh on Consecrated Earth and defeat the entity that is exorcised. The entity is a level 62 elite. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Atiesh, Greatstaff of the Guardian (9270)

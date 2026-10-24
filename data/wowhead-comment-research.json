@@ -101500,6 +101500,1008 @@
       "reason": "Deliver the prepared profession supplies named on this writ to Packmaster Stonebruiser at Light’s Hope Chapel. Craft or trade for the items before travelling; the hand-in itself has no combat objective.",
       "threat": "LOW",
       "confidence": "medium"
+    },
+    {
+      "questId": 9205,
+      "questName": "Craftsman's Writ - Plated Armorfish",
+      "url": "https://www.wowhead.com/classic/quest=9205",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 2,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Plated Armorfish",
+          "url": "https://www.wowhead.com/classic/quest=9205/craftsmans-writ-plated-armorfish",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest requires delivery of 30 Plated Armorfish and the writ to Packmaster Stonebruiser at Light’s Hope Chapel. Era comments identify multiple fishing areas and trading through the Auction House."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest is a fishing-supply writ, with safe fishing locations or trade as alternatives to exposed pools. LOW reflects the lack of required combat during hand-in; confidence is medium.",
+      "reason": "Fishing writ for 30 Plated Armorfish. Fish from safer water or buy/trade for them; the delivery at Light’s Hope Chapel adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9206,
+      "questName": "Craftsman's Writ - Lightning Eel",
+      "url": "https://www.wowhead.com/classic/quest=9206",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 2,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Craftsman’s Writ - Lightning Eel",
+          "url": "https://www.wowhead.com/classic/quest=9206/craftsmans-writ-lightning-eel",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Writ requires delivery of 30 Lightning Eels at Light’s Hope Chapel. Era comments identify fishing locations including Moonglade and Eastern Plaguelands; the fish can also be bought or traded."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The quest is a fishing-supply writ, with safe fishing locations or trade as alternatives to exposed pools. LOW reflects the lack of required combat during hand-in; confidence is medium.",
+      "reason": "Fishing writ for 30 Lightning Eels. Moonglade offers safer fishing, or buy/trade for the catch; the delivery at Light’s Hope Chapel adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9208,
+      "questName": "The Savage Guard - Arcanum of Protection",
+      "url": "https://www.wowhead.com/classic/quest=9208",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9209,
+      "questName": "The Savage Guard - Arcanum of Rapidity",
+      "url": "https://www.wowhead.com/classic/quest=9209",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9210,
+      "questName": "The Savage Guard - Arcanum of Focus",
+      "url": "https://www.wowhead.com/classic/quest=9210",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9211,
+      "questName": "The Ice Guard",
+      "url": "https://www.wowhead.com/classic/quest=9211",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Ice Guard",
+          "url": "https://www.wowhead.com/classic/quest=9211/the-ice-guard",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Classic quest requires 10 Insignia of the Crusade and 30 gold at Light’s Hope Chapel, with no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Turn in 10 Insignia of the Crusade and 30 gold at Light’s Hope Chapel for Ice Guard. This is a stationary currency hand-in with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9213,
+      "questName": "The Shadow Guard",
+      "url": "https://www.wowhead.com/classic/quest=9213",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Shadow Guard",
+          "url": "https://www.wowhead.com/classic/quest=9213/the-shadow-guard",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Classic quest requires 10 Insignia of the Crusade and 30 gold at Light’s Hope Chapel, with no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Turn in 10 Insignia of the Crusade and 30 gold at Light’s Hope Chapel for Shadow Guard. This is a stationary currency hand-in with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9221,
+      "questName": "Superior Armaments of Battle - Friend of the Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9221",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Superior Armaments of Battle - Friend of the Dawn",
+          "url": "https://www.wowhead.com/classic/quest=9221/superior-armaments-of-battle-friend-of-the-dawn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest exchanges Argent Dawn insignias for a chosen item at the Light’s Hope quartermaster; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9222,
+      "questName": "Epic Armaments of Battle - Friend of the Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9222",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Superior Armaments of Battle - Friend of the Dawn",
+          "url": "https://www.wowhead.com/classic/quest=9221/superior-armaments-of-battle-friend-of-the-dawn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest exchanges Argent Dawn insignias for a chosen item at the Light’s Hope quartermaster; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9223,
+      "questName": "Superior Armaments of Battle - Honored Amongst the Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9223",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Superior Armaments of Battle - Friend of the Dawn",
+          "url": "https://www.wowhead.com/classic/quest=9221/superior-armaments-of-battle-friend-of-the-dawn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest exchanges Argent Dawn insignias for a chosen item at the Light’s Hope quartermaster; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9224,
+      "questName": "Epic Armaments of Battle - Honored Amongst the Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9224",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Superior Armaments of Battle - Friend of the Dawn",
+          "url": "https://www.wowhead.com/classic/quest=9221/superior-armaments-of-battle-friend-of-the-dawn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest exchanges Argent Dawn insignias for a chosen item at the Light’s Hope quartermaster; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9225,
+      "questName": "Epic Armaments of Battle - Revered Amongst the Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9225",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Epic Armaments of Battle - Exalted Amongst the Dawn",
+          "url": "https://www.wowhead.com/classic/quest=9228/epic-armaments-of-battle-exalted-amongst-the-dawn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest exchanges Argent Dawn insignias for a chosen item at the Light’s Hope quartermaster; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9226,
+      "questName": "Superior Armaments of Battle - Revered Amongst the Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9226",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Epic Armaments of Battle - Exalted Amongst the Dawn",
+          "url": "https://www.wowhead.com/classic/quest=9228/epic-armaments-of-battle-exalted-amongst-the-dawn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest exchanges Argent Dawn insignias for a chosen item at the Light’s Hope quartermaster; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9227,
+      "questName": "Superior Armaments of Battle - Exalted Amongst the Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9227",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Epic Armaments of Battle - Exalted Amongst the Dawn",
+          "url": "https://www.wowhead.com/classic/quest=9228/epic-armaments-of-battle-exalted-amongst-the-dawn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest exchanges Argent Dawn insignias for a chosen item at the Light’s Hope quartermaster; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9228,
+      "questName": "Epic Armaments of Battle - Exalted Amongst the Dawn",
+      "url": "https://www.wowhead.com/classic/quest=9228",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Epic Armaments of Battle - Exalted Amongst the Dawn",
+          "url": "https://www.wowhead.com/classic/quest=9228/epic-armaments-of-battle-exalted-amongst-the-dawn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest exchanges Argent Dawn insignias for a chosen item at the Light’s Hope quartermaster; it adds no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Exchange the required Insignias of the Dawn and Crusade at the Light’s Hope quartermaster for an item. This currency hand-in adds no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9229,
+      "questName": "The Fate of Ramaladni",
+      "url": "https://www.wowhead.com/classic/quest=9229",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9230,
+      "questName": "Ramaladni's Icy Grasp",
+      "url": "https://www.wowhead.com/classic/quest=9230",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9232,
+      "questName": "The Only Song I Know...",
+      "url": "https://www.wowhead.com/classic/quest=9232",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9233,
+      "questName": "Omarion's Handbook",
+      "url": "https://www.wowhead.com/classic/quest=9233",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9234,
+      "questName": "Icebane Gauntlets",
+      "url": "https://www.wowhead.com/classic/quest=9234",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9235,
+      "questName": "Icebane Bracers",
+      "url": "https://www.wowhead.com/classic/quest=9235",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9236,
+      "questName": "Icebane Breastplate",
+      "url": "https://www.wowhead.com/classic/quest=9236",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9237,
+      "questName": "Glacial Cloak",
+      "url": "https://www.wowhead.com/classic/quest=9237",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9238,
+      "questName": "Glacial Wrists",
+      "url": "https://www.wowhead.com/classic/quest=9238",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9239,
+      "questName": "Glacial Gloves",
+      "url": "https://www.wowhead.com/classic/quest=9239",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9240,
+      "questName": "Glacial Vest",
+      "url": "https://www.wowhead.com/classic/quest=9240",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9241,
+      "questName": "Polar Bracers",
+      "url": "https://www.wowhead.com/classic/quest=9241",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9242,
+      "questName": "Polar Gloves",
+      "url": "https://www.wowhead.com/classic/quest=9242",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9243,
+      "questName": "Polar Tunic",
+      "url": "https://www.wowhead.com/classic/quest=9243",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9244,
+      "questName": "Icy Scale Bracers",
+      "url": "https://www.wowhead.com/classic/quest=9244",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9245,
+      "questName": "Icy Scale Gauntlets",
+      "url": "https://www.wowhead.com/classic/quest=9245",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9246,
+      "questName": "Icy Scale Breastplate",
+      "url": "https://www.wowhead.com/classic/quest=9246",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9247,
+      "questName": "The Keeper's Call",
+      "url": "https://www.wowhead.com/classic/quest=9247",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Keeper’s Call",
+          "url": "https://www.wowhead.com/classic/quest=9247/the-keepers-call",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest asks the player to deliver a provided letter to the Keeper of the Rolls at Light’s Hope Chapel."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Deliver the provided letter to the Keeper of the Rolls at Light’s Hope Chapel. This is a travel and dialogue step with no combat objective; follow the road through Eastern Plaguelands and avoid unrelated packs.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9248,
+      "questName": "A Humble Offering",
+      "url": "https://www.wowhead.com/classic/quest=9248",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed Classic Era comments on the summoned Lord encounter; two reports recommend a 20–30 player group. The encounter is an open-world summons rather than a dungeon or raid instance, so the quest was rated rather than skipped.",
+      "commentsReviewed": 3,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "A Humble Offering",
+          "url": "https://www.wowhead.com/classic/quest=9248/a-humble-offering",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest requires an Abyssal Scepter from a summoned Lord of the Abyssal Council in Silithus. Classic Era comments state that this level-60 boss required roughly a 20–30 player raid/group, supporting EXTREME solo danger."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The Abyssal Scepter requires defeating a summoned Lord of the Abyssal Council. Era comments describe a 20–30 player group for this level-60 open-world boss. EXTREME reflects that solo completion at intended level is not realistic; confidence is medium because the group-size reports vary.",
+      "reason": "Requires an Abyssal Scepter from a summoned Lord of the Abyssal Council in Silithus. Era reports recommend a 20–30 player group to defeat the boss; solo completion at level 60 is not realistic. Organize a large group before summoning.",
+      "threat": "EXTREME",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9250,
+      "questName": "Frame of Atiesh",
+      "url": "https://www.wowhead.com/classic/quest=9250",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9251,
+      "questName": "Atiesh, the Befouled Greatstaff",
+      "url": "https://www.wowhead.com/classic/quest=9251",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a raid quest."
+    },
+    {
+      "questId": 9257,
+      "questName": "Atiesh, Greatstaff of the Guardian",
+      "url": "https://www.wowhead.com/classic/quest=9257",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 9259,
+      "questName": "Traitor to the Bloodsail",
+      "url": "https://www.wowhead.com/classic/quest=9259",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Traitor to the Bloodsail",
+          "url": "https://www.wowhead.com/classic/quest=9259/traitor-to-the-bloodsail",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest requires 40 Silk Cloth and 4 Red Dye, both purchasable or tradeable supplies; no combat objective is required."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Repeatable Booty Bay reputation hand-in for 40 Silk Cloth and 4 Red Dye. These materials can be purchased or traded, and the turn-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9260,
+      "questName": "Investigate the Scourge of Stormwind",
+      "url": "https://www.wowhead.com/classic/quest=9260",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic objective for the local invasion camp; low-level Scourge and the nearby city make this a low-risk three-item objective when pulled one at a time.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Investigate the Scourge of Stormwind",
+          "url": "https://www.wowhead.com/classic/quest=9260/investigate-the-scourge-of-stormwind",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Classic invasion quest requires three Dim Necrotic Stones from the Scourge outside Stormwind and one runic-circle investigation."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is to collect three Dim Necrotic Stones from low-level Scourge outside the named capital and investigate a nearby rune circle. LOW reflects the low-level mobs, brief objective, and nearby guards; confidence is medium.",
+      "reason": "Outside Stormwind, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9261,
+      "questName": "Investigate the Scourge of Ironforge",
+      "url": "https://www.wowhead.com/classic/quest=9261",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic objective for the local invasion camp; low-level Scourge and the nearby city make this a low-risk three-item objective when pulled one at a time.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Investigate the Scourge of Ironforge",
+          "url": "https://www.wowhead.com/classic/quest=9261/investigate-the-scourge-of-ironforge",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Classic invasion quest requires three Dim Necrotic Stones from low-level Scourge outside Ironforge and one runic-circle investigation; Era reports describe level 8–10 mobs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is to collect three Dim Necrotic Stones from low-level Scourge outside the named capital and investigate a nearby rune circle. LOW reflects the low-level mobs, brief objective, and nearby guards; confidence is medium.",
+      "reason": "Outside Ironforge, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9262,
+      "questName": "Investigate the Scourge of Darnassus",
+      "url": "https://www.wowhead.com/classic/quest=9262",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic objective for the local invasion camp; low-level Scourge and the nearby city make this a low-risk three-item objective when pulled one at a time.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Investigate the Scourge of Darnassus",
+          "url": "https://www.wowhead.com/classic/quest=9262/investigate-the-scourge-of-darnassus",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Classic invasion quest requires three Dim Necrotic Stones from the Scourge outside Darnassus and one runic-circle investigation; Era reports describe the step as easy at low levels."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is to collect three Dim Necrotic Stones from low-level Scourge outside the named capital and investigate a nearby rune circle. LOW reflects the low-level mobs, brief objective, and nearby guards; confidence is medium.",
+      "reason": "Outside Darnassus, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9263,
+      "questName": "Investigate the Scourge of Orgrimmar",
+      "url": "https://www.wowhead.com/classic/quest=9263",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic objective for the local invasion camp; low-level Scourge and the nearby city make this a low-risk three-item objective when pulled one at a time.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Investigate the Scourge of Orgrimmar",
+          "url": "https://www.wowhead.com/classic/quest=9263/investigate-the-scourge-of-orgrimmar",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Classic invasion quest requires three Dim Necrotic Stones from the Scourge outside Orgrimmar and one runic-circle investigation."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is to collect three Dim Necrotic Stones from low-level Scourge outside the named capital and investigate a nearby rune circle. LOW reflects the low-level mobs, brief objective, and nearby guards; confidence is medium.",
+      "reason": "Outside Orgrimmar, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9264,
+      "questName": "Investigate the Scourge of Thunder Bluff",
+      "url": "https://www.wowhead.com/classic/quest=9264",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic objective for the local invasion camp; low-level Scourge and the nearby city make this a low-risk three-item objective when pulled one at a time.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Investigate the Scourge of Thunder Bluff",
+          "url": "https://www.wowhead.com/classic/quest=9264/investigate-the-scourge-of-thunder-bluff",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Classic invasion quest requires three Dim Necrotic Stones from the Scourge outside Thunder Bluff and one runic-circle investigation."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is to collect three Dim Necrotic Stones from low-level Scourge outside the named capital and investigate a nearby rune circle. LOW reflects the low-level mobs, brief objective, and nearby guards; confidence is medium.",
+      "reason": "Outside Thunder Bluff, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9265,
+      "questName": "Investigate the Scourge of the Undercity",
+      "url": "https://www.wowhead.com/classic/quest=9265",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic objective for the local invasion camp; low-level Scourge and the nearby city make this a low-risk three-item objective when pulled one at a time.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Investigate the Scourge of the Undercity",
+          "url": "https://www.wowhead.com/classic/quest=9265/investigate-the-scourge-of-the-undercity",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Classic invasion quest requires three Dim Necrotic Stones from the Scourge outside the Undercity and one runic-circle investigation; Era reports describe low-level mobs and single-target pulls."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is to collect three Dim Necrotic Stones from low-level Scourge outside the named capital and investigate a nearby rune circle. LOW reflects the low-level mobs, brief objective, and nearby guards; confidence is medium.",
+      "reason": "Outside the Undercity, collect three Dim Necrotic Stones from low-level Scourge and step into a runic circle. Pull nearby invaders one at a time; city guards are close by.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9266,
+      "questName": "Making Amends",
+      "url": "https://www.wowhead.com/classic/quest=9266",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Making Amends",
+          "url": "https://www.wowhead.com/classic/quest=9266/making-amends",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest is a repeatable cloth and vendor-supply hand-in for Everlook reputation; it requires Runecloth and Coal, not combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Repeatable Everlook reputation hand-in for 40 Runecloth and 4 Coal. The trade goods can be purchased or traded, and the turn-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9267,
+      "questName": "Mending Old Wounds",
+      "url": "https://www.wowhead.com/classic/quest=9267",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Mending Old Wounds",
+          "url": "https://www.wowhead.com/classic/quest=9267/mending-old-wounds",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest is a repeatable cloth and vendor-supply hand-in for Ratchet reputation; it requires Linen Cloth and Empty Vials, not combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Repeatable Ratchet reputation hand-in for 40 Linen Cloth and 4 Empty Vials. The trade goods can be purchased or traded, and the turn-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9268,
+      "questName": "War at Sea",
+      "url": "https://www.wowhead.com/classic/quest=9268",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:36:26+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Reviewed the Classic Era objective and accessible completion method; no quest-comment ranking was needed for this danger assessment.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "War at Sea",
+          "url": "https://www.wowhead.com/classic/quest=9268/war-at-sea",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:36:26+03:00",
+          "evidence": "Quest is a repeatable cloth and vendor-supply hand-in for Gadgetzan reputation; it requires Mageweave Cloth and Strong Flux, not combat."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a stationary hand-in of provided mail, insignias, reputation tokens, cloth, or trade goods. It adds no quest combat; LOW reflects the turn-in and ordinary travel risk, with medium confidence.",
+      "reason": "Repeatable Gadgetzan reputation hand-in for 40 Mageweave Cloth and 4 Strong Flux. The trade goods can be purchased or traded, and the turn-in itself has no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 9269,
+      "questName": "Atiesh, Greatstaff of the Guardian",
+      "url": "https://www.wowhead.com/classic/quest=9269",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 9270,
+      "questName": "Atiesh, Greatstaff of the Guardian",
+      "url": "https://www.wowhead.com/classic/quest=9270",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 9271,
+      "questName": "Atiesh, Greatstaff of the Guardian",
+      "url": "https://www.wowhead.com/classic/quest=9271",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:36:26+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
     }
   ]
 }
