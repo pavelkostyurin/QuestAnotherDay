@@ -2397,25 +2397,25 @@ local quests = {
     [2609] = { threat = "LOW", reason = "These are gathered, purchased, or crafted supplies for a handoff in Booty Bay; no combat is required. Stay within the friendly settlement.", confidence = "medium" },
 
     -- Infiltrating the Castle
-    [2745] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2745] = { threat = "LOW", reason = "This is a dialogue step in Stormwind and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Items of Some Consequence
-    [2746] = { threat = "LOW", reason = "The cloth is purchased or gathered from low-level mobs, and the apples are purchased from a vendor. No combat required. Safe if you stay in the city.", confidence = "high" },
+    [2746] = { threat = "LOW", reason = "This is a city handoff of cloth and vendor-purchased apples; no combat is required. Stay within Stormwind.", confidence = "medium" },
 
     -- The Origins of Smithing
-    [2758] = { threat = "LOW", reason = "Bring six Golden Scale Bracers to Hank the Hammer in Stormwind. This is a crafting and delivery step with no combat. The materials are crafted or purchased. Safe if you stay in the city. This quest is Alliance-only.", confidence = "high" },
+    [2758] = { threat = "LOW", reason = "This is a crafted-item handoff in Stormwind and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- In Search of Galvan
-    [2759] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Booty Bay passes through Stranglethorn Vale, which is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
+    [2759] = { threat = "LOW", reason = "Travel and dialogue in Booty Bay add no combat. Follow the road and avoid hostile camps along the route.", confidence = "medium" },
 
     -- The Brassbolts Brothers
     [2769] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
 
     -- Petty Squabbles
-    [2783] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [2783] = { threat = "LOW", reason = "This is a travel and dialogue step to the Fallen Hero and adds no combat. Follow the road and avoid hostile camps.", confidence = "medium" },
 
     -- The Mark of Quality
-    [2821] = { threat = "LOW", reason = "The hides drop from yetis in Feralas. The yetis are levels 43-47 and are packed in the Feral Scar Vale. They hit hard and can pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
+    [2821] = { threat = "MEDIUM", reason = "Ten hides require repeated fights with yetis in Feral Scar Vale, where fast respawns or nearby creatures can add to a pull. Work from the edges, use skinning to shorten the hunt if available, and keep a retreat route.", confidence = "medium" },
 
     -- The Giant Guardian
     [2844] = { threat = "MEDIUM", reason = "Shay is a level 45 NPC on a mountain ledge, surrounded by level 44-48 harpies and wildlife. You must find her and escort her to Rockbiter's camp. The route is patrolled by harpies and gorillas. Clear the path ahead and watch for adds. Do not attempt below level 45 solo without a plan to avoid the harpies.", confidence = "medium" },

@@ -1695,37 +1695,37 @@ local quests = {
     [2623] = { threat = "MEDIUM", reason = "The murloc cave is crowded, and fleeing enemies can bring others into the fight. Clear a retreat path and isolate the target; leave if respawns close in.", confidence = "medium" },
 
     -- Rin'ji is Trapped!
-    [2742] = { threat = "HIGH", reason = "The escort triggers two waves of 3 elves each, and Rin'ji has a habit of aggroing every animal in the forest along his path. He is PvP-flagged, so Alliance players can kill him (and you) during the escort. A level 47 hunter had to kill an Alliance mage four times during the escort. Clear the path in front of the lodge before starting and be ready for adds. Do not attempt solo below level 46 .", confidence = "high" },
+    [2742] = { threat = "HIGH", reason = "Escort quest. Two groups of elves attack along the route, and Rin’ji can path into nearby wildlife; on PvP realms, opposing players can also attack the PvP-flagged escort. Clear the path first and bring help if you cannot manage the waves.", confidence = "medium" },
 
     -- Barbaric Battlements
-    [2751] = { threat = "MEDIUM", reason = "The mithril is found in the ogre caves and around the zone. The quest is a gathering step with light combat. Watch for patrolling ogres and troggs .", confidence = "medium" },
+    [2751] = { threat = "LOW", reason = "Most objectives are crafted or gathered, and the Sharp Claws can come from ordinary creatures. No dangerous encounter is required; avoid extra pulls while collecting materials.", confidence = "medium" },
 
     -- On Iron Pauldrons
-    [2752] = { threat = "MEDIUM", reason = "The iron is found in the trogg caves and around the zone. The quest is a gathering step with light combat. The caves respawn quickly, so clear methodically .", confidence = "medium" },
+    [2752] = { threat = "LOW", reason = "This is a blacksmithing-material handoff; the required axes and hammers are crafted or acquired before turning them in. No dangerous encounter is required.", confidence = "medium" },
 
     -- Trampled Under Foot
-    [2753] = { threat = "MEDIUM", reason = "The stone is found in the ogre camps and around the zone. The quest is a gathering step with light combat. Clear the area before looting .", confidence = "medium" },
+    [2753] = { threat = "LOW", reason = "This is a blacksmithing-material handoff; the required armor pieces are crafted or acquired before turning them in. No dangerous encounter is required.", confidence = "medium" },
 
     -- Horns of Frenzy
-    [2754] = { threat = "MEDIUM", reason = "The horns drop from ogres in the region. The quest is a collection step with light combat. Pull singles and watch for patrolling mobs .", confidence = "medium" },
+    [2754] = { threat = "LOW", reason = "This is a blacksmithing-material handoff; the required weapons and armor are crafted or acquired before turning them in. No dangerous encounter is required.", confidence = "medium" },
 
     -- Joys of Omosh
-    [2755] = { threat = "MEDIUM", reason = "The citrine is found in the ogre caves and around the zone. The quest is a gathering step with light combat. The caves have respawning mobs, so clear methodically .", confidence = "medium" },
+    [2755] = { threat = "LOW", reason = "This is a dance interaction in Orgrimmar and adds no combat. Perform the Omosh Dance of Joy.", confidence = "medium" },
 
     -- The Old Ways
-    [2756] = { threat = "MEDIUM", reason = "The truesilver is found in the ogre caves and around the zone. The quest is a gathering step with light combat. Watch for patrolling mobs and clear the area before mining .", confidence = "medium" },
+    [2756] = { threat = "LOW", reason = "This is a blacksmithing-material handoff; the required armor pieces are crafted or acquired before turning them in. No dangerous encounter is required.", confidence = "medium" },
 
     -- Booty Bay or Bust!
-    [2757] = { threat = "LOW", reason = "Travel step with no combat. The journey from the Badlands to Booty Bay passes through Stranglethorn Vale, which is contested. Stay on the road and avoid the pirate camps .", confidence = "medium" },
+    [2757] = { threat = "LOW", reason = "Travel to Booty Bay adds no combat. Follow the road through Stranglethorn Vale and avoid hostile camps.", confidence = "medium" },
 
     -- Rin'ji's Secret
-    [2782] = { threat = "MEDIUM", reason = "The island is guarded by level 50 turtles. You can avoid most of them by swimming to the island and climbing the arch. The tablet is on top of the arch. Do not attempt below level 45 without water breathing .", confidence = "high" },
+    [2782] = { threat = "LOW", reason = "This is a dialogue step with Oran in Undercity and adds no combat. Stay within the friendly city.", confidence = "medium" },
 
     -- Fall From Grace
-    [2784] = { threat = "LOW", reason = "Travel step with no combat. The journey passes through contested territory, but the destination is a Horde camp. Safe if you stay on the road .", confidence = "high" },
+    [2784] = { threat = "LOW", reason = "This is a travel and dialogue step to the Fallen Hero and adds no combat. Follow the road and avoid hostile camps.", confidence = "medium" },
 
     -- The Mark of Quality
-    [2822] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the camp .", confidence = "high" },
+    [2822] = { threat = "MEDIUM", reason = "Ten hides require repeated fights with yetis in Feral Scar Vale, where fast respawns or nearby creatures can add to a pull. Work from the edges, use skinning to shorten the hunt if available, and keep a retreat route.", confidence = "medium" },
 
     -- Rig Wars
     [2841] = { threat = "LOW", reason = "This is a prerequisite step for the Gnomeregan teleporter quest chain. Dialogue step with no combat. Safe if you stay in the city .", confidence = "high" },

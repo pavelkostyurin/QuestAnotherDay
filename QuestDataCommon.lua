@@ -723,61 +723,70 @@ addon.quests = {
     [2606] = { threat = "LOW", reason = "This is a dialogue step in Gadgetzan and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- Sprinkle's Secret Ingredient
-    [2641] = { threat = "MEDIUM", reason = "The Violet Tragan is a rare mushroom found in the Uldaman dungeon, guarded by elites. This requires a full group of level 38+. Do not attempt solo.", confidence = "high" },
+    [2641] = { threat = "MEDIUM", reason = "The Violet Tragan grows underwater in Valorwind Lake, so a long search can exhaust your breath. Locate the mushroom before diving, avoid fighting underwater, and surface early.", confidence = "high" },
 
     -- Delivery for Marin
-    [2661] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2661] = { threat = "LOW", reason = "This is a delivery within Gadgetzan and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- Noggenfogger Elixir
-    [2662] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2662] = { threat = "LOW", reason = "This is a dialogue step in Gadgetzan and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Stones That Bind Us
-    [2681] = { threat = "HIGH", reason = "This quest spawns multiple waves of enemies, culminating in a named mob. The area is confined and has no escape route. Group required for the intended level range (35-40). Solo attempts usually end in death.", confidence = "medium" },
+    [2681] = { threat = "EXTREME", reason = "Group quest. You must defeat and free eighteen servants beside binding stones across the Blasted Lands, while hostile camps and patrols can join fights. Bring a suitable group; skip it solo at the intended level.", confidence = "medium" },
 
     -- Heroes of Old
-    [2701] = { threat = "MEDIUM", reason = "The quest leads into the Sunken Temple's exterior, which is guarded by level 40-45 mobs. Clear the area before looting and watch for patrolling elites.", confidence = "medium" },
+    [2701] = { threat = "LOW", reason = "This is a chest interaction and reward claim after the preceding quest chain; it adds no combat. Stay near the friendly quest giver.", confidence = "medium" },
 
     -- Heroes of Old
-    [2702] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [2702] = { threat = "LOW", reason = "This is a dialogue step with Corporal Thund and adds no combat. Follow the road to the quest giver and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Kirith
-    [2721] = { threat = "MEDIUM", reason = "The quest leads to a guarded location. Clear the surrounding mobs before approaching and watch for patrolling elites.", confidence = "medium" },
+    [2721] = { threat = "HIGH", reason = "Elite quest. Kirith is an elite demon deep in a cave with nearby adds and fast respawns, making retreat hazardous. Clear the approach and bring help unless your class can control the adds.", confidence = "medium" },
 
     -- The Super Egg-O-Matic
-    [2741] = { threat = "MEDIUM", reason = "The device is in a guarded location. Clear the area before using it and be ready for adds.", confidence = "medium" },
+    [2741] = { threat = "MEDIUM", reason = "The Hippogryph Egg must be gathered from nests in the Frayfeather Highlands, where nearby hippogryphs can aggro. Approach from a clear route and leave without fighting if enemies converge.", confidence = "medium" },
 
     -- The Cover of Darkness
-    [2743] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to the Blasted Lands is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [2743] = { threat = "LOW", reason = "This is a delivery step to the Fallen Hero and adds no combat. Follow the road to the quest giver and avoid nearby hostile camps.", confidence = "medium" },
 
     -- The Demon Hunter
-    [2744] = { threat = "MEDIUM", reason = "The journey to Azshara is dangerous for low-level players, as the zone is patrolled by level 45-50 mobs. Stay on the road and avoid the mob camps. Do not attempt below level 45 solo.", confidence = "medium" },
+    [2744] = { threat = "MEDIUM", reason = "Travel to Loramus in Azshara crosses hostile territory, but the objective adds no combat. Use flight points and roads, and avoid nearby camps.", confidence = "medium" },
+
+    -- An Extraordinary Egg
+    [2747] = { threat = "LOW", reason = "This is an egg handoff to Curgle in Gadgetzan; it adds no combat after the egg is received from the Egg Crate. Stay within the friendly settlement.", confidence = "medium" },
+
+    -- A Fine Egg
+    [2748] = { threat = "LOW", reason = "This is an egg handoff to Curgle in Gadgetzan; it adds no combat after the egg is received from the Egg Crate. Stay within the friendly settlement.", confidence = "medium" },
+
+    -- An Ordinary Egg
+    [2749] = { threat = "LOW", reason = "This is an egg handoff to Curgle in Gadgetzan; it adds no combat after the egg is received from the Egg Crate. Stay within the friendly settlement.", confidence = "medium" },
 
     -- A Bad Egg
-    [2750] = { threat = "LOW", reason = "This is a repeatable delivery quest with no combat. The egg is picked up from nests in Feralas, guarded by level 40-44 hippogryphs. The drop rate is 100%, but you can only carry one at a time. Manageable solo for a level 42+ character.", confidence = "high" },
+    [2750] = { threat = "LOW", reason = "This is an egg handoff to Curgle in Gadgetzan; it adds no combat after the egg is received from the Egg Crate. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Mithril Order
-    [2760] = { threat = "LOW", reason = "This is a dialogue step with no combat. Galvan is in a cave north of the Ruins of Jubuwal. The journey is dangerous for low-level players. Do not attempt below level 35 solo.", confidence = "medium" },
+    [2760] = { threat = "LOW", reason = "This is a dialogue step with Galvan in Stranglethorn Vale and adds no combat. Approach the cave carefully and avoid nearby camps.", confidence = "medium" },
 
     -- Smelt On, Smelt Off
-    [2761] = { threat = "LOW", reason = "This is a profession quest with no combat objective beyond mining the bars. Safe if you avoid the mob camps while mining. Do not attempt below level 35 solo.", confidence = "medium" },
+    [2761] = { threat = "LOW", reason = "This is a profession-material handoff; the mithril and iron bars can be smelted or acquired before the trip. Avoid hostile camps while mining.", confidence = "medium" },
 
     -- The Great Silver Deceiver
-    [2762] = { threat = "LOW", reason = "This is a profession quest with no combat objective beyond mining the bars. Safe if you avoid the mob camps while mining. Do not attempt below level 35 solo.", confidence = "medium" },
+    [2762] = { threat = "LOW", reason = "This is a profession-material handoff; the bars can be smelted or acquired before the trip. Avoid hostile camps while mining.", confidence = "medium" },
 
     -- The Art of the Imbue
-    [2763] = { threat = "LOW", reason = "This is a profession quest with no combat objective beyond mining and purchasing the materials. Safe if you avoid the mob camps while mining. Do not attempt below level 35 solo.", confidence = "medium" },
+    [2763] = { threat = "LOW", reason = "This is a profession-material handoff; the bars can be smelted or acquired before the trip. Avoid hostile camps while mining.", confidence = "medium" },
 
     -- Galvan's Finest Pupil
-    [2764] = { threat = "LOW", reason = "This is a dialogue step with no combat. The journey to Gadgetzan passes through Tanaris, which is dangerous for low-level players. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2764] = { threat = "LOW", reason = "This is a travel and dialogue step to Gadgetzan and adds no combat. Use the road and avoid hostile camps.", confidence = "medium" },
 
     -- Expert Blacksmith!
-    [2765] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [2765] = { threat = "LOW", reason = "This is a reward handoff with Galvan and adds no combat. Stay near the friendly quest giver.", confidence = "medium" },
 
     -- Find OOX-22/FE!
-    [2766] = { threat = "MEDIUM", reason = "The cave is filled with level 40-44 Frayfeather hippogryphs that pull in groups. The robot is deep inside the cave. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2766] = { threat = "MEDIUM", reason = "The beacon leads to a robot in the Feral Scar yeti cave. Clear a route through the cave, watch for quick respawns, and leave if nearby enemies close off the exit.", confidence = "medium" },
 
     -- Rescue OOX-22/FE!
-    [2767] = { threat = "HIGH", reason = "The robot moves fast, does not help you fight, and despawns if it gets too far ahead. The escort spawns scripted ambushes including level 42-46 mobs. The route passes through hippogryph and naga territory. The robot cannot be healed effectively. Do not attempt below level 42 solo without a plan to manage the ambushes and keep the robot alive.", confidence = "high" },
+    [2767] = { threat = "HIGH", reason = "Escort quest. The robot keeps moving during three scripted ambushes and can die before the attackers are cleared. Mark the groups, clear the route beforehand if possible, and bring help if you cannot control several attackers at once.", confidence = "medium" },
 
     -- Divino-matic Rod
     [2768] = { threat = "MEDIUM", reason = "The rod is in Zul'Farrak, a level 44-50 dungeon filled with elites. This requires a full group of level 46+. Do not attempt solo.", confidence = "high" },
@@ -786,19 +795,19 @@ addon.quests = {
     [2770] = { threat = "HIGH", reason = "Gahz'rilla is a level 46 elite hydra in Zul'Farrak, summoned by ringing a gong. The fight takes place in a confined area with water, and he has a knockback that can send you flying. This requires a full group of level 46+. A level 49 shaman soloed this, but it required specific tactics and multiple attempts. Do not attempt solo at the intended level without a group.", confidence = "high" },
 
     -- A Good Head On Your Shoulders
-    [2771] = { threat = "LOW", reason = "Bring two Mithril Coifs and one Ornate Mithril Shoulder to Trenton Lighthammer. This is a crafting and delivery step with no combat. The materials are crafted. Safe if you stay in the city.", confidence = "high" },
+    [2771] = { threat = "LOW", reason = "This is a crafted-item handoff to Trenton in Gadgetzan and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The World At Your Feet
-    [2772] = { threat = "LOW", reason = "Bring two Heavy Mithril Boots and one Ornate Mithril Pants to Trenton Lighthammer. This is a crafting and delivery step with no combat. The materials are crafted. Safe if you stay in the city.", confidence = "high" },
+    [2772] = { threat = "LOW", reason = "This is a crafted-item handoff to Trenton in Gadgetzan and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- The Mithril Kid
-    [2773] = { threat = "LOW", reason = "Bring two Heavy Mithril Breastplates and one Ornate Mithril Gloves to Trenton Lighthammer. This is a crafting and delivery step with no combat. The materials are crafted. Safe if you stay in the city.", confidence = "high" },
+    [2773] = { threat = "LOW", reason = "This is a crafted-item handoff to Trenton in Gadgetzan and adds no combat. Stay within the friendly settlement.", confidence = "medium" },
 
     -- WANTED: Caliph Scorpidsting
-    [2781] = { threat = "HIGH", reason = "Caliph is a level 46 named Wastewander who patrols the Waterspring Field with two stealthed rogue bodyguards. The rogues are invisible and will ambush you when you engage. A level 42 hunter was killed trying to solo this. A level 40 rogue soloed it using Distract to separate Caliph from his guards. Do not attempt below level 44 solo without a plan to handle the stealthed bodyguards.", confidence = "high" },
+    [2781] = { threat = "MEDIUM", reason = "Caliph travels with two stealthed Wastewander rogues, so an unexpected pull can become a three-enemy fight. Pull from clear ground and be ready to control the adds or retreat.", confidence = "medium" },
 
     -- A Tale of Sorrow
-    [2801] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [2801] = { threat = "LOW", reason = "This is a dialogue step with the Fallen Hero and adds no combat. Stay near the friendly quest giver.", confidence = "medium" },
 
     -- Tiara of the Deep
     [2846] = { threat = "HIGH", reason = "The tiara is in the Sunken Temple, a level 50-55 dungeon filled with elites. This requires a full group of level 50+. Do not attempt solo.", confidence = "high" },
