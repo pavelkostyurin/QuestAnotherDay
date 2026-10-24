@@ -3822,16 +3822,79 @@ local quests = {
     [7678] = { threat = "LOW", reason = "Exchange your mount for a Palomino with the Stormwind mount vendor. This reward transaction adds no combat.", confidence = "medium" },
 
     -- Improved Quality
-    [7733] = { threat = "MEDIUM", reason = "Rage Scar Yeti Hides drop from yetis in Feralas, levels 43-47. The yetis are aggressive and pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
+    [7733] = { threat = "MEDIUM", reason = "Collect ten Rage Scar Yeti Hides in Feralas. The yetis occupy hostile camps where nearby enemies can join a fight; pull from the edge and avoid overlapping spawns.", confidence = "medium" },
 
     -- Pristine Yeti Hide
-    [7735] = { threat = "MEDIUM", reason = "The Pristine Yeti Hide drops from yetis in Feralas, levels 43-47. The drop rate is low, so expect a long grind. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
+    [7735] = { threat = "MEDIUM", reason = "Retrieve a Pristine Yeti Hide from the hostile Rage Scar Yeti camps in Feralas. Repeated attempts can leave you exposed to nearby enemies; work from the camp edge and keep an escape route.", confidence = "low" },
 
     -- The Lord of Blackrock
-    [7781] = { threat = "LOW", reason = "Delivery step with no combat. The Head of Nefarian is obtained from a raid; this is a turn-in to Bolvar in Stormwind. Safe if you stay in the city.", confidence = "high" },
+    [7781] = { threat = "LOW", reason = "Take Nefarian’s Head to Highlord Bolvar Fordragon in Stormwind. This city hand-in adds no combat.", confidence = "medium" },
 
     -- The Lord of Blackrock
-    [7782] = { threat = "LOW", reason = "Delivery step with no combat. Requires the Head of Nefarian from Blackwing Lair. Turn-in to Field Marshal Afrasiabi in Stormwind. Safe if you stay in the city.", confidence = "high" },
+    [7782] = { threat = "LOW", reason = "Speak with Field Marshal Afrasiabi in Stormwind after the Blackrock victory. This city dialogue step adds no combat.", confidence = "medium" },
+
+    -- Vanquish the Invaders!
+    [7788] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
+
+    -- A Donation of Wool
+    [7791] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Wool
+    [7792] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Silk
+    [7793] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Mageweave
+    [7794] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Runecloth
+    [7795] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- Additional Runecloth
+    [7796] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Silk
+    [7798] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Mageweave
+    [7799] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Runecloth
+    [7800] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- Additional Runecloth
+    [7801] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Wool
+    [7802] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Silk
+    [7803] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Mageweave
+    [7804] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Runecloth
+    [7805] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- Additional Runecloth
+    [7806] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Wool
+    [7807] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Silk
+    [7808] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Mageweave
+    [7809] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Runecloth
+    [7811] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- Additional Runecloth
+    [7812] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
 
     -- The Darkmoon Faire
     [7905] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay in the area.", confidence = "high" },

@@ -3159,40 +3159,58 @@ local quests = {
     [7669] = { threat = "LOW", reason = "Obtain another Divination Scryer from the Horde quest giver in Orgrimmar. This repeatable city exchange adds no combat.", confidence = "medium" },
 
     -- Zukk'ash Infestation
-    [7730] = { threat = "MEDIUM", reason = "The bugs are levels 44-46 and the drop rate is 100%. The Workers run away at low health at +60% speed and can go through terrain, so be ready to chase or kill them quickly. Watch for Stinglasher, a level 47 named bug who patrols the area and can ambush you mid-fight. A level 44 shaman almost died to Stinglasher. Bring a healing potion.", confidence = "high" },
+    [7730] = { threat = "MEDIUM", reason = "Zukk’ash Workers and Wasps drop the required carapaces reliably, but the camps are dense and workers flee when hurt, which can lead to extra pulls. Keep them from reaching nearby enemies and watch for Stinglasher patrolling between the hives.", confidence = "medium" },
 
     -- Stinglasher
-    [7731] = { threat = "MEDIUM", reason = "He spawns between the two hives and can sneak up behind you while you are fighting other bugs. A level 45 shaman with a 42 druid almost died to him. Clear the area around the hives before engaging and be ready for a tough fight. Do not attempt below level 45 solo.", confidence = "high" },
+    [7731] = { threat = "MEDIUM", reason = "Stinglasher patrols between the Writhing Deep hives and applies a damaging poison sting. Pull it away from nearby bugs and bring a healing potion; comments report solo kills near the quest level, but poison and adds can make the fight close.", confidence = "medium" },
 
     -- Zukk'ash Report
-    [7732] = { threat = "LOW", reason = "He is on the upper level of the Drag at approximately 56, 47. Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7732] = { threat = "LOW", reason = "Deliver the Zukk’ash report to Zilzibin Drumlore in Orgrimmar. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Improved Quality
-    [7734] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [7734] = { threat = "MEDIUM", reason = "Collect ten Rage Scar Yeti Hides in Feralas. The yetis occupy hostile camps where nearby enemies can join a fight; pull from the edge and avoid overlapping spawns.", confidence = "medium" },
 
     -- Perfect Yeti Hide
-    [7738] = { threat = "MEDIUM", reason = "The yetis are levels 44-46 and are found in the Feralas wilderness. The drop rate for a perfect hide is low, so expect to kill many. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [7738] = { threat = "MEDIUM", reason = "Retrieve a Perfect Yeti Hide from the hostile Rage Scar Yeti camps in Feralas. Repeated attempts can leave you exposed to nearby enemies; work from the camp edge and keep an escape route.", confidence = "low" },
 
     -- The Lord of Blackrock
-    [7783] = { threat = "HIGH", reason = "UBRS is a level 55-60 dungeon filled with elite orcs, dragons, and powerful bosses. Drakkisath is the final boss and one of the deadliest encounters in Classic. This requires a full raid group of 10-15 players at level 58+. Do not attempt solo.", confidence = "high" },
+    [7783] = { threat = "LOW", reason = "Take Nefarian’s Head to Thrall in Orgrimmar. This city hand-in adds no combat.", confidence = "medium" },
 
     -- The Lord of Blackrock
-    [7784] = { threat = "HIGH", reason = "Return to the NPC after killing Drakkisath. The dungeon combat requires a full raid group. Do not attempt solo.", confidence = "high" },
+    [7784] = { threat = "LOW", reason = "Speak with High Overlord Saurfang in Orgrimmar after the Blackrock victory. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Quell the Silverwing Usurpers
-    [7789] = { threat = "MEDIUM", reason = "Kill Silverwing elves in the battleground. This is PvP content that requires coordination with your team. Do not attempt solo.", confidence = "medium" },
+    [7789] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
     -- A Donation of Wool
-    [7813] = { threat = "LOW", reason = "Travel and collection step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7813] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
 
     -- A Donation of Silk
-    [7814] = { threat = "LOW", reason = "Travel and collection step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7814] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
 
     -- Snapjaws, Mon!
-    [7815] = { threat = "LOW", reason = "The turtles are levels 44-47 and are neutral until attacked. They do not aggro, but they hit hard for their level and have a knockback. The drop rate for the quest item is 100%. A level 44 hunter can solo this easily by pulling one turtle at a time. Do not attempt below level 44 .", confidence = "high" },
+    [7815] = { threat = "LOW", reason = "Defeat fifteen Saltwater Snapjaws along the Hinterlands coast. They are neutral until attacked, so pull them one at a time and avoid the nearby elite turtle.", confidence = "medium" },
 
     -- Gammerita, Mon!
-    [7816] = { threat = "MEDIUM", reason = "Gammerita is a level 50 named turtle who patrols the coast with the other snapjaws. She hits harder than the regular turtles and has more health. Clear the area around her before engaging to avoid adds. Do not attempt below level 46 solo .", confidence = "high" },
+    [7816] = { threat = "MEDIUM", reason = "Elite quest. Gammerita patrols the Hinterlands coast among other snapjaws and hits harder than the ordinary turtles. Draw her away from the pack; comments document solo kills near level 47, but the fight can be close.", confidence = "medium" },
+
+    -- A Donation of Mageweave
+    [7817] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Runecloth
+    [7818] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- Additional Runecloth
+    [7819] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Wool
+    [7820] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Silk
+    [7821] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+
+    -- A Donation of Mageweave
+    [7822] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
 
     -- Stalking the Stalkers
     [7828] = { threat = "MEDIUM", reason = "The wolves are levels 46-48 and are found throughout the eastern and central Hinterlands. The Stalkers are stealthed and can ambush you while you are fighting other mobs. The Howlers are not stealthed but call for backup when low on health, which can chain-pull additional wolves. A level 44 hunter soloed this by pulling wolves to isolated spots. Do not attempt below level 44 .", confidence = "high" },

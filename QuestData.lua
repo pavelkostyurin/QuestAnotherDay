@@ -8649,65 +8649,94 @@ addon.quests = {
     [7729] = { threat = "MEDIUM", reason = "Defeat Dark Iron Taskmasters and Slavers in the Searing Gorge camps. Nearby enemies can join pulls, especially around the Cauldron; work the outer camps and draw targets into clear ground.", confidence = "medium" },
 
     -- Zukk'ash Infestation (Horde - Feralas)
-    [7730] = { threat = "MEDIUM", reason = "The bugs are levels 44-46 and the drop rate is 100%. The Workers run away at low health at +60% speed and can go through terrain, so be ready to chase or kill them quickly. Watch for Stinglasher, a level 47 named bug who patrols the area and can ambush you mid-fight. A level 44 shaman almost died to Stinglasher. Bring a healing potion.", confidence = "high" },
+    [7730] = { threat = "MEDIUM", reason = "Zukk’ash Workers and Wasps drop the required carapaces reliably, but the camps are dense and workers flee when hurt, which can lead to extra pulls. Keep them from reaching nearby enemies and watch for Stinglasher patrolling between the hives.", confidence = "medium" },
 
     -- Stinglasher (Horde - Feralas)
-    [7731] = { threat = "MEDIUM", reason = "He spawns between the two hives and can sneak up behind you while you are fighting other bugs. A level 45 shaman with a 42 druid almost died to him. Clear the area around the hives before engaging and be ready for a tough fight. Do not attempt below level 45 solo.", confidence = "high" },
+    [7731] = { threat = "MEDIUM", reason = "Stinglasher patrols between the Writhing Deep hives and applies a damaging poison sting. Pull it away from nearby bugs and bring a healing potion; comments report solo kills near the quest level, but poison and adds can make the fight close.", confidence = "medium" },
 
     -- Zukk'ash Report (Horde - Feralas)
-    [7732] = { threat = "LOW", reason = "He is on the upper level of the Drag at approximately 56, 47. Travel step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7732] = { threat = "LOW", reason = "Deliver the Zukk’ash report to Zilzibin Drumlore in Orgrimmar. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Improved Quality
-    [7733] = { threat = "MEDIUM", reason = "Rage Scar Yeti Hides drop from yetis in Feralas, levels 43-47. The yetis are aggressive and pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
+    [7733] = { threat = "MEDIUM", reason = "Collect ten Rage Scar Yeti Hides in Feralas. The yetis occupy hostile camps where nearby enemies can join a fight; pull from the edge and avoid overlapping spawns.", confidence = "medium" },
 
     -- Improved Quality (Horde - Feralas)
-    [7734] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the camp.", confidence = "high" },
+    [7734] = { threat = "MEDIUM", reason = "Collect ten Rage Scar Yeti Hides in Feralas. The yetis occupy hostile camps where nearby enemies can join a fight; pull from the edge and avoid overlapping spawns.", confidence = "medium" },
 
     -- Pristine Yeti Hide
-    [7735] = { threat = "MEDIUM", reason = "The Pristine Yeti Hide drops from yetis in Feralas, levels 43-47. The drop rate is low, so expect a long grind. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
+    [7735] = { threat = "MEDIUM", reason = "Retrieve a Pristine Yeti Hide from the hostile Rage Scar Yeti camps in Feralas. Repeated attempts can leave you exposed to nearby enemies; work from the camp edge and keep an escape route.", confidence = "low" },
 
+    [7736] = { threat = "LOW", reason = "Bring Kingsblood to the Thorium Brotherhood for the Fiery Flux supplies exchange. This material hand-in adds no combat beyond obtaining the herb.", confidence = "medium" },
     -- Perfect Yeti Hide (Horde - Feralas)
-    [7738] = { threat = "MEDIUM", reason = "The yetis are levels 44-46 and are found in the Feralas wilderness. The drop rate for a perfect hide is low, so expect to kill many. Clear the area before engaging and watch for patrolling mobs.", confidence = "medium" },
+    [7738] = { threat = "MEDIUM", reason = "Retrieve a Perfect Yeti Hide from the hostile Rage Scar Yeti camps in Feralas. Repeated attempts can leave you exposed to nearby enemies; work from the camp edge and keep an escape route.", confidence = "low" },
 
     -- Blackhand's Command
     [7761] = { threat = "EXTREME", reason = "Elite quest. Requires entering Upper Blackrock Spire to find the Mark of Drakkisath, which is guarded by General Drakkisath, a level 63 elite boss. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- The Lord of Blackrock
-    [7781] = { threat = "LOW", reason = "Delivery step with no combat. The Head of Nefarian is obtained from a raid; this is a turn-in to Bolvar in Stormwind. Safe if you stay in the city.", confidence = "high" },
+    [7781] = { threat = "LOW", reason = "Take Nefarian’s Head to Highlord Bolvar Fordragon in Stormwind. This city hand-in adds no combat.", confidence = "medium" },
 
     -- The Lord of Blackrock (Alliance)
-    [7782] = { threat = "LOW", reason = "Delivery step with no combat. Requires the Head of Nefarian from Blackwing Lair. Turn-in to Field Marshal Afrasiabi in Stormwind. Safe if you stay in the city.", confidence = "high" },
+    [7782] = { threat = "LOW", reason = "Speak with Field Marshal Afrasiabi in Stormwind after the Blackrock victory. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- The Lord of Blackrock (Horde - Blackrock Spire)
-    [7783] = { threat = "HIGH", reason = "UBRS is a level 55-60 dungeon filled with elite orcs, dragons, and powerful bosses. Drakkisath is the final boss and one of the deadliest encounters in Classic. This requires a full raid group of 10-15 players at level 58+. Do not attempt solo.", confidence = "high" },
+    [7783] = { threat = "LOW", reason = "Take Nefarian’s Head to Thrall in Orgrimmar. This city hand-in adds no combat.", confidence = "medium" },
 
     -- The Lord of Blackrock (Horde - Blackrock Spire)
-    [7784] = { threat = "HIGH", reason = "Return to the NPC after killing Drakkisath. The dungeon combat requires a full raid group. Do not attempt solo.", confidence = "high" },
+    [7784] = { threat = "LOW", reason = "Speak with High Overlord Saurfang in Orgrimmar after the Blackrock victory. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Examine the Vessel
-    [7785] = { threat = "LOW", reason = "Interaction step with no combat. Examine the Vessel of Rebirth in Silithus and return to Highlord Demitrian. Safe if you avoid the mob camps. Do not attempt below level 55 solo.", confidence = "medium" },
+    [7785] = { threat = "LOW", reason = "Examine the Vessel of Rebirth and return it to Highlord Demitrian in Silithus. This is a brief interaction with no combat; use a clear route through the Twilight’s Hammer camps.", confidence = "medium" },
 
     -- Thunderaan the Windseeker
     [7786] = { threat = "LOW", reason = "Collection step with no combat beyond gathering the materials. Requires Bindings of the Windseeker (left and right), 10 Elementium Bars, and the Essence of the Firelord. These are raid drops. Safe if you stay in the area.", confidence = "high" },
 
     -- Rise, Thunderfury!
-    [7787] = { threat = "LOW", reason = "Delivery step with no combat. Present the Dormant Wind Kissed Blade to Highlord Demitrian in Silithus. Safe if you stay in the area.", confidence = "high" },
+    [7787] = { threat = "LOW", reason = "Present the Dormant Wind Kissed Blade to Highlord Demitrian in Silithus. This is a hand-in with no combat.", confidence = "medium" },
 
+    [7788] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Horde, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
     -- Quell the Silverwing Usurpers (Alterac Valley)
-    [7789] = { threat = "MEDIUM", reason = "Kill Silverwing elves in the battleground. This is PvP content that requires coordination with your team. Do not attempt solo.", confidence = "medium" },
+    [7789] = { threat = "EXTREME", reason = "PvP quest. Earn a Warsong Gulch mark by defeating the Alliance, but battlegrounds are disabled on Hardcore realms. Skip this quest on Hardcore.", confidence = "high" },
 
+    [7791] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7792] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7793] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7794] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7795] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7796] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7798] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7799] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7800] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7801] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7802] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7803] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7804] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7805] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7806] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7807] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7808] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7809] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7810] = { threat = "HIGH", reason = "PvP quest. The Arena Master trinket comes from the timed chest on the Gurubashi Arena floor, where other players can contest it. Check for rivals before entering and skip the chest if the arena is contested.", confidence = "medium" },
+    [7811] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7812] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
     -- A Donation of Wool (Horde - Orgrimmar)
-    [7813] = { threat = "LOW", reason = "Travel and collection step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7813] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
 
     -- A Donation of Silk (Horde - Orgrimmar)
-    [7814] = { threat = "LOW", reason = "Travel and collection step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [7814] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
 
     -- Snapjaws, Mon!
-    [7815] = { threat = "LOW", reason = "The turtles are levels 44-47 and are neutral until attacked. They do not aggro, but they hit hard for their level and have a knockback. The drop rate for the quest item is 100%. A level 44 hunter can solo this easily by pulling one turtle at a time. Do not attempt below level 44 .", confidence = "high" },
+    [7815] = { threat = "LOW", reason = "Defeat fifteen Saltwater Snapjaws along the Hinterlands coast. They are neutral until attacked, so pull them one at a time and avoid the nearby elite turtle.", confidence = "medium" },
 
     -- Gammerita, Mon!
-    [7816] = { threat = "MEDIUM", reason = "Gammerita is a level 50 named turtle who patrols the coast with the other snapjaws. She hits harder than the regular turtles and has more health. Clear the area around her before engaging to avoid adds. Do not attempt below level 46 solo .", confidence = "high" },
+    [7816] = { threat = "MEDIUM", reason = "Elite quest. Gammerita patrols the Hinterlands coast among other snapjaws and hits harder than the ordinary turtles. Draw her away from the pack; comments document solo kills near level 47, but the fight can be close.", confidence = "medium" },
 
+    [7817] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7818] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7819] = { threat = "LOW", reason = "Donate Runecloth Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7820] = { threat = "LOW", reason = "Donate Wool Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7821] = { threat = "LOW", reason = "Donate Silk Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
+    [7822] = { threat = "LOW", reason = "Donate Mageweave Cloth to a city faction representative. This material hand-in adds no combat beyond obtaining the cloth.", confidence = "medium" },
     -- Stalking the Stalkers
     [7828] = { threat = "MEDIUM", reason = "The wolves are levels 46-48 and are found throughout the eastern and central Hinterlands. The Stalkers are stealthed and can ambush you while you are fighting other mobs. The Howlers are not stealthed but call for backup when low on health, which can chain-pull additional wolves. A level 44 hunter soloed this by pulling wolves to isolated spots. Do not attempt below level 44 .", confidence = "high" },
 

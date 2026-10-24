@@ -2108,17 +2108,23 @@ addon.quests = {
     -- JOB OPPORTUNITY: Culling the Competition
     [7729] = { threat = "MEDIUM", reason = "Defeat Dark Iron Taskmasters and Slavers in the Searing Gorge camps. Nearby enemies can join pulls, especially around the Cauldron; work the outer camps and draw targets into clear ground.", confidence = "medium" },
 
+    -- Restoring Fiery Flux Supplies via Kingsblood
+    [7736] = { threat = "LOW", reason = "Bring Kingsblood to the Thorium Brotherhood for the Fiery Flux supplies exchange. This material hand-in adds no combat beyond obtaining the herb.", confidence = "medium" },
+
     -- Blackhand's Command
     [7761] = { threat = "EXTREME", reason = "Elite quest. Requires entering Upper Blackrock Spire to find the Mark of Drakkisath, which is guarded by General Drakkisath, a level 63 elite boss. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Examine the Vessel
-    [7785] = { threat = "LOW", reason = "Interaction step with no combat. Examine the Vessel of Rebirth in Silithus and return to Highlord Demitrian. Safe if you avoid the mob camps. Do not attempt below level 55 solo.", confidence = "medium" },
+    [7785] = { threat = "LOW", reason = "Examine the Vessel of Rebirth and return it to Highlord Demitrian in Silithus. This is a brief interaction with no combat; use a clear route through the Twilight’s Hammer camps.", confidence = "medium" },
 
     -- Thunderaan the Windseeker
     [7786] = { threat = "LOW", reason = "Collection step with no combat beyond gathering the materials. Requires Bindings of the Windseeker (left and right), 10 Elementium Bars, and the Essence of the Firelord. These are raid drops. Safe if you stay in the area.", confidence = "high" },
 
     -- Rise, Thunderfury!
-    [7787] = { threat = "LOW", reason = "Delivery step with no combat. Present the Dormant Wind Kissed Blade to Highlord Demitrian in Silithus. Safe if you stay in the area.", confidence = "high" },
+    [7787] = { threat = "LOW", reason = "Present the Dormant Wind Kissed Blade to Highlord Demitrian in Silithus. This is a hand-in with no combat.", confidence = "medium" },
+
+    -- Arena Master
+    [7810] = { threat = "HIGH", reason = "PvP quest. The Arena Master trinket comes from the timed chest on the Gurubashi Arena floor, where other players can contest it. Check for rivals before entering and skip the chest if the arena is contested.", confidence = "medium" },
 
     -- Attunement to the Core
     [7848] = { threat = "EXTREME", reason = "Elite quest. Requires entering Blackrock Depths to recover a Core Fragment near the Molten Core entrance, deep inside the dungeon. BRD is a level 52-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo. Note: the quest ID 7487 is also active; both are Classic Era versions.", confidence = "high" },
