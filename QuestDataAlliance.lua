@@ -3135,10 +3135,10 @@ local quests = {
     [5048] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Aquatic Form
-    [5061] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5061] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- A Call to Arms: The Plaguelands!
-    [5066] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5066] = { threat = "LOW", reason = "This breadcrumb is a conversation with Commander Ashlam at Chillwind Camp. It adds no combat; use the normal route to the camp and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Maxwell's Mission
     [5081] = { threat = "HIGH", reason = "Elite quest. Requires killing three bosses in Lower Blackrock Spire: War Master Voone, Highlord Omokk, and Overlord Wyrmthalak. LBRS is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -3156,19 +3156,19 @@ local quests = {
     [5092] = { threat = "MEDIUM", reason = "Skeletal Flayers and Slavering Ghouls are levels 53-56 in Sorrow Hill. They are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
 
     -- All Along the Watchtowers
-    [5097] = { threat = "HIGH", reason = "Andorhal is filled with level 55-58 elite Scourge mobs, including undead that patrol in packs. You must stand in the doorway of each tower to plant the beacon, which aggros nearby mobs. The torch has only 5 charges. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [5097] = { threat = "MEDIUM", reason = "Marking the four towers takes you through hostile Andorhal and requires stopping at exposed doorways. Clear nearby Scourge before using the torch and keep a route back to the road.", confidence = "medium" },
 
     -- General Drakkisath's Demise
     [5102] = { threat = "EXTREME", reason = "Elite quest. Requires killing General Drakkisath, the final boss of Upper Blackrock Spire. Drakkisath is a level 63 elite with powerful abilities and adds. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
 
     -- Dragonscale Leatherworking
-    [5141] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+    [5141] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in Azshara. It adds no combat if you already have the crafted armor and scales; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Tribal Leatherworking
-    [5143] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+    [5143] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in Feralas. It adds no combat if you already have the crafted armor; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Elemental Leatherworking
-    [5144] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+    [5144] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in Searing Gorge. It adds no combat if you already have the elemental materials; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Winterfall Intrusion
     [5201] = { threat = "MEDIUM", reason = "Winterfall Shaman and Ursa are levels 53-57 in Winterspring and pull in groups. The shaman cast nature spells and the ursa hit hard. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },

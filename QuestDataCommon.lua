@@ -1428,16 +1428,16 @@ addon.quests = {
     [5051] = { threat = "MEDIUM", reason = "The other half of the charm is on the Felstone Farm in the Western Plaguelands, patrolled by level 53-56 Scourge mobs. Clear the area before looting and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
 
     -- Cap of the Scarlet Savant
-    [5063] = { threat = "HIGH", reason = "Requires materials from high-level dungeons (Pristine Hide of the Beast from Upper Blackrock Spire, Frayed Abomination Stitchings from Stratholme) plus 50 gold. The dungeon components require full groups of level 55+. Do not attempt solo.", confidence = "high" },
+    [5063] = { threat = "MEDIUM", reason = "The cap requires expensive materials, including drops associated with high-level dungeons. The hand-in to Malyfous is safe; obtain any dungeon materials with a group or through trade rather than entering alone.", confidence = "medium" },
 
     -- The Lost Tablets of Mosh'aru
-    [5065] = { threat = "HIGH", reason = "The tablets are inside Zul'Farrak, a level 44-50 dungeon filled with elites. A full group of level 46+ is required. Do not attempt solo.", confidence = "high" },
+    [5065] = { threat = "HIGH", reason = "The tablets come from Zul’Farrak, a dungeon with hostile elites. If you need to obtain them, go with a suitable group; the Tanaris delivery is safe once you have both tablets.", confidence = "medium" },
 
     -- Leggings of Arcana
-    [5067] = { threat = "HIGH", reason = "Requires materials from high-level dungeons: Pristine Hide of the Beast (Upper Blackrock Spire), Frayed Abomination Stitchings (Stratholme), and Frostwhisper's Embalming Fluid (Scholomance). Plus 5 Arcanite Bars and 50 gold. Full groups of level 55+ required for each dungeon. Do not attempt solo.", confidence = "high" },
+    [5067] = { threat = "MEDIUM", reason = "The leggings hand-in requires several materials associated with high-level dungeons and 50 gold. The hand-in is safe; acquire dungeon components with a group or through trade rather than entering alone.", confidence = "medium" },
 
     -- Breastplate of Bloodthirst
-    [5068] = { threat = "HIGH", reason = "Requires materials from high-level dungeons: Pristine Hide of the Beast (Upper Blackrock Spire), Frayed Abomination Stitchings (Stratholme), and Skin of Shadow (Scholomance). Plus 5 Arcanite Bars and 50 gold. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
+    [5068] = { threat = "MEDIUM", reason = "The breastplate hand-in requires materials associated with high-level dungeons and 50 gold. The hand-in is safe; acquire dungeon components with a group or through trade rather than entering alone.", confidence = "medium" },
 
     -- Threat of the Winterfall
     [5082] = { threat = "MEDIUM", reason = "Winterfall furbolgs are levels 53-57 in Winterspring and pull in groups. The pathfinders and totemics cast nature spells. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
@@ -1449,28 +1449,28 @@ addon.quests = {
     [5084] = { threat = "MEDIUM", reason = "The Deadwood furbolg camp in northern Felwood is patrolled by level 50-54 mobs. The clue is in the camp, guarded by furbolgs that pull in groups. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Mystery Goo
-    [5085] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5085] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Toxic Horrors
     [5086] = { threat = "MEDIUM", reason = "Toxic Horror Droplets drop from toxic horrors in Winterspring, levels 54-58. The horrors are aggressive and can pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
 
     -- Winterfall Runners
-    [5087] = { threat = "HIGH", reason = "The Winterfall Runners are three level 55 elites who patrol together on a fixed route through Winterspring. They hit hard and must be killed quickly or they escape. A level 56 hunter soloed them by kiting and using a pet, but it required careful timing. Do not attempt below level 55 solo without a plan to separate and burst them down.", confidence = "high" },
+    [5087] = { threat = "HIGH", reason = "The Winterfall Runner patrol can include three hostile furbolgs, and respawns can complicate a fight. A separate runner may be available in Felwood; avoid the camp if you cannot isolate a target. Three ambushers also spawn when you turn in the quest, so move away promptly.", confidence = "medium" },
 
     -- Hot Fiery Death
     [5103] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. The gauntlets are obtained from a high-level dungeon; this quest is the start of a crafting chain. Safe if you stay in the area.", confidence = "high" },
 
     -- High Chief Winterfall
-    [5121] = { threat = "HIGH", reason = "High Chief Winterfall is a level 56 elite furbolg in Winterspring, surrounded by guards. He hits hard and is in a confined area. This is an Elite quest by design. Bring a group of level 55+ or skip on Hardcore.", confidence = "high" },
+    [5121] = { threat = "HIGH", reason = "Elite quest. High Chief Winterfall is a powerful named furbolg in a hostile camp, where nearby guards can join the fight. Pull him away from the camp and bring help if you cannot manage the elite and adds.", confidence = "medium" },
 
     -- The Final Piece
-    [5123] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5123] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Fiery Plate Gauntlets
-    [5124] = { threat = "MEDIUM", reason = "Requires 6 Enchanted Thorium Bars, 2 Essence of Fire, and 4 Star Rubies, plus the Unfired Plate Gauntlets from a previous quest. The materials are crafted or purchased. This is a profession step with no combat beyond gathering. Safe if you stay in the city.", confidence = "high" },
+    [5124] = { threat = "LOW", reason = "This is a crafted-material hand-in to Malyfous. It adds no combat if you already have the bars, essences, rubies, and unfinished gauntlets; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Lorax's Tale
-    [5126] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5126] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- The Demon Forge
     [5127] = { threat = "HIGH", reason = "Elite quest. Requires entering Upper Blackrock Spire to kill Goraluk Anvilcrack, a level 60 elite orc. The dungeon is filled with elites and requires a full group of level 55+. Do not attempt solo.", confidence = "high" },

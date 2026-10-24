@@ -6639,43 +6639,43 @@ addon.quests = {
     [5051] = { threat = "MEDIUM", reason = "The other half of the charm is on the Felstone Farm in the Western Plaguelands, patrolled by level 53-56 Scourge mobs. Clear the area before looting and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
 
     -- Blood Shards of Agamaggan (Horde - Barrens)
-    [5052] = { threat = "MEDIUM", reason = "The quilboars are levels 10-14 and are packed in bramble camps. They pull in groups and flee at low health. Clear from the outside in and watch for runners. Do not attempt below level 12.", confidence = "medium" },
+    [5052] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shard; stay within the friendly camp.", confidence = "medium" },
 
     -- Ursius of the Shardtooth (Horde - Winterspring)
-    [5054] = { threat = "HIGH", reason = "Ursius is a powerful named mob that hits hard and has high health. He patrols with other Shardtooth bears that will add if you are not careful. Clear the area before engaging and bring a group. Do not attempt below level 55 solo.", confidence = "high" },
+    [5054] = { threat = "HIGH", reason = "Elite quest. Ursius is a powerful level 56 bear that patrols the mountains near Everlook, where nearby predators can add to the fight. Pull him into open ground and keep clear of cliff edges; bring help if your class cannot manage an elite bear.", confidence = "medium" },
 
     -- Brumeran of the Chillwind (Horde - Winterspring)
-    [5055] = { threat = "HIGH", reason = "Brumeran hits extremely hard and has a knockback. He patrols with other Chillwind bears. Clear the area before engaging and bring a group. Do not attempt below level 56 solo.", confidence = "high" },
+    [5055] = { threat = "HIGH", reason = "Elite quest. Brumeran is a level 58 chimera that patrols through southern Winterspring near other hostile dragonkin. Draw her into clear ground and watch for nearby elites; bring help if you cannot manage the fight safely.", confidence = "medium" },
 
     -- Shy-Rotam (Horde - Winterspring)
-    [5056] = { threat = "EXTREME", reason = "To summon her, you must gather Sacred Frostsaber Meat from the high-level blue frostsabers and place it on her altar. When summoned, she immediately casts Fear on you and your pet, then hits for massive damage. At 55% health, her mate Sian-Rotam arrives to help her. A hunter reported being 'pulverized' on the first attempt, and on the second attempt, both Shy and Sian killed him. A warlock soloed her at level 59 by kiting her to the lake and keeping her feared so her mate never spawned. Do not attempt solo below level 59. This is one of the deadliest quests in Winterspring.", confidence = "high" },
+    [5056] = { threat = "HIGH", reason = "Shy-Rotam must be summoned with Sacred Frostsaber Meat and can fear you while her mate joins the fight. Lure her away from other frostsabers before engaging and use crowd control or bring help for the second enemy.", confidence = "medium" },
 
     -- Past Endeavors (Horde - Winterspring)
-    [5057] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [5057] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Aquatic Form (5061)
-    [5061] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [5061] = { threat = "LOW", reason = "Druid class quest delivery step with no combat. Safe if you stay in the city.", confidence = "medium" },
 
     -- Sacred Fire (Horde - Thunder Bluff)
-    [5062] = { threat = "MEDIUM", reason = "Collect Fire Tar from Razormane Water Seekers in the Barrens and a Reagent Pouch from Burning Blade Cultists in Durotar, then kill a Minor Manifestation of Fire. The mobs are low-level but the cultists can pull in groups. The summoned elemental is manageable solo. Do not attempt below level 10.", confidence = "high" },
+    [5062] = { threat = "MEDIUM", reason = "Incendia Agave grows near the Boiling Pool in Thousand Needles, among hostile creatures. Gather from the edges of the area and avoid fighting with enemies behind you.", confidence = "medium" },
 
     -- Cap of the Scarlet Savant
-    [5063] = { threat = "HIGH", reason = "Requires materials from high-level dungeons (Pristine Hide of the Beast from Upper Blackrock Spire, Frayed Abomination Stitchings from Stratholme) plus 50 gold. The dungeon components require full groups of level 55+. Do not attempt solo.", confidence = "high" },
+    [5063] = { threat = "MEDIUM", reason = "The cap requires expensive materials, including drops associated with high-level dungeons. The hand-in to Malyfous is safe; obtain any dungeon materials with a group or through trade rather than entering alone.", confidence = "medium" },
 
     -- Grimtotem Spying (Horde - Thousand Needles)
-    [5064] = { threat = "HIGH", reason = "The plans are at the very top of the mesa, guarded by level 27-30 Grimtotem tauren. The path up is narrow and patrolled, and the pinnacle has multiple mobs packed together. A level 27 warrior died here trying to solo it. Do not attempt below level 28 without a group.", confidence = "high" },
+    [5064] = { threat = "HIGH", reason = "The three secret notes are in Grimtotem territory on Darkcloud Pinnacle, where tightly packed enemies and narrow paths can make retreat difficult. Clear one section at a time and avoid pushing uphill with enemies behind you.", confidence = "medium" },
 
     -- The Lost Tablets of Mosh'aru
-    [5065] = { threat = "HIGH", reason = "The tablets are inside Zul'Farrak, a level 44-50 dungeon filled with elites. A full group of level 46+ is required. Do not attempt solo.", confidence = "high" },
+    [5065] = { threat = "HIGH", reason = "The tablets come from Zul’Farrak, a dungeon with hostile elites. If you need to obtain them, go with a suitable group; the Tanaris delivery is safe once you have both tablets.", confidence = "medium" },
 
     -- A Call to Arms: The Plaguelands! (5066)
-    [5066] = { threat = "LOW", reason = "Breadcrumb dialogue step with no combat. The journey to Chillwind Camp is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
+    [5066] = { threat = "LOW", reason = "This breadcrumb is a conversation with Commander Ashlam at Chillwind Camp. It adds no combat; use the normal route to the camp and avoid unnecessary pulls.", confidence = "medium" },
 
     -- Leggings of Arcana
-    [5067] = { threat = "HIGH", reason = "Requires materials from high-level dungeons: Pristine Hide of the Beast (Upper Blackrock Spire), Frayed Abomination Stitchings (Stratholme), and Frostwhisper's Embalming Fluid (Scholomance). Plus 5 Arcanite Bars and 50 gold. Full groups of level 55+ required for each dungeon. Do not attempt solo.", confidence = "high" },
+    [5067] = { threat = "MEDIUM", reason = "The leggings hand-in requires several materials associated with high-level dungeons and 50 gold. The hand-in is safe; acquire dungeon components with a group or through trade rather than entering alone.", confidence = "medium" },
 
     -- Breastplate of Bloodthirst
-    [5068] = { threat = "HIGH", reason = "Requires materials from high-level dungeons: Pristine Hide of the Beast (Upper Blackrock Spire), Frayed Abomination Stitchings (Stratholme), and Skin of Shadow (Scholomance). Plus 5 Arcanite Bars and 50 gold. Full groups of level 55+ required. Do not attempt solo.", confidence = "high" },
+    [5068] = { threat = "MEDIUM", reason = "The breastplate hand-in requires materials associated with high-level dungeons and 50 gold. The hand-in is safe; acquire dungeon components with a group or through trade rather than entering alone.", confidence = "medium" },
 
     -- Maxwell's Mission
     [5081] = { threat = "HIGH", reason = "Elite quest. Requires killing three bosses in Lower Blackrock Spire: War Master Voone, Highlord Omokk, and Overlord Wyrmthalak. LBRS is a level 55-60 dungeon filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -6690,16 +6690,16 @@ addon.quests = {
     [5084] = { threat = "MEDIUM", reason = "The Deadwood furbolg camp in northern Felwood is patrolled by level 50-54 mobs. The clue is in the camp, guarded by furbolgs that pull in groups. Clear methodically and watch for adds. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Mystery Goo
-    [5085] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5085] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Toxic Horrors
     [5086] = { threat = "MEDIUM", reason = "Toxic Horror Droplets drop from toxic horrors in Winterspring, levels 54-58. The horrors are aggressive and can pull in pairs. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 54 solo.", confidence = "medium" },
 
     -- Winterfall Runners
-    [5087] = { threat = "HIGH", reason = "The Winterfall Runners are three level 55 elites who patrol together on a fixed route through Winterspring. They hit hard and must be killed quickly or they escape. A level 56 hunter soloed them by kiting and using a pet, but it required careful timing. Do not attempt below level 55 solo without a plan to separate and burst them down.", confidence = "high" },
+    [5087] = { threat = "HIGH", reason = "The Winterfall Runner patrol can include three hostile furbolgs, and respawns can complicate a fight. A separate runner may be available in Felwood; avoid the camp if you cannot isolate a target. Three ambushers also spawn when you turn in the quest, so move away promptly.", confidence = "medium" },
 
     -- Arikara (Horde - Thousand Needles)
-    [5088] = { threat = "HIGH", reason = "Arikara is summoned by using the Sacred Fire of Life at the top of the mesa. She hits hard and has a knockback that can throw you off the pinnacle to your death. The fall from the pinnacle is fatal. Do not attempt without a group or significant overleveling. Do not fight near the edge.", confidence = "high" },
+    [5088] = { threat = "HIGH", reason = "Arikara is summoned at the top of a mesa and may knock you toward a fatal drop. Clear the summit, fight well away from the edge, and bring help if you cannot control the encounter.", confidence = "medium" },
 
     -- General Drakkisath's Command
     [5089] = { threat = "LOW", reason = "Delivery step with no combat. The command is obtained from a dungeon boss; if you already have it, this is safe. The journey to the Burning Steppes is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
@@ -6714,22 +6714,22 @@ addon.quests = {
     [5092] = { threat = "MEDIUM", reason = "Skeletal Flayers and Slavering Ghouls are levels 53-56 in Sorrow Hill. They are aggressive and pull in groups. Clear methodically and watch for adds. Do not attempt below level 53 solo.", confidence = "medium" },
 
     -- A Call to Arms: The Plaguelands! (Horde - Tirisfal)
-    [5093] = { threat = "LOW", reason = "This is a breadcrumb quest for the Western Plaguelands. Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5093] = { threat = "LOW", reason = "This is a breadcrumb quest for the Western Plaguelands. Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- A Call to Arms: The Plaguelands! (Horde - Tirisfal)
-    [5094] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5094] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- A Call to Arms: The Plaguelands! (Horde - Tirisfal)
-    [5095] = { threat = "LOW", reason = "Speak with High Executor Derrington at the Bulwark to begin your Plaguelands journey. Travel and dialogue step with no combat.", confidence = "high" },
+    [5095] = { threat = "LOW", reason = "Speak with High Executor Derrington at the Bulwark to begin your Plaguelands journey. Travel and dialogue step with no combat.", confidence = "medium" },
 
     -- Scarlet Diversions (Horde - Western Plaguelands)
-    [5096] = { threat = "EXTREME", reason = "The camp is densely packed with level 50-54 Scarlet Crusade mobs that run away at low health and pull more enemies when chased. There is no easy way to complete this quest. Solo players are strongly recommended to skip it on Hardcore. A group makes it manageable, but it is still one of the deadliest quests in the Western Plaguelands.", confidence = "high" },
+    [5096] = { threat = "HIGH", reason = "The Scarlet camp is tightly packed with casters and healers, and runners can draw more enemies back into the fight. Clear only the route needed to burn the tent and plant the banner; bring help if you cannot handle adds.", confidence = "medium" },
 
     -- All Along the Watchtowers
-    [5097] = { threat = "HIGH", reason = "Andorhal is filled with level 55-58 elite Scourge mobs, including undead that patrol in packs. You must stand in the doorway of each tower to plant the beacon, which aggros nearby mobs. The torch has only 5 charges. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [5097] = { threat = "MEDIUM", reason = "Marking the four towers takes you through hostile Andorhal and requires stopping at exposed doorways. Clear nearby Scourge before using the torch and keep a route back to the road.", confidence = "medium" },
 
     -- All Along the Watchtowers (Horde - Western Plaguelands)
-    [5098] = { threat = "HIGH", reason = "You must stand in the doorway of each tower to plant the beacon. Andorhal is filled with level 55-58 elite Scourge mobs, including undead that patrol in packs. The torch has only 5 charges, so you cannot make mistakes. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [5098] = { threat = "MEDIUM", reason = "Marking the four towers takes you through hostile Andorhal and requires stopping at exposed doorways. Clear nearby Scourge before using the torch and keep a route back to the road.", confidence = "medium" },
 
     -- General Drakkisath's Demise
     [5102] = { threat = "EXTREME", reason = "Elite quest. Requires killing General Drakkisath, the final boss of Upper Blackrock Spire. Drakkisath is a level 63 elite with powerful abilities and adds. A full raid group of 10-15 players at level 58+ is required. Do not attempt solo.", confidence = "high" },
@@ -6738,16 +6738,16 @@ addon.quests = {
     [5103] = { threat = "LOW", reason = "Exploration and dialogue step with no combat. The gauntlets are obtained from a high-level dungeon; this quest is the start of a crafting chain. Safe if you stay in the area.", confidence = "high" },
 
     -- High Chief Winterfall
-    [5121] = { threat = "HIGH", reason = "High Chief Winterfall is a level 56 elite furbolg in Winterspring, surrounded by guards. He hits hard and is in a confined area. This is an Elite quest by design. Bring a group of level 55+ or skip on Hardcore.", confidence = "high" },
+    [5121] = { threat = "HIGH", reason = "Elite quest. High Chief Winterfall is a powerful named furbolg in a hostile camp, where nearby guards can join the fight. Pull him away from the camp and bring help if you cannot manage the elite and adds.", confidence = "medium" },
 
     -- The Final Piece
-    [5123] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5123] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- Fiery Plate Gauntlets
-    [5124] = { threat = "MEDIUM", reason = "Requires 6 Enchanted Thorium Bars, 2 Essence of Fire, and 4 Star Rubies, plus the Unfired Plate Gauntlets from a previous quest. The materials are crafted or purchased. This is a profession step with no combat beyond gathering. Safe if you stay in the city.", confidence = "high" },
+    [5124] = { threat = "LOW", reason = "This is a crafted-material hand-in to Malyfous. It adds no combat if you already have the bars, essences, rubies, and unfinished gauntlets; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Lorax's Tale
-    [5126] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [5126] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "medium" },
 
     -- The Demon Forge
     [5127] = { threat = "HIGH", reason = "Elite quest. Requires entering Upper Blackrock Spire to kill Goraluk Anvilcrack, a level 60 elite orc. The dungeon is filled with elites and requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
@@ -6756,19 +6756,19 @@ addon.quests = {
     [5128] = { threat = "LOW", reason = "Delivery step with no combat. The journey to Felwood is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Dragonscale Leatherworking
-    [5141] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+    [5141] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in Azshara. It adds no combat if you already have the crafted armor and scales; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Little Pamela
     [5142] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Pamela is a ghost child in the Western Plaguelands. The journey is dangerous for low-level players. Do not attempt below level 50 solo.", confidence = "medium" },
 
     -- Tribal Leatherworking
-    [5143] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+    [5143] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in Feralas. It adds no combat if you already have the crafted armor; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Elemental Leatherworking
-    [5144] = { threat = "LOW", reason = "Profession quest with no combat beyond gathering materials. The quest is a permanent specialization choice. Safe if you stay in the city.", confidence = "high" },
+    [5144] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in Searing Gorge. It adds no combat if you already have the elemental materials; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Dragonscale Leatherworking (Horde - Feralas)
-    [5145] = { threat = "LOW", reason = "Requires level 40 and 225+ leatherworking skill. The quest involves travel to Camp Mojache and delivering materials. No combat objective beyond gathering the materials. Safe if you stay in the camp.", confidence = "high" },
+    [5145] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in the Badlands. It adds no combat if you already have the crafted armor and scales; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Elemental Leatherworking (Horde - Feralas)
     [5146] = { threat = "LOW", reason = "Requires level 40 and 225+ leatherworking skill. The quest involves travel to Camp Mojache and delivering materials. No combat objective beyond gathering the materials. Safe if you stay in the camp.", confidence = "high" },

@@ -2331,46 +2331,46 @@ local quests = {
     [5049] = { threat = "LOW", reason = "He is located under the stairs near the bank, selling cockroaches. This is a dialogue and delivery step with no combat. Safe if you stay in the city. Requires completion of Better Late Than Never [5023], which is marked obsolete.", confidence = "medium" },
 
     -- Blood Shards of Agamaggan
-    [5052] = { threat = "MEDIUM", reason = "The quilboars are levels 10-14 and are packed in bramble camps. They pull in groups and flee at low health. Clear from the outside in and watch for runners. Do not attempt below level 12.", confidence = "medium" },
+    [5052] = { threat = "LOW", reason = "This is a Blood Shard hand-in at Camp Taurajo. It adds no combat if you already have the shard; stay within the friendly camp.", confidence = "medium" },
 
     -- Ursius of the Shardtooth
-    [5054] = { threat = "HIGH", reason = "Ursius is a powerful named mob that hits hard and has high health. He patrols with other Shardtooth bears that will add if you are not careful. Clear the area before engaging and bring a group. Do not attempt below level 55 solo.", confidence = "high" },
+    [5054] = { threat = "HIGH", reason = "Elite quest. Ursius is a powerful level 56 bear that patrols the mountains near Everlook, where nearby predators can add to the fight. Pull him into open ground and keep clear of cliff edges; bring help if your class cannot manage an elite bear.", confidence = "medium" },
 
     -- Brumeran of the Chillwind
-    [5055] = { threat = "HIGH", reason = "Brumeran hits extremely hard and has a knockback. He patrols with other Chillwind bears. Clear the area before engaging and bring a group. Do not attempt below level 56 solo.", confidence = "high" },
+    [5055] = { threat = "HIGH", reason = "Elite quest. Brumeran is a level 58 chimera that patrols through southern Winterspring near other hostile dragonkin. Draw her into clear ground and watch for nearby elites; bring help if you cannot manage the fight safely.", confidence = "medium" },
 
     -- Shy-Rotam
-    [5056] = { threat = "EXTREME", reason = "To summon her, you must gather Sacred Frostsaber Meat from the high-level blue frostsabers and place it on her altar. When summoned, she immediately casts Fear on you and your pet, then hits for massive damage. At 55% health, her mate Sian-Rotam arrives to help her. A hunter reported being 'pulverized' on the first attempt, and on the second attempt, both Shy and Sian killed him. A warlock soloed her at level 59 by kiting her to the lake and keeping her feared so her mate never spawned. Do not attempt solo below level 59. This is one of the deadliest quests in Winterspring.", confidence = "high" },
+    [5056] = { threat = "HIGH", reason = "Shy-Rotam must be summoned with Sacred Frostsaber Meat and can fear you while her mate joins the fight. Lure her away from other frostsabers before engaging and use crowd control or bring help for the second enemy.", confidence = "medium" },
 
     -- Past Endeavors
-    [5057] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "high" },
+    [5057] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the town.", confidence = "medium" },
 
     -- Sacred Fire
-    [5062] = { threat = "MEDIUM", reason = "Collect Fire Tar from Razormane Water Seekers in the Barrens and a Reagent Pouch from Burning Blade Cultists in Durotar, then kill a Minor Manifestation of Fire. The mobs are low-level but the cultists can pull in groups. The summoned elemental is manageable solo. Do not attempt below level 10.", confidence = "high" },
+    [5062] = { threat = "MEDIUM", reason = "Incendia Agave grows near the Boiling Pool in Thousand Needles, among hostile creatures. Gather from the edges of the area and avoid fighting with enemies behind you.", confidence = "medium" },
 
     -- Grimtotem Spying
-    [5064] = { threat = "HIGH", reason = "The plans are at the very top of the mesa, guarded by level 27-30 Grimtotem tauren. The path up is narrow and patrolled, and the pinnacle has multiple mobs packed together. A level 27 warrior died here trying to solo it. Do not attempt below level 28 without a group.", confidence = "high" },
+    [5064] = { threat = "HIGH", reason = "The three secret notes are in Grimtotem territory on Darkcloud Pinnacle, where tightly packed enemies and narrow paths can make retreat difficult. Clear one section at a time and avoid pushing uphill with enemies behind you.", confidence = "medium" },
 
     -- Arikara
-    [5088] = { threat = "HIGH", reason = "Arikara is summoned by using the Sacred Fire of Life at the top of the mesa. She hits hard and has a knockback that can throw you off the pinnacle to your death. The fall from the pinnacle is fatal. Do not attempt without a group or significant overleveling. Do not fight near the edge.", confidence = "high" },
+    [5088] = { threat = "HIGH", reason = "Arikara is summoned at the top of a mesa and may knock you toward a fatal drop. Clear the summit, fight well away from the edge, and bring help if you cannot control the encounter.", confidence = "medium" },
 
     -- A Call to Arms: The Plaguelands!
-    [5093] = { threat = "LOW", reason = "This is a breadcrumb quest for the Western Plaguelands. Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5093] = { threat = "LOW", reason = "This is a breadcrumb quest for the Western Plaguelands. Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- A Call to Arms: The Plaguelands!
-    [5094] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [5094] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "medium" },
 
     -- A Call to Arms: The Plaguelands!
-    [5095] = { threat = "LOW", reason = "Speak with High Executor Derrington at the Bulwark to begin your Plaguelands journey. Travel and dialogue step with no combat.", confidence = "high" },
+    [5095] = { threat = "LOW", reason = "Speak with High Executor Derrington at the Bulwark to begin your Plaguelands journey. Travel and dialogue step with no combat.", confidence = "medium" },
 
     -- Scarlet Diversions
-    [5096] = { threat = "EXTREME", reason = "The camp is densely packed with level 50-54 Scarlet Crusade mobs that run away at low health and pull more enemies when chased. There is no easy way to complete this quest. Solo players are strongly recommended to skip it on Hardcore. A group makes it manageable, but it is still one of the deadliest quests in the Western Plaguelands.", confidence = "high" },
+    [5096] = { threat = "HIGH", reason = "The Scarlet camp is tightly packed with casters and healers, and runners can draw more enemies back into the fight. Clear only the route needed to burn the tent and plant the banner; bring help if you cannot handle adds.", confidence = "medium" },
 
     -- All Along the Watchtowers
-    [5098] = { threat = "HIGH", reason = "You must stand in the doorway of each tower to plant the beacon. Andorhal is filled with level 55-58 elite Scourge mobs, including undead that patrol in packs. The torch has only 5 charges, so you cannot make mistakes. This requires a full group of level 55+. Do not attempt solo.", confidence = "high" },
+    [5098] = { threat = "MEDIUM", reason = "Marking the four towers takes you through hostile Andorhal and requires stopping at exposed doorways. Clear nearby Scourge before using the torch and keep a route back to the road.", confidence = "medium" },
 
     -- Dragonscale Leatherworking
-    [5145] = { threat = "LOW", reason = "Requires level 40 and 225+ leatherworking skill. The quest involves travel to Camp Mojache and delivering materials. No combat objective beyond gathering the materials. Safe if you stay in the camp.", confidence = "high" },
+    [5145] = { threat = "LOW", reason = "This is a leatherworking specialization hand-in in the Badlands. It adds no combat if you already have the crafted armor and scales; avoid unnecessary pulls while travelling.", confidence = "medium" },
 
     -- Elemental Leatherworking
     [5146] = { threat = "LOW", reason = "Requires level 40 and 225+ leatherworking skill. The quest involves travel to Camp Mojache and delivering materials. No combat objective beyond gathering the materials. Safe if you stay in the camp.", confidence = "high" },
