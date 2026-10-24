@@ -4900,145 +4900,145 @@ addon.quests = {
     [2931] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Grim Message (Horde - Hinterlands)
-    [2932] = { threat = "MEDIUM", reason = "The trolls are levels 40-44 and drop skulls at a 100% rate. However, they are packed tightly in villages and are difficult to pull one at a time. A level 41 rogue reported dying multiple times because he could not get single pulls. Once you have 20 skulls, you must plant the pike in the middle of the village, which will aggro multiple trolls. Use a pet or voidwalker to distract them while you plant and run. Do not attempt solo below level 44 without a group .", confidence = "high" },
+    [2932] = { threat = "MEDIUM", reason = "Twenty Witherbark Skulls are needed from troll camps, then you must plant the loaded pike inside a village. Trolls are densely placed and can aggro in groups; clear a route before planting it.", confidence = "medium" },
 
     -- Venom Bottles (Horde - Hinterlands)
-    [2933] = { threat = "MEDIUM", reason = "The trolls are levels 40-44 and are packed in villages. The drop rate is moderate. Pull singles and watch for patrolling mobs .", confidence = "medium" },
+    [2933] = { threat = "MEDIUM", reason = "The Venom Bottle is found at a Witherbark village in the Hinterlands. Hostile trolls occupy the camps, so approach carefully, take the bottle, and leave without drawing a group.", confidence = "medium" },
 
     -- Undamaged Venom Sac (Horde - Hinterlands)
-    [2934] = { threat = "MEDIUM", reason = "The spiders are levels 40-44 and can pull in groups. Clear the area before looting .", confidence = "medium" },
+    [2934] = { threat = "MEDIUM", reason = "Timed quest (30 min after the sac drops). Witherbark Broodguards near Shadra’Alor can spawn spider adds, and the undamaged sac expires after pickup; finish the return to Tarren Mill promptly.", confidence = "medium" },
 
     -- Consult Master Gadrin (Horde - Durotar)
-    [2935] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
+    [2935] = { threat = "LOW", reason = "Speak with Master Gadrin in Sen’jin Village. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- The Spider God (Horde - Zul'Farrak)
     [2936] = { threat = "HIGH", reason = "Zul'Farrak is a level 44-50 dungeon filled with elite trolls and sandfury mobs. Theka the Martyr is a boss who guards the tablet. This requires a full group of level 44+. Do not attempt solo .", confidence = "high" },
 
     -- Summoning Shadra (Horde - Hinterlands)
-    [2937] = { threat = "EXTREME", reason = "Shadra hits for around 500 on leather and has a poison that ticks for 77 damage. She is immune to fear breaks early and will destroy unprepared players. A level 47 hunter soloed her by kiting her to Thoradin's Wall in Arathi, which took 15 minutes. Do not attempt without a full group or a very specific kiting strategy. This is one of the deadliest quests in the Hinterlands .", confidence = "high" },
+    [2937] = { threat = "HIGH", reason = "Elite quest. Shadra is a level 55 elite spider that hits hard and applies a slowing poison. Clear nearby spiders before summoning; use a suitable group or a tested class-specific control and escape plan.", confidence = "medium" },
 
     -- Venom to the Undercity (Horde - Undercity)
-    [2938] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
+    [2938] = { threat = "LOW", reason = "Deliver Faranell’s Parcel to the Undercity. This is a travel and turn-in step with no combat objective.", confidence = "medium" },
 
     -- In Search of Knowledge
-    [2939] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [2939] = { threat = "LOW", reason = "Speak with Daryn Lightwind in Rut’theran Village. No combat objective is required.", confidence = "medium" },
 
     -- Feralas: A History
-    [2940] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [2940] = { threat = "LOW", reason = "Ask Daryn Lightwind to borrow her book. This is a dialogue step with no combat objective.", confidence = "medium" },
 
     -- The Borrower
-    [2941] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Tanaris is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2941] = { threat = "LOW", reason = "Take the letter to Curgle Cranklehop in Tanaris. This is a delivery step; no combat objective is required.", confidence = "medium" },
 
     -- The Morrow Stone
-    [2942] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2942] = { threat = "LOW", reason = "Return the Sparkling Stone and Stave of Equinex to Troyas Moonbreeze at Feathermoon Stronghold. No combat objective is required.", confidence = "medium" },
 
     -- Return to Troyas
-    [2943] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2943] = { threat = "LOW", reason = "Deliver the book to Troyas Moonbreeze at Feathermoon Stronghold. No combat objective is required.", confidence = "medium" },
 
     -- The Super Snapper FX
-    [2944] = { threat = "MEDIUM", reason = "Gammerita is a level 50 named turtle on the coast of the Hinterlands, surrounded by other snapjaws. Clear the area before using the camera and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
+    [2944] = { threat = "MEDIUM", reason = "Photograph Gammerita on the Hinterlands coast. Nearby turtles can engage while you line up the snapshot; avoid fighting more than one at a time.", confidence = "medium" },
 
     -- Grime-Encrusted Ring
     [2945] = { threat = "LOW", reason = "This is a dialogue and exploration step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Seeing What Happens
-    [2946] = { threat = "MEDIUM", reason = "The gates are guarded by level 45-48 giants. You can bypass the giants by going around the left side where there is a trail that goes right up to the pedestal. A level 48 hunter soloed this without pulling a single mob by using this route. Do not attempt below level 45 if you plan to fight the giants.", confidence = "high" },
+    [2946] = { threat = "MEDIUM", reason = "Use the miniature discs at the Uldum pedestal and speak with the Stone Watcher. Elite giants patrol nearby, but a path around the left side lets you avoid fighting them; watch for the moving patrol on your exit.", confidence = "medium" },
 
     -- Return of the Ring
     [2947] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Gnome Improvement
-    [2948] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The materials are purchased or gathered. Safe if you stay in the city.", confidence = "high" },
+    [2948] = { threat = "LOW", reason = "Bring the Brilliant Gold Ring, Silver Bar, Moss Agate, and 30 silver to Talvash in Ironforge. No combat objective is required.", confidence = "medium" },
 
     -- Return of the Ring (Horde - Badlands)
     [2949] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
 
     -- Nogg's Ring Redo (Horde - Orgrimmar)
-    [2950] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2950] = { threat = "LOW", reason = "Bring the Brilliant Gold Ring, Silver Bar, Moss Agate, and 30 silver to Nogg in Orgrimmar. No combat objective is required.", confidence = "medium" },
 
     -- The Sparklematic 5200!
     [2951] = { threat = "LOW", reason = "This is a dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- The Stone Watcher
-    [2954] = { threat = "MEDIUM", reason = "The pedestal is at the gates of Uldum, guarded by level 45-48 giants. You can bypass the giants by going around the left side. A level 48 hunter soloed this without pulling a single mob. Do not attempt below level 45 if you plan to fight the giants.", confidence = "high" },
+    [2954] = { threat = "MEDIUM", reason = "Use the Uldum pedestal and learn about the Stone Watcher. Elite giants patrol nearby, but the left-side path can avoid them; watch for the moving giant while interacting and leaving.", confidence = "medium" },
 
     -- The Only Cure is More Green Glow
     [2962] = { threat = "MEDIUM", reason = "The fallout is unstable and will collapse rather quickly. Ozzie will also require your Heavy Leaden Collection Phial when the task is complete. This requires entering Gnomeregan, a level 24-34 dungeon filled with elites. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },
 
     -- Portents of Uldum
-    [2963] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2963] = { threat = "LOW", reason = "Speak with Historian Karnik in Ironforge. No combat objective is required.", confidence = "medium" },
 
     -- A Future Task
-    [2964] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2964] = { threat = "LOW", reason = "Speak with High Explorer Magellas in Ironforge. No combat objective is required.", confidence = "medium" },
 
     -- Portents of Uldum (Horde - Tanaris)
-    [2965] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2965] = { threat = "LOW", reason = "Speak with Nara Wildmane in Thunder Bluff. No combat objective is required.", confidence = "medium" },
 
     -- Seeing What Happens (Horde - Tanaris)
-    [2966] = { threat = "MEDIUM", reason = "The gate is guarded by level 45-48 giants. You can bypass the giants by going around the left side where there is a trail that goes right up to the pedestal. A level 48 hunter soloed this without pulling a single mob by using this route. Do not attempt below level 45 if you plan to fight the giants .", confidence = "high" },
+    [2966] = { threat = "MEDIUM", reason = "Use the miniature discs at the Uldum pedestal and speak with the Stone Watcher. Elite giants patrol nearby, but a path around the left side lets you avoid fighting them; watch for the moving patrol on your exit.", confidence = "medium" },
 
     -- Return to Thunder Bluff (Horde - Thunder Bluff)
-    [2967] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2967] = { threat = "LOW", reason = "Speak with Nara Wildmane in Thunder Bluff. No combat objective is required.", confidence = "medium" },
 
     -- A Future Task (Horde - Thunder Bluff)
-    [2968] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2968] = { threat = "LOW", reason = "Speak with Sage Truthseeker in Thunder Bluff. No combat objective is required.", confidence = "medium" },
 
     -- Freedom for All Creatures
-    [2969] = { threat = "HIGH", reason = "At least 6 Sprite Darters and Kindal Moonweaver must survive. You have 6 minutes before Kindal decides it is time to retreat and you fail the quest. The camp is filled with level 45-48 Grimtotem tauren that pull in groups. A level 47 hunter soloed this by clearing the camp first and using Aspect of the Cheetah. Do not attempt below level 45 solo without a plan to manage the timer and keep the NPCs alive.", confidence = "high" },
+    [2969] = { threat = "HIGH", reason = "Timed quest (6 min). Kindal and at least six Sprite Darters must survive while the Grimtotem camp reacts to the escape. Clear the cage and escape route before starting, or bring help to handle the defenders and keep the group alive.", confidence = "medium" },
 
     -- Doling Justice (Kill Mobs)
-    [2970] = { threat = "MEDIUM", reason = "The tauren are levels 45-48 and are packed in the Grimtotem camp. They pull in groups and the Shamans cast nature spells. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [2970] = { threat = "MEDIUM", reason = "Kill 12 Naturalists, 10 Raiders, and 6 Shamans in the Grimtotem camp. Hostile groups and Shaman spells can make pulls snowball; work the camp carefully and avoid overlapping packs.", confidence = "medium" },
 
     -- Doling Justice (Return to Tyrande)
-    [2972] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2972] = { threat = "LOW", reason = "Deliver Jer’kai’s Signet Ring to Tyrande in Darnassus. No combat objective is required.", confidence = "medium" },
 
     -- A New Cloak's Sheen (Horde - Feralas)
-    [2973] = { threat = "MEDIUM", reason = "The sprite darters are levels 40-43 and can be dangerous when provoked. They are found in the forests west of Camp Mojache, which is also patrolled by night elves (Alliance). Watch for Alliance players and pull the darters one at a time .", confidence = "medium" },
+    [2973] = { threat = "LOW", reason = "Collect 10 Iridescent Sprite Darter Wings west of Camp Mojache. The darters are reported as non-aggressive; engage one at a time if needed.", confidence = "medium" },
 
     -- A Grim Discovery (Horde - Feralas)
-    [2974] = { threat = "MEDIUM", reason = "The tauren are levels 40-44 and are found in camps. They pull in groups and hit hard. Clear methodically and watch for patrolling mobs .", confidence = "medium" },
+    [2974] = { threat = "MEDIUM", reason = "Collect 20 Grimtotem Horns from Grimtotem in Feralas. Their camps are hostile; pull carefully and expect to defeat multiple enemies for the required items.", confidence = "medium" },
 
     -- The Ogres of Feralas (Horde - Feralas)
-    [2975] = { threat = "MEDIUM", reason = "The ogres are levels 41-44 and are packed in the ruins. They can be pulled one at a time if you are careful. The ogre camp is north of Camp Mojache, up a mountain path on the east side of the river. Watch for patrolling mobs and clear the area before engaging .", confidence = "high" },
+    [2975] = { threat = "MEDIUM", reason = "Kill 10 Gordunni Ogres, 10 Ogre-Magi, and 5 Brutes at the outpost north of Camp Mojache. Hostile camp pulls can overlap; clear a route and avoid fighting several enemies at once.", confidence = "medium" },
 
     -- A Grim Discovery (Horde - Feralas)
-    [2976] = { threat = "MEDIUM", reason = "The quest leads into tauren territory with patrolling mobs. Clear the area before engaging .", confidence = "medium" },
+    [2976] = { threat = "LOW", reason = "Deliver the Crate of Grimtotem Horns to Belgrom Rockmaul in Orgrimmar. No combat objective is required.", confidence = "medium" },
 
     -- Return to Ironforge
-    [2977] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2977] = { threat = "LOW", reason = "Speak with Historian Karnik in Ironforge. No combat objective is required.", confidence = "medium" },
 
     -- The Gordunni Scroll (Horde - Feralas)
-    [2978] = { threat = "LOW", reason = "The scroll is on the ground at the ogre camp and does not require combat to loot. The only risk is the journey to and from the camp. Safe if you avoid the ogres .", confidence = "high" },
+    [2978] = { threat = "LOW", reason = "Return the Gordunni Scroll to Rok Orhan at Camp Mojache. The scroll is a delivery objective; nearby ogres are a travel hazard if you approach the camp.", confidence = "medium" },
 
     -- Dark Ceremony (Horde - Feralas)
-    [2979] = { threat = "MEDIUM", reason = "The Mage-Lords are level 45-46 and the drop rate is roughly 15%, meaning you will kill 5-10 of them. The ogres are packed in the ruins and can pull in groups. Clear methodically and pull singles. A level 44 warrior soloed this in 5 kills .", confidence = "high" },
+    [2979] = { threat = "MEDIUM", reason = "Obtain a Gordunni Orb from a Gordunni Mage-Lord in the Ruins of Isildien. The ogres occupy hostile ruins, and the orb drop can take multiple kills; avoid overlapping pulls.", confidence = "medium" },
 
     -- The Ogres of Feralas (Horde - Feralas)
-    [2980] = { threat = "MEDIUM", reason = "The ogres are levels 43-45 and are packed in the ruins. The shaman and warlocks cast spells and can heal each other. Kill the casters first and pull singles. Do not attempt below level 42 solo .", confidence = "high" },
+    [2980] = { threat = "MEDIUM", reason = "Kill 10 Gordunni Shamans, 10 Warlocks, and 5 Maulers in the hostile ogre ruins. The casters can pressure you from range; pull carefully and interrupt or prioritize them when practical.", confidence = "medium" },
 
     -- A Threat in Feralas (Horde - Feralas)
-    [2981] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the camp .", confidence = "high" },
+    [2981] = { threat = "LOW", reason = "Speak with Rok Orhan at Camp Mojache. No combat objective is required.", confidence = "medium" },
 
     -- The High Wilderness
-    [2982] = { threat = "MEDIUM", reason = "The ogres are levels 43-46 and are packed in the Gordunni Outpost. They pull in groups and the casters have ranged attacks. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
+    [2982] = { threat = "MEDIUM", reason = "Kill 8 Gordunni Warlocks, 8 Shamans, and 8 Brutes in the High Wilderness. The ogres occupy hostile ruins; avoid overlapping pulls, especially near casters.", confidence = "medium" },
 
     -- Call of Fire (Shaman - Durotar)
-    [2983] = { threat = "MEDIUM", reason = "Requires collecting Fire Tar from Razormane Water Seekers and a Reagent Pouch from Burning Blade Cultists in Durotar, then killing a Minor Manifestation of Fire. The mobs are low-level but the cultists can pull in groups. The summoned elemental is manageable solo .", confidence = "high" },
+    [2983] = { threat = "LOW", reason = "Find Kranal Fiss north of the Crossroads in the Barrens. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Call of Fire (Shaman - Durotar)
-    [2984] = { threat = "MEDIUM", reason = "Use the Fire Sapta to summon and kill a Minor Manifestation of Fire. The elemental hits hard for its level but is manageable with cooldowns. Clear the area before starting .", confidence = "high" },
+    [2984] = { threat = "LOW", reason = "Find Kranal Fiss north of the Crossroads in the Barrens. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Call of Water (Shaman - Barrens)
-    [2985] = { threat = "MEDIUM", reason = "Requires filling waterskins at three locations: the water hole below Brine's hut in the Barrens, the well in Tarren Mill, and the fountain in Ashenvale. The journey through contested zones is the main risk. Tarren Mill and Ashenvale are patrolled by hostile mobs and Alliance players .", confidence = "high" },
+    [2985] = { threat = "LOW", reason = "Find Islen Waterseer at her fishing hut on the Barrens coast. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Call of Water (Shaman - Silverpine)
-    [2986] = { threat = "MEDIUM", reason = "Use the Water Sapta in Silverpine Forest (38, 44) to summon and kill a Corrupt Minor Manifestation of Water. The elemental hits hard and the area is patrolled by Son of Arugal. Clear the area before starting and be ready to flee if the elite worgen appears .", confidence = "high" },
+    [2986] = { threat = "LOW", reason = "Find Islen Waterseer at her fishing hut on the Barrens coast. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Gordunni Cobalt (Horde - Feralas)
-    [2987] = { threat = "MEDIUM", reason = "The cobalt is buried in the ground and you must use the provided shovel to dig it up. The ogres are levels 41-44 and are packed in the outpost. You will be digging while ogres patrol nearby. Clear the area before digging and watch for respawns .", confidence = "high" },
+    [2987] = { threat = "MEDIUM", reason = "Dig up 12 Gordunni Cobalt samples at the outpost north of Camp Mojache. Nearby ogres can engage while you use the shovel; some cobalt spots are away from enemies, so clear or avoid nearby pulls.", confidence = "medium" },
 
     -- Witherbark Cages
-    [2988] = { threat = "MEDIUM", reason = "The villages are in the Hinterlands and are filled with level 40-44 Witherbark trolls. They pull in groups and have ranged casters. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2988] = { threat = "MEDIUM", reason = "Check three cages in the Witherbark villages in the Hinterlands. Trolls guard the camps, but the cages can be reached with careful pulls or stealth; avoid drawing several trolls at once.", confidence = "medium" },
 
     -- The Altar of Zul
     [2989] = { threat = "HIGH", reason = "The Altar is a temple complex in the Hinterlands filled with level 45-48 elite trolls, including a named mob at the top. The path up is narrow and patrolled. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 46+ or skip on Hardcore.", confidence = "high" },

@@ -2502,58 +2502,58 @@ local quests = {
     [2931] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- In Search of Knowledge
-    [2939] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [2939] = { threat = "LOW", reason = "Speak with Daryn Lightwind in Rut’theran Village. No combat objective is required.", confidence = "medium" },
 
     -- Feralas: A History
-    [2940] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [2940] = { threat = "LOW", reason = "Ask Daryn Lightwind to borrow her book. This is a dialogue step with no combat objective.", confidence = "medium" },
 
     -- The Borrower
-    [2941] = { threat = "LOW", reason = "This is a delivery step with no combat. The journey to Tanaris is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2941] = { threat = "LOW", reason = "Take the letter to Curgle Cranklehop in Tanaris. This is a delivery step; no combat objective is required.", confidence = "medium" },
 
     -- The Morrow Stone
-    [2942] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2942] = { threat = "LOW", reason = "Return the Sparkling Stone and Stave of Equinex to Troyas Moonbreeze at Feathermoon Stronghold. No combat objective is required.", confidence = "medium" },
 
     -- Return to Troyas
-    [2943] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [2943] = { threat = "LOW", reason = "Deliver the book to Troyas Moonbreeze at Feathermoon Stronghold. No combat objective is required.", confidence = "medium" },
 
     -- The Super Snapper FX
-    [2944] = { threat = "MEDIUM", reason = "Gammerita is a level 50 named turtle on the coast of the Hinterlands, surrounded by other snapjaws. Clear the area before using the camera and watch for adds. Do not attempt below level 46 solo.", confidence = "medium" },
+    [2944] = { threat = "MEDIUM", reason = "Photograph Gammerita on the Hinterlands coast. Nearby turtles can engage while you line up the snapshot; avoid fighting more than one at a time.", confidence = "medium" },
 
     -- Seeing What Happens
-    [2946] = { threat = "MEDIUM", reason = "The gates are guarded by level 45-48 giants. You can bypass the giants by going around the left side where there is a trail that goes right up to the pedestal. A level 48 hunter soloed this without pulling a single mob by using this route. Do not attempt below level 45 if you plan to fight the giants.", confidence = "high" },
+    [2946] = { threat = "MEDIUM", reason = "Use the miniature discs at the Uldum pedestal and speak with the Stone Watcher. Elite giants patrol nearby, but a path around the left side lets you avoid fighting them; watch for the moving patrol on your exit.", confidence = "medium" },
 
     -- Return of the Ring
     [2947] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- Gnome Improvement
-    [2948] = { threat = "LOW", reason = "This is a collection and delivery step with no combat. The materials are purchased or gathered. Safe if you stay in the city.", confidence = "high" },
+    [2948] = { threat = "LOW", reason = "Bring the Brilliant Gold Ring, Silver Bar, Moss Agate, and 30 silver to Talvash in Ironforge. No combat objective is required.", confidence = "medium" },
 
     -- The Only Cure is More Green Glow
     [2962] = { threat = "MEDIUM", reason = "The fallout is unstable and will collapse rather quickly. Ozzie will also require your Heavy Leaden Collection Phial when the task is complete. This requires entering Gnomeregan, a level 24-34 dungeon filled with elites. This requires a full group of level 28+. Do not attempt solo.", confidence = "high" },
 
     -- Portents of Uldum
-    [2963] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2963] = { threat = "LOW", reason = "Speak with Historian Karnik in Ironforge. No combat objective is required.", confidence = "medium" },
 
     -- A Future Task
-    [2964] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2964] = { threat = "LOW", reason = "Speak with High Explorer Magellas in Ironforge. No combat objective is required.", confidence = "medium" },
 
     -- Freedom for All Creatures
-    [2969] = { threat = "HIGH", reason = "At least 6 Sprite Darters and Kindal Moonweaver must survive. You have 6 minutes before Kindal decides it is time to retreat and you fail the quest. The camp is filled with level 45-48 Grimtotem tauren that pull in groups. A level 47 hunter soloed this by clearing the camp first and using Aspect of the Cheetah. Do not attempt below level 45 solo without a plan to manage the timer and keep the NPCs alive.", confidence = "high" },
+    [2969] = { threat = "HIGH", reason = "Timed quest (6 min). Kindal and at least six Sprite Darters must survive while the Grimtotem camp reacts to the escape. Clear the cage and escape route before starting, or bring help to handle the defenders and keep the group alive.", confidence = "medium" },
 
     -- Doling Justice
-    [2970] = { threat = "MEDIUM", reason = "The tauren are levels 45-48 and are packed in the Grimtotem camp. They pull in groups and the Shamans cast nature spells. Clear methodically and watch for adds. Do not attempt below level 45 solo.", confidence = "medium" },
+    [2970] = { threat = "MEDIUM", reason = "Kill 12 Naturalists, 10 Raiders, and 6 Shamans in the Grimtotem camp. Hostile groups and Shaman spells can make pulls snowball; work the camp carefully and avoid overlapping packs.", confidence = "medium" },
 
     -- Doling Justice
-    [2972] = { threat = "LOW", reason = "This is a delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2972] = { threat = "LOW", reason = "Deliver Jer’kai’s Signet Ring to Tyrande in Darnassus. No combat objective is required.", confidence = "medium" },
 
     -- Return to Ironforge
-    [2977] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [2977] = { threat = "LOW", reason = "Speak with Historian Karnik in Ironforge. No combat objective is required.", confidence = "medium" },
 
     -- The High Wilderness
-    [2982] = { threat = "MEDIUM", reason = "The ogres are levels 43-46 and are packed in the Gordunni Outpost. They pull in groups and the casters have ranged attacks. Clear methodically and watch for adds. Do not attempt below level 43 solo.", confidence = "medium" },
+    [2982] = { threat = "MEDIUM", reason = "Kill 8 Gordunni Warlocks, 8 Shamans, and 8 Brutes in the High Wilderness. The ogres occupy hostile ruins; avoid overlapping pulls, especially near casters.", confidence = "medium" },
 
     -- Witherbark Cages
-    [2988] = { threat = "MEDIUM", reason = "The villages are in the Hinterlands and are filled with level 40-44 Witherbark trolls. They pull in groups and have ranged casters. Clear methodically and watch for adds. Do not attempt below level 40 solo.", confidence = "medium" },
+    [2988] = { threat = "MEDIUM", reason = "Check three cages in the Witherbark villages in the Hinterlands. Trolls guard the camps, but the cages can be reached with careful pulls or stealth; avoid drawing several trolls at once.", confidence = "medium" },
 
     -- The Altar of Zul
     [2989] = { threat = "HIGH", reason = "The Altar is a temple complex in the Hinterlands filled with level 45-48 elite trolls, including a named mob at the top. The path up is narrow and patrolled. This is an Elite quest by design. Do not attempt solo at the intended level. Bring a group of level 46+ or skip on Hardcore.", confidence = "high" },

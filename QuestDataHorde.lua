@@ -1770,82 +1770,82 @@ local quests = {
     [2903] = { threat = "LOW", reason = "Return the Woodpaw Battle Plans to Hadoken Swiftstrider at Camp Mojache. The quest provides the plans; this report step has no combat objective.", confidence = "medium" },
 
     -- Grim Message
-    [2932] = { threat = "MEDIUM", reason = "The trolls are levels 40-44 and drop skulls at a 100% rate. However, they are packed tightly in villages and are difficult to pull one at a time. A level 41 rogue reported dying multiple times because he could not get single pulls. Once you have 20 skulls, you must plant the pike in the middle of the village, which will aggro multiple trolls. Use a pet or voidwalker to distract them while you plant and run. Do not attempt solo below level 44 without a group .", confidence = "high" },
+    [2932] = { threat = "MEDIUM", reason = "Twenty Witherbark Skulls are needed from troll camps, then you must plant the loaded pike inside a village. Trolls are densely placed and can aggro in groups; clear a route before planting it.", confidence = "medium" },
 
     -- Venom Bottles
-    [2933] = { threat = "MEDIUM", reason = "The trolls are levels 40-44 and are packed in villages. The drop rate is moderate. Pull singles and watch for patrolling mobs .", confidence = "medium" },
+    [2933] = { threat = "MEDIUM", reason = "The Venom Bottle is found at a Witherbark village in the Hinterlands. Hostile trolls occupy the camps, so approach carefully, take the bottle, and leave without drawing a group.", confidence = "medium" },
 
     -- Undamaged Venom Sac
-    [2934] = { threat = "MEDIUM", reason = "The spiders are levels 40-44 and can pull in groups. Clear the area before looting .", confidence = "medium" },
+    [2934] = { threat = "MEDIUM", reason = "Timed quest (30 min after the sac drops). Witherbark Broodguards near Shadra’Alor can spawn spider adds, and the undamaged sac expires after pickup; finish the return to Tarren Mill promptly.", confidence = "medium" },
 
     -- Consult Master Gadrin
-    [2935] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
+    [2935] = { threat = "LOW", reason = "Speak with Master Gadrin in Sen’jin Village. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- The Spider God
     [2936] = { threat = "HIGH", reason = "Zul'Farrak is a level 44-50 dungeon filled with elite trolls and sandfury mobs. Theka the Martyr is a boss who guards the tablet. This requires a full group of level 44+. Do not attempt solo .", confidence = "high" },
 
     -- Summoning Shadra
-    [2937] = { threat = "EXTREME", reason = "Shadra hits for around 500 on leather and has a poison that ticks for 77 damage. She is immune to fear breaks early and will destroy unprepared players. A level 47 hunter soloed her by kiting her to Thoradin's Wall in Arathi, which took 15 minutes. Do not attempt without a full group or a very specific kiting strategy. This is one of the deadliest quests in the Hinterlands .", confidence = "high" },
+    [2937] = { threat = "HIGH", reason = "Elite quest. Shadra is a level 55 elite spider that hits hard and applies a slowing poison. Clear nearby spiders before summoning; use a suitable group or a tested class-specific control and escape plan.", confidence = "medium" },
 
     -- Venom to the Undercity
-    [2938] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
+    [2938] = { threat = "LOW", reason = "Deliver Faranell’s Parcel to the Undercity. This is a travel and turn-in step with no combat objective.", confidence = "medium" },
 
     -- Return of the Ring
     [2949] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },
 
     -- Nogg's Ring Redo
-    [2950] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2950] = { threat = "LOW", reason = "Bring the Brilliant Gold Ring, Silver Bar, Moss Agate, and 30 silver to Nogg in Orgrimmar. No combat objective is required.", confidence = "medium" },
 
     -- Portents of Uldum
-    [2965] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2965] = { threat = "LOW", reason = "Speak with Nara Wildmane in Thunder Bluff. No combat objective is required.", confidence = "medium" },
 
     -- Seeing What Happens
-    [2966] = { threat = "MEDIUM", reason = "The gate is guarded by level 45-48 giants. You can bypass the giants by going around the left side where there is a trail that goes right up to the pedestal. A level 48 hunter soloed this without pulling a single mob by using this route. Do not attempt below level 45 if you plan to fight the giants .", confidence = "high" },
+    [2966] = { threat = "MEDIUM", reason = "Use the miniature discs at the Uldum pedestal and speak with the Stone Watcher. Elite giants patrol nearby, but a path around the left side lets you avoid fighting them; watch for the moving patrol on your exit.", confidence = "medium" },
 
     -- Return to Thunder Bluff
-    [2967] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2967] = { threat = "LOW", reason = "Speak with Nara Wildmane in Thunder Bluff. No combat objective is required.", confidence = "medium" },
 
     -- A Future Task
-    [2968] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city .", confidence = "high" },
+    [2968] = { threat = "LOW", reason = "Speak with Sage Truthseeker in Thunder Bluff. No combat objective is required.", confidence = "medium" },
 
     -- A New Cloak's Sheen
-    [2973] = { threat = "MEDIUM", reason = "The sprite darters are levels 40-43 and can be dangerous when provoked. They are found in the forests west of Camp Mojache, which is also patrolled by night elves (Alliance). Watch for Alliance players and pull the darters one at a time .", confidence = "medium" },
+    [2973] = { threat = "LOW", reason = "Collect 10 Iridescent Sprite Darter Wings west of Camp Mojache. The darters are reported as non-aggressive; engage one at a time if needed.", confidence = "medium" },
 
     -- A Grim Discovery
-    [2974] = { threat = "MEDIUM", reason = "The tauren are levels 40-44 and are found in camps. They pull in groups and hit hard. Clear methodically and watch for patrolling mobs .", confidence = "medium" },
+    [2974] = { threat = "MEDIUM", reason = "Collect 20 Grimtotem Horns from Grimtotem in Feralas. Their camps are hostile; pull carefully and expect to defeat multiple enemies for the required items.", confidence = "medium" },
 
     -- The Ogres of Feralas
-    [2975] = { threat = "MEDIUM", reason = "The ogres are levels 41-44 and are packed in the ruins. They can be pulled one at a time if you are careful. The ogre camp is north of Camp Mojache, up a mountain path on the east side of the river. Watch for patrolling mobs and clear the area before engaging .", confidence = "high" },
+    [2975] = { threat = "MEDIUM", reason = "Kill 10 Gordunni Ogres, 10 Ogre-Magi, and 5 Brutes at the outpost north of Camp Mojache. Hostile camp pulls can overlap; clear a route and avoid fighting several enemies at once.", confidence = "medium" },
 
     -- A Grim Discovery
-    [2976] = { threat = "MEDIUM", reason = "The quest leads into tauren territory with patrolling mobs. Clear the area before engaging .", confidence = "medium" },
+    [2976] = { threat = "LOW", reason = "Deliver the Crate of Grimtotem Horns to Belgrom Rockmaul in Orgrimmar. No combat objective is required.", confidence = "medium" },
 
     -- The Gordunni Scroll
-    [2978] = { threat = "LOW", reason = "The scroll is on the ground at the ogre camp and does not require combat to loot. The only risk is the journey to and from the camp. Safe if you avoid the ogres .", confidence = "high" },
+    [2978] = { threat = "LOW", reason = "Return the Gordunni Scroll to Rok Orhan at Camp Mojache. The scroll is a delivery objective; nearby ogres are a travel hazard if you approach the camp.", confidence = "medium" },
 
     -- Dark Ceremony
-    [2979] = { threat = "MEDIUM", reason = "The Mage-Lords are level 45-46 and the drop rate is roughly 15%, meaning you will kill 5-10 of them. The ogres are packed in the ruins and can pull in groups. Clear methodically and pull singles. A level 44 warrior soloed this in 5 kills .", confidence = "high" },
+    [2979] = { threat = "MEDIUM", reason = "Obtain a Gordunni Orb from a Gordunni Mage-Lord in the Ruins of Isildien. The ogres occupy hostile ruins, and the orb drop can take multiple kills; avoid overlapping pulls.", confidence = "medium" },
 
     -- The Ogres of Feralas
-    [2980] = { threat = "MEDIUM", reason = "The ogres are levels 43-45 and are packed in the ruins. The shaman and warlocks cast spells and can heal each other. Kill the casters first and pull singles. Do not attempt below level 42 solo .", confidence = "high" },
+    [2980] = { threat = "MEDIUM", reason = "Kill 10 Gordunni Shamans, 10 Warlocks, and 5 Maulers in the hostile ogre ruins. The casters can pressure you from range; pull carefully and interrupt or prioritize them when practical.", confidence = "medium" },
 
     -- A Threat in Feralas
-    [2981] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay in the camp .", confidence = "high" },
+    [2981] = { threat = "LOW", reason = "Speak with Rok Orhan at Camp Mojache. No combat objective is required.", confidence = "medium" },
 
     -- Call of Fire
-    [2983] = { threat = "MEDIUM", reason = "Requires collecting Fire Tar from Razormane Water Seekers and a Reagent Pouch from Burning Blade Cultists in Durotar, then killing a Minor Manifestation of Fire. The mobs are low-level but the cultists can pull in groups. The summoned elemental is manageable solo .", confidence = "high" },
+    [2983] = { threat = "LOW", reason = "Find Kranal Fiss north of the Crossroads in the Barrens. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Call of Fire
-    [2984] = { threat = "MEDIUM", reason = "Use the Fire Sapta to summon and kill a Minor Manifestation of Fire. The elemental hits hard for its level but is manageable with cooldowns. Clear the area before starting .", confidence = "high" },
+    [2984] = { threat = "LOW", reason = "Find Kranal Fiss north of the Crossroads in the Barrens. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Call of Water
-    [2985] = { threat = "MEDIUM", reason = "Requires filling waterskins at three locations: the water hole below Brine's hut in the Barrens, the well in Tarren Mill, and the fountain in Ashenvale. The journey through contested zones is the main risk. Tarren Mill and Ashenvale are patrolled by hostile mobs and Alliance players .", confidence = "high" },
+    [2985] = { threat = "LOW", reason = "Find Islen Waterseer at her fishing hut on the Barrens coast. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Call of Water
-    [2986] = { threat = "MEDIUM", reason = "Use the Water Sapta in Silverpine Forest (38, 44) to summon and kill a Corrupt Minor Manifestation of Water. The elemental hits hard and the area is patrolled by Son of Arugal. Clear the area before starting and be ready to flee if the elite worgen appears .", confidence = "high" },
+    [2986] = { threat = "LOW", reason = "Find Islen Waterseer at her fishing hut on the Barrens coast. This is a travel and dialogue step with no combat objective.", confidence = "medium" },
 
     -- Gordunni Cobalt
-    [2987] = { threat = "MEDIUM", reason = "The cobalt is buried in the ground and you must use the provided shovel to dig it up. The ogres are levels 41-44 and are packed in the outpost. You will be digging while ogres patrol nearby. Clear the area before digging and watch for respawns .", confidence = "high" },
+    [2987] = { threat = "MEDIUM", reason = "Dig up 12 Gordunni Cobalt samples at the outpost north of Camp Mojache. Nearby ogres can engage while you use the shovel; some cobalt spots are away from enemies, so clear or avoid nearby pulls.", confidence = "medium" },
 
     -- Lines of Communication
     [2995] = { threat = "LOW", reason = "Travel step with no combat. Safe if you stay on the road .", confidence = "high" },

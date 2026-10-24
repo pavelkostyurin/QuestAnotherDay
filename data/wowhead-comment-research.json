@@ -43417,6 +43417,1273 @@
       "checkedAt": "2026-10-24T19:53:12+03:00",
       "skipReason": "dungeon",
       "sourceNote": "Skipped under ordinary traversal because data/classic-quests.json marks this quest as a dungeon. No comments or gameplay mechanics researched."
+    },
+    {
+      "questId": 2931,
+      "questName": "Castpipe's Task",
+      "url": "https://www.wowhead.com/classic/quest=2931",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2932,
+      "questName": "Grim Message",
+      "url": "https://www.wowhead.com/classic/quest=2932",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 10 comments (order unverified), used 3. Only relevant visible passages were used.",
+      "commentsReviewed": 10,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Grim Message - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2932/grim-message",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text confirms 20 Witherbark Skulls and planting at Hiri’watha or Zun’watha; comments describe grouped trolls and the pike interaction."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text and comments confirm 20 skulls and the village planting objective; comments describe camps with clustered trolls and 3–4 enemy pulls.",
+      "reason": "Twenty Witherbark Skulls are needed from troll camps, then you must plant the loaded pike inside a village. Trolls are densely placed and can aggro in groups; clear a route before planting it.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2933,
+      "questName": "Venom Bottles",
+      "url": "https://www.wowhead.com/classic/quest=2933",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 10 comments (order unverified), used 2. Only relevant visible passages were used.",
+      "commentsReviewed": 10,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Venom Bottles - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2933/venom-bottles",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text/comments place the bottle in Witherbark camps; collection is an object interaction among hostile trolls."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments locate the bottle in a Witherbark camp, often on a table or crate. The main risk is entering the hostile village; the delivery itself needs no combat.",
+      "reason": "The Venom Bottle is found at a Witherbark village in the Hinterlands. Hostile trolls occupy the camps, so approach carefully, take the bottle, and leave without drawing a group.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2934,
+      "questName": "Undamaged Venom Sac",
+      "url": "https://www.wowhead.com/classic/quest=2934",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 8 comments (order unverified), used 2. Only relevant visible passages were used.",
+      "commentsReviewed": 8,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Undamaged Venom Sac - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2934",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text places spiders near Shadra’Alor; comments report spawned spiderlings after kills."
+        },
+        {
+          "title": "Undamaged Venom Sac item data",
+          "url": "https://wowclassicdatabase.com/item/undamaged-venom-sac",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Lists a 30-minute item duration and Witherbark Broodguard as the source."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text locates the spiders near Shadra’Alor; Classic item data confirms the sac has a 30-minute duration. Comments report spider adds and variable drop counts.",
+      "reason": "Timed quest (30 min after the sac drops). Witherbark Broodguards near Shadra’Alor can spawn spider adds, and the undamaged sac expires after pickup; finish the return to Tarren Mill promptly.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2935,
+      "questName": "Consult Master Gadrin",
+      "url": "https://www.wowhead.com/classic/quest=2935",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in the village; no combat objective is listed. Confidence is medium from the catalog and familiar route context.",
+      "reason": "Speak with Master Gadrin in Sen’jin Village. This is a travel and dialogue step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2936,
+      "questName": "The Spider God",
+      "url": "https://www.wowhead.com/classic/quest=2936",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2937,
+      "questName": "Summoning Shadra",
+      "url": "https://www.wowhead.com/classic/quest=2937",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 14 comments (order unverified), used 4. Only relevant visible passages were used.",
+      "commentsReviewed": 14,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Summoning Shadra - Quest - TBC Classic",
+          "url": "https://www.wowhead.com/tbc/quest=2937/summoning-shadra",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Comments identify Shadra as level 55 elite and document solo kills around levels 51–55 with class-specific strategies."
+        },
+        {
+          "title": "Summoning Shadra - Quest - WotLK Classic",
+          "url": "https://www.wowhead.com/wotlk/quest=2937/summoning-shadra",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Comments describe heavy melee/poison threat and several class-specific solo methods."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest pages identify Shadra as a level 55 elite; comments document solo kills around levels 51–55 with class-specific control, healing, or kiting. Evidence supports HIGH for a difficult but sometimes soloable fight, not EXTREME.",
+      "reason": "Elite quest. Shadra is a level 55 elite spider that hits hard and applies a slowing poison. Clear nearby spiders before summoning; use a suitable group or a tested class-specific control and escape plan.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2938,
+      "questName": "Venom to the Undercity",
+      "url": "https://www.wowhead.com/classic/quest=2938",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a parcel delivery; the dangerous encounter claims in the old warning did not apply to this step.",
+      "reason": "Deliver Faranell’s Parcel to the Undercity. This is a travel and turn-in step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2939,
+      "questName": "In Search of Knowledge",
+      "url": "https://www.wowhead.com/classic/quest=2939",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in Rut’theran; no combat is required.",
+      "reason": "Speak with Daryn Lightwind in Rut’theran Village. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2940,
+      "questName": "Feralas: A History",
+      "url": "https://www.wowhead.com/classic/quest=2940",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in Rut’theran; no combat is required.",
+      "reason": "Ask Daryn Lightwind to borrow her book. This is a dialogue step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2941,
+      "questName": "The Borrower",
+      "url": "https://www.wowhead.com/classic/quest=2941",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a letter delivery. Removed the unsupported low-level danger cutoff.",
+      "reason": "Take the letter to Curgle Cranklehop in Tanaris. This is a delivery step; no combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2942,
+      "questName": "The Morrow Stone",
+      "url": "https://www.wowhead.com/classic/quest=2942",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a turn-in of items obtained in the prior quest; no combat is required.",
+      "reason": "Return the Sparkling Stone and Stave of Equinex to Troyas Moonbreeze at Feathermoon Stronghold. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2943,
+      "questName": "Return to Troyas",
+      "url": "https://www.wowhead.com/classic/quest=2943",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a delivery step; no combat is required.",
+      "reason": "Deliver the book to Troyas Moonbreeze at Feathermoon Stronghold. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2944,
+      "questName": "The Super Snapper FX",
+      "url": "https://www.wowhead.com/classic/quest=2944",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 3 comments (order unverified), used 2. Only relevant visible passages were used.",
+      "commentsReviewed": 3,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Super Snapper FX - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2944",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Comments identify Gammerita as a level 48 mob and describe its patrol route among nearby turtles."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments identify Gammerita as a level 48 ordinary mob after patch 2.3 and report a patrol among other turtles. The warning focuses on nearby combat rather than the old unverified level 50 claim.",
+      "reason": "Photograph Gammerita on the Hinterlands coast. Nearby turtles can engage while you line up the snapshot; avoid fighting more than one at a time.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2945,
+      "questName": "Grime-Encrusted Ring",
+      "url": "https://www.wowhead.com/classic/quest=2945",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2946,
+      "questName": "Seeing What Happens",
+      "url": "https://www.wowhead.com/classic/quest=2946",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 15 comments (order unverified), used 3. Only relevant visible passages were used.",
+      "commentsReviewed": 15,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Seeing What Happens - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2946",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest details and comments describe level 48–50 elite giants, the left-side path to the pedestal, and a moving patrol."
+        },
+        {
+          "title": "Seeing What Happens - Quest - WotLK Classic",
+          "url": "https://www.wowhead.com/wotlk/quest=2946/seeing-what-happens",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Comments confirm the route can avoid combat but mention a patrolling elite."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments confirm elite giants near the pedestal and a route that avoids combat, while also warning about a patrol. Retained MEDIUM because the route is avoidable but requires care.",
+      "reason": "Use the miniature discs at the Uldum pedestal and speak with the Stone Watcher. Elite giants patrol nearby, but a path around the left side lets you avoid fighting them; watch for the moving patrol on your exit.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2947,
+      "questName": "Return of the Ring",
+      "url": "https://www.wowhead.com/classic/quest=2947",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2948,
+      "questName": "Gnome Improvement",
+      "url": "https://www.wowhead.com/classic/quest=2948",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a city turn-in of materials and money; no combat is required.",
+      "reason": "Bring the Brilliant Gold Ring, Silver Bar, Moss Agate, and 30 silver to Talvash in Ironforge. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2949,
+      "questName": "Return of the Ring",
+      "url": "https://www.wowhead.com/classic/quest=2949",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2950,
+      "questName": "Nogg's Ring Redo",
+      "url": "https://www.wowhead.com/classic/quest=2950",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a city turn-in of materials and money; no combat is required.",
+      "reason": "Bring the Brilliant Gold Ring, Silver Bar, Moss Agate, and 30 silver to Nogg in Orgrimmar. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2951,
+      "questName": "The Sparklematic 5200!",
+      "url": "https://www.wowhead.com/classic/quest=2951",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2952,
+      "questName": "The Sparklematic 5200!",
+      "url": "https://www.wowhead.com/classic/quest=2952",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2953,
+      "questName": "More Sparklematic Action",
+      "url": "https://www.wowhead.com/classic/quest=2953",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2954,
+      "questName": "The Stone Watcher",
+      "url": "https://www.wowhead.com/classic/quest=2954",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the evidence notes listed were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Seeing What Happens - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2946",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Related pedestal interaction at Uldum; comments document elite giants, a bypass route, and a moving patrol."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The local warning matches the Uldum approach described for the related Seeing What Happens quest. The patrol makes the route hazardous, although fighting the giants is avoidable; confidence is medium.",
+      "reason": "Use the Uldum pedestal and learn about the Stone Watcher. Elite giants patrol nearby, but the left-side path can avoid them; watch for the moving giant while interacting and leaving.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2962,
+      "questName": "The Only Cure is More Green Glow",
+      "url": "https://www.wowhead.com/classic/quest=2962",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:58:21+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped during ordinary traversal because the pinned quest catalog marks it as a dungeon quest. No mechanics or comments researched."
+    },
+    {
+      "questId": 2963,
+      "questName": "Portents of Uldum",
+      "url": "https://www.wowhead.com/classic/quest=2963",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in Ironforge.",
+      "reason": "Speak with Historian Karnik in Ironforge. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2964,
+      "questName": "A Future Task",
+      "url": "https://www.wowhead.com/classic/quest=2964",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in Ironforge.",
+      "reason": "Speak with High Explorer Magellas in Ironforge. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2965,
+      "questName": "Portents of Uldum",
+      "url": "https://www.wowhead.com/classic/quest=2965",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in Thunder Bluff.",
+      "reason": "Speak with Nara Wildmane in Thunder Bluff. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2966,
+      "questName": "Seeing What Happens",
+      "url": "https://www.wowhead.com/classic/quest=2966",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the evidence notes listed were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Seeing What Happens - Quest - Classic wow database",
+          "url": "https://www.wowhead.com/classic/quest=2946/seeing-what-happens",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Shared Uldum pedestal mechanics: nearby elite giants, a bypass route, and a moving patrol."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Horde quest uses the same Uldum pedestal interaction as the Alliance version. Classic comments document the giants and a bypass route; confidence is medium.",
+      "reason": "Use the miniature discs at the Uldum pedestal and speak with the Stone Watcher. Elite giants patrol nearby, but a path around the left side lets you avoid fighting them; watch for the moving patrol on your exit.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2967,
+      "questName": "Return to Thunder Bluff",
+      "url": "https://www.wowhead.com/classic/quest=2967",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in Thunder Bluff.",
+      "reason": "Speak with Nara Wildmane in Thunder Bluff. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2968,
+      "questName": "A Future Task",
+      "url": "https://www.wowhead.com/classic/quest=2968",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in Thunder Bluff.",
+      "reason": "Speak with Sage Truthseeker in Thunder Bluff. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2969,
+      "questName": "Freedom for All Creatures",
+      "url": "https://www.wowhead.com/classic/quest=2969",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 12 comments (order unverified), used 3. Only relevant visible passages were used.",
+      "commentsReviewed": 12,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Freedom for All Creatures - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2969/freedom-for-all-creatures",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text confirms six-minute timer and survival of Kindal plus six darters; comments describe Grimtotem defenders and camp-clearing strategies."
+        },
+        {
+          "title": "Freedom for All Creatures - Quest - WotLK Classic",
+          "url": "https://www.wowhead.com/wotlk/quest=2969/freedom-for-all-creatures",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Comments document solo completion after clearing the camp and warn that several enemies attack the escort and darters."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest text confirms the six-minute timer and survival requirement. Classic comments describe nearby defenders attacking the escort and report solo clears after preparing the camp; this is high danger but not clearly impossible to solo.",
+      "reason": "Timed quest (6 min). Kindal and at least six Sprite Darters must survive while the Grimtotem camp reacts to the escape. Clear the cage and escape route before starting, or bring help to handle the defenders and keep the group alive.",
+      "threat": "HIGH",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2970,
+      "questName": "Doling Justice",
+      "url": "https://www.wowhead.com/classic/quest=2970",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective confirms 28 required kills in the Grimtotem camp. Existing level and exact density claims were not independently verified.",
+      "reason": "Kill 12 Naturalists, 10 Raiders, and 6 Shamans in the Grimtotem camp. Hostile groups and Shaman spells can make pulls snowball; work the camp carefully and avoid overlapping packs.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2972,
+      "questName": "Doling Justice",
+      "url": "https://www.wowhead.com/classic/quest=2972",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is an item delivery to Darnassus.",
+      "reason": "Deliver Jer’kai’s Signet Ring to Tyrande in Darnassus. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2973,
+      "questName": "A New Cloak's Sheen",
+      "url": "https://www.wowhead.com/classic/quest=2973",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 18 comments (order unverified), used 2. Only relevant visible passages were used.",
+      "commentsReviewed": 18,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "A New Cloak’s Sheen - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2973/a-new-cloaks-sheen",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest comments report non-aggressive darters around level 42–43; quest text cautions about them when provoked."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest comments describe non-aggressive Sprite Darters and frequent wing drops. Removed the contested-territory player warning, which is not a PvP requirement.",
+      "reason": "Collect 10 Iridescent Sprite Darter Wings west of Camp Mojache. The darters are reported as non-aggressive; engage one at a time if needed.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2974,
+      "questName": "A Grim Discovery",
+      "url": "https://www.wowhead.com/classic/quest=2974",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the evidence notes listed were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Grimtotem Horn - Warcraft Wiki",
+          "url": "https://warcraft.wiki.gg/wiki/Grimtotem_Horn",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Identifies Grimtotem tribe members in Feralas as the item source."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Catalog requires 20 horns; item references identify Grimtotem as the source. No exact drop rate or kill count is asserted.",
+      "reason": "Collect 20 Grimtotem Horns from Grimtotem in Feralas. Their camps are hostile; pull carefully and expect to defeat multiple enemies for the required items.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2975,
+      "questName": "The Ogres of Feralas",
+      "url": "https://www.wowhead.com/classic/quest=2975",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 15 comments (order unverified), used 2. Only relevant visible passages were used.",
+      "commentsReviewed": 15,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Ogres of Feralas - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2975/the-ogres-of-feralas",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text identifies the three kill objectives at the Gordunni outpost; comments describe the camp and single pulls."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest text and Classic comments place the required ogres at the Gordunni outpost and describe pulling them individually with care.",
+      "reason": "Kill 10 Gordunni Ogres, 10 Ogre-Magi, and 5 Brutes at the outpost north of Camp Mojache. Hostile camp pulls can overlap; clear a route and avoid fighting several enemies at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2976,
+      "questName": "A Grim Discovery",
+      "url": "https://www.wowhead.com/classic/quest=2976",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is a crate delivery; the old tauren-territory danger claim does not apply to this turn-in.",
+      "reason": "Deliver the Crate of Grimtotem Horns to Belgrom Rockmaul in Orgrimmar. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2977,
+      "questName": "Return to Ironforge",
+      "url": "https://www.wowhead.com/classic/quest=2977",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue in Ironforge.",
+      "reason": "Speak with Historian Karnik in Ironforge. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2978,
+      "questName": "The Gordunni Scroll",
+      "url": "https://www.wowhead.com/classic/quest=2978",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Local warning that the scroll is ground loot conflicts with the catalog objective, which is a turn-in. Assessment is based on the reported origin near Gordunni and ordinary travel risk.",
+      "reason": "Return the Gordunni Scroll to Rok Orhan at Camp Mojache. The scroll is a delivery objective; nearby ogres are a travel hazard if you approach the camp.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2979,
+      "questName": "Dark Ceremony",
+      "url": "https://www.wowhead.com/classic/quest=2979",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 15 comments (order unverified), used 3. Only relevant visible passages were used.",
+      "commentsReviewed": 15,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Dark Ceremony - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2979",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Comments identify Gordunni Mage-Lords as the orb source and report variable numbers of kills."
+        },
+        {
+          "title": "Dark Ceremony - WoW Forever quest guide",
+          "url": "https://urgametips.com/wow-forever/quest-guides/dark-ceremony-gordunni-mage-lord-orb/",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Locates the Mage-Lords in the Ruins of Isildien and confirms the orb objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic comments identify the Mage-Lord source and report widely variable kill counts. Removed the unsupported fixed drop rate and expected count.",
+      "reason": "Obtain a Gordunni Orb from a Gordunni Mage-Lord in the Ruins of Isildien. The ogres occupy hostile ruins, and the orb drop can take multiple kills; avoid overlapping pulls.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2980,
+      "questName": "The Ogres of Feralas",
+      "url": "https://www.wowhead.com/classic/quest=2980",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective requires 25 kills in Gordunni territory. Existing class tactics and exact levels were not independently verified.",
+      "reason": "Kill 10 Gordunni Shamans, 10 Warlocks, and 5 Maulers in the hostile ogre ruins. The casters can pressure you from range; pull carefully and interrupt or prioritize them when practical.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2981,
+      "questName": "A Threat in Feralas",
+      "url": "https://www.wowhead.com/classic/quest=2981",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog objective and game knowledge; no external comments needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog objective is dialogue at Camp Mojache.",
+      "reason": "Speak with Rok Orhan at Camp Mojache. No combat objective is required.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2982,
+      "questName": "The High Wilderness",
+      "url": "https://www.wowhead.com/classic/quest=2982",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the evidence notes listed were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The High Wilderness - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2982/the-high-wilderness",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest description confirms the ogres control the ruins and that the area is dangerous."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Quest text confirms the kill objectives and explicitly describes the ogre-occupied area as dangerous.",
+      "reason": "Kill 8 Gordunni Warlocks, 8 Shamans, and 8 Brutes in the High Wilderness. The ogres occupy hostile ruins; avoid overlapping pulls, especially near casters.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2983,
+      "questName": "Call of Fire",
+      "url": "https://www.wowhead.com/classic/quest=2983",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; only the evidence notes listed were used. Comment ordering was not verified.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Fire - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2983/call-of-fire",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text confirms a find-and-speak objective north of the Crossroads."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms the objective is to find and speak with Kranal; the existing warning incorrectly described later fire quest objectives.",
+      "reason": "Find Kranal Fiss north of the Crossroads in the Barrens. This is a travel and dialogue step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2984,
+      "questName": "Call of Fire",
+      "url": "https://www.wowhead.com/classic/quest=2984",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 8 comments (order unverified), used 1. Only relevant visible passages were used.",
+      "commentsReviewed": 8,
+      "commentsUsed": 1,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Fire - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2984/call-of-fire",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text confirms a find-and-speak objective north of the Crossroads."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms the objective is to find and speak with Kranal; the existing warning incorrectly described later fire quest objectives.",
+      "reason": "Find Kranal Fiss north of the Crossroads in the Barrens. This is a travel and dialogue step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2985,
+      "questName": "Call of Water",
+      "url": "https://www.wowhead.com/classic/quest=2985",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 7 comments (order unverified), used 2. Only relevant visible passages were used.",
+      "commentsReviewed": 7,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Water - Quest - Classic wow database",
+          "url": "https://www.wowhead.com/classic/quest=2985/call-of-water",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text confirms Islen is at a fishing hut on the eastern Barrens coast."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms the objective is to find and speak with Islen; the current warning incorrectly described the later waterskin route.",
+      "reason": "Find Islen Waterseer at her fishing hut on the Barrens coast. This is a travel and dialogue step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2986,
+      "questName": "Call of Water",
+      "url": "https://www.wowhead.com/classic/quest=2986",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 8 comments (order unverified), used 2. Only relevant visible passages were used.",
+      "commentsReviewed": 8,
+      "commentsUsed": 2,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Water - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2986/call-of-water",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text confirms Islen is at a fishing hut on the eastern Barrens coast."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms the objective is to find and speak with Islen; the current warning incorrectly described a later water elemental encounter.",
+      "reason": "Find Islen Waterseer at her fishing hut on the Barrens coast. This is a travel and dialogue step with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2987,
+      "questName": "Gordunni Cobalt",
+      "url": "https://www.wowhead.com/classic/quest=2987",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 10 comments (order unverified), used 3. Only relevant visible passages were used.",
+      "commentsReviewed": 10,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Gordunni Cobalt - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2987",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text places the digging objective in the ogre-protected outpost; comments report digging at blue spots and that some are away from mobs."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms the shovel and digging objective in the Gordunni Outpost; comments report that some dig sites are outside the camps and require little or no fighting.",
+      "reason": "Dig up 12 Gordunni Cobalt samples at the outpost north of Camp Mojache. Nearby ogres can engage while you use the shovel; some cobalt spots are away from enemies, so clear or avoid nearby pulls.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 2988,
+      "questName": "Witherbark Cages",
+      "url": "https://www.wowhead.com/classic/quest=2988",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:58:21+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Targeted web-text retrieval; reviewed 12 comments (order unverified), used 3. Only relevant visible passages were used.",
+      "commentsReviewed": 12,
+      "commentsUsed": 3,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Witherbark Cages - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=2988/witherbark-cages",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text and comments confirm three cages in the Witherbark villages and describe guarded approaches with stealth/limited pulls."
+        },
+        {
+          "title": "Witherbark Cages - Quest - Classic wow database",
+          "url": "https://classicdb.ch/?quest=2988",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:58:21+03:00",
+          "evidence": "Quest text confirms searching cages in two Witherbark villages."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Classic quest text confirms the three-cage search across two troll villages. Comments describe nearby level 40–43 trolls and routes that reduce or avoid combat.",
+      "reason": "Check three cages in the Witherbark villages in the Hinterlands. Trolls guard the camps, but the cages can be reached with careful pulls or stealth; avoid drawing several trolls at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
     }
   ]
 }

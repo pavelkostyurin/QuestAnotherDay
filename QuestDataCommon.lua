@@ -852,7 +852,7 @@ addon.quests = {
     [2951] = { threat = "LOW", reason = "This is a dialogue and interaction step with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- The Stone Watcher
-    [2954] = { threat = "MEDIUM", reason = "The pedestal is at the gates of Uldum, guarded by level 45-48 giants. You can bypass the giants by going around the left side. A level 48 hunter soloed this without pulling a single mob. Do not attempt below level 45 if you plan to fight the giants.", confidence = "high" },
+    [2954] = { threat = "MEDIUM", reason = "Use the Uldum pedestal and learn about the Stone Watcher. Elite giants patrol nearby, but the left-side path can avoid them; watch for the moving giant while interacting and leaving.", confidence = "medium" },
 
     -- Troll Temper
     [3042] = { threat = "HIGH", reason = "The temper drops from trolls inside Zul'Farrak, a level 44-50 dungeon filled with elites. This requires a full group of level 46+. Do not attempt solo.", confidence = "high" },
