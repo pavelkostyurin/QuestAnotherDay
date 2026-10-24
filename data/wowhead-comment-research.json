@@ -70661,6 +70661,1323 @@
       "confidence": "medium",
       "addonAppliedAt": "2026-10-25T01:55:00+03:00",
       "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6642,
+      "questName": "Favor Amongst the Brotherhood, Dark Iron Ore",
+      "url": "https://www.wowhead.com/classic/quest=6642",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6643,
+      "questName": "Favor Amongst the Brotherhood, Fiery Core",
+      "url": "https://www.wowhead.com/classic/quest=6643",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6644,
+      "questName": "Favor Amongst the Brotherhood, Lava Core",
+      "url": "https://www.wowhead.com/classic/quest=6644",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6645,
+      "questName": "Favor Amongst the Brotherhood, Core Leather",
+      "url": "https://www.wowhead.com/classic/quest=6645",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6646,
+      "questName": "Favor Amongst the Brotherhood, Blood of the Mountain",
+      "url": "https://www.wowhead.com/classic/quest=6646",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6661,
+      "questName": "Deeprun Rat Roundup",
+      "url": "https://www.wowhead.com/classic/quest=6661",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the quest is a safe collection interaction in the Deeprun Tram. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Capture five Deeprun Rats with the supplied flute and lead them back to Monty. The objective adds no combat; keep to the tram and avoid wandering into hostile areas.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6662,
+      "questName": "Me Brother, Nipsy",
+      "url": "https://www.wowhead.com/classic/quest=6662",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the objective is a delivery inside the city. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Deliver the mystery meat to Nipsy in the Stormwind tram depot. This is a city hand-in with no combat objective.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6681,
+      "questName": "The Manor, Ravenholdt",
+      "url": "https://www.wowhead.com/classic/quest=6681",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM for travel into a hostile, out-of-the-way area; removes unsupported mob levels and a minimum-level cutoff. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Take the Seal of Ravenholdt to the manor in the remote hills. Hostile humanoids patrol the approach; use a clear route and do not run through occupied camps.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6701,
+      "questName": "Syndicate Emblems",
+      "url": "https://www.wowhead.com/classic/quest=6701",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 2,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=6701/syndicate-emblems#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Syndicate Emblems - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6701/syndicate-emblems",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest page and relevant comments describe collecting Syndicate Emblems by pickpocketing hostile Syndicate around Durnholde and turning them in at Ravenholdt; exposure on detection is the risk inference."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds MEDIUM for repeated pickpocketing in a hostile camp; the retrieved quest comments confirm the Durnholde collection route. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Pickpocket Syndicate Emblems from hostile Syndicate at Durnholde and turn them in at Ravenholdt. Detection can start a fight near other enemies; leave before you are surrounded.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6721,
+      "questName": "The Hunter's Path",
+      "url": "https://www.wowhead.com/classic/quest=6721",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; a city dialogue step. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Speak with Dazalar in Dolanaar. This Hunter class-quest step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6722,
+      "questName": "The Hunter's Path",
+      "url": "https://www.wowhead.com/classic/quest=6722",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; a city dialogue step. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Speak with Dazalar in Dolanaar. This Hunter class-quest step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6741,
+      "questName": "More Booty!",
+      "url": "https://www.wowhead.com/classic/quest=6741",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "More Booty! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6741/more-booty",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text identifies a repeatable Alterac Valley Armor Scraps turn-in; battleground exposure controls the threat rating."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises LOW to HIGH because this is an Alterac Valley turn-in whose materials come from an active PvP battle; the old warning omitted the battleground risk. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Turn in Armor Scraps to support the Horde in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs through the fighting.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6761,
+      "questName": "The New Frontier",
+      "url": "https://www.wowhead.com/classic/quest=6761",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; a city dialogue step. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Speak with Mathrengyl Bearwalker in Darnassus. This city dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6762,
+      "questName": "Rabine Saturna",
+      "url": "https://www.wowhead.com/classic/quest=6762",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; removes the unsupported claim that all travel is safe by flight path. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Speak with Rabine Saturna in Moonglade. This dialogue objective adds no combat; travel by a safe route and avoid nearby hostile areas.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6781,
+      "questName": "More Armor Scraps",
+      "url": "https://www.wowhead.com/classic/quest=6781",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "More Armor Scraps - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6781/more-armor-scraps",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text identifies the Alterac Valley Armor Scraps turn-in; battleground exposure controls the threat rating."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds HIGH for the battleground exposure omitted by the prior missing warning; the quest text confirms the armor-scrap hand-in. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Turn in Armor Scraps to support the Alliance in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs through the fighting.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6801,
+      "questName": "Lokholar the Ice Lord",
+      "url": "https://www.wowhead.com/classic/quest=6801",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=6801/lokholar-the-ice-lord#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Lokholar the Ice Lord - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6801/lokholar-the-ice-lord",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text says to collect Stormpike Soldier’s Blood to begin the summoning ritual; comments identify the objective as Alterac Valley turn-ins. The player is not required to defeat Lokholar."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Corrects the HIGH warning rationale: this step collects blood to summon Lokholar; it does not require defeating the elemental lord. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Bring Stormpike Soldier’s Blood to the summoner to help call Lokholar in Alterac Valley. Gathering it involves the active battleground; stay with your team and avoid isolated pushes.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6804,
+      "questName": "Poisoned Water",
+      "url": "https://www.wowhead.com/classic/quest=6804",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Poisoned Water - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6804/poisoned-water",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text says to use the Aspect of Neptulon on plagued elementals, then defeat the transformed Discordant Surges and collect bracers; danger from surrounding pulls is inferred."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Lowers HIGH to MEDIUM; Classic quest text confirms the transformation and kills, but the old level and density claims were not supported. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Use the Aspect of Neptulon on plagued water elementals, then defeat the transformed surges for their bracers. Work through the lakes carefully and avoid drawing multiple elementals at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6805,
+      "questName": "Stormers and Rumblers",
+      "url": "https://www.wowhead.com/classic/quest=6805",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stormers and Rumblers - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6805/stormers-and-rumblers",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text places both elemental kill objectives in Silithus’s Crystal Vale; the warning advises managing nearby pulls."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM; Classic quest text confirms the paired elemental kills in the Crystal Vale. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Defeat Dust Stormers and Desert Rumblers in the Crystal Vale of Silithus. The two objectives share an open elemental area; pull carefully and avoid overlapping fights.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6821,
+      "questName": "Eye of the Emberseer",
+      "url": "https://www.wowhead.com/classic/quest=6821",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Catalog marks this quest as raid; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6822,
+      "questName": "The Molten Core",
+      "url": "https://www.wowhead.com/classic/quest=6822",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Catalog marks this quest as raid; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6823,
+      "questName": "Agent of Hydraxis",
+      "url": "https://www.wowhead.com/classic/quest=6823",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the objective itself is reputation and dialogue, with no verified requirement to fight a particular dangerous target. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Earn Honored reputation with the Hydraxian Waterlords, then speak with Duke Hydraxis. This is a reputation gate and turn-in rather than a specific combat encounter; use tasks you can handle safely.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6824,
+      "questName": "Hands of the Enemy",
+      "url": "https://www.wowhead.com/classic/quest=6824",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "raid",
+      "sourceNote": "Catalog marks this quest as raid; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6825,
+      "questName": "Call of Air - Guse's Fleet",
+      "url": "https://www.wowhead.com/classic/quest=6825",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Air - Guse’s Fleet - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6825/call-of-air-guses-fleet",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text requires Stormpike Soldier Flesh for a Horde air-strike objective in Alterac Valley; the PvP danger reflects the battleground setting."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises MEDIUM to HIGH for required battleground exposure; Classic quest text confirms the enemy-flesh collection. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Collect Stormpike Soldier Flesh in Alterac Valley for Guse’s air fleet. The item comes from the opposing side’s battlefield casualties; stay with your team and avoid isolated corpse runs.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6826,
+      "questName": "Call of Air - Jeztor's Fleet",
+      "url": "https://www.wowhead.com/classic/quest=6826",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Air - Jeztor’s Fleet - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6826/call-of-air-jeztors-fleet",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text requires Stormpike Lieutenant Flesh and identifies the activity as entirely within Alterac Valley."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises MEDIUM to HIGH because the quest requires collecting enemy drops in the live battleground. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Collect Stormpike Lieutenant Flesh in Alterac Valley for Jeztor’s fleet. The item comes from the opposing side’s battlefield casualties; stay with your team and avoid isolated corpse runs.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6827,
+      "questName": "Call of Air - Mulverick's Fleet",
+      "url": "https://www.wowhead.com/classic/quest=6827",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Air - Mulverick’s Fleet - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/tbc/quest=6827/call-of-air-mulvericks-fleet",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "The retrieved quest text says Stormpike Commanders are entrenched deep behind enemy lines; the battleground risk inference follows from the Classic quest context."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises MEDIUM to HIGH; the quest text explicitly places the required enemy targets deep behind the opposing lines. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Collect Stormpike Commander Flesh deep behind enemy lines for Mulverick’s fleet. Stay with your team and avoid pushing into the opposing camp alone.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6844,
+      "questName": "Umber, Archivist",
+      "url": "https://www.wowhead.com/classic/quest=6844",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the objective is a delivery. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Deliver the Encrusted Silithid Object to Umber in Moonglade. This hand-in adds no combat; use a safe route through the zone.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6845,
+      "questName": "Uncovering Past Secrets",
+      "url": "https://www.wowhead.com/classic/quest=6845",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; a dialogue objective. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Speak with Rabine Saturna in Moonglade. This dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6846,
+      "questName": "Begin the Attack!",
+      "url": "https://www.wowhead.com/classic/quest=6846",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Begin the Attack! - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6846/begin-the-attack",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest data identifies Stormpike Assault Orders as the item turned in to launch a troop attack; the warning is limited to the player hand-in and nearby battlefield exposure."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds LOW; the quest starts a battleground troop assault but does not ask the player to fight that wave. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Turn in the Stormpike Assault Orders to launch an attack by your side’s troops. The hand-in itself adds no combat; complete it from your base and avoid crossing the frontline.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6847,
+      "questName": "Master Ryson's All Seeing Eye",
+      "url": "https://www.wowhead.com/classic/quest=6847",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/quest=6847/master-rysons-all-seeing-eye#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Master Ryson’s All Seeing Eye - Quest - World of Warcraft",
+          "url": "https://www.wowhead.com/quest=6847/master-rysons-all-seeing-eye",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Quest text identifies the Winterax Cave objective; a recent comment describes the Anniversary/Korrak’s Revenge cave as guarded by max-level elites. The report notes this version/context limitation."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises MEDIUM to HIGH; the retrieved quest text and cave report identify the Winterax cave objective and dangerous elite guards. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "The All Seeing Eye is in Winterax Cave among dangerous high-level trolls, and carrying it exposes the return route. Enter with allies, avoid drawing several trolls at once, and leave if the cave is contested.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6848,
+      "questName": "Master Ryson's All Seeing Eye",
+      "url": "https://www.wowhead.com/classic/quest=6848",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=6848/master-rysons-all-seeing-eye#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Master Ryson’s All Seeing Eye - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6848/master-rysons-all-seeing-eye",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text places the eye in Winterax territory; a recent comment describes the Anniversary/Korrak’s Revenge cave as guarded by max-level elites. The report notes this version/context limitation."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds HIGH; Classic quest text and the cave report identify the Winterax cave objective and dangerous elite guards. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "The All Seeing Eye is in Winterax Cave among dangerous high-level trolls, and carrying it exposes the return route. Enter with allies, avoid drawing several trolls at once, and leave if the cave is contested.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6861,
+      "questName": "Zinfizzlex's Portable Shredder Unit",
+      "url": "https://www.wowhead.com/classic/quest=6861",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Zinfizzlex’s Portable Shredder Unit - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6861/zinfizzlexs-portable-shredder-unit",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text requires bars and a Steamsaw from the opposing lumber camp in Alterac Valley; the contested return route controls the threat assessment."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises MEDIUM to HIGH because the Steamsaw must be recovered from an opposing battleground lumber camp; the prior warning described a different objective. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Deliver the required bars and recover a Steamsaw from the opposing lumber camp in Alterac Valley. The contested camp and return route can expose you to hostile players; go with your team.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6862,
+      "questName": "Zinfizzlex's Portable Shredder Unit",
+      "url": "https://www.wowhead.com/classic/quest=6862",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Zinfizzlex’s Portable Shredder Unit - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6861/zinfizzlexs-portable-shredder-unit",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "The retrieved Classic Horde quest supplies the same Steamsaw-and-bars objectives for the faction counterpart; faction direction is inferred from the matching catalog entry."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds HIGH for the Alliance version of the same contested Steamsaw recovery; the prior warning was missing. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Deliver the required bars and recover a Steamsaw from the opposing lumber camp in Alterac Valley. The contested camp and return route can expose you to hostile players; go with your team.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6881,
+      "questName": "Ivus the Forest Lord",
+      "url": "https://www.wowhead.com/classic/quest=6881",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 1,
+      "commentsUsed": 1,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=6881/ivus-the-forest-lord#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "Ivus the Forest Lord - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6881/ivus-the-forest-lord",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text requires Storm Crystals from Frostwolf forces and describes using them to summon Ivus in Alterac Valley; comments confirm the crystals come from battleground kills."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds HIGH because the crystals are gathered from opposing battleground forces; the quest text and Classic comments confirm the Alterac Valley objective. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Collect Storm Crystals from Frostwolf forces in Alterac Valley to help summon Ivus. The objective is tied to the active battlefield; stay with your team and avoid isolated fights.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6901,
+      "questName": "Launch the Attack!",
+      "url": "https://www.wowhead.com/classic/quest=6901",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM as LOW; this is an assault-order hand-in, not a required solo attack on the enemy base. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Turn in the Frostwolf Assault Orders to launch an attack by your side’s troops. The hand-in itself adds no combat; complete it from your base and avoid crossing the frontline.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6921,
+      "questName": "Amongst the Ruins",
+      "url": "https://www.wowhead.com/classic/quest=6921",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6922,
+      "questName": "Baron Aquanis",
+      "url": "https://www.wowhead.com/classic/quest=6922",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Catalog marks this quest as dungeon; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6941,
+      "questName": "Call of Air - Vipore's Fleet",
+      "url": "https://www.wowhead.com/classic/quest=6941",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Air - Vipore’s Fleet - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6941/call-of-air-vipores-fleet",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text asks for Frostwolf Lieutenant Medals from enemy forces in Alterac Valley to enable an air strike."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds HIGH; Classic quest text confirms enemy medals are required for this battleground air-strike objective. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Collect Frostwolf Lieutenant Medals in Alterac Valley for Vipore’s fleet. The medals come from enemy battlefield forces; stay with your team and avoid isolated pushes.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6942,
+      "questName": "Call of Air - Slidore's Fleet",
+      "url": "https://www.wowhead.com/classic/quest=6942",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Air - Slidore’s Fleet - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6942/call-of-air-slidores-fleet",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text asks for Frostwolf Soldier Medals from enemy forces in Alterac Valley to enable an air strike."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds HIGH; Classic quest text confirms enemy medals are required for this battleground air-strike objective. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Collect Frostwolf Soldier Medals in Alterac Valley for Slidore’s fleet. The medals come from enemy battlefield forces; stay with your team and avoid isolated pushes.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6943,
+      "questName": "Call of Air - Ichman's Fleet",
+      "url": "https://www.wowhead.com/classic/quest=6943",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Call of Air - Ichman’s Fleet - Quest - World of Warcraft",
+          "url": "https://www.wowhead.com/quest=6943/call-of-air-ichmans-fleet",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Retrieved quest text asks for Frostwolf Commander Medals in Alterac Valley to enable an air strike; Classic faction counterpart and setting are confirmed by the catalog."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds HIGH; Classic quest text confirms the opposing commander medals and dangerous target area. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Collect Frostwolf Commander Medals in Alterac Valley for Ichman’s fleet. The quest sends you toward the opposing command; stay with your team and avoid isolated pushes.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6961,
+      "questName": "Great-father Winter is Here!",
+      "url": "https://www.wowhead.com/classic/quest=6961",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; city dialogue. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Speak with Greatfather Winter in Orgrimmar. This holiday dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6962,
+      "questName": "Treats for Great-father Winter",
+      "url": "https://www.wowhead.com/classic/quest=6962",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; the quest can be completed within the city without combat. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Bring the cookies and milk to Greatfather Winter in Orgrimmar. The items are available from city vendors; this is a safe collection and hand-in.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6963,
+      "questName": "Stolen Winter Veil Treats",
+      "url": "https://www.wowhead.com/classic/quest=6963",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Stolen Winter Veil Treats - Quest - TBC Classic",
+          "url": "https://www.wowhead.com/tbc/quest=6963/stolen-winter-veil-treats",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "The retrieved faction counterpart’s quest text says to locate the missing investigator in the snowy Alterac Mountains; hostile-area danger is inferred from the route and catalog entry."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retains MEDIUM for travel into the snowy hostile area; corrects the old warning, which assigned the Greench fight from the follow-up quest to this search step. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Find the missing Smokywood Pastures investigator in the snowy Alterac Mountains. The search takes you into a hostile yeti area; follow a clear route and avoid nearby camps.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6964,
+      "questName": "The Reason for the Season",
+      "url": "https://www.wowhead.com/classic/quest=6964",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; city dialogue. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Speak with Sagorne Creststrider in Orgrimmar about Winter Veil. This city dialogue step adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6981,
+      "questName": "The Glowing Shard",
+      "url": "https://www.wowhead.com/classic/quest=6981",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T21:34:55+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Wowhead’s Forever version metadata categorizes this delivery step as Dungeon because the shard is acquired from the Wailing Caverns final event; skipped under ordinary traversal rules."
+    },
+    {
+      "questId": 6982,
+      "questName": "Coldtooth Supplies",
+      "url": "https://www.wowhead.com/classic/quest=6982",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Coldtooth Supplies - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6982/coldtooth-supplies",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text requires entering the Coldtooth mine deep in Horde territory during Alterac Valley to recover ten supplies."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Adds HIGH; Classic quest text places the supply objective deep in enemy territory and confirms the battleground mine route. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Recover ten Coldtooth Supplies from the mine deep in Horde territory in Alterac Valley. Hostile players and mine defenders can trap you inside; enter with your team and retreat if cut off.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6983,
+      "questName": "You're a Mean One...",
+      "url": "https://www.wowhead.com/classic/quest=6983",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "unverified",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text and a small relevant comment sample were read; comment ranking is not established and completeness is not claimed.",
+      "commentsReviewed": 2,
+      "commentsUsed": 2,
+      "commentRefs": [
+        "https://www.wowhead.com/classic/quest=6983/youre-a-mean-one#comments"
+      ],
+      "externalSources": [
+        {
+          "title": "You’re a Mean One... - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=6983/youre-a-mean-one",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text warns that the Greench requires help; two Classic comments identify him as an elite and report both solo and group experiences, leaving exact solo difficulty variable."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises MEDIUM to HIGH; Classic quest text asks for help, and comments identify the Greench as an elite opponent. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Group quest. The Abominable Greench is a dangerous elite in the Alterac Mountains, and the quest giver says you will need help. Clear nearby yetis and bring a group rather than testing it alone.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6984,
+      "questName": "A Smokywood Pastures' Thank You!",
+      "url": "https://www.wowhead.com/classic/quest=6984",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Catalog objective and current warning reviewed; no external comment count or research result was recorded.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Retains LOW; city dialogue and reward step. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Return to Greatfather Winter in Orgrimmar for the Smokywood Pastures reward. This city hand-in adds no combat.",
+      "threat": "LOW",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 6985,
+      "questName": "Irondeep Supplies",
+      "url": "https://www.wowhead.com/classic/quest=6985",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Irondeep Supplies - Quest - TBC Classic",
+          "url": "https://www.wowhead.com/tbc/quest=6985/irondeep-supplies",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Retrieved quest text requires raiding the Irondeep mine deep in Alliance territory in Alterac Valley; the matching Classic catalog entry confirms faction and objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises MEDIUM to HIGH; the quest text confirms an enemy mine raid during an active battleground. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Recover ten Irondeep Supplies from the mine deep in Alliance territory in Alterac Valley. Hostile players and mine defenders can trap you inside; enter with your team and retreat if cut off.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7001,
+      "questName": "Empty Stables",
+      "url": "https://www.wowhead.com/classic/quest=7001",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Empty Stables - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7001/empty-stables",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text requires capturing a Frostwolf in the nearby valley forest and returning it to the stable master; this is not a ram collection quest."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Corrects the warning: this quest captures Frostwolves near the Horde base, not rams from the enemy base. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "Use the supplied muzzle to tame a Frostwolf in Alterac Valley and lead it back to the stable master. The route is exposed during the battleground; keep near your team and retreat if threatened.",
+      "threat": "MEDIUM",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
+    },
+    {
+      "questId": 7002,
+      "questName": "Ram Hide Harnesses",
+      "url": "https://www.wowhead.com/classic/quest=7002",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T21:34:55+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest text was consulted; no comments were needed for this rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Ram Hide Harnesses - Quest - Classic World of Warcraft",
+          "url": "https://www.wowhead.com/classic/quest=7002/ram-hide-harnesses",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T21:34:55+03:00",
+          "evidence": "Classic quest text requires killing Alterac Rams for hides to equip the Frostwolf riders; battleground exposure controls the threat rating."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Raises LOW to HIGH because the quest requires repeated kills in contested battleground territory; corrects the old ram-hide warning’s unsupported claim of light combat. Confidence is medium because the rating has one retrieved source or coherent local context, without independent corroboration.",
+      "reason": "PvP quest. Kill Alterac Rams for hides in the opposing side of Alterac Valley. The collection route is exposed to enemy players; stay with your team and avoid isolated fights.",
+      "threat": "HIGH",
+      "confidence": "medium",
+      "addonAppliedAt": "2026-10-24T21:34:55+03:00",
+      "addonSource": "QuestData.lua"
     }
   ]
 }

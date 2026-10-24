@@ -3576,22 +3576,49 @@ local quests = {
     [6625] = { threat = "LOW", reason = "Speak with Doctor Gustaf VanHowzen in Theramore about Alliance Trauma. This city conversation adds no combat.", confidence = "medium" },
 
     -- Deeprun Rat Roundup
-    [6661] = { threat = "LOW", reason = "Interaction step with no combat. Capture rats using the Rat Catcher's Flute in the Deeprun Tram. Safe if you stay in the area.", confidence = "high" },
+    [6661] = { threat = "LOW", reason = "Capture five Deeprun Rats with the supplied flute and lead them back to Monty. The objective adds no combat; keep to the tram and avoid wandering into hostile areas.", confidence = "medium" },
 
     -- Me Brother, Nipsy
-    [6662] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6662] = { threat = "LOW", reason = "Deliver the mystery meat to Nipsy in the Stormwind tram depot. This is a city hand-in with no combat objective.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6721] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6721] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This Hunter class-quest step adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path
-    [6722] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6722] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This Hunter class-quest step adds no combat.", confidence = "medium" },
 
     -- The New Frontier
-    [6761] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6761] = { threat = "LOW", reason = "Speak with Mathrengyl Bearwalker in Darnassus. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Rabine Saturna
-    [6762] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Moonglade is safe via flight path. Safe if you stay in the area.", confidence = "high" },
+    [6762] = { threat = "LOW", reason = "Speak with Rabine Saturna in Moonglade. This dialogue objective adds no combat; travel by a safe route and avoid nearby hostile areas.", confidence = "medium" },
+
+    -- More Armor Scraps
+    [6781] = { threat = "HIGH", reason = "PvP quest. Turn in Armor Scraps to support the Alliance in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs through the fighting.", confidence = "medium" },
+
+    -- Begin the Attack!
+    [6846] = { threat = "LOW", reason = "Turn in the Stormpike Assault Orders to launch an attack by your side’s troops. The hand-in itself adds no combat; complete it from your base and avoid crossing the frontline.", confidence = "medium" },
+
+    -- Master Ryson's All Seeing Eye
+    [6848] = { threat = "HIGH", reason = "The All Seeing Eye is in Winterax Cave among dangerous high-level trolls, and carrying it exposes the return route. Enter with allies, avoid drawing several trolls at once, and leave if the cave is contested.", confidence = "medium" },
+
+    -- Zinfizzlex's Portable Shredder Unit
+    [6862] = { threat = "HIGH", reason = "PvP quest. Deliver the required bars and recover a Steamsaw from the opposing lumber camp in Alterac Valley. The contested camp and return route can expose you to hostile players; go with your team.", confidence = "medium" },
+
+    -- Ivus the Forest Lord
+    [6881] = { threat = "HIGH", reason = "PvP quest. Collect Storm Crystals from Frostwolf forces in Alterac Valley to help summon Ivus. The objective is tied to the active battlefield; stay with your team and avoid isolated fights.", confidence = "medium" },
+
+    -- Call of Air - Vipore's Fleet
+    [6941] = { threat = "HIGH", reason = "PvP quest. Collect Frostwolf Lieutenant Medals in Alterac Valley for Vipore’s fleet. The medals come from enemy battlefield forces; stay with your team and avoid isolated pushes.", confidence = "medium" },
+
+    -- Call of Air - Slidore's Fleet
+    [6942] = { threat = "HIGH", reason = "PvP quest. Collect Frostwolf Soldier Medals in Alterac Valley for Slidore’s fleet. The medals come from enemy battlefield forces; stay with your team and avoid isolated pushes.", confidence = "medium" },
+
+    -- Call of Air - Ichman's Fleet
+    [6943] = { threat = "HIGH", reason = "PvP quest. Collect Frostwolf Commander Medals in Alterac Valley for Ichman’s fleet. The quest sends you toward the opposing command; stay with your team and avoid isolated pushes.", confidence = "medium" },
+
+    -- Coldtooth Supplies
+    [6982] = { threat = "HIGH", reason = "PvP quest. Recover ten Coldtooth Supplies from the mine deep in Horde territory in Alterac Valley. Hostile players and mine defenders can trap you inside; enter with your team and retreat if cut off.", confidence = "medium" },
 
     -- Greatfather Winter is Here!
     [7022] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },

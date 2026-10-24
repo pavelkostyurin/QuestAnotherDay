@@ -2943,28 +2943,28 @@ local quests = {
     [6641] = { threat = "HIGH", reason = "Escort Muglash to the brazier, extinguish it, then help him defeat Vorsha and the attacking naga. The scripted event combines an escort with a dangerous hydra fight; the quest text recommends bringing strong allies.", confidence = "medium" },
 
     -- More Booty!
-    [6741] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [6741] = { threat = "HIGH", reason = "PvP quest. Turn in Armor Scraps to support the Horde in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs through the fighting.", confidence = "medium" },
 
     -- Lokholar the Ice Lord
-    [6801] = { threat = "HIGH", reason = "Lokholar is a level 60 elite boss that requires a full raid group to summon and defeat. This is battleground content that requires coordination with other players. Do not attempt solo.", confidence = "high" },
+    [6801] = { threat = "HIGH", reason = "PvP quest. Bring Stormpike Soldier’s Blood to the summoner to help call Lokholar in Alterac Valley. Gathering it involves the active battleground; stay with your team and avoid isolated pushes.", confidence = "medium" },
 
     -- Call of Air - Guse's Fleet
-    [6825] = { threat = "MEDIUM", reason = "You must collect items and turn them in to the Wind Rider Master. The items are in contested territory patrolled by Alliance players and mobs. Clear the area before looting and watch for enemy players. Do not attempt solo in a live AV match.", confidence = "high" },
+    [6825] = { threat = "HIGH", reason = "PvP quest. Collect Stormpike Soldier Flesh in Alterac Valley for Guse’s air fleet. The item comes from the opposing side’s battlefield casualties; stay with your team and avoid isolated corpse runs.", confidence = "medium" },
 
     -- Call of Air - Jeztor's Fleet
-    [6826] = { threat = "MEDIUM", reason = "Continue collecting items for the Wind Rider Master. The items are in contested territory. Clear the area before looting and watch for enemy players.", confidence = "high" },
+    [6826] = { threat = "HIGH", reason = "PvP quest. Collect Stormpike Lieutenant Flesh in Alterac Valley for Jeztor’s fleet. The item comes from the opposing side’s battlefield casualties; stay with your team and avoid isolated corpse runs.", confidence = "medium" },
 
     -- Call of Air - Mulverick's Fleet
-    [6827] = { threat = "MEDIUM", reason = "Final step of the Wind Rider Master chain. The items are in contested territory. Clear the area before looting and watch for enemy players.", confidence = "high" },
+    [6827] = { threat = "HIGH", reason = "PvP quest. Collect Stormpike Commander Flesh deep behind enemy lines for Mulverick’s fleet. Stay with your team and avoid pushing into the opposing camp alone.", confidence = "medium" },
 
     -- Master Ryson's All Seeing Eye
-    [6847] = { threat = "MEDIUM", reason = "You must scout the enemy territory and use the All Seeing Eye. The quest leads into contested territory patrolled by Alliance players. Stay stealthed or move with a group. Do not attempt solo in a live AV match.", confidence = "high" },
+    [6847] = { threat = "HIGH", reason = "The All Seeing Eye is in Winterax Cave among dangerous high-level trolls, and carrying it exposes the return route. Enter with allies, avoid drawing several trolls at once, and leave if the cave is contested.", confidence = "medium" },
 
     -- Zinfizzlex's Portable Shredder Unit
-    [6861] = { threat = "MEDIUM", reason = "You must collect shredder parts and assemble the unit. The parts are in contested territory. Clear the area before looting and watch for enemy players.", confidence = "high" },
+    [6861] = { threat = "HIGH", reason = "PvP quest. Deliver the required bars and recover a Steamsaw from the opposing lumber camp in Alterac Valley. The contested camp and return route can expose you to hostile players; go with your team.", confidence = "medium" },
 
     -- Launch the Attack!
-    [6901] = { threat = "MEDIUM", reason = "You must launch an attack on the enemy base. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "high" },
+    [6901] = { threat = "LOW", reason = "Turn in the Frostwolf Assault Orders to launch an attack by your side’s troops. The hand-in itself adds no combat; complete it from your base and avoid crossing the frontline.", confidence = "medium" },
 
     -- Amongst the Ruins
     [6921] = { threat = "MEDIUM", reason = "The ruins are patrolled by level 45-50 naga and satyrs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 45 solo.", confidence = "medium" },
@@ -2973,31 +2973,31 @@ local quests = {
     [6922] = { threat = "HIGH", reason = "He is summoned by using the item at the altar. He hits hard and has water-based abilities. Clear the area before summoning and bring a group. Do not attempt solo below level 48.", confidence = "high" },
 
     -- Great-father Winter is Here!
-    [6961] = { threat = "LOW", reason = "Speak with Great-father Winter in Orgrimmar. Dialogue and reward step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6961] = { threat = "LOW", reason = "Speak with Greatfather Winter in Orgrimmar. This holiday dialogue step adds no combat.", confidence = "medium" },
 
     -- Treats for Great-father Winter
-    [6962] = { threat = "LOW", reason = "Collect treats from the Smokywood Pastures vendors. Travel and collection step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6962] = { threat = "LOW", reason = "Bring the cookies and milk to Greatfather Winter in Orgrimmar. The items are available from city vendors; this is a safe collection and hand-in.", confidence = "medium" },
 
     -- Stolen Winter Veil Treats
-    [6963] = { threat = "MEDIUM", reason = "Recover the stolen treats from the Greench in Alterac Mountains. The Greench is a level 40 elite yeti who wanders the mountains. He hits hard and has a knockback. Clear the area before engaging and bring a group. Do not attempt solo below level 40.", confidence = "high" },
+    [6963] = { threat = "MEDIUM", reason = "Find the missing Smokywood Pastures investigator in the snowy Alterac Mountains. The search takes you into a hostile yeti area; follow a clear route and avoid nearby camps.", confidence = "medium" },
 
     -- The Reason for the Season
-    [6964] = { threat = "LOW", reason = "Speak with the NPC to learn about the holiday. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6964] = { threat = "LOW", reason = "Speak with Sagorne Creststrider in Orgrimmar about Winter Veil. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- You're a Mean One...
-    [6983] = { threat = "MEDIUM", reason = "Steal treats from the Greench in Alterac Mountains. The Greench is a level 40 elite yeti who wanders the mountains. He hits hard and has a knockback. Clear the area before engaging and bring a group.", confidence = "high" },
+    [6983] = { threat = "HIGH", reason = "Group quest. The Abominable Greench is a dangerous elite in the Alterac Mountains, and the quest giver says you will need help. Clear nearby yetis and bring a group rather than testing it alone.", confidence = "medium" },
 
     -- A Smokywood Pastures' Thank You!
-    [6984] = { threat = "LOW", reason = "Return to the Smokywood Pastures vendor for your reward. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6984] = { threat = "LOW", reason = "Return to Greatfather Winter in Orgrimmar for the Smokywood Pastures reward. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Irondeep Supplies
-    [6985] = { threat = "MEDIUM", reason = "Collect Irondeep Supplies from the Irondeep Mine. The mine is contested territory in a battleground, patrolled by Alliance players and underground denizens. Clear the area before looting and watch for enemy players. Do not attempt solo in a live AV match.", confidence = "high" },
+    [6985] = { threat = "HIGH", reason = "PvP quest. Recover ten Irondeep Supplies from the mine deep in Alliance territory in Alterac Valley. Hostile players and mine defenders can trap you inside; enter with your team and retreat if cut off.", confidence = "medium" },
 
     -- Empty Stables
-    [7001] = { threat = "LOW", reason = "Collect rams from the enemy base. Travel and collection step with light combat. Safe if you move with a group and avoid enemy players.", confidence = "medium" },
+    [7001] = { threat = "MEDIUM", reason = "Use the supplied muzzle to tame a Frostwolf in Alterac Valley and lead it back to the stable master. The route is exposed during the battleground; keep near your team and retreat if threatened.", confidence = "medium" },
 
     -- Ram Hide Harnesses
-    [7002] = { threat = "LOW", reason = "Collect ram hides from the enemy base. Travel and collection step with light combat. Safe if you move with a group.", confidence = "medium" },
+    [7002] = { threat = "HIGH", reason = "PvP quest. Kill Alterac Rams for hides in the opposing side of Alterac Valley. The collection route is exposed to enemy players; stay with your team and avoid isolated fights.", confidence = "medium" },
 
     -- Great-father Winter is Here!
     [7021] = { threat = "LOW", reason = "Speak with Great-father Winter in Orgrimmar. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },

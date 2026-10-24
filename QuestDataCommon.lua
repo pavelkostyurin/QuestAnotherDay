@@ -1848,13 +1848,16 @@ addon.quests = {
     [6626] = { threat = "MEDIUM", reason = "Razorfen Battleguards, Thornweavers, and Death's Head Cultists are levels 35-38 outside Razorfen Downs. They pull in groups and the cultists cast shadow magic. Clear methodically and watch for adds. Do not attempt below level 35 solo.", confidence = "medium" },
 
     -- The Manor, Ravenholdt
-    [6681] = { threat = "MEDIUM", reason = "The manor is hidden in the hills of Hillsbrad, patrolled by level 30-35 mobs. The journey is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [6681] = { threat = "MEDIUM", reason = "Take the Seal of Ravenholdt to the manor in the remote hills. Hostile humanoids patrol the approach; use a clear route and do not run through occupied camps.", confidence = "medium" },
+
+    -- Syndicate Emblems
+    [6701] = { threat = "MEDIUM", reason = "Pickpocket Syndicate Emblems from hostile Syndicate at Durnholde and turn them in at Ravenholdt. Detection can start a fight near other enemies; leave before you are surrounded.", confidence = "medium" },
 
     -- Poisoned Water
-    [6804] = { threat = "HIGH", reason = "Requires using the Aspect of Neptulon on poisoned elementals in the Eastern Plaguelands to collect Discordant Bracers. The elementals are levels 55-58 and are packed in the Plaguewood. Clear methodically and watch for adds. Do not attempt below level 54 solo without a group.", confidence = "high" },
+    [6804] = { threat = "MEDIUM", reason = "Use the Aspect of Neptulon on plagued water elementals, then defeat the transformed surges for their bracers. Work through the lakes carefully and avoid drawing multiple elementals at once.", confidence = "medium" },
 
     -- Stormers and Rumblers
-    [6805] = { threat = "MEDIUM", reason = "Dust Stormers and Desert Rumblers are levels 55-58 in Silithus. They hit hard and have knockbacks. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [6805] = { threat = "MEDIUM", reason = "Defeat Dust Stormers and Desert Rumblers in the Crystal Vale of Silithus. The two objectives share an open elemental area; pull carefully and avoid overlapping fights.", confidence = "medium" },
 
     -- Eye of the Emberseer
     [6821] = { threat = "HIGH", reason = "Requires entering Upper Blackrock Spire to kill Pyroguard Emberseer, a level 60 elite fire elemental. The dungeon is filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -1863,16 +1866,16 @@ addon.quests = {
     [6822] = { threat = "EXTREME", reason = "Elite quest. Requires killing a Fire Lord, Molten Giant, Ancient Core Hound, and Lava Surger inside the Molten Core, a level 60 raid dungeon. A full raid group of 20-40 players is required. Do not attempt solo.", confidence = "high" },
 
     -- Agent of Hydraxis
-    [6823] = { threat = "LOW", reason = "Requires earning Honored reputation with the Hydraxian Waterlords, then speaking with Duke Hydraxis. This is a reputation grind with no specific combat objective. Safe if you stay in the area.", confidence = "high" },
+    [6823] = { threat = "LOW", reason = "Earn Honored reputation with the Hydraxian Waterlords, then speak with Duke Hydraxis. This is a reputation gate and turn-in rather than a specific combat encounter; use tasks you can handle safely.", confidence = "medium" },
 
     -- Hands of the Enemy
     [6824] = { threat = "EXTREME", reason = "Elite quest. Requires killing Lucifron, Sulfuron, Gehennas, and Shazzrah inside the Molten Core, a level 60 raid dungeon. These are powerful raid bosses. A full raid group of 20-40 players is required. Do not attempt solo.", confidence = "high" },
 
     -- Umber, Archivist
-    [6844] = { threat = "LOW", reason = "Delivery step with no combat. The object is obtained from a previous quest. Safe if you stay on the road.", confidence = "high" },
+    [6844] = { threat = "LOW", reason = "Deliver the Encrusted Silithid Object to Umber in Moonglade. This hand-in adds no combat; use a safe route through the zone.", confidence = "medium" },
 
     -- Uncovering Past Secrets
-    [6845] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6845] = { threat = "LOW", reason = "Speak with Rabine Saturna in Moonglade. This dialogue step adds no combat.", confidence = "medium" },
 
     -- The Glowing Shard
     [6981] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Ratchet is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },

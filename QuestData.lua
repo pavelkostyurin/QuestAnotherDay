@@ -8040,37 +8040,39 @@ addon.quests = {
     [6641] = { threat = "HIGH", reason = "Escort Muglash to the brazier, extinguish it, then help him defeat Vorsha and the attacking naga. The scripted event combines an escort with a dangerous hydra fight; the quest text recommends bringing strong allies.", confidence = "medium" },
 
     -- Deeprun Rat Roundup
-    [6661] = { threat = "LOW", reason = "Interaction step with no combat. Capture rats using the Rat Catcher's Flute in the Deeprun Tram. Safe if you stay in the area.", confidence = "high" },
+    [6661] = { threat = "LOW", reason = "Capture five Deeprun Rats with the supplied flute and lead them back to Monty. The objective adds no combat; keep to the tram and avoid wandering into hostile areas.", confidence = "medium" },
 
     -- Me Brother, Nipsy
-    [6662] = { threat = "LOW", reason = "Delivery step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [6662] = { threat = "LOW", reason = "Deliver the mystery meat to Nipsy in the Stormwind tram depot. This is a city hand-in with no combat objective.", confidence = "medium" },
 
     -- The Manor, Ravenholdt
-    [6681] = { threat = "MEDIUM", reason = "The manor is hidden in the hills of Hillsbrad, patrolled by level 30-35 mobs. The journey is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
+    [6681] = { threat = "MEDIUM", reason = "Take the Seal of Ravenholdt to the manor in the remote hills. Hostile humanoids patrol the approach; use a clear route and do not run through occupied camps.", confidence = "medium" },
 
     -- The Hunter's Path (6721)
-    [6721] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6701] = { threat = "MEDIUM", reason = "Pickpocket Syndicate Emblems from hostile Syndicate at Durnholde and turn them in at Ravenholdt. Detection can start a fight near other enemies; leave before you are surrounded.", confidence = "medium" },
+    [6721] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This Hunter class-quest step adds no combat.", confidence = "medium" },
 
     -- The Hunter's Path (6722)
-    [6722] = { threat = "LOW", reason = "Hunter class quest dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6722] = { threat = "LOW", reason = "Speak with Dazalar in Dolanaar. This Hunter class-quest step adds no combat.", confidence = "medium" },
 
     -- More Booty!
-    [6741] = { threat = "LOW", reason = "Travel and collection step with light combat. Safe if you avoid the mob camps.", confidence = "high" },
+    [6741] = { threat = "HIGH", reason = "PvP quest. Turn in Armor Scraps to support the Horde in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs through the fighting.", confidence = "medium" },
 
     -- The New Frontier (6761)
-    [6761] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6761] = { threat = "LOW", reason = "Speak with Mathrengyl Bearwalker in Darnassus. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- Rabine Saturna
-    [6762] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Moonglade is safe via flight path. Safe if you stay in the area.", confidence = "high" },
+    [6762] = { threat = "LOW", reason = "Speak with Rabine Saturna in Moonglade. This dialogue objective adds no combat; travel by a safe route and avoid nearby hostile areas.", confidence = "medium" },
 
     -- Lokholar the Ice Lord
-    [6801] = { threat = "HIGH", reason = "Lokholar is a level 60 elite boss that requires a full raid group to summon and defeat. This is battleground content that requires coordination with other players. Do not attempt solo.", confidence = "high" },
+    [6781] = { threat = "HIGH", reason = "PvP quest. Turn in Armor Scraps to support the Alliance in Alterac Valley; collecting them exposes you to the active battleground. Stay with your team and avoid isolated runs through the fighting.", confidence = "medium" },
+    [6801] = { threat = "HIGH", reason = "PvP quest. Bring Stormpike Soldier’s Blood to the summoner to help call Lokholar in Alterac Valley. Gathering it involves the active battleground; stay with your team and avoid isolated pushes.", confidence = "medium" },
 
     -- Poisoned Water
-    [6804] = { threat = "HIGH", reason = "Requires using the Aspect of Neptulon on poisoned elementals in the Eastern Plaguelands to collect Discordant Bracers. The elementals are levels 55-58 and are packed in the Plaguewood. Clear methodically and watch for adds. Do not attempt below level 54 solo without a group.", confidence = "high" },
+    [6804] = { threat = "MEDIUM", reason = "Use the Aspect of Neptulon on plagued water elementals, then defeat the transformed surges for their bracers. Work through the lakes carefully and avoid drawing multiple elementals at once.", confidence = "medium" },
 
     -- Stormers and Rumblers
-    [6805] = { threat = "MEDIUM", reason = "Dust Stormers and Desert Rumblers are levels 55-58 in Silithus. They hit hard and have knockbacks. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [6805] = { threat = "MEDIUM", reason = "Defeat Dust Stormers and Desert Rumblers in the Crystal Vale of Silithus. The two objectives share an open elemental area; pull carefully and avoid overlapping fights.", confidence = "medium" },
 
     -- Eye of the Emberseer
     [6821] = { threat = "HIGH", reason = "Requires entering Upper Blackrock Spire to kill Pyroguard Emberseer, a level 60 elite fire elemental. The dungeon is filled with elites. A full group of level 55+ is required. Do not attempt solo.", confidence = "high" },
@@ -8079,34 +8081,38 @@ addon.quests = {
     [6822] = { threat = "EXTREME", reason = "Elite quest. Requires killing a Fire Lord, Molten Giant, Ancient Core Hound, and Lava Surger inside the Molten Core, a level 60 raid dungeon. A full raid group of 20-40 players is required. Do not attempt solo.", confidence = "high" },
 
     -- Agent of Hydraxis
-    [6823] = { threat = "LOW", reason = "Requires earning Honored reputation with the Hydraxian Waterlords, then speaking with Duke Hydraxis. This is a reputation grind with no specific combat objective. Safe if you stay in the area.", confidence = "high" },
+    [6823] = { threat = "LOW", reason = "Earn Honored reputation with the Hydraxian Waterlords, then speak with Duke Hydraxis. This is a reputation gate and turn-in rather than a specific combat encounter; use tasks you can handle safely.", confidence = "medium" },
 
     -- Hands of the Enemy
     [6824] = { threat = "EXTREME", reason = "Elite quest. Requires killing Lucifron, Sulfuron, Gehennas, and Shazzrah inside the Molten Core, a level 60 raid dungeon. These are powerful raid bosses. A full raid group of 20-40 players is required. Do not attempt solo.", confidence = "high" },
 
     -- Call of Air - Guse's Fleet
-    [6825] = { threat = "MEDIUM", reason = "You must collect items and turn them in to the Wind Rider Master. The items are in contested territory patrolled by Alliance players and mobs. Clear the area before looting and watch for enemy players. Do not attempt solo in a live AV match.", confidence = "high" },
+    [6825] = { threat = "HIGH", reason = "PvP quest. Collect Stormpike Soldier Flesh in Alterac Valley for Guse’s air fleet. The item comes from the opposing side’s battlefield casualties; stay with your team and avoid isolated corpse runs.", confidence = "medium" },
 
     -- Call of Air - Jeztor's Fleet
-    [6826] = { threat = "MEDIUM", reason = "Continue collecting items for the Wind Rider Master. The items are in contested territory. Clear the area before looting and watch for enemy players.", confidence = "high" },
+    [6826] = { threat = "HIGH", reason = "PvP quest. Collect Stormpike Lieutenant Flesh in Alterac Valley for Jeztor’s fleet. The item comes from the opposing side’s battlefield casualties; stay with your team and avoid isolated corpse runs.", confidence = "medium" },
 
     -- Call of Air - Mulverick's Fleet
-    [6827] = { threat = "MEDIUM", reason = "Final step of the Wind Rider Master chain. The items are in contested territory. Clear the area before looting and watch for enemy players.", confidence = "high" },
+    [6827] = { threat = "HIGH", reason = "PvP quest. Collect Stormpike Commander Flesh deep behind enemy lines for Mulverick’s fleet. Stay with your team and avoid pushing into the opposing camp alone.", confidence = "medium" },
 
     -- Umber, Archivist
-    [6844] = { threat = "LOW", reason = "Delivery step with no combat. The object is obtained from a previous quest. Safe if you stay on the road.", confidence = "high" },
+    [6844] = { threat = "LOW", reason = "Deliver the Encrusted Silithid Object to Umber in Moonglade. This hand-in adds no combat; use a safe route through the zone.", confidence = "medium" },
 
     -- Uncovering Past Secrets
-    [6845] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [6845] = { threat = "LOW", reason = "Speak with Rabine Saturna in Moonglade. This dialogue step adds no combat.", confidence = "medium" },
 
     -- Master Ryson's All Seeing Eye
-    [6847] = { threat = "MEDIUM", reason = "You must scout the enemy territory and use the All Seeing Eye. The quest leads into contested territory patrolled by Alliance players. Stay stealthed or move with a group. Do not attempt solo in a live AV match.", confidence = "high" },
+    [6846] = { threat = "LOW", reason = "Turn in the Stormpike Assault Orders to launch an attack by your side’s troops. The hand-in itself adds no combat; complete it from your base and avoid crossing the frontline.", confidence = "medium" },
+    [6847] = { threat = "HIGH", reason = "The All Seeing Eye is in Winterax Cave among dangerous high-level trolls, and carrying it exposes the return route. Enter with allies, avoid drawing several trolls at once, and leave if the cave is contested.", confidence = "medium" },
 
     -- Zinfizzlex's Portable Shredder Unit
-    [6861] = { threat = "MEDIUM", reason = "You must collect shredder parts and assemble the unit. The parts are in contested territory. Clear the area before looting and watch for enemy players.", confidence = "high" },
+    [6848] = { threat = "HIGH", reason = "The All Seeing Eye is in Winterax Cave among dangerous high-level trolls, and carrying it exposes the return route. Enter with allies, avoid drawing several trolls at once, and leave if the cave is contested.", confidence = "medium" },
+    [6861] = { threat = "HIGH", reason = "PvP quest. Deliver the required bars and recover a Steamsaw from the opposing lumber camp in Alterac Valley. The contested camp and return route can expose you to hostile players; go with your team.", confidence = "medium" },
 
     -- Launch the Attack!
-    [6901] = { threat = "MEDIUM", reason = "You must launch an attack on the enemy base. This leads into contested territory patrolled by Alliance players. Move with a group and watch for enemy players.", confidence = "high" },
+    [6862] = { threat = "HIGH", reason = "PvP quest. Deliver the required bars and recover a Steamsaw from the opposing lumber camp in Alterac Valley. The contested camp and return route can expose you to hostile players; go with your team.", confidence = "medium" },
+    [6881] = { threat = "HIGH", reason = "PvP quest. Collect Storm Crystals from Frostwolf forces in Alterac Valley to help summon Ivus. The objective is tied to the active battlefield; stay with your team and avoid isolated fights.", confidence = "medium" },
+    [6901] = { threat = "LOW", reason = "Turn in the Frostwolf Assault Orders to launch an attack by your side’s troops. The hand-in itself adds no combat; complete it from your base and avoid crossing the frontline.", confidence = "medium" },
 
     -- Amongst the Ruins
     [6921] = { threat = "MEDIUM", reason = "The ruins are patrolled by level 45-50 naga and satyrs. Clear the area before looting and watch for patrolling mobs. Do not attempt below level 45 solo.", confidence = "medium" },
@@ -8115,34 +8121,38 @@ addon.quests = {
     [6922] = { threat = "HIGH", reason = "He is summoned by using the item at the altar. He hits hard and has water-based abilities. Clear the area before summoning and bring a group. Do not attempt solo below level 48.", confidence = "high" },
 
     -- Great-father Winter is Here!
-    [6961] = { threat = "LOW", reason = "Speak with Great-father Winter in Orgrimmar. Dialogue and reward step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6941] = { threat = "HIGH", reason = "PvP quest. Collect Frostwolf Lieutenant Medals in Alterac Valley for Vipore’s fleet. The medals come from enemy battlefield forces; stay with your team and avoid isolated pushes.", confidence = "medium" },
+    [6942] = { threat = "HIGH", reason = "PvP quest. Collect Frostwolf Soldier Medals in Alterac Valley for Slidore’s fleet. The medals come from enemy battlefield forces; stay with your team and avoid isolated pushes.", confidence = "medium" },
+    [6943] = { threat = "HIGH", reason = "PvP quest. Collect Frostwolf Commander Medals in Alterac Valley for Ichman’s fleet. The quest sends you toward the opposing command; stay with your team and avoid isolated pushes.", confidence = "medium" },
+    [6961] = { threat = "LOW", reason = "Speak with Greatfather Winter in Orgrimmar. This holiday dialogue step adds no combat.", confidence = "medium" },
 
     -- Treats for Great-father Winter
-    [6962] = { threat = "LOW", reason = "Collect treats from the Smokywood Pastures vendors. Travel and collection step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6962] = { threat = "LOW", reason = "Bring the cookies and milk to Greatfather Winter in Orgrimmar. The items are available from city vendors; this is a safe collection and hand-in.", confidence = "medium" },
 
     -- Stolen Winter Veil Treats
-    [6963] = { threat = "MEDIUM", reason = "Recover the stolen treats from the Greench in Alterac Mountains. The Greench is a level 40 elite yeti who wanders the mountains. He hits hard and has a knockback. Clear the area before engaging and bring a group. Do not attempt solo below level 40.", confidence = "high" },
+    [6963] = { threat = "MEDIUM", reason = "Find the missing Smokywood Pastures investigator in the snowy Alterac Mountains. The search takes you into a hostile yeti area; follow a clear route and avoid nearby camps.", confidence = "medium" },
 
     -- The Reason for the Season
-    [6964] = { threat = "LOW", reason = "Speak with the NPC to learn about the holiday. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6964] = { threat = "LOW", reason = "Speak with Sagorne Creststrider in Orgrimmar about Winter Veil. This city dialogue step adds no combat.", confidence = "medium" },
 
     -- The Glowing Shard
     [6981] = { threat = "LOW", reason = "Travel and dialogue step with no combat. The journey to Ratchet is dangerous for low-level players. Do not attempt below level 30 solo.", confidence = "medium" },
 
     -- You're a Mean One...
-    [6983] = { threat = "MEDIUM", reason = "Steal treats from the Greench in Alterac Mountains. The Greench is a level 40 elite yeti who wanders the mountains. He hits hard and has a knockback. Clear the area before engaging and bring a group.", confidence = "high" },
+    [6982] = { threat = "HIGH", reason = "PvP quest. Recover ten Coldtooth Supplies from the mine deep in Horde territory in Alterac Valley. Hostile players and mine defenders can trap you inside; enter with your team and retreat if cut off.", confidence = "medium" },
+    [6983] = { threat = "HIGH", reason = "Group quest. The Abominable Greench is a dangerous elite in the Alterac Mountains, and the quest giver says you will need help. Clear nearby yetis and bring a group rather than testing it alone.", confidence = "medium" },
 
     -- A Smokywood Pastures' Thank You!
-    [6984] = { threat = "LOW", reason = "Return to the Smokywood Pastures vendor for your reward. Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [6984] = { threat = "LOW", reason = "Return to Greatfather Winter in Orgrimmar for the Smokywood Pastures reward. This city hand-in adds no combat.", confidence = "medium" },
 
     -- Irondeep Supplies
-    [6985] = { threat = "MEDIUM", reason = "Collect Irondeep Supplies from the Irondeep Mine. The mine is contested territory in a battleground, patrolled by Alliance players and underground denizens. Clear the area before looting and watch for enemy players. Do not attempt solo in a live AV match.", confidence = "high" },
+    [6985] = { threat = "HIGH", reason = "PvP quest. Recover ten Irondeep Supplies from the mine deep in Alliance territory in Alterac Valley. Hostile players and mine defenders can trap you inside; enter with your team and retreat if cut off.", confidence = "medium" },
 
     -- Empty Stables
-    [7001] = { threat = "LOW", reason = "Collect rams from the enemy base. Travel and collection step with light combat. Safe if you move with a group and avoid enemy players.", confidence = "medium" },
+    [7001] = { threat = "MEDIUM", reason = "Use the supplied muzzle to tame a Frostwolf in Alterac Valley and lead it back to the stable master. The route is exposed during the battleground; keep near your team and retreat if threatened.", confidence = "medium" },
 
     -- Ram Hide Harnesses
-    [7002] = { threat = "LOW", reason = "Collect ram hides from the enemy base. Travel and collection step with light combat. Safe if you move with a group.", confidence = "medium" },
+    [7002] = { threat = "HIGH", reason = "PvP quest. Kill Alterac Rams for hides in the opposing side of Alterac Valley. The collection route is exposed to enemy players; stay with your team and avoid isolated fights.", confidence = "medium" },
 
     -- Zapped Giants
     [7003] = { threat = "EXTREME", reason = "The zapper turns elite giants into non-elites, but the giants are elite until zapped. Without the zapper, elite giants require a group or level 55+. With the zapper, soloable at 45+. Do not attempt the giants without the zapper below level 55.", confidence = "high" },
