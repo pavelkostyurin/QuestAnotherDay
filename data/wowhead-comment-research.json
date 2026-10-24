@@ -97278,6 +97278,782 @@
       "reason": "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.",
       "threat": "LOW",
       "confidence": "medium"
+    },
+    {
+      "questId": 8883,
+      "questName": "Valadar Starsong",
+      "url": "https://www.wowhead.com/classic/quest=8883",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective verified from retrieved text; comments were not needed for the final rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Valadar Starsong",
+          "url": "https://classicdb.ch/?quest=8883",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:27:20+03:00",
+          "evidence": "The quest uses a Lunar Festival invitation to reach Moonglade and ends with a conversation with Valadar Starsong; no combat objective."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms a non-combat objective or interaction. LOW reflects ordinary travel risk; confidence is medium because the objective is clear but ambient danger is not unusually hazardous.",
+      "reason": "The Lunar Festival invitation travels directly to Moonglade, where this step is a conversation with Valadar. Stay in Nighthaven.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8893,
+      "questName": "The Super Egg-O-Matic",
+      "url": "https://www.wowhead.com/classic/quest=8893",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective verified from retrieved text; comments were not needed for the final rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "The Super Egg-O-Matic",
+          "url": "https://classicdb.ch/?quest=8893",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:27:20+03:00",
+          "evidence": "Quest requires a Hippogryph Egg and completes by placing it in the machine in Tanaris. The required egg is obtained in Feralas; hostile terrain risk is inferred from the location and intended level."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a turn-in of a Hippogryph Egg, while obtaining that item sends a level-42+ character into hostile Feralas terrain. The catalog text lacks objective detail; the retrieved Classic page verifies the item turn-in, and the danger assessment uses the location and ordinary knowledge. Confidence is medium.",
+      "reason": "The Hippogryph Egg is found in Feralas among hostile hippogryphs and ogres. Collect one from the edge of the area and avoid fighting multiple enemies at once.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8897,
+      "questName": "Dearest Colara,",
+      "url": "https://www.wowhead.com/classic/quest=8897",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "Holiday letter delivery in a capital city with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8898,
+      "questName": "Dearest Colara,",
+      "url": "https://www.wowhead.com/classic/quest=8898",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "Holiday letter delivery in a capital city with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8899,
+      "questName": "Dearest Colara,",
+      "url": "https://www.wowhead.com/classic/quest=8899",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "Holiday letter delivery in a capital city with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8900,
+      "questName": "Dearest Elenia,",
+      "url": "https://www.wowhead.com/classic/quest=8900",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "Holiday letter delivery in a capital city with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8901,
+      "questName": "Dearest Elenia,",
+      "url": "https://www.wowhead.com/classic/quest=8901",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "Holiday letter delivery in a capital city with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8902,
+      "questName": "Dearest Elenia,",
+      "url": "https://www.wowhead.com/classic/quest=8902",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "Holiday letter delivery in a capital city with no combat objective. Stay within the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8903,
+      "questName": "Dangerous Love",
+      "url": "https://www.wowhead.com/classic/quest=8903",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective verified from retrieved text; comments were not needed for the final rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Dangerous Love",
+          "url": "https://classicdb.ch/?quest=8903",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:27:20+03:00",
+          "evidence": "Alliance objective is to get a Stormwind Guard’s Card and return it to Aristan Mottar. Era comments describe using perfume/cologne and a love token to obtain a package from guards, rather than attacking them."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms a non-combat objective or interaction. LOW reflects ordinary travel risk; confidence is medium because the objective is clear but ambient danger is not unusually hazardous.",
+      "reason": "The guard card comes from a holiday-token interaction with a city guard, not a combat objective. Use the matching perfume or cologne and complete the interaction in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8904,
+      "questName": "Dangerous Love",
+      "url": "https://www.wowhead.com/classic/quest=8904",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective verified from retrieved text; comments were not needed for the final rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Dangerous Love",
+          "url": "https://classicdb.ch/?quest=8904",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:27:20+03:00",
+          "evidence": "Horde objective is to get a Guardian’s Moldy Card and return it to Fenstad Argyle. Era comments describe using perfume/cologne and a love token to obtain a package, rather than attacking the guardian."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved quest text confirms a non-combat objective or interaction. LOW reflects ordinary travel risk; confidence is medium because the objective is clear but ambient danger is not unusually hazardous.",
+      "reason": "The guard card comes from a holiday-token interaction with a city guard, not a combat objective. Use the matching perfume or cologne and complete the interaction in the city.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8905,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8905",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8906,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8906",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8907,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8907",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8908,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8908",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8909,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8909",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8910,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8910",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8911,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8911",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8912,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8912",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8913,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8913",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8914,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8914",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8915,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8915",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8916,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8916",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8917,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8917",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8918,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8918",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8919,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8919",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8920,
+      "questName": "An Earnest Proposition",
+      "url": "https://www.wowhead.com/classic/quest=8920",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8921,
+      "questName": "The Ectoplasmic Distiller",
+      "url": "https://www.wowhead.com/classic/quest=8921",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8922,
+      "questName": "A Supernatural Device",
+      "url": "https://www.wowhead.com/classic/quest=8922",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8923,
+      "questName": "A Supernatural Device",
+      "url": "https://www.wowhead.com/classic/quest=8923",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8924,
+      "questName": "Hunting for Ectoplasm",
+      "url": "https://www.wowhead.com/classic/quest=8924",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Read a limited sample of Classic-era comments; completion reports conflict on soloability, and the strongest support describes prepared level-60 solo runs.",
+      "commentsReviewed": 5,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "Hunting for Ectoplasm",
+          "url": "https://classicdb.ch/?quest=8924",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:27:20+03:00",
+          "evidence": "Quest requires collecting ectoplasm from three zones using the distiller. Era comments describe summoned bug adds in Silithus, fear from some Plaguelands ghosts, and solo completion at level 60 with careful positioning; reports vary on whether help is needed."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Retrieved Era reports identify extra bug spawns and fear as concrete hazards, while also documenting prepared solo completion around level 60. This supports MEDIUM rather than a group-only tier; confidence is medium because reports vary by class and location.",
+      "reason": "Undead fights around the distiller can spawn extra bugs in Silithus, and some Plaguelands ghosts can fear you. Place the distiller in cleared ground, pull enemies into range one at a time, and keep an escape route.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8925,
+      "questName": "A Portable Power Source",
+      "url": "https://www.wowhead.com/classic/quest=8925",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "source-verified",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Read several Era reports showing class- and gear-dependent solo difficulty; the sample is not a controlled comparison.",
+      "commentsReviewed": 6,
+      "commentsUsed": 4,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "A Portable Power Source",
+          "url": "https://www.wowhead.com/classic/quest=8925/a-portable-power-source",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:27:20+03:00",
+          "evidence": "Quest requires killing Magma Lord Bokk in the Burning Steppes. Era comments report solo kills around levels 59–60, with variable difficulty, nearby adds, and a knockback/stun or spell interruption."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "Era reports include solo kills around levels 59–60 but disagree about difficulty and describe nearby adds and a knockback/stun. A cautious solo attempt is possible with preparation; MEDIUM fits the reported risk. Confidence is medium because solo outcomes vary by class and gear.",
+      "reason": "Magma Lord Bokk can knock back or interrupt, and nearby imps or drakes can complicate the pull. Isolate him from nearby enemies and save a defensive cooldown or potion for the fight.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8926,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8926",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8927,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8927",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8928,
+      "questName": "A Shifty Merchant",
+      "url": "https://www.wowhead.com/classic/quest=8928",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "mixed",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "web-text",
+      "coverageNote": "Quest objective verified from retrieved text; comments were not needed for the final rating.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [
+        {
+          "title": "A Shifty Merchant",
+          "url": "https://guildloot.de/en/quest/era/8928-a-shifty-merchant/",
+          "accessMethod": "web-text",
+          "retrievedAt": "2026-10-24T19:27:20+03:00",
+          "evidence": "Classic Era guide locates the imp vendor near the elite demons at Darkwhisper Gorge and describes obtaining the rod; historical comments on the same quest describe sneaking or bypassing the guards at level 60. Route risk is significant but not an unavoidable fight."
+        }
+      ],
+      "excludedEvidence": [],
+      "summary": "The objective is a vendor purchase in elite territory. Classic Era guidance and historical reports show a route that can bypass guards, so combat is avoidable but the approach is dangerous if patrols are pulled. Confidence is medium.",
+      "reason": "Reaching Vi’el’s cave means passing level 58–60 demons, but a careful route can avoid combat. Travel at the quest’s intended level, watch patrols, and turn back if they block the exit.",
+      "threat": "MEDIUM",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8929,
+      "questName": "In Search of Anthion",
+      "url": "https://www.wowhead.com/classic/quest=8929",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "Anthion is outside the Stratholme entrance, so this conversation does not require entering the dungeon. Use the normal road and avoid nearby undead.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8930,
+      "questName": "In Search of Anthion",
+      "url": "https://www.wowhead.com/classic/quest=8930",
+      "status": "complete",
+      "reviewedAt": "2026-10-24T19:27:20+03:00",
+      "assessmentBasis": "model-knowledge",
+      "localSources": [
+        "data/classic-quests.json",
+        "QuestData.lua"
+      ],
+      "ranking": "not-reviewed",
+      "accessMethod": "none",
+      "coverageNote": "Assessed from catalog text and existing knowledge; no external lookup needed.",
+      "commentsReviewed": 0,
+      "commentsUsed": 0,
+      "commentRefs": [],
+      "externalSources": [],
+      "excludedEvidence": [],
+      "summary": "Catalog text describes a conversation or hand-in without a combat objective; LOW reflects ordinary travel risk. Confidence is medium based on clear local context and existing knowledge.",
+      "reason": "Anthion is outside the Stratholme entrance, so this conversation does not require entering the dungeon. Use the normal road and avoid nearby undead.",
+      "threat": "LOW",
+      "confidence": "medium"
+    },
+    {
+      "questId": 8931,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8931",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8932,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8932",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8933,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8933",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8934,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8934",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8935,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8935",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8936,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8936",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8937,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8937",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8938,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8938",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8939,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8939",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8940,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8940",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8941,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8941",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8942,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8942",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8943,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8943",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
+    },
+    {
+      "questId": 8944,
+      "questName": "Just Compensation",
+      "url": "https://www.wowhead.com/classic/quest=8944",
+      "status": "skipped",
+      "checkedAt": "2026-10-24T19:27:20+03:00",
+      "skipReason": "dungeon",
+      "sourceNote": "Skipped before comments because the pinned catalog marks this quest as a dungeon quest."
     }
   ]
 }

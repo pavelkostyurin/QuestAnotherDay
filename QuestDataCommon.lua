@@ -3267,19 +3267,22 @@ addon.quests = {
     [8882] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
 
     -- Valadar Starsong
-    [8883] = { threat = "LOW", reason = "Lunar Festival holiday travel and dialogue step with no combat. Use the invitation to travel to Moonglade. Safe if you stay in the area.", confidence = "high" },
+    [8883] = { threat = "LOW", reason = "The Lunar Festival invitation travels directly to Moonglade, where this step is a conversation with Valadar. Stay in Nighthaven.", confidence = "medium" },
+
+    -- The Super Egg-O-Matic
+    [8893] = { threat = "MEDIUM", reason = "The Hippogryph Egg is found in Feralas among hostile hippogryphs and ogres. Collect one from the edge of the area and avoid fighting multiple enemies at once.", confidence = "medium" },
 
     -- The Ectoplasmic Distiller
-    [8921] = { threat = "LOW", reason = "Collection and delivery step with no combat beyond gathering the materials. Safe if you stay in the city.", confidence = "high" },
+    [8921] = { threat = "LOW", reason = "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.", confidence = "medium" },
 
     -- Hunting for Ectoplasm
-    [8924] = { threat = "MEDIUM", reason = "Requires collecting ectoplasm from incorporeal undead in Silithus, Winterspring, and Eastern Plaguelands. The undead are levels 55-58 and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8924] = { threat = "MEDIUM", reason = "Undead fights around the distiller can spawn extra bugs in Silithus, and some Plaguelands ghosts can fear you. Place the distiller in cleared ground, pull enemies into range one at a time, and keep an escape route.", confidence = "medium" },
 
     -- A Portable Power Source
-    [8925] = { threat = "EXTREME", reason = "Requires finding and killing Magma Lord Bokk in the Burning Steppes for his Magma Core. Bokk is a level 58 elite elemental who hits hard. A group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8925] = { threat = "MEDIUM", reason = "Magma Lord Bokk can knock back or interrupt, and nearby imps or drakes can complicate the pull. Isolate him from nearby enemies and save a defensive cooldown or potion for the fight.", confidence = "medium" },
 
     -- A Shifty Merchant
-    [8928] = { threat = "MEDIUM", reason = "Requires finding an imp inside a cave at the entrance of Darkwhisper Gorge in southern Winterspring. The gorge is patrolled by level 58-60 elite demons. The imp is neutral, but reaching it requires navigating elite territory. Do not attempt below level 58 solo without a plan.", confidence = "high" },
+    [8928] = { threat = "MEDIUM", reason = "Reaching Vi’el’s cave means passing level 58–60 elite demons, but a careful route can avoid combat. Travel at the quest’s intended level, watch patrols, and turn back if they block the exit.", confidence = "medium" },
 
     -- Dead Man's Plea
     [8945] = { threat = "EXTREME", reason = "Requires entering Stratholme to rescue Ysida Harmon from Baron Rivendare. Rivendare is a level 62 elite death knight boss in a level 58-60 dungeon. A full group of level 58+ is required. Do not attempt solo.", confidence = "high" },

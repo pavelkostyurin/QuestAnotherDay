@@ -10541,32 +10541,35 @@ addon.quests = {
     -- Cluster Launcher (8882)
     [8882] = { threat = "LOW", reason = "Lunar Festival token exchange for a reward with no combat objective. Complete it with the festival NPC in Moonglade.", confidence = "medium" },
 
-    -- Valadar Starsong
-    [8883] = { threat = "LOW", reason = "Lunar Festival holiday travel and dialogue step with no combat. Use the invitation to travel to Moonglade. Safe if you stay in the area.", confidence = "high" },
+    -- Valadar Starsong (8883)
+    [8883] = { threat = "LOW", reason = "The Lunar Festival invitation travels directly to Moonglade, where this step is a conversation with Valadar. Stay in Nighthaven.", confidence = "medium" },
 
-    -- Dearest Colara (Lieutenant Heldric's Note)
-    [8897] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- The Super Egg-O-Matic (8893)
+    [8893] = { threat = "MEDIUM", reason = "The Hippogryph Egg is found in Feralas among hostile hippogryphs and ogres. Collect one from the edge of the area and avoid fighting multiple enemies at once.", confidence = "medium" },
 
-    -- Dearest Colara (Creased Letter)
-    [8898] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- Dearest Colara, (8897)
+    [8897] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
-    -- Dearest Colara (Immaculate Letter)
-    [8899] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- Dearest Colara, (8898)
+    [8898] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
-    -- Dearest Elenia (Slightly Creased Note)
-    [8900] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- Dearest Colara, (8899)
+    [8899] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
-    -- Dearest Elenia (Carefully Written Letter)
-    [8901] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- Dearest Elenia, (8900)
+    [8900] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
-    -- Dearest Elenia (Lovingly Composed Letter)
-    [8902] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    -- Dearest Elenia, (8901)
+    [8901] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
-    -- Dangerous Love (Alliance)
-    [8903] = { threat = "MEDIUM", reason = "Love is in the Air holiday quest. Requires getting a Stormwind Guard's Card from a guard in Stormwind. The guards are level 55-60 and will attack if provoked. Use pickpocket or charm to obtain the card without killing. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    -- Dearest Elenia, (8902)
+    [8902] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
-    -- Dangerous Love (Horde)
-    [8904] = { threat = "MEDIUM", reason = "Love is in the Air holiday quest. Requires getting a Guardian's Moldy Card from an Undercity Guardian. The guardians are level 55-60 and will attack if provoked. Use pickpocket or charm to obtain the card without killing. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    -- Dangerous Love (8903)
+    [8903] = { threat = "LOW", reason = "The guard card comes from a holiday-token interaction with a city guard, not a combat objective. Use the matching perfume or cologne and complete the interaction in the city.", confidence = "medium" },
+
+    -- Dangerous Love (8904)
+    [8904] = { threat = "LOW", reason = "The guard card comes from a holiday-token interaction with a city guard, not a combat objective. Use the matching perfume or cologne and complete the interaction in the city.", confidence = "medium" },
 
     -- An Earnest Proposition (Wildheart Bracers - Alliance)
     [8905] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Winterspring Blood Samples and 20 gold plus Wildheart Bracers. The blood samples drop from mobs in Winterspring. Safe if you stay in the city.", confidence = "high" },
@@ -10617,19 +10620,19 @@ addon.quests = {
     [8920] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Bracers of Valor. Safe if you stay in the city.", confidence = "high" },
 
     -- The Ectoplasmic Distiller
-    [8921] = { threat = "LOW", reason = "Collection and delivery step with no combat beyond gathering the materials. Safe if you stay in the city.", confidence = "high" },
+    [8921] = { threat = "LOW", reason = "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.", confidence = "medium" },
 
     -- A Supernatural Device (Alliance)
-    [8922] = { threat = "LOW", reason = "Delivery step with no combat. The container is obtained from a previous quest. Safe if you stay on the road.", confidence = "high" },
+    [8922] = { threat = "LOW", reason = "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.", confidence = "medium" },
 
     -- A Supernatural Device (Horde)
-    [8923] = { threat = "LOW", reason = "Delivery step with no combat. The container is obtained from a previous quest. Safe if you stay on the road.", confidence = "high" },
+    [8923] = { threat = "LOW", reason = "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.", confidence = "medium" },
 
     -- Hunting for Ectoplasm
-    [8924] = { threat = "MEDIUM", reason = "Requires collecting ectoplasm from incorporeal undead in Silithus, Winterspring, and Eastern Plaguelands. The undead are levels 55-58 and pull in groups. The drop rate is moderate. Clear methodically and watch for adds. Do not attempt below level 55 solo.", confidence = "medium" },
+    [8924] = { threat = "MEDIUM", reason = "Undead fights around the distiller can spawn extra bugs in Silithus, and some Plaguelands ghosts can fear you. Place the distiller in cleared ground, pull enemies into range one at a time, and keep an escape route.", confidence = "medium" },
 
     -- A Portable Power Source
-    [8925] = { threat = "EXTREME", reason = "Requires finding and killing Magma Lord Bokk in the Burning Steppes for his Magma Core. Bokk is a level 58 elite elemental who hits hard. A group of level 55+ is required. Do not attempt solo.", confidence = "high" },
+    [8925] = { threat = "MEDIUM", reason = "Magma Lord Bokk can knock back or interrupt, and nearby imps or drakes can complicate the pull. Isolate him from nearby enemies and save a defensive cooldown or potion for the fight.", confidence = "medium" },
 
     -- Just Compensation (Wildheart Belt and Gloves)
     [8926] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
@@ -10638,13 +10641,13 @@ addon.quests = {
     [8927] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- A Shifty Merchant
-    [8928] = { threat = "MEDIUM", reason = "Requires finding an imp inside a cave at the entrance of Darkwhisper Gorge in southern Winterspring. The gorge is patrolled by level 58-60 elite demons. The imp is neutral, but reaching it requires navigating elite territory. Do not attempt below level 58 solo without a plan.", confidence = "high" },
+    [8928] = { threat = "MEDIUM", reason = "Reaching Vi’el’s cave means passing level 58–60 elite demons, but a careful route can avoid combat. Travel at the quest’s intended level, watch patrols, and turn back if they block the exit.", confidence = "medium" },
 
     -- In Search of Anthion (Alliance)
-    [8929] = { threat = "MEDIUM", reason = "Requires using the Ghost Revealer at the entrance to Stratholme and speaking with Anthion's ghost. The entrance area is patrolled by level 55-58 Scourge mobs. The ghost is friendly, but the area is dangerous. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [8929] = { threat = "LOW", reason = "Anthion is outside the Stratholme entrance, so this conversation does not require entering the dungeon. Use the normal road and avoid nearby undead.", confidence = "medium" },
 
     -- In Search of Anthion (Horde)
-    [8930] = { threat = "MEDIUM", reason = "Requires using the Ghost Revealer at the entrance to Stratholme and speaking with Anthion's ghost. The entrance area is patrolled by level 55-58 Scourge mobs. The ghost is friendly, but the area is dangerous. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [8930] = { threat = "LOW", reason = "Anthion is outside the Stratholme entrance, so this conversation does not require entering the dungeon. Use the normal road and avoid nearby undead.", confidence = "medium" },
 
     -- Just Compensation (Beaststalker's - Alliance)
     [8931] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },

@@ -3789,16 +3789,16 @@ local quests = {
     [8875] = { threat = "LOW", reason = "Lunar Festival conversation with no combat objective. Speak to a Harbinger in the named capital city.", confidence = "medium" },
 
     -- Dearest Elenia,
-    [8900] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8900] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Dearest Elenia,
-    [8901] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8901] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Dearest Elenia,
-    [8902] = { threat = "LOW", reason = "Love is in the Air holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8902] = { threat = "LOW", reason = "Holiday letter delivery in a capital city with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- Dangerous Love
-    [8904] = { threat = "MEDIUM", reason = "Love is in the Air holiday quest. Requires getting a Guardian's Moldy Card from an Undercity Guardian. The guardians are level 55-60 and will attack if provoked. Use pickpocket or charm to obtain the card without killing. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [8904] = { threat = "LOW", reason = "The guard card comes from a holiday-token interaction with a city guard, not a combat objective. Use the matching perfume or cologne and complete the interaction in the city.", confidence = "medium" },
 
     -- An Earnest Proposition
     [8913] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Wildheart Bracers. Safe if you stay in the city.", confidence = "high" },
@@ -3825,13 +3825,13 @@ local quests = {
     [8920] = { threat = "LOW", reason = "Tier 0.5 upgrade quest. Requires 15 Silithus Venom Samples and 20 gold plus Bracers of Valor. Safe if you stay in the city.", confidence = "high" },
 
     -- A Supernatural Device
-    [8923] = { threat = "LOW", reason = "Delivery step with no combat. The container is obtained from a previous quest. Safe if you stay on the road.", confidence = "high" },
+    [8923] = { threat = "LOW", reason = "This is a material or container hand-in to Mux in Gadgetzan with no combat objective. Stay within the town.", confidence = "medium" },
 
     -- Just Compensation
     [8927] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
 
     -- In Search of Anthion
-    [8930] = { threat = "MEDIUM", reason = "Requires using the Ghost Revealer at the entrance to Stratholme and speaking with Anthion's ghost. The entrance area is patrolled by level 55-58 Scourge mobs. The ghost is friendly, but the area is dangerous. Do not attempt below level 55 solo without a plan.", confidence = "medium" },
+    [8930] = { threat = "LOW", reason = "Anthion is outside the Stratholme entrance, so this conversation does not require entering the dungeon. Use the normal road and avoid nearby undead.", confidence = "medium" },
 
     -- Just Compensation
     [8938] = { threat = "LOW", reason = "Tier 0.5 upgrade turn-in with no combat. Safe if you stay in the city.", confidence = "high" },
