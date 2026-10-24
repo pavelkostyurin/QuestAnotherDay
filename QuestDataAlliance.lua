@@ -2190,25 +2190,25 @@ local quests = {
     [1798] = { threat = "MEDIUM", reason = "This Alliance travel step leads to Ratchet in the Barrens, far from safe Alliance hubs. Travel through contested zones carefully and avoid hostile camps.", confidence = "medium" },
 
     -- Tome of the Cabal
-    [1802] = { threat = "MEDIUM", reason = "The Moldy Tome is on the beach at the Torn Fin murloc camp in Hillsbrad Foothills, guarded by 4-6 murlocs. The Tattered Manuscript is in a cave at Splithoof Hold in Thousand Needles, guarded by centaurs. Both areas are dangerous for the intended level. Do not attempt below level 30 solo without a plan to handle the murlocs and centaurs.", confidence = "medium" },
+    [1802] = { threat = "MEDIUM", reason = "The two books require travel into hostile areas with murlocs and centaurs. Pull enemies away from camps and leave if several enemies aggro together.", confidence = "medium" },
 
     -- Tome of the Cabal
-    [1804] = { threat = "MEDIUM", reason = "The rods drop from Dragonmaw Bonewarders in the Wetlands, who are levels 24-26. The journey between zones is dangerous. Do not attempt below level 25 solo.", confidence = "medium" },
+    [1804] = { threat = "MEDIUM", reason = "Collecting the channeling rods requires combat with hostile Dragonmaw orcs in the Wetlands. Pull singles where possible and watch for nearby groups while farming.", confidence = "medium" },
 
     -- The Test of Righteousness
-    [1806] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1806] = { threat = "LOW", reason = "This is a wait and turn-in step with no required combat. Stay inside the town.", confidence = "medium" },
 
     -- Speak with Jennea
-    [1860] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1860] = { threat = "LOW", reason = "This is a dialogue step in Stormwind with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- Mirror Lake
-    [1861] = { threat = "LOW", reason = "The sample is collected from Mirror Lake in Elwynn Forest. No combat required, but the area is patrolled by level 6-10 mobs. Safe if you avoid the mobs while collecting.", confidence = "high" },
+    [1861] = { threat = "LOW", reason = "The sample can be collected without required combat, but hostile creatures are near Mirror Lake. Approach from a clear route and leave if enemies aggro.", confidence = "medium" },
 
     -- Speak with Bink
-    [1879] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1879] = { threat = "LOW", reason = "This is a dialogue step in Ironforge with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- Mage-tastic Gizmonitor
-    [1880] = { threat = "LOW", reason = "The gizmonitor is found in a crate in Elwynn Forest. No combat required, but the area is patrolled by level 6-10 mobs. Safe if you avoid the mobs while looting.", confidence = "high" },
+    [1880] = { threat = "LOW", reason = "The gizmonitor is retrieved in Elwynn Forest without required combat. Watch for nearby hostile creatures while approaching the container.", confidence = "medium" },
 
     -- Report to Jennea
     [1919] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },

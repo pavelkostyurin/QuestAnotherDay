@@ -632,6 +632,9 @@ addon.quests = {
     -- Fragments of the Orb of Orahil
     [1799] = { threat = "HIGH", reason = "The quest chain requires fighting through higher-level Burning Blade enemies in Desolace and then defeating a level 40 elite demon summoned near Tabetha. Clear the area and use a Warlock pet, fear, and consumables; consider a group if those tools are not enough.", confidence = "medium" },
 
+    -- Water Pouch Bounty
+    [1878] = { threat = "LOW", reason = "This is a repeatable turn-in for five Wastewander Water Pouches; collect them during other Wastewander activity rather than extending time in hostile camps solely to farm extras.", confidence = "medium" },
+
     -- Journey to the Marsh
     [1947] = { threat = "LOW", reason = "This is a travel and dialogue step with no combat. The journey to Dustwallow Marsh is dangerous for low-level players. Stay on the road and avoid the mob camps. Do not attempt below level 30 solo.", confidence = "medium" },
 

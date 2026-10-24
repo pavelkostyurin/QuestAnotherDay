@@ -4088,123 +4088,124 @@ addon.quests = {
     [1800] = { threat = "LOW", reason = "This holiday step is a short visit to the Lordaeron throne room with no required combat. Stay inside the Undercity ruins and avoid nearby hostile guards if traveling at low level.", confidence = "medium" },
 
     -- Tome of the Cabal (Warlock - Thousand Needles)
-    [1801] = { threat = "MEDIUM", reason = "The manuscript is in a box on a shelf inside the cave. The centaurs guarding the cave are levels 28-30 and can pull in groups. Clear the entrance and pull singles. The Tattered Manuscript is inside the cave on the right side, up a ramp.", confidence = "medium" },
+    [1801] = { threat = "LOW", reason = "This is a travel and dialogue step in the Undercity with no required combat. Stay in the city and avoid hostile guards if traveling at low level.", confidence = "medium" },
 
     -- Tome of the Cabal (Retrieve Tomes)
-    [1802] = { threat = "MEDIUM", reason = "The Moldy Tome is on the beach at the Torn Fin murloc camp in Hillsbrad Foothills, guarded by 4-6 murlocs. The Tattered Manuscript is in a cave at Splithoof Hold in Thousand Needles, guarded by centaurs. Both areas are dangerous for the intended level. Do not attempt below level 30 solo without a plan to handle the murlocs and centaurs.", confidence = "medium" },
+    [1802] = { threat = "MEDIUM", reason = "The two books require travel into hostile areas with murlocs and centaurs. Pull enemies away from camps and leave if several enemies aggro together.", confidence = "medium" },
 
     -- Tome of the Cabal (Warlock - Hillsbrad)
-    [1803] = { threat = "HIGH", reason = "The tome is on the ground near a murloc hut and is guarded by 4-6 murlocs that pull in groups. The standard strategy is to send your Voidwalker to aggro all the murlocs while you grab the tome and run, or sacrifice the Voidwalker to escape. A level 30 warlock can solo this with careful pulling, but the murlocs hit hard and can chain-pull. Do not attempt below level 28 without a group.", confidence = "high" },
+    [1803] = { threat = "MEDIUM", reason = "The two books require travel into hostile murloc and centaur areas. Pull enemies away from camps and avoid fighting near additional groups.", confidence = "medium" },
 
     -- Tome of the Cabal (Deliver Reconstructed Tome)
-    [1804] = { threat = "MEDIUM", reason = "The rods drop from Dragonmaw Bonewarders in the Wetlands, who are levels 24-26. The journey between zones is dangerous. Do not attempt below level 25 solo.", confidence = "medium" },
+    [1804] = { threat = "MEDIUM", reason = "Collecting the channeling rods requires combat with hostile Dragonmaw orcs in the Wetlands. Pull singles where possible and watch for nearby groups while farming.", confidence = "medium" },
 
     -- Tome of the Cabal (Warlock - Wetlands)
-    [1805] = { threat = "MEDIUM", reason = "The orcs are level 24-26 and are found at Angerfang Encampment. They are spaced out and can be pulled one at a time. The drop rate for the rods is not guaranteed, so multiple kills are required. Watch for patrolling Alliance players, as the Wetlands is contested territory.", confidence = "medium" },
+    [1805] = { threat = "MEDIUM", reason = "Collecting the channeling rods requires combat with hostile Dragonmaw orcs in the Wetlands. Pull singles where possible and watch for nearby groups while farming.", confidence = "medium" },
 
     -- The Test of Righteousness (Alliance - Paladin)
-    [1806] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1806] = { threat = "LOW", reason = "This is a wait and turn-in step with no required combat. Stay inside the town.", confidence = "medium" },
 
     -- Speak with Dillinger (Warrior - Tirisfal)
-    [1818] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1818] = { threat = "LOW", reason = "This is a dialogue step in Brill with no required combat. Stay inside the town.", confidence = "medium" },
 
     -- Ulag the Cleaver (Warrior - Tirisfal)
-    [1819] = { threat = "MEDIUM", reason = "Ulag is level 11 and is a straightforward fight for a level 10+ warrior. The main complication is a level 65 elite Deathguard who patrols in front of the mausoleum and can one-shot Ulag before you get credit. Wait for the guard to path away or despawn before activating the trigger, or pull Ulag away from the mausoleum.", confidence = "high" },
+    [1819] = { threat = "MEDIUM", reason = "Ulag is summoned in a hostile area near the Agamand crypt. Clear nearby undead and check for patrolling guards before starting the fight.", confidence = "low" },
 
     -- Speak with Coleman (Warrior - Tirisfal)
-    [1820] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you avoid the undead mobs along the way.", confidence = "high" },
+    [1820] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Use the road and avoid nearby undead while traveling.", confidence = "medium" },
 
     -- Agamand Heirlooms (Warrior - Tirisfal)
-    [1821] = { threat = "HIGH", reason = "The crypt is packed with undead mobs, and the deeper rooms have 3-5 mobs that pull together. The last room has a named mob that is tougher than the others. Solo attempts at level 11-12 are very risky; a level 11 warrior reported it was impossible without a group, while others soloed it at 13 with careful pulling and healing potions. Do not attempt below level 12 without a group.", confidence = "high" },
+    [1821] = { threat = "MEDIUM", reason = "The heirloom weapons come from enemies in and around the Agamand crypt, where dense undead groups can create extra pulls. Clear an escape route and retreat rather than fighting into a crowded room.", confidence = "low" },
 
     -- Heirloom Weapon (Warrior - Tirisfal)
-    [1822] = { threat = "LOW", reason = "This is a dialogue and reward selection step with no combat. Safe if you stay in the area.", confidence = "high" },
+    [1822] = { threat = "LOW", reason = "This is a dialogue and reward step with no required combat. Stay in the settlement.", confidence = "medium" },
 
     -- Speak with Ruga (Warrior - Camp Taurajo)
-    [1823] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1823] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay in the settlement.", confidence = "medium" },
 
     -- Trial at the Field of Giants (Warrior - Barrens)
-    [1824] = { threat = "MEDIUM", reason = "The bugs are level 18-20 and lay eggs that spawn swarmer adds if not killed quickly. The antennae have a 15-minute expiration timer, so you must collect all 5 and return to Ruga before they rot. Use Thunder Clap or other AoE to kill the swarmers before they overwhelm you. A level 20 warrior can solo this, but fighting two swarmers at once is dangerous. Do not attempt below level 18.", confidence = "high" },
+    [1824] = { threat = "MEDIUM", reason = "The antennae come from hostile silithids at the Field of Giants, where nearby enemies can join a fight. Pull away from the nests and leave if adds begin to overwhelm you.", confidence = "low" },
 
     -- Speak with Thun'grim (Warrior - Barrens)
-    [1825] = { threat = "LOW", reason = "Travel and dialogue step with no combat. Safe if you stay on the road and avoid the mob camps.", confidence = "high" },
+    [1825] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay on the road and avoid nearby hostile camps.", confidence = "medium" },
 
     -- Brutal Armor (Warrior - Barrens)
-    [1838] = { threat = "MEDIUM", reason = "This is a gathering quest that sends you across multiple zones, including the Barrens, Redridge Mountains, Ashenvale, Swamp of Sorrows, Desolace, Blasted Lands, Azshara, and Feralas. The materials drop from various mobs, and the zones are contested and dangerous. This is a long grind with significant travel risk. Do not attempt below level 30 without a group for the higher-level zones.", confidence = "medium" },
+    [1838] = { threat = "MEDIUM", reason = "Gathering the required materials can send you through several zones and into combat with varied enemies. Collect materials while traveling with a clear route and avoid extending trips into hostile areas when underleveled.", confidence = "medium" },
 
     -- Ula'elek and the Brutal Gauntlets (Warrior - Durotar)
-    [1839] = { threat = "LOW", reason = "This is a dialogue step that starts the gauntlets portion of the Brutal Armor chain. Safe if you stay in the village.", confidence = "high" },
+    [1839] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay in the village.", confidence = "medium" },
 
     -- Orm Stonehoof and the Brutal Helm (Warrior - Thunder Bluff)
-    [1840] = { threat = "LOW", reason = "This is a dialogue step that starts the helm portion of the Brutal Armor chain. Safe if you stay in the city.", confidence = "high" },
+    [1840] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay in the city.", confidence = "medium" },
 
     -- Velora Nitely and the Brutal Legguards (Warrior - Undercity)
-    [1841] = { threat = "LOW", reason = "This is a dialogue step that starts the legguards portion of the Brutal Armor chain. Safe if you stay in the city.", confidence = "high" },
+    [1841] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay in the city.", confidence = "medium" },
 
     -- Satyr Hooves (Warrior - Ashenvale)
-    [1842] = { threat = "MEDIUM", reason = "The satyrs are levels 25-28 and cast shadow magic. They are concentrated in camps and can pull in groups. Clear methodically and watch for patrolling mobs. Do not attempt below level 25 solo.", confidence = "medium" },
+    [1842] = { threat = "MEDIUM", reason = "The satyr hooves require combat in hostile satyr camps, where enemies can pull together. Work the edge of a camp and pull one enemy at a time.", confidence = "medium" },
 
     -- Brutal Gauntlets (Warrior - Durotar)
-    [1843] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [1843] = { threat = "LOW", reason = "This is a turn-in step with no required combat. Stay in the village.", confidence = "medium" },
 
     -- Chimaeric Horn (Warrior - Stonetalon)
-    [1844] = { threat = "HIGH", reason = "The Charred Vale is filled with level 25-28 chimaeras that are aggressive and can pull in groups. The Matriarch is a level 28 named mob that hits hard. A level 23 warrior reported completing this, but the Charred Vale is dangerous for the intended level (30) and the mob density is high. Clear the area before engaging the Matriarch and be ready for adds.", confidence = "high" },
+    [1844] = { threat = "MEDIUM", reason = "The horn requires defeating a hostile chimaera in the Charred Vale, where nearby chimaeras can add to the fight. Clear space around the target and retreat if the pull grows.", confidence = "low" },
 
     -- Brutal Helm (Warrior - Thunder Bluff)
-    [1845] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1845] = { threat = "LOW", reason = "This is a turn-in step with no required combat. Stay in the city.", confidence = "medium" },
 
     -- Dragonmaw Shinbones (Warrior - Wetlands)
-    [1846] = { threat = "MEDIUM", reason = "The orcs are level 24-26 and drop shinbones that must be right-clicked to test their durability. The failure rate is high, with players reporting anywhere from 16 to 50 broken bones before getting 8 usable ones. The orcs are spaced out and can be pulled one at a time. The Wetlands is contested territory, so watch for Alliance players. Do not attempt below level 24.", confidence = "high" },
+    [1846] = { threat = "MEDIUM", reason = "The shinbones require combat with hostile Dragonmaw orcs in the Wetlands. Pull enemies away from the encampment and watch for nearby groups.", confidence = "medium" },
 
     -- Brutal Legguards (Warrior - Undercity)
-    [1847] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1847] = { threat = "LOW", reason = "This is a turn-in step with no required combat. Stay in the city.", confidence = "medium" },
 
     -- Brutal Hauberk (Warrior - Barrens)
-    [1848] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay on the road.", confidence = "high" },
+    [1848] = { threat = "LOW", reason = "This is a turn-in step with no required combat. Stay on the road.", confidence = "medium" },
 
     -- The Shattered Hand (Rogue - Orgrimmar)
-    [1858] = { threat = "MEDIUM", reason = "Gamon is a level 12 drunk who is easy to pickpocket. The satchel is in the Cleft of Shadow. This quest requires stealth and pickpocketing, and any mistake can pull guards. A level 10+ rogue can solo this with care.", confidence = "medium" },
+    [1858] = { threat = "MEDIUM", reason = "Stealing the key requires pickpocketing a hostile target in Orgrimmar, and a failed approach can put you in danger near city guards. Use stealth and leave the area if detected.", confidence = "low" },
 
     -- Therzok (Rogue - Orgrimmar)
-    [1859] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1859] = { threat = "LOW", reason = "This is a dialogue step in Orgrimmar with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- Speak with Jennea
-    [1860] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1860] = { threat = "LOW", reason = "This is a dialogue step in Stormwind with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- Mirror Lake
-    [1861] = { threat = "LOW", reason = "The sample is collected from Mirror Lake in Elwynn Forest. No combat required, but the area is patrolled by level 6-10 mobs. Safe if you avoid the mobs while collecting.", confidence = "high" },
+    [1861] = { threat = "LOW", reason = "The sample can be collected without required combat, but hostile creatures are near Mirror Lake. Approach from a clear route and leave if enemies aggro.", confidence = "medium" },
 
     -- Water Pouch Bounty (Unavailable)
 
     -- Speak with Bink
-    [1879] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1878] = { threat = "LOW", reason = "This is a repeatable turn-in for five Wastewander Water Pouches; collect them during other Wastewander activity rather than extending time in hostile camps solely to farm extras.", confidence = "medium" },
+    [1879] = { threat = "LOW", reason = "This is a dialogue step in Ironforge with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- Mage-tastic Gizmonitor
-    [1880] = { threat = "LOW", reason = "The gizmonitor is found in a crate in Elwynn Forest. No combat required, but the area is patrolled by level 6-10 mobs. Safe if you avoid the mobs while looting.", confidence = "high" },
+    [1880] = { threat = "LOW", reason = "The gizmonitor is retrieved in Elwynn Forest without required combat. Watch for nearby hostile creatures while approaching the container.", confidence = "medium" },
 
     -- Speak with Anastasia (Mage - Undercity)
-    [1881] = { threat = "LOW", reason = "This is a breadcrumb quest for the Mage quest chain. Travel and dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1881] = { threat = "LOW", reason = "This is a dialogue step in the Undercity with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- The Balnir Farmstead (Mage - Tirisfal)
-    [1882] = { threat = "MEDIUM", reason = "The farmstead is patrolled by level 8-10 undead mobs that can pull in groups. The snapdragons are in the garden, which is guarded. Clear the area before gathering and watch for patrolling mobs. Do not attempt below level 8.", confidence = "medium" },
+    [1882] = { threat = "MEDIUM", reason = "The snapdragons are gathered at a hostile farmstead where nearby undead can join a fight. Clear space around the garden and watch for patrols before gathering.", confidence = "medium" },
 
     -- Speak with Un'thuwa (Mage - Durotar)
-    [1883] = { threat = "LOW", reason = "This is a breadcrumb quest for the Troll Mage quest chain. Travel and dialogue step with no combat. Safe if you stay in the village.", confidence = "high" },
+    [1883] = { threat = "LOW", reason = "This is a dialogue step with no required combat. Stay in the village.", confidence = "medium" },
 
     -- Ju-Ju Heaps (Mage - Echo Isles)
-    [1884] = { threat = "MEDIUM", reason = "The heaps are inside the huts, not the skull piles on the ground outside. The area is patrolled by Zalazane and his trolls, who are levels 7-9. A level 10 mage can solo this by pulling mobs one at a time and using Frost Nova to escape. The huts with the heaps are on the northeast corner of the main island. Do not attempt below level 8.", confidence = "high" },
+    [1884] = { threat = "MEDIUM", reason = "The Ju-Ju heaps are inside hostile troll huts, where nearby enemies can join a fight. Pull trolls away from the huts and avoid entering a crowded camp.", confidence = "medium" },
 
     -- Mennet Carkad (Rogue - Undercity)
-    [1885] = { threat = "LOW", reason = "This is a dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1885] = { threat = "LOW", reason = "This is a dialogue step in the Undercity with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- The Deathstalkers (Rogue - Undercity/Tirisfal)
-    [1886] = { threat = "MEDIUM", reason = "Astor is level 12 and is allied, so he will not appear hostile until you talk to him and he attacks. A level 10 rogue can solo this with Evasion and potions, but a level 13+ is safer. If you wait until he is near the Brill guards, they will help you kill him. Do not attempt below level 12 without a group or the guard trick.", confidence = "high" },
+    [1886] = { threat = "MEDIUM", reason = "Getting Astor’s letter requires confronting a hostile target near Brill. Clear nearby enemies first and avoid starting the fight near additional hostiles.", confidence = "low" },
 
     -- The Deathstalkers (Rogue - Silverpine)
-    [1898] = { threat = "MEDIUM", reason = "The target is level 12-14 and can be soloed at level 13+ with care. The road between the Undercity and the Sepulcher is patrolled by hostile mobs and Alliance players. Stay on the road and be ready to retreat.", confidence = "medium" },
+    [1898] = { threat = "LOW", reason = "This is a dialogue step in the Undercity with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- The Deathstalkers (Rogue - Undercity)
-    [1899] = { threat = "LOW", reason = "This is a turn-in step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [1899] = { threat = "LOW", reason = "This is a turn-in step in the Undercity with no required combat. Stay inside the city.", confidence = "medium" },
 
     -- The Befouled Element (Horde - Ashenvale)
     [1918] = { threat = "MEDIUM", reason = "The globe only drops if you have the prerequisite quest 'Stonetalon Standstill' active. Tideress is a level 27 water elemental surrounded by other elementals in the lake. Clear the area before engaging and watch for drowning if you fight underwater.", confidence = "high" },
