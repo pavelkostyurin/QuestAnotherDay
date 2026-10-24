@@ -3669,49 +3669,76 @@ local quests = {
     [8746] = { threat = "MEDIUM", reason = "The reindeer is held in a hostile camp in Searing Gorge or Tanaris, with several kidnappers close enough to join a pull. Clear an approach or bring help before using the dust.", confidence = "medium" },
 
     -- The Orgrimmar Legion Needs Mojo!
-    [8785] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 6 Powerful Mojo, 6 Flasks of Big Mojo, and 8 Oils of Immolation. Safe if you stay in the area.", confidence = "high" },
+    [8785] = { threat = "LOW", reason = "War Effort hand-in with no combat objective. Bring the materials to the Orgrimmar Legion camp and avoid unrelated hostile camps nearby.", confidence = "medium" },
 
     -- Arms for the Field
-    [8786] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 3 Massive Iron Axes. Safe if you stay in the area.", confidence = "high" },
+    [8786] = { threat = "LOW", reason = "War Effort hand-in with no combat objective. Bring the axes to the Orgrimmar Legion camp and avoid unrelated hostile camps nearby.", confidence = "medium" },
 
     -- Armor Kits for the Field
-    [8787] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 8 Rugged Armor Kits and 8 Heavy Armor Kits. Safe if you stay in the area.", confidence = "high" },
+    [8787] = { threat = "LOW", reason = "War Effort hand-in with no combat objective. Bring the armor kits to the Orgrimmar Legion camp and avoid unrelated hostile camps nearby.", confidence = "medium" },
 
     -- The Horde Needs Your Help!
-    [8792] = { threat = "LOW", reason = "War Effort breadcrumb dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8792] = { threat = "LOW", reason = "War Effort conversation in Orgrimmar with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Horde Needs Your Help!
-    [8793] = { threat = "LOW", reason = "War Effort breadcrumb dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8793] = { threat = "LOW", reason = "War Effort conversation in Orgrimmar with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Horde Needs Your Help!
-    [8794] = { threat = "LOW", reason = "War Effort breadcrumb dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8794] = { threat = "LOW", reason = "War Effort conversation in Orgrimmar with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Hero of the Day
-    [8799] = { threat = "LOW", reason = "Winter Veil holiday turn-in with no combat. Requires 1 Deeprock Salt and 5 gold. Safe if you stay in the city.", confidence = "high" },
+    [8799] = { threat = "LOW", reason = "Winter Veil exchange with no combat objective. Use the machine in the capital and avoid unnecessary detours through hostile areas.", confidence = "medium" },
 
     -- Desert Survival Kits
-    [8804] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 4 Globes of Water, 4 Powerful Anti-Venom, and 4 Smoked Desert Dumplings. Safe if you stay in the area.", confidence = "high" },
+    [8804] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the supplies to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- Boots for the Guard
-    [8805] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 3 Ornate Mithril Boots. Safe if you stay in the area.", confidence = "high" },
+    [8805] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the boots to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- Grinding Stones for the Guard
-    [8806] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 10 Dense, 10 Solid, and 10 Heavy Grinding Stones. Safe if you stay in the area.", confidence = "high" },
+    [8806] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the grinding stones to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- Scrying Materials
-    [8807] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 1 Large Brilliant Shard, 1 Large Radiant Shard, and 1 Huge Emerald. Safe if you stay in the city.", confidence = "high" },
+    [8807] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the materials to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- Uniform Supplies
-    [8808] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 1 Mooncloth, 2 Bolts of Runecloth, and 1 Ironweb Spider Silk. Safe if you stay in the area.", confidence = "high" },
+    [8808] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the supplies to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- Extraordinary Materials
-    [8809] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 2 Enchanted Thorium Bars and 2 Enchanted Leather. Safe if you stay in the area.", confidence = "high" },
+    [8809] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the materials to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- Bandages for the Field
-    [8810] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 30 Heavy Runecloth, 30 Heavy Silk, and 30 Heavy Mageweave Bandages. Safe if you stay in the area.", confidence = "high" },
+    [8810] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the bandages to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8815] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8816] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8817] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8818] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in Orgrimmar and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8823] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8824] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8825] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8826] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
 
     -- Winter's Presents
-    [8828] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8828] = { threat = "LOW", reason = "Winter Veil conversation in Orgrimmar with no combat objective. Stay within the city.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8832] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in Orgrimmar and avoid unnecessary travel through hostile areas.", confidence = "medium" },
 
     -- New Year Celebrations!
     [8861] = { threat = "LOW", reason = "Holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },

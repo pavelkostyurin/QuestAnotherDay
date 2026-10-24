@@ -3179,6 +3179,9 @@ addon.quests = {
     -- Secrets of the Qiraji
     [8784] = { threat = "LOW", reason = "Delivery step with no combat. The artifact is obtained from a raid boss. Safe if you stay in the area.", confidence = "high" },
 
+    -- A Gently Shaken Gift
+    [8788] = { threat = "LOW", reason = "Winter Veil gift pickup with no combat objective. Collect it in a capital city and avoid unnecessary detours through hostile areas.", confidence = "medium" },
+
     -- Imperial Qiraji Armaments
     [8789] = { threat = "LOW", reason = "Raid turn-in with no combat. Requires Imperial Qiraji Armaments and 3 Elementium Ore. The armaments are obtained from AQ. Safe if you stay in the area.", confidence = "high" },
 
@@ -3188,8 +3191,11 @@ addon.quests = {
     -- The Fall of Ossirian
     [8791] = { threat = "LOW", reason = "Delivery step with no combat. The head is obtained from Ossirian in AQ. Safe if you stay in the area.", confidence = "high" },
 
+    -- A Yeti of Your Own
+    [8798] = { threat = "LOW", reason = "This is a recipe-unlock conversation in Everlook with no combat objective. Use a clear route through Winterspring and avoid nearby hostile camps.", confidence = "medium" },
+
     -- Cenarion Battlegear
-    [8800] = { threat = "LOW", reason = "Dialogue step with no combat. Safe if you stay in Cenarion Hold.", confidence = "high" },
+    [8800] = { threat = "LOW", reason = "Cenarion Battlegear dialogue step with no combat objective. Stay within Cenarion Hold.", confidence = "medium" },
 
     -- C'Thun's Legacy
     [8801] = { threat = "LOW", reason = "Raid turn-in with no combat. The Eye of C'Thun is obtained from the final boss of Ahn'Qiraj. Safe if you stay in the area.", confidence = "high" },
@@ -3197,8 +3203,11 @@ addon.quests = {
     -- The Savior of Kalimdor
     [8802] = { threat = "LOW", reason = "Raid turn-in with no combat. The Eye of C'Thun is obtained from Ahn'Qiraj. The journey to the Caverns of Time is dangerous for low-level players. Do not attempt below level 55 solo.", confidence = "medium" },
 
+    -- A Festive Gift
+    [8803] = { threat = "LOW", reason = "Winter Veil gift pickup with no combat objective. Collect it in a capital city and avoid unnecessary detours through hostile areas.", confidence = "medium" },
+
     -- The Ultimate Deception
-    [8829] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires a Skin of Shadow, 3 Frayed Abomination Stitchings, and 1 Twilight Cultist Robe. Safe if you stay in the area.", confidence = "high" },
+    [8829] = { threat = "LOW", reason = "War Effort material hand-in with no combat objective. Carry the supplies to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- Desert Survival Kits
     [8856] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 4 Globes of Water, 4 Powerful Anti-Venom, and 4 Baked Salmon. Safe if you stay in the area.", confidence = "high" },

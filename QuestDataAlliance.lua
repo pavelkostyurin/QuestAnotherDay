@@ -4290,19 +4290,49 @@ local quests = {
     [8782] = { threat = "LOW", reason = "This is a War Effort material hand-in at the Ironforge Brigade outpost or Cenarion Hold with no combat objective. Use the normal route and avoid unrelated hostile camps.", confidence = "medium" },
 
     -- Extraordinary Materials
-    [8783] = { threat = "LOW", reason = "War Effort turn-in with no combat. Requires 2 Enchanted Thorium Bars and 2 Enchanted Leather. Safe if you stay in the city.", confidence = "high" },
+    [8783] = { threat = "LOW", reason = "War Effort hand-in with no combat objective. Carry the materials to Cenarion Hold and avoid hostile camps on the Silithus approach.", confidence = "medium" },
 
     -- The Alliance Needs Your Help!
-    [8795] = { threat = "LOW", reason = "War Effort breadcrumb dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8795] = { threat = "LOW", reason = "War Effort conversation in Ironforge with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Alliance Needs Your Help!
-    [8796] = { threat = "LOW", reason = "War Effort breadcrumb dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8796] = { threat = "LOW", reason = "War Effort conversation in Ironforge with no combat objective. Stay within the city.", confidence = "medium" },
 
     -- The Alliance Needs Your Help!
-    [8797] = { threat = "LOW", reason = "War Effort breadcrumb dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8797] = { threat = "LOW", reason = "War Effort conversation in Ironforge with no combat objective. Stay within the city.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8811] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8812] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8813] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8814] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8819] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8820] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8821] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8822] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
 
     -- Winter's Presents
-    [8827] = { threat = "LOW", reason = "Winter Veil holiday dialogue step with no combat. Safe if you stay in the city.", confidence = "high" },
+    [8827] = { threat = "LOW", reason = "Winter Veil conversation in Ironforge with no combat objective. Stay within the city.", confidence = "medium" },
+
+    -- One Commendation Signet
+    [8830] = { threat = "LOW", reason = "Commendation Signet exchange with no combat objective. Complete the turn-in in Stormwind and avoid unnecessary travel through hostile areas.", confidence = "medium" },
+
+    -- Ten Commendation Signets
+    [8831] = { threat = "LOW", reason = "Ten-Signet reputation exchange with no combat objective. Complete the turn-in in the listed capital city and avoid unnecessary travel through hostile areas.", confidence = "medium" },
 
     -- New Year Celebrations!
     [8860] = { threat = "LOW", reason = "Holiday delivery step with no combat. Safe if you stay in the city.", confidence = "high" },
